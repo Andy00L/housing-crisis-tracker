@@ -23,6 +23,7 @@ export type SourceName =
   | "bank-of-canada"
   | "canada-gazette"
   | "canada-ca"
+  | "hud-gov"
   | "tavily"
   | "anthropic"
   | "rss";

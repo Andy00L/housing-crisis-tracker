@@ -49,8 +49,10 @@ const BUCKETS: Bucket[] = [
   },
 ];
 
-/** Supported scopes. Canada is the default; US is kept as a secondary view. */
-export type SummaryScope = "ca" | "us";
+/** Supported scopes. Canada stays the default for the homepage header.
+ *  The extra scopes (na/eu/asia) are enabled as section 01 grows to
+ *  cover multi-region housing policy. */
+export type SummaryScope = "ca" | "us" | "na" | "eu" | "asia";
 
 interface SummaryBarProps {
   lens: DimensionLens;
@@ -59,29 +61,48 @@ interface SummaryBarProps {
 }
 
 /**
- * Select the jurisdiction set that feeds the bar. Canada uses every state-
- * level entity whose geoId starts with "CA-" (provinces + territories). US
- * uses every NA state-level entity that is NOT a Canadian province.
+ * Select the jurisdiction set that feeds the bar.
+ *  - ca: 13 Canadian provinces + territories (geoId starts with "CA-").
+ *  - us: 50 US states (NA-region state-level entities minus Canadian ones).
+ *  - na: ca + us combined (63 jurisdictions).
+ *  - eu: 11 European entities (region === "eu", excluding the bloc overview).
+ *  - asia: 7 Asia-Pacific countries (region === "asia", federal-level pipelines).
  */
 function pickJurisdictions(scope: SummaryScope): Entity[] {
+  if (scope === "eu") {
+    return ENTITIES.filter((e) => e.region === "eu" && !e.isOverview);
+  }
+  if (scope === "asia") {
+    return ENTITIES.filter((e) => e.region === "asia" && !e.isOverview);
+  }
   const stateEntities = ENTITIES.filter(
     (e) => e.region === "na" && e.level === "state",
   );
   if (scope === "ca") {
     return stateEntities.filter((e) => e.geoId?.startsWith("CA-"));
   }
-  return stateEntities.filter((e) => !e.geoId?.startsWith("CA-"));
+  if (scope === "us") {
+    return stateEntities.filter((e) => !e.geoId?.startsWith("CA-"));
+  }
+  // na: both combined
+  return stateEntities;
 }
 
-/** Expected denominator by scope. Hardcoded to match the political geography. */
+/** Expected denominator by scope. Hardcoded to match political geography. */
 const EXPECTED_TOTAL: Record<SummaryScope, number> = {
   ca: 13,
   us: 50,
+  na: 63,
+  eu: 11,
+  asia: 7,
 };
 
 const UNIT_LABEL: Record<SummaryScope, string> = {
   ca: "provinces/territories",
   us: "states",
+  na: "jurisdictions",
+  eu: "countries",
+  asia: "countries",
 };
 
 export default function SummaryBar({ lens, scope = "ca" }: SummaryBarProps) {

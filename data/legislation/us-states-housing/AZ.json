@@ -1,0 +1,91 @@
+{
+  "state": "Arizona",
+  "stateCode": "AZ",
+  "region": "na",
+  "stance": "favorable",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Arizona's 57th Legislature is active on housing across multiple fronts, including HB 4028 which would mandate accessory dwelling units on all residentially zoned lots, HB 2325 targeting institutional investor purchases of single-family homes, and SB 1505 establishing a transitional housing grant program. The Arizona Department of Housing also adopted a 2026–2027 Qualified Allocation Plan governing Low Income Housing Tax Credit awards, reflecting ongoing state investment in affordable rental housing development.",
+  "legislation": [
+    {
+      "id": "us-az-hb-2928",
+      "billCode": "HB 2928",
+      "title": "Single-Family Dwelling; Accessory Structures; Municipal Regulations",
+      "summary": "Requires municipalities with populations greater than 75,000 to adopt regulations allowing additional dwelling options on any lot where a single-family dwelling is permitted.",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-05-07",
+      "sourceUrl": "https://www.azleg.gov/legtext/57leg/1R/summary/H.HB2928_050725_SENATEENGROSSED.DOCX.htm",
+      "sponsors": []
+    },
+    {
+      "id": "us-az-hb-2325",
+      "billCode": "HB 2325",
+      "title": "Single-Family Homes; Institutional Investors (Own Something and Be Happy Act)",
+      "summary": "Introduced by Rep. Kupper, this bill amends Title 44 of Arizona Revised Statutes to restrict large institutional investors from purchasing single-family homes in Arizona, aiming to prevent them from crowding out individual homebuyers.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "foreign-investment",
+      "updatedDate": "2026-01-14",
+      "sourceUrl": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2325P.pdf",
+      "sponsors": [
+        "Representative Kupper"
+      ]
+    },
+    {
+      "id": "us-az-sb-1505",
+      "billCode": "SB 1505",
+      "title": "Transitional Housing; Grant Program; Appropriation",
+      "summary": "Establishes a transitional housing grant program and appropriates monies for its implementation under Arizona's 57th Legislature Second Regular Session 2026.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://www.azleg.gov/legtext/57leg/2R/bills/sb1505p.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-az-hb-2607",
+      "billCode": "HB 2607",
+      "title": "Veteran Housing; Reintegration; Appropriation",
+      "summary": "Establishes the Arizona Veteran Housing and Reintegration Grant Program within the Arizona Department of Housing to provide grants to counties and tribal entities supporting veteran housing, introduced by Representative Blackman.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://www.azleg.gov/legtext/57leg/2R/bills/hb2607p.pdf",
+      "sponsors": [
+        "Representative Blackman"
+      ]
+    },
+    {
+      "id": "us-az-hb-4028",
+      "billCode": "HB 4028",
+      "title": "Accessory Dwelling Units on Residential Lots",
+      "summary": "Requires municipalities to allow accessory dwelling units on all lots or parcels zoned for residential use without limits, effective 2025 through 2027.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.azleg.gov/legtext/57leg/2r/bills/hb4028p.htm",
+      "sponsors": []
+    }
+  ]
+}

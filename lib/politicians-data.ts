@@ -27,6 +27,13 @@ import euRaw from "@/data/politicians/eu.json";
 import usSummariesRaw from "@/data/politicians/us-summaries.json";
 import globalLeadersRaw from "@/data/politicians/global-leaders.json";
 import canadaOfficialsRaw from "@/data/politicians/canada.json";
+// US + Europe + Asia-Pacific housing officials. The Europe/Asia files
+// exist as empty-officials placeholders until Prompt E.2 activates the
+// dormant pipelines (europe-asia-sync workflow). See
+// scripts/sync/europe-officials.ts and asia-officials.ts.
+import usOfficialsRaw from "@/data/politicians/us.json";
+import europeOfficialsRaw from "@/data/politicians/europe.json";
+import asiaOfficialsRaw from "@/data/politicians/asia-pacific.json";
 
 // ── Source shapes ────────────────────────────────────────────────────
 
@@ -358,13 +365,59 @@ const CA_POLITICIANS: Legislator[] = (
   keyPoints: o.keyPoints && o.keyPoints.length > 0 ? o.keyPoints : undefined,
 }));
 
+// US housing pipeline officials. The file is only present when
+// scripts/sync/us-officials.ts has run at least once. When the file is
+// absent (pre-first-run, or the pipeline was never triggered), the
+// module falls back to empty without erroring.
+interface HousingOfficialEntry {
+  id: string;
+  name: string;
+  role: string;
+  party?: string;
+  stance: StanceType;
+  country?: string;
+  chamber?: string;
+  constituency?: string;
+  summary?: string;
+  keyPoints?: string[];
+}
+
+interface HousingOfficialsFile {
+  region?: string;
+  country?: string;
+  officials: HousingOfficialEntry[];
+}
+
+function loadOfficialsJsonFile(file: HousingOfficialsFile | null, countryOverride?: string): Legislator[] {
+  if (!file || !Array.isArray(file.officials)) return [];
+  return file.officials.map((o) => ({
+    id: o.id,
+    name: o.name,
+    role: o.role,
+    party: o.party && o.party.length > 0 ? o.party : "Nonpartisan",
+    stance: o.stance,
+    country: countryOverride ?? o.country,
+    chamber: o.chamber,
+    constituency: o.constituency,
+    summary: o.summary,
+    keyPoints: o.keyPoints && o.keyPoints.length > 0 ? o.keyPoints : undefined,
+  }));
+}
+
+const US_HOUSING_OFFICIALS = loadOfficialsJsonFile(usOfficialsRaw as HousingOfficialsFile, "US");
+const EU_HOUSING_OFFICIALS = loadOfficialsJsonFile(europeOfficialsRaw as HousingOfficialsFile);
+const AP_HOUSING_OFFICIALS = loadOfficialsJsonFile(asiaOfficialsRaw as HousingOfficialsFile);
+
 export const ALL_POLITICIANS: Legislator[] = [
   ...GLOBAL_LEADERS,
   ...CA_POLITICIANS,
   ...US_POLITICIANS,
   ...US_STUBS,
+  ...US_HOUSING_OFFICIALS,
   ...buildForeign(ukRaw as ForeignFile, "GB"),
   ...buildForeign(euRaw as ForeignFile, "EU"),
+  ...EU_HOUSING_OFFICIALS,
+  ...AP_HOUSING_OFFICIALS,
 ];
 
 // ── Queries ──────────────────────────────────────────────────────────

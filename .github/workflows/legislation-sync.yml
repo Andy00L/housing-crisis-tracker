@@ -37,16 +37,31 @@ jobs:
       - name: BC provincial (BC Laws)
         run: npx tsx scripts/sync/bc-legislation.ts
 
-      # ── USA (LegiScan) ──────────────────────────────────────────
+      # ── USA (LegiScan, if key is present) ───────────────────────
       - name: US legislation ingest (LegiScan)
+        if: ${{ secrets.LEGISCAN_API_KEY != '' }}
         env:
           LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
         run: npx tsx scripts/sync/legislation-ingest.ts
 
       - name: US legislation classify
+        if: ${{ secrets.LEGISCAN_API_KEY != '' && secrets.ANTHROPIC_API_KEY != '' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npx tsx scripts/sync/legislation-classify.ts
+
+      # ── USA housing research (Tavily + Claude) ──────────────────
+      - name: US federal housing (Tavily research)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: npx tsx scripts/sync/us-federal-housing.ts
+
+      - name: US states housing (Tavily research, top 10)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: npx tsx scripts/sync/us-states-housing-research.ts
 
       # ── UK ──────────────────────────────────────────────────────
       - name: UK Bills (Parliament API)
@@ -61,7 +76,7 @@ jobs:
           if [[ -n "$(git status --porcelain data/ lib/placeholder-data.ts)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/legislation/ data/raw/ lib/placeholder-data.ts
+            git add data/legislation/ data/raw/ data/politicians/us.json lib/placeholder-data.ts
             git commit -m "legislation: weekly sync $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           else

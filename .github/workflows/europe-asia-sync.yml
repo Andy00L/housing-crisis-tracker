@@ -1,0 +1,91 @@
+name: europe-asia-sync
+
+# Manual-trigger workflow that executes the dormant Europe + Asia-Pacific
+# pipelines. Reserved for Prompt E.2. Because the pipelines are gated on
+# EXECUTE_EUROPE / EXECUTE_ASIA in the scripts themselves, passing the
+# matching input here flips the gate. Runs ONLY when the operator dispatches
+# the workflow with the flags explicitly set to "1".
+
+on:
+  workflow_dispatch:
+    inputs:
+      execute_europe:
+        description: "Set to 1 to execute European pipelines"
+        default: "0"
+        required: true
+      execute_asia:
+        description: "Set to 1 to execute Asian pipelines"
+        default: "0"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: europe-asia-sync
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+      - run: npm ci --no-audit --no-fund
+
+      # ── Europe block ────────────────────────────────────────────
+      - name: Run Europe housing pipelines
+        if: inputs.execute_europe == '1'
+        env:
+          EXECUTE_EUROPE: "1"
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: |
+          for code in uk de fr it es pl nl se fi ie eu; do
+            echo "=== europe-housing $code ==="
+            npx tsx scripts/sync/europe-housing.ts "$code" || echo "($code failed, continuing)"
+          done
+          npx tsx scripts/sync/europe-officials.ts || echo "(europe-officials failed)"
+
+      # ── Asia-Pacific block ──────────────────────────────────────
+      - name: Run Asia-Pacific housing pipelines
+        if: inputs.execute_asia == '1'
+        env:
+          EXECUTE_ASIA: "1"
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: |
+          for code in jp kr cn in id tw au; do
+            echo "=== asia-pacific-housing $code ==="
+            npx tsx scripts/sync/asia-pacific-housing.ts "$code" || echo "($code failed, continuing)"
+          done
+          npx tsx scripts/sync/asia-officials.ts || echo "(asia-officials failed)"
+
+      # ── Rebuild + commit ────────────────────────────────────────
+      - name: Rebuild placeholder
+        if: inputs.execute_europe == '1' || inputs.execute_asia == '1'
+        run: npx tsx scripts/build-placeholder.ts
+
+      - name: Commit if changed
+        if: inputs.execute_europe == '1' || inputs.execute_asia == '1'
+        run: |
+          if [[ -n "$(git status --porcelain data/ lib/placeholder-data.ts)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/legislation/europe/ data/legislation/asia-pacific/ \
+                    data/projects/europe/ data/projects/asia-pacific/ \
+                    data/politicians/europe.json data/politicians/asia-pacific.json \
+                    data/raw/_run-reports/ lib/placeholder-data.ts
+            git commit -m "europe-asia: manual sync $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          else
+            echo "No changes."
+          fi
+
+      - name: Summarize run report
+        if: always()
+        run: npx tsx scripts/ci/summarize-run-report.ts

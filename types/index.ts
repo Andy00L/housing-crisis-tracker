@@ -520,6 +520,60 @@ export interface ProposalInfo {
   requirements?: string[];
 }
 
+/**
+ * Issue tags carried on enriched (J5-style) project cards. Stays separate
+ * from `ImpactTag` because tags here speak to the political conversation
+ * around a single development, not the bill-level policy levers tracked
+ * by ImpactTag. The two vocabularies overlap (affordability shows up in
+ * both) but are managed independently so the card UI can render labels
+ * tuned for individual projects without dragging in every bill-level tag.
+ */
+export const HOUSING_ISSUES = [
+  "displacement-gentrification",
+  "affordability",
+  "green-space-environment",
+  "community-input-consultation",
+  "transit-access",
+  "density-height",
+  "historic-preservation",
+  "school-capacity",
+  "social-mix",
+] as const;
+
+export type HousingIssue = (typeof HOUSING_ISSUES)[number];
+
+export const HOUSING_ISSUE_LABELS: Record<HousingIssue, string> = {
+  "displacement-gentrification": "Displacement & Gentrification",
+  affordability: "Affordability",
+  "green-space-environment": "Green space & Environment",
+  "community-input-consultation": "Community input",
+  "transit-access": "Transit access",
+  "density-height": "Density & Height",
+  "historic-preservation": "Historic preservation",
+  "school-capacity": "School capacity",
+  "social-mix": "Social mix",
+};
+
+/** Local-government action attached to a project (council vote, mayor
+ *  signature, planning board ruling, etc.). Lighter than `Legislation`
+ *  because we are not tracking these as standalone bills, just citing
+ *  them as context for an individual development. */
+export interface RelatedLocalAction {
+  title: string;
+  jurisdiction: string;
+  status: "enacted" | "pending" | "failed";
+  date: string;
+  sourceUrl: string;
+}
+
+/** Inline citation block on enriched project cards. */
+export interface ProjectSource {
+  title: string;
+  publisher: string;
+  url: string;
+  date: string;
+}
+
 export interface HousingProject {
   id: string;
   developer: string;
@@ -543,6 +597,24 @@ export interface HousingProject {
   /** Primary source URL for provenance. Optional. */
   source?: string;
   proposal?: ProposalInfo;
+  // ── J5-style enrichments ─────────────────────────────────────────
+  /** Who the development is built for. "Young families", "Seniors",
+   *  "Low-income renters", "Mixed-income tenure". One short phrase. */
+  primaryBeneficiary?: string;
+  /** 150-300 word narrative. Context, who pushed for it, opposition. */
+  storyBlurb?: string;
+  /** Issue tags from `HOUSING_ISSUES`. Empty when nothing controversial
+   *  surfaced in the source material. */
+  issues?: HousingIssue[];
+  /** IDs of bills tracked elsewhere in our dataset that bear on this
+   *  project (funding source, zoning enabler, etc.). */
+  relatedBillIds?: string[];
+  /** Council motions, mayoral signatures, board rulings tied to this
+   *  development. Distinct from `Legislation` since these are not bills. */
+  relatedLocalActions?: RelatedLocalAction[];
+  /** Citations for the enriched fields. Minimum 2 expected when the
+   *  enrichment came from a Tavily research pass. */
+  sources?: ProjectSource[];
 }
 
 export const REGION_LABEL: Record<Region, string> = {

@@ -30,11 +30,17 @@ jobs:
 
       - run: npm ci --no-audit --no-fund
 
-      - name: Housing projects (Tavily research)
+      - name: Canadian housing projects (Tavily research)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: npx tsx scripts/sync/housing-projects.ts
+
+      - name: US housing projects (Tavily research)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: npx tsx scripts/sync/us-housing-projects.ts
 
       - name: Rebuild placeholder
         run: npx tsx scripts/build-placeholder.ts

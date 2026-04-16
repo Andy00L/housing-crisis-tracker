@@ -44,3 +44,21 @@ Make the conclusions less universally positive
 When given an audit prompt, NEVER fix anything. Only audit and report.
 Even if you see obvious bugs, document them in the report.
 Fixing during audit corrupts the audit's value (you can't audit your own fix).
+
+## Pipeline invariants (multi-region)
+
+- When extracting federal ministers, ALWAYS try the canonical government
+  source first (canada.ca for CA, hud.gov for US, gov.uk for UK, etc.)
+  and fall back to a hardcoded override only when the canonical fetch
+  misses or the parser cannot find a recognizable name. Never rely on a
+  Tavily snippet alone to pin a minister.
+- When a housing project has no lat/lng, fall back to the city lookup
+  first and the province or state centroid second. Never invent
+  coordinates. The precision token ("exact" | "city" | "province" |
+  "unknown") is how the map decides whether to render a dot.
+- Every Tavily-backed sourceUrl MUST be validated with Tavily Extract
+  before it is written to a data file. Drop 404s; keep the rest with an
+  "unvalidated" note only when Tavily Extract itself is unavailable.
+- Europe and Asia-Pacific pipelines MUST exit immediately when their
+  EXECUTE_EUROPE / EXECUTE_ASIA guard is not set. Dormant is the default
+  state; the manual workflow is what flips the switch.

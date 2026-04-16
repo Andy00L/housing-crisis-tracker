@@ -1,8 +1,11 @@
-# Housing Tracker Canada
+# Housing Tracker . Canada-first, multi-region
 
-A live map of Canadian housing policy. Federal bills, provincial
-legislation, major housing projects, and officials. Secondary coverage
-for US, UK, and EU context.
+A live map of housing policy. Canada is the primary dataset with federal
+bills, provincial legislation, major projects, and officials. The United
+States is a full secondary region covering federal housing law plus the
+10 housing-critical states. Europe and Asia-Pacific scaffolding is in
+place but dormant: scripts exist and data files are empty until the
+`europe-asia-sync` workflow is dispatched manually.
 
 ```
 Next.js 16.2.3 . React 19.2.4 . TypeScript 5 . Tailwind CSS v4
@@ -21,24 +24,44 @@ No keys are required for local development. The app ships with
 pre-built data in `lib/placeholder-data.ts`. Keys are only needed to
 run the sync scripts that refresh data from upstream APIs.
 
-## What it tracks (current counts)
+## What it tracks
+
+- **Canada (primary).** Federal Parliament + all 13 provinces and
+  territories. Bills, housing projects, officials. Fed by LEGISinfo,
+  BC Laws, and Tavily research against the 12 other provincial
+  legislatures.
+- **United States (secondary).** Federal housing legislation plus the
+  top 10 housing-critical states: California, New York, Texas, Florida,
+  Washington, Massachusetts, Oregon, Colorado, Arizona, North Carolina.
+  Data comes from Tavily searches against congress.gov, hud.gov, and
+  each state legislature's domain. The other 40 states render as grey
+  on the map by design. We're honest about coverage rather than
+  faking it.
+- **Europe (light coverage, dormant).** UK, Germany, France, Italy,
+  Spain, Poland, Netherlands, Sweden, Finland, Ireland, and the
+  European Parliament. Scripts exist. Data files are empty until the
+  `europe-asia-sync` workflow is dispatched. Max 3 bills + 3 projects
+  per entity by design.
+- **Asia-Pacific (light coverage, dormant).** Japan, South Korea,
+  China, India, Indonesia, Taiwan, Australia. Same dormant pattern.
+
+Counts (April 2026):
 
 | Layer | Count | Source |
 |---|---|---|
-| Canadian housing bills (federal) | 152 | LEGISinfo |
-| Canadian housing bills (provincial + territorial) | 168 across 13 jurisdictions | BC Laws, Tavily research |
-| UK housing bills (secondary) | 267 | UK Parliament Bills API |
-| Canadian housing projects | 13 | Build Canada Homes, CMHC, provincial ministries |
-| Canadian officials | 12 | canada.ca cabinet + Tavily enrichment |
-| Canadian entities (federal + provinces + territories) | 14 | Statistics Canada geography |
+| Canadian housing bills (federal) | ~152 | LEGISinfo |
+| Canadian provincial bills | ~168 / 13 jurisdictions | BC Laws + Tavily |
+| Canadian housing projects | 13 | Build Canada Homes, CMHC |
+| Canadian officials | 12 | canada.ca + Tavily |
+| US federal housing bills | 2 | Tavily research (congress.gov, hud.gov) |
+| US state housing bills | ~60 / 10 states | Tavily research per state legislature |
+| US housing projects | ~25 | Tavily research (HUD, state agencies) |
+| US housing officials | 9 | hud.gov + Tavily |
+| UK housing bills (secondary) | ~267 | UK Parliament Bills API |
+| Europe housing entities | 11 (dormant, empty) | scripts/sync/europe-housing.ts |
+| Asia-Pacific entities | 7 (dormant, empty) | scripts/sync/asia-pacific-housing.ts |
 
-US bills and US state entities ship empty today. The structural
-scaffolding is in place so the LegiScan pipeline can repopulate them
-when a key is available.
-
-Counts come from `jq`/`node` over the JSON files in `data/`, not from
-memory. Re-run the count commands in the "Running pipelines" section
-if numbers look off.
+Counts come from `jq`/`node` over JSON files in `data/`, not from memory.
 
 ## Architecture
 
@@ -107,11 +130,40 @@ graph TD
 
     subgraph Cron["GitHub Actions"]
         W1[news-rss.yml 3x daily]
-        W2[legislation-sync.yml weekly Wed]
+        W2[legislation-sync.yml weekly Wed . CA + US federal + US states]
         W3[metrics-sync.yml weekly Mon]
-        W4[projects-sync.yml weekly Tue]
-        W5[officials-sync.yml monthly 1st Sun]
+        W4[projects-sync.yml weekly Tue . CA + US]
+        W5[officials-sync.yml monthly 1st Sun . CA + US]
+        W6[europe-asia-sync.yml manual dispatch only]
     end
+
+    subgraph US_Pipelines["US Pipelines"]
+        USFED[congress.gov via Tavily] --> USFEDSYNC[us-federal-housing.ts]
+        USST[state legislature domains via Tavily] --> USSTSYNC[us-states-housing-research.ts]
+        USPROJ[HUD + state agencies via Tavily] --> USPROJSYNC[us-housing-projects.ts]
+        HUDGOV[hud.gov leadership] --> USOFFSYNC[us-officials.ts]
+    end
+
+    USFEDSYNC --> USFEDJSON[data/legislation/federal-us-housing.json]
+    USSTSYNC --> USSTJSON[data/legislation/us-states-housing/*.json]
+    USPROJSYNC --> USPROJJSON[data/projects/us.json]
+    USOFFSYNC --> USOFFJSON[data/politicians/us.json]
+
+    USFEDJSON --> BLD
+    USSTJSON --> BLD
+    USPROJJSON --> BLD
+    USOFFJSON --> BLD
+
+    subgraph Dormant["Dormant (Prompt E.2)"]
+        EUSYNC[europe-housing.ts . 11 countries]
+        EUOFF[europe-officials.ts]
+        APSYNC[asia-pacific-housing.ts . 7 countries]
+        APOFF[asia-officials.ts]
+    end
+    EUSYNC -.-> W6
+    EUOFF -.-> W6
+    APSYNC -.-> W6
+    APOFF -.-> W6
 ```
 
 All five workflows finish with a `summarize-run-report` step that
@@ -185,9 +237,17 @@ npm run sync:provinces  # Provincial housing research
   cluster at the centroid rather than the actual location. The
   fallback chain and resolved precision are exposed by
   `resolveProjectCoordinates` in `lib/projects-map.ts`.
-- US is a secondary region. No US housing projects are ingested yet.
-  The US legislation pipeline expects a LegiScan key; without it the
-  US state tables render empty.
+- US coverage is intentionally focused. Top 10 states are tracked in
+  depth; the other 40 render grey on the map. When a state legislature
+  has a sparse housing-bill slate for a given session (e.g. Texas
+  during recess), the pipeline may pull fewer than 5 bills and mark the
+  URLs as unvalidated if Tavily Extract briefly fails.
+- Europe and Asia-Pacific entities have minimal bill/project data (max
+  3 of each) per country by design. Full coverage for those regions
+  requires dispatching the `europe-asia-sync` workflow with
+  `execute_europe=1` and/or `execute_asia=1`. Until then, their map
+  tiles render grey and their entity panels show the "coverage pending"
+  notice.
 - Tavily is on the dev tier (1000 credits per month). Running the full
   provincial research pipeline plus projects plus officials consumes
   roughly 100 to 150 credits. Heavy manual re-runs will exhaust the

@@ -1,0 +1,145 @@
+{
+  "state": "Massachusetts",
+  "stateCode": "MA",
+  "region": "na",
+  "stance": "favorable",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Massachusetts has an active housing legislative landscape anchored by the Affordable Homes Act signed by Governor Healey in August 2024, which introduced ADU-by-right provisions and historic affordable housing investments. The MBTA Communities Act (G.L. c. 40A, § 3A) requiring multifamily zoning near transit has seen compliance from 75% of affected communities, while repeal bills H.2266 and H.2343 have been filed in the 194th General Court. The Senate also passed property tax relief measures in January 2026 aimed at lowering homeownership costs.",
+  "legislation": [
+    {
+      "id": "us-ma-g-l-c-40a-3a",
+      "billCode": "G.L. c. 40A § 3A",
+      "title": "MBTA Communities Zoning Law",
+      "summary": "Requires communities served by the MBTA to approve multifamily zoning districts by right near transit; 75% of affected communities have achieved compliance as of recent reporting.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "density",
+        "transit-oriented"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.mass.gov/news/75-percent-of-mbta-communities-approve-multifamily-districts-to-create-more-housing",
+      "sponsors": [
+        "Governor Maura Healey"
+      ]
+    },
+    {
+      "id": "us-ma-affordable-homes-act",
+      "billCode": "Affordable Homes Act",
+      "title": "Affordable Homes Act",
+      "summary": "Signed by Governor Healey in August 2024, this law allows accessory dwelling units (ADUs) to be built by right in single-family zoning districts statewide and makes historic investments in affordable housing production.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-08-01",
+      "sourceUrl": "https://www.mass.gov/news/governor-healey-launches-new-campaign-to-make-it-easier-and-cheaper-to-build-adus-across-massachusetts",
+      "sponsors": [
+        "Governor Maura Healey"
+      ]
+    },
+    {
+      "id": "us-ma-senate-property-tax-relief-bills",
+      "billCode": "Senate Property Tax Relief Bills",
+      "title": "Senate Property Tax Relief Bills (January 2026)",
+      "summary": "A package of bills passed by the Massachusetts Senate on January 15, 2026 giving cities and towns local options to lower property taxes to support housing affordability and homeownership.",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "property-tax",
+      "updatedDate": "2026-01-15",
+      "sourceUrl": "https://malegislature.gov/PressRoom/Detail?pressReleaseId=309",
+      "sponsors": [
+        "Senator Michael J. Rodrigues"
+      ]
+    },
+    {
+      "id": "us-ma-bright-act",
+      "billCode": "BRIGHT Act",
+      "title": "BRIGHT Act (Senate Bond Bill for Higher Education and Housing)",
+      "summary": "A comprehensive bond bill passed by the Massachusetts Senate to modernize college infrastructure and spur housing development on underutilized campus properties.",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "development-incentive",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://malegislature.gov/PressRoom/Detail?pressReleaseId=335",
+      "sponsors": []
+    },
+    {
+      "id": "us-ma-h-2266",
+      "billCode": "H.2266",
+      "title": "An Act repealing section 3A relative to MBTA communities",
+      "summary": "Would repeal the MBTA Communities zoning law that requires municipalities near MBTA service to allow multifamily housing by right. Filed by Representative Paul K. Frost of Auburn.",
+      "stage": "Filed",
+      "stance": "restrictive",
+      "impactTags": [
+        "density",
+        "transit-oriented"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://malegislature.gov/Bills/194/H2266",
+      "sponsors": [
+        "Paul K. Frost"
+      ]
+    },
+    {
+      "id": "us-ma-h-2343",
+      "billCode": "H.2343",
+      "title": "An Act repealing the MBTA communities act",
+      "summary": "Would fully repeal the MBTA Communities Act, eliminating the requirement for transit-area communities to create multifamily zoning districts. Filed by Representative Jeffrey Rosario Turco of Winthrop.",
+      "stage": "Filed",
+      "stance": "restrictive",
+      "impactTags": [
+        "density",
+        "transit-oriented"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://malegislature.gov/Bills/194/H2343",
+      "sponsors": [
+        "Jeffrey Rosario Turco"
+      ]
+    },
+    {
+      "id": "us-ma-h-4987",
+      "billCode": "H.4987",
+      "title": "Transportation Capital Projects to Support Housing Development",
+      "summary": "Appropriates $500,000,000 for transportation capital projects that support housing development, including planning, design, roadway and infrastructure construction to enable residential growth. ",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "transit-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://malegislature.gov/Bills/194/H4987.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-ma-s-2899",
+      "billCode": "S.2899",
+      "title": "An Act to ensure fair taxation of affordable housing",
+      "summary": "Addresses property taxation of affordable housing to ensure equitable tax treatment for affordable housing developments across Massachusetts.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "property-tax",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://malegislature.gov/Bills/194/S2899",
+      "sponsors": []
+    }
+  ]
+}

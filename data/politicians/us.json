@@ -1,0 +1,138 @@
+{
+  "country": "US",
+  "lastUpdated": "2026-04-16",
+  "officials": [
+    {
+      "id": "us-hud-secretary",
+      "name": "Scott Turner",
+      "role": "Secretary of Housing and Urban Development",
+      "party": "Republican",
+      "stance": "favorable",
+      "country": "US",
+      "chamber": "executive",
+      "summary": "Secretary Turner has emphasized expanding homeownership opportunities, cutting federal red tape, restoring local control over housing decisions, and shifting homelessness policy toward long-term self-sufficiency rather than spending metrics. HUD under Turner reports helping over one million Americans with housing affordability, including more than half a million first-time homebuyers.",
+      "keyPoints": [
+        "Scott Turner serves as Secretary of the U.S. Department of Housing and Urban Development under President Trump's second administration, having been confirmed in early 2025.",
+        "Turner has announced $3.9 billion in competitive grant funding through HUD's FY 2025 Continuum of Care competition and has overseen reforms aimed at reducing federal overregulation, including eliminating the Affirmatively Furthering Fair Housing rule."
+      ]
+    },
+    {
+      "id": "us-house-fs-chair",
+      "name": "French Hill",
+      "role": "Chair, House Financial Services Committee",
+      "party": "Republican",
+      "stance": "favorable",
+      "country": "US",
+      "chamber": "house",
+      "summary": "Chairman Hill has championed the bipartisan Housing for the 21st Century Act, indicating support for expanding housing supply and addressing housing affordability challenges.",
+      "keyPoints": [
+        "French Hill (AR-02) serves as Chairman of the House Financial Services Committee, as confirmed by multiple 2026 committee announcements and press releases.",
+        "Chairman Hill led the bipartisan Housing for the 21st Century Act through the Financial Services Committee, which was advanced overwhelmingly and later had cloture filed in the Senate by Majority Leader Thune."
+      ]
+    },
+    {
+      "id": "us-senate-banking-chair",
+      "name": "Tim Scott",
+      "role": "Chair, Senate Banking, Housing, and Urban Affairs Committee",
+      "party": "Republican",
+      "stance": "favorable",
+      "country": "US",
+      "chamber": "senate",
+      "summary": "Chairman Scott has publicly championed housing affordability legislation, including the 21st Century ROAD to Housing Act, framing 2026 as a year focused on affordability; his record suggests at least some support for housing supply measures.",
+      "keyPoints": [
+        "Senator Tim Scott (R-S.C.) is the Chairman of the Senate Banking, Housing, and Urban Affairs Committee, as referenced in multiple snippets identifying him as 'Senate Banking Committee Chairman Tim Scott.'",
+        "As Chairman, Scott has announced markups on digital asset market structure legislation and co-released bill text for the 21st Century ROAD to Housing Act, describing 2026 as 'the year of affordability.'"
+      ]
+    },
+    {
+      "id": "us-ny-hcr-commissioner",
+      "name": "RuthAnne Visnauskas",
+      "role": "New York Homes and Community Renewal Commissioner",
+      "party": "Nonpartisan",
+      "stance": "favorable",
+      "country": "US",
+      "chamber": "executive",
+      "constituency": "NY",
+      "summary": "Commissioner Visnauskas has a strong record of supporting affordable housing supply expansion, administering large-scale development funding and programs aligned with Governor Hochul's goals to increase housing availability across New York State.",
+      "keyPoints": [
+        "RuthAnne Visnauskas serves as Commissioner of New York State Homes and Community Renewal (HCR), overseeing affordable housing programs statewide.",
+        "Under her leadership, HCR has announced major affordable housing developments including a $225 million project in the Bronx creating 292 affordable apartments, and initiatives to expand affordable homeownership in Central New York."
+      ]
+    },
+    {
+      "id": "us-ma-housing-secretary",
+      "name": "Juana Matias",
+      "role": "Massachusetts Secretary of Housing and Livable Communities",
+      "party": "Nonpartisan",
+      "stance": "favorable",
+      "country": "US",
+      "chamber": "executive",
+      "constituency": "MA",
+      "summary": "Matias was appointed to lead Massachusetts' Executive Office of Housing and Livable Communities, with a record of advancing housing policy reforms across New England. Her role focuses on expanding housing supply, distributing funding to municipalities, and overseeing state-aided public housing.",
+      "keyPoints": [
+        "Juana Matias was appointed by Governor Maura Healey as Secretary of the Executive Office of Housing and Livable Communities (HLC).",
+        "Her background includes leading transformative housing policies across New England, as noted in the appointment announcement."
+      ]
+    },
+    {
+      "id": "us-or-ohcs-director",
+      "name": "Andrea Bell",
+      "role": "Oregon Housing and Community Services Director",
+      "party": "Nonpartisan",
+      "stance": "favorable",
+      "country": "US",
+      "chamber": "executive",
+      "constituency": "OR",
+      "summary": "Director Bell has publicly supported affordable housing preservation and expansion efforts in Oregon, including celebrating the opening of new affordable housing communities and taking action to preserve existing affordable housing stock.",
+      "keyPoints": [
+        "Andrea Bell serves as Director of Oregon Housing and Community Services, as confirmed by multiple 2026 press releases and agency documents.",
+        "She has publicly emphasized the importance of protecting and preserving access to affordable housing, including actions to preserve 1,300 affordable homes."
+      ]
+    },
+    {
+      "id": "us-co-dola-director",
+      "name": "Maria De Cambra",
+      "role": "Colorado Department of Local Affairs Executive Director",
+      "party": "Nonpartisan",
+      "stance": "favorable",
+      "country": "US",
+      "chamber": "executive",
+      "constituency": "CO",
+      "summary": "Maria De Cambra has publicly championed increasing housing supply, supporting fast-track affordable housing incentives, ADU expansion, and local government compliance with strategic growth laws.",
+      "keyPoints": [
+        "Maria De Cambra serves as the Executive Director of the Colorado Department of Local Affairs (DOLA), where she has announced key leadership appointments including Tyler Jaeckel as new Division of Housing Director.",
+        "Under her leadership, DOLA has promoted initiatives to streamline affordable housing processes and support local governments in diversifying housing stock, including ADU incentive programs."
+      ]
+    },
+    {
+      "id": "us-az-housing-director",
+      "name": "Ruby Dhillon-Williams",
+      "role": "Arizona Department of Housing Director",
+      "party": "Nonpartisan",
+      "stance": "favorable",
+      "country": "US",
+      "chamber": "executive",
+      "constituency": "AZ",
+      "summary": "As ADOH Director, Ruby Dhillon-Williams oversees Arizona's state housing programs including homebuyer assistance, LIHTC compliance, Section 8 housing, and affordable housing initiatives, indicating a focus on expanding housing access and supply.",
+      "keyPoints": [
+        "Ruby Dhillon-Williams serves as the Director of the Arizona Department of Housing (ADOH), as confirmed by the FY2026 agency org chart and multiple official documents.",
+        "She is appointed under Governor Katie Hobbs and has been active in affordable housing policy panels and departmental operations through at least early 2026."
+      ]
+    },
+    {
+      "id": "us-nc-nchfa-ed",
+      "name": "Scott Farmer",
+      "role": "North Carolina Housing Finance Agency Executive Director",
+      "party": "Nonpartisan",
+      "stance": "favorable",
+      "country": "US",
+      "chamber": "executive",
+      "constituency": "NC",
+      "summary": "Scott Farmer has publicly supported expanding affordable housing supply and homeownership opportunities for North Carolinians, including increasing eligibility for affordable mortgages and directing Housing Trust Fund dollars toward vulnerable residents.",
+      "keyPoints": [
+        "Scott Farmer serves as Executive Director of the North Carolina Housing Finance Agency, a self-supporting public agency that provides safe, affordable housing opportunities.",
+        "Under his leadership, the Agency has awarded millions in funding for home rehabilitation, urgent home repairs, and down payment assistance programs across North Carolina."
+      ]
+    }
+  ]
+}

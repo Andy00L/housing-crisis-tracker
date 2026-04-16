@@ -13,6 +13,7 @@ import {
 import { ALL_HOUSING_PROJECTS } from "@/lib/projects-map";
 import { statusColorForProject } from "@/lib/project-colors";
 import FadeInOnView from "@/components/ui/FadeInOnView";
+import ProjectCard from "./ProjectCard";
 
 interface ProjectsOverviewProps {
   onNavigateToEntity: (target: ViewTarget) => void;
@@ -22,6 +23,32 @@ interface ProjectsOverviewProps {
 
 type StatusFilter = "all" | HousingProjectStatus;
 type SortKey = "relevance" | "units" | "cost" | "developer" | "state";
+type RegionScope = "all" | "na" | "eu" | "asia";
+
+const REGION_OPTIONS: { key: RegionScope; label: string }[] = [
+  { key: "all", label: "All regions" },
+  { key: "na", label: "North America" },
+  { key: "eu", label: "Europe" },
+  { key: "asia", label: "Asia-Pacific" },
+];
+
+/** Classify a project's region from its country field. Europe/Asia
+ *  projects land with the 2-letter country code from the pipeline; we
+ *  map those to the region buckets used by the switcher. */
+function projectRegion(project: HousingProject): RegionScope {
+  const country = project.country ?? "";
+  if (country === "Canada" || country === "United States") return "na";
+  if (
+    [
+      "United Kingdom", "Germany", "France", "Italy", "Spain", "Poland",
+      "Netherlands", "Sweden", "Finland", "Ireland", "European Parliament",
+    ].includes(country)
+  ) return "eu";
+  if (
+    ["Japan", "South Korea", "China", "India", "Indonesia", "Taiwan", "Australia"].includes(country)
+  ) return "asia";
+  return "all";
+}
 const STATUS_LABEL: Record<HousingProjectStatus, string> = {
   operational: "Operational",
   "under-construction": "Under construction",
@@ -137,10 +164,13 @@ export default function ProjectsOverview({
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("all");
   const [sortKey, setSortKey] = useState<SortKey>("relevance");
   const [query, setQuery] = useState("");
-  // Click a row to tint it (single-select). Click again to clear.
-  // Navigation to the row's region is its own affordance — the operator
-  // name is now a link so selecting and navigating are decoupled.
+  const [regionScope, setRegionScope] = useState<RegionScope>("all");
+  // Row selection tints and expands the inline row.
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  // Modal for the enriched ProjectCard, opened via the "Full detail" link
+  // inside the expanded row. Separate state so the inline row behaviour
+  // stays put when the modal opens.
+  const [modalId, setModalId] = useState<string | null>(null);
 
   const disclosedCostCount = useMemo(
     () => ALL_HOUSING_PROJECTS.filter((f) => !!f.projectCost).length,
@@ -161,10 +191,14 @@ export default function ProjectsOverview({
   }, []);
 
   const filtered = useMemo(() => {
+    const regionFiltered =
+      regionScope === "all"
+        ? ALL_HOUSING_PROJECTS
+        : ALL_HOUSING_PROJECTS.filter((f) => projectRegion(f) === regionScope);
     const base =
       statusFilter === "all"
-        ? ALL_HOUSING_PROJECTS
-        : ALL_HOUSING_PROJECTS.filter((f) => f.status === statusFilter);
+        ? regionFiltered
+        : regionFiltered.filter((f) => f.status === statusFilter);
     const q = query.trim().toLowerCase();
     if (!q) return base;
     return base.filter((f) => {
@@ -181,7 +215,18 @@ export default function ProjectsOverview({
         .toLowerCase();
       return haystack.includes(q);
     });
-  }, [statusFilter, query]);
+  }, [statusFilter, query, regionScope]);
+
+  // Per-region counts keyed off the unfiltered set so the chip numbers
+  // don't move as the user filters other axes.
+  const regionCounts = useMemo<Record<RegionScope, number>>(() => {
+    const counts: Record<RegionScope, number> = { all: ALL_HOUSING_PROJECTS.length, na: 0, eu: 0, asia: 0 };
+    for (const f of ALL_HOUSING_PROJECTS) {
+      const r = projectRegion(f);
+      if (r !== "all") counts[r] += 1;
+    }
+    return counts;
+  }, []);
 
   // Stats roll up whatever the user has filtered into — so the headline
   // numbers reflect "what am I looking at right now" instead of staying
@@ -215,8 +260,37 @@ export default function ProjectsOverview({
   const visible = showAll ? sorted : sorted.slice(0, PREVIEW_ROWS);
   const hasMore = !showAll && sorted.length > PREVIEW_ROWS;
 
+  const modalProject = modalId ? ALL_HOUSING_PROJECTS.find((p) => p.id === modalId) ?? null : null;
+
   return (
     <div>
+      {/* Region switcher — mirrors the PoliticiansOverview scope pattern.
+          Keeps the US/Canada split local to projects without pulling in
+          the heavy map-level region concept. */}
+      <div className="flex flex-wrap gap-1.5 mb-6">
+        {REGION_OPTIONS.map((opt) => {
+          const active = regionScope === opt.key;
+          const count = regionCounts[opt.key];
+          return (
+            <button
+              key={opt.key}
+              type="button"
+              onClick={() => setRegionScope(opt.key)}
+              className={`text-xs px-3 py-1.5 rounded-full transition-colors ${
+                active
+                  ? "bg-ink text-white"
+                  : "bg-black/[.04] text-muted hover:bg-black/[.08] hover:text-ink"
+              }`}
+            >
+              {opt.label}
+              <span className={`ml-1.5 ${active ? "text-white/60" : "text-muted/70"}`}>
+                {count}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+
       {/* Stats strip — wide, dense, scannable. Each cell stands alone but
           the row reads as a single cohesive unit. */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-y-6 gap-x-8 pb-8 mb-10 border-b border-black/[.06]">
@@ -529,6 +603,16 @@ export default function ProjectsOverview({
                                     ))}
                                   </ul>
                                 )}
+                                <button
+                                  type="button"
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    setModalId(f.id);
+                                  }}
+                                  className="self-start text-[11px] text-ink hover:underline"
+                                >
+                                  Full detail →
+                                </button>
                               </div>
                             </div>
                           </div>
@@ -580,6 +664,28 @@ export default function ProjectsOverview({
         have an announced investment figure. Most private builds never publish
         a budget, so totals should be read as a floor rather than a full count.
       </p>
+
+      {/* Enriched project modal. Opened by the "Full detail" link inside
+          the inline expanded row. Uses a fixed-position overlay so the
+          card sits above the table without pushing the page. */}
+      {modalProject ? (
+        <div
+          className="fixed inset-0 z-50 flex items-start justify-center px-4 py-12 overflow-y-auto"
+          role="dialog"
+          aria-modal="true"
+          aria-label={`Project detail: ${modalProject.projectName ?? modalProject.developer}`}
+        >
+          <button
+            type="button"
+            className="fixed inset-0 bg-black/40 backdrop-blur-sm"
+            onClick={() => setModalId(null)}
+            aria-label="Close"
+          />
+          <div className="relative z-10 w-full max-w-2xl">
+            <ProjectCard project={modalProject} onClose={() => setModalId(null)} />
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }

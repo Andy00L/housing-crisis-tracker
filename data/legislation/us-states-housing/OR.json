@@ -1,0 +1,132 @@
+{
+  "state": "Oregon",
+  "stateCode": "OR",
+  "region": "na",
+  "stance": "favorable",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Oregon's 2025-2026 legislative sessions have addressed housing supply and affordability through multiple measures, including HB 2138 (2025) which reformed middle housing policy and directed rulemaking, HB 4036 (2026) which established the Housing Opportunity, Longevity and Durability (HOLD) Fund, and HB 4149 which strengthened protections for students experiencing homelessness. The state is also conducting ongoing Oregon Housing Needs Analysis (OHNA) rulemaking to refine buildable land inventories and urban growth boundary processes.",
+  "legislation": [
+    {
+      "id": "us-or-hb-4036",
+      "billCode": "HB 4036",
+      "title": "Housing Opportunity, Longevity and Durability Fund",
+      "summary": "Establishes the Housing Opportunity, Longevity and Durability (HOLD) Fund, continuously appropriating bond-backed money to Oregon Housing and Community Services for housing investment.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-14",
+      "sourceUrl": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4036/B-Engrossed",
+      "sponsors": []
+    },
+    {
+      "id": "us-or-hb-4149",
+      "billCode": "HB 4149",
+      "title": "Protections for Students Experiencing Homelessness",
+      "summary": "Signed by Governor Tina Kotek, this bill strengthens protections for students experiencing homelessness in Oregon.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2026-04-14",
+      "sourceUrl": "https://apps.oregon.gov/oregon-newsroom/OR/OHCS/Posts/Search?from=4/14/2026&to=4/14/2026",
+      "sponsors": []
+    },
+    {
+      "id": "us-or-hb-2138",
+      "billCode": "HB 2138",
+      "title": "Middle Housing Policy Reforms",
+      "summary": "Included a suite of reforms to middle housing policy and directed the Land Conservation and Development Commission to adopt rules related to middle housing and infill development.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-06-01",
+      "sourceUrl": "https://www.oregon.gov/lcd/About/Documents/2025-2027%20DLCD%20Policy%20Agenda%20FINAL.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-or-hb-2316",
+      "billCode": "HB 2316",
+      "title": "Home Start Lands – State-Owned Lands for Housing",
+      "summary": "Allows the Land Conservation and Development Commission to adopt rules requiring local governments to make state-owned lands available for housing development.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-01",
+      "sourceUrl": "https://www.oregon.gov/lcd/NN/Documents/2025_Legislative_Report.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-or-hb-3395",
+      "billCode": "HB 3395",
+      "title": "Affordable Housing on Commercial Lands",
+      "summary": "Allows affordable housing to be developed on lands zoned for commercial uses within urban growth boundaries, and allows local governments to extend decision-making periods for related applications.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2023-06-01",
+      "sourceUrl": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3395/A-Engrossed",
+      "sponsors": []
+    },
+    {
+      "id": "us-or-hb-4037",
+      "billCode": "HB 4037",
+      "title": "Landlord and Tenant Rights for Natural Disaster Housing",
+      "summary": "Clarifies the rights and duties of landlords and tenants when rental housing is destroyed by natural disasters and directs relevant state agencies on related matters.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-02-12",
+      "sourceUrl": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/CommitteeMeetingDocument/314039",
+      "sponsors": []
+    },
+    {
+      "id": "us-or-sb-1576",
+      "billCode": "SB 1576",
+      "title": "Agriculture Workforce Housing Tax Credit Update",
+      "summary": "Updates provisions related to affordable housing tax credits, including agriculture workforce housing tax credits, aligning Oregon law with updated federal low-income housing tax credit references.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "development-incentive",
+      "updatedDate": "2026-02-12",
+      "sourceUrl": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1576/A-Engrossed",
+      "sponsors": []
+    },
+    {
+      "id": "us-or-sb-portland-msa-inclusionary-zoning",
+      "billCode": "SB (Portland MSA Inclusionary Zoning)",
+      "title": "Prohibition on Mandatory Affordable Unit Requirements in Portland MSA",
+      "summary": "Prohibits cities and counties within the Portland metropolitan statistical area from enforcing requirements that developers provide affordable units in multiunit dwellings.",
+      "stage": "Committee",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2026-02-05",
+      "sourceUrl": "https://olis.oregonlegislature.gov/liz/2026R1/Committees/SHDEV/2026-02-05-15-00",
+      "sponsors": []
+    }
+  ]
+}

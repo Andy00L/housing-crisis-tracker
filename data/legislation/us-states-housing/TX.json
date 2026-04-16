@@ -1,0 +1,136 @@
+{
+  "state": "Texas",
+  "stateCode": "TX",
+  "region": "na",
+  "stance": "favorable",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "During the 89th Texas Legislative Session, housing-related measures include SB 4 and SB 23 proposing to raise the homestead exemption from $100,000 to $140,000 (and $200,000 for seniors/disabled), while HB 5 has drawn public opposition from Texas residents. The Texas Department of Housing and Community Affairs (TDHCA) continues administering affordable housing programs including LIHEAP, the Weatherization Assistance Program, and multifamily financing under Chapter 2306 of the Government Code.",
+  "legislation": [
+    {
+      "id": "us-tx-glo-2024-disasters-cdbg-dr-action-plan",
+      "billCode": "GLO 2024 Disasters CDBG-DR Action Plan",
+      "title": "2024 Disasters Community Development Block Grant – Disaster Recovery Action Plan Amendment 1",
+      "summary": "Directs CDBG-DR funds to assist 2024 disaster-affected homeowners and eligible entities developing affordable multifamily housing, with programs designed based on an unmet needs assessment conducted by the Texas General Land Office.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "density"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-01",
+      "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2024-disasters-sap-amend-1.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-tx-sb-4",
+      "billCode": "SB 4",
+      "title": "Relating to raising the homestead exemption for Texas property owners",
+      "summary": "Raises the homestead exemption from $100,000 to $140,000, saving the average homeowner approximately $484 per year in property taxes.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "property-tax",
+      "updatedDate": "2025-06-01",
+      "sourceUrl": "https://senate.texas.gov/members/d07/nl/en/NL2025-Bettencourt-web.pdf",
+      "sponsors": [
+        "Paul Bettencourt"
+      ]
+    },
+    {
+      "id": "us-tx-sb-23",
+      "billCode": "SB 23",
+      "title": "Relating to raising the homestead exemption for Texas seniors and disabled persons",
+      "summary": "Increases the homestead exemption by an additional $60,000 for seniors and disabled Texans, bringing their total exemption to $200,000 and saving them approximately $907 annually.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "property-tax",
+      "updatedDate": "2025-06-01",
+      "sourceUrl": "https://senate.texas.gov/members/d07/nl/en/NL2025-Bettencourt-web.pdf",
+      "sponsors": [
+        "Paul Bettencourt"
+      ]
+    },
+    {
+      "id": "us-tx-hjr-7",
+      "billCode": "HJR 7",
+      "title": "Proposing a constitutional amendment to dedicate a portion of state sales and use tax revenue to the Texas water fund",
+      "summary": "Proposes a constitutional amendment to dedicate a portion of state sales and use tax revenue to the Texas water fund, with provisions for the allocation and use of that revenue affecting community development.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-03-25",
+      "sourceUrl": "https://www.house.texas.gov/pdfs/speaker/F-Interim-Charges-3.25.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-tx-hb-2078",
+      "billCode": "HB 2078",
+      "title": "Relating to the joint planning of desired future conditions",
+      "summary": "Addresses joint planning of desired future conditions, subject to monitoring of implementation and associated rulemaking by the relevant House committee following the 89th Legislature.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-03-25",
+      "sourceUrl": "https://www.house.texas.gov/pdfs/speaker/F-Interim-Charges-3.25.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-tx-tdhca-multifamily-uniform-application",
+      "billCode": "TDHCA Multifamily Uniform Application",
+      "title": "2025-2029 State of Texas Consolidated Plan – Multifamily Direct Loan Program",
+      "summary": "Establishes requirements for TDHCA multifamily direct loan applicants, including relocation planning consistent with HUD guidelines and federal affordable housing funding eligibility for developments serving low-income Texans.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "density"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-12-01",
+      "sourceUrl": "https://www.tdhca.texas.gov/sites/default/files/housing-center/docs/25-29-Tx-ConsolidatedPlan.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-tx-hb-5",
+      "billCode": "HB 5",
+      "title": "Relating to housing legislation opposed by Texas residents",
+      "summary": "A House bill that has drawn significant public opposition from Texas residents, with at least one constituent submitting formal public comment strongly opposing the measure.",
+      "stage": "Committee",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://capitol.texas.gov/tlodocs/891/publiccomments/billhistory/HB00005H.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-tx-10-tac-chapter-10-subchapter-j",
+      "billCode": "10 TAC Chapter 10 Subchapter J",
+      "title": "Uniform Multifamily Rules – Housing Finance Corporation Compliance Monitoring Rules",
+      "summary": "Proposes new administrative code rules governing Housing Finance Corporation compliance monitoring for multifamily developments, including income verification, lease requirements, and criminal history checks under Section 811 PRA and HOME ARP programs.",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.tdhca.texas.gov/sites/default/files/pmcdocs/10TAC10-HFC-CM-Rule.pdf",
+      "sponsors": []
+    }
+  ]
+}

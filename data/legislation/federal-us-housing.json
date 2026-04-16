@@ -1,0 +1,42 @@
+{
+  "state": "United States",
+  "stateCode": "US",
+  "region": "na",
+  "stance": "favorable",
+  "stanceZoning": "none",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "The 119th Congress has advanced several housing-related measures, including the One Big Beautiful Bill Act (P.L. 119-21), which permanently expands state LIHTC allocations and lowers the private activity bond financing threshold starting in 2026. The Housing for the 21st Century Act (H.R. 6644) passed the House in February 2026 and received a Senate amendment renaming it the 21st Century ROAD to Housing Act. Additional bills such as the Affordable Housing Credit Improvement Act of 2025 (H.R. 2725/S. 1515) seek further LIHTC reforms, while HUD under Secretary Scott Turner has restructured homelessness grant competitions and proposed consolidating housing programs in the FY2026 budget.",
+  "legislation": [
+    {
+      "id": "us-federal-hr-1",
+      "billCode": "HR 1",
+      "title": "One Big Beautiful Bill Act",
+      "summary": "Permanently increases states' annual LIHTC allocations and reduces the private activity bond financing threshold from 50% to 25% starting in 2026, expanding the pipeline of affordable rental housing eligible for 4% tax credits.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-07-11",
+      "sourceUrl": "https://www.congress.gov/crs-product/RS22389",
+      "sponsors": []
+    },
+    {
+      "id": "us-federal-hr-6644",
+      "billCode": "HR 6644",
+      "title": "Housing for the 21st Century Act / 21st Century ROAD to Housing Act",
+      "summary": "Wide-ranging housing bill passed by the House in February 2026 and amended in the Senate as the 21st Century ROAD to Housing Act; contains provisions to increase housing supply, modify existing federal housing programs, and create new federal housing initiatives.",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-12",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6644/text",
+      "sponsors": []
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "state": "North Carolina",
+  "stateCode": "NC",
+  "region": "na",
+  "stance": "favorable",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "North Carolina's housing legislative activity in 2025-2026 is centered primarily on administrative and regulatory programs rather than traditional legislation, with the North Carolina Housing Finance Agency (NCHFA) releasing the 2026 Low-Income Housing Tax Credit Qualified Allocation Plan (QAP) and updating HOME Final Rule policies effective January 1, 2026. Session Law 2025-32 (House Bill 309) was enacted but addresses local governance rather than housing supply. NCHFA programs including the Single-Family Rehabilitation Loan Pool and the SHDP-Integrated Program continue to address affordability and special housing needs populations.",
+  "legislation": [
+    {
+      "id": "us-nc-2026-qap-appendix-b",
+      "billCode": "2026 QAP Appendix B",
+      "title": "2026 QAP Appendix B – Accessibility and Unit Design Standards",
+      "summary": "Sets minimum physical design standards for tax credit housing units in North Carolina, including wheelchair turning radius requirements in Type A units and minimum community space of seven square feet per residential unit.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://www.nchfa.com/sites/default/files/page_attachments/2026FinalAppendixB1.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-nc-2026-qap",
+      "billCode": "2026 QAP",
+      "title": "2026 Low-Income Housing Tax Credit Qualified Allocation Plan",
+      "summary": "Establishes eligibility criteria, threshold requirements, and scoring criteria for allocating Low-Income Housing Tax Credits in North Carolina for 2026, including rehabilitation cost minimums of $50,000 per unit and requirements for extended-use-period projects.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-01",
+      "sourceUrl": "https://nchfa.com/sites/default/files/forms_resources/2025-12/2026FinalQAP.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-nc-shdp-integrated-guidelines",
+      "billCode": "SHDP-Integrated Guidelines",
+      "title": "Special Housing Development Program – Integrated Program Guidelines",
+      "summary": "Establishes guidelines for the SHDP-Integrated Program, which funds construction or rehabilitation of housing exclusively for persons with disabilities, prohibiting use of funds for administrative costs, rental assistance, or refinancing of existing mortgages.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2025-10-16",
+      "sourceUrl": "https://www.nchfa.com/sites/default/files/2025-10/16/SHDP-IntegratedProgramGuidelines.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-nc-hb-309",
+      "billCode": "HB 309",
+      "title": "Session Law 2025-32 House Bill 309",
+      "summary": "An enacted session law covering various local governance matters in North Carolina for the 2025-2026 session, including provisions related to local board elections in Scotland County.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/PDF/2025-2026/SL2025-32.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-nc-esfrlp28",
+      "billCode": "ESFRLP28",
+      "title": "2026 Single-Family Rehabilitation Loan Pool Application Guidelines",
+      "summary": "Marks the thirty-second year of the Single-Family Rehabilitation Loan Pool as NCHFA's primary program for comprehensive single-family housing rehabilitation, providing application guidelines for 2026 funding cycle.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://nchfa.com/sites/default/files/2026-01/ESFRLP28ApplicationGuidelines.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-nc-2025-aap",
+      "billCode": "2025 AAP",
+      "title": "2025 North Carolina Annual Action Plan",
+      "summary": "Outlines North Carolina's planned use of HUD funds including CDBG, coordinating activities between public and assisted housing providers and health and mental health service agencies through the Rural Economic Development Division.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-05-01",
+      "sourceUrl": "https://www.nchfa.com/sites/default/files/2025-05/2025AnnualActionPlanDRAFT.pdf",
+      "sponsors": []
+    }
+  ]
+}

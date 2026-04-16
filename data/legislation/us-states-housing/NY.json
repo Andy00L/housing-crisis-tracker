@@ -1,0 +1,102 @@
+{
+  "state": "New York",
+  "stateCode": "NY",
+  "region": "na",
+  "stance": "favorable",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "New York's 2025-2026 legislative session includes several housing bills addressing zoning reform, tenant protections, and affordable housing financing. Key measures include S401 (Tenant Opportunity to Purchase Act), A6283A/S3492A (Sustainable Affordable Housing and Sprawl Prevention Act), and A3647B (Faith-Based Affordable Housing Act). The FY 2026 Enacted Budget also secured over $1.5 billion in new state housing funding, including the first $50 million for the Housing Access Voucher Program.",
+  "legislation": [
+    {
+      "id": "us-ny-a-3006c",
+      "billCode": "A 3006C",
+      "title": "State Education, Labor, Housing and Family Assistance Budget Bill FY 2025-2026",
+      "summary": "Enacts major components of legislation necessary to implement the state housing and family assistance budget for 2025-2026, including over $1.5 billion in new housing funding.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.nysenate.gov/legislation/bills/2025/A3006/amendment/C",
+      "sponsors": []
+    },
+    {
+      "id": "us-ny-s-401",
+      "billCode": "S 401",
+      "title": "Tenant Opportunity to Purchase Act",
+      "summary": "Establishes the Tenant Opportunity to Purchase Act to prevent displacement of middle and lower-income tenants in New York and preserve affordable housing by giving tenants the right to purchase their buildings.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.nysenate.gov/legislation/bills/2025/S401",
+      "sponsors": []
+    },
+    {
+      "id": "us-ny-a-6283a",
+      "billCode": "A 6283A",
+      "title": "Sustainable Affordable Housing and Sprawl Prevention Act",
+      "summary": "Exempts or limits environmental review under SEQR for the construction of certain new affordable housing developments to streamline housing production and reduce sprawl.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.nysenate.gov/legislation/bills/2025/A6283/amendment/A",
+      "sponsors": []
+    },
+    {
+      "id": "us-ny-s-3492a",
+      "billCode": "S 3492A",
+      "title": "Sustainable Affordable Housing and Sprawl Prevention Act",
+      "summary": "Senate companion bill that exempts or limits environmental review under SEQR for the construction of certain new affordable housing to accelerate development approvals.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.nysenate.gov/legislation/bills/2025/S3492/amendment/A",
+      "sponsors": []
+    },
+    {
+      "id": "us-ny-a-3647b",
+      "billCode": "A 3647B",
+      "title": "Faith-Based Affordable Housing Act",
+      "summary": "Amends the general municipal law to enact the Faith-Based Affordable Housing Act, enabling residential development on religious land to expand housing supply.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.nysenate.gov/legislation/bills/2025/A3647/amendment/B",
+      "sponsors": []
+    },
+    {
+      "id": "us-ny-s-8672",
+      "billCode": "S 8672",
+      "title": "Employer-Assisted Housing Match Grant Program",
+      "summary": "Creates an employer-assisted housing match grant program under which certain nonprofit employees may be eligible for a state match for certain housing-related contributions.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.nysenate.gov/legislation/bills/2025/S8672",
+      "sponsors": []
+    }
+  ]
+}

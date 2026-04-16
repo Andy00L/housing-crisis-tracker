@@ -30,11 +30,17 @@ jobs:
 
       - run: npm ci --no-audit --no-fund
 
-      - name: Officials (canada.ca + Tavily)
+      - name: Canadian officials (canada.ca + Tavily)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: npx tsx scripts/sync/officials.ts
+
+      - name: US officials (hud.gov + Tavily)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: npx tsx scripts/sync/us-officials.ts
 
       - name: Rebuild placeholder
         run: npx tsx scripts/build-placeholder.ts

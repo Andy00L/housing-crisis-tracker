@@ -40,6 +40,7 @@ const RATE_LIMITS: Partial<Record<SourceName, number>> = {
   "bank-of-canada": 4,
   "canada-gazette": 4,
   "canada-ca": 2,
+  "hud-gov": 2,
   tavily: 3,
   anthropic: 2,
   rss: 4,

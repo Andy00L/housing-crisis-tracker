@@ -1,0 +1,43 @@
+{
+  "state": "Colorado",
+  "stateCode": "CO",
+  "region": "na",
+  "stance": "favorable",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Colorado's housing legislative landscape includes several enacted and active measures. HB 24-1313 requires local governments to allow increased housing density near transit corridors, while SB 24-174 mandates housing needs assessments and strategic growth planning with DOLA support. DOLA has reported high compliance rates among subject jurisdictions and is actively distributing planning grants and Proposition 123 fast-track incentives ahead of the December 31, 2026 deadline.",
+  "legislation": [
+    {
+      "id": "us-co-hb-24-1313",
+      "billCode": "HB 24-1313",
+      "title": "Housing in Transit-Oriented Communities",
+      "summary": "Requires local governments to allow increased housing density near transit corridors, setting housing opportunity goals based on acres of transit-related areas at an average of 40 homes per acre. DOLA assists communities in calculating and meeting these targets.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "density",
+        "transit-oriented"
+      ],
+      "category": "transit-housing",
+      "updatedDate": "2025-05-16",
+      "sourceUrl": "https://content.leg.colorado.gov/sites/default/files/r25-499_recent_housing_policies_and_implementation-accessible.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-co-sb-24-174",
+      "billCode": "SB 24-174",
+      "title": "Sustainable Affordable Housing Assistance",
+      "summary": "Requires DOLA to support local governments in conducting housing needs assessments, housing action plans, and strategic growth and water supply elements of comprehensive plans. DOLA has awarded over $1.4 million across 15 projects through the third cycle of the Housing Planning Grant Program to fund compliance work.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-05-16",
+      "sourceUrl": "https://cdola.colorado.gov/press-release/department-of-local-affairs-announces-awards-for-latest-housing-planning-grant-0",
+      "sponsors": []
+    }
+  ]
+}

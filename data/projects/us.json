@@ -1,0 +1,965 @@
+{
+  "country": "United States",
+  "currency": "USD",
+  "lastUpdated": "2026-04-16",
+  "projects": [
+    {
+      "id": "us-az-senior-bridge-transitional-housing",
+      "developer": "City of Phoenix",
+      "status": "operational",
+      "projectName": "Senior Bridge Transitional Housing",
+      "location": "Phoenix",
+      "state": "AZ",
+      "country": "United States",
+      "projectType": "social",
+      "notes": "Senior Bridge is a new transitional housing site in Phoenix specifically designed for adults aged 55 and older. The City of Phoenix celebrated the Phase I opening of the facility, which provides a critical bridge between homelessness or hou",
+      "source": "https://www.phoenix.gov/newsroom/homeless-solutions-news/senior-bridge-grand-opening.html",
+      "primaryBeneficiary": "Seniors",
+      "storyBlurb": "Senior Bridge is a new transitional housing site in Phoenix specifically designed for adults aged 55 and older. The City of Phoenix celebrated the Phase I opening of the facility, which provides a critical bridge between homelessness or housing instability and permanent housing for older adults who are among the most vulnerable populations in the region.\n\nThe project addresses a recognized gap in the continuum of care for seniors, who may not qualify for or access traditional emergency shelters yet lack the resources to secure market-rate housing. By targeting adults 55 and older, Senior Bridge fills a niche that standard transitional housing programs often overlook.\n\nThe opening of Phase I signals the city's recognition that senior homelessness is a distinct and growing challenge, particularly in Sun Belt cities experiencing rapid cost-of-living increases. Phoenix continues to use its Housing Phoenix Plan framework and public partnerships to fund and operate housing solutions for its most at-risk residents, with further phases anticipated as the city scales its transitional housing capacity.",
+      "issues": [
+        "affordability",
+        "social-mix"
+      ],
+      "relatedBillIds": [
+        "us-federal-hr-6644",
+        "us-az-sb-1505",
+        "us-az-hb-2607"
+      ],
+      "sources": [
+        {
+          "title": "New Transitional Housing for Seniors",
+          "publisher": "City of Phoenix",
+          "url": "https://www.phoenix.gov/newsroom/homeless-solutions-news/senior-bridge-grand-opening.html",
+          "date": "2025-01-01"
+        },
+        {
+          "title": "City of Phoenix Creates or Preserves 50000 Housing Units 5 Years Early",
+          "publisher": "City of Phoenix",
+          "url": "https://www.phoenix.gov/newsroom/housing-news/3341.html",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "id": "us-ca-nellie-hannon-gateway-affordable-homes",
+      "developer": "California Department of Toxic Substances Control (DTSC) / Local Partners",
+      "status": "operational",
+      "projectName": "Nellie Hannon Gateway Affordable Homes",
+      "location": "Emeryville",
+      "state": "CA",
+      "country": "United States",
+      "unitCount": 90,
+      "projectType": "rental",
+      "yearProposed": 2026,
+      "notes": "The Nellie Hannon Gateway in Emeryville opened 90 new affordable homes for low-income and unhoused Bay Area residents, made possible by a state-funded environmental cleanup of the site. State leaders and local officials gathered to celebrat",
+      "source": "https://dtsc.ca.gov/2026/03/24/more-than-2100-new-affordable-homes-to-low-income-and-unhoused-bay-area-residents-thanks-to-state-funded-cleanup/",
+      "primaryBeneficiary": "Low-income and unhoused Bay Area residents",
+      "storyBlurb": "The Nellie Hannon Gateway in Emeryville opened 90 new affordable homes for low-income and unhoused Bay Area residents, made possible by a state-funded environmental cleanup of the site. State leaders and local officials gathered to celebrate the opening, which represents the culmination of years of remediation work by the California Department of Toxic Substances Control.\n\nThe project is part of a broader Bay Area initiative that will ultimately deliver more than 2,100 new affordable homes to low-income and unhoused residents across multiple sites, all of which required prior environmental cleanup funded by the state. The model demonstrates how brownfield remediation and affordable housing production can be sequenced to maximize the productive use of contaminated land that would otherwise remain idle.\n\nHousing advocates have highlighted this approach as a scalable solution for the Bay Area, where developable land is scarce and expensive. By cleaning up and repurposing contaminated sites, California can unlock new housing capacity without displacing existing residents or consuming green space, addressing multiple housing and environmental policy goals simultaneously.",
+      "issues": [
+        "affordability",
+        "green-space-environment",
+        "displacement-gentrification"
+      ],
+      "relatedBillIds": [
+        "us-ca-sb-555",
+        "us-ca-ab-413",
+        "us-ca-ab-1275"
+      ],
+      "sources": [
+        {
+          "title": "More Than 2100 New Affordable Homes to Low Income and Unhoused Bay Area Residents",
+          "publisher": "California Department of Toxic Substances Control",
+          "url": "https://dtsc.ca.gov/2026/03/24/more-than-2100-new-affordable-homes-to-low-income-and-unhoused-bay-area-residents-thanks-to-state-funded-cleanup/",
+          "date": "2026-03-24"
+        },
+        {
+          "title": "Opening of New Affordable Housing Made Possible by Successful State-Funded Cleanup",
+          "publisher": "California Department of Toxic Substances Control",
+          "url": "https://dtsc.ca.gov/2026/03/06/opening-of-new-affordable-housing-made-possible-by-successful-state-funded-cleanup/",
+          "date": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "us-ca-state-funded-cleanup-affordable-housing-200-units",
+      "developer": "California Department of Toxic Substances Control (DTSC)",
+      "status": "operational",
+      "projectName": "State-Funded Cleanup Affordable Housing (200+ Units)",
+      "location": "California (statewide)",
+      "state": "CA",
+      "country": "United States",
+      "unitCount": 200,
+      "projectType": "rental",
+      "yearProposed": 2026,
+      "notes": "More than 200 new affordable homes opened for low-income and unhoused residents across California, enabled by successful state-funded environmental cleanups of formerly contaminated sites. The California Department of Toxic Substances Contr",
+      "source": "https://dtsc.ca.gov/2026/03/06/opening-of-new-affordable-housing-made-possible-by-successful-state-funded-cleanup/",
+      "primaryBeneficiary": "Low-income and unhoused residents",
+      "storyBlurb": "More than 200 new affordable homes opened for low-income and unhoused residents across California, enabled by successful state-funded environmental cleanups of formerly contaminated sites. The California Department of Toxic Substances Control (DTSC) announced the milestone in March 2026, highlighting the dual benefit of remediating hazardous land while simultaneously creating urgently needed affordable housing.\n\nThe projects demonstrate a growing state strategy of treating brownfield cleanup as a housing production tool, particularly in high-cost urban areas where land scarcity is a primary driver of affordability problems. By underwriting the cleanup costs, the state effectively subsidizes land acquisition for affordable housing developers who would otherwise be unable to take on remediated sites.\n\nThe openings drew praise from environmental justice advocates, who noted that many of the sites are located in historically underserved communities that bore the burden of industrial contamination for decades. Converting these sites into affordable housing represents a form of restorative investment in communities long excluded from economic opportunity and quality housing.",
+      "issues": [
+        "affordability",
+        "green-space-environment",
+        "social-mix"
+      ],
+      "relatedBillIds": [
+        "us-ca-sb-555",
+        "us-ca-ab-301",
+        "us-ca-ab-413"
+      ],
+      "sources": [
+        {
+          "title": "Opening of New Affordable Housing Made Possible by Successful State-Funded Cleanup",
+          "publisher": "California Department of Toxic Substances Control",
+          "url": "https://dtsc.ca.gov/2026/03/06/opening-of-new-affordable-housing-made-possible-by-successful-state-funded-cleanup/",
+          "date": "2026-03-06"
+        },
+        {
+          "title": "More Than 2100 New Affordable Homes to Low Income and Unhoused Bay Area Residents",
+          "publisher": "California Department of Toxic Substances Control",
+          "url": "https://dtsc.ca.gov/2026/03/24/more-than-2100-new-affordable-homes-to-low-income-and-unhoused-bay-area-residents-thanks-to-state-funded-cleanup/",
+          "date": "2026-03-24"
+        }
+      ]
+    },
+    {
+      "id": "us-co-residences-on-acoma",
+      "developer": "City of Denver / Department of Housing Stability",
+      "status": "operational",
+      "projectName": "Residences on Acoma",
+      "location": "Denver",
+      "state": "CO",
+      "country": "United States",
+      "unitCount": 128,
+      "projectType": "social",
+      "notes": "Located at 1501 S. Acoma Street in Denver's Overland neighborhood, the Residences on Acoma opened 128 income-restricted homes, including 60 units of supportive housing for residents with complex needs. The City of Denver celebrated the open",
+      "source": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/News/City-of-Denver-Celebrates-Opening-of-Residences-on-Acoma",
+      "primaryBeneficiary": "Low-income renters",
+      "storyBlurb": "Located at 1501 S. Acoma Street in Denver's Overland neighborhood, the Residences on Acoma opened 128 income-restricted homes, including 60 units of supportive housing for residents with complex needs. The City of Denver celebrated the opening as a significant addition to the city's affordable and supportive housing stock, combining permanent affordable rentals with on-site wrap-around services.\n\nThe inclusion of 60 supportive units reflects Denver's recognition that a portion of residents experiencing homelessness or housing instability require more than a roof over their heads—they need integrated health, behavioral health, and case management services to achieve lasting stability. The Overland neighborhood location provides residents with access to transit and community amenities while placing them in an established residential area rather than an isolated facility.\n\nThe project was backed by Denver's Department of Housing Stability and financed through a combination of public subsidies, tax credits, and supportive services funding. It stands as one of the city's most visible recent successes in delivering both deeply affordable and supportive housing within the same development footprint, a model Denver aims to replicate across other neighborhoods.",
+      "issues": [
+        "affordability",
+        "social-mix",
+        "community-input-consultation"
+      ],
+      "relatedBillIds": [
+        "us-co-sb-24-174",
+        "us-co-hb-24-1313",
+        "us-federal-hr-6644"
+      ],
+      "sources": [
+        {
+          "title": "City of Denver Celebrates Opening of Residences on Acoma",
+          "publisher": "Denver Department of Housing Stability",
+          "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/News/City-of-Denver-Celebrates-Opening-of-Residences-on-Acoma",
+          "date": "2025-01-01"
+        },
+        {
+          "title": "Transformative Housing Investment Breaks Ground in Denver's North Capitol Hill U Neighborhood",
+          "publisher": "Denver Department of Housing Stability",
+          "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/News/Transformative-Housing-Investment-Breaks-Ground-in-Denver%E2%80%99s-North-Capitol-Hill-U-Neighborhood",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "id": "us-co-valley-homes-public-housing",
+      "developer": "Denver Housing Authority / City of Denver",
+      "status": "operational",
+      "projectName": "Valley Homes Public Housing",
+      "location": "Denver",
+      "state": "CO",
+      "country": "United States",
+      "unitCount": 333,
+      "projectType": "social",
+      "notes": "Valley Homes completed construction of 333 public housing units in late 2025, with lease-up expected to continue into 2026. The development represents one of Denver's most significant recent additions to its public housing stock, delivering",
+      "source": "https://www.denvergov.org/files/assets/public/v/2/economic-development/documents/hud/2026-annual-action-plan-for-public-comment1.pdf",
+      "primaryBeneficiary": "Low-income renters",
+      "storyBlurb": "Valley Homes completed construction of 333 public housing units in late 2025, with lease-up expected to continue into 2026. The development represents one of Denver's most significant recent additions to its public housing stock, delivering deeply affordable homes for the city's lowest-income residents who cannot be served by tax-credit or market-rate housing alone.\n\nThe project was referenced in Denver's 2026 Annual Action Plan submitted to HUD, reflecting the city's commitment to maintaining and expanding its public housing portfolio as a cornerstone of its affordable housing strategy. Public housing at 333 units represents a substantial investment in the kind of deeply subsidized housing that private developers cannot produce without significant government support.\n\nLease-up activity extending into 2026 indicates ongoing work to connect eligible residents with available units, a process that involves income verification, waitlist management, and coordination with social service providers. Denver's Department of Housing Stability and its federal partners at HUD continue to monitor the project's progress as it transitions from construction into full occupancy.",
+      "issues": [
+        "affordability",
+        "social-mix"
+      ],
+      "relatedBillIds": [
+        "us-federal-hr-6644",
+        "us-federal-hr-1",
+        "us-co-sb-24-174"
+      ],
+      "sources": [
+        {
+          "title": "Denver 2026 Annual Action Plan for Public Comment",
+          "publisher": "Denver Office of Economic Development",
+          "url": "https://www.denvergov.org/files/assets/public/v/2/economic-development/documents/hud/2026-annual-action-plan-for-public-comment1.pdf",
+          "date": "2026-01-01"
+        },
+        {
+          "title": "Expanding Housing Affordability Ordinance and Affordable Housing Fee",
+          "publisher": "Denver Community Planning and Development",
+          "url": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Plan-Review-Permits-and-Inspections/Development-Fees/EHA-Ordinance-and-Affordable-Housing-Fee",
+          "date": "2022-07-01"
+        }
+      ]
+    },
+    {
+      "id": "us-nc-eastway-crossings-apartments",
+      "developer": "Harmony Housing Affordable Development",
+      "status": "operational",
+      "projectName": "Eastway Crossings Apartments",
+      "location": "North Carolina",
+      "state": "NC",
+      "country": "United States",
+      "projectType": "rental",
+      "notes": "Eastway Crossings Apartments, developed by Harmony Housing Affordable Development, received the 2025 Housing North Carolina Award for Creative Partnerships, recognizing the project's innovative approach to financing and community collaborat",
+      "source": "https://www.nchfa.com/news/press-release/eastway-crossings-apartments-recognized-outstanding-creative-partnerships",
+      "primaryBeneficiary": "Low-income renters",
+      "storyBlurb": "Eastway Crossings Apartments, developed by Harmony Housing Affordable Development, received the 2025 Housing North Carolina Award for Creative Partnerships, recognizing the project's innovative approach to financing and community collaboration. The award, presented by the North Carolina Housing Finance Agency (NCHFA), highlights Eastway Crossings as a model for how public-private partnerships can deliver quality affordable housing in competitive markets.\n\nHarmony Housing Affordable Development is a nonprofit affordable housing developer operating across the Southeast, with a track record of producing income-restricted rental communities financed through Low Income Housing Tax Credits and other public subsidy programs. The Creative Partnerships award specifically recognizes projects that forge unusual or exemplary alliances among developers, governments, nonprofits, and community stakeholders.\n\nEastway Crossings demonstrates how thoughtful project design and partnership structures can produce affordable housing that serves its residents effectively while earning recognition from peers in the housing industry. NCHFA's awards program is designed to celebrate innovation and excellence in affordable housing development across North Carolina, encouraging the replication of successful models in communities facing affordability challenges throughout the state.",
+      "issues": [
+        "affordability",
+        "community-input-consultation"
+      ],
+      "relatedBillIds": [
+        "us-nc-2025-aap",
+        "us-nc-2026-qap",
+        "us-nc-shdp-integrated-guidelines"
+      ],
+      "sources": [
+        {
+          "title": "Eastway Crossings Apartments Recognized for Outstanding Creative Partnerships",
+          "publisher": "North Carolina Housing Finance Agency",
+          "url": "https://www.nchfa.com/news/press-release/eastway-crossings-apartments-recognized-outstanding-creative-partnerships",
+          "date": "2025-01-01"
+        },
+        {
+          "title": "NCHFA: Creating Affordable Housing Opportunities for North Carolinians",
+          "publisher": "North Carolina Housing Finance Agency",
+          "url": "https://www.nchfa.com/",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "id": "us-federal-hud-project-based-rental-assistance-pbra-program",
+      "developer": "U.S. Department of Housing and Urban Development (HUD)",
+      "status": "operational",
+      "projectName": "HUD Project-Based Rental Assistance (PBRA) Program",
+      "location": "National",
+      "state": "FEDERAL",
+      "country": "United States",
+      "unitCount": 1300000,
+      "projectType": "rental",
+      "notes": "HUD's Project-Based Rental Assistance (PBRA) program provides approximately 1.3 million safe, decent, and affordable housing units for low-income and very low-income households across the United States. As one of the federal government's la",
+      "source": "https://www.hud.gov/sites/dfiles/CFO/documents/2027_CJ_Program_PBRA.pdf",
+      "primaryBeneficiary": "Low-income renters",
+      "storyBlurb": "HUD's Project-Based Rental Assistance (PBRA) program provides approximately 1.3 million safe, decent, and affordable housing units for low-income and very low-income households across the United States. As one of the federal government's largest affordable housing programs, PBRA subsidizes the difference between market rents and what eligible low-income tenants can afford to pay, ensuring long-term affordability in privately owned multifamily housing.\n\nThe program works by attaching rental assistance to specific housing units rather than to individual tenants, creating a stable source of income for property owners who agree to maintain affordability standards and physical conditions. HUD's FY2027 Congressional Justification highlights the critical importance of contract renewals and funding continuity for the 1.3 million households who depend on PBRA for their housing stability.\n\nBudget pressures and appropriations uncertainty—including a reported lapse in appropriations in early 2026—pose ongoing risks to the program's ability to renew expiring contracts and maintain the existing stock of project-based assisted housing. Housing advocates have consistently warned that failure to renew PBRA contracts can lead to the loss of affordable units, displacement of vulnerable tenants, and conversion of properties to market-rate use, making sustained federal investment essential.",
+      "issues": [
+        "affordability",
+        "displacement-gentrification"
+      ],
+      "relatedBillIds": [
+        "us-federal-hr-6644",
+        "us-federal-hr-1"
+      ],
+      "sources": [
+        {
+          "title": "Office of Housing Project-Based Rental Assistance – FY2027 Congressional Justification",
+          "publisher": "U.S. Department of Housing and Urban Development",
+          "url": "https://www.hud.gov/sites/dfiles/CFO/documents/2027_CJ_Program_PBRA.pdf",
+          "date": "2026-01-01"
+        },
+        {
+          "title": "FHA INFO Messages: Single Family Housing Industry News",
+          "publisher": "U.S. Department of Housing and Urban Development",
+          "url": "http://www.hud.gov/hud-partners/single-family-fha-info",
+          "date": "2026-02-02"
+        }
+      ]
+    },
+    {
+      "id": "us-az-helen-drake-village",
+      "developer": "City of Phoenix",
+      "status": "under-construction",
+      "projectName": "Helen Drake Village",
+      "location": "Phoenix",
+      "state": "AZ",
+      "country": "United States",
+      "projectType": "rental",
+      "notes": "Helen Drake Village represents another milestone in Phoenix's ambitious Housing Phoenix Plan, which set a goal of creating or preserving 50,000 housing units by 2030. The City of Phoenix and its partners celebrated the groundbreaking of thi",
+      "source": "https://www.phoenix.gov/newsroom/housing-news/city-of-phoenix-celebrates-groundbreaking-of-new-senior-affordab.html",
+      "primaryBeneficiary": "Seniors",
+      "storyBlurb": "Helen Drake Village represents another milestone in Phoenix's ambitious Housing Phoenix Plan, which set a goal of creating or preserving 50,000 housing units by 2030. The City of Phoenix and its partners celebrated the groundbreaking of this new affordable senior housing community, continuing a years-long push to address the shortage of affordable homes for older residents in the metropolitan area.\n\nThe project is part of a broader municipal strategy that has already reached the 50,000-unit threshold five years ahead of schedule, according to city officials. Funding for the development draws on a combination of city resources and partnerships with affordable housing developers, reflecting Phoenix's model of leveraging public-private collaboration to maximize impact.\n\nHelen Drake Village underscores the city's focus on senior-specific housing solutions, recognizing that older adults on fixed incomes face acute affordability pressures in one of the fastest-growing Sun Belt cities. The groundbreaking signals continued momentum in Phoenix's effort to build a more inclusive and equitable housing landscape.",
+      "issues": [
+        "affordability"
+      ],
+      "relatedBillIds": [
+        "us-federal-hr-6644",
+        "us-az-hb-2607",
+        "us-federal-hr-1"
+      ],
+      "sources": [
+        {
+          "title": "Phoenix Celebrates Groundbreaking of New Senior Affordable Housing",
+          "publisher": "City of Phoenix",
+          "url": "https://www.phoenix.gov/newsroom/housing-news/city-of-phoenix-celebrates-groundbreaking-of-new-senior-affordab.html",
+          "date": "2025-01-01"
+        },
+        {
+          "title": "City of Phoenix Creates or Preserves 50000 Housing Units 5 Years Early",
+          "publisher": "City of Phoenix",
+          "url": "https://www.phoenix.gov/newsroom/housing-news/3341.html",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "id": "us-az-the-moreland",
+      "developer": "City of Phoenix",
+      "status": "under-construction",
+      "projectName": "The Moreland",
+      "location": "Phoenix",
+      "state": "AZ",
+      "country": "United States",
+      "unitCount": 237,
+      "projectType": "rental",
+      "notes": "The Moreland is a landmark affordable housing development in Phoenix being delivered in two phases: Phase I will deliver 132 units with construction anticipated to run through December 2027, followed by Phase II adding another 105 units. Th",
+      "source": "https://www.phoenix.gov/newsroom/housing-news/phoenix-breaks-ground-on-the-moreland--a-landmark-affordable-hou.html",
+      "primaryBeneficiary": "Low-income renters",
+      "storyBlurb": "The Moreland is a landmark affordable housing development in Phoenix being delivered in two phases: Phase I will deliver 132 units with construction anticipated to run through December 2027, followed by Phase II adding another 105 units. The groundbreaking ceremony marked a significant investment in the city's commitment to expanding affordable housing stock for low- and moderate-income households.\n\nThe project aligns directly with the Housing Phoenix Plan, approved in June 2020, which set an ambitious target of creating or preserving 50,000 housing units by 2030. Phoenix has already surpassed that goal five years ahead of schedule, but continues to prioritize new developments to meet ongoing demand in a rapidly growing metropolitan region.\n\nThe Moreland is considered a landmark not only for its scale but for its phased approach, which allows the city and its development partners to manage financing and construction logistics while delivering units to residents in need as quickly as possible. The project exemplifies how Phoenix is tackling affordability challenges through sustained public-private collaboration.",
+      "issues": [
+        "affordability",
+        "density-height"
+      ],
+      "relatedBillIds": [
+        "us-federal-hr-6644",
+        "us-federal-hr-1",
+        "us-az-hb-2607"
+      ],
+      "sources": [
+        {
+          "title": "Phoenix Breaks Ground on The Moreland: A Landmark Affordable Housing Development",
+          "publisher": "City of Phoenix",
+          "url": "https://www.phoenix.gov/newsroom/housing-news/phoenix-breaks-ground-on-the-moreland--a-landmark-affordable-hou.html",
+          "date": "2025-01-01"
+        },
+        {
+          "title": "Housing Phoenix Plan",
+          "publisher": "City of Phoenix",
+          "url": "https://www.phoenix.gov/administration/departments/housing/housing-phoenix-plan.html",
+          "date": "2020-06-01"
+        }
+      ]
+    },
+    {
+      "id": "us-az-arizona-affordable-apartment-homes-adoh-spring-202",
+      "developer": "Arizona Department of Housing (ADOH)",
+      "status": "under-construction",
+      "projectName": "Arizona Affordable Apartment Homes (ADOH Spring 2025)",
+      "location": "Arizona (statewide)",
+      "state": "AZ",
+      "country": "United States",
+      "unitCount": 48,
+      "projectType": "rental",
+      "notes": "The Arizona Department of Housing (ADOH) announced $17 million in housing tax credits and other financing directed toward 48 new affordable apartment homes for low- to middle-income residents across the state. The funding reflects the depar",
+      "source": "https://housing.az.gov/sites/default/files/2025-07/ADOH%20Newsletter%20-%20Spring%202025%20-%20Volume%202.pdf",
+      "primaryBeneficiary": "Low- to middle-income renters",
+      "storyBlurb": "The Arizona Department of Housing (ADOH) announced $17 million in housing tax credits and other financing directed toward 48 new affordable apartment homes for low- to middle-income residents across the state. The funding reflects the department's ongoing strategy of combining Low Income Housing Tax Credits with supplementary financing tools to maximize affordable unit production.\n\nThe 48 units represent one tranche of a broader statewide effort to close Arizona's affordable housing gap, which has widened significantly as population growth and economic migration have driven up housing costs. ADOH has been actively deploying state and federal resources to support developers willing to commit to long-term affordability restrictions.\n\nThe Spring 2025 newsletter highlighted this investment as part of ADOH's continuing mission to advance the development of affordable, quality housing across Arizona. By targeting low- to middle-income households, the initiative recognizes that affordability stress extends well beyond the lowest income brackets and requires layered public financing solutions.",
+      "issues": [
+        "affordability"
+      ],
+      "relatedBillIds": [
+        "us-federal-hr-6644",
+        "us-az-hb-2607",
+        "us-az-hb-2325"
+      ],
+      "sources": [
+        {
+          "title": "Advancing the Development of Affordable, Quality Housing – Spring 2025",
+          "publisher": "Arizona Department of Housing",
+          "url": "https://housing.az.gov/sites/default/files/2025-07/ADOH%20Newsletter%20-%20Spring%202025%20-%20Volume%202.pdf",
+          "date": "2025-07-01"
+        },
+        {
+          "title": "Housing Phoenix Plan",
+          "publisher": "City of Phoenix",
+          "url": "https://www.phoenix.gov/administration/departments/housing/housing-phoenix-plan.html",
+          "date": "2020-06-01"
+        }
+      ]
+    },
+    {
+      "id": "us-ca-homekey-affordable-communities-2025-round",
+      "developer": "California Department of Housing and Community Development (HCD)",
+      "status": "under-construction",
+      "projectName": "Homekey+ Affordable Communities (2025 Round)",
+      "location": "California (statewide)",
+      "state": "CA",
+      "country": "United States",
+      "unitCount": 37,
+      "projectType": "social",
+      "notes": "California's Homekey+ program awarded $636.1 million in 2025 to create 37 affordable housing communities equipped with wrap-around supportive services. The program, funded in part by Proposition 1 passed by California voters, targets indivi",
+      "source": "https://www.hcd.ca.gov/about-hcd/newsroom/2025-awards",
+      "primaryBeneficiary": "Low-income and unhoused Californians",
+      "storyBlurb": "California's Homekey+ program awarded $636.1 million in 2025 to create 37 affordable housing communities equipped with wrap-around supportive services. The program, funded in part by Proposition 1 passed by California voters, targets individuals experiencing or at risk of homelessness, including veterans and those with behavioral health challenges.\n\nHomekey+ represents an evolution of the original Homekey program, which rapidly converted hotels and motels into permanent housing during the COVID-19 pandemic. The expanded program broadens the model to include new construction and rehabilitation projects with integrated health and social services, recognizing that housing alone is insufficient for many residents who need ongoing support to maintain stability.\n\nThe $636.1 million investment is part of nearly $2.8 billion in total housing awards announced by HCD in 2025, marking one of the most significant years of affordable housing investment in state history. The program has drawn praise from housing advocates and local governments alike, though some critics have raised concerns about long-term operating costs and the need for sustained state funding commitments beyond initial capital awards.",
+      "issues": [
+        "affordability",
+        "social-mix",
+        "community-input-consultation"
+      ],
+      "relatedBillIds": [
+        "us-ca-sb-555",
+        "us-ca-ab-413",
+        "us-ca-sb-1"
+      ],
+      "sources": [
+        {
+          "title": "Governor Newsom Announced Nearly $2.8 Billion in Awards in 2025",
+          "publisher": "California Department of Housing and Community Development",
+          "url": "https://www.hcd.ca.gov/about-hcd/newsroom/2025-awards",
+          "date": "2025-12-01"
+        },
+        {
+          "title": "Prop. 1 Continues to Create Affordable Homes for Californians with Behavioral Health Challenges",
+          "publisher": "California Department of Housing and Community Development",
+          "url": "https://www.hcd.ca.gov/about-hcd/newsroom/hkplus-0326",
+          "date": "2026-03-01"
+        }
+      ]
+    },
+    {
+      "id": "us-co-north-capitol-hill-u-neighborhood-affordable-housi",
+      "developer": "City and County of Denver / Department of Housing Stability",
+      "status": "under-construction",
+      "projectName": "North Capitol Hill / U Neighborhood Affordable Housing",
+      "location": "Denver",
+      "state": "CO",
+      "country": "United States",
+      "projectType": "rental",
+      "notes": "Denver broke ground on a transformative five-story affordable housing development in the North Capitol Hill / U Neighborhood, providing apartment homes for households earning between 30% and 80% of the Area Median Income (AMI). The mixed-in",
+      "source": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/News/Transformative-Housing-Investment-Breaks-Ground-in-Denver%E2%80%99s-North-Capitol-Hill-U-Neighborhood",
+      "primaryBeneficiary": "Low- to moderate-income renters",
+      "storyBlurb": "Denver broke ground on a transformative five-story affordable housing development in the North Capitol Hill / U Neighborhood, providing apartment homes for households earning between 30% and 80% of the Area Median Income (AMI). The mixed-income range is designed to serve a broad spectrum of low- to moderate-income residents, offering a variety of unit types including one-bedroom and larger family-sized apartments.\n\nThe project is backed by Denver's Department of Housing Stability and reflects the city's Expanding Housing Affordability (EHA) framework, which went into effect in July 2022 and requires residential developments of ten or more units to include affordable housing components either on-site or through fee contributions. The North Capitol Hill groundbreaking is one of several major investments the city has celebrated in recent months.\n\nThe development's location in an established urban neighborhood raises both opportunity and concern: residents will benefit from walkability and proximity to jobs and transit, but community groups have flagged the importance of ensuring that new investment does not accelerate displacement of existing lower-income residents in surrounding blocks. City officials have emphasized affordability covenants and income restrictions as safeguards.",
+      "issues": [
+        "affordability",
+        "density-height",
+        "displacement-gentrification",
+        "transit-access"
+      ],
+      "relatedBillIds": [
+        "us-co-hb-24-1313",
+        "us-federal-hr-6644",
+        "us-co-sb-24-174"
+      ],
+      "sources": [
+        {
+          "title": "Transformative Housing Investment Breaks Ground in Denver's North Capitol Hill U Neighborhood",
+          "publisher": "Denver Department of Housing Stability",
+          "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/News/Transformative-Housing-Investment-Breaks-Ground-in-Denver%E2%80%99s-North-Capitol-Hill-U-Neighborhood",
+          "date": "2025-01-01"
+        },
+        {
+          "title": "Expanding Housing Affordability Ordinance and Affordable Housing Fee",
+          "publisher": "Denver Community Planning and Development",
+          "url": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Plan-Review-Permits-and-Inspections/Development-Fees/EHA-Ordinance-and-Affordable-Housing-Fee",
+          "date": "2022-07-01"
+        }
+      ]
+    },
+    {
+      "id": "us-co-denver-dry-goods-building-affordable-housing-redev",
+      "developer": "City of Denver / Department of Housing Stability",
+      "status": "under-construction",
+      "projectName": "Denver Dry Goods Building Affordable Housing Redevelopment",
+      "location": "Denver",
+      "state": "CO",
+      "country": "United States",
+      "unitCount": 106,
+      "affordableUnits": 106,
+      "projectType": "mixed",
+      "notes": "Denver celebrated the groundbreaking of an affordable housing redevelopment at the historic Denver Dry Goods Building, a project that will rehabilitate 51 existing affordable units and convert underutilized commercial space into 55 new home",
+      "source": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/News/City-of-Denver-Celebrates-Groundbreaking-of-Affordable-Housing-Redevelopment-at-Historic-Denver-Dry-Goods-Building",
+      "primaryBeneficiary": "Low-income renters",
+      "storyBlurb": "Denver celebrated the groundbreaking of an affordable housing redevelopment at the historic Denver Dry Goods Building, a project that will rehabilitate 51 existing affordable units and convert underutilized commercial space into 55 new homes, for a combined total of 106 affordable residences. The project breathes new life into a historic downtown landmark while simultaneously addressing the city's pressing need for affordable housing.\n\nThe adaptive reuse of commercial space into residential units reflects a growing trend in Denver and other cities of repurposing underused retail and office space—particularly relevant in a post-pandemic environment where commercial vacancy rates have remained elevated. By targeting the historic Denver Dry Goods Building, the city is also engaging with historic preservation values, seeking to honor the building's architectural legacy while modernizing it for contemporary residential use.\n\nThe project is part of Denver's broader Expanding Housing Affordability framework and is backed by the Department of Housing Stability. Community stakeholders have generally supported the adaptive reuse approach, though some historic preservation advocates have called for careful attention to design standards to ensure that the conversion respects the building's significant heritage.",
+      "issues": [
+        "affordability",
+        "historic-preservation",
+        "density-height"
+      ],
+      "relatedBillIds": [
+        "us-federal-hr-6644",
+        "us-co-sb-24-174",
+        "us-co-hb-24-1313"
+      ],
+      "sources": [
+        {
+          "title": "Denver Celebrates Denver Dry Goods Building Housing Groundbreaking",
+          "publisher": "Denver Department of Housing Stability",
+          "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/News/City-of-Denver-Celebrates-Groundbreaking-of-Affordable-Housing-Redevelopment-at-Historic-Denver-Dry-Goods-Building",
+          "date": "2025-01-01"
+        },
+        {
+          "title": "Expanding Housing Affordability Ordinance and Affordable Housing Fee",
+          "publisher": "Denver Community Planning and Development",
+          "url": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Plan-Review-Permits-and-Inspections/Development-Fees/EHA-Ordinance-and-Affordable-Housing-Fee",
+          "date": "2022-07-01"
+        }
+      ]
+    },
+    {
+      "id": "us-co-iliff-apartments",
+      "developer": "Affordable Housing Developer (Denver Partners)",
+      "status": "under-construction",
+      "projectName": "Iliff Apartments",
+      "location": "Denver",
+      "state": "CO",
+      "country": "United States",
+      "unitCount": 50,
+      "projectType": "rental",
+      "notes": "Denver and its development partners broke ground on Iliff Apartments, a new 50-unit affordable housing community dedicated to adults aged 62 and older in the University Hills neighborhood. The project addresses a recognized shortage of affo",
+      "source": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/News/Denver-and-Partners-Break-Ground-on-Iliff-Apartments-Bringing-Affordable-Older-Adult-Housing-to-Denver%E2%80%99s-University-Hills-Neighborhood",
+      "primaryBeneficiary": "Seniors",
+      "storyBlurb": "Denver and its development partners broke ground on Iliff Apartments, a new 50-unit affordable housing community dedicated to adults aged 62 and older in the University Hills neighborhood. The project addresses a recognized shortage of affordable senior housing in Denver, where older adults on fixed incomes face acute affordability pressures in an increasingly expensive housing market.\n\nIliff Apartments will provide income-restricted rental homes specifically designed to meet the physical and social needs of older residents, including accessibility features and proximity to neighborhood amenities. The University Hills location offers seniors access to transit, retail, and community services, supporting aging in place in a walkable urban environment.\n\nThe project is backed by Denver's Department of Housing Stability and financed through a combination of affordable housing tax credits and public subsidies. It represents one component of Denver's broader strategy of targeting housing investments toward populations with acute needs, including seniors, who face compounding vulnerabilities from fixed incomes, healthcare costs, and the rising cost of housing in Colorado's largest city.",
+      "issues": [
+        "affordability",
+        "transit-access"
+      ],
+      "relatedBillIds": [
+        "us-co-hb-24-1313",
+        "us-co-sb-24-174",
+        "us-federal-hr-6644"
+      ],
+      "sources": [
+        {
+          "title": "Denver and Partners Break Ground on Iliff Apartments",
+          "publisher": "Denver Department of Housing Stability",
+          "url": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/News/Denver-and-Partners-Break-Ground-on-Iliff-Apartments-Bringing-Affordable-Older-Adult-Housing-to-Denver%E2%80%99s-University-Hills-Neighborhood",
+          "date": "2025-01-01"
+        },
+        {
+          "title": "City of Denver Celebrates Opening of Residences on Acoma",
+          "publisher": "Denver Department of Housing Stability",
+          "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Housing-Stability/News/City-of-Denver-Celebrates-Opening-of-Residences-on-Acoma",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "id": "us-wa-sound-transit-land-affordable-housing-community-mh",
+      "developer": "Washington State Department of Commerce / Local Developer",
+      "status": "under-construction",
+      "projectName": "Sound Transit Land Affordable Housing Community (MHU Review March 2025)",
+      "location": "Washington (statewide)",
+      "state": "WA",
+      "country": "United States",
+      "projectType": "rental",
+      "yearProposed": 2025,
+      "notes": "An affordable housing community highlighted in Washington State's March 2025 MHU Review is being constructed on land previously owned by Sound Transit, the regional transit agency, providing residents with close access to public transportat",
+      "source": "https://www.commerce.wa.gov/mhu-review-march-2025/",
+      "primaryBeneficiary": "Low-income renters",
+      "storyBlurb": "An affordable housing community highlighted in Washington State's March 2025 MHU Review is being constructed on land previously owned by Sound Transit, the regional transit agency, providing residents with close access to public transportation. The project exemplifies a growing strategy of leveraging surplus transit agency land for affordable housing, reducing land costs while ensuring residents are connected to the transit network they depend on.\n\nThe use of Sound Transit land reflects Washington State's and the Puget Sound region's commitment to transit-oriented affordable housing as a tool for addressing both housing and transportation equity. Households without vehicles benefit disproportionately from housing sited near transit, as access to jobs, healthcare, and education becomes significantly more feasible.\n\nThe project is consistent with Mayor Harrell's One Seattle Housing Agenda and broader state housing goals that prioritize infill development near transit infrastructure. Housing advocates have praised the Sound Transit land disposition as a model for how public agencies can align their real estate decisions with affordable housing goals, though some have noted that the pace of transit land transfers remains slower than the scale of housing need demands.",
+      "issues": [
+        "transit-access",
+        "affordability"
+      ],
+      "relatedBillIds": [
+        "us-wa-ssb-5938",
+        "us-wa-shb-1576",
+        "us-federal-hr-6644"
+      ],
+      "sources": [
+        {
+          "title": "MHU Review March 2025",
+          "publisher": "Washington State Department of Commerce",
+          "url": "https://www.commerce.wa.gov/mhu-review-march-2025/",
+          "date": "2025-03-01"
+        },
+        {
+          "title": "Mayor Bruce Harrell One Seattle Housing Agenda",
+          "publisher": "City of Seattle",
+          "url": "https://www.seattle.gov/documents/departments/mayor/2025-07-07%20deliberative%20housing%20draft%20v6.pdf",
+          "date": "2025-07-07"
+        }
+      ]
+    },
+    {
+      "id": "us-ca-governor-newsom-six-underutilized-state-land-proje",
+      "developer": "State of California / Governor's Office",
+      "status": "proposed",
+      "projectName": "Governor Newsom Six Underutilized State Land Projects",
+      "location": "California (statewide)",
+      "state": "CA",
+      "country": "United States",
+      "unitCount": 843,
+      "projectType": "rental",
+      "yearProposed": 2025,
+      "notes": "Governor Gavin Newsom announced the transformation of six underutilized state-owned sites into at least 843 new affordable homes, deploying a strategy of converting surplus public land into housing as a key tool in California's affordabilit",
+      "source": "https://www.gov.ca.gov/2025/11/26/this-season-of-thanks-governor-newsom-announces-six-projects-on-state-land-to-provide-families-with-new-affordable-housing/",
+      "primaryBeneficiary": "Low-income families",
+      "storyBlurb": "Governor Gavin Newsom announced the transformation of six underutilized state-owned sites into at least 843 new affordable homes, deploying a strategy of converting surplus public land into housing as a key tool in California's affordability crisis response. The announcement, made in November 2025, emphasized the state's commitment to using every available public resource to produce new housing supply.\n\nThe six projects span multiple communities across California, targeting families who have been priced out of the state's increasingly expensive housing market. By using state land, the projects reduce one of the largest barriers to affordable development: high land acquisition costs. This approach also allows the state to impose long-term affordability covenants that preserve housing access for future generations.\n\nThe initiative is part of Governor Newsom's broader housing agenda, which also includes the Homekey+ program and nearly $2.8 billion in awards announced through the California Department of Housing and Community Development (HCD). Critics and advocates alike have noted that while these projects are welcome, California's housing shortage numbers in the hundreds of thousands of units, requiring sustained and accelerated production.",
+      "issues": [
+        "affordability",
+        "community-input-consultation",
+        "displacement-gentrification"
+      ],
+      "relatedBillIds": [
+        "us-ca-ab-413",
+        "us-ca-sb-79",
+        "us-ca-ab-301"
+      ],
+      "sources": [
+        {
+          "title": "This Season of Thanks, Governor Newsom Announces Six Projects on State Land",
+          "publisher": "Office of Governor Gavin Newsom",
+          "url": "https://www.gov.ca.gov/2025/11/26/this-season-of-thanks-governor-newsom-announces-six-projects-on-state-land-to-provide-families-with-new-affordable-housing/",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Governor Newsom Announced Nearly $2.8 Billion in Awards in 2025",
+          "publisher": "California Department of Housing and Community Development",
+          "url": "https://www.hcd.ca.gov/about-hcd/newsroom/2025-awards",
+          "date": "2025-12-01"
+        }
+      ]
+    },
+    {
+      "id": "us-ca-sacramento-state-meta-downtown-sacramento-redevelo",
+      "developer": "Sacramento State University / Meta",
+      "status": "proposed",
+      "projectName": "Sacramento State / Meta Downtown Sacramento Redevelopment",
+      "location": "Sacramento",
+      "state": "CA",
+      "country": "United States",
+      "projectType": "rental",
+      "yearProposed": 2026,
+      "notes": "Governor Newsom, Sacramento State University, and technology giant Meta jointly announced plans to advance a major redevelopment project in downtown Sacramento aimed at creating affordable housing for students. The partnership represents an",
+      "source": "https://www.gov.ca.gov/2026/01/29/governor-newsom-sacramento-state-and-meta-advance-major-redevelopment-in-downtown-sacramento-to-create-affordable-housing-for-students/",
+      "primaryBeneficiary": "Students",
+      "storyBlurb": "Governor Newsom, Sacramento State University, and technology giant Meta jointly announced plans to advance a major redevelopment project in downtown Sacramento aimed at creating affordable housing for students. The partnership represents an unusual alignment of public university, state government, and private sector tech industry interests in addressing student housing affordability, which has become a crisis at California's public universities.\n\nThe project would transform underutilized downtown parcels into student housing, helping to relieve pressure on Sacramento's broader rental market while giving Sacramento State students access to affordable, centrally located homes. The involvement of Meta adds a significant private capital component that could accelerate construction timelines and expand the scale of the development.\n\nGovernor Newsom framed the announcement as part of his administration's effort to leverage state land and institutional partnerships to produce housing faster and at lower cost than traditional development pipelines allow. Student housing advocates have welcomed the initiative, though details on unit counts, affordability levels, and income restrictions were not fully specified in the initial announcement.",
+      "issues": [
+        "affordability",
+        "transit-access",
+        "density-height"
+      ],
+      "relatedBillIds": [
+        "us-ca-sb-555",
+        "us-ca-sb-79",
+        "us-ca-ab-413"
+      ],
+      "sources": [
+        {
+          "title": "Governor Newsom, Sacramento State, and Meta Advance Major Redevelopment in Downtown Sacramento",
+          "publisher": "Office of Governor Gavin Newsom",
+          "url": "https://www.gov.ca.gov/2026/01/29/governor-newsom-sacramento-state-and-meta-advance-major-redevelopment-in-downtown-sacramento-to-create-affordable-housing-for-students/",
+          "date": "2026-01-29"
+        },
+        {
+          "title": "This Season of Thanks, Governor Newsom Announces Six Projects on State Land",
+          "publisher": "Office of Governor Gavin Newsom",
+          "url": "https://www.gov.ca.gov/2025/11/26/this-season-of-thanks-governor-newsom-announces-six-projects-on-state-land-to-provide-families-with-new-affordable-housing/",
+          "date": "2025-11-26"
+        }
+      ]
+    },
+    {
+      "id": "us-co-transit-oriented-communities-infrastructure-awards",
+      "developer": "Colorado Department of Local Affairs (DOLA)",
+      "status": "proposed",
+      "projectName": "Transit Oriented Communities Infrastructure Awards",
+      "location": "Denver",
+      "state": "CO",
+      "country": "United States",
+      "unitCount": 720,
+      "projectType": "mixed",
+      "notes": "The Colorado Department of Local Affairs (DOLA) announced inaugural Transit Oriented Communities awards, directing funding to four communities to upgrade infrastructure that will support up to 720 units of affordable housing near transit co",
+      "source": "https://cdola.colorado.gov/press-release/department-of-local-affairs-announces-inaugural-transit-oriented-communities",
+      "primaryBeneficiary": "Mixed-income tenure",
+      "storyBlurb": "The Colorado Department of Local Affairs (DOLA) announced inaugural Transit Oriented Communities awards, directing funding to four communities to upgrade infrastructure that will support up to 720 units of affordable housing near transit corridors. The awards represent Colorado's first dedicated push to link affordable housing production directly to transit access, a strategy that aims to reduce household transportation costs while improving access to jobs and services.\n\nThe initiative recognizes that affordable housing sited near transit provides compounding benefits for low- and moderate-income residents: lower commuting costs, reduced car dependency, and better connections to economic opportunity. Denver and the surrounding region have struggled with affordability pressures as rapid growth has pushed housing prices well beyond the reach of working families, making transit-adjacent affordable housing a high-priority goal for state and local planners.\n\nThe four communities receiving awards will use the infrastructure funds to prepare sites and supporting systems—roads, utilities, and public amenities—that make affordable housing development financially feasible near transit nodes. Housing advocates have praised the program as an innovative alignment of transportation and housing policy, while some community groups have raised questions about displacement risks in neighborhoods targeted for transit-oriented densification.",
+      "issues": [
+        "transit-access",
+        "affordability",
+        "displacement-gentrification",
+        "density-height"
+      ],
+      "relatedBillIds": [
+        "us-co-hb-24-1313",
+        "us-co-sb-24-174",
+        "us-federal-hr-6644"
+      ],
+      "sources": [
+        {
+          "title": "Department of Local Affairs Announces Inaugural Transit Oriented Communities Awards",
+          "publisher": "Colorado Department of Local Affairs",
+          "url": "https://cdola.colorado.gov/press-release/department-of-local-affairs-announces-inaugural-transit-oriented-communities",
+          "date": "2025-01-01"
+        },
+        {
+          "title": "Expanding Housing Affordability – City and County of Denver",
+          "publisher": "Denver Community Planning and Development",
+          "url": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Plan-Review-Permits-and-Inspections/Development-Fees/EHA-Ordinance-and-Affordable-Housing-Fee",
+          "date": "2022-07-01"
+        }
+      ]
+    },
+    {
+      "id": "us-wa-fort-lawton-army-reserve-center-redevelopment",
+      "developer": "City of Seattle / Seattle Office of Housing",
+      "status": "proposed",
+      "projectName": "Fort Lawton Army Reserve Center Redevelopment",
+      "location": "Seattle",
+      "state": "WA",
+      "country": "United States",
+      "projectType": "mixed",
+      "notes": "The Fort Lawton Army Reserve Center Redevelopment project proposes to convert a former military installation in Seattle into a mixed-use affordable housing community. The City of Seattle's Office of Housing has been advancing the project th",
+      "source": "https://www.seattle.gov/documents/Departments/Housing/ProgramsInitiatives/FortLawton/Appendices/AppendixG_HistoricCulturalResourcesReport.pdf",
+      "primaryBeneficiary": "Mixed-income tenure",
+      "storyBlurb": "The Fort Lawton Army Reserve Center Redevelopment project proposes to convert a former military installation in Seattle into a mixed-use affordable housing community. The City of Seattle's Office of Housing has been advancing the project through a lengthy planning and environmental review process, including a cultural resources analysis to ensure that any redevelopment respects the site's historic and cultural significance.\n\nFort Lawton has been the subject of community debate for many years, with advocacy groups, particularly Native American tribes with historic ties to the land, raising concerns about the cultural and environmental sensitivity of the site. The cultural resources assessment reflects the city's commitment to conducting a thorough review before proceeding with development, acknowledging the layered history of the property.\n\nThe project has potential to deliver significant affordable housing in a city facing one of the most severe affordability crises on the West Coast. However, it remains in planning stages, with community input and environmental review processes still ongoing. The balancing of housing need, historic preservation, and indigenous cultural interests makes Fort Lawton one of Seattle's most complex and closely watched redevelopment proposals.",
+      "issues": [
+        "historic-preservation",
+        "community-input-consultation",
+        "green-space-environment",
+        "affordability"
+      ],
+      "relatedBillIds": [
+        "us-wa-sb-6027",
+        "us-wa-shb-1576",
+        "us-federal-hr-6644"
+      ],
+      "sources": [
+        {
+          "title": "Cultural Resources Assessment for the Fort Lawton Army Reserve Center Redevelopment Project",
+          "publisher": "City of Seattle Department of Housing",
+          "url": "https://www.seattle.gov/documents/Departments/Housing/ProgramsInitiatives/FortLawton/Appendices/AppendixG_HistoricCulturalResourcesReport.pdf",
+          "date": "2025-01-01"
+        },
+        {
+          "title": "City of Seattle Selects Mercy Housing to Redevelop Lake City Community Center",
+          "publisher": "Seattle Office of Housing",
+          "url": "https://housing.seattle.gov/city-of-seattle-selects-mercy-housing-to-redevelop-lake-city-community-center/",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "id": "us-wa-lake-city-community-center-affordable-housing-rede",
+      "developer": "Mercy Housing / City of Seattle",
+      "status": "proposed",
+      "projectName": "Lake City Community Center Affordable Housing Redevelopment",
+      "location": "Seattle",
+      "state": "WA",
+      "country": "United States",
+      "projectType": "mixed",
+      "notes": "The City of Seattle selected Mercy Housing, a nationally recognized affordable housing nonprofit, to redevelop the Lake City Community Center into a combined community center and affordable housing development. The project aims to address h",
+      "source": "https://housing.seattle.gov/city-of-seattle-selects-mercy-housing-to-redevelop-lake-city-community-center/",
+      "primaryBeneficiary": "Low-income renters",
+      "storyBlurb": "The City of Seattle selected Mercy Housing, a nationally recognized affordable housing nonprofit, to redevelop the Lake City Community Center into a combined community center and affordable housing development. The project aims to address housing needs while creating vibrant shared community spaces in the Lake City neighborhood, representing a dual-purpose investment in both housing and community infrastructure.\n\nThe selection of Mercy Housing reflects the city's preference for experienced affordable housing operators with a track record of integrating supportive services and community programming. The combined approach—housing above or alongside a community center—maximizes the use of publicly owned land while preserving valued community assets that residents rely on for recreation, social services, and civic engagement.\n\nThe Lake City redevelopment aligns with Seattle Mayor Bruce Harrell's One Seattle Housing Agenda, which includes plans for approximately 900 units of affordable workforce and artist housing across the city. Community groups in Lake City have generally supported the concept of combined housing and community center redevelopment, though some residents have raised concerns about the loss of existing community center space during construction and the scale of new residential density proposed for the site.",
+      "issues": [
+        "affordability",
+        "community-input-consultation",
+        "density-height"
+      ],
+      "relatedBillIds": [
+        "us-wa-sb-6027",
+        "us-wa-hb-2442",
+        "us-federal-hr-6644"
+      ],
+      "sources": [
+        {
+          "title": "City of Seattle Selects Mercy Housing to Redevelop Lake City Community Center",
+          "publisher": "Seattle Office of Housing",
+          "url": "https://housing.seattle.gov/city-of-seattle-selects-mercy-housing-to-redevelop-lake-city-community-center/",
+          "date": "2025-01-01"
+        },
+        {
+          "title": "Mayor Bruce Harrell One Seattle Housing Agenda",
+          "publisher": "City of Seattle",
+          "url": "https://www.seattle.gov/documents/departments/mayor/2025-07-07%20deliberative%20housing%20draft%20v6.pdf",
+          "date": "2025-07-07"
+        }
+      ]
+    },
+    {
+      "id": "us-wa-one-seattle-affordable-workforce-and-artist-housin",
+      "developer": "City of Seattle / Mayor Bruce Harrell",
+      "status": "proposed",
+      "projectName": "One Seattle Affordable Workforce and Artist Housing Initiative",
+      "location": "Seattle",
+      "state": "WA",
+      "country": "United States",
+      "unitCount": 900,
+      "projectType": "mixed",
+      "yearProposed": 2025,
+      "notes": "Mayor Bruce Harrell's One Seattle Housing Agenda outlines a plan to develop approximately 900 units of affordable workforce and artist housing across Seattle, including live-work artist studios and family-sized units. The initiative recogni",
+      "source": "https://www.seattle.gov/documents/departments/mayor/2025-07-07%20deliberative%20housing%20draft%20v6.pdf",
+      "primaryBeneficiary": "Workforce and artists",
+      "storyBlurb": "Mayor Bruce Harrell's One Seattle Housing Agenda outlines a plan to develop approximately 900 units of affordable workforce and artist housing across Seattle, including live-work artist studios and family-sized units. The initiative recognizes that artists and working- and middle-class households have been particularly hard-hit by Seattle's housing affordability crisis, which has pushed many long-time residents and creative sector workers out of the city.\n\nThe inclusion of live-work artist studios is a deliberate effort to preserve Seattle's cultural ecosystem, which has been eroded as artists are priced out of neighborhoods they have historically animated. By dedicating units specifically to artists alongside workforce housing, the agenda seeks to maintain socioeconomic and cultural diversity in a city increasingly dominated by high-income tech sector employment.\n\nThe One Seattle Housing Agenda frames these investments within a broader comprehensive approach that also includes zoning reforms, increased density near transit, and partnerships with nonprofit developers. Community input processes are ongoing, with residents and neighborhood groups engaging on questions of where and how new density should be added, how artist housing will be allocated, and what protections will be provided for existing lower-income residents facing displacement pressures.",
+      "issues": [
+        "affordability",
+        "displacement-gentrification",
+        "community-input-consultation",
+        "transit-access"
+      ],
+      "relatedBillIds": [
+        "us-wa-eshb-2266",
+        "us-federal-hr-6644",
+        "us-wa-sb-6027"
+      ],
+      "sources": [
+        {
+          "title": "Mayor Bruce Harrell One Seattle Housing Agenda",
+          "publisher": "City of Seattle",
+          "url": "https://www.seattle.gov/documents/departments/mayor/2025-07-07%20deliberative%20housing%20draft%20v6.pdf",
+          "date": "2025-07-07"
+        },
+        {
+          "title": "City of Seattle Selects Mercy Housing to Redevelop Lake City Community Center",
+          "publisher": "Seattle Office of Housing",
+          "url": "https://housing.seattle.gov/city-of-seattle-selects-mercy-housing-to-redevelop-lake-city-community-center/",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "id": "us-fl-whft-affordable-ii-orange-county-fl",
+      "developer": "Florida Housing Finance Corporation (FHFC)",
+      "status": "proposed",
+      "projectName": "WHFT Affordable II (Orange County, FL)",
+      "location": "Orange County",
+      "state": "FL",
+      "country": "United States",
+      "projectType": "rental",
+      "yearProposed": 2025,
+      "notes": "WHFT Affordable II, Ltd. is a proposed affordable housing development in Orange County, Florida, subject to Florida Housing Finance Corporation (FHFC) board consideration as of March 2025. The project came before the FHFC board following a ",
+      "source": "https://www.floridahousing.org/docs/default-source/data-docs-and-reports/boardpackages/2025/march-28/consent.pdf?sfvrsn=9d1bcf7b_1",
+      "primaryBeneficiary": "Low-income renters",
+      "storyBlurb": "WHFT Affordable II, Ltd. is a proposed affordable housing development in Orange County, Florida, subject to Florida Housing Finance Corporation (FHFC) board consideration as of March 2025. The project came before the FHFC board following a Petition for Waiver of certain program requirements filed in March 2025, adding procedural complexity to the development's path to financing and construction approval.\n\nFlorida Housing Finance Corporation administers the state's primary affordable housing financing programs, including Low Income Housing Tax Credits, State Apartment Incentive Loans, and other tools. Projects like WHFT Affordable II rely on FHFC awards to access the capital necessary to build income-restricted rental housing at rents affordable to low- and moderate-income Florida residents.\n\nOrange County, home to the Orlando metropolitan area, has seen significant affordability pressures in recent years driven by population growth, tourism-sector employment at low wages, and rising land and construction costs. WHFT Affordable II represents one piece of the broader effort to expand the county's affordable rental stock, with the waiver petition reflecting the regulatory complexity that affordable housing developers routinely navigate in Florida's competitive tax credit environment.",
+      "issues": [
+        "affordability"
+      ],
+      "relatedBillIds": [
+        "us-fl-sb-1348",
+        "us-fl-hb-1307",
+        "us-fl-sb-1520"
+      ],
+      "sources": [
+        {
+          "title": "WHFT Affordable II, Ltd.; FHFC Case No. 2025-013VW",
+          "publisher": "Florida Housing Finance Corporation",
+          "url": "https://www.floridahousing.org/docs/default-source/data-docs-and-reports/boardpackages/2025/march-28/consent.pdf?sfvrsn=9d1bcf7b_1",
+          "date": "2025-03-28"
+        },
+        {
+          "title": "June 13 2025 Consent Items – Florida Housing Finance Corporation",
+          "publisher": "Florida Housing Finance Corporation",
+          "url": "https://www.floridahousing.org/docs/default-source/data-docs-and-reports/boardpackages/2025/june-13/consente2acda56-dc7e-470d-9c1a-210797cda89b.pdf?sfvrsn=ce66cf7b_1",
+          "date": "2025-06-13"
+        }
+      ]
+    },
+    {
+      "id": "us-fl-florida-faith-based-organization-affordable-housin",
+      "developer": "Florida Housing Finance Corporation / Local Governments",
+      "status": "proposed",
+      "projectName": "Florida Faith-Based Organization Affordable Housing Initiative",
+      "location": "Florida (statewide)",
+      "state": "FL",
+      "country": "United States",
+      "projectType": "rental",
+      "notes": "Florida enacted groundbreaking policy empowering local governments to approve affordable housing on properties owned by faith-based organizations, a significant expansion of sites eligible for affordable development. The policy, highlighted",
+      "source": "https://www.floridahousing.org/docs/default-source/programs/special-programs/catalyst/training-schedule-2025-2026.pdf?sfvrsn=7b544c4e_1",
+      "primaryBeneficiary": "Low-income renters",
+      "storyBlurb": "Florida enacted groundbreaking policy empowering local governments to approve affordable housing on properties owned by faith-based organizations, a significant expansion of sites eligible for affordable development. The policy, highlighted in the 2025-2026 Catalyst Training Schedule published by Florida Housing Finance Corporation, allows churches, synagogues, mosques, and other religious institutions to partner with affordable housing developers to utilize underused portions of their land.\n\nFaith-based land represents a substantial untapped resource for affordable housing in Florida, where religious institutions often own large parcels in established neighborhoods that are served by transit and community amenities. By enabling these sites for housing development while allowing congregations to retain their worship facilities, the policy creates a new pipeline of potential affordable housing without requiring the acquisition of expensive private land.\n\nFlorida Housing's Catalyst program has been providing training to local governments and developers on how to implement the new policy framework, reflecting the state's commitment to building capacity for affordable housing production at the local level. Housing advocates have praised the initiative as an innovative way to unlock new supply, though some have noted that actual project delivery will depend on individual congregations' willingness to partner with developers and navigate complex zoning and financing processes.",
+      "issues": [
+        "affordability",
+        "community-input-consultation"
+      ],
+      "relatedBillIds": [
+        "us-fl-sb-1348",
+        "us-fl-hb-1483",
+        "us-fl-hb-1307"
+      ],
+      "sources": [
+        {
+          "title": "Catalyst Training Schedule 2025-2026",
+          "publisher": "Florida Housing Finance Corporation",
+          "url": "https://www.floridahousing.org/docs/default-source/programs/special-programs/catalyst/training-schedule-2025-2026.pdf?sfvrsn=7b544c4e_1",
+          "date": "2025-01-01"
+        },
+        {
+          "title": "WHFT Affordable II, Ltd.; FHFC Case No. 2025-013VW",
+          "publisher": "Florida Housing Finance Corporation",
+          "url": "https://www.floridahousing.org/docs/default-source/data-docs-and-reports/boardpackages/2025/march-28/consent.pdf?sfvrsn=9d1bcf7b_1",
+          "date": "2025-03-28"
+        }
+      ]
+    },
+    {
+      "id": "us-nc-north-carolina-shdp-permanent-supportive-rental-ho",
+      "developer": "North Carolina Housing Finance Agency (NCHFA)",
+      "status": "proposed",
+      "projectName": "North Carolina SHDP Permanent Supportive Rental Housing",
+      "location": "North Carolina (statewide)",
+      "state": "NC",
+      "country": "United States",
+      "projectType": "social",
+      "notes": "The North Carolina Housing Finance Agency administers the Supportive Housing Development Program (SHDP), which provides loans for projects creating Olmstead-compliant permanent supportive rental housing. The program is specifically designed",
+      "source": "https://www.nchfa.com/sites/default/files/2025-10/16/SHDP-IntegratedProgramGuidelines.pdf",
+      "primaryBeneficiary": "People with disabilities",
+      "storyBlurb": "The North Carolina Housing Finance Agency administers the Supportive Housing Development Program (SHDP), which provides loans for projects creating Olmstead-compliant permanent supportive rental housing. The program is specifically designed to serve individuals with disabilities who have the right to live in the most integrated community settings possible, as established by the U.S. Supreme Court's Olmstead decision.\n\nSHDP-funded projects must meet rigorous standards for physical accessibility and integration into the broader community, ensuring that residents are not isolated in institutional-like settings but instead have access to neighborhood amenities and social opportunities. The program reflects North Carolina's commitment to fulfilling its legal and moral obligations under Olmstead by creating housing that genuinely supports community integration.\n\nFunding through SHDP is layered with other state and federal resources, including Low Income Housing Tax Credits and HUD programs, to produce deeply affordable supportive units for populations who face the greatest barriers to housing stability. Advocates for people with disabilities have been strong supporters of the program, though they have also noted ongoing unmet need that far exceeds current SHDP award capacity.",
+      "issues": [
+        "affordability",
+        "social-mix",
+        "community-input-consultation"
+      ],
+      "relatedBillIds": [
+        "us-nc-shdp-integrated-guidelines",
+        "us-nc-2026-qap-appendix-b",
+        "us-federal-hr-6644"
+      ],
+      "sources": [
+        {
+          "title": "SHDP Integrated Program Guidelines",
+          "publisher": "North Carolina Housing Finance Agency",
+          "url": "https://www.nchfa.com/sites/default/files/2025-10/16/SHDP-IntegratedProgramGuidelines.pdf",
+          "date": "2025-10-16"
+        },
+        {
+          "title": "NCHFA: Creating Affordable Housing Opportunities for North Carolinians",
+          "publisher": "North Carolina Housing Finance Agency",
+          "url": "https://www.nchfa.com/",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "id": "us-federal-hud-section-202-affordable-senior-housing-fy2026",
+      "developer": "U.S. Department of Housing and Urban Development (HUD)",
+      "status": "proposed",
+      "projectName": "HUD Section 202 Affordable Senior Housing (FY2026)",
+      "location": "National",
+      "state": "FEDERAL",
+      "country": "United States",
+      "projectType": "rental",
+      "notes": "HUD's Section 202 program supports nonprofit entities in building and operating affordable housing for very low-income elderly tenants, with continued appropriations sought in the FY2026 Congressional Justification. The program has historic",
+      "source": "https://www.hud.gov/sites/dfiles/CFO/documents/FY_2026_Congressional_Justification_E-File.pdf",
+      "primaryBeneficiary": "Very low-income elderly",
+      "storyBlurb": "HUD's Section 202 program supports nonprofit entities in building and operating affordable housing for very low-income elderly tenants, with continued appropriations sought in the FY2026 Congressional Justification. The program has historically been one of the federal government's most targeted tools for addressing senior housing need, recognizing that elderly households on fixed incomes face acute affordability challenges that the private market cannot adequately address.\n\nSection 202 provides capital advances and project rental assistance to nonprofit sponsors, enabling them to develop and operate affordable housing for seniors without having to service conventional debt. This structure allows deeply subsidized rents that would be impossible under a standard tax-credit or market-rate development model, making Section 202 uniquely suited to serving the lowest-income elderly households.\n\nThe FY2026 budget request reflects HUD's ongoing commitment to the program despite broader federal budget pressures, including a lapse in appropriations reported in early February 2026 that temporarily affected HUD operations. Advocates for elderly Americans have consistently called for expanded Section 202 funding, citing a growing senior population and a pipeline of aging affordable senior housing that requires both preservation and new construction investment.",
+      "issues": [
+        "affordability",
+        "social-mix"
+      ],
+      "relatedBillIds": [
+        "us-federal-hr-6644",
+        "us-federal-hr-1"
+      ],
+      "sources": [
+        {
+          "title": "FY 2026 Congressional Justification – Department of Housing and Urban Development",
+          "publisher": "U.S. Department of Housing and Urban Development",
+          "url": "https://www.hud.gov/sites/dfiles/CFO/documents/FY_2026_Congressional_Justification_E-File.pdf",
+          "date": "2025-01-01"
+        },
+        {
+          "title": "FHA INFO Messages: Single Family Housing Industry News",
+          "publisher": "U.S. Department of Housing and Urban Development",
+          "url": "http://www.hud.gov/hud-partners/single-family-fha-info",
+          "date": "2026-02-02"
+        }
+      ]
+    }
+  ]
+}

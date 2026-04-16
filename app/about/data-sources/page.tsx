@@ -101,12 +101,46 @@ export default function DataSourcesPage() {
           </p>
 
           <p>
-            US bills are kept as a secondary dataset. When a LegiScan API
-            key is available the tracker refreshes them on the same weekly
-            cadence as Canadian bills. When the key is absent, the UI
-            falls back to the static data baked into
-            <code> lib/placeholder-data.ts</code> with a banner showing
-            the last sync date.
+            US federal housing bills and the top 10 housing-critical
+            state legislatures are tracked via Tavily research against
+            their official domains (congress.gov, hud.gov, and each
+            state chamber's site). Claude extracts the structured bill
+            records from the search snippets; every sourceUrl is
+            URL-validated through Tavily Extract before it lands in the
+            JSON. When LegiScan is available the classic pipeline runs
+            too, but the Tavily path is the canonical source of truth
+            for housing.
+          </p>
+
+          <p>
+            US housing projects come from the same Tavily-backed pattern
+            against HUD, state housing agencies, and city permitting
+            offices. Each project record carries the enriched J5-style
+            fields (primary beneficiary, story blurb, Issues tags,
+            related bills, and source citations). The other 40 US
+            states are intentionally rendered grey on the map. Their
+            data would require a separate research pass and the budget
+            isn't there yet.
+          </p>
+
+          <p>
+            US officials come from hud.gov leadership as canonical
+            source, with a Tavily enrichment pass for biography. Scott
+            Turner is the 19th HUD Secretary (confirmed February 2025)
+            and is pinned via a warn-only regression guard in
+            <code> us-officials.ts</code>. Drift from the pinned name
+            logs a CI warning without blocking the run.
+          </p>
+
+          <p>
+            Europe and Asia-Pacific coverage is scaffolded but dormant.
+            The pipelines at <code>scripts/sync/europe-housing.ts</code>
+            and <code>scripts/sync/asia-pacific-housing.ts</code> exit
+            immediately unless <code>EXECUTE_EUROPE=1</code> or
+            <code>EXECUTE_ASIA=1</code> is set. The
+            <code>europe-asia-sync</code> workflow is the manual
+            dispatch path that flips those flags. Entities on the map
+            show grey until the workflow runs at least once.
           </p>
 
           <h2 className="text-2xl font-semibold text-ink tracking-tight pt-6">
@@ -154,12 +188,17 @@ export default function DataSourcesPage() {
                   <td className="py-2 pr-4">Weekly, Tuesday 08:00 UTC</td>
                   <td className="py-2">data/projects/canada.json</td>
                 </tr>
-                <tr>
+                <tr className="border-b border-black/[.06]">
                   <td className="py-2 pr-4 font-mono text-xs">officials-sync</td>
                   <td className="py-2 pr-4">
                     Monthly, first Sunday 09:00 UTC
                   </td>
-                  <td className="py-2">data/politicians/canada.json</td>
+                  <td className="py-2">data/politicians/canada.json, us.json</td>
+                </tr>
+                <tr>
+                  <td className="py-2 pr-4 font-mono text-xs">europe-asia-sync</td>
+                  <td className="py-2 pr-4">Manual dispatch only</td>
+                  <td className="py-2">data/legislation/europe/, data/legislation/asia-pacific/, data/projects/europe/, data/projects/asia-pacific/</td>
                 </tr>
               </tbody>
             </table>

@@ -1,0 +1,127 @@
+{
+  "state": "California",
+  "stateCode": "CA",
+  "region": "na",
+  "stance": "favorable",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "California's 2025 legislative session produced sweeping housing reforms, including SB 79 (Wiener) signed by Governor Newsom on October 10, 2025, alongside AB 301 and AB 413 to accelerate housing production and streamline permitting. Earlier in the session, Governor Newsom signed groundbreaking CEQA exemptions and budget-tied housing reforms on June 30, 2025. Additional measures such as AB 1275 address Regional Housing Needs Determinations, while SB 555 mandates a California Social Housing Study.",
+  "legislation": [
+    {
+      "id": "us-ca-sb-555",
+      "billCode": "SB 555",
+      "title": "California Social Housing Study: Subsidized Housing Analysis",
+      "summary": "Mandates HCD to analyze California's approximately 480,000 subsidized rental housing units — about 3.5% of the state's housing stock — as part of a comprehensive social housing feasibility study.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-11-01",
+      "sourceUrl": "https://shou.senate.ca.gov/system/files/2025-11/affordable-housing-finance-2025.docx",
+      "sponsors": []
+    },
+    {
+      "id": "us-ca-sb-79",
+      "billCode": "SB 79",
+      "title": "Planning and Zoning: Housing Development",
+      "summary": "Signed by Governor Newsom on October 10, 2025, this bill is intended to make it easier and faster to build more homes, expanding housing inventory and access across California.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-10-10",
+      "sourceUrl": "https://www.gov.ca.gov/2025/10/10/governor-newsom-builds-on-this-years-historic-housing-reforms-signs-legislation-to-accelerate-housing-and-affordability/",
+      "sponsors": [
+        "Wiener"
+      ]
+    },
+    {
+      "id": "us-ca-ab-301",
+      "billCode": "AB 301",
+      "title": "Planning and Zoning: Housing Development Projects: Postentitlement Phase Permits: State Agencies",
+      "summary": "Streamlines postentitlement phase permitting for housing development projects involving state agencies, reducing delays in bringing new housing units to market.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "development-incentive",
+      "updatedDate": "2025-10-10",
+      "sourceUrl": "https://www.gov.ca.gov/2025/10/10/governor-newsom-builds-on-this-years-historic-housing-reforms-signs-legislation-to-accelerate-housing-and-affordability/",
+      "sponsors": [
+        "Pilar Schiavo"
+      ]
+    },
+    {
+      "id": "us-ca-ab-413",
+      "billCode": "AB 413",
+      "title": "Department of Housing and Community Development",
+      "summary": "Makes changes related to the Department of Housing and Community Development as part of a package of bills signed to accelerate housing production and affordability in California.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-10-10",
+      "sourceUrl": "https://www.gov.ca.gov/2025/10/10/governor-newsom-builds-on-this-years-historic-housing-reforms-signs-legislation-to-accelerate-housing-and-affordability/",
+      "sponsors": [
+        "Mike Fong"
+      ]
+    },
+    {
+      "id": "us-ca-sb-555",
+      "billCode": "SB 555",
+      "title": "California Social Housing Study",
+      "summary": "Requires HCD to complete a comprehensive California Social Housing Study analyzing opportunities, resources, and obstacles to expanding social housing in the state.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-30",
+      "sourceUrl": "https://www.hcd.ca.gov/policy-and-research/active-research/sb555",
+      "sponsors": []
+    },
+    {
+      "id": "us-ca-sb-1",
+      "billCode": "SB 1",
+      "title": "2025-2026 Budget: Groundbreaking Housing and CEQA Reforms",
+      "summary": "Signed June 30, 2025 as part of the state budget, this legislation enacts sweeping CEQA exemptions and transformative housing reforms described as the most consequential housing and infrastructure package in California history.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "development-incentive",
+      "updatedDate": "2025-06-30",
+      "sourceUrl": "https://www.gov.ca.gov/2025/06/30/governor-newsom-signs-into-law-groundbreaking-reforms-to-build-more-housing-affordability/",
+      "sponsors": [
+        "Newsom"
+      ]
+    },
+    {
+      "id": "us-ca-ab-1275",
+      "billCode": "AB 1275",
+      "title": "Regional Housing Needs Determination: HCD Timing",
+      "summary": "Requires the Department of Housing and Community Development to issue the Regional Housing Needs Determination one year earlier than currently required, accelerating local housing planning cycles.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-04-22",
+      "sourceUrl": "https://mtc.ca.gov/sites/default/files/meetings/attachments/6302/3dii_25_0654_Attachment_A_Major_2025_Housing_Legislation.pdf",
+      "sponsors": [
+        "Elhawary"
+      ]
+    }
+  ]
+}

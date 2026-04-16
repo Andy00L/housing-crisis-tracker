@@ -33,6 +33,7 @@ const TIMEOUTS: Record<SourceName, number> = {
   "bank-of-canada": 15_000,
   "canada-gazette": 15_000,
   "canada-ca": 15_000,
+  "hud-gov": 15_000,
   tavily: 30_000,
   anthropic: 60_000,
   rss: 15_000,

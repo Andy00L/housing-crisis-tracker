@@ -16,15 +16,22 @@ function initialsFor(name: string): string {
     .toUpperCase();
 }
 
-type Scope = "all" | "CA" | "US" | "GB" | "EU";
+type Scope = "all" | "CA" | "US" | "GB" | "UK" | "EU" | "AP";
 
 const SCOPES: Array<{ key: Scope; label: string }> = [
   { key: "all", label: "All" },
   { key: "CA", label: "Canada" },
   { key: "US", label: "United States" },
-  { key: "GB", label: "United Kingdom" },
-  { key: "EU", label: "European Parliament" },
+  { key: "UK", label: "United Kingdom" },
+  { key: "EU", label: "Europe" },
+  { key: "AP", label: "Asia-Pacific" },
 ];
+
+/** Asia-Pacific country codes used by the asia-officials pipeline. Kept
+ *  local to this component because the AP scope aggregates seven countries
+ *  rather than filtering on a single country field. */
+const AP_COUNTRIES = new Set(["JP", "KR", "CN", "IN", "ID", "TW", "AU"]);
+const EU_COUNTRIES = new Set(["DE", "FR", "IT", "ES", "PL", "NL", "SE", "FI", "IE", "EU"]);
 
 const PREVIEW = 9;
 
@@ -113,7 +120,13 @@ export default function PoliticiansOverview() {
     const pool =
       scope === "all"
         ? ALL_POLITICIANS
-        : ALL_POLITICIANS.filter((p) => p.country === scope);
+        : scope === "UK"
+          ? ALL_POLITICIANS.filter((p) => p.country === "GB" || p.country === "UK")
+          : scope === "EU"
+            ? ALL_POLITICIANS.filter((p) => EU_COUNTRIES.has(p.country ?? ""))
+            : scope === "AP"
+              ? ALL_POLITICIANS.filter((p) => AP_COUNTRIES.has(p.country ?? ""))
+              : ALL_POLITICIANS.filter((p) => p.country === scope);
     return [...pool]
       .sort((a, b) => {
         const diff = featuredScore(b) - featuredScore(a);
@@ -124,12 +137,19 @@ export default function PoliticiansOverview() {
   }, [scope]);
 
   const totals = useMemo(() => {
-    const byCountry = { CA: 0, US: 0, GB: 0, EU: 0 };
+    const byScope: Record<Scope, number> = {
+      all: ALL_POLITICIANS.length,
+      CA: 0, US: 0, GB: 0, UK: 0, EU: 0, AP: 0,
+    };
     for (const p of ALL_POLITICIANS) {
-      if (p.country && p.country in byCountry)
-        byCountry[p.country as keyof typeof byCountry]++;
+      const c = p.country ?? "";
+      if (c === "CA") byScope.CA++;
+      if (c === "US") byScope.US++;
+      if (c === "GB" || c === "UK") byScope.UK++;
+      if (EU_COUNTRIES.has(c)) byScope.EU++;
+      if (AP_COUNTRIES.has(c)) byScope.AP++;
     }
-    return byCountry;
+    return byScope;
   }, []);
 
   return (
@@ -138,10 +158,7 @@ export default function PoliticiansOverview() {
         <div className="flex flex-wrap gap-1.5">
           {SCOPES.map((s) => {
             const active = scope === s.key;
-            const count =
-              s.key === "all"
-                ? ALL_POLITICIANS.length
-                : totals[s.key as keyof typeof totals];
+            const count = totals[s.key];
             return (
               <button
                 key={s.key}

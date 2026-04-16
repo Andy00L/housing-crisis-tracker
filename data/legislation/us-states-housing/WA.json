@@ -1,0 +1,147 @@
+{
+  "state": "Washington",
+  "stateCode": "WA",
+  "region": "na",
+  "stance": "favorable",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Washington State's 2025-26 legislative sessions have produced significant housing activity, including HB 1217 establishing a rent cap framework and landlord resource center, and Executive Order 25-12 creating a Task Force to establish a new cabinet-level Department of Housing. Bills addressing zoning reform (SB 6026), affordable multifamily housing financing (ESHB 2442), and middle housing supply (SHB 1576) reflect broad legislative effort to address the state's housing affordability crisis.",
+  "legislation": [
+    {
+      "id": "us-wa-hb-1217",
+      "billCode": "HB 1217",
+      "title": "Landlord Resource Center",
+      "summary": "Directs the Department of Commerce to create an online resource center for landlords and to calculate and publish an annual maximum rent increase beginning June 1, 2025, applicable to properties subject to the Residential Landlord Tenant Act.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2025-06-01",
+      "sourceUrl": "https://www.commerce.wa.gov/housing-policy/hb1217-landlord-resource-center/",
+      "sponsors": []
+    },
+    {
+      "id": "us-wa-ssb-5938",
+      "billCode": "SSB 5938",
+      "title": "SSB 5938",
+      "summary": "Authorizes the Department of Commerce to adopt rules and requires Commerce, in consultation with the Washington State Housing Finance Commission, to carry out housing-related responsibilities.",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-05",
+      "sourceUrl": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/Senate/5938-S%20SBR%20APS%2026.pdf?q=20260205011502",
+      "sponsors": []
+    },
+    {
+      "id": "us-wa-sb-6167",
+      "billCode": "SB 6167",
+      "title": "SB 6167",
+      "summary": "Prohibits a homebuyer from receiving multiple state-funded down payment assistance loans or grants.",
+      "stage": "Committee",
+      "stance": "restrictive",
+      "impactTags": [
+        "first-time-buyer"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-01-28",
+      "sourceUrl": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/Senate/6167%20SBR%20HSG%20TA%2026.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-wa-eshb-2266",
+      "billCode": "ESHB 2266",
+      "title": "ESHB 2266",
+      "summary": "Sets a statewide standard for siting STEP housing so that developers have consistent requirements across jurisdictions, similar to middle housing reforms.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/Senate/2266-S.E%20SBR%20APS%2026.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-wa-eshb-2442",
+      "billCode": "ESHB 2442",
+      "title": "ESHB 2442",
+      "summary": "Authorizes a new local sales and use tax of 0.01 percent to fund services for children and families, expands authorized uses of local sales and use tax revenues for housing and related services, and authorizes a new county property tax levy for public health clinics.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/House/2442-S.E%20HBR%20APH%2026.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-wa-sb-6026",
+      "billCode": "SB 6026",
+      "title": "SB 6026",
+      "summary": "Prohibits cities and counties from requiring mixed-use or ground-floor commercial as a condition of permitting residential development, or imposing conditional use permits or design guideline departures related to siting and architectural design of residential development in commercially or mixed-use zoned areas.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/Senate/6026%20SBR%20WM%20OC%2026.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-wa-sb-6027",
+      "billCode": "SB 6027",
+      "title": "SB 6027",
+      "summary": "Allows a city or county legislative authority to impose a 0.1 percent sales and use tax to fund housing and related services, with exemptions for transfers to nonprofit organizations or housing authorities using property for low-income housing.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/Senate/6027%20SBR%20HSG%20TA%2026.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-wa-hb-2442",
+      "billCode": "HB 2442",
+      "title": "HB 2442",
+      "summary": "Expands the community purpose definition for housing development to include services for affordable housing tenants, health clinics, senior day cares, and food services.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "development-incentive",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/House/2442%20HBR%20FIN%2026.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "us-wa-shb-1576",
+      "billCode": "SHB 1576",
+      "title": "SHB 1576",
+      "summary": "An affordable housing bill addressing housing supply and middle housing requirements, with provisions related to housing preservation.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-04-21",
+      "sourceUrl": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/House/1576-S%20HBR%20PL%2025.pdf?q=20250421105418",
+      "sponsors": []
+    }
+  ]
+}

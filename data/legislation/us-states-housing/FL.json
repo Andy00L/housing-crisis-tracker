@@ -1,0 +1,117 @@
+{
+  "state": "Florida",
+  "stateCode": "FL",
+  "region": "na",
+  "stance": "favorable",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Florida's 2026 legislative session features several housing-related bills building on the 2023 Live Local Act framework, including HB 1389 which addresses multifamily and mixed-use zoning requirements and accessory dwelling units, and SB 1348 which updates terminology associated with the Florida Housing Finance Corporation. Florida Housing Finance Corporation continues to administer competitive funding programs such as RFA 2026-206 for rural areas and multiple Live Local SAIL financing rounds for affordable multifamily housing development.",
+  "legislation": [
+    {
+      "id": "us-fl-hb-1389",
+      "billCode": "HB 1389",
+      "title": "Affordable Housing",
+      "summary": "Requires counties and municipalities to authorize multifamily and mixed-use residential uses as allowable uses in specified areas, and requires local governments to adopt ordinances allowing accessory dwelling units in certain areas by a specified date.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://www.flsenate.gov/Session/Bill/2026/1389",
+      "sponsors": []
+    },
+    {
+      "id": "us-fl-hb-1483",
+      "billCode": "HB 1483",
+      "title": "Trust Fund/Creation/Vacancy Relief and Risk Mitigation Trust Fund/Florida Housing Finance Corporation",
+      "summary": "Creates the Vacancy Relief and Risk Mitigation Trust Fund within the Florida Housing Finance Corporation for a specified purpose, effective July 1, 2026.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://www.flsenate.gov/Session/Bill/2026/1483",
+      "sponsors": []
+    },
+    {
+      "id": "us-fl-sb-1348",
+      "billCode": "SB 1348",
+      "title": "Terminology Associated with the Florida Housing Finance Corporation",
+      "summary": "Updates and standardizes terminology associated with the Florida Housing Finance Corporation as it appears in state statutes.",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://www.flsenate.gov/Session/Bill/2026/1348",
+      "sponsors": []
+    },
+    {
+      "id": "us-fl-hb-1307",
+      "billCode": "HB 1307",
+      "title": "Homeownership Assistance",
+      "summary": "Authorizes the Florida Housing Finance Corporation to underwrite and issue mortgage loans through the Homeownership Assistance Program to persons or families with household incomes not exceeding 150 percent of state or local median income, targeting first-time homebuyers seeking a primary residence.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "mortgage-regulation"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://www.flsenate.gov/Session/Bill/2026/1307/Analyses/h1307a.COM.PDF",
+      "sponsors": []
+    },
+    {
+      "id": "us-fl-sb-1520",
+      "billCode": "SB 1520",
+      "title": "Affordable Housing Property Tax Exemption",
+      "summary": "Amends section 196.1978(3) to require a taxing authority to find that Shimberg's annual reports for each of the 3 previous years identify affordable and available units exceeding renter households in the 0-120 percent AMI category before granting a property tax exemption to affordable housing projects.",
+      "stage": "Committee",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "property-tax",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://www.flsenate.gov/Session/Bill/2026/1520/Analyses/2026s01520.ft.PDF",
+      "sponsors": []
+    },
+    {
+      "id": "us-fl-sb-48",
+      "billCode": "SB 48",
+      "title": "Accessory Dwelling Units",
+      "summary": "Expressly allows local governments to regulate the permitting, construction, and use of accessory dwelling units (ADUs) with specified exceptions, expanding housing supply options.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://www.flsenate.gov/Session/Bill/2026/48/Analyses/2026s00048.pre.atd.PDF",
+      "sponsors": []
+    },
+    {
+      "id": "us-fl-sb-1602",
+      "billCode": "SB 1602",
+      "title": "Homelessness Among Veterans",
+      "summary": "Addresses homelessness among veterans in Florida, reflecting ongoing state policy focus on reducing veteran homelessness given that veterans experience homelessness at higher rates than non-veterans.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://www.flsenate.gov/Session/Bill/2026/1602/Analyses/2026s01602.pre.ms.PDF",
+      "sponsors": []
+    }
+  ]
+}
