@@ -69,7 +69,6 @@ interface ZhviEntry {
 function processZhvi(csv: string): ZhviEntry[] {
   const rows = parseCsv(csv);
   const header = rows[0];
-  const dateColumns = header.slice(5); // First 5 cols are metadata
 
   // Find latest column with data and the one ~12 months prior
   const latestIdx = header.length - 1;

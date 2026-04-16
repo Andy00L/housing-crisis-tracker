@@ -215,7 +215,7 @@ function classifyTags(text: string): ImpactTag[] {
   return tags.slice(0, 5); // keep display manageable
 }
 
-function deriveStance(bill: RawBill, stage: Stage, category: LegislationCategory, tags: ImpactTag[]): StanceType {
+function deriveStance(bill: RawBill, stage: Stage, category: LegislationCategory, _tags: ImpactTag[]): StanceType {
   const text = `${bill.title} ${bill.description ?? ""}`.toLowerCase();
   const isMoratorium = /moratorium|prohibit|ban|restrict|freeze|cap/.test(text);
   const isIncentive = /incentive|upzon|density bonus|fast.?track|expedit|exempt|credit/.test(text);

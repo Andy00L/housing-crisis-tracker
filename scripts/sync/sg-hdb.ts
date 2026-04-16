@@ -46,14 +46,7 @@ async function fetchPage(offset: number): Promise<{ records: HdbRecord[]; total:
     return JSON.parse(readFileSync(cachePath, "utf8"));
   }
 
-  // Only fetch recent data — filter by month >= 12 months ago
-  const cutoff = new Date();
-  cutoff.setMonth(cutoff.getMonth() - 12);
-  const cutoffStr = `${cutoff.getFullYear()}-${String(cutoff.getMonth() + 1).padStart(2, "0")}`;
-
-  const url = `https://data.gov.sg/api/action/datastore_search?resource_id=${RESOURCE_ID}&limit=${PAGE_SIZE}&offset=${offset}&filters={"month":"${cutoffStr}"}`;
-
-  // Use a broader query — fetch without filter and filter locally
+  // Use a broader query. Fetch without filter and filter locally.
   const simpleUrl = `https://data.gov.sg/api/action/datastore_search?resource_id=${RESOURCE_ID}&limit=${PAGE_SIZE}&offset=${offset}&sort=month desc`;
 
   const res = await fetch(simpleUrl);

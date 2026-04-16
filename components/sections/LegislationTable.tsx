@@ -4,8 +4,6 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import {
-  CATEGORY_LABEL,
-  IMPACT_TAG_LABEL,
   type Dimension,
   type Entity,
   type Legislation,
@@ -291,9 +289,6 @@ export default function LegislationTable({
     }
     return counts;
   }, [allRows, activeCategory, dimension]);
-
-  const billCount = filtered.length;
-  const entityCount = new Set(filtered.map((r) => r.entity.id)).size;
 
   // Hide categories that have zero bills under the current dimension filter,
   // but always keep "all" visible.

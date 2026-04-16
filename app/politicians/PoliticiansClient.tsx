@@ -249,9 +249,6 @@ function relevanceScore(p: Legislator): number {
   if (p.alignment) s += 6;
   s += Math.min(p.votes?.length ?? 0, 6) * 1.2;
 
-  // Suspicious votes have a noisy long tail — cap hard.
-  s += Math.min(p.suspiciousVotes?.length ?? 0, 4) * 0.3;
-
   if (p.photoUrl) s += 1;
   if (p.captureScore != null) s += Math.min(p.captureScore, 100) / 100;
   return s;

@@ -21,7 +21,6 @@
  */
 
 import { writeFileSync, readFileSync, mkdirSync, existsSync, statSync } from "fs";
-import { execSync } from "child_process";
 import { resolve } from "path";
 
 // ── Known province UIDs (SGC codes, never change) ─────────────────────

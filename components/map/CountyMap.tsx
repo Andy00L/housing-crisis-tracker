@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { geoAlbersUsa, geoPath, type GeoProjection } from "d3-geo";
-import type { Feature, FeatureCollection, Geometry } from "geojson";
+import type { FeatureCollection, Geometry } from "geojson";
 import { feature } from "topojson-client";
 import type { Topology, GeometryCollection } from "topojson-specification";
 import { NEUTRAL_FILL, NEUTRAL_STROKE, type SetTooltip } from "@/lib/map-utils";
@@ -48,7 +48,6 @@ const COUNTIES_URL =
 const STATES_URL =
   "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
-type CountyFeature = Feature<Geometry, { name?: string }>;
 type CountyCollection = FeatureCollection<Geometry, { name?: string }>;
 
 // Module-level cache so multiple mounts share one fetch.

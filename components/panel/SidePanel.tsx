@@ -6,7 +6,6 @@ import {
   useRef,
   useState,
   type CSSProperties,
-  type ReactNode,
 } from "react";
 import { motion, MotionConfig } from "framer-motion";
 import type {
@@ -64,7 +63,6 @@ type Layer =
   | "local"
   | "metrics";
 type Position = "left" | "right" | "bottom";
-type Size = "min" | "md";
 
 const LEGISLATION_PREVIEW = 5;
 const FIGURES_PREVIEW = 3;
@@ -120,27 +118,6 @@ function SeeAllLink({
     >
       See all {total} {label} →
     </Link>
-  );
-}
-
-function ToolbarButton({
-  onClick,
-  ariaLabel,
-  children,
-}: {
-  onClick: () => void;
-  ariaLabel: string;
-  children: ReactNode;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      aria-label={ariaLabel}
-      className="w-6 h-6 flex items-center justify-center rounded-full text-muted hover:text-ink hover:bg-black/[.04] transition-colors flex-shrink-0"
-    >
-      {children}
-    </button>
   );
 }
 

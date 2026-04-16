@@ -367,23 +367,6 @@ export interface AlignmentScore {
   }>;
 }
 
-/**
- * A "suspicious vote" from the corruption-map dataset — a vote that
- * appears to align with a legislator's top donor industries rather
- * than their party or constituents. Cleaned + deduplicated form of
- * the raw entries in data/donors/politicians.json.
- */
-export interface SuspiciousVote {
-  billCode: string;
-  billTitle: string;
-  position: VotePosition;
-  /** Which donor industry this vote appears to serve. */
-  industry: string;
-  /** Why this vote is flagged. One sentence. */
-  reason: string;
-  confidence: "high" | "medium";
-}
-
 export interface Legislator {
   id: string;
   name: string;
@@ -406,7 +389,6 @@ export interface Legislator {
   photoUrl?: string;
   votes?: VoteRecord[];
   alignment?: AlignmentScore;
-  suspiciousVotes?: SuspiciousVote[];
   /** Combined capture score from donor data. 0–100. */
   captureScore?: number;
   totalRaised?: number;
