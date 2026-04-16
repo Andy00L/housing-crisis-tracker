@@ -50,3 +50,13 @@ next-env.d.ts
 /.claude
 /skills-lock.json
 /legiscan-survey.txt
+
+# Planning and reference docs (local only)
+phases.md
+upgrade.md
+REFERENCE_SECURITY_AUDIT.md
+REFERENCE_SECURITY_AUDIT.md.md
+REFERENCE_DOCUMENTATION_AUDIT.md
+REFERENCE_PREMIUM_UI.md
+documentation-audit-prompt.md
+security-audit-prompt.md
