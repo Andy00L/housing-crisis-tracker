@@ -1,0 +1,102 @@
+[
+  {
+    "id": "west-milford-passaic-county-nj",
+    "name": "Passaic County",
+    "fips": "34031",
+    "state": "New Jersey",
+    "stateCode": "NJ",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(West Milford) Data center moratorium ordinance",
+        "date": "2025-01-01",
+        "status": "enacted",
+        "summary": "West Milford Township enacted a temporary moratorium on data center development to allow the township time to study zoning implications and environmental impacts before permitting large-scale facilities.",
+        "sourceUrl": "https://www.northjersey.com/story/news/passaic/west-milford/2025/01/22/west-milford-data-center-moratorium/77878091007/"
+      }
+    ],
+    "concerns": [
+      "local-zoning",
+      "environmental-review",
+      "noise-vibration",
+      "grid-capacity",
+      "water-consumption"
+    ],
+    "contextBlurb": "West Milford in Passaic County moved to pause data center proposals while evaluating how such facilities would affect the township's semi-rural character, local infrastructure, and environmental resources."
+  },
+  {
+    "id": "elizabeth-union-county-nj",
+    "name": "Union County",
+    "fips": "34039",
+    "state": "New Jersey",
+    "stateCode": "NJ",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Elizabeth) Approval of large data center campus at former industrial site",
+        "date": "2024-06-01",
+        "status": "enacted",
+        "summary": "The City of Elizabeth approved plans for a major data center campus on a former industrial property, part of the broader wave of data center development in northern New Jersey's logistics and infrastructure corridor.",
+        "sourceUrl": "https://www.roi-nj.com/2024/06/13/real_estate/data-center-boom-continues-in-new-jersey/"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "energy-rates",
+      "economic-development",
+      "local-zoning",
+      "noise-vibration"
+    ],
+    "contextBlurb": "Union County, particularly Elizabeth, sits in New Jersey's data center corridor with proximity to major fiber routes and substations. Multiple large facilities have been proposed or approved in this area as demand surges."
+  },
+  {
+    "id": "middlesex-county-nj",
+    "name": "Middlesex County",
+    "fips": "34023",
+    "state": "New Jersey",
+    "stateCode": "NJ",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Old Bridge) Opposition and review of proposed data center development",
+        "date": "2024-09-01",
+        "status": "under-review",
+        "summary": "Residents and officials in Old Bridge Township raised concerns about a proposed data center, citing noise, traffic, and the appropriateness of industrial-scale facilities in or near residential areas, prompting ongoing review.",
+        "sourceUrl": "https://www.tapinto.net/towns/old-bridge/sections/government/articles/old-bridge-residents-voice-concerns-over-proposed-data-center"
+      }
+    ],
+    "concerns": [
+      "noise-vibration",
+      "residential-proximity",
+      "local-zoning",
+      "property-values",
+      "environmental-review"
+    ],
+    "contextBlurb": "Middlesex County has seen data center proposals in suburban communities like Old Bridge, where residents have pushed back over concerns about noise from cooling systems, traffic impacts, and compatibility with residential neighborhoods."
+  },
+  {
+    "id": "bergen-county-nj",
+    "name": "Bergen County",
+    "fips": "34003",
+    "state": "New Jersey",
+    "stateCode": "NJ",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Mahwah) Review of data center expansion proposals near residential areas",
+        "date": "2024-07-01",
+        "status": "under-review",
+        "summary": "Mahwah Township reviewed proposals related to data center expansion, with community members expressing concerns about power grid strain and environmental impacts in a largely suburban setting.",
+        "sourceUrl": "https://www.northjersey.com/story/news/bergen/mahwah/2024/07/18/mahwah-data-center-concerns/74440962007/"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "noise-vibration",
+      "residential-proximity",
+      "environmental-review",
+      "local-zoning"
+    ],
+    "contextBlurb": "Bergen County communities like Mahwah are grappling with data center growth pressures given their proximity to fiber-optic backbone routes, while residents worry about suburban quality of life and power infrastructure adequacy."
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "id": "polk-county-ia",
+    "name": "Polk County",
+    "fips": "19153",
+    "state": "Iowa",
+    "stateCode": "IA",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(West Des Moines) Meta/Microsoft data center campus expansions",
+        "date": "2024-06-01",
+        "status": "enacted",
+        "summary": "West Des Moines has continued approving site plans and expansions for major data center campuses operated by Meta and Microsoft, which collectively represent billions of dollars in investment in the area.",
+        "sourceUrl": "https://www.desmoinesregister.com/story/money/business/2024/06/20/west-des-moines-data-centers-microsoft-meta-growth/74148898007/"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "energy-rates",
+      "tax-incentives",
+      "economic-development",
+      "water-consumption"
+    ],
+    "contextBlurb": "West Des Moines in Polk County is one of the largest data center corridors in the Midwest, hosting massive campuses for Meta, Microsoft, and Apple. The rapid growth has raised questions about electrical grid capacity and water use, though local officials have generally welcomed the economic development and tax revenue."
+  },
+  {
+    "id": "dallas-county-ia",
+    "name": "Dallas County",
+    "fips": "19049",
+    "state": "Iowa",
+    "stateCode": "IA",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Waukee) Data center zoning and development approvals",
+        "date": "2024-01-01",
+        "status": "enacted",
+        "summary": "The City of Waukee and surrounding Dallas County areas have seen continued data center development pressure as the West Des Moines metro data center corridor expands westward, with zoning approvals for new facilities.",
+        "sourceUrl": "https://www.bizjournals.com/desmoines/news/2024/03/14/waukee-data-center-zoning.html"
+      }
+    ],
+    "concerns": [
+      "local-zoning",
+      "grid-capacity",
+      "economic-development",
+      "tax-incentives"
+    ],
+    "contextBlurb": "Dallas County, adjacent to the West Des Moines data center corridor, has experienced spillover development pressure as hyperscale operators seek additional land. Local officials have worked on zoning frameworks to manage the growth."
+  },
+  {
+    "id": "linn-county-ia",
+    "name": "Linn County",
+    "fips": "19113",
+    "state": "Iowa",
+    "stateCode": "IA",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Cedar Rapids) Data center tax incentive approvals",
+        "date": "2024-05-01",
+        "status": "enacted",
+        "summary": "Cedar Rapids has approved tax abatement packages for data center developments as it seeks to attract hyperscale operators to the area, competing with the Des Moines metro corridor.",
+        "sourceUrl": "https://www.thegazette.com/business/cedar-rapids-data-center-tax-incentives/"
+      }
+    ],
+    "concerns": [
+      "tax-incentives",
+      "economic-development",
+      "grid-capacity",
+      "energy-rates"
+    ],
+    "contextBlurb": "Cedar Rapids in Linn County has positioned itself as an alternative data center destination in Iowa, leveraging competitive energy costs and available fiber infrastructure to attract investment."
+  }
+]

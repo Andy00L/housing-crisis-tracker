@@ -1,0 +1,1931 @@
+{
+  "table": "18100205",
+  "name": "New Housing Price Index",
+  "lastUpdated": "2026-03-20",
+  "geographies": {
+    "Canada": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 124.5
+        },
+        {
+          "period": "2025-04",
+          "value": 124
+        },
+        {
+          "period": "2025-05",
+          "value": 123.7
+        },
+        {
+          "period": "2025-06",
+          "value": 123.4
+        },
+        {
+          "period": "2025-07",
+          "value": 123.3
+        },
+        {
+          "period": "2025-08",
+          "value": 122.9
+        },
+        {
+          "period": "2025-09",
+          "value": 122.7
+        },
+        {
+          "period": "2025-10",
+          "value": 122.2
+        },
+        {
+          "period": "2025-11",
+          "value": 122.2
+        },
+        {
+          "period": "2025-12",
+          "value": 122
+        },
+        {
+          "period": "2026-01",
+          "value": 121.5
+        },
+        {
+          "period": "2026-02",
+          "value": 121.9
+        }
+      ]
+    },
+    "Newfoundland and Labrador": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 109.1
+        },
+        {
+          "period": "2025-04",
+          "value": 109.8
+        },
+        {
+          "period": "2025-05",
+          "value": 109.8
+        },
+        {
+          "period": "2025-06",
+          "value": 109.8
+        },
+        {
+          "period": "2025-07",
+          "value": 109.8
+        },
+        {
+          "period": "2025-08",
+          "value": 109.8
+        },
+        {
+          "period": "2025-09",
+          "value": 109.8
+        },
+        {
+          "period": "2025-10",
+          "value": 109.8
+        },
+        {
+          "period": "2025-11",
+          "value": 109.8
+        },
+        {
+          "period": "2025-12",
+          "value": 109.8
+        },
+        {
+          "period": "2026-01",
+          "value": 109.8
+        },
+        {
+          "period": "2026-02",
+          "value": 109.8
+        }
+      ]
+    },
+    "St. John's, Newfoundland and Labrador": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 109.1
+        },
+        {
+          "period": "2025-04",
+          "value": 109.8
+        },
+        {
+          "period": "2025-05",
+          "value": 109.8
+        },
+        {
+          "period": "2025-06",
+          "value": 109.8
+        },
+        {
+          "period": "2025-07",
+          "value": 109.8
+        },
+        {
+          "period": "2025-08",
+          "value": 109.8
+        },
+        {
+          "period": "2025-09",
+          "value": 109.8
+        },
+        {
+          "period": "2025-10",
+          "value": 109.8
+        },
+        {
+          "period": "2025-11",
+          "value": 109.8
+        },
+        {
+          "period": "2025-12",
+          "value": 109.8
+        },
+        {
+          "period": "2026-01",
+          "value": 109.8
+        },
+        {
+          "period": "2026-02",
+          "value": 109.8
+        }
+      ]
+    },
+    "Prince Edward Island": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 122
+        },
+        {
+          "period": "2025-04",
+          "value": 122
+        },
+        {
+          "period": "2025-05",
+          "value": 122
+        },
+        {
+          "period": "2025-06",
+          "value": 123.7
+        },
+        {
+          "period": "2025-07",
+          "value": 123.7
+        },
+        {
+          "period": "2025-08",
+          "value": 123.7
+        },
+        {
+          "period": "2025-09",
+          "value": 123.7
+        },
+        {
+          "period": "2025-10",
+          "value": 123.7
+        },
+        {
+          "period": "2025-11",
+          "value": 123.7
+        },
+        {
+          "period": "2025-12",
+          "value": 123.7
+        },
+        {
+          "period": "2026-01",
+          "value": 123.7
+        },
+        {
+          "period": "2026-02",
+          "value": 123.7
+        }
+      ]
+    },
+    "Charlottetown, Prince Edward Island": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 122
+        },
+        {
+          "period": "2025-04",
+          "value": 122
+        },
+        {
+          "period": "2025-05",
+          "value": 122
+        },
+        {
+          "period": "2025-06",
+          "value": 123.7
+        },
+        {
+          "period": "2025-07",
+          "value": 123.7
+        },
+        {
+          "period": "2025-08",
+          "value": 123.7
+        },
+        {
+          "period": "2025-09",
+          "value": 123.7
+        },
+        {
+          "period": "2025-10",
+          "value": 123.7
+        },
+        {
+          "period": "2025-11",
+          "value": 123.7
+        },
+        {
+          "period": "2025-12",
+          "value": 123.7
+        },
+        {
+          "period": "2026-01",
+          "value": 123.7
+        },
+        {
+          "period": "2026-02",
+          "value": 123.7
+        }
+      ]
+    },
+    "Nova Scotia": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 126.3
+        },
+        {
+          "period": "2025-04",
+          "value": 126.3
+        },
+        {
+          "period": "2025-05",
+          "value": 127.3
+        },
+        {
+          "period": "2025-06",
+          "value": 127.3
+        },
+        {
+          "period": "2025-07",
+          "value": 127.3
+        },
+        {
+          "period": "2025-08",
+          "value": 127.3
+        },
+        {
+          "period": "2025-09",
+          "value": 127.2
+        },
+        {
+          "period": "2025-10",
+          "value": 127.7
+        },
+        {
+          "period": "2025-11",
+          "value": 127.7
+        },
+        {
+          "period": "2025-12",
+          "value": 127.5
+        },
+        {
+          "period": "2026-01",
+          "value": 127.5
+        },
+        {
+          "period": "2026-02",
+          "value": 128.6
+        }
+      ]
+    },
+    "Halifax, Nova Scotia": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 126.3
+        },
+        {
+          "period": "2025-04",
+          "value": 126.3
+        },
+        {
+          "period": "2025-05",
+          "value": 127.3
+        },
+        {
+          "period": "2025-06",
+          "value": 127.3
+        },
+        {
+          "period": "2025-07",
+          "value": 127.3
+        },
+        {
+          "period": "2025-08",
+          "value": 127.3
+        },
+        {
+          "period": "2025-09",
+          "value": 127.2
+        },
+        {
+          "period": "2025-10",
+          "value": 127.7
+        },
+        {
+          "period": "2025-11",
+          "value": 127.7
+        },
+        {
+          "period": "2025-12",
+          "value": 127.5
+        },
+        {
+          "period": "2026-01",
+          "value": 127.5
+        },
+        {
+          "period": "2026-02",
+          "value": 128.6
+        }
+      ]
+    },
+    "New Brunswick": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 120.7
+        },
+        {
+          "period": "2025-04",
+          "value": 120.7
+        },
+        {
+          "period": "2025-05",
+          "value": 120.7
+        },
+        {
+          "period": "2025-06",
+          "value": 120.7
+        },
+        {
+          "period": "2025-07",
+          "value": 120.7
+        },
+        {
+          "period": "2025-08",
+          "value": 120.7
+        },
+        {
+          "period": "2025-09",
+          "value": 120.7
+        },
+        {
+          "period": "2025-10",
+          "value": 120.7
+        },
+        {
+          "period": "2025-11",
+          "value": 120.7
+        },
+        {
+          "period": "2025-12",
+          "value": 120.7
+        },
+        {
+          "period": "2026-01",
+          "value": 120.7
+        },
+        {
+          "period": "2026-02",
+          "value": 120.7
+        }
+      ]
+    },
+    "Quebec": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 145.6
+        },
+        {
+          "period": "2025-04",
+          "value": 145.7
+        },
+        {
+          "period": "2025-05",
+          "value": 145.7
+        },
+        {
+          "period": "2025-06",
+          "value": 145.6
+        },
+        {
+          "period": "2025-07",
+          "value": 146.1
+        },
+        {
+          "period": "2025-08",
+          "value": 146.5
+        },
+        {
+          "period": "2025-09",
+          "value": 148.1
+        },
+        {
+          "period": "2025-10",
+          "value": 148.6
+        },
+        {
+          "period": "2025-11",
+          "value": 148.7
+        },
+        {
+          "period": "2025-12",
+          "value": 149.1
+        },
+        {
+          "period": "2026-01",
+          "value": 149.3
+        },
+        {
+          "period": "2026-02",
+          "value": 149.5
+        }
+      ]
+    },
+    "Québec, Quebec": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 141
+        },
+        {
+          "period": "2025-04",
+          "value": 141
+        },
+        {
+          "period": "2025-05",
+          "value": 141
+        },
+        {
+          "period": "2025-06",
+          "value": 141.1
+        },
+        {
+          "period": "2025-07",
+          "value": 141.7
+        },
+        {
+          "period": "2025-08",
+          "value": 141.7
+        },
+        {
+          "period": "2025-09",
+          "value": 141.5
+        },
+        {
+          "period": "2025-10",
+          "value": 142.1
+        },
+        {
+          "period": "2025-11",
+          "value": 142.1
+        },
+        {
+          "period": "2025-12",
+          "value": 143.1
+        },
+        {
+          "period": "2026-01",
+          "value": 143.1
+        },
+        {
+          "period": "2026-02",
+          "value": 143.6
+        }
+      ]
+    },
+    "Sherbrooke, Quebec": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 109
+        },
+        {
+          "period": "2025-04",
+          "value": 109.6
+        },
+        {
+          "period": "2025-05",
+          "value": 109.6
+        },
+        {
+          "period": "2025-06",
+          "value": 109.6
+        },
+        {
+          "period": "2025-07",
+          "value": 110.8
+        },
+        {
+          "period": "2025-08",
+          "value": 110.8
+        },
+        {
+          "period": "2025-09",
+          "value": 110.8
+        },
+        {
+          "period": "2025-10",
+          "value": 110.8
+        },
+        {
+          "period": "2025-11",
+          "value": 110.8
+        },
+        {
+          "period": "2025-12",
+          "value": 112.4
+        },
+        {
+          "period": "2026-01",
+          "value": 112.1
+        },
+        {
+          "period": "2026-02",
+          "value": 112.1
+        }
+      ]
+    },
+    "Trois-Rivières, Quebec": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 115.9
+        },
+        {
+          "period": "2025-04",
+          "value": 115.9
+        },
+        {
+          "period": "2025-05",
+          "value": 115.9
+        },
+        {
+          "period": "2025-06",
+          "value": 115.9
+        },
+        {
+          "period": "2025-07",
+          "value": 115.9
+        },
+        {
+          "period": "2025-08",
+          "value": 115.9
+        },
+        {
+          "period": "2025-09",
+          "value": 115.9
+        },
+        {
+          "period": "2025-10",
+          "value": 119.1
+        },
+        {
+          "period": "2025-11",
+          "value": 119.1
+        },
+        {
+          "period": "2025-12",
+          "value": 119.5
+        },
+        {
+          "period": "2026-01",
+          "value": 119.6
+        },
+        {
+          "period": "2026-02",
+          "value": 119.8
+        }
+      ]
+    },
+    "Montréal, Quebec": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 153.9
+        },
+        {
+          "period": "2025-04",
+          "value": 154.1
+        },
+        {
+          "period": "2025-05",
+          "value": 154
+        },
+        {
+          "period": "2025-06",
+          "value": 153.9
+        },
+        {
+          "period": "2025-07",
+          "value": 154.2
+        },
+        {
+          "period": "2025-08",
+          "value": 155
+        },
+        {
+          "period": "2025-09",
+          "value": 157.6
+        },
+        {
+          "period": "2025-10",
+          "value": 158
+        },
+        {
+          "period": "2025-11",
+          "value": 158.2
+        },
+        {
+          "period": "2025-12",
+          "value": 158.4
+        },
+        {
+          "period": "2026-01",
+          "value": 158.8
+        },
+        {
+          "period": "2026-02",
+          "value": 158.8
+        }
+      ]
+    },
+    "Ottawa-Gatineau, Quebec part, Ontario/Quebec": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 115.8
+        },
+        {
+          "period": "2025-04",
+          "value": 115.8
+        },
+        {
+          "period": "2025-05",
+          "value": 116
+        },
+        {
+          "period": "2025-06",
+          "value": 115.8
+        },
+        {
+          "period": "2025-07",
+          "value": 116.1
+        },
+        {
+          "period": "2025-08",
+          "value": 116.1
+        },
+        {
+          "period": "2025-09",
+          "value": 116.2
+        },
+        {
+          "period": "2025-10",
+          "value": 116.2
+        },
+        {
+          "period": "2025-11",
+          "value": 116.2
+        },
+        {
+          "period": "2025-12",
+          "value": 116.2
+        },
+        {
+          "period": "2026-01",
+          "value": 115.6
+        },
+        {
+          "period": "2026-02",
+          "value": 116.8
+        }
+      ]
+    },
+    "Ontario": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 123.2
+        },
+        {
+          "period": "2025-04",
+          "value": 122.7
+        },
+        {
+          "period": "2025-05",
+          "value": 122.1
+        },
+        {
+          "period": "2025-06",
+          "value": 122
+        },
+        {
+          "period": "2025-07",
+          "value": 121.8
+        },
+        {
+          "period": "2025-08",
+          "value": 121.6
+        },
+        {
+          "period": "2025-09",
+          "value": 121
+        },
+        {
+          "period": "2025-10",
+          "value": 120.3
+        },
+        {
+          "period": "2025-11",
+          "value": 120.2
+        },
+        {
+          "period": "2025-12",
+          "value": 120
+        },
+        {
+          "period": "2026-01",
+          "value": 119.4
+        },
+        {
+          "period": "2026-02",
+          "value": 119.3
+        }
+      ]
+    },
+    "Ottawa-Gatineau, Ontario part, Ontario/Quebec": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 163.9
+        },
+        {
+          "period": "2025-04",
+          "value": 162.7
+        },
+        {
+          "period": "2025-05",
+          "value": 162.7
+        },
+        {
+          "period": "2025-06",
+          "value": 162.6
+        },
+        {
+          "period": "2025-07",
+          "value": 162.3
+        },
+        {
+          "period": "2025-08",
+          "value": 161.8
+        },
+        {
+          "period": "2025-09",
+          "value": 160.7
+        },
+        {
+          "period": "2025-10",
+          "value": 160.7
+        },
+        {
+          "period": "2025-11",
+          "value": 160.7
+        },
+        {
+          "period": "2025-12",
+          "value": 160.4
+        },
+        {
+          "period": "2026-01",
+          "value": 161
+        },
+        {
+          "period": "2026-02",
+          "value": 160.9
+        }
+      ]
+    },
+    "Oshawa, Ontario": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 119.8
+        },
+        {
+          "period": "2025-04",
+          "value": 119.6
+        },
+        {
+          "period": "2025-05",
+          "value": 119.2
+        },
+        {
+          "period": "2025-06",
+          "value": 119
+        },
+        {
+          "period": "2025-07",
+          "value": 118.9
+        },
+        {
+          "period": "2025-08",
+          "value": 118.9
+        },
+        {
+          "period": "2025-09",
+          "value": 118.8
+        },
+        {
+          "period": "2025-10",
+          "value": 117.9
+        },
+        {
+          "period": "2025-11",
+          "value": 117.5
+        },
+        {
+          "period": "2025-12",
+          "value": 116.9
+        },
+        {
+          "period": "2026-01",
+          "value": 116.9
+        },
+        {
+          "period": "2026-02",
+          "value": 116.9
+        }
+      ]
+    },
+    "Toronto, Ontario": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 112.6
+        },
+        {
+          "period": "2025-04",
+          "value": 112.1
+        },
+        {
+          "period": "2025-05",
+          "value": 111.2
+        },
+        {
+          "period": "2025-06",
+          "value": 111
+        },
+        {
+          "period": "2025-07",
+          "value": 110.9
+        },
+        {
+          "period": "2025-08",
+          "value": 110.8
+        },
+        {
+          "period": "2025-09",
+          "value": 110.4
+        },
+        {
+          "period": "2025-10",
+          "value": 109.4
+        },
+        {
+          "period": "2025-11",
+          "value": 109.4
+        },
+        {
+          "period": "2025-12",
+          "value": 109.3
+        },
+        {
+          "period": "2026-01",
+          "value": 108.1
+        },
+        {
+          "period": "2026-02",
+          "value": 108.1
+        }
+      ]
+    },
+    "Hamilton, Ontario": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 113.6
+        },
+        {
+          "period": "2025-04",
+          "value": 113.2
+        },
+        {
+          "period": "2025-05",
+          "value": 113.5
+        },
+        {
+          "period": "2025-06",
+          "value": 113.5
+        },
+        {
+          "period": "2025-07",
+          "value": 111.6
+        },
+        {
+          "period": "2025-08",
+          "value": 111.6
+        },
+        {
+          "period": "2025-09",
+          "value": 110.8
+        },
+        {
+          "period": "2025-10",
+          "value": 110.8
+        },
+        {
+          "period": "2025-11",
+          "value": 110.8
+        },
+        {
+          "period": "2025-12",
+          "value": 109.6
+        },
+        {
+          "period": "2026-01",
+          "value": 109.1
+        },
+        {
+          "period": "2026-02",
+          "value": 108.9
+        }
+      ]
+    },
+    "St. Catharines-Niagara, Ontario": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 125.7
+        },
+        {
+          "period": "2025-04",
+          "value": 125.6
+        },
+        {
+          "period": "2025-05",
+          "value": 125.6
+        },
+        {
+          "period": "2025-06",
+          "value": 125.6
+        },
+        {
+          "period": "2025-07",
+          "value": 125.5
+        },
+        {
+          "period": "2025-08",
+          "value": 125.3
+        },
+        {
+          "period": "2025-09",
+          "value": 124.2
+        },
+        {
+          "period": "2025-10",
+          "value": 123.7
+        },
+        {
+          "period": "2025-11",
+          "value": 122.7
+        },
+        {
+          "period": "2025-12",
+          "value": 122.7
+        },
+        {
+          "period": "2026-01",
+          "value": 121.9
+        },
+        {
+          "period": "2026-02",
+          "value": 121.9
+        }
+      ]
+    },
+    "Kitchener-Cambridge-Waterloo, Ontario": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 156.3
+        },
+        {
+          "period": "2025-04",
+          "value": 156.3
+        },
+        {
+          "period": "2025-05",
+          "value": 155.6
+        },
+        {
+          "period": "2025-06",
+          "value": 155.6
+        },
+        {
+          "period": "2025-07",
+          "value": 155.1
+        },
+        {
+          "period": "2025-08",
+          "value": 155.1
+        },
+        {
+          "period": "2025-09",
+          "value": 153.5
+        },
+        {
+          "period": "2025-10",
+          "value": 152.9
+        },
+        {
+          "period": "2025-11",
+          "value": 153.4
+        },
+        {
+          "period": "2025-12",
+          "value": 153
+        },
+        {
+          "period": "2026-01",
+          "value": 153
+        },
+        {
+          "period": "2026-02",
+          "value": 153
+        }
+      ]
+    },
+    "Guelph, Ontario": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 123
+        },
+        {
+          "period": "2025-04",
+          "value": 122.4
+        },
+        {
+          "period": "2025-05",
+          "value": 122.4
+        },
+        {
+          "period": "2025-06",
+          "value": 121.7
+        },
+        {
+          "period": "2025-07",
+          "value": 120.7
+        },
+        {
+          "period": "2025-08",
+          "value": 120.7
+        },
+        {
+          "period": "2025-09",
+          "value": 120.7
+        },
+        {
+          "period": "2025-10",
+          "value": 120.7
+        },
+        {
+          "period": "2025-11",
+          "value": 120.7
+        },
+        {
+          "period": "2025-12",
+          "value": 120.7
+        },
+        {
+          "period": "2026-01",
+          "value": 120.7
+        },
+        {
+          "period": "2026-02",
+          "value": 120.3
+        }
+      ]
+    },
+    "London, Ontario": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 140.5
+        },
+        {
+          "period": "2025-04",
+          "value": 140
+        },
+        {
+          "period": "2025-05",
+          "value": 140
+        },
+        {
+          "period": "2025-06",
+          "value": 139.2
+        },
+        {
+          "period": "2025-07",
+          "value": 139.2
+        },
+        {
+          "period": "2025-08",
+          "value": 139.2
+        },
+        {
+          "period": "2025-09",
+          "value": 139
+        },
+        {
+          "period": "2025-10",
+          "value": 138.9
+        },
+        {
+          "period": "2025-11",
+          "value": 137.8
+        },
+        {
+          "period": "2025-12",
+          "value": 137.8
+        },
+        {
+          "period": "2026-01",
+          "value": 137.9
+        },
+        {
+          "period": "2026-02",
+          "value": 137.6
+        }
+      ]
+    },
+    "Windsor, Ontario": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 145
+        },
+        {
+          "period": "2025-04",
+          "value": 145
+        },
+        {
+          "period": "2025-05",
+          "value": 145
+        },
+        {
+          "period": "2025-06",
+          "value": 145
+        },
+        {
+          "period": "2025-07",
+          "value": 145
+        },
+        {
+          "period": "2025-08",
+          "value": 145
+        },
+        {
+          "period": "2025-09",
+          "value": 144.7
+        },
+        {
+          "period": "2025-10",
+          "value": 144.7
+        },
+        {
+          "period": "2025-11",
+          "value": 144.5
+        },
+        {
+          "period": "2025-12",
+          "value": 144.5
+        },
+        {
+          "period": "2026-01",
+          "value": 144.5
+        },
+        {
+          "period": "2026-02",
+          "value": 144.5
+        }
+      ]
+    },
+    "Greater Sudbury, Ontario": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 117.8
+        },
+        {
+          "period": "2025-04",
+          "value": 117.8
+        },
+        {
+          "period": "2025-05",
+          "value": 117.8
+        },
+        {
+          "period": "2025-06",
+          "value": 116.7
+        },
+        {
+          "period": "2025-07",
+          "value": 116.7
+        },
+        {
+          "period": "2025-08",
+          "value": 116.5
+        },
+        {
+          "period": "2025-09",
+          "value": 115.5
+        },
+        {
+          "period": "2025-10",
+          "value": 115.5
+        },
+        {
+          "period": "2025-11",
+          "value": 117.1
+        },
+        {
+          "period": "2025-12",
+          "value": 118.9
+        },
+        {
+          "period": "2026-01",
+          "value": 118.9
+        },
+        {
+          "period": "2026-02",
+          "value": 118.9
+        }
+      ]
+    },
+    "Manitoba": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 142.5
+        },
+        {
+          "period": "2025-04",
+          "value": 142.5
+        },
+        {
+          "period": "2025-05",
+          "value": 144.1
+        },
+        {
+          "period": "2025-06",
+          "value": 144.5
+        },
+        {
+          "period": "2025-07",
+          "value": 144.5
+        },
+        {
+          "period": "2025-08",
+          "value": 145
+        },
+        {
+          "period": "2025-09",
+          "value": 145.5
+        },
+        {
+          "period": "2025-10",
+          "value": 144.5
+        },
+        {
+          "period": "2025-11",
+          "value": 145
+        },
+        {
+          "period": "2025-12",
+          "value": 145.4
+        },
+        {
+          "period": "2026-01",
+          "value": 145.4
+        },
+        {
+          "period": "2026-02",
+          "value": 145.5
+        }
+      ]
+    },
+    "Winnipeg, Manitoba": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 142.5
+        },
+        {
+          "period": "2025-04",
+          "value": 142.5
+        },
+        {
+          "period": "2025-05",
+          "value": 144.1
+        },
+        {
+          "period": "2025-06",
+          "value": 144.5
+        },
+        {
+          "period": "2025-07",
+          "value": 144.5
+        },
+        {
+          "period": "2025-08",
+          "value": 145
+        },
+        {
+          "period": "2025-09",
+          "value": 145.5
+        },
+        {
+          "period": "2025-10",
+          "value": 144.5
+        },
+        {
+          "period": "2025-11",
+          "value": 145
+        },
+        {
+          "period": "2025-12",
+          "value": 145.4
+        },
+        {
+          "period": "2026-01",
+          "value": 145.4
+        },
+        {
+          "period": "2026-02",
+          "value": 145.5
+        }
+      ]
+    },
+    "Saskatchewan": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 107.2
+        },
+        {
+          "period": "2025-04",
+          "value": 107.8
+        },
+        {
+          "period": "2025-05",
+          "value": 108.9
+        },
+        {
+          "period": "2025-06",
+          "value": 109
+        },
+        {
+          "period": "2025-07",
+          "value": 109
+        },
+        {
+          "period": "2025-08",
+          "value": 109.7
+        },
+        {
+          "period": "2025-09",
+          "value": 109.6
+        },
+        {
+          "period": "2025-10",
+          "value": 109.6
+        },
+        {
+          "period": "2025-11",
+          "value": 110.1
+        },
+        {
+          "period": "2025-12",
+          "value": 110.1
+        },
+        {
+          "period": "2026-01",
+          "value": 109.9
+        },
+        {
+          "period": "2026-02",
+          "value": 110.7
+        }
+      ]
+    },
+    "Regina, Saskatchewan": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 102.2
+        },
+        {
+          "period": "2025-04",
+          "value": 103.5
+        },
+        {
+          "period": "2025-05",
+          "value": 105.1
+        },
+        {
+          "period": "2025-06",
+          "value": 105.4
+        },
+        {
+          "period": "2025-07",
+          "value": 105.4
+        },
+        {
+          "period": "2025-08",
+          "value": 105.8
+        },
+        {
+          "period": "2025-09",
+          "value": 105.8
+        },
+        {
+          "period": "2025-10",
+          "value": 106.1
+        },
+        {
+          "period": "2025-11",
+          "value": 107.1
+        },
+        {
+          "period": "2025-12",
+          "value": 107
+        },
+        {
+          "period": "2026-01",
+          "value": 106.9
+        },
+        {
+          "period": "2026-02",
+          "value": 107.1
+        }
+      ]
+    },
+    "Saskatoon, Saskatchewan": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 109.8
+        },
+        {
+          "period": "2025-04",
+          "value": 110.1
+        },
+        {
+          "period": "2025-05",
+          "value": 111.1
+        },
+        {
+          "period": "2025-06",
+          "value": 111.1
+        },
+        {
+          "period": "2025-07",
+          "value": 111.1
+        },
+        {
+          "period": "2025-08",
+          "value": 112
+        },
+        {
+          "period": "2025-09",
+          "value": 111.8
+        },
+        {
+          "period": "2025-10",
+          "value": 111.7
+        },
+        {
+          "period": "2025-11",
+          "value": 112
+        },
+        {
+          "period": "2025-12",
+          "value": 112
+        },
+        {
+          "period": "2026-01",
+          "value": 111.9
+        },
+        {
+          "period": "2026-02",
+          "value": 112.9
+        }
+      ]
+    },
+    "Alberta": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 121.8
+        },
+        {
+          "period": "2025-04",
+          "value": 120.7
+        },
+        {
+          "period": "2025-05",
+          "value": 120.6
+        },
+        {
+          "period": "2025-06",
+          "value": 120
+        },
+        {
+          "period": "2025-07",
+          "value": 120
+        },
+        {
+          "period": "2025-08",
+          "value": 119.1
+        },
+        {
+          "period": "2025-09",
+          "value": 118.9
+        },
+        {
+          "period": "2025-10",
+          "value": 118.3
+        },
+        {
+          "period": "2025-11",
+          "value": 118.7
+        },
+        {
+          "period": "2025-12",
+          "value": 118.5
+        },
+        {
+          "period": "2026-01",
+          "value": 118
+        },
+        {
+          "period": "2026-02",
+          "value": 119.4
+        }
+      ]
+    },
+    "Calgary, Alberta": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 133.4
+        },
+        {
+          "period": "2025-04",
+          "value": 131.9
+        },
+        {
+          "period": "2025-05",
+          "value": 132.1
+        },
+        {
+          "period": "2025-06",
+          "value": 131.1
+        },
+        {
+          "period": "2025-07",
+          "value": 131.3
+        },
+        {
+          "period": "2025-08",
+          "value": 129.9
+        },
+        {
+          "period": "2025-09",
+          "value": 129.7
+        },
+        {
+          "period": "2025-10",
+          "value": 129.5
+        },
+        {
+          "period": "2025-11",
+          "value": 130.2
+        },
+        {
+          "period": "2025-12",
+          "value": 130.3
+        },
+        {
+          "period": "2026-01",
+          "value": 129.7
+        },
+        {
+          "period": "2026-02",
+          "value": 131.4
+        }
+      ]
+    },
+    "Edmonton, Alberta": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 108.6
+        },
+        {
+          "period": "2025-04",
+          "value": 107.9
+        },
+        {
+          "period": "2025-05",
+          "value": 107.5
+        },
+        {
+          "period": "2025-06",
+          "value": 107.3
+        },
+        {
+          "period": "2025-07",
+          "value": 107
+        },
+        {
+          "period": "2025-08",
+          "value": 106.9
+        },
+        {
+          "period": "2025-09",
+          "value": 106.6
+        },
+        {
+          "period": "2025-10",
+          "value": 105.6
+        },
+        {
+          "period": "2025-11",
+          "value": 105.6
+        },
+        {
+          "period": "2025-12",
+          "value": 105
+        },
+        {
+          "period": "2026-01",
+          "value": 104.7
+        },
+        {
+          "period": "2026-02",
+          "value": 105.8
+        }
+      ]
+    },
+    "British Columbia": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 126.9
+        },
+        {
+          "period": "2025-04",
+          "value": 126.8
+        },
+        {
+          "period": "2025-05",
+          "value": 126.3
+        },
+        {
+          "period": "2025-06",
+          "value": 126.1
+        },
+        {
+          "period": "2025-07",
+          "value": 126
+        },
+        {
+          "period": "2025-08",
+          "value": 125.2
+        },
+        {
+          "period": "2025-09",
+          "value": 125.4
+        },
+        {
+          "period": "2025-10",
+          "value": 125.1
+        },
+        {
+          "period": "2025-11",
+          "value": 124.9
+        },
+        {
+          "period": "2025-12",
+          "value": 124.6
+        },
+        {
+          "period": "2026-01",
+          "value": 124.3
+        },
+        {
+          "period": "2026-02",
+          "value": 124.2
+        }
+      ]
+    },
+    "Kelowna, British Columbia": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 122.6
+        },
+        {
+          "period": "2025-04",
+          "value": 123.3
+        },
+        {
+          "period": "2025-05",
+          "value": 123.3
+        },
+        {
+          "period": "2025-06",
+          "value": 122.4
+        },
+        {
+          "period": "2025-07",
+          "value": 121.4
+        },
+        {
+          "period": "2025-08",
+          "value": 120.9
+        },
+        {
+          "period": "2025-09",
+          "value": 121.3
+        },
+        {
+          "period": "2025-10",
+          "value": 120
+        },
+        {
+          "period": "2025-11",
+          "value": 119.5
+        },
+        {
+          "period": "2025-12",
+          "value": 118.9
+        },
+        {
+          "period": "2026-01",
+          "value": 118.4
+        },
+        {
+          "period": "2026-02",
+          "value": 118.2
+        }
+      ]
+    },
+    "Vancouver, British Columbia": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 127.8
+        },
+        {
+          "period": "2025-04",
+          "value": 127.6
+        },
+        {
+          "period": "2025-05",
+          "value": 127.1
+        },
+        {
+          "period": "2025-06",
+          "value": 126.8
+        },
+        {
+          "period": "2025-07",
+          "value": 126.8
+        },
+        {
+          "period": "2025-08",
+          "value": 125.8
+        },
+        {
+          "period": "2025-09",
+          "value": 126.1
+        },
+        {
+          "period": "2025-10",
+          "value": 125.9
+        },
+        {
+          "period": "2025-11",
+          "value": 125.7
+        },
+        {
+          "period": "2025-12",
+          "value": 125.4
+        },
+        {
+          "period": "2026-01",
+          "value": 125
+        },
+        {
+          "period": "2026-02",
+          "value": 125
+        }
+      ]
+    },
+    "Victoria, British Columbia": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 121.8
+        },
+        {
+          "period": "2025-04",
+          "value": 121.5
+        },
+        {
+          "period": "2025-05",
+          "value": 121.5
+        },
+        {
+          "period": "2025-06",
+          "value": 122.4
+        },
+        {
+          "period": "2025-07",
+          "value": 122.4
+        },
+        {
+          "period": "2025-08",
+          "value": 122.3
+        },
+        {
+          "period": "2025-09",
+          "value": 122.3
+        },
+        {
+          "period": "2025-10",
+          "value": 121.6
+        },
+        {
+          "period": "2025-11",
+          "value": 122.1
+        },
+        {
+          "period": "2025-12",
+          "value": 122
+        },
+        {
+          "period": "2026-01",
+          "value": 121.9
+        },
+        {
+          "period": "2026-02",
+          "value": 121.8
+        }
+      ]
+    }
+  }
+}

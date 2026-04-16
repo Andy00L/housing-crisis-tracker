@@ -1,0 +1,944 @@
+{
+  "source": "UK Land Registry House Price Index",
+  "lastUpdated": "2026-04-16",
+  "regions": {
+    "united-kingdom": {
+      "values": [
+        {
+          "period": "2025-05",
+          "averagePrice": 264338,
+          "housePriceIndex": 101.3,
+          "percentageAnnualChange": 2.2
+        },
+        {
+          "period": "2025-06",
+          "averagePrice": 267571,
+          "housePriceIndex": 102.5,
+          "percentageAnnualChange": 3.1
+        },
+        {
+          "period": "2025-07",
+          "averagePrice": 269819,
+          "housePriceIndex": 103.4,
+          "percentageAnnualChange": 2.8
+        },
+        {
+          "period": "2025-08",
+          "averagePrice": 271758,
+          "housePriceIndex": 104.1,
+          "percentageAnnualChange": 2.5
+        },
+        {
+          "period": "2025-09",
+          "averagePrice": 270554,
+          "housePriceIndex": 103.7,
+          "percentageAnnualChange": 2.2
+        },
+        {
+          "period": "2025-10",
+          "averagePrice": 270645,
+          "housePriceIndex": 103.7,
+          "percentageAnnualChange": 2
+        },
+        {
+          "period": "2025-11",
+          "averagePrice": 272248,
+          "housePriceIndex": 104.3,
+          "percentageAnnualChange": 2.9
+        },
+        {
+          "period": "2025-12",
+          "averagePrice": 269108,
+          "housePriceIndex": 103.1,
+          "percentageAnnualChange": 1.9
+        },
+        {
+          "period": "2026-01",
+          "averagePrice": 268421,
+          "housePriceIndex": 102.9,
+          "percentageAnnualChange": 1.3
+        },
+        {
+          "period": "2026-02"
+        },
+        {
+          "period": "2026-03"
+        },
+        {
+          "period": "2026-04"
+        }
+      ]
+    },
+    "england": {
+      "values": [
+        {
+          "period": "2025-05",
+          "averagePrice": 286050,
+          "housePriceIndex": 100.1,
+          "percentageAnnualChange": 1.9
+        },
+        {
+          "period": "2025-06",
+          "averagePrice": 289383,
+          "housePriceIndex": 101.2,
+          "percentageAnnualChange": 2.8
+        },
+        {
+          "period": "2025-07",
+          "averagePrice": 291769,
+          "housePriceIndex": 102.1,
+          "percentageAnnualChange": 2.7
+        },
+        {
+          "period": "2025-08",
+          "averagePrice": 294113,
+          "housePriceIndex": 102.9,
+          "percentageAnnualChange": 2.4
+        },
+        {
+          "period": "2025-09",
+          "averagePrice": 292416,
+          "housePriceIndex": 102.3,
+          "percentageAnnualChange": 1.7
+        },
+        {
+          "period": "2025-10",
+          "averagePrice": 292416,
+          "housePriceIndex": 102.3,
+          "percentageAnnualChange": 1.7
+        },
+        {
+          "period": "2025-11",
+          "averagePrice": 294466,
+          "housePriceIndex": 103,
+          "percentageAnnualChange": 2.7
+        },
+        {
+          "period": "2025-12",
+          "averagePrice": 290959,
+          "housePriceIndex": 101.8,
+          "percentageAnnualChange": 1.4
+        },
+        {
+          "period": "2026-01",
+          "averagePrice": 290437,
+          "housePriceIndex": 101.6,
+          "percentageAnnualChange": 1.1
+        },
+        {
+          "period": "2026-02"
+        },
+        {
+          "period": "2026-03"
+        },
+        {
+          "period": "2026-04"
+        }
+      ]
+    },
+    "wales": {
+      "values": [
+        {
+          "period": "2025-05",
+          "averagePrice": 206443,
+          "housePriceIndex": 102.3,
+          "percentageAnnualChange": 3.6
+        },
+        {
+          "period": "2025-06",
+          "averagePrice": 209614,
+          "housePriceIndex": 103.8,
+          "percentageAnnualChange": 2.6
+        },
+        {
+          "period": "2025-07",
+          "averagePrice": 210074,
+          "housePriceIndex": 104.1,
+          "percentageAnnualChange": 2.5
+        },
+        {
+          "period": "2025-08",
+          "averagePrice": 210804,
+          "housePriceIndex": 104.4,
+          "percentageAnnualChange": 1.8
+        },
+        {
+          "period": "2025-09",
+          "averagePrice": 211427,
+          "housePriceIndex": 104.7,
+          "percentageAnnualChange": 3.7
+        },
+        {
+          "period": "2025-10",
+          "averagePrice": 210646,
+          "housePriceIndex": 104.4,
+          "percentageAnnualChange": 1.5
+        },
+        {
+          "period": "2025-11",
+          "averagePrice": 209232,
+          "housePriceIndex": 103.7,
+          "percentageAnnualChange": 0.9
+        },
+        {
+          "period": "2025-12",
+          "averagePrice": 213769,
+          "housePriceIndex": 105.9,
+          "percentageAnnualChange": 4.5
+        },
+        {
+          "period": "2026-01",
+          "averagePrice": 210186,
+          "housePriceIndex": 104.1,
+          "percentageAnnualChange": 2
+        },
+        {
+          "period": "2026-02"
+        },
+        {
+          "period": "2026-03"
+        },
+        {
+          "period": "2026-04"
+        }
+      ]
+    },
+    "scotland": {
+      "values": [
+        {
+          "period": "2025-05",
+          "averagePrice": 186632,
+          "housePriceIndex": 106.6,
+          "percentageAnnualChange": 3.4
+        },
+        {
+          "period": "2025-06",
+          "averagePrice": 189952,
+          "housePriceIndex": 108.5,
+          "percentageAnnualChange": 4.8
+        },
+        {
+          "period": "2025-07",
+          "averagePrice": 190707,
+          "housePriceIndex": 108.9,
+          "percentageAnnualChange": 2.6
+        },
+        {
+          "period": "2025-08",
+          "averagePrice": 191604,
+          "housePriceIndex": 109.4,
+          "percentageAnnualChange": 2.9
+        },
+        {
+          "period": "2025-09",
+          "averagePrice": 191725,
+          "housePriceIndex": 109.5,
+          "percentageAnnualChange": 3.9
+        },
+        {
+          "period": "2025-10",
+          "averagePrice": 191865,
+          "housePriceIndex": 109.6,
+          "percentageAnnualChange": 3.3
+        },
+        {
+          "period": "2025-11",
+          "averagePrice": 192776,
+          "housePriceIndex": 110.1,
+          "percentageAnnualChange": 4.3
+        },
+        {
+          "period": "2025-12",
+          "averagePrice": 188287,
+          "housePriceIndex": 107.5,
+          "percentageAnnualChange": 3.6
+        },
+        {
+          "period": "2026-01",
+          "averagePrice": 187716,
+          "housePriceIndex": 107.2,
+          "percentageAnnualChange": 1.3
+        },
+        {
+          "period": "2026-02"
+        },
+        {
+          "period": "2026-03"
+        },
+        {
+          "period": "2026-04"
+        }
+      ]
+    },
+    "northern-ireland": {
+      "values": [
+        {
+          "period": "2025-05",
+          "averagePrice": 185455,
+          "housePriceIndex": 114.1,
+          "percentageAnnualChange": 5.7
+        },
+        {
+          "period": "2025-06",
+          "averagePrice": 185455,
+          "housePriceIndex": 114.1,
+          "percentageAnnualChange": 5.7
+        },
+        {
+          "period": "2025-07",
+          "averagePrice": 193178,
+          "housePriceIndex": 118.9,
+          "percentageAnnualChange": 7
+        },
+        {
+          "period": "2025-08",
+          "averagePrice": 193178,
+          "housePriceIndex": 118.9,
+          "percentageAnnualChange": 7
+        },
+        {
+          "period": "2025-09",
+          "averagePrice": 193178,
+          "housePriceIndex": 118.9,
+          "percentageAnnualChange": 7
+        },
+        {
+          "period": "2025-10",
+          "averagePrice": 195936,
+          "housePriceIndex": 120.6,
+          "percentageAnnualChange": 7.5
+        },
+        {
+          "period": "2025-11",
+          "averagePrice": 195936,
+          "housePriceIndex": 120.6,
+          "percentageAnnualChange": 7.5
+        },
+        {
+          "period": "2025-12",
+          "averagePrice": 195936,
+          "housePriceIndex": 120.6,
+          "percentageAnnualChange": 7.5
+        },
+        {
+          "period": "2026-01",
+          "averagePrice": 195936,
+          "housePriceIndex": 120.6,
+          "percentageAnnualChange": 7.5
+        },
+        {
+          "period": "2026-02"
+        },
+        {
+          "period": "2026-03"
+        },
+        {
+          "period": "2026-04"
+        }
+      ]
+    },
+    "london": {
+      "values": [
+        {
+          "period": "2025-05",
+          "averagePrice": 565075,
+          "housePriceIndex": 99,
+          "percentageAnnualChange": 2.1
+        },
+        {
+          "period": "2025-06",
+          "averagePrice": 567015,
+          "housePriceIndex": 99.3,
+          "percentageAnnualChange": 1.8
+        },
+        {
+          "period": "2025-07",
+          "averagePrice": 568741,
+          "housePriceIndex": 99.6,
+          "percentageAnnualChange": 2
+        },
+        {
+          "period": "2025-08",
+          "averagePrice": 564945,
+          "housePriceIndex": 99,
+          "percentageAnnualChange": -0.4
+        },
+        {
+          "period": "2025-09",
+          "averagePrice": 565251,
+          "housePriceIndex": 99,
+          "percentageAnnualChange": -0.3
+        },
+        {
+          "period": "2025-10",
+          "averagePrice": 552377,
+          "housePriceIndex": 96.8,
+          "percentageAnnualChange": -1.5
+        },
+        {
+          "period": "2025-11",
+          "averagePrice": 556044,
+          "housePriceIndex": 97.4,
+          "percentageAnnualChange": -0.7
+        },
+        {
+          "period": "2025-12",
+          "averagePrice": 550024,
+          "housePriceIndex": 96.3,
+          "percentageAnnualChange": -1.2
+        },
+        {
+          "period": "2026-01",
+          "averagePrice": 554422,
+          "housePriceIndex": 97.1,
+          "percentageAnnualChange": -1.7
+        },
+        {
+          "period": "2026-02"
+        },
+        {
+          "period": "2026-03"
+        },
+        {
+          "period": "2026-04"
+        }
+      ]
+    },
+    "east-midlands": {
+      "values": [
+        {
+          "period": "2025-05",
+          "averagePrice": 234704,
+          "housePriceIndex": 99.7,
+          "percentageAnnualChange": 1.8
+        },
+        {
+          "period": "2025-06",
+          "averagePrice": 236782,
+          "housePriceIndex": 100.6,
+          "percentageAnnualChange": 3.6
+        },
+        {
+          "period": "2025-07",
+          "averagePrice": 239858,
+          "housePriceIndex": 101.9,
+          "percentageAnnualChange": 2.8
+        },
+        {
+          "period": "2025-08",
+          "averagePrice": 243194,
+          "housePriceIndex": 103.3,
+          "percentageAnnualChange": 3.8
+        },
+        {
+          "period": "2025-09",
+          "averagePrice": 241136,
+          "housePriceIndex": 102.5,
+          "percentageAnnualChange": 2.7
+        },
+        {
+          "period": "2025-10",
+          "averagePrice": 242314,
+          "housePriceIndex": 103,
+          "percentageAnnualChange": 2.6
+        },
+        {
+          "period": "2025-11",
+          "averagePrice": 243924,
+          "housePriceIndex": 103.7,
+          "percentageAnnualChange": 3.4
+        },
+        {
+          "period": "2025-12",
+          "averagePrice": 242550,
+          "housePriceIndex": 103.1,
+          "percentageAnnualChange": 2
+        },
+        {
+          "period": "2026-01",
+          "averagePrice": 241497,
+          "housePriceIndex": 102.6,
+          "percentageAnnualChange": 2.1
+        },
+        {
+          "period": "2026-02"
+        },
+        {
+          "period": "2026-03"
+        },
+        {
+          "period": "2026-04"
+        }
+      ]
+    },
+    "east-of-england": {
+      "values": [
+        {
+          "period": "2025-05",
+          "averagePrice": 331521,
+          "housePriceIndex": 97.3,
+          "percentageAnnualChange": 1.6
+        },
+        {
+          "period": "2025-06",
+          "averagePrice": 336627,
+          "housePriceIndex": 98.8,
+          "percentageAnnualChange": 3.3
+        },
+        {
+          "period": "2025-07",
+          "averagePrice": 337708,
+          "housePriceIndex": 99.1,
+          "percentageAnnualChange": 2.2
+        },
+        {
+          "period": "2025-08",
+          "averagePrice": 340621,
+          "housePriceIndex": 100,
+          "percentageAnnualChange": 2.5
+        },
+        {
+          "period": "2025-09",
+          "averagePrice": 338629,
+          "housePriceIndex": 99.4,
+          "percentageAnnualChange": 1.4
+        },
+        {
+          "period": "2025-10",
+          "averagePrice": 340902,
+          "housePriceIndex": 100.1,
+          "percentageAnnualChange": 2.1
+        },
+        {
+          "period": "2025-11",
+          "averagePrice": 340014,
+          "housePriceIndex": 99.8,
+          "percentageAnnualChange": 2.3
+        },
+        {
+          "period": "2025-12",
+          "averagePrice": 337142,
+          "housePriceIndex": 99,
+          "percentageAnnualChange": 1.3
+        },
+        {
+          "period": "2026-01",
+          "averagePrice": 336455,
+          "housePriceIndex": 98.8,
+          "percentageAnnualChange": 1.2
+        },
+        {
+          "period": "2026-02"
+        },
+        {
+          "period": "2026-03"
+        },
+        {
+          "period": "2026-04"
+        }
+      ]
+    },
+    "north-east": {
+      "values": [
+        {
+          "period": "2025-05",
+          "averagePrice": 154885,
+          "housePriceIndex": 102.7,
+          "percentageAnnualChange": 3.5
+        },
+        {
+          "period": "2025-06",
+          "averagePrice": 159353,
+          "housePriceIndex": 105.7,
+          "percentageAnnualChange": 4.9
+        },
+        {
+          "period": "2025-07",
+          "averagePrice": 160736,
+          "housePriceIndex": 106.6,
+          "percentageAnnualChange": 6
+        },
+        {
+          "period": "2025-08",
+          "averagePrice": 161504,
+          "housePriceIndex": 107.1,
+          "percentageAnnualChange": 5.3
+        },
+        {
+          "period": "2025-09",
+          "averagePrice": 161430,
+          "housePriceIndex": 107,
+          "percentageAnnualChange": 3.3
+        },
+        {
+          "period": "2025-10",
+          "averagePrice": 162617,
+          "housePriceIndex": 107.8,
+          "percentageAnnualChange": 4.6
+        },
+        {
+          "period": "2025-11",
+          "averagePrice": 167279,
+          "housePriceIndex": 110.9,
+          "percentageAnnualChange": 7.3
+        },
+        {
+          "period": "2025-12",
+          "averagePrice": 162910,
+          "housePriceIndex": 108,
+          "percentageAnnualChange": 3.1
+        },
+        {
+          "period": "2026-01",
+          "averagePrice": 158295,
+          "housePriceIndex": 105,
+          "percentageAnnualChange": 2.2
+        },
+        {
+          "period": "2026-02"
+        },
+        {
+          "period": "2026-03"
+        },
+        {
+          "period": "2026-04"
+        }
+      ]
+    },
+    "north-west": {
+      "values": [
+        {
+          "period": "2025-05",
+          "averagePrice": 207378,
+          "housePriceIndex": 105,
+          "percentageAnnualChange": 2.3
+        },
+        {
+          "period": "2025-06",
+          "averagePrice": 210951,
+          "housePriceIndex": 106.8,
+          "percentageAnnualChange": 4.4
+        },
+        {
+          "period": "2025-07",
+          "averagePrice": 212930,
+          "housePriceIndex": 107.8,
+          "percentageAnnualChange": 4.6
+        },
+        {
+          "period": "2025-08",
+          "averagePrice": 216196,
+          "housePriceIndex": 109.5,
+          "percentageAnnualChange": 4.2
+        },
+        {
+          "period": "2025-09",
+          "averagePrice": 214567,
+          "housePriceIndex": 108.6,
+          "percentageAnnualChange": 3.2
+        },
+        {
+          "period": "2025-10",
+          "averagePrice": 215010,
+          "housePriceIndex": 108.9,
+          "percentageAnnualChange": 3.4
+        },
+        {
+          "period": "2025-11",
+          "averagePrice": 218493,
+          "housePriceIndex": 110.6,
+          "percentageAnnualChange": 4.9
+        },
+        {
+          "period": "2025-12",
+          "averagePrice": 216223,
+          "housePriceIndex": 109.5,
+          "percentageAnnualChange": 4
+        },
+        {
+          "period": "2026-01",
+          "averagePrice": 214443,
+          "housePriceIndex": 108.6,
+          "percentageAnnualChange": 3.1
+        },
+        {
+          "period": "2026-02"
+        },
+        {
+          "period": "2026-03"
+        },
+        {
+          "period": "2026-04"
+        }
+      ]
+    },
+    "south-east": {
+      "values": [
+        {
+          "period": "2025-05",
+          "averagePrice": 377264,
+          "housePriceIndex": 97.3,
+          "percentageAnnualChange": 1.2
+        },
+        {
+          "period": "2025-06",
+          "averagePrice": 380932,
+          "housePriceIndex": 98.2,
+          "percentageAnnualChange": 2.1
+        },
+        {
+          "period": "2025-07",
+          "averagePrice": 382404,
+          "housePriceIndex": 98.6,
+          "percentageAnnualChange": 1.4
+        },
+        {
+          "period": "2025-08",
+          "averagePrice": 386374,
+          "housePriceIndex": 99.7,
+          "percentageAnnualChange": 1.2
+        },
+        {
+          "period": "2025-09",
+          "averagePrice": 382638,
+          "housePriceIndex": 98.7,
+          "percentageAnnualChange": 0.6
+        },
+        {
+          "period": "2025-10",
+          "averagePrice": 385225,
+          "housePriceIndex": 99.4,
+          "percentageAnnualChange": 1.1
+        },
+        {
+          "period": "2025-11",
+          "averagePrice": 382798,
+          "housePriceIndex": 98.7,
+          "percentageAnnualChange": 1.4
+        },
+        {
+          "period": "2025-12",
+          "averagePrice": 378030,
+          "housePriceIndex": 97.5,
+          "percentageAnnualChange": -0.2
+        },
+        {
+          "period": "2026-01",
+          "averagePrice": 379532,
+          "housePriceIndex": 97.9,
+          "percentageAnnualChange": -0.5
+        },
+        {
+          "period": "2026-02"
+        },
+        {
+          "period": "2026-03"
+        },
+        {
+          "period": "2026-04"
+        }
+      ]
+    },
+    "south-west": {
+      "values": [
+        {
+          "period": "2025-05",
+          "averagePrice": 298137,
+          "housePriceIndex": 96.5,
+          "percentageAnnualChange": -0.1
+        },
+        {
+          "period": "2025-06",
+          "averagePrice": 300764,
+          "housePriceIndex": 97.3,
+          "percentageAnnualChange": 1.2
+        },
+        {
+          "period": "2025-07",
+          "averagePrice": 305037,
+          "housePriceIndex": 98.7,
+          "percentageAnnualChange": 1.1
+        },
+        {
+          "period": "2025-08",
+          "averagePrice": 307161,
+          "housePriceIndex": 99.4,
+          "percentageAnnualChange": 1.3
+        },
+        {
+          "period": "2025-09",
+          "averagePrice": 304131,
+          "housePriceIndex": 98.4,
+          "percentageAnnualChange": -0.1
+        },
+        {
+          "period": "2025-10",
+          "averagePrice": 303786,
+          "housePriceIndex": 98.3,
+          "percentageAnnualChange": -0.9
+        },
+        {
+          "period": "2025-11",
+          "averagePrice": 306849,
+          "housePriceIndex": 99.3,
+          "percentageAnnualChange": 2.2
+        },
+        {
+          "period": "2025-12",
+          "averagePrice": 301472,
+          "housePriceIndex": 97.5,
+          "percentageAnnualChange": 0.4
+        },
+        {
+          "period": "2026-01",
+          "averagePrice": 301518,
+          "housePriceIndex": 97.5,
+          "percentageAnnualChange": -0.1
+        },
+        {
+          "period": "2026-02"
+        },
+        {
+          "period": "2026-03"
+        },
+        {
+          "period": "2026-04"
+        }
+      ]
+    },
+    "west-midlands": {
+      "values": [
+        {
+          "period": "2025-05",
+          "averagePrice": 229122,
+          "housePriceIndex": 101.3,
+          "percentageAnnualChange": 4
+        },
+        {
+          "period": "2025-06",
+          "averagePrice": 227533,
+          "housePriceIndex": 100.6,
+          "percentageAnnualChange": 2.2
+        },
+        {
+          "period": "2025-07",
+          "averagePrice": 230017,
+          "housePriceIndex": 101.7,
+          "percentageAnnualChange": 2.2
+        },
+        {
+          "period": "2025-08",
+          "averagePrice": 232047,
+          "housePriceIndex": 102.6,
+          "percentageAnnualChange": 2.2
+        },
+        {
+          "period": "2025-09",
+          "averagePrice": 232897,
+          "housePriceIndex": 103,
+          "percentageAnnualChange": 2
+        },
+        {
+          "period": "2025-10",
+          "averagePrice": 232921,
+          "housePriceIndex": 103,
+          "percentageAnnualChange": 1.6
+        },
+        {
+          "period": "2025-11",
+          "averagePrice": 233506,
+          "housePriceIndex": 103.2,
+          "percentageAnnualChange": 1.4
+        },
+        {
+          "period": "2025-12",
+          "averagePrice": 233380,
+          "housePriceIndex": 103.2,
+          "percentageAnnualChange": 1.6
+        },
+        {
+          "period": "2026-01",
+          "averagePrice": 233145,
+          "housePriceIndex": 103.1,
+          "percentageAnnualChange": 1.6
+        },
+        {
+          "period": "2026-02"
+        },
+        {
+          "period": "2026-03"
+        },
+        {
+          "period": "2026-04"
+        }
+      ]
+    },
+    "yorkshire-and-the-humber": {
+      "values": [
+        {
+          "period": "2025-05",
+          "averagePrice": 200559,
+          "housePriceIndex": 104.7,
+          "percentageAnnualChange": 3.4
+        },
+        {
+          "period": "2025-06",
+          "averagePrice": 201531,
+          "housePriceIndex": 105.2,
+          "percentageAnnualChange": 1.8
+        },
+        {
+          "period": "2025-07",
+          "averagePrice": 203876,
+          "housePriceIndex": 106.4,
+          "percentageAnnualChange": 3
+        },
+        {
+          "period": "2025-08",
+          "averagePrice": 206310,
+          "housePriceIndex": 107.7,
+          "percentageAnnualChange": 2.1
+        },
+        {
+          "period": "2025-09",
+          "averagePrice": 205946,
+          "housePriceIndex": 107.5,
+          "percentageAnnualChange": 3.6
+        },
+        {
+          "period": "2025-10",
+          "averagePrice": 206245,
+          "housePriceIndex": 107.6,
+          "percentageAnnualChange": 3.2
+        },
+        {
+          "period": "2025-11",
+          "averagePrice": 209601,
+          "housePriceIndex": 109.4,
+          "percentageAnnualChange": 3.9
+        },
+        {
+          "period": "2025-12",
+          "averagePrice": 207438,
+          "housePriceIndex": 108.3,
+          "percentageAnnualChange": 2.8
+        },
+        {
+          "period": "2026-01",
+          "averagePrice": 206470,
+          "housePriceIndex": 107.7,
+          "percentageAnnualChange": 3
+        },
+        {
+          "period": "2026-02"
+        },
+        {
+          "period": "2026-03"
+        },
+        {
+          "period": "2026-04"
+        }
+      ]
+    }
+  }
+}

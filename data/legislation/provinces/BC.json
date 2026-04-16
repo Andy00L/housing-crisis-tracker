@@ -1,0 +1,1302 @@
+{
+  "state": "British Columbia",
+  "stateCode": "BC",
+  "region": "na",
+  "stance": "review",
+  "stanceZoning": "review",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "British Columbia has been at the forefront of Canadian housing reform. The province has enacted legislation on short-term rental regulation, transit-oriented density, and the elimination of single-family-only zoning. The Residential Tenancy Act provides strong tenant protections, and the Speculation and Vacancy Tax targets foreign and vacant property owners.",
+  "legislation": [
+    {
+      "id": "bc-234-99",
+      "billCode": "234_99",
+      "title": "Affordable Housing Purposes Regulation - 234/99",
+      "summary": "BC statute or regulation: Affordable Housing Purposes Regulation - 234/99",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- M --/35_Ministry of Lands, Parks and Housing Act [RSBC 1996] c. 307/05_Regulations/10_234_99.xml"
+    },
+    {
+      "id": "bc-tlc96208",
+      "billCode": "tlc96208",
+      "title": "1st Edition TLC - Housing Construction (Elderly Citizens) Act",
+      "summary": "BC statute or regulation: 1st Edition TLC - Housing Construction (Elderly Citizens) Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- H --/Housing Construction (Elderly Citizens) Act [RSBC 1996] c. 208/01_Tables of Legislative Changes/60_tlc96208.xml"
+    },
+    {
+      "id": "bc-e3tlc22038",
+      "billCode": "e3tlc22038",
+      "title": "3rd Edition TLC - Housing Supply Act",
+      "summary": "BC statute or regulation: 3rd Edition TLC - Housing Supply Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- H --/Housing Supply Act [SBC 2022] c. 38/01_Tables of Legislative Changes/58_E3tlc22038.xml"
+    },
+    {
+      "id": "bc-tlc96310",
+      "billCode": "tlc96310",
+      "title": "1st Edition TLC - Ministry of Social Services and Housing Act",
+      "summary": "BC statute or regulation: 1st Edition TLC - Ministry of Social Services and Housing Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- M --/38_Ministry of Social Services and Housing Act [RSBC 1996] c. 310/01_Tables of Legislative Changes/60_tlc96310.xml"
+    },
+    {
+      "id": "bc-e3tlc12031",
+      "billCode": "e3tlc12031",
+      "title": "3rd Edition TLC - New Housing Transition Tax and Rebate Act",
+      "summary": "BC statute or regulation: 3rd Edition TLC - New Housing Transition Tax and Rebate Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "transit-oriented"
+      ],
+      "category": "transit-housing",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- N --/31_New Housing Transition Tax and Rebate Act [SBC 2012] c. 31/01_Tables of Legislative Changes/58_E3tlc12031.xml"
+    },
+    {
+      "id": "bc-208-2008",
+      "billCode": "208_2008",
+      "title": "Supportive Housing Property Valuation Regulation - 208/2008",
+      "summary": "BC statute or regulation: Supportive Housing Property Valuation Regulation - 208/2008",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- A --/Assessment Act [RSBC 1996] c. 20/05_Regulations/49_208_2008.xml"
+    },
+    {
+      "id": "bc-91-2019",
+      "billCode": "91_2019",
+      "title": "Vancouver Housing Needs Report Regulation - 91/2019",
+      "summary": "BC statute or regulation: Vancouver Housing Needs Report Regulation - 91/2019",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- V --/Vancouver Charter [SBC 1953] c. 55/05_Regulations/100_91_2019.xml"
+    },
+    {
+      "id": "bc-96208rep-01",
+      "billCode": "96208rep_01",
+      "title": "Housing Construction (Elderly Citizens) Act",
+      "summary": "BC statute or regulation: Housing Construction (Elderly Citizens) Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- H --/Housing Construction (Elderly Citizens) Act [RSBC 1996] c. 208/00_96208REP_01.xml"
+    },
+    {
+      "id": "bc-e4tlc22038",
+      "billCode": "e4tlc22038",
+      "title": "4th Edition TLC - Housing Supply Act",
+      "summary": "BC statute or regulation: 4th Edition TLC - Housing Supply Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- H --/Housing Supply Act [SBC 2022] c. 38/01_Tables of Legislative Changes/57_E4tlc22038.xml"
+    },
+    {
+      "id": "bc-96310rep-01",
+      "billCode": "96310rep_01",
+      "title": "Ministry of Social Services and Housing Act",
+      "summary": "BC statute or regulation: Ministry of Social Services and Housing Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- M --/38_Ministry of Social Services and Housing Act [RSBC 1996] c. 310/00_96310REP_01.xml"
+    },
+    {
+      "id": "bc-22038",
+      "billCode": "22038",
+      "title": "Housing Supply Act",
+      "summary": "BC statute or regulation: Housing Supply Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- H --/Housing Supply Act [SBC 2022] c. 38/00_22038_01.xml"
+    },
+    {
+      "id": "bc-90-2019",
+      "billCode": "90_2019",
+      "title": "Housing Needs Report Regulation - 90/2019",
+      "summary": "BC statute or regulation: Housing Needs Report Regulation - 90/2019",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Government Act [RSBC 2015] c. 1/05_Regulations/240_90_2019.xml"
+    },
+    {
+      "id": "bc-96307-01",
+      "billCode": "96307_01",
+      "title": "Ministry of Lands, Parks and Housing Act",
+      "summary": "BC statute or regulation: Ministry of Lands, Parks and Housing Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "inclusionary-zoning"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- M --/35_Ministry of Lands, Parks and Housing Act [RSBC 1996] c. 307/00_96307_01.xml"
+    },
+    {
+      "id": "bc-90-2019-pit",
+      "billCode": "90_2019_pit",
+      "title": "Point in Time - Housing Needs Report Regulation - 90/2019",
+      "summary": "BC statute or regulation: Point in Time - Housing Needs Report Regulation - 90/2019",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Government Act [RSBC 2015] c. 1/98_Regulations Point in Time/240_90_2019_pit.xml"
+    },
+    {
+      "id": "bc-91-2019-pit",
+      "billCode": "91_2019_pit",
+      "title": "Point in Time - Vancouver Housing Needs Report Regulation - 91/2019",
+      "summary": "BC statute or regulation: Point in Time - Vancouver Housing Needs Report Regulation - 91/2019",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- V --/Vancouver Charter [SBC 1953] c. 55/98_Regulations Point in Time/100_91_2019_pit.xml"
+    },
+    {
+      "id": "bc-133-2023-pit",
+      "billCode": "133_2023_pit",
+      "title": "Point in Time - Housing Supply Regulation - 133/2023",
+      "summary": "BC statute or regulation: Point in Time - Housing Supply Regulation - 133/2023",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- H --/Housing Supply Act [SBC 2022] c. 38/98_Regulations Point in Time/10_133_2023_pit.xml"
+    },
+    {
+      "id": "bc-96310-pit",
+      "billCode": "96310_pit",
+      "title": "Point in Time - Ministry of Social Services and Housing Act",
+      "summary": "BC statute or regulation: Point in Time - Ministry of Social Services and Housing Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- M --/38_Ministry of Social Services and Housing Act [RSBC 1996] c. 310/04_Act Point in Time/96310_pit.xml"
+    },
+    {
+      "id": "bc-490-79-pit",
+      "billCode": "490_79_pit",
+      "title": "Point in Time - British Columbia Housing Management Commission Regulation - 490/79",
+      "summary": "BC statute or regulation: Point in Time - British Columbia Housing Management Commission Regulation - 490/79",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- M --/35_Ministry of Lands, Parks and Housing Act [RSBC 1996] c. 307/98_Regulations Point in Time/11_490_79_pit.xml"
+    },
+    {
+      "id": "bc-156-2024",
+      "billCode": "156_2024",
+      "title": "Prescribed Classes of Affordable Housing (Local Government Act) Regulation - 156/2024",
+      "summary": "BC statute or regulation: Prescribed Classes of Affordable Housing (Local Government Act) Regulation - 156/2024",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Government Act [RSBC 2015] c. 1/05_Regulations/377_156_2024.xml"
+    },
+    {
+      "id": "bc-157-2024",
+      "billCode": "157_2024",
+      "title": "Prescribed Classes of Affordable Housing (Vancouver Charter) Regulation - 157/2024",
+      "summary": "BC statute or regulation: Prescribed Classes of Affordable Housing (Vancouver Charter) Regulation - 157/2024",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- V --/Vancouver Charter [SBC 1953] c. 55/05_Regulations/055_157_2024.xml"
+    },
+    {
+      "id": "bc-99-2024",
+      "billCode": "99_2024",
+      "title": "Approval Exemption (Controlled Access Highway) Regulation - 99/2024",
+      "summary": "BC statute or regulation: Approval Exemption (Controlled Access Highway) Regulation - 99/2024",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- C --/70_Community Charter [SBC 2003] c. 26/05_Regulations/10_99_2024.xml"
+    },
+    {
+      "id": "bc-99-2024a",
+      "billCode": "99_2024a",
+      "title": "Approval Exemption (Controlled Access Highway) Regulation - 99/2024",
+      "summary": "BC statute or regulation: Approval Exemption (Controlled Access Highway) Regulation - 99/2024",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- C --/70_Community Charter [SBC 2003] c. 26/05_Regulations/10_99_2024.xml"
+    },
+    {
+      "id": "bc-62-2025",
+      "billCode": "62_2025",
+      "title": "Density Benefits Zoning Bylaws Amendment Deadline Regulation - 62/2025",
+      "summary": "BC statute or regulation: Density Benefits Zoning Bylaws Amendment Deadline Regulation - 62/2025",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "inclusionary-zoning"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Government Act [RSBC 2015] c. 1/05_Regulations/151_62_2025.xml"
+    },
+    {
+      "id": "bc-62-2025a",
+      "billCode": "62_2025a",
+      "title": "Density Benefits Zoning Bylaws Amendment Deadline Regulation - 62/2025",
+      "summary": "BC statute or regulation: Density Benefits Zoning Bylaws Amendment Deadline Regulation - 62/2025",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "inclusionary-zoning"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Government Act [RSBC 2015] c. 1/05_Regulations/151_62_2025.xml"
+    },
+    {
+      "id": "bc-r15001-195",
+      "billCode": "r15001_195",
+      "title": "Part 20 - Transitional and Interim Provisions",
+      "summary": "BC statute or regulation: Part 20 - Transitional and Interim Provisions",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "transit-oriented"
+      ],
+      "category": "transit-housing",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Government Act [RSBC 2015] c. 1/00_Act/20_r15001_195.xml"
+    },
+    {
+      "id": "bc-183-59",
+      "billCode": "183_59",
+      "title": "General Regulation - 183/59",
+      "summary": "BC statute or regulation: General Regulation - 183/59",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Services Act [RSBC 1996] c. 276/05_Regulations/16_183_59.xml"
+    },
+    {
+      "id": "bc-vanch-32",
+      "billCode": "vanch_32",
+      "title": "Part XXXI - Transitional and Interim Provisions",
+      "summary": "BC statute or regulation: Part XXXI - Transitional and Interim Provisions",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "transit-oriented"
+      ],
+      "category": "transit-housing",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- V --/Vancouver Charter [SBC 1953] c. 55/00_Act/34_vanch_32.xml"
+    },
+    {
+      "id": "bc-279-2003-pit",
+      "billCode": "279_2003_pit",
+      "title": "Point in Time - Regional District Bylaw Approval Exemption Regulation - 279/2003",
+      "summary": "BC statute or regulation: Point in Time - Regional District Bylaw Approval Exemption Regulation - 279/2003",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Government Act [RSBC 2015] c. 1/98_Regulations Point in Time/425_279_2003_pit.xml"
+    },
+    {
+      "id": "bc-vanch-28",
+      "billCode": "vanch_28",
+      "title": "Part XXVII - Planning and Development",
+      "summary": "BC statute or regulation: Part XXVII - Planning and Development",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "inclusionary-zoning"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- V --/Vancouver Charter [SBC 1953] c. 55/00_Act/30_vanch_28.xml"
+    },
+    {
+      "id": "bc-264-2023",
+      "billCode": "264_2023",
+      "title": "Vancouver Zoning Bylaw Regulation - 264/2023",
+      "summary": "BC statute or regulation: Vancouver Zoning Bylaw Regulation - 264/2023",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "inclusionary-zoning"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- V --/Vancouver Charter [SBC 1953] c. 55/05_Regulations/115_264_2023.xml"
+    },
+    {
+      "id": "bc-262-2023",
+      "billCode": "262_2023",
+      "title": "Local Government Zoning Bylaw Regulation - 262/2023",
+      "summary": "BC statute or regulation: Local Government Zoning Bylaw Regulation - 262/2023",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "inclusionary-zoning"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Government Act [RSBC 2015] c. 1/05_Regulations/312_262_2023.xml"
+    },
+    {
+      "id": "bc-23003",
+      "billCode": "23003",
+      "title": "Municipalities Enabling And Validating Act (No. 5)",
+      "summary": "BC statute or regulation: Municipalities Enabling And Validating Act (No. 5)",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- M --/98_Municipalities Enabling and Validating Act (No. 5) [SBC 2023] c. 3/00_23003_01.xml"
+    },
+    {
+      "id": "bc-133-2021-pit",
+      "billCode": "133_2021_pit",
+      "title": "Point in Time - Regional District of Okanagan-Similkameen Land Use Contract Termination Regulation - 133/2021",
+      "summary": "BC statute or regulation: Point in Time - Regional District of Okanagan-Similkameen Land Use Contract Termination Regulation - 133/2021",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "inclusionary-zoning"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Government Act [RSBC 2015] c. 1/98_Regulations Point in Time/520_133_2021_pit.xml"
+    },
+    {
+      "id": "bc-309-87-pit",
+      "billCode": "309_87_pit",
+      "title": "Point in Time - Community Planning Area No. 28 Distribution of Notices of Public Hearing - 309/87",
+      "summary": "BC statute or regulation: Point in Time - Community Planning Area No. 28 Distribution of Notices of Public Hearing - 309/87",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "inclusionary-zoning"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Services Act [RSBC 1996] c. 276/98_Regulations Point in Time/13_309_87_pit.xml"
+    },
+    {
+      "id": "bc-99-2024-pit",
+      "billCode": "99_2024_pit",
+      "title": "Point in Time - Approval Exemption (Controlled Access Highway) Regulation - 99/2024",
+      "summary": "BC statute or regulation: Point in Time - Approval Exemption (Controlled Access Highway) Regulation - 99/2024",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- C --/70_Community Charter [SBC 2003] c. 26/98_Regulations Point in Time/10_99_2024_pit.xml"
+    },
+    {
+      "id": "bc-183-59-pit",
+      "billCode": "183_59_pit",
+      "title": "Point in Time - General Regulation - 183/59",
+      "summary": "BC statute or regulation: Point in Time - General Regulation - 183/59",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Services Act [RSBC 1996] c. 276/98_Regulations Point in Time/16_183_59_pit.xml"
+    },
+    {
+      "id": "bc-r15001-14",
+      "billCode": "r15001_14",
+      "title": "Part 14 - Planning and Land Use Management",
+      "summary": "BC statute or regulation: Part 14 - Planning and Land Use Management",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "inclusionary-zoning"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Government Act [RSBC 2015] c. 1/00_Act/14_r15001_14.xml"
+    },
+    {
+      "id": "bc-334-79",
+      "billCode": "334_79",
+      "title": "Land Title Act Regulation - 334/79",
+      "summary": "BC statute or regulation: Land Title Act Regulation - 334/79",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "inclusionary-zoning"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Land Title Act [RSBC 1996] c. 250/05_Regulations/15_334_79.xml"
+    },
+    {
+      "id": "bc-96323-pit",
+      "billCode": "96323_pit",
+      "title": "Point in Time - Local Government Act [RSBC 2015] c. 1",
+      "summary": "BC statute or regulation: Point in Time - Local Government Act [RSBC 2015] c. 1",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Government Act [RSBC 2015] c. 1/04_Act Point in Time/15001_pit.xml"
+    },
+    {
+      "id": "bc-41-91",
+      "billCode": "41_91",
+      "title": "Regional District Special Voting Regulation - 41/91",
+      "summary": "BC statute or regulation: Regional District Special Voting Regulation - 41/91",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/Local Government Act [RSBC 2015] c. 1/05_Regulations/545_41_91.xml"
+    },
+    {
+      "id": "bc-125-2001",
+      "billCode": "125_2001",
+      "title": "Residential Tenancy Regulation - 125/2001",
+      "summary": "BC statute or regulation: Residential Tenancy Regulation - 125/2001",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- R --/Residential Tenancy Act [SBC 2002] c. 78/05_Regulations/13_125_2001.xml"
+    },
+    {
+      "id": "bc-49-96",
+      "billCode": "49_96",
+      "title": "Tenancy Agreement Regulation - 49/96",
+      "summary": "BC statute or regulation: Tenancy Agreement Regulation - 49/96",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- R --/Residential Tenancy Act [SBC 2002] c. 78/05_Regulations/15_49_96.xml"
+    },
+    {
+      "id": "bc-96406rep-01",
+      "billCode": "96406rep_01",
+      "title": "Residential Tenancy Act",
+      "summary": "BC statute or regulation: Residential Tenancy Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- R --/Residential Tenancy Act [RSBC 1996] c. 406/00_96406REP_01.xml"
+    },
+    {
+      "id": "bc-212-2020",
+      "billCode": "212_2020",
+      "title": "COVID-19 (Residential Tenancy Act and Manufactured Home Park Tenancy Act) (No. 2) Regulation - 212/2020",
+      "summary": "BC statute or regulation: COVID-19 (Residential Tenancy Act and Manufactured Home Park Tenancy Act) (No. 2) Regulation - 212/2020",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- E --/Emergency Program Act [RSBC 1996] c. 111/05_Regulations/21_212_2020.xml"
+    },
+    {
+      "id": "bc-267-2020",
+      "billCode": "267_2020",
+      "title": "COVID-19 (Residential Tenancy Act and Manufactured Home Park Tenancy Act) (No. 3) Regulation - 267/2020",
+      "summary": "BC statute or regulation: COVID-19 (Residential Tenancy Act and Manufactured Home Park Tenancy Act) (No. 3) Regulation - 267/2020",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- E --/Emergency Program Act [RSBC 1996] c. 111/05_Regulations/22_267_2020.xml"
+    },
+    {
+      "id": "bc-tlc96406",
+      "billCode": "tlc96406",
+      "title": "1st Edition TLC - Residential Tenancy Act",
+      "summary": "BC statute or regulation: 1st Edition TLC - Residential Tenancy Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- R --/Residential Tenancy Act [RSBC 1996] c. 406/01_Tables of Legislative Changes/60_tlc96406.xml"
+    },
+    {
+      "id": "bc-195-2020",
+      "billCode": "195_2020",
+      "title": "COVID-19 (Residential Tenancy Act and Manufactured Home Park Tenancy Act) Regulation - 195/2020",
+      "summary": "BC statute or regulation: COVID-19 (Residential Tenancy Act and Manufactured Home Park Tenancy Act) Regulation - 195/2020",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- E --/Emergency Program Act [RSBC 1996] c. 111/05_Regulations/20_195_2020.xml"
+    },
+    {
+      "id": "bc-161-2000",
+      "billCode": "161_2000",
+      "title": "Manufactured Home Pad Assignment and Sublet Regulation - 161/2000",
+      "summary": "BC statute or regulation: Manufactured Home Pad Assignment and Sublet Regulation - 161/2000",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- R --/Residential Tenancy Act [SBC 2002] c. 78/05_Regulations/10_161_2000.xml"
+    },
+    {
+      "id": "bc-264-98",
+      "billCode": "264_98",
+      "title": "Manufactured Home Pad Rent Increase Regulation - 264/98",
+      "summary": "BC statute or regulation: Manufactured Home Pad Rent Increase Regulation - 264/98",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- R --/Residential Tenancy Act [SBC 2002] c. 78/05_Regulations/11_264_98.xml"
+    },
+    {
+      "id": "bc-370-99",
+      "billCode": "370_99",
+      "title": "Rent Adjustment Regulation No. 2 - 370/99",
+      "summary": "BC statute or regulation: Rent Adjustment Regulation No. 2 - 370/99",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- R --/Residential Tenancy Act [SBC 2002] c. 78/05_Regulations/12_370_99.xml"
+    },
+    {
+      "id": "bc-477-2003anif128-2025",
+      "billCode": "477_2003anif128_2025",
+      "title": "Residential Tenancy Regulation B.C. Reg. 477/2003",
+      "summary": "BC statute or regulation: Residential Tenancy Regulation B.C. Reg. 477/2003",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- R --/Residential Tenancy Act [SBC 2002] c. 78/05_Regulations/14_Residential Tenancy Regulation - 477_2003/Amendments Not in Force/477_2003ANIF128_2025.xml"
+    },
+    {
+      "id": "bc-49-96-pit",
+      "billCode": "49_96_pit",
+      "title": "Point in Time - Tenancy Agreement Regulation - 49/96",
+      "summary": "BC statute or regulation: Point in Time - Tenancy Agreement Regulation - 49/96",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- R --/Residential Tenancy Act [SBC 2002] c. 78/98_Regulations Point in Time/15_49_96_pit.xml"
+    },
+    {
+      "id": "bc-13016",
+      "billCode": "13016",
+      "title": "Community Safety Act",
+      "summary": "BC statute or regulation: Community Safety Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- C --/Community Safety Act [SBC 2013] c. 16/00_13016_01.xml"
+    },
+    {
+      "id": "bc-96206-pit",
+      "billCode": "96206_pit",
+      "title": "Point in Time - Hotel Keepers Act",
+      "summary": "BC statute or regulation: Point in Time - Hotel Keepers Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- H --/Hotel Keepers Act [RSBC 1996] c. 206/04_Act Point in Time/96206_pit.xml"
+    },
+    {
+      "id": "bc-195-2020-pit",
+      "billCode": "195_2020_pit",
+      "title": "Point in Time - COVID-19 (Residential Tenancy Act and Manufactured Home Park Tenancy Act) Regulation - 195/2020",
+      "summary": "BC statute or regulation: Point in Time - COVID-19 (Residential Tenancy Act and Manufactured Home Park Tenancy Act) Regulation - 195/2020",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- E --/Emergency Program Act [RSBC 1996] c. 111/98_Regulations Point in Time/20_195_2020_pit.xml"
+    },
+    {
+      "id": "bc-212-2020-pit",
+      "billCode": "212_2020_pit",
+      "title": "Point in Time - COVID-19 (Residential Tenancy Act and Manufactured Home Park Tenancy Act) (No. 2) Regulation - 212/2020",
+      "summary": "BC statute or regulation: Point in Time - COVID-19 (Residential Tenancy Act and Manufactured Home Park Tenancy Act) (No. 2) Regulation - 212/2020",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- E --/Emergency Program Act [RSBC 1996] c. 111/98_Regulations Point in Time/21_212_2020_pit.xml"
+    },
+    {
+      "id": "bc-267-2020-pit",
+      "billCode": "267_2020_pit",
+      "title": "Point in Time - COVID-19 (Residential Tenancy Act and Manufactured Home Park Tenancy Act) (No. 3) Regulation - 267/2020",
+      "summary": "BC statute or regulation: Point in Time - COVID-19 (Residential Tenancy Act and Manufactured Home Park Tenancy Act) (No. 3) Regulation - 267/2020",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- E --/Emergency Program Act [RSBC 1996] c. 111/98_Regulations Point in Time/22_267_2020_pit.xml"
+    },
+    {
+      "id": "bc-96406-pit",
+      "billCode": "96406_pit",
+      "title": "Point in Time - Residential Tenancy Act",
+      "summary": "BC statute or regulation: Point in Time - Residential Tenancy Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- R --/Residential Tenancy Act [RSBC 1996] c. 406/04_Act Point in Time/96406_pit.xml"
+    },
+    {
+      "id": "bc-287-2019",
+      "billCode": "287_2019",
+      "title": "Exemptions from Tax Regulation - 287/2019",
+      "summary": "BC statute or regulation: Exemptions from Tax Regulation - 287/2019",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Speculation and Vacancy Tax Act [SBC 2018] c. 46/05_Regulations/10_287_2019.xml"
+    },
+    {
+      "id": "bc-370-99-pit",
+      "billCode": "370_99_pit",
+      "title": "Point in Time - Rent Adjustment Regulation No. 2 - 370/99",
+      "summary": "BC statute or regulation: Point in Time - Rent Adjustment Regulation No. 2 - 370/99",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- R --/Residential Tenancy Act [SBC 2002] c. 78/98_Regulations Point in Time/12_370_99_pit.xml"
+    },
+    {
+      "id": "bc-98043-02",
+      "billCode": "98043_02",
+      "title": "Part 2 - The Strata Corporation",
+      "summary": "BC statute or regulation: Part 2 - The Strata Corporation",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Strata Property Act [SBC 1998] c. 43/00_Act/02_98043_02.xml"
+    },
+    {
+      "id": "bc-98043-12",
+      "billCode": "98043_12",
+      "title": "Part 12 - Leasehold Strata Plans",
+      "summary": "BC statute or regulation: Part 12 - Leasehold Strata Plans",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization",
+        "density"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Strata Property Act [SBC 1998] c. 43/00_Act/12_98043_12.xml"
+    },
+    {
+      "id": "bc-98043-15",
+      "billCode": "98043_15",
+      "title": "Part 15 - Strata Plan Amendment and Amalgamation",
+      "summary": "BC statute or regulation: Part 15 - Strata Plan Amendment and Amalgamation",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Strata Property Act [SBC 1998] c. 43/00_Act/15_98043_15.xml"
+    },
+    {
+      "id": "bc-98043-01",
+      "billCode": "98043_01",
+      "title": "Part 1 - Definitions and Interpretation",
+      "summary": "BC statute or regulation: Part 1 - Definitions and Interpretation",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Strata Property Act [SBC 1998] c. 43/00_Act/01_98043_01.xml"
+    },
+    {
+      "id": "bc-96064rep-01",
+      "billCode": "96064rep_01",
+      "title": "Condominium Act",
+      "summary": "BC statute or regulation: Condominium Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- C --/Condominium Act [RSBC 1996] c. 64/00_96064REP_01.xml"
+    },
+    {
+      "id": "bc-98043-14",
+      "billCode": "98043_14",
+      "title": "Part 14 - Land Titles",
+      "summary": "BC statute or regulation: Part 14 - Land Titles",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "inclusionary-zoning"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Strata Property Act [SBC 1998] c. 43/00_Act/14_98043_14.xml"
+    },
+    {
+      "id": "bc-98043-16",
+      "billCode": "98043_16",
+      "title": "Part 16 - Cancellation of Strata Plan and Winding Up of Strata Corporation",
+      "summary": "BC statute or regulation: Part 16 - Cancellation of Strata Plan and Winding Up of Strata Corporation",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Strata Property Act [SBC 1998] c. 43/00_Act/16_98043_16.xml"
+    },
+    {
+      "id": "bc-98043-09",
+      "billCode": "98043_09",
+      "title": "Part 9 - Insurance",
+      "summary": "BC statute or regulation: Part 9 - Insurance",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Strata Property Act [SBC 1998] c. 43/00_Act/09_98043_09.xml"
+    },
+    {
+      "id": "bc-98043-06",
+      "billCode": "98043_06",
+      "title": "Part 6 - Finances",
+      "summary": "BC statute or regulation: Part 6 - Finances",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Strata Property Act [SBC 1998] c. 43/00_Act/06_98043_06.xml"
+    },
+    {
+      "id": "bc-98043-11",
+      "billCode": "98043_11",
+      "title": "Part 11 - Sections",
+      "summary": "BC statute or regulation: Part 11 - Sections",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Strata Property Act [SBC 1998] c. 43/00_Act/11_98043_11.xml"
+    },
+    {
+      "id": "bc-96064-pit",
+      "billCode": "96064_pit",
+      "title": "Point in Time - Condominium Act",
+      "summary": "BC statute or regulation: Point in Time - Condominium Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- C --/Condominium Act [RSBC 1996] c. 64/04_Act Point in Time/96064_pit.xml"
+    },
+    {
+      "id": "bc-556-82",
+      "billCode": "556_82",
+      "title": "Bare Land Strata Plan Cancellation Regulation - 556/82",
+      "summary": "BC statute or regulation: Bare Land Strata Plan Cancellation Regulation - 556/82",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density",
+        "inclusionary-zoning"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Strata Property Act [SBC 1998] c. 43/05_Regulations/10_556_82.xml"
+    },
+    {
+      "id": "bc-98043-05",
+      "billCode": "98043_05",
+      "title": "Part 5 - Property",
+      "summary": "BC statute or regulation: Part 5 - Property",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Strata Property Act [SBC 1998] c. 43/00_Act/05_98043_05.xml"
+    },
+    {
+      "id": "bc-98043-07",
+      "billCode": "98043_07",
+      "title": "Part 7 - Bylaws and Rules",
+      "summary": "BC statute or regulation: Part 7 - Bylaws and Rules",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Strata Property Act [SBC 1998] c. 43/00_Act/07_98043_07.xml"
+    },
+    {
+      "id": "bc-43-2000",
+      "billCode": "43_2000",
+      "title": "Strata Property Regulation - 43/2000",
+      "summary": "BC statute or regulation: Strata Property Regulation - 43/2000",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Strata Property Act [SBC 1998] c. 43/05_Regulations/13_43_2000.xml"
+    },
+    {
+      "id": "bc-98043-04",
+      "billCode": "98043_04",
+      "title": "Part 4 - Strata Corporation Governance",
+      "summary": "BC statute or regulation: Part 4 - Strata Corporation Governance",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- S --/Strata Property Act [SBC 1998] c. 43/00_Act/04_98043_04.xml"
+    },
+    {
+      "id": "bc-229-2001",
+      "billCode": "229_2001",
+      "title": "General Survey Instruction Regulation - 229/2001",
+      "summary": "BC statute or regulation: General Survey Instruction Regulation - 229/2001",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/03_Land Act [RSBC 1996] c. 245/05_Regulations/14_229_2001.xml"
+    },
+    {
+      "id": "bc-229-2001a",
+      "billCode": "229_2001a",
+      "title": "General Survey Instruction Regulation - 229/2001",
+      "summary": "BC statute or regulation: General Survey Instruction Regulation - 229/2001",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/03_Land Act [RSBC 1996] c. 245/05_Regulations/14_229_2001.xml"
+    },
+    {
+      "id": "bc-229-2001b",
+      "billCode": "229_2001b",
+      "title": "General Survey Instruction Regulation - 229/2001",
+      "summary": "BC statute or regulation: General Survey Instruction Regulation - 229/2001",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/03_Land Act [RSBC 1996] c. 245/05_Regulations/14_229_2001.xml"
+    },
+    {
+      "id": "bc-229-2001c",
+      "billCode": "229_2001c",
+      "title": "General Survey Instruction Regulation - 229/2001",
+      "summary": "BC statute or regulation: General Survey Instruction Regulation - 229/2001",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- L --/03_Land Act [RSBC 1996] c. 245/05_Regulations/14_229_2001.xml"
+    },
+    {
+      "id": "bc-1289844540",
+      "billCode": "1289844540",
+      "title": "Point in Time - Housing Construction (Elderly Citizens) Act",
+      "summary": "BC statute or regulation: Point in Time - Housing Construction (Elderly Citizens) Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- H --/Housing Construction (Elderly Citizens) Act [RSBC 1996] c. 208/04_Act Point in Time/96208_pit.xml"
+    },
+    {
+      "id": "bc-150-2012",
+      "billCode": "150_2012",
+      "title": "Student Loan Administrative Integration Regulation - 150/2012",
+      "summary": "BC statute or regulation: Student Loan Administrative Integration Regulation - 150/2012",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- F --/Finance Statutes Amendment Act, 2011 [SBC 2011] c. 29/05_Regulations/10_150_2012.xml"
+    },
+    {
+      "id": "bc-80-2021",
+      "billCode": "80_2021",
+      "title": "Minister of State for Child Care Expected Results for the 2021/2022 Fiscal Year Regulation - 80/2021",
+      "summary": "BC statute or regulation: Minister of State for Child Care Expected Results for the 2021/2022 Fiscal Year Regulation - 80/2021",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- B --/01_Balanced Budget and Ministerial Accountability Act [SBC 2001] c. 28/05_Regulations/40_80_2021.xml"
+    },
+    {
+      "id": "bc-23-2023",
+      "billCode": "23_2023",
+      "title": "Minister of State for Child Care Expected Results for the 2023/2024 Fiscal Year Regulation - 23/2023",
+      "summary": "BC statute or regulation: Minister of State for Child Care Expected Results for the 2023/2024 Fiscal Year Regulation - 23/2023",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- B --/01_Balanced Budget and Ministerial Accountability Act [SBC 2001] c. 28/05_Regulations/46_23_2023.xml"
+    },
+    {
+      "id": "bc-5-2024",
+      "billCode": "5_2024",
+      "title": "Minister of State for Child Care Expected Results for the 2024/2025 Fiscal Year Regulation - 5/2024",
+      "summary": "BC statute or regulation: Minister of State for Child Care Expected Results for the 2024/2025 Fiscal Year Regulation - 5/2024",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- B --/01_Balanced Budget and Ministerial Accountability Act [SBC 2001] c. 28/05_Regulations/47_5_2024.xml"
+    },
+    {
+      "id": "bc-159-2017-pit",
+      "billCode": "159_2017_pit",
+      "title": "Point in Time - Minister of State for Child Care Expected Results for the 2017/2018 Fiscal Year Regulation - 159/2017",
+      "summary": "BC statute or regulation: Point in Time - Minister of State for Child Care Expected Results for the 2017/2018 Fiscal Year Regulation - 159/2017",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- B --/01_Balanced Budget and Ministerial Accountability Act [SBC 2001] c. 28/98_Regulations Point in Time/20_159_2017_pit.xml"
+    },
+    {
+      "id": "bc-2-2018-pit",
+      "billCode": "2_2018_pit",
+      "title": "Point in Time - Minister of State for Child Care Expected Results for the 2018/2019 Fiscal Year Regulation - 2/2018",
+      "summary": "BC statute or regulation: Point in Time - Minister of State for Child Care Expected Results for the 2018/2019 Fiscal Year Regulation - 2/2018",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- B --/01_Balanced Budget and Ministerial Accountability Act [SBC 2001] c. 28/98_Regulations Point in Time/25_2_2018_pit.xml"
+    },
+    {
+      "id": "bc-37-2022",
+      "billCode": "37_2022",
+      "title": "Minister of State for Child Care Expected Results for the 2022/2023 Fiscal Year Regulation - 37/2022",
+      "summary": "BC statute or regulation: Minister of State for Child Care Expected Results for the 2022/2023 Fiscal Year Regulation - 37/2022",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- B --/01_Balanced Budget and Ministerial Accountability Act [SBC 2001] c. 28/05_Regulations/45_37_2022.xml"
+    },
+    {
+      "id": "bc-2-2019-pit",
+      "billCode": "2_2019_pit",
+      "title": "Point in Time - Minister of State for Child Care Expected Results for the 2019/2020 Fiscal Year Regulation - 2/2019",
+      "summary": "BC statute or regulation: Point in Time - Minister of State for Child Care Expected Results for the 2019/2020 Fiscal Year Regulation - 2/2019",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- B --/01_Balanced Budget and Ministerial Accountability Act [SBC 2001] c. 28/98_Regulations Point in Time/30_2_2019_pit.xml"
+    },
+    {
+      "id": "bc-3-2020-pit",
+      "billCode": "3_2020_pit",
+      "title": "Point in Time - Minister of State for Child Care Expected Results for the 2020/2021 Fiscal Year Regulation - 3/2020",
+      "summary": "BC statute or regulation: Point in Time - Minister of State for Child Care Expected Results for the 2020/2021 Fiscal Year Regulation - 3/2020",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- B --/01_Balanced Budget and Ministerial Accountability Act [SBC 2001] c. 28/98_Regulations Point in Time/35_3_2020_pit.xml"
+    },
+    {
+      "id": "bc-vanch-256",
+      "billCode": "vanch_256",
+      "title": "Part XXIV-B - Amenity Cost Charges",
+      "summary": "BC statute or regulation: Part XXIV-B - Amenity Cost Charges",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- V --/Vancouver Charter [SBC 1953] c. 55/00_Act/27_vanch_256.xml"
+    },
+    {
+      "id": "bc-01001-pit",
+      "billCode": "01001_pit",
+      "title": "Point in Time - Access to Education Act",
+      "summary": "BC statute or regulation: Point in Time - Access to Education Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/-- A --/02_Access to Education Act [SBC 2001] c. 1/04_Act Point in Time/01001_pit.xml"
+    }
+  ]
+}

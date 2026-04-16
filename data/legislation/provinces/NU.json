@@ -1,0 +1,42 @@
+{
+  "state": "Nunavut",
+  "stateCode": "NU",
+  "region": "na",
+  "stance": "review",
+  "stanceZoning": "none",
+  "stanceAffordability": "review",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Nunavut's housing policy landscape is shaped by the Nunavut Housing Corporation, which tables annual main estimates before the Legislative Assembly and faces ongoing scrutiny over public housing conditions including overcrowding and tuberculosis links. The Annual Statutes of Nunavut reference an Act to Amend the Nunavut Housing Corporation Act, and the Office of the Auditor General has corresponded with the Assembly regarding public housing concerns. The 2025-2026 Main Estimates of the Nunavut Housing Corporation were tabled on May 26, 2025.",
+  "legislation": [
+    {
+      "id": "nu-bill-77",
+      "billCode": "Bill 77",
+      "title": "Miscellaneous Statutes Amendment Act",
+      "summary": "An omnibus amendment act covering miscellaneous statutes in Nunavut, referenced alongside other short bills in the spring 2025 sitting of the Legislative Assembly.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-03",
+      "sourceUrl": "https://www.assembly.nu.ca/sites/default/files/2025-06/20250603_Blues_English.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "nu-td-392-6-2-",
+      "billCode": "TD 392-6(2)",
+      "title": "2025-2026 Main Estimates of the Nunavut Housing Corporation",
+      "summary": "The annual main estimates tabled before the Nunavut Legislative Assembly outlining the Nunavut Housing Corporation's planned capital and operational expenditures for 2025-2026.",
+      "stage": "Floor",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-05-26",
+      "sourceUrl": "https://www.assembly.nu.ca/tabled-documents?description=&tid=210&order=field_document_number&sort=desc",
+      "sponsors": []
+    }
+  ]
+}

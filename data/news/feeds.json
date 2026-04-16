@@ -1,0 +1,113 @@
+{
+  "_comment": "Curated RSS / Atom feeds polled by scripts/sync/news-rss.ts. Each feed declares a default `entity` (which entity bucket new items land in) and an optional `topicHint` (skipped if Haiku classifies otherwise). Add / remove freely; the script tolerates failed feeds.",
+  "feeds": [
+    {
+      "url": "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/real-estate/",
+      "name": "Globe & Mail Real Estate",
+      "entity": "Canada",
+      "topicHint": "housing"
+    },
+    {
+      "url": "https://financialpost.com/feed",
+      "name": "Financial Post",
+      "entity": "Canada",
+      "topicHint": "housing"
+    },
+    {
+      "url": "https://www.bnnbloomberg.ca/arc/outboundfeeds/rss/?outputType=xml",
+      "name": "BNN Bloomberg",
+      "entity": "Canada",
+      "topicHint": "housing"
+    },
+    {
+      "url": "https://rss.cbc.ca/lineup/canada.xml",
+      "name": "CBC Canada",
+      "entity": "Canada",
+      "topicHint": "housing"
+    },
+    {
+      "url": "https://www.bankofcanada.ca/feed/",
+      "name": "Bank of Canada",
+      "entity": "Canada",
+      "topicHint": "housing"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=%22housing+crisis%22+OR+%22zoning+reform%22+Canada&hl=en-CA&gl=CA&ceid=CA:en",
+      "name": "Google News Housing CA",
+      "entity": "Canada",
+      "topicHint": "housing"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=%22Build+Canada+Homes%22&hl=en-CA&gl=CA&ceid=CA:en",
+      "name": "Google News Build Canada Homes",
+      "entity": "Canada",
+      "topicHint": "housing"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=%22logement%22+Qu%C3%A9bec&hl=fr-CA&gl=CA&ceid=CA:fr",
+      "name": "Google News Logement QC",
+      "entity": "Canada",
+      "topicHint": "housing"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=%22zoning+reform%22+Ontario+OR+%22British+Columbia%22&hl=en-CA&gl=CA&ceid=CA:en",
+      "name": "Google News Zoning ON BC",
+      "entity": "Canada",
+      "topicHint": "housing"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=%22housing+affordability%22+Canada+minister&hl=en-CA&gl=CA&ceid=CA:en",
+      "name": "Google News Housing Minister CA",
+      "entity": "Canada",
+      "topicHint": "housing"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=%22housing+crisis%22+OR+%22zoning+reform%22+US&hl=en-US&gl=US&ceid=US:en",
+      "name": "Google News Housing US",
+      "entity": "United States",
+      "topicHint": "housing"
+    },
+    {
+      "url": "https://www.theguardian.com/society/housing/rss",
+      "name": "The Guardian Housing",
+      "entity": "United Kingdom",
+      "topicHint": "housing"
+    },
+    {
+      "url": "https://feeds.bbci.co.uk/news/business/your_money/rss.xml",
+      "name": "BBC Your Money",
+      "entity": "United Kingdom",
+      "topicHint": "housing"
+    },
+    {
+      "url": "https://euobserver.com/rss",
+      "name": "EUobserver",
+      "entity": "European Union",
+      "topicHint": "policy"
+    },
+    {
+      "url": "https://www.sbs.com.au/news/feed",
+      "name": "SBS Australia",
+      "entity": "Australia",
+      "topicHint": "housing"
+    },
+    {
+      "url": "https://gazette.gc.ca/rss/p1-eng.xml",
+      "name": "Canada Gazette Part I",
+      "entity": "Canada",
+      "topicHint": "regulation"
+    },
+    {
+      "url": "https://gazette.gc.ca/rss/p2-eng.xml",
+      "name": "Canada Gazette Part II",
+      "entity": "Canada",
+      "topicHint": "regulation"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=%22housing+affordability%22+OR+%22housing+crisis%22&hl=en",
+      "name": "Google News Housing Global",
+      "entity": "World",
+      "topicHint": "housing"
+    }
+  ]
+}

@@ -1,0 +1,733 @@
+{
+  "generatedAt": "2026-04-13T23:20:51.399Z",
+  "flagged": [
+    {
+      "id": "al-hb426",
+      "reason": "Addresses real estate title fraud prevention with no connection to AI or data-center policy."
+    },
+    {
+      "id": "ak-sjr12",
+      "reason": "Resolution about NOAA weather buoy outages with no connection to AI or data-center policy."
+    },
+    {
+      "id": "ak-hb360",
+      "reason": "Creates a state apprenticeship office and council unrelated to AI or data centers."
+    },
+    {
+      "id": "ak-hb57",
+      "reason": "Addresses smartphone restrictions in schools, class sizes, and school funding with no AI-specific angle."
+    },
+    {
+      "id": "ak-hb96",
+      "reason": "Creates an advisory board for home care worker employment standards with no AI or data-center connection."
+    },
+    {
+      "id": "ak-sb121",
+      "reason": "Deals with health insurance allowable charges with no AI or data-center connection."
+    },
+    {
+      "id": "ak-hb327",
+      "reason": "Proposes renaming Alaska's Permanent Fund Dividend with no connection to AI or data centers."
+    },
+    {
+      "id": "ak-sb154",
+      "reason": "Creates an advisory board for home care worker employment standards with no AI or data-center connection."
+    },
+    {
+      "id": "ak-hb358",
+      "reason": "Creates a career and technical education grant program with no AI or data-center connection."
+    },
+    {
+      "id": "az-hb2957",
+      "reason": "Addresses driver's license formats with no AI or data-center connection."
+    },
+    {
+      "id": "az-sb1471",
+      "reason": "Sets requirements for school mapping data accessibility with no AI or data-center policy angle."
+    },
+    {
+      "id": "az-hb2033",
+      "reason": "Addresses statewide student assessment requirements with no AI or data-center connection."
+    },
+    {
+      "id": "az-hb2032",
+      "reason": "Revises student assessment testing windows with no AI or data-center connection."
+    },
+    {
+      "id": "ar-hb1058",
+      "reason": "Routine budget appropriation for UAMS medical programs with no AI or data-center connection."
+    },
+    {
+      "id": "ar-hb1021",
+      "reason": "Routine funding appropriation for Arkansas State University Mid-South with no AI or data-center connection."
+    },
+    {
+      "id": "ar-sb42",
+      "reason": "Routine budget appropriation for the University of Arkansas for Medical Sciences with no AI or data-center connection."
+    },
+    {
+      "id": "ar-hb1054",
+      "reason": "Routine budget appropriation for Arkansas Career and Technical Education with no AI or data-center connection."
+    },
+    {
+      "id": "ar-sb21",
+      "reason": "Routine state budget appropriation for aging and behavioral health services with no AI or data-center connection."
+    },
+    {
+      "id": "ar-sb45",
+      "reason": "Routine budget appropriation for the University of Arkansas at Monticello with no AI or data-center connection."
+    },
+    {
+      "id": "ar-hb1053",
+      "reason": "Routine budget appropriation for the University of Arkansas at Little Rock with no AI or data-center connection."
+    },
+    {
+      "id": "ar-hb1068",
+      "reason": "Routine budget appropriation for the Arkansas Department of Finance and Administration with no AI or data-center connection."
+    },
+    {
+      "id": "ca-ab2092",
+      "reason": "Creates an early childhood integrated data system with no AI or data-center policy angle."
+    },
+    {
+      "id": "ca-ab777",
+      "reason": "Addresses food assistance and utilities during disasters with no AI or data-center connection."
+    },
+    {
+      "id": "ca-sb223",
+      "reason": "Tracks health outcomes from wildfire smoke exposure with no AI or data-center connection."
+    },
+    {
+      "id": "ca-sb691",
+      "reason": "Amends police body-worn camera policies with no AI, automated decision-making, or data-center angle."
+    },
+    {
+      "id": "co-hb1039",
+      "reason": "Extends jail oversight requirements to municipal jails with no AI or data-center connection."
+    },
+    {
+      "id": "co-hb1265",
+      "reason": "Deals with law enforcement use of the ATF gun tracing system with no AI or data-center connection."
+    },
+    {
+      "id": "co-hb1136",
+      "reason": "Creates a public service pathways program with no AI or data-center connection."
+    },
+    {
+      "id": "co-hb1173",
+      "reason": "Budget appropriation for government capital construction IT projects with no substantive AI or data-center policy content."
+    },
+    {
+      "id": "ct-sb00220",
+      "reason": "Focuses on student reading instruction with no AI or data-center connection."
+    },
+    {
+      "id": "ct-sb00289",
+      "reason": "Funds a quality metrics program for nursing homes with no AI or data-center connection."
+    },
+    {
+      "id": "ct-sb00307",
+      "reason": "Makes administrative updates to commerce statutes with no AI or data-center connection."
+    },
+    {
+      "id": "ct-hb05514",
+      "reason": "Makes general updates to public health statutes with no AI or data-center connection."
+    },
+    {
+      "id": "de-hb231",
+      "reason": "Amends uniform health data laws with no direct AI or data-center policy angle."
+    },
+    {
+      "id": "de-scr86",
+      "reason": "Designates an awareness day for a rare genetic disorder with no AI or data-center connection."
+    },
+    {
+      "id": "de-sb122",
+      "reason": "Deals with health care workforce planning with no AI or data-center connection."
+    },
+    {
+      "id": "de-hb29",
+      "reason": "Amends public education profiles law with no substantive AI or data-center connection."
+    },
+    {
+      "id": "de-hb300",
+      "reason": "Establishes a Title IX Coordinator in the Department of Education with no AI or data-center connection."
+    },
+    {
+      "id": "de-hb163",
+      "reason": "Establishes a diabetes wellness pilot program for state employees with no AI or data-center connection."
+    },
+    {
+      "id": "de-sb202",
+      "reason": "Amends county property tax data rules with no AI or data-center connection."
+    },
+    {
+      "id": "de-hb156",
+      "reason": "Amends the Healthcare Associated Infections Disclosure Act with no AI or data-center connection."
+    },
+    {
+      "id": "de-hb305",
+      "reason": "Amends a diabetes wellness pilot program with no AI or data-center connection."
+    },
+    {
+      "id": "de-hr14",
+      "reason": "Directs reporting on demographic data in early childhood care with no AI or data-center connection."
+    },
+    {
+      "id": "fl-s2500",
+      "reason": "General state budget appropriations bill with no specific AI or data-center policy provisions."
+    },
+    {
+      "id": "fl-h5001",
+      "reason": "General state budget appropriations bill with no specific AI or data-center policy provisions."
+    },
+    {
+      "id": "fl-s2516",
+      "reason": "Makes administrative changes to nursing education programs with no AI or data-center connection."
+    },
+    {
+      "id": "ga-hb276",
+      "reason": "Amends Georgia income tax definitions with no substantive AI or data-center connection."
+    },
+    {
+      "id": "hi-hb775",
+      "reason": "Appropriates funding for agricultural biosecurity programs with no AI or data-center connection."
+    },
+    {
+      "id": "hi-sb1187",
+      "reason": "Appropriates funding for agricultural biosecurity with no AI or data-center connection."
+    },
+    {
+      "id": "hi-sb1236",
+      "reason": "Modifies rules for Hawaii's Works of Art Special Fund with no AI or data-center connection."
+    },
+    {
+      "id": "hi-hb1299",
+      "reason": "Updates rules for Hawaii's public art fund with no AI or data-center connection."
+    },
+    {
+      "id": "hi-sb582",
+      "reason": "Reorganizes arts and cultural agencies with no AI or data-center connection."
+    },
+    {
+      "id": "hi-sb1379",
+      "reason": "Establishes community emergency preparedness centers with no AI or data-center connection."
+    },
+    {
+      "id": "hi-sb957",
+      "reason": "Establishes overdose prevention centers with no AI or data-center connection."
+    },
+    {
+      "id": "hi-sb539",
+      "reason": "Requires state agencies to set environmental action levels for toxic chemicals with no AI or data-center connection."
+    },
+    {
+      "id": "hi-hb1060",
+      "reason": "Creates a Community Readiness Centers Program for emergency preparedness with no AI or data-center connection."
+    },
+    {
+      "id": "id-h0942",
+      "reason": "Routine budget appropriation from Idaho's Millennium Income Fund with no AI or data-center connection."
+    },
+    {
+      "id": "id-h0866",
+      "reason": "Routine budget appropriation for Idaho's Constitutional Officers with no AI or data-center connection."
+    },
+    {
+      "id": "id-s1264",
+      "reason": "Creates a rural health transformation fund and committee with no AI or data-center connection."
+    },
+    {
+      "id": "in-hb1358",
+      "reason": "Makes updates to Indiana public health laws on smoking, hospital reporting, and infectious waste with no AI or data-center connection."
+    },
+    {
+      "id": "in-hb1106",
+      "reason": "Deals with child care licensing and family court matters with no AI or data-center connection."
+    },
+    {
+      "id": "in-sb0004",
+      "reason": "Covers miscellaneous Indiana fiscal and administrative matters with no substantive AI or data-center connection."
+    },
+    {
+      "id": "in-sb0236",
+      "reason": "Deals with abortion-inducing drug regulations with no AI or data-center connection."
+    },
+    {
+      "id": "in-hb1004",
+      "reason": "Makes administrative changes to Indiana education laws with no substantive AI or data-center connection."
+    },
+    {
+      "id": "ia-sf2052",
+      "reason": "Deals with driver's license and state ID card rules with no AI or data-center connection."
+    },
+    {
+      "id": "ia-hf2110",
+      "reason": "Deals with driver's licenses and state ID cards with no AI or data-center connection."
+    },
+    {
+      "id": "ks-hb2329",
+      "reason": "Renames juvenile crisis intervention centers and modifies juvenile detention rules with no AI or data-center connection."
+    },
+    {
+      "id": "ks-hb2475",
+      "reason": "Provides a sales tax exemption for a specific named nonprofit with no AI or data-center connection."
+    },
+    {
+      "id": "ks-hb2366",
+      "reason": "Updates scope of practice rules for naturopathic doctors with no AI or data-center connection."
+    },
+    {
+      "id": "ky-hb652",
+      "reason": "Moves a school mapping data program to the Kentucky 911 Services Board with no substantive AI or data-center connection."
+    },
+    {
+      "id": "ky-hb774",
+      "reason": "Requires government agencies to report data on fines and fees collected with no AI or data-center connection."
+    },
+    {
+      "id": "la-sb274",
+      "reason": "Requires lead hazard risk assessments in child care facilities with no AI or data-center connection."
+    },
+    {
+      "id": "la-hb821",
+      "reason": "Establishes a Center for Safe Schools within Louisiana law enforcement with no AI or data-center connection."
+    },
+    {
+      "id": "me-ld1374",
+      "reason": "Sets requirements for dentists administering Botox and dermal fillers with no AI or data-center connection."
+    },
+    {
+      "id": "me-ld1923",
+      "reason": "Updates juvenile justice reporting requirements with no AI or data-center connection."
+    },
+    {
+      "id": "me-ld977",
+      "reason": "Directs a health data organization to plan for measuring gaps in home care services with no AI or data-center connection."
+    },
+    {
+      "id": "me-ld1157",
+      "reason": "Amends Maine's Background Check Center laws with no substantive AI or data-center connection."
+    },
+    {
+      "id": "md-hb326",
+      "reason": "Creates an anonymous tip reporting system for school safety with no AI or data-center connection."
+    },
+    {
+      "id": "ma-s50",
+      "reason": "Creates an education-to-career data repository (not a computing data center) with no AI or data-center infrastructure angle."
+    },
+    {
+      "id": "ma-h630",
+      "reason": "Creates an education-to-career data repository (not a computing data center) with no AI or data-center infrastructure angle."
+    },
+    {
+      "id": "ma-h1356",
+      "reason": "Deals with financial transparency requirements for hospitals with no AI or data-center connection."
+    },
+    {
+      "id": "ma-s909",
+      "reason": "Addresses healthcare cost transparency for patients with no AI or data-center connection."
+    },
+    {
+      "id": "ma-h4530",
+      "reason": "General supplemental state budget appropriations with no specific AI or data-center policy provisions."
+    },
+    {
+      "id": "mi-sb0645",
+      "reason": "Amends use tax law to reflect elimination of the Michigan Strategic Fund with no substantive AI or data-center connection."
+    },
+    {
+      "id": "mi-sb0643",
+      "reason": "Amends general sales tax law to reflect elimination of the Michigan Strategic Fund with no substantive AI or data-center connection."
+    },
+    {
+      "id": "mi-hb4261",
+      "reason": "Creates a public safety and violence prevention fund with no AI or data-center connection."
+    },
+    {
+      "id": "mn-sf1035",
+      "reason": "Deals with campus sexual misconduct policies with no AI or data-center connection."
+    },
+    {
+      "id": "ms-hb534",
+      "reason": "Creates a statewide health information exchange with no specific AI or data-center policy angle."
+    },
+    {
+      "id": "ms-sb2673",
+      "reason": "Creates a committee to study consolidating occupational licensing boards with no AI or data-center connection."
+    },
+    {
+      "id": "ms-hb999",
+      "reason": "Establishes a Parkinson's disease research registry with no AI or data-center connection."
+    },
+    {
+      "id": "ms-sb2409",
+      "reason": "Creates a home retrofitting grant program for hurricane protection with no AI or data-center connection."
+    },
+    {
+      "id": "mo-hb1810",
+      "reason": "Changes hospital trauma center qualification rules with no AI or data-center connection."
+    },
+    {
+      "id": "mo-hb1805",
+      "reason": "Changes hospital trauma center qualification rules with no AI or data-center connection."
+    },
+    {
+      "id": "mo-sb1527",
+      "reason": "Repeals rules about an Infection Control Advisory Panel with no AI or data-center connection."
+    },
+    {
+      "id": "mo-hb2670",
+      "reason": "Modifies public health program provisions with no substantive AI or data-center connection."
+    },
+    {
+      "id": "mo-sb1692",
+      "reason": "Modifies abortion law provisions with no AI or data-center connection."
+    },
+    {
+      "id": "mt-hb532",
+      "reason": "Revises laws on abuse and exploitation of vulnerable adults with no AI or data-center connection."
+    },
+    {
+      "id": "mt-hb173",
+      "reason": "Revises the definition of 'victim' in Montana's Youth Court Act with no AI or data-center connection."
+    },
+    {
+      "id": "ne-lb48",
+      "reason": "Establishes a family resource and juvenile assessment center pilot program with no AI or data-center connection."
+    },
+    {
+      "id": "ne-lb613",
+      "reason": "Changes provisions on disclosure of tax information to municipalities with no substantive AI or data-center connection."
+    },
+    {
+      "id": "ne-lb376",
+      "reason": "Makes administrative changes to the Nebraska Department of Health and Human Services with no AI or data-center connection."
+    },
+    {
+      "id": "ne-lb210",
+      "reason": "Establishes fees for Nebraska's prescription drug monitoring program with no AI or data-center connection."
+    },
+    {
+      "id": "nv-sb403",
+      "reason": "Makes changes to Nevada's education system including competency-based learning with no AI or data-center connection."
+    },
+    {
+      "id": "nv-sb119",
+      "reason": "Revises a small business development program with no AI or data-center connection."
+    },
+    {
+      "id": "nv-ab389",
+      "reason": "Updates education data reporting and accountability systems with no substantive AI or data-center connection."
+    },
+    {
+      "id": "nv-sb495",
+      "reason": "Makes broad updates to Nevada healthcare laws with no AI or data-center connection."
+    },
+    {
+      "id": "nv-ab339",
+      "reason": "Creates a children's mental and behavioral health office with no AI or data-center connection."
+    },
+    {
+      "id": "nh-sb583",
+      "reason": "Creates an education funding transparency reporting system with no AI or data-center connection."
+    },
+    {
+      "id": "nh-hb1808",
+      "reason": "Creates a data analyst position in the Department of Education with no AI or data-center connection."
+    },
+    {
+      "id": "nh-hb297",
+      "reason": "Requires self-funded employers access to their health claims data with no AI or data-center connection."
+    },
+    {
+      "id": "nh-hb1316",
+      "reason": "Restricts state agency collection and disclosure of autism-related data with no AI or data-center connection."
+    },
+    {
+      "id": "nj-s2305",
+      "reason": "Requires car manufacturers to give vehicle owners access to their vehicle data with no substantive AI or data-center connection."
+    },
+    {
+      "id": "nj-a2531",
+      "reason": "Requires car manufacturers to give vehicle owners access to their vehicle data with no AI or data-center connection."
+    },
+    {
+      "id": "nm-hm6",
+      "reason": "Addresses private equity ownership of infrastructure with no substantive AI or data-center connection."
+    },
+    {
+      "id": "nm-hb306",
+      "reason": "Prohibits certain health care facility fees with no AI or data-center connection."
+    },
+    {
+      "id": "nm-sm11",
+      "reason": "State memorial about water resources importance to Taos community with no AI or data-center connection."
+    },
+    {
+      "id": "nm-hm45",
+      "reason": "House memorial about water resources in Taos with no AI or data-center connection."
+    },
+    {
+      "id": "nm-sm16",
+      "reason": "Relates to collecting data on parenting students in higher education with no AI or data-center connection."
+    },
+    {
+      "id": "nm-hm19",
+      "reason": "Designates a day celebrating aviation and aerospace with no AI or data-center connection."
+    },
+    {
+      "id": "nm-hb292",
+      "reason": "Addresses prison rape elimination standards with no AI or data-center connection."
+    },
+    {
+      "id": "ny-a01988",
+      "reason": "Creates a technical assistance center for age-friendly hospital practices with no AI or data-center connection."
+    },
+    {
+      "id": "nc-s133",
+      "reason": "Relates to a community college learning management system and longitudinal data system with no substantive AI or data-center policy angle."
+    },
+    {
+      "id": "nc-h698",
+      "reason": "Transfers the Center for Missing Persons to Highway Patrol with no AI or data-center connection."
+    },
+    {
+      "id": "nc-s509",
+      "reason": "Revises the Health Information Exchange Act with no specific AI or data-center policy angle."
+    },
+    {
+      "id": "nc-h74",
+      "reason": "Makes technical corrections to the state budget with no AI or data-center connection."
+    },
+    {
+      "id": "nd-hb1068",
+      "reason": "Amends North Dakota law on autopsy reports and funeral practice exceptions with no AI or data-center connection."
+    },
+    {
+      "id": "nd-sb2354",
+      "reason": "Regulates student use of personal electronic devices in schools with no AI or data-center connection."
+    },
+    {
+      "id": "nd-hb1160",
+      "reason": "Restricts student use of personal electronic devices during school with no AI or data-center connection."
+    },
+    {
+      "id": "nd-sb2278",
+      "reason": "Directs a study on library material retention with no AI or data-center connection."
+    },
+    {
+      "id": "nd-sb2018",
+      "reason": "Covers commerce and workforce development appropriations for drone programs and economic development with no substantive AI or data-center policy angle."
+    },
+    {
+      "id": "nd-sb2370",
+      "reason": "Directs a study on prescription drug transparency with no AI or data-center connection."
+    },
+    {
+      "id": "nd-hb1567",
+      "reason": "Directs a study on dental health care access for Medicaid recipients with no AI or data-center connection."
+    },
+    {
+      "id": "oh-sb19",
+      "reason": "Deals with academic intervention and math improvement plans in Ohio schools with no AI or data-center connection."
+    },
+    {
+      "id": "oh-hb455",
+      "reason": "Makes broad amendments to Ohio public school operations with no substantive AI or data-center connection."
+    },
+    {
+      "id": "ok-hb1863",
+      "reason": "Updates Oklahoma's Children's Code for multidisciplinary child abuse teams with no AI or data-center connection."
+    },
+    {
+      "id": "ok-hb3711",
+      "reason": "Requires school districts to disclose instructional expenditures with no AI or data-center connection."
+    },
+    {
+      "id": "ok-sb675",
+      "reason": "Allows the Department of Public Safety to share information with the Oklahoma Turnpike Authority with no AI or data-center connection."
+    },
+    {
+      "id": "ok-sb1350",
+      "reason": "Routine funding appropriation for the Oklahoma Department of Commerce with no AI or data-center connection."
+    },
+    {
+      "id": "or-hb4053",
+      "reason": "Reorganizes Oregon's emergency medical services system with no AI or data-center connection."
+    },
+    {
+      "id": "or-hb4039",
+      "reason": "Changes Medicaid payment rates for coordinated care organizations with no AI or data-center connection."
+    },
+    {
+      "id": "or-hb4036",
+      "reason": "Creates a housing bond fund for affordable housing with no AI or data-center connection."
+    },
+    {
+      "id": "or-hb4070",
+      "reason": "Makes changes to mental health treatment rules and telehealth reimbursement with no AI or data-center connection."
+    },
+    {
+      "id": "or-sb1501",
+      "reason": "Authorizes state ownership of a sports arena with no AI or data-center connection."
+    },
+    {
+      "id": "or-hb4156",
+      "reason": "Adjusts Medicaid payments for emergency medical services with no AI or data-center connection."
+    },
+    {
+      "id": "or-sb5701",
+      "reason": "Adjusts state borrowing authority for public projects including a sports arena with no AI or data-center connection."
+    },
+    {
+      "id": "or-hb4003",
+      "reason": "Changes how Oregon defines Medicaid health service coverage with no AI or data-center connection."
+    },
+    {
+      "id": "or-hb4066",
+      "reason": "Makes administrative changes to Oregon education laws on school boards and university governance with no AI or data-center connection."
+    },
+    {
+      "id": "pa-sb411",
+      "reason": "Updates Pennsylvania's Stroke System of Care Act with no AI or data-center connection."
+    },
+    {
+      "id": "sc-h3064",
+      "reason": "Updates rules about viewing or sharing autopsy photographs with no AI or data-center connection."
+    },
+    {
+      "id": "sc-h5179",
+      "reason": "Creates a school mapping data program for emergency responders with no AI or data-center policy angle."
+    },
+    {
+      "id": "sd-sb234",
+      "reason": "Modifies purchasing rules for data center goods and services without substantive AI or broader data-center policy content beyond procurement."
+    },
+    {
+      "id": "tx-hr616",
+      "reason": "Ceremonial resolution honoring a humanitarian worker with no AI or data-center connection."
+    },
+    {
+      "id": "tx-hr1444",
+      "reason": "Commemorates a dance group's anniversary with no AI or data-center connection."
+    },
+    {
+      "id": "tx-hb5228",
+      "reason": "Addresses incident-based data collection for law enforcement reporting with no AI or data-center connection."
+    },
+    {
+      "id": "tx-hb636",
+      "reason": "Establishes a statewide homeless data sharing network with no AI or data-center connection."
+    },
+    {
+      "id": "ut-hb0273",
+      "reason": "Addresses classroom technology rules such as device use in schools with no specific AI policy angle."
+    },
+    {
+      "id": "ut-sb0195",
+      "reason": "Addresses general workforce development with no specific AI or data-center provisions."
+    },
+    {
+      "id": "ut-sb0085",
+      "reason": "Modifies teacher pay supplements with no AI or data-center connection."
+    },
+    {
+      "id": "ut-hb0008",
+      "reason": "Deals with state agency fees and budget appropriations with no AI or data-center connection."
+    },
+    {
+      "id": "ut-sb0034",
+      "reason": "Addresses general public education policy with no specific AI or data-center provisions."
+    },
+    {
+      "id": "ut-sb0051",
+      "reason": "Addresses school safety measures with no substantive AI or data-center connection."
+    },
+    {
+      "id": "ut-hb0044",
+      "reason": "Sets standards for school security personnel with no AI or data-center connection."
+    },
+    {
+      "id": "va-sb352",
+      "reason": "Regulates when law enforcement officers can wear physical face coverings with no AI or data-center connection."
+    },
+    {
+      "id": "va-hb603",
+      "reason": "Limits sharing of health insurance payment data from a claims database with no AI or data-center connection."
+    },
+    {
+      "id": "va-sb524",
+      "reason": "Updates mental health insurance network adequacy and parity standards with no AI or data-center connection."
+    },
+    {
+      "id": "va-hb656",
+      "reason": "Sets network adequacy standards for mental health insurance coverage with no AI or data-center connection."
+    },
+    {
+      "id": "va-hb483",
+      "reason": "Establishes a prescription drug affordability advisory panel with no AI or data-center connection."
+    },
+    {
+      "id": "va-sb271",
+      "reason": "Creates a board to study and limit prescription drug prices with no AI or data-center connection."
+    },
+    {
+      "id": "wa-sb5637",
+      "reason": "Promotes student access to media literacy and civic education information with no substantive AI or data-center policy angle."
+    },
+    {
+      "id": "wa-sb5431",
+      "reason": "Makes technical modifications to tax and revenue laws with no AI or data-center connection."
+    },
+    {
+      "id": "wa-hb1476",
+      "reason": "Delays nursing home payment rate rebasing with no AI or data-center connection."
+    },
+    {
+      "id": "wa-sb6184",
+      "reason": "Updates homeless youth program provisions with no AI or data-center connection."
+    },
+    {
+      "id": "wa-sb5810",
+      "reason": "General state operating budget appropriations with no specific AI or data-center policy provisions."
+    },
+    {
+      "id": "vt-h0027",
+      "reason": "Relates to a domestic violence fatality review commission with no AI or data-center connection."
+    },
+    {
+      "id": "wv-hb5551",
+      "reason": "Addresses protection of state IDs that do not comply with REAL ID standards with no AI or data-center connection."
+    },
+    {
+      "id": "wv-hb4592",
+      "reason": "Updates school safety mapping requirements with no AI or data-center connection."
+    },
+    {
+      "id": "wv-hb4598",
+      "reason": "Updates voter list audit log information for the Secretary of State with no AI or data-center connection."
+    },
+    {
+      "id": "wv-sb88",
+      "reason": "Establishes community air monitoring programs with no AI or data-center connection."
+    },
+    {
+      "id": "wy-hb0185",
+      "reason": "Bans kratom with no AI or data-center connection."
+    },
+    {
+      "id": "wy-sf0065",
+      "reason": "Repeals the Wyoming Business Council and transfers its functions with no substantive AI or data-center connection."
+    },
+    {
+      "id": "wy-hb0179",
+      "reason": "Requires hospitals to publicly list prices for medical services with no AI or data-center connection."
+    },
+    {
+      "id": "wy-hb0070",
+      "reason": "Creates a cause of action against foreign governments imposing censorship laws with no AI or data-center connection."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "state": "Ontario",
+  "stateCode": "ON",
+  "region": "na",
+  "stance": "review",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "review",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Ontario has introduced several pieces of housing legislation in 2025, including Bill 17 (Protect Ontario by Building Faster and Smarter Act, 2025) and Bill 60 (Fighting Delays, Building Faster Act, 2025), aimed at streamlining development approvals, reducing municipal red tape, and accelerating home construction. The province is also advancing the Building Homes and Improving Transportation Infrastructure Act and has issued multiple Minister's Zoning Orders to unlock specific sites for development. Additional measures include expanded HST relief of up to $130,000 for eligible new home buyers and a proposed Rent Stabilization Act (Bill 51).",
+  "legislation": [
+    {
+      "id": "on-bill-17",
+      "billCode": "Bill 17",
+      "title": "Protect Ontario by Building Faster and Smarter Act, 2025",
+      "summary": "Streamlines development processes and reduces costs by clarifying municipal construction jurisdiction, limiting the scope of required studies, and allowing some zoning variations without additional approvals. Also amends the Planning Act and City of Toronto Act, 2006.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-05-12",
+      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-17",
+      "sponsors": [
+        "Rob Flack"
+      ]
+    },
+    {
+      "id": "on-zoning-order-001-2025",
+      "billCode": "Zoning Order 001-2025",
+      "title": "Zoning Order 001-2025 — City of Hamilton",
+      "summary": "A Minister's Zoning Order made under the Planning Act regulating land use and building heights for specific parcels in the City of Hamilton, permitting buildings of up to 71 metres.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-05-12",
+      "sourceUrl": "http://www.ontario.ca/document/ministers-zoning-orders/zoning-order-001-2025-city-hamilton",
+      "sponsors": []
+    },
+    {
+      "id": "on-zoning-order-002-2026",
+      "billCode": "Zoning Order 002-2026",
+      "title": "Zoning Order 002-2026 — City of Markham",
+      "summary": "A Minister's Zoning Order permitting model homes and temporary sales offices in all zones in the City of Markham, in accordance with applicable zoning by-law provisions.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-05-12",
+      "sourceUrl": "http://www.ontario.ca/document/ministers-zoning-orders/zoning-order-002-2026-city-markham",
+      "sponsors": []
+    },
+    {
+      "id": "on-zoning-order-005-2026",
+      "billCode": "Zoning Order 005-2026",
+      "title": "Zoning Order 005-2026 — City of Toronto",
+      "summary": "A Minister's Zoning Order made under clause 47(1)(a) of the Planning Act, regulating the use of land and the erection, location, and use of buildings in a specified area of the City of Toronto.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-05-12",
+      "sourceUrl": "https://ero.ontario.ca/notice/025-1108",
+      "sponsors": []
+    },
+    {
+      "id": "on-hst-new-housing-rebate-expansion",
+      "billCode": "HST New Housing Rebate Expansion",
+      "title": "Expanded HST Relief for New Home Buyers",
+      "summary": "A government program expanding the HST New Housing Rebate and New Residential Rental Property Rebate, offering eligible buyers including first-time home buyers up to $130,000 in HST relief on new homes for one year.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "first-time-buyer"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-05-12",
+      "sourceUrl": "http://www.ontario.ca/page/building-more-homes-faster",
+      "sponsors": []
+    },
+    {
+      "id": "on-bill-60",
+      "billCode": "Bill 60",
+      "title": "Fighting Delays, Building Faster Act, 2025",
+      "summary": "Cuts red tape and accelerates housing and infrastructure delivery by addressing costly regulatory delays, revising development charge by-law requirements, and supporting municipal partnership in approvals.",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "transit-oriented"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-05-12",
+      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-60",
+      "sponsors": []
+    },
+    {
+      "id": "on-bill-51",
+      "billCode": "Bill 51",
+      "title": "Rent Stabilization Act, 2025",
+      "summary": "Amends the Residential Tenancies Act, 2006 and the Legal Aid Services Act, 2020 to implement measures aimed at stabilizing rent for tenants in Ontario.",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2025-05-12",
+      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-51",
+      "sponsors": []
+    },
+    {
+      "id": "on-building-homes-and-improving-transportation-infrastructure-act",
+      "billCode": "Building Homes and Improving Transportation Infrastructure Act",
+      "title": "Building Homes and Improving Transportation Infrastructure Act",
+      "summary": "Introduced to improve the movement of people and goods across Ontario while speeding up the construction of new homes, tackling red tape and streamlining approvals.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "transit-oriented"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-05-12",
+      "sourceUrl": "https://news.ontario.ca/en/release/1007229/ontario-introducing-legislation-to-improve-transit-and-build-more-homes",
+      "sponsors": []
+    }
+  ]
+}

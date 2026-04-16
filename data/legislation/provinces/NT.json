@@ -1,0 +1,97 @@
+{
+  "state": "Northwest Territories",
+  "stateCode": "NT",
+  "region": "na",
+  "stance": "restrictive",
+  "stanceZoning": "restrictive",
+  "stanceAffordability": "restrictive",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Housing in the Northwest Territories is primarily administered by Housing NWT (formerly NWT Housing Corporation), which manages approximately 2,900 homes across 32 communities. Key programs include the Public Housing Program, Homeownership Programs, and community-led housing partnerships such as the Memorandum of Agreement signed with Acho Dene Koe First Nation. The GNWT has also implemented a smoking ban in all Housing NWT-owned and operated public housing units.",
+  "legislation": [
+    {
+      "id": "nt-n-a",
+      "billCode": "N/A",
+      "title": "Smoking Ban in Public Housing Units",
+      "summary": "The GNWT implemented a smoking ban in all Housing NWT-owned and operated units, including public housing units, to improve health and safety conditions for tenants.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.nwthc.gov.nt.ca/en/services/tenant-education",
+      "sponsors": [
+        "Government of Northwest Territories"
+      ]
+    },
+    {
+      "id": "nt-n-a",
+      "billCode": "N/A",
+      "title": "Memorandum of Agreement on Housing with Acho Dene Koe First Nation",
+      "summary": "Housing NWT and the GNWT signed a Memorandum of Agreement with Acho Dene Koe First Nation, establishing a Housing Working Group to prioritize community housing planning and coordinated program delivery.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.gov.nt.ca/en/newsroom/housing-nwt-signs-memorandum-agreement-housing-acho-dene-koe-first-nation-strengthen",
+      "sponsors": [
+        "Housing NWT"
+      ]
+    },
+    {
+      "id": "nt-n-a",
+      "billCode": "N/A",
+      "title": "Public Housing Program",
+      "summary": "The Public Housing Program provides rental housing to eligible low-income residents across 32 NWT communities, with an appeal process available through the Housing Appeal Committee.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.nwthc.gov.nt.ca/en/housing-appeal-committee",
+      "sponsors": [
+        "NWT Housing Corporation"
+      ]
+    },
+    {
+      "id": "nt-n-a",
+      "billCode": "N/A",
+      "title": "New Partnership in Fort Good Hope for Community-Led Housing and Trades Training",
+      "summary": "A government partnership in Fort Good Hope aimed at improving housing conditions in the Sahtu region by building local trades capacity and supporting community-led housing solutions.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.gov.nt.ca/en/newsroom/new-partnership-fort-good-hope-supports-community-led-housing-and-trades-training",
+      "sponsors": [
+        "Housing NWT"
+      ]
+    },
+    {
+      "id": "nt-n-a",
+      "billCode": "N/A",
+      "title": "Monthly Core Need Income Thresholds (2021)",
+      "summary": "A regulatory framework establishing income thresholds per community to determine eligibility for housing programs including homeownership, rental support, and repairs and maintenance.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2021-01-01",
+      "sourceUrl": "https://www.nwthc.gov.nt.ca/en/resources?search_api_views_fulltext=core+need&sort_by=field_resource_publication_date&sort_order=DESC",
+      "sponsors": [
+        "NWT Housing Corporation"
+      ]
+    }
+  ]
+}

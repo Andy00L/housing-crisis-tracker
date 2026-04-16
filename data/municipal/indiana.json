@@ -1,0 +1,102 @@
+[
+  {
+    "id": "vigo-county-in",
+    "name": "Vigo County",
+    "fips": "18167",
+    "state": "Indiana",
+    "stateCode": "IN",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Terre Haute) Microsoft data center campus approval and tax abatement",
+        "date": "2024-06-01",
+        "status": "enacted",
+        "summary": "Vigo County and the City of Terre Haute approved tax abatements and site plans for a major Microsoft data center campus on the former Terre Haute International Airport-Hulman Field site, representing a multi-billion dollar investment.",
+        "sourceUrl": "https://www.tribstar.com/news/local_news/microsoft-plans-1b-data-center-campus-in-terre-haute/article_f7b2a8e0-1f22-11ef-9a0a-0b2c02cfe508.html"
+      }
+    ],
+    "concerns": [
+      "tax-incentives",
+      "economic-development",
+      "job-creation",
+      "grid-capacity",
+      "energy-rates"
+    ],
+    "contextBlurb": "Vigo County and Terre Haute have been courting large-scale data center investment, with Microsoft announcing plans for a major campus. The project includes significant local tax abatements and promises of job creation, but has also raised questions about energy demand on local grids."
+  },
+  {
+    "id": "hendricks-county-in",
+    "name": "Hendricks County",
+    "fips": "18063",
+    "state": "Indiana",
+    "stateCode": "IN",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Plainfield/Avon area) Data center zoning and development approvals",
+        "date": "2024-08-01",
+        "status": "enacted",
+        "summary": "Hendricks County has seen continued data center development in the Plainfield corridor along I-70, with planning commission approvals for new facilities amidst growing community concern about noise and infrastructure impacts.",
+        "sourceUrl": "https://www.indystar.com/story/news/local/hendricks-county/2024/08/15/data-centers-hendricks-county-indiana-plainfield/74780561007/"
+      }
+    ],
+    "concerns": [
+      "local-zoning",
+      "noise-vibration",
+      "residential-proximity",
+      "grid-capacity",
+      "property-values"
+    ],
+    "contextBlurb": "Hendricks County, particularly the Plainfield area west of Indianapolis, has become one of Indiana's most active data center corridors. Residents have raised concerns about noise from cooling systems and the cumulative impact of multiple large facilities near residential neighborhoods."
+  },
+  {
+    "id": "boone-county-in",
+    "name": "Boone County",
+    "fips": "18011",
+    "state": "Indiana",
+    "stateCode": "IN",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Lebanon) Data center campus development and incentive package",
+        "date": "2024-05-01",
+        "status": "enacted",
+        "summary": "The City of Lebanon in Boone County approved incentive packages for large-scale data center developments in the LEAP Research and Innovation District, including projects linked to major tech companies.",
+        "sourceUrl": "https://www.ibj.com/articles/leap-district-in-lebanon-announces-data-center-projects"
+      }
+    ],
+    "concerns": [
+      "tax-incentives",
+      "economic-development",
+      "water-consumption",
+      "grid-capacity",
+      "job-creation",
+      "water-infrastructure"
+    ],
+    "contextBlurb": "Boone County is home to the LEAP Research and Innovation District near Lebanon, which has attracted billions in data center investment commitments. Water consumption and utility infrastructure buildout have been key community and planning concerns as the district scales up."
+  },
+  {
+    "id": "marion-county-in",
+    "name": "Marion County",
+    "fips": "18097",
+    "state": "Indiana",
+    "stateCode": "IN",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Indianapolis) Data center tax abatement approvals",
+        "date": "2024-03-01",
+        "status": "enacted",
+        "summary": "The Indianapolis Metropolitan Development Commission and City-County Council approved tax abatements for data center expansions on the city's west and south sides as part of ongoing efforts to attract digital infrastructure investment.",
+        "sourceUrl": "https://www.ibj.com/articles/indianapolis-data-center-tax-breaks"
+      }
+    ],
+    "concerns": [
+      "tax-incentives",
+      "economic-development",
+      "grid-capacity",
+      "energy-rates"
+    ],
+    "contextBlurb": "Indianapolis in Marion County has been a long-standing data center market, with city officials continuing to approve tax incentives for expansion and new builds. Grid capacity and the balance of tax revenue versus incentive costs are ongoing policy discussions."
+  }
+]

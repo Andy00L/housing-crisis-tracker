@@ -1,0 +1,189 @@
+{
+  "state": "Manitoba",
+  "stateCode": "MB",
+  "region": "na",
+  "stance": "restrictive",
+  "stanceZoning": "restrictive",
+  "stanceAffordability": "restrictive",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Manitoba's NDP government has pursued an active housing agenda since 2023, anchored by the Residential Tenancies Act (CCSM c. R119) and its successive amendments, the 2024 Budget Implementation Act (Bill 37) establishing the Rental Housing Construction Incentive, and the January 2025 release of 'Your Way Home: Manitoba's Plan to End Chronic Homelessness.' The 2026 rent increase guideline is set at 1.8 per cent, and Bill 13—introduced March 12, 2026—proposes the largest expansion of rent control in decades by removing the new-building exemption and tightening above-guideline increase rules. Northern communities such as Thompson and Flin Flon face acute housing shortages addressed primarily through federal-provincial bilateral funding streams rather than dedicated northern housing legislation.",
+  "legislation": [
+    {
+      "id": "mb-man--reg--65-2025",
+      "billCode": "Man. Reg. 65/2025",
+      "title": "Rental Housing Construction Incentive Regulation",
+      "summary": "The subordinate regulation under the Budget Implementation and Tax Statutes Amendment Act, 2024 that sets out detailed eligibility rules for the Rental Housing Construction Incentive tax credit, including requirements that projects have at least four units, hold a building permit dated on or after January 1, 2024, and be available for use before January 1, 2031. Came into force in 2025, opening the formal application window.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-11-06",
+      "sourceUrl": "https://www.gov.mb.ca/housing/progs/housing_starts_here_rhci.html",
+      "sponsors": []
+    },
+    {
+      "id": "mb-residential-rent-regulation--ccsm-c--r119-reg--",
+      "billCode": "Residential Rent Regulation (CCSM c. R119 Reg.)",
+      "title": "Residential Rent Regulation — 2026 Guideline (1.8%)",
+      "summary": "The annual rent increase guideline, calculated each year using the Manitoba All-Items Consumer Price Index, is set at 1.8% effective January 1, 2026. Landlords must give tenants at least three months' written notice before any rent increase, and increases are generally limited to once per year; units first occupied after March 2005 remain exempt pending the outcome of Bill 13.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2025-08-23",
+      "sourceUrl": "https://www.gov.mb.ca/cca/rtb/rentincreaseguideline/currentrentguideline.html",
+      "sponsors": []
+    },
+    {
+      "id": "mb-bill-32--43-2----sm-2025--c-28",
+      "billCode": "Bill 32 (43-2) / SM 2025, c 28",
+      "title": "The Residential Tenancies Amendment Act (Measures to Address Unlawful Activities)",
+      "summary": "Amends the Residential Tenancies Act to lower the eviction risk threshold from 'immediate risk' to 'significant risk' for tenants engaged in unlawful activities, and allows investigators under the Safer Communities and Neighbourhoods Act to share evidence in Residential Tenancies Branch proceedings. Received Royal Assent June 3, 2025.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-03",
+      "sourceUrl": "https://web2.gov.mb.ca/bills/43-2/b032e.php",
+      "sponsors": []
+    },
+    {
+      "id": "mb-bill-40--43-2-",
+      "billCode": "Bill 40 (43-2)",
+      "title": "The City of Winnipeg Charter Amendment and Planning Amendment Act (Housing Approvals)",
+      "summary": "Introduced October 2024, this act raises the threshold of objectors required to trigger a Manitoba Municipal Board hearing on a zoning bylaw from 25 to 300 eligible persons in Winnipeg, Brandon and municipalities over 6,000 population, and from 25 to the greater of 100 or 5% of population in smaller communities, accelerating housing development approvals province-wide including in northern Manitoba.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-06-03",
+      "sourceUrl": "https://news.gov.mb.ca/news/index.html?item=65597",
+      "sponsors": [
+        "Ian Bushie"
+      ]
+    },
+    {
+      "id": "mb-bill-4--43-2----sm-2025--c-4",
+      "billCode": "Bill 4 (43-2) / SM 2025, c 4",
+      "title": "The Planning Amendment Act",
+      "summary": "Amends The Planning Act to update the governance structure of the Capital Planning Region around Winnipeg, clarifying municipal membership rules and ensuring regional housing development plans can be updated more efficiently; one provision came into force retroactively on December 31, 2024 upon Royal Assent on June 3, 2025.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-03",
+      "sourceUrl": "https://web2.gov.mb.ca/bills/43-2/b004e.php",
+      "sponsors": []
+    },
+    {
+      "id": "mb-manitoba-housing-three-year-action-plan-2025-26-2027-28",
+      "billCode": "Manitoba Housing Three-Year Action Plan 2025/26–2027/28",
+      "title": "Manitoba Housing and Renewal Corporation Three-Year Action Plan (2025–2028)",
+      "summary": "The bilateral agreement action plan between Manitoba and CMHC under the National Housing Strategy commits provincial funding to create social housing (rent-geared-to-income at 30% of household income), expand affordable housing including in northern communities such as Thompson and The Pas, and repair 2,183 Manitoba Housing units already brought back online as of early 2026. Administrative costs under the plan total $4.2 million in 2025/26 rising to $6.0 million in 2027/28.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2025-04-01",
+      "sourceUrl": "https://www.gov.mb.ca/housing/three-year-action-plan.html",
+      "sponsors": [
+        "Bernadette Smith"
+      ]
+    },
+    {
+      "id": "mb-your-way-home--policy-strategy-",
+      "billCode": "Your Way Home (Policy/Strategy)",
+      "title": "Your Way Home: Manitoba's Plan to End Chronic Homelessness",
+      "summary": "Released January 14, 2025 by Premier Wab Kinew and Housing Minister Bernadette Smith, this government strategy commits $20 million over two years to systematically decommission encampments and transition residents into housing using a 30-day per-encampment outreach model, supported by 300 new social housing units and wraparound mental health and addictions services. As of February 2026 the province reported 186 people transitioned out of encampments.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "social-housing",
+        "homelessness"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-14",
+      "sourceUrl": "https://www.gov.mb.ca/hah/homelessness.html",
+      "sponsors": [
+        "Bernadette Smith",
+        "Wab Kinew"
+      ]
+    },
+    {
+      "id": "mb-bill-37--43-1----sm-2024",
+      "billCode": "Bill 37 (43-1) / SM 2024",
+      "title": "The Budget Implementation and Tax Statutes Amendment Act, 2024",
+      "summary": "Enacted the Rental Housing Construction Incentive—a refundable tax credit of $8,500 per new rental unit (up to 8% of eligible capital costs) and an additional $5,000 per unit maintained as affordable for 10 years—to stimulate private and non-profit rental construction across Manitoba for projects with building permits issued on or after January 1, 2024. Also raised the Renters Affordability Tax Credit to $575 for the 2025 tax year.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2024-06-04",
+      "sourceUrl": "https://web2.gov.mb.ca/bills/43-1/b037e.php",
+      "sponsors": [
+        "Adrien Sala"
+      ]
+    },
+    {
+      "id": "mb-bill-13--43-3-",
+      "billCode": "Bill 13 (43-3)",
+      "title": "The Residential Tenancies Amendment Act (2026)",
+      "summary": "Introduced March 12, 2026 by Minister Mintu Sandhu, this bill proposes the largest expansion of rent control protections in decades by removing or modifying the exemption for newer buildings and restricting landlord applications for above-guideline rent increases to specific eligible capital expenditures or security-cost increases. Companion regulatory changes would raise the rent-exempt threshold from $1,670 to $2,000 for units in buildings 20 years old or older.",
+      "stage": "Floor",
+      "stance": "concerning",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2026-03-12",
+      "sourceUrl": "https://web2.gov.mb.ca/bills/43-3/",
+      "sponsors": [
+        "Mintu Sandhu"
+      ]
+    },
+    {
+      "id": "mb-bill-212--43-3-",
+      "billCode": "Bill 212 (43-3)",
+      "title": "The Residential Tenancies Amendment Act (Above-Guideline Rent Increases)",
+      "summary": "Private member's bill (first reading March 2025) that would restrict landlord applications for above-guideline rent increases to cases involving eligible capital expenditures or documented increases in security-service costs, closing loopholes that have allowed increases of 30–126% in recent years.",
+      "stage": "Floor",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2025-03-24",
+      "sourceUrl": "https://lawlibrary.ca/2025/03/24/legislative-update-march-24-2025/",
+      "sponsors": []
+    },
+    {
+      "id": "mb-bill-26--43-2-",
+      "billCode": "Bill 26 (43-2)",
+      "title": "The Residential Tenancies Amendment Act (Above-Guideline Increases — 2024)",
+      "summary": "Introduced May 2024, this bill would have limited landlord applications for above-guideline rent increases to specific cost categories (utilities, security, capital projects). The bill did not advance and was not passed before the end of the 2024–25 legislative session, leaving the issue to be revisited in 2026 via Bill 13.",
+      "stage": "Dead",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2024-05-23",
+      "sourceUrl": "https://codifylaws.com/canadian-bill-and-regulation-details/bill-26-the-residential-tenancies-amendment-act-manitoba-bill",
+      "sponsors": []
+    }
+  ]
+}

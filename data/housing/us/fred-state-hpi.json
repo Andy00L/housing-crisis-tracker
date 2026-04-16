@@ -1,0 +1,1894 @@
+{
+  "name": "All-Transactions House Price Index by State",
+  "source": "FRED / FHFA",
+  "lastUpdated": "2026-04-16",
+  "states": {
+    "AL": {
+      "stateName": "Alabama",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 497.61
+        },
+        {
+          "period": "2024-04",
+          "value": 508.77
+        },
+        {
+          "period": "2024-07",
+          "value": 515.29
+        },
+        {
+          "period": "2024-10",
+          "value": 520.84
+        },
+        {
+          "period": "2025-01",
+          "value": 520.26
+        },
+        {
+          "period": "2025-04",
+          "value": 531.19
+        },
+        {
+          "period": "2025-07",
+          "value": 530.97
+        },
+        {
+          "period": "2025-10",
+          "value": 539.17
+        }
+      ]
+    },
+    "AK": {
+      "stateName": "Alaska",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 445.32
+        },
+        {
+          "period": "2024-04",
+          "value": 458.53
+        },
+        {
+          "period": "2024-07",
+          "value": 463.51
+        },
+        {
+          "period": "2024-10",
+          "value": 459.6
+        },
+        {
+          "period": "2025-01",
+          "value": 460.33
+        },
+        {
+          "period": "2025-04",
+          "value": 483.05
+        },
+        {
+          "period": "2025-07",
+          "value": 476.41
+        },
+        {
+          "period": "2025-10",
+          "value": 486.73
+        }
+      ]
+    },
+    "AZ": {
+      "stateName": "Arizona",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 700.68
+        },
+        {
+          "period": "2024-04",
+          "value": 713.24
+        },
+        {
+          "period": "2024-07",
+          "value": 718.34
+        },
+        {
+          "period": "2024-10",
+          "value": 719.28
+        },
+        {
+          "period": "2025-01",
+          "value": 719.69
+        },
+        {
+          "period": "2025-04",
+          "value": 727.7
+        },
+        {
+          "period": "2025-07",
+          "value": 727.66
+        },
+        {
+          "period": "2025-10",
+          "value": 731.53
+        }
+      ]
+    },
+    "AR": {
+      "stateName": "Arkansas",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 437.31
+        },
+        {
+          "period": "2024-04",
+          "value": 447.57
+        },
+        {
+          "period": "2024-07",
+          "value": 456.84
+        },
+        {
+          "period": "2024-10",
+          "value": 457.9
+        },
+        {
+          "period": "2025-01",
+          "value": 462.85
+        },
+        {
+          "period": "2025-04",
+          "value": 466.85
+        },
+        {
+          "period": "2025-07",
+          "value": 472.32
+        },
+        {
+          "period": "2025-10",
+          "value": 476.18
+        }
+      ]
+    },
+    "CA": {
+      "stateName": "California",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 934
+        },
+        {
+          "period": "2024-04",
+          "value": 948.44
+        },
+        {
+          "period": "2024-07",
+          "value": 957.91
+        },
+        {
+          "period": "2024-10",
+          "value": 960.9
+        },
+        {
+          "period": "2025-01",
+          "value": 962.29
+        },
+        {
+          "period": "2025-04",
+          "value": 970.7
+        },
+        {
+          "period": "2025-07",
+          "value": 968.85
+        },
+        {
+          "period": "2025-10",
+          "value": 972.44
+        }
+      ]
+    },
+    "CO": {
+      "stateName": "Colorado",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 832.06
+        },
+        {
+          "period": "2024-04",
+          "value": 845.06
+        },
+        {
+          "period": "2024-07",
+          "value": 847.69
+        },
+        {
+          "period": "2024-10",
+          "value": 848.05
+        },
+        {
+          "period": "2025-01",
+          "value": 850.93
+        },
+        {
+          "period": "2025-04",
+          "value": 855.85
+        },
+        {
+          "period": "2025-07",
+          "value": 854.61
+        },
+        {
+          "period": "2025-10",
+          "value": 859.33
+        }
+      ]
+    },
+    "CT": {
+      "stateName": "Connecticut",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 622.06
+        },
+        {
+          "period": "2024-04",
+          "value": 650.1
+        },
+        {
+          "period": "2024-07",
+          "value": 664.64
+        },
+        {
+          "period": "2024-10",
+          "value": 669.81
+        },
+        {
+          "period": "2025-01",
+          "value": 676.43
+        },
+        {
+          "period": "2025-04",
+          "value": 698.63
+        },
+        {
+          "period": "2025-07",
+          "value": 708.5
+        },
+        {
+          "period": "2025-10",
+          "value": 708.82
+        }
+      ]
+    },
+    "DE": {
+      "stateName": "Delaware",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 710.02
+        },
+        {
+          "period": "2024-04",
+          "value": 719.63
+        },
+        {
+          "period": "2024-07",
+          "value": 728.65
+        },
+        {
+          "period": "2024-10",
+          "value": 730.32
+        },
+        {
+          "period": "2025-01",
+          "value": 740.07
+        },
+        {
+          "period": "2025-04",
+          "value": 750.61
+        },
+        {
+          "period": "2025-07",
+          "value": 760.89
+        },
+        {
+          "period": "2025-10",
+          "value": 770.04
+        }
+      ]
+    },
+    "FL": {
+      "stateName": "Florida",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 803.69
+        },
+        {
+          "period": "2024-04",
+          "value": 811.22
+        },
+        {
+          "period": "2024-07",
+          "value": 815.37
+        },
+        {
+          "period": "2024-10",
+          "value": 823.3
+        },
+        {
+          "period": "2025-01",
+          "value": 815.16
+        },
+        {
+          "period": "2025-04",
+          "value": 820.47
+        },
+        {
+          "period": "2025-07",
+          "value": 816.33
+        },
+        {
+          "period": "2025-10",
+          "value": 823.56
+        }
+      ]
+    },
+    "GA": {
+      "stateName": "Georgia",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 620.07
+        },
+        {
+          "period": "2024-04",
+          "value": 631.69
+        },
+        {
+          "period": "2024-07",
+          "value": 638.62
+        },
+        {
+          "period": "2024-10",
+          "value": 641.12
+        },
+        {
+          "period": "2025-01",
+          "value": 648.64
+        },
+        {
+          "period": "2025-04",
+          "value": 653.91
+        },
+        {
+          "period": "2025-07",
+          "value": 656.29
+        },
+        {
+          "period": "2025-10",
+          "value": 659.78
+        }
+      ]
+    },
+    "HI": {
+      "stateName": "Hawaii",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 899.46
+        },
+        {
+          "period": "2024-04",
+          "value": 895.05
+        },
+        {
+          "period": "2024-07",
+          "value": 918.37
+        },
+        {
+          "period": "2024-10",
+          "value": 868.92
+        },
+        {
+          "period": "2025-01",
+          "value": 926.79
+        },
+        {
+          "period": "2025-04",
+          "value": 917.82
+        },
+        {
+          "period": "2025-07",
+          "value": 923.44
+        },
+        {
+          "period": "2025-10",
+          "value": 930.78
+        }
+      ]
+    },
+    "ID": {
+      "stateName": "Idaho",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 838.35
+        },
+        {
+          "period": "2024-04",
+          "value": 838.14
+        },
+        {
+          "period": "2024-07",
+          "value": 896.34
+        },
+        {
+          "period": "2024-10",
+          "value": 856.7
+        },
+        {
+          "period": "2025-01",
+          "value": 869.48
+        },
+        {
+          "period": "2025-04",
+          "value": 873.78
+        },
+        {
+          "period": "2025-07",
+          "value": 878.52
+        },
+        {
+          "period": "2025-10",
+          "value": 873.87
+        }
+      ]
+    },
+    "IL": {
+      "stateName": "Illinois",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 486.28
+        },
+        {
+          "period": "2024-04",
+          "value": 502.22
+        },
+        {
+          "period": "2024-07",
+          "value": 510.96
+        },
+        {
+          "period": "2024-10",
+          "value": 513.09
+        },
+        {
+          "period": "2025-01",
+          "value": 521.58
+        },
+        {
+          "period": "2025-04",
+          "value": 535.59
+        },
+        {
+          "period": "2025-07",
+          "value": 543.12
+        },
+        {
+          "period": "2025-10",
+          "value": 545.83
+        }
+      ]
+    },
+    "IN": {
+      "stateName": "Indiana",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 476.63
+        },
+        {
+          "period": "2024-04",
+          "value": 491.29
+        },
+        {
+          "period": "2024-07",
+          "value": 499.3
+        },
+        {
+          "period": "2024-10",
+          "value": 503.52
+        },
+        {
+          "period": "2025-01",
+          "value": 509.6
+        },
+        {
+          "period": "2025-04",
+          "value": 516.61
+        },
+        {
+          "period": "2025-07",
+          "value": 522.04
+        },
+        {
+          "period": "2025-10",
+          "value": 525.79
+        }
+      ]
+    },
+    "IA": {
+      "stateName": "Iowa",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 426.92
+        },
+        {
+          "period": "2024-04",
+          "value": 438.06
+        },
+        {
+          "period": "2024-07",
+          "value": 443.65
+        },
+        {
+          "period": "2024-10",
+          "value": 442.25
+        },
+        {
+          "period": "2025-01",
+          "value": 445.13
+        },
+        {
+          "period": "2025-04",
+          "value": 456.78
+        },
+        {
+          "period": "2025-07",
+          "value": 458.46
+        },
+        {
+          "period": "2025-10",
+          "value": 460.03
+        }
+      ]
+    },
+    "KS": {
+      "stateName": "Kansas",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 439.68
+        },
+        {
+          "period": "2024-04",
+          "value": 448.93
+        },
+        {
+          "period": "2024-07",
+          "value": 452.01
+        },
+        {
+          "period": "2024-10",
+          "value": 455.68
+        },
+        {
+          "period": "2025-01",
+          "value": 465.15
+        },
+        {
+          "period": "2025-04",
+          "value": 469.96
+        },
+        {
+          "period": "2025-07",
+          "value": 473.57
+        },
+        {
+          "period": "2025-10",
+          "value": 474.76
+        }
+      ]
+    },
+    "KY": {
+      "stateName": "Kentucky",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 522
+        },
+        {
+          "period": "2024-04",
+          "value": 539.46
+        },
+        {
+          "period": "2024-07",
+          "value": 546.29
+        },
+        {
+          "period": "2024-10",
+          "value": 549.94
+        },
+        {
+          "period": "2025-01",
+          "value": 556.67
+        },
+        {
+          "period": "2025-04",
+          "value": 563.56
+        },
+        {
+          "period": "2025-07",
+          "value": 571.54
+        },
+        {
+          "period": "2025-10",
+          "value": 574.69
+        }
+      ]
+    },
+    "LA": {
+      "stateName": "Louisiana",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 361.84
+        },
+        {
+          "period": "2024-04",
+          "value": 363.3
+        },
+        {
+          "period": "2024-07",
+          "value": 363.06
+        },
+        {
+          "period": "2024-10",
+          "value": 364.78
+        },
+        {
+          "period": "2025-01",
+          "value": 367.17
+        },
+        {
+          "period": "2025-04",
+          "value": 373.46
+        },
+        {
+          "period": "2025-07",
+          "value": 373.5
+        },
+        {
+          "period": "2025-10",
+          "value": 379.46
+        }
+      ]
+    },
+    "ME": {
+      "stateName": "Maine",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 929.01
+        },
+        {
+          "period": "2024-04",
+          "value": 958.15
+        },
+        {
+          "period": "2024-07",
+          "value": 971.7
+        },
+        {
+          "period": "2024-10",
+          "value": 977.19
+        },
+        {
+          "period": "2025-01",
+          "value": 988.98
+        },
+        {
+          "period": "2025-04",
+          "value": 1014.46
+        },
+        {
+          "period": "2025-07",
+          "value": 1023.59
+        },
+        {
+          "period": "2025-10",
+          "value": 1031.02
+        }
+      ]
+    },
+    "MD": {
+      "stateName": "Maryland",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 667.8
+        },
+        {
+          "period": "2024-04",
+          "value": 683.65
+        },
+        {
+          "period": "2024-07",
+          "value": 689.58
+        },
+        {
+          "period": "2024-10",
+          "value": 696.1
+        },
+        {
+          "period": "2025-01",
+          "value": 697.84
+        },
+        {
+          "period": "2025-04",
+          "value": 710.93
+        },
+        {
+          "period": "2025-07",
+          "value": 712.24
+        },
+        {
+          "period": "2025-10",
+          "value": 715.91
+        }
+      ]
+    },
+    "MA": {
+      "stateName": "Massachusetts",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 1195.72
+        },
+        {
+          "period": "2024-04",
+          "value": 1232.41
+        },
+        {
+          "period": "2024-07",
+          "value": 1240.86
+        },
+        {
+          "period": "2024-10",
+          "value": 1249.97
+        },
+        {
+          "period": "2025-01",
+          "value": 1262.23
+        },
+        {
+          "period": "2025-04",
+          "value": 1290.09
+        },
+        {
+          "period": "2025-07",
+          "value": 1295.18
+        },
+        {
+          "period": "2025-10",
+          "value": 1303.96
+        }
+      ]
+    },
+    "MI": {
+      "stateName": "Michigan",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 512.27
+        },
+        {
+          "period": "2024-04",
+          "value": 533.06
+        },
+        {
+          "period": "2024-07",
+          "value": 540.81
+        },
+        {
+          "period": "2024-10",
+          "value": 540.88
+        },
+        {
+          "period": "2025-01",
+          "value": 547.58
+        },
+        {
+          "period": "2025-04",
+          "value": 561.18
+        },
+        {
+          "period": "2025-07",
+          "value": 568.45
+        },
+        {
+          "period": "2025-10",
+          "value": 570.97
+        }
+      ]
+    },
+    "MN": {
+      "stateName": "Minnesota",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 560.08
+        },
+        {
+          "period": "2024-04",
+          "value": 575.8
+        },
+        {
+          "period": "2024-07",
+          "value": 580.65
+        },
+        {
+          "period": "2024-10",
+          "value": 580.63
+        },
+        {
+          "period": "2025-01",
+          "value": 582.9
+        },
+        {
+          "period": "2025-04",
+          "value": 597.1
+        },
+        {
+          "period": "2025-07",
+          "value": 600.51
+        },
+        {
+          "period": "2025-10",
+          "value": 599.8
+        }
+      ]
+    },
+    "MS": {
+      "stateName": "Mississippi",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 387.14
+        },
+        {
+          "period": "2024-04",
+          "value": 398.97
+        },
+        {
+          "period": "2024-07",
+          "value": 408.7
+        },
+        {
+          "period": "2024-10",
+          "value": 407.39
+        },
+        {
+          "period": "2025-01",
+          "value": 413.1
+        },
+        {
+          "period": "2025-04",
+          "value": 415.66
+        },
+        {
+          "period": "2025-07",
+          "value": 419.81
+        },
+        {
+          "period": "2025-10",
+          "value": 425.13
+        }
+      ]
+    },
+    "MO": {
+      "stateName": "Missouri",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 513.4
+        },
+        {
+          "period": "2024-04",
+          "value": 529.45
+        },
+        {
+          "period": "2024-07",
+          "value": 533.32
+        },
+        {
+          "period": "2024-10",
+          "value": 537.67
+        },
+        {
+          "period": "2025-01",
+          "value": 544.63
+        },
+        {
+          "period": "2025-04",
+          "value": 554.54
+        },
+        {
+          "period": "2025-07",
+          "value": 557.63
+        },
+        {
+          "period": "2025-10",
+          "value": 559.57
+        }
+      ]
+    },
+    "MT": {
+      "stateName": "Montana",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 757.33
+        },
+        {
+          "period": "2024-04",
+          "value": 778.5
+        },
+        {
+          "period": "2024-07",
+          "value": 775.81
+        },
+        {
+          "period": "2024-10",
+          "value": 790.54
+        },
+        {
+          "period": "2025-01",
+          "value": 796.53
+        },
+        {
+          "period": "2025-04",
+          "value": 801.55
+        },
+        {
+          "period": "2025-07",
+          "value": 811.2
+        },
+        {
+          "period": "2025-10",
+          "value": 806.49
+        }
+      ]
+    },
+    "NE": {
+      "stateName": "Nebraska",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 502.42
+        },
+        {
+          "period": "2024-04",
+          "value": 516.83
+        },
+        {
+          "period": "2024-07",
+          "value": 517.54
+        },
+        {
+          "period": "2024-10",
+          "value": 523.27
+        },
+        {
+          "period": "2025-01",
+          "value": 523.68
+        },
+        {
+          "period": "2025-04",
+          "value": 535.09
+        },
+        {
+          "period": "2025-07",
+          "value": 540.89
+        },
+        {
+          "period": "2025-10",
+          "value": 541.9
+        }
+      ]
+    },
+    "NV": {
+      "stateName": "Nevada",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 608
+        },
+        {
+          "period": "2024-04",
+          "value": 618.95
+        },
+        {
+          "period": "2024-07",
+          "value": 622.52
+        },
+        {
+          "period": "2024-10",
+          "value": 628.48
+        },
+        {
+          "period": "2025-01",
+          "value": 634.03
+        },
+        {
+          "period": "2025-04",
+          "value": 638.33
+        },
+        {
+          "period": "2025-07",
+          "value": 637.5
+        },
+        {
+          "period": "2025-10",
+          "value": 638.5
+        }
+      ]
+    },
+    "NH": {
+      "stateName": "New Hampshire",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 802.11
+        },
+        {
+          "period": "2024-04",
+          "value": 834.7
+        },
+        {
+          "period": "2024-07",
+          "value": 843.42
+        },
+        {
+          "period": "2024-10",
+          "value": 844.83
+        },
+        {
+          "period": "2025-01",
+          "value": 859.45
+        },
+        {
+          "period": "2025-04",
+          "value": 882.45
+        },
+        {
+          "period": "2025-07",
+          "value": 888.64
+        },
+        {
+          "period": "2025-10",
+          "value": 892.33
+        }
+      ]
+    },
+    "NJ": {
+      "stateName": "New Jersey",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 830.85
+        },
+        {
+          "period": "2024-04",
+          "value": 859.39
+        },
+        {
+          "period": "2024-07",
+          "value": 873.77
+        },
+        {
+          "period": "2024-10",
+          "value": 885.8
+        },
+        {
+          "period": "2025-01",
+          "value": 901.24
+        },
+        {
+          "period": "2025-04",
+          "value": 919.92
+        },
+        {
+          "period": "2025-07",
+          "value": 927.85
+        },
+        {
+          "period": "2025-10",
+          "value": 939.31
+        }
+      ]
+    },
+    "NM": {
+      "stateName": "New Mexico",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 515.48
+        },
+        {
+          "period": "2024-04",
+          "value": 527.09
+        },
+        {
+          "period": "2024-07",
+          "value": 533.12
+        },
+        {
+          "period": "2024-10",
+          "value": 538.25
+        },
+        {
+          "period": "2025-01",
+          "value": 540.7
+        },
+        {
+          "period": "2025-04",
+          "value": 552.46
+        },
+        {
+          "period": "2025-07",
+          "value": 552.75
+        },
+        {
+          "period": "2025-10",
+          "value": 553.22
+        }
+      ]
+    },
+    "NY": {
+      "stateName": "New York",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 1014.01
+        },
+        {
+          "period": "2024-04",
+          "value": 1052.36
+        },
+        {
+          "period": "2024-07",
+          "value": 1073.49
+        },
+        {
+          "period": "2024-10",
+          "value": 1082.46
+        },
+        {
+          "period": "2025-01",
+          "value": 1092.27
+        },
+        {
+          "period": "2025-04",
+          "value": 1129.01
+        },
+        {
+          "period": "2025-07",
+          "value": 1147.77
+        },
+        {
+          "period": "2025-10",
+          "value": 1150.44
+        }
+      ]
+    },
+    "NC": {
+      "stateName": "North Carolina",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 655.6
+        },
+        {
+          "period": "2024-04",
+          "value": 670.53
+        },
+        {
+          "period": "2024-07",
+          "value": 676.47
+        },
+        {
+          "period": "2024-10",
+          "value": 680.2
+        },
+        {
+          "period": "2025-01",
+          "value": 687.41
+        },
+        {
+          "period": "2025-04",
+          "value": 694.28
+        },
+        {
+          "period": "2025-07",
+          "value": 697.66
+        },
+        {
+          "period": "2025-10",
+          "value": 701.92
+        }
+      ]
+    },
+    "ND": {
+      "stateName": "North Dakota",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 478.08
+        },
+        {
+          "period": "2024-04",
+          "value": 488.02
+        },
+        {
+          "period": "2024-07",
+          "value": 498.57
+        },
+        {
+          "period": "2024-10",
+          "value": 498.16
+        },
+        {
+          "period": "2025-01",
+          "value": 504.17
+        },
+        {
+          "period": "2025-04",
+          "value": 515.64
+        },
+        {
+          "period": "2025-07",
+          "value": 527.16
+        },
+        {
+          "period": "2025-10",
+          "value": 522.47
+        }
+      ]
+    },
+    "OH": {
+      "stateName": "Ohio",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 457.27
+        },
+        {
+          "period": "2024-04",
+          "value": 476.04
+        },
+        {
+          "period": "2024-07",
+          "value": 481.53
+        },
+        {
+          "period": "2024-10",
+          "value": 485.07
+        },
+        {
+          "period": "2025-01",
+          "value": 491.21
+        },
+        {
+          "period": "2025-04",
+          "value": 502.51
+        },
+        {
+          "period": "2025-07",
+          "value": 507.11
+        },
+        {
+          "period": "2025-10",
+          "value": 509.81
+        }
+      ]
+    },
+    "OK": {
+      "stateName": "Oklahoma",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 372.36
+        },
+        {
+          "period": "2024-04",
+          "value": 374.81
+        },
+        {
+          "period": "2024-07",
+          "value": 381.21
+        },
+        {
+          "period": "2024-10",
+          "value": 384.18
+        },
+        {
+          "period": "2025-01",
+          "value": 386.26
+        },
+        {
+          "period": "2025-04",
+          "value": 392.07
+        },
+        {
+          "period": "2025-07",
+          "value": 390.26
+        },
+        {
+          "period": "2025-10",
+          "value": 397.06
+        }
+      ]
+    },
+    "OR": {
+      "stateName": "Oregon",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 813.22
+        },
+        {
+          "period": "2024-04",
+          "value": 830.52
+        },
+        {
+          "period": "2024-07",
+          "value": 830.32
+        },
+        {
+          "period": "2024-10",
+          "value": 829.8
+        },
+        {
+          "period": "2025-01",
+          "value": 834.74
+        },
+        {
+          "period": "2025-04",
+          "value": 845.57
+        },
+        {
+          "period": "2025-07",
+          "value": 845.4
+        },
+        {
+          "period": "2025-10",
+          "value": 846.32
+        }
+      ]
+    },
+    "PA": {
+      "stateName": "Pennsylvania",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 645.13
+        },
+        {
+          "period": "2024-04",
+          "value": 665.64
+        },
+        {
+          "period": "2024-07",
+          "value": 674.26
+        },
+        {
+          "period": "2024-10",
+          "value": 676.21
+        },
+        {
+          "period": "2025-01",
+          "value": 687.65
+        },
+        {
+          "period": "2025-04",
+          "value": 703.41
+        },
+        {
+          "period": "2025-07",
+          "value": 710.43
+        },
+        {
+          "period": "2025-10",
+          "value": 713.64
+        }
+      ]
+    },
+    "RI": {
+      "stateName": "Rhode Island",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 921.66
+        },
+        {
+          "period": "2024-04",
+          "value": 953.73
+        },
+        {
+          "period": "2024-07",
+          "value": 973.15
+        },
+        {
+          "period": "2024-10",
+          "value": 981.74
+        },
+        {
+          "period": "2025-01",
+          "value": 1001.32
+        },
+        {
+          "period": "2025-04",
+          "value": 1018.37
+        },
+        {
+          "period": "2025-07",
+          "value": 1022.1
+        },
+        {
+          "period": "2025-10",
+          "value": 1034.01
+        }
+      ]
+    },
+    "SC": {
+      "stateName": "South Carolina",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 653.09
+        },
+        {
+          "period": "2024-04",
+          "value": 670.03
+        },
+        {
+          "period": "2024-07",
+          "value": 676.88
+        },
+        {
+          "period": "2024-10",
+          "value": 685.32
+        },
+        {
+          "period": "2025-01",
+          "value": 693.99
+        },
+        {
+          "period": "2025-04",
+          "value": 698.87
+        },
+        {
+          "period": "2025-07",
+          "value": 708.35
+        },
+        {
+          "period": "2025-10",
+          "value": 710.79
+        }
+      ]
+    },
+    "SD": {
+      "stateName": "South Dakota",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 598.8
+        },
+        {
+          "period": "2024-04",
+          "value": 606.66
+        },
+        {
+          "period": "2024-07",
+          "value": 610.33
+        },
+        {
+          "period": "2024-10",
+          "value": 614.93
+        },
+        {
+          "period": "2025-01",
+          "value": 618.52
+        },
+        {
+          "period": "2025-04",
+          "value": 631.48
+        },
+        {
+          "period": "2025-07",
+          "value": 633.93
+        },
+        {
+          "period": "2025-10",
+          "value": 637.83
+        }
+      ]
+    },
+    "TN": {
+      "stateName": "Tennessee",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 654.77
+        },
+        {
+          "period": "2024-04",
+          "value": 666.04
+        },
+        {
+          "period": "2024-07",
+          "value": 672.91
+        },
+        {
+          "period": "2024-10",
+          "value": 679.24
+        },
+        {
+          "period": "2025-01",
+          "value": 681.22
+        },
+        {
+          "period": "2025-04",
+          "value": 691.43
+        },
+        {
+          "period": "2025-07",
+          "value": 697.7
+        },
+        {
+          "period": "2025-10",
+          "value": 700.01
+        }
+      ]
+    },
+    "TX": {
+      "stateName": "Texas",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 510.5
+        },
+        {
+          "period": "2024-04",
+          "value": 516.7
+        },
+        {
+          "period": "2024-07",
+          "value": 518.39
+        },
+        {
+          "period": "2024-10",
+          "value": 522.06
+        },
+        {
+          "period": "2025-01",
+          "value": 524.34
+        },
+        {
+          "period": "2025-04",
+          "value": 526.32
+        },
+        {
+          "period": "2025-07",
+          "value": 526.74
+        },
+        {
+          "period": "2025-10",
+          "value": 527.87
+        }
+      ]
+    },
+    "UT": {
+      "stateName": "Utah",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 799.8
+        },
+        {
+          "period": "2024-04",
+          "value": 819.17
+        },
+        {
+          "period": "2024-07",
+          "value": 826.81
+        },
+        {
+          "period": "2024-10",
+          "value": 829.89
+        },
+        {
+          "period": "2025-01",
+          "value": 834.39
+        },
+        {
+          "period": "2025-04",
+          "value": 846.86
+        },
+        {
+          "period": "2025-07",
+          "value": 849.29
+        },
+        {
+          "period": "2025-10",
+          "value": 854.23
+        }
+      ]
+    },
+    "VT": {
+      "stateName": "Vermont",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 796.7
+        },
+        {
+          "period": "2024-04",
+          "value": 838.62
+        },
+        {
+          "period": "2024-07",
+          "value": 843.74
+        },
+        {
+          "period": "2024-10",
+          "value": 849.11
+        },
+        {
+          "period": "2025-01",
+          "value": 856.56
+        },
+        {
+          "period": "2025-04",
+          "value": 864.36
+        },
+        {
+          "period": "2025-07",
+          "value": 870.41
+        },
+        {
+          "period": "2025-10",
+          "value": 889.76
+        }
+      ]
+    },
+    "VA": {
+      "stateName": "Virginia",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 698.7
+        },
+        {
+          "period": "2024-04",
+          "value": 722.1
+        },
+        {
+          "period": "2024-07",
+          "value": 727.24
+        },
+        {
+          "period": "2024-10",
+          "value": 733.64
+        },
+        {
+          "period": "2025-01",
+          "value": 741.57
+        },
+        {
+          "period": "2025-04",
+          "value": 755.55
+        },
+        {
+          "period": "2025-07",
+          "value": 759.37
+        },
+        {
+          "period": "2025-10",
+          "value": 764.26
+        }
+      ]
+    },
+    "WA": {
+      "stateName": "Washington",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 970.41
+        },
+        {
+          "period": "2024-04",
+          "value": 997.45
+        },
+        {
+          "period": "2024-07",
+          "value": 1003.4
+        },
+        {
+          "period": "2024-10",
+          "value": 1001.2
+        },
+        {
+          "period": "2025-01",
+          "value": 1015.8
+        },
+        {
+          "period": "2025-04",
+          "value": 1028.85
+        },
+        {
+          "period": "2025-07",
+          "value": 1023.71
+        },
+        {
+          "period": "2025-10",
+          "value": 1029.58
+        }
+      ]
+    },
+    "WV": {
+      "stateName": "West Virginia",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 319.79
+        },
+        {
+          "period": "2024-04",
+          "value": 334.01
+        },
+        {
+          "period": "2024-07",
+          "value": 336.34
+        },
+        {
+          "period": "2024-10",
+          "value": 343.46
+        },
+        {
+          "period": "2025-01",
+          "value": 343.81
+        },
+        {
+          "period": "2025-04",
+          "value": 344.72
+        },
+        {
+          "period": "2025-07",
+          "value": 355.42
+        },
+        {
+          "period": "2025-10",
+          "value": 359.57
+        }
+      ]
+    },
+    "WI": {
+      "stateName": "Wisconsin",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 558.41
+        },
+        {
+          "period": "2024-04",
+          "value": 576.83
+        },
+        {
+          "period": "2024-07",
+          "value": 586.29
+        },
+        {
+          "period": "2024-10",
+          "value": 587.06
+        },
+        {
+          "period": "2025-01",
+          "value": 598.73
+        },
+        {
+          "period": "2025-04",
+          "value": 614.07
+        },
+        {
+          "period": "2025-07",
+          "value": 620.76
+        },
+        {
+          "period": "2025-10",
+          "value": 621.27
+        }
+      ]
+    },
+    "WY": {
+      "stateName": "Wyoming",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 469.81
+        },
+        {
+          "period": "2024-04",
+          "value": 484.25
+        },
+        {
+          "period": "2024-07",
+          "value": 489.52
+        },
+        {
+          "period": "2024-10",
+          "value": 492.28
+        },
+        {
+          "period": "2025-01",
+          "value": 501.84
+        },
+        {
+          "period": "2025-04",
+          "value": 509.91
+        },
+        {
+          "period": "2025-07",
+          "value": 510.04
+        },
+        {
+          "period": "2025-10",
+          "value": 511.39
+        }
+      ]
+    },
+    "DC": {
+      "stateName": "District of Columbia",
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 1039.89
+        },
+        {
+          "period": "2024-04",
+          "value": 1063.14
+        },
+        {
+          "period": "2024-07",
+          "value": 1046.92
+        },
+        {
+          "period": "2024-10",
+          "value": 1042.2
+        },
+        {
+          "period": "2025-01",
+          "value": 1055.28
+        },
+        {
+          "period": "2025-04",
+          "value": 1047.55
+        },
+        {
+          "period": "2025-07",
+          "value": 1065.43
+        },
+        {
+          "period": "2025-10",
+          "value": 1073.96
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+name: metrics-sync
+
+# Weekly sync of housing metrics from StatsCan, FRED, Zillow, Census,
+# UK Land Registry, Eurostat, ABS, Singapore HDB, and OECD.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Every Monday at 6:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: metrics-sync
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - run: npm ci --no-audit --no-fund
+
+      # ── Canada ──────────────────────────────────────────────────
+      - name: StatsCan (NHPI + starts + CPI shelter)
+        run: npx tsx scripts/sync/statcan-housing.ts
+
+      - name: CMHC (rental market)
+        run: npx tsx scripts/sync/cmhc-housing.ts
+        continue-on-error: true # Undocumented endpoint — may fail
+
+      # ── USA ─────────────────────────────────────────────────────
+      - name: FRED (Case-Shiller + starts + mortgage + vacancy + state HPI)
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: npx tsx scripts/sync/fred-housing.ts
+
+      - name: Zillow (ZHVI + ZORI)
+        run: npx tsx scripts/sync/zillow-housing.ts
+
+      - name: US Census (ACS median values + rents)
+        run: npx tsx scripts/sync/census-housing.ts
+
+      # ── UK + EU ─────────────────────────────────────────────────
+      - name: UK Land Registry (HPI by region)
+        run: npx tsx scripts/sync/uk-landregistry.ts
+
+      - name: Eurostat (HPI + rents)
+        run: npx tsx scripts/sync/eurostat-housing.ts
+
+      # ── Asia-Pacific ────────────────────────────────────────────
+      - name: ABS Australia (RPPI)
+        run: npx tsx scripts/sync/abs-housing.ts
+        continue-on-error: true
+
+      - name: Singapore HDB (resale prices)
+        run: npx tsx scripts/sync/sg-hdb.ts
+        continue-on-error: true # Rate-limited without API key
+
+      # ── Global ──────────────────────────────────────────────────
+      - name: OECD (housing prices)
+        run: npx tsx scripts/sync/oecd-housing.ts
+        continue-on-error: true # Rate-limited
+
+      # ── Rebuild placeholder data ────────────────────────────────
+      - name: Rebuild placeholder
+        run: npx tsx scripts/build-placeholder.ts
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain data/ lib/placeholder-data.ts)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/housing/ lib/placeholder-data.ts
+            git commit -m "metrics: weekly sync $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          else
+            echo "No changes."
+          fi
+
+      - name: Summarize run report
+        if: always()
+        run: npx tsx scripts/ci/summarize-run-report.ts

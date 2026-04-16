@@ -1,0 +1,103 @@
+{
+  "seriesId": "MORTGAGE30US",
+  "name": "30-Year Fixed Rate Mortgage Average",
+  "lastUpdated": "2026-04",
+  "values": [
+    {
+      "period": "2025-10",
+      "value": 6.17
+    },
+    {
+      "period": "2025-11",
+      "value": 6.23
+    },
+    {
+      "period": "2025-11",
+      "value": 6.26
+    },
+    {
+      "period": "2025-11",
+      "value": 6.24
+    },
+    {
+      "period": "2025-11",
+      "value": 6.22
+    },
+    {
+      "period": "2025-12",
+      "value": 6.15
+    },
+    {
+      "period": "2025-12",
+      "value": 6.18
+    },
+    {
+      "period": "2025-12",
+      "value": 6.21
+    },
+    {
+      "period": "2025-12",
+      "value": 6.22
+    },
+    {
+      "period": "2025-12",
+      "value": 6.19
+    },
+    {
+      "period": "2026-01",
+      "value": 6.1
+    },
+    {
+      "period": "2026-01",
+      "value": 6.09
+    },
+    {
+      "period": "2026-01",
+      "value": 6.06
+    },
+    {
+      "period": "2026-01",
+      "value": 6.16
+    },
+    {
+      "period": "2026-02",
+      "value": 5.98
+    },
+    {
+      "period": "2026-02",
+      "value": 6.01
+    },
+    {
+      "period": "2026-02",
+      "value": 6.09
+    },
+    {
+      "period": "2026-02",
+      "value": 6.11
+    },
+    {
+      "period": "2026-03",
+      "value": 6.38
+    },
+    {
+      "period": "2026-03",
+      "value": 6.22
+    },
+    {
+      "period": "2026-03",
+      "value": 6.11
+    },
+    {
+      "period": "2026-03",
+      "value": 6
+    },
+    {
+      "period": "2026-04",
+      "value": 6.37
+    },
+    {
+      "period": "2026-04",
+      "value": 6.46
+    }
+  ]
+}

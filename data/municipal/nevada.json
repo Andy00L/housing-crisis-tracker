@@ -1,0 +1,83 @@
+[
+  {
+    "id": "storey-county-nv",
+    "name": "Storey County",
+    "fips": "32029",
+    "state": "Nevada",
+    "stateCode": "NV",
+    "type": "county",
+    "actions": [
+      {
+        "title": "Ongoing data center expansion approvals in Tahoe Reno Industrial Center (TRIC)",
+        "date": "2024-01-01",
+        "status": "enacted",
+        "summary": "Storey County has continued to approve data center campus expansions in the Tahoe Reno Industrial Center, home to major facilities operated by Switch, Google, and others. The county has benefited from significant tax revenue but faces growing questions about water and energy capacity.",
+        "sourceUrl": "https://www.rgj.com/story/news/2024/03/22/storey-county-data-center-growth-water-energy/73059477007/"
+      }
+    ],
+    "concerns": [
+      "water-consumption",
+      "grid-capacity",
+      "energy-rates",
+      "tax-incentives",
+      "economic-development"
+    ],
+    "contextBlurb": "Storey County hosts one of the largest data center clusters in the western US at the Tahoe Reno Industrial Center. The county has embraced data center growth for economic development but faces increasing scrutiny over water consumption and power demands in the arid region."
+  },
+  {
+    "id": "clark-county-nv",
+    "name": "Clark County",
+    "fips": "32003",
+    "state": "Nevada",
+    "stateCode": "NV",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(City of Henderson) Approval of new data center developments",
+        "date": "2024-06-01",
+        "status": "enacted",
+        "summary": "The City of Henderson in Clark County has approved multiple data center projects, including facilities by Switch and other operators in its West Henderson area, continuing the Las Vegas metro area's growth as a data center hub.",
+        "sourceUrl": "https://www.datacenterdynamics.com/en/news/switch-plans-expansion-at-its-las-vegas-data-center-campus/"
+      },
+      {
+        "title": "(City of Las Vegas) Data center water use and sustainability concerns raised",
+        "date": "2024-09-01",
+        "status": "under-review",
+        "summary": "Clark County and Las Vegas officials have faced growing public and regulatory discussion about the water consumption of data centers amid ongoing Colorado River drought concerns and water allocation pressures.",
+        "sourceUrl": "https://www.reviewjournal.com/business/data-centers-are-booming-in-las-vegas-but-so-is-their-water-use-3109625/"
+      }
+    ],
+    "concerns": [
+      "water-consumption",
+      "grid-capacity",
+      "energy-rates",
+      "economic-development",
+      "renewable-energy"
+    ],
+    "contextBlurb": "Clark County, anchored by Las Vegas, has become a major data center market. Switch's massive Las Vegas campus and numerous other facilities drive economic activity but raise concerns about water use in a region heavily dependent on the shrinking Colorado River."
+  },
+  {
+    "id": "washoe-county-nv",
+    "name": "Washoe County",
+    "fips": "32031",
+    "state": "Nevada",
+    "stateCode": "NV",
+    "type": "county",
+    "actions": [
+      {
+        "title": "Data center energy demand and NV Energy grid capacity planning",
+        "date": "2024-06-01",
+        "status": "under-review",
+        "summary": "Washoe County has been part of broader regional discussions about NV Energy's integrated resource plan to accommodate surging data center electricity demand in northern Nevada, including new generation and transmission needs.",
+        "sourceUrl": "https://www.kunr.org/local-stories/2024-06-20/nv-energy-says-electricity-demand-is-growing-driven-by-data-centers-and-evs"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "energy-rates",
+      "water-consumption",
+      "economic-development"
+    ],
+    "contextBlurb": "Washoe County, home to Reno, sits adjacent to Storey County's massive data center cluster and shares utility infrastructure. The region faces increasing pressure on electrical grid capacity as data center demand surges."
+  }
+]

@@ -1,0 +1,67 @@
+name: news-rss
+
+# Polls the curated RSS feeds and appends new items to data/news/summaries.json.
+# Self-throttling: scripts/sync/news-rss.ts no-ops 14 days after the
+# `data/news/.rss-started` timestamp. To restart the window, run
+#     npx tsx scripts/sync/news-rss.ts --restart
+# locally and commit the updated `.rss-started` file.
+
+on:
+  schedule:
+    # Three times a day in UTC: ~5am ET (morning newsroom drop), ~11am ET
+    # (midday wave), ~7pm ET (after-market / late filings). News is steady
+    # but not minute-by-minute, so this catches the meaningful waves
+    # without burning CI on empty polls.
+    - cron: "0 9,15,23 * * *"
+  workflow_dispatch: # manual trigger from the Actions tab
+    inputs:
+      restart:
+        description: "Restart the 14-day window"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: news-rss
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - run: npm ci --no-audit --no-fund
+
+      - name: Restart window (manual only)
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.restart == 'true' }}
+        run: npx tsx scripts/sync/news-rss.ts --restart
+
+      - name: Poll feeds
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npx tsx scripts/sync/news-rss.ts
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain data/news/)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/news/summaries.json data/news/.rss-started
+            git commit -m "news: rss poll $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          else
+            echo "No changes."
+          fi
+
+      - name: Summarize run report
+        if: always()
+        run: npx tsx scripts/ci/summarize-run-report.ts

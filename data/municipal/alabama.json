@@ -1,0 +1,52 @@
+[
+  {
+    "id": "limestone-county-al",
+    "name": "Limestone County",
+    "fips": "01083",
+    "state": "Alabama",
+    "stateCode": "AL",
+    "type": "county",
+    "actions": [
+      {
+        "title": "Google data center campus expansion in Limestone County",
+        "date": "2024-03-01",
+        "status": "enacted",
+        "summary": "Google continued expanding its multi-billion-dollar data center campus near Bridgeport in Limestone County, with additional investment phases announced. The project has received significant state and local tax incentive support.",
+        "sourceUrl": "https://www.al.com/news/huntsville/2024/03/google-announces-another-billion-dollar-investment-in-alabama-data-center.html"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "tax-incentives",
+      "economic-development",
+      "job-creation",
+      "water-consumption"
+    ],
+    "contextBlurb": "Limestone County hosts Google's massive data center campus near Bridgefort, which has seen successive billion-dollar investment phases. The facility is one of Alabama's largest data center developments and has drawn attention for its energy and water demands alongside its economic benefits."
+  },
+  {
+    "id": "madison-county-al",
+    "name": "Madison County",
+    "fips": "01089",
+    "state": "Alabama",
+    "stateCode": "AL",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(City of Huntsville) Meta data center development approval",
+        "date": "2024-01-01",
+        "status": "enacted",
+        "summary": "Meta's large-scale data center project in Huntsville continued advancing with local support and infrastructure coordination, part of the broader growth of north Alabama as a data center hub.",
+        "sourceUrl": "https://www.huntsvilleal.gov/meta-data-center/"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "water-consumption",
+      "economic-development",
+      "tax-incentives",
+      "job-creation"
+    ],
+    "contextBlurb": "Madison County and the City of Huntsville have attracted significant data center investment, including Meta's campus. The area's proximity to TVA power and existing tech infrastructure make it a growing data center corridor in the Southeast."
+  }
+]

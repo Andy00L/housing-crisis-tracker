@@ -1,0 +1,579 @@
+{
+  "table": "18100004",
+  "name": "CPI - Shelter component",
+  "lastUpdated": "2026-03-16",
+  "geographies": {
+    "Canada": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 187
+        },
+        {
+          "period": "2025-04",
+          "value": 186.9
+        },
+        {
+          "period": "2025-05",
+          "value": 186.9
+        },
+        {
+          "period": "2025-06",
+          "value": 187.3
+        },
+        {
+          "period": "2025-07",
+          "value": 187.9
+        },
+        {
+          "period": "2025-08",
+          "value": 188
+        },
+        {
+          "period": "2025-09",
+          "value": 188.2
+        },
+        {
+          "period": "2025-10",
+          "value": 189.4
+        },
+        {
+          "period": "2025-11",
+          "value": 189.6
+        },
+        {
+          "period": "2025-12",
+          "value": 189.7
+        },
+        {
+          "period": "2026-01",
+          "value": 189.6
+        },
+        {
+          "period": "2026-02",
+          "value": 189.5
+        }
+      ]
+    },
+    "Newfoundland and Labrador": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 203.3
+        },
+        {
+          "period": "2025-04",
+          "value": 202
+        },
+        {
+          "period": "2025-05",
+          "value": 202.2
+        },
+        {
+          "period": "2025-06",
+          "value": 202.9
+        },
+        {
+          "period": "2025-07",
+          "value": 206.1
+        },
+        {
+          "period": "2025-08",
+          "value": 205.7
+        },
+        {
+          "period": "2025-09",
+          "value": 207
+        },
+        {
+          "period": "2025-10",
+          "value": 207.2
+        },
+        {
+          "period": "2025-11",
+          "value": 207.8
+        },
+        {
+          "period": "2025-12",
+          "value": 208.4
+        },
+        {
+          "period": "2026-01",
+          "value": 208.3
+        },
+        {
+          "period": "2026-02",
+          "value": 208.7
+        }
+      ]
+    },
+    "Prince Edward Island": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 181
+        },
+        {
+          "period": "2025-04",
+          "value": 179.9
+        },
+        {
+          "period": "2025-05",
+          "value": 180
+        },
+        {
+          "period": "2025-06",
+          "value": 178.3
+        },
+        {
+          "period": "2025-07",
+          "value": 180.1
+        },
+        {
+          "period": "2025-08",
+          "value": 178.5
+        },
+        {
+          "period": "2025-09",
+          "value": 178.3
+        },
+        {
+          "period": "2025-10",
+          "value": 179.8
+        },
+        {
+          "period": "2025-11",
+          "value": 181.7
+        },
+        {
+          "period": "2025-12",
+          "value": 182.7
+        },
+        {
+          "period": "2026-01",
+          "value": 181.7
+        },
+        {
+          "period": "2026-02",
+          "value": 181.5
+        }
+      ]
+    },
+    "Nova Scotia": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 196.9
+        },
+        {
+          "period": "2025-04",
+          "value": 196.3
+        },
+        {
+          "period": "2025-05",
+          "value": 195.8
+        },
+        {
+          "period": "2025-06",
+          "value": 196
+        },
+        {
+          "period": "2025-07",
+          "value": 196.6
+        },
+        {
+          "period": "2025-08",
+          "value": 197.1
+        },
+        {
+          "period": "2025-09",
+          "value": 197.2
+        },
+        {
+          "period": "2025-10",
+          "value": 198.5
+        },
+        {
+          "period": "2025-11",
+          "value": 199.6
+        },
+        {
+          "period": "2025-12",
+          "value": 200.8
+        },
+        {
+          "period": "2026-01",
+          "value": 201.1
+        },
+        {
+          "period": "2026-02",
+          "value": 202.7
+        }
+      ]
+    },
+    "New Brunswick": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 176
+        },
+        {
+          "period": "2025-04",
+          "value": 177.8
+        },
+        {
+          "period": "2025-05",
+          "value": 178.5
+        },
+        {
+          "period": "2025-06",
+          "value": 179.1
+        },
+        {
+          "period": "2025-07",
+          "value": 179.6
+        },
+        {
+          "period": "2025-08",
+          "value": 179.2
+        },
+        {
+          "period": "2025-09",
+          "value": 179.6
+        },
+        {
+          "period": "2025-10",
+          "value": 180.6
+        },
+        {
+          "period": "2025-11",
+          "value": 182.1
+        },
+        {
+          "period": "2025-12",
+          "value": 182.2
+        },
+        {
+          "period": "2026-01",
+          "value": 181.9
+        },
+        {
+          "period": "2026-02",
+          "value": 183.2
+        }
+      ]
+    },
+    "Quebec": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 176.3
+        },
+        {
+          "period": "2025-04",
+          "value": 177.4
+        },
+        {
+          "period": "2025-05",
+          "value": 177.1
+        },
+        {
+          "period": "2025-06",
+          "value": 178
+        },
+        {
+          "period": "2025-07",
+          "value": 179.2
+        },
+        {
+          "period": "2025-08",
+          "value": 180.9
+        },
+        {
+          "period": "2025-09",
+          "value": 182.2
+        },
+        {
+          "period": "2025-10",
+          "value": 183.3
+        },
+        {
+          "period": "2025-11",
+          "value": 183.2
+        },
+        {
+          "period": "2025-12",
+          "value": 183.7
+        },
+        {
+          "period": "2026-01",
+          "value": 183.7
+        },
+        {
+          "period": "2026-02",
+          "value": 183.8
+        }
+      ]
+    },
+    "Ontario": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 189.7
+        },
+        {
+          "period": "2025-04",
+          "value": 189.3
+        },
+        {
+          "period": "2025-05",
+          "value": 189.1
+        },
+        {
+          "period": "2025-06",
+          "value": 189.3
+        },
+        {
+          "period": "2025-07",
+          "value": 189.9
+        },
+        {
+          "period": "2025-08",
+          "value": 189.6
+        },
+        {
+          "period": "2025-09",
+          "value": 189.5
+        },
+        {
+          "period": "2025-10",
+          "value": 189.9
+        },
+        {
+          "period": "2025-11",
+          "value": 190.2
+        },
+        {
+          "period": "2025-12",
+          "value": 190
+        },
+        {
+          "period": "2026-01",
+          "value": 189.6
+        },
+        {
+          "period": "2026-02",
+          "value": 189.3
+        }
+      ]
+    },
+    "Manitoba": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 200
+        },
+        {
+          "period": "2025-04",
+          "value": 198.9
+        },
+        {
+          "period": "2025-05",
+          "value": 199.9
+        },
+        {
+          "period": "2025-06",
+          "value": 200.8
+        },
+        {
+          "period": "2025-07",
+          "value": 201
+        },
+        {
+          "period": "2025-08",
+          "value": 200.3
+        },
+        {
+          "period": "2025-09",
+          "value": 200.6
+        },
+        {
+          "period": "2025-10",
+          "value": 204.5
+        },
+        {
+          "period": "2025-11",
+          "value": 204.8
+        },
+        {
+          "period": "2025-12",
+          "value": 204.6
+        },
+        {
+          "period": "2026-01",
+          "value": 204.9
+        },
+        {
+          "period": "2026-02",
+          "value": 205.7
+        }
+      ]
+    },
+    "Saskatchewan": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 206.1
+        },
+        {
+          "period": "2025-04",
+          "value": 206
+        },
+        {
+          "period": "2025-05",
+          "value": 206.8
+        },
+        {
+          "period": "2025-06",
+          "value": 207.5
+        },
+        {
+          "period": "2025-07",
+          "value": 207.3
+        },
+        {
+          "period": "2025-08",
+          "value": 208.1
+        },
+        {
+          "period": "2025-09",
+          "value": 209
+        },
+        {
+          "period": "2025-10",
+          "value": 209
+        },
+        {
+          "period": "2025-11",
+          "value": 209
+        },
+        {
+          "period": "2025-12",
+          "value": 209.2
+        },
+        {
+          "period": "2026-01",
+          "value": 209.8
+        },
+        {
+          "period": "2026-02",
+          "value": 211
+        }
+      ]
+    },
+    "Alberta": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 224.9
+        },
+        {
+          "period": "2025-04",
+          "value": 222.9
+        },
+        {
+          "period": "2025-05",
+          "value": 224.2
+        },
+        {
+          "period": "2025-06",
+          "value": 224.5
+        },
+        {
+          "period": "2025-07",
+          "value": 224
+        },
+        {
+          "period": "2025-08",
+          "value": 224
+        },
+        {
+          "period": "2025-09",
+          "value": 224.4
+        },
+        {
+          "period": "2025-10",
+          "value": 226.2
+        },
+        {
+          "period": "2025-11",
+          "value": 226.7
+        },
+        {
+          "period": "2025-12",
+          "value": 227.6
+        },
+        {
+          "period": "2026-01",
+          "value": 227.8
+        },
+        {
+          "period": "2026-02",
+          "value": 226.8
+        }
+      ]
+    },
+    "British Columbia": {
+      "values": [
+        {
+          "period": "2025-03",
+          "value": 163.8
+        },
+        {
+          "period": "2025-04",
+          "value": 164.2
+        },
+        {
+          "period": "2025-05",
+          "value": 164.2
+        },
+        {
+          "period": "2025-06",
+          "value": 164.3
+        },
+        {
+          "period": "2025-07",
+          "value": 164.7
+        },
+        {
+          "period": "2025-08",
+          "value": 164.4
+        },
+        {
+          "period": "2025-09",
+          "value": 163.8
+        },
+        {
+          "period": "2025-10",
+          "value": 166
+        },
+        {
+          "period": "2025-11",
+          "value": 166.3
+        },
+        {
+          "period": "2025-12",
+          "value": 166.1
+        },
+        {
+          "period": "2026-01",
+          "value": 166.2
+        },
+        {
+          "period": "2026-02",
+          "value": 166.2
+        }
+      ]
+    }
+  }
+}

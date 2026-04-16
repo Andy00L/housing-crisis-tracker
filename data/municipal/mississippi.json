@@ -1,0 +1,52 @@
+[
+  {
+    "id": "lowndes-county-ms",
+    "name": "Lowndes County",
+    "fips": "28087",
+    "state": "Mississippi",
+    "stateCode": "MS",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Columbus) AWS Data Center Campus Approved",
+        "date": "2024-06-01",
+        "status": "enacted",
+        "summary": "Amazon Web Services announced plans to invest approximately $10 billion in a data center campus in Columbus, Mississippi, with local and state incentives approved to support the project.",
+        "sourceUrl": "https://www.gulflive.com/news/2024/06/amazon-web-services-to-invest-10b-in-mississippi-data-centers.html"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "economic-development",
+      "job-creation",
+      "tax-incentives",
+      "water-consumption"
+    ],
+    "contextBlurb": "Lowndes County and the City of Columbus became a focal point for large-scale data center investment after AWS announced a massive multi-billion-dollar data center campus. The project is expected to bring significant economic development but also raises questions about grid capacity and water usage in the region."
+  },
+  {
+    "id": "madison-county-ms",
+    "name": "Madison County",
+    "fips": "28089",
+    "state": "Mississippi",
+    "stateCode": "MS",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Canton) Meta Data Center Expansion",
+        "date": "2024-01-01",
+        "status": "enacted",
+        "summary": "Meta continued expansion of its data center campus near Canton in Madison County, with additional phases receiving local approvals and state support for one of Mississippi's largest data center operations.",
+        "sourceUrl": "https://www.datacenterdynamics.com/en/news/meta-expands-data-center-campus-in-mississippi/"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "water-consumption",
+      "economic-development",
+      "tax-incentives",
+      "job-creation"
+    ],
+    "contextBlurb": "Madison County hosts Meta's large data center campus near Canton, which has been undergoing phased expansion. The facility is one of the largest in the state and has received significant state and local tax incentive support while prompting discussions about utility infrastructure demands."
+  }
+]

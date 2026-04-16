@@ -1,0 +1,52 @@
+[
+  {
+    "id": "tulsa-county-ok",
+    "name": "Tulsa County",
+    "fips": "40143",
+    "state": "Oklahoma",
+    "stateCode": "OK",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(City of Tulsa) Data center campus approved in Tulsa",
+        "date": "2024-06-01",
+        "status": "enacted",
+        "summary": "The City of Tulsa approved incentives and development agreements to attract large-scale data center campuses, leveraging Oklahoma's low energy costs and available land.",
+        "sourceUrl": "https://tulsaworld.com/news/local/government-politics/tulsa-data-center-campus/article_8a2c6e2e-1f5e-11ef-8b3a-3b6e7c5d8a1f.html"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "energy-rates",
+      "tax-incentives",
+      "economic-development",
+      "job-creation"
+    ],
+    "contextBlurb": "Tulsa has positioned itself as a tech hub with efforts to attract data center investment. The city and county have worked together on incentive packages taking advantage of Oklahoma's competitive electricity rates."
+  },
+  {
+    "id": "oklahoma-county-ok",
+    "name": "Oklahoma County",
+    "fips": "40109",
+    "state": "Oklahoma",
+    "stateCode": "OK",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(City of Oklahoma City) Meta data center expansion in Oklahoma City area",
+        "date": "2024-09-01",
+        "status": "enacted",
+        "summary": "Oklahoma City approved development plans for a major Meta data center facility, with the project receiving local and state tax incentives under Oklahoma's data center incentive framework.",
+        "sourceUrl": "https://www.oklahoman.com/story/business/2024/09/12/meta-data-center-oklahoma-city/75200123007/"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "water-consumption",
+      "tax-incentives",
+      "economic-development",
+      "energy-rates"
+    ],
+    "contextBlurb": "Oklahoma City has attracted several hyperscale data center projects, leveraging state-level tax exemptions and local development agreements. Water and energy demands from these facilities have drawn increasing attention."
+  }
+]

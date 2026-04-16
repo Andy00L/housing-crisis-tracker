@@ -1,0 +1,2596 @@
+{
+  "state": "Canada",
+  "stateCode": "CA",
+  "region": "na",
+  "stance": "concerning",
+  "stanceZoning": "review",
+  "stanceAffordability": "concerning",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Canada faces an acute housing affordability crisis. The federal government has introduced multiple housing supply and affordability bills in the 45th Parliament, including the Build Canada Homes program, CMHC-funded initiatives, and measures targeting foreign buyers and underused housing.",
+  "legislation": [
+    {
+      "id": "ca-c-12",
+      "billCode": "C-12",
+      "title": "Strengthening Canada's Immigration System and Borders Act",
+      "summary": "An Act respecting certain measures relating to the security of Canada's borders and the integrity of the Canadian immigration system and respecting other related security measures",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13632609",
+      "sponsors": [
+        "Hon. Gary Anandasangaree"
+      ]
+    },
+    {
+      "id": "ca-c-15",
+      "billCode": "C-15",
+      "title": "Budget 2025 Implementation Act, No. 1",
+      "summary": "An Act to implement certain provisions of the budget tabled in Parliament on November 4, 2025",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13740928",
+      "sponsors": [
+        "Hon. François-Philippe Champagne"
+      ]
+    },
+    {
+      "id": "ca-c-23",
+      "billCode": "C-23",
+      "title": "Appropriation Act No. 4, 2025-26",
+      "summary": "An Act for granting to His Majesty certain sums of money for the federal public administration for the fiscal year ending March 31, 2026",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13978480",
+      "sponsors": [
+        "Hon. Shafqat Ali"
+      ]
+    },
+    {
+      "id": "ca-c-24",
+      "billCode": "C-24",
+      "title": "Appropriation Act No. 1, 2026-27",
+      "summary": "An Act for granting to His Majesty certain sums of money for the federal public administration for the fiscal year ending March 31, 2027",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13978563",
+      "sponsors": [
+        "Hon. Shafqat Ali"
+      ]
+    },
+    {
+      "id": "ca-c-4",
+      "billCode": "C-4",
+      "title": "Making Life More Affordable for Canadians Act",
+      "summary": "An Act respecting certain affordability measures for Canadians and another measure",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-12",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13539746",
+      "sponsors": [
+        "Hon. François-Philippe Champagne"
+      ]
+    },
+    {
+      "id": "ca-c-19",
+      "billCode": "C-19",
+      "title": "Canada Groceries and Essentials Benefit Act",
+      "summary": "An Act to amend the Income Tax Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-12",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13859405",
+      "sponsors": [
+        "Hon. François-Philippe Champagne"
+      ]
+    },
+    {
+      "id": "ca-c-17",
+      "billCode": "C-17",
+      "title": "Appropriation Act No. 3, 2025-26",
+      "summary": "An Act for granting to His Majesty certain sums of money for the federal public administration for the fiscal year ending March 31, 2026",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-11",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13813004",
+      "sponsors": [
+        "Hon. Shafqat Ali"
+      ]
+    },
+    {
+      "id": "ca-s-1001",
+      "billCode": "S-1001",
+      "title": "An Act to authorize Gore Mutual Insurance Company to apply to be continued as a body corporate under the laws of the Province of Quebec",
+      "summary": "An Act to authorize Gore Mutual Insurance Company to apply to be continued as a body corporate under the laws of the Province of Quebec",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-11-20",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13545922",
+      "sponsors": [
+        "Sen. Tony Loffreda"
+      ]
+    },
+    {
+      "id": "ca-c-3",
+      "billCode": "C-3",
+      "title": "An Act to amend the Citizenship Act (2025)",
+      "summary": "An Act to amend the Citizenship Act (2025)",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-11-20",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13546143",
+      "sponsors": [
+        "Hon. Lena Metlege Diab"
+      ]
+    },
+    {
+      "id": "ca-c-5",
+      "billCode": "C-5",
+      "title": "One Canadian Economy Act",
+      "summary": "An Act to enact the Free Trade and Labour Mobility in Canada Act and the Building Canada Act",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-06-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13547622",
+      "sponsors": [
+        "Hon. Dominic LeBlanc"
+      ]
+    },
+    {
+      "id": "ca-c-6",
+      "billCode": "C-6",
+      "title": "Appropriation Act No. 1, 2025-26",
+      "summary": "An Act for granting to His Majesty certain sums of money for the federal public administration for the fiscal year ending March 31, 2026",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13561553",
+      "sponsors": [
+        "Hon. Shafqat Ali"
+      ]
+    },
+    {
+      "id": "ca-c-7",
+      "billCode": "C-7",
+      "title": "Appropriation Act No. 2, 2025-26",
+      "summary": "An Act for granting to His Majesty certain sums of money for the federal public administration for the fiscal year ending March 31, 2026",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13561557",
+      "sponsors": [
+        "Hon. Shafqat Ali"
+      ]
+    },
+    {
+      "id": "ca-c-202",
+      "billCode": "C-202",
+      "title": "An Act to amend the Department of Foreign Affairs, Trade and Development Act (supply management)",
+      "summary": "An Act to amend the Department of Foreign Affairs, Trade and Development Act (supply management)",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13539592",
+      "sponsors": [
+        "Yves-François Blanchet"
+      ]
+    },
+    {
+      "id": "ca-s-6",
+      "billCode": "S-6",
+      "title": "Federal Law–Civil Law Harmonization Act, No. 4",
+      "summary": "A fourth Act to harmonize federal law with the civil law of Quebec and to amend certain Acts in order to ensure that each language version takes into account the common law and the civil law",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-14",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13933855",
+      "sponsors": [
+        "Sen. Pierre Moreau"
+      ]
+    },
+    {
+      "id": "ca-s-222",
+      "billCode": "S-222",
+      "title": "Vote 16 Act",
+      "summary": "An Act to amend the Canada Elections Act and the Regulation Adapting the Canada Elections Act for the Purposes of a Referendum",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-14",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13542654",
+      "sponsors": [
+        "Sen. Marilou McPhedran"
+      ]
+    },
+    {
+      "id": "ca-c-9",
+      "billCode": "C-9",
+      "title": "Combatting Hate Act",
+      "summary": "An Act to amend the Criminal Code (hate propaganda, hate crime and access to religious or cultural places)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-14",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13590613",
+      "sponsors": [
+        "Hon. Sean Fraser"
+      ]
+    },
+    {
+      "id": "ca-c-231",
+      "billCode": "C-231",
+      "title": "An Act to amend the Youth Criminal Justice Act",
+      "summary": "An Act to amend the Youth Criminal Justice Act",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-14",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13589531",
+      "sponsors": [
+        "Luc Berthold"
+      ]
+    },
+    {
+      "id": "ca-c-22",
+      "billCode": "C-22",
+      "title": "Lawful Access Act, 2026",
+      "summary": "An Act respecting lawful access",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-13",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13957880",
+      "sponsors": [
+        "Hon. Gary Anandasangaree"
+      ]
+    },
+    {
+      "id": "ca-c-225",
+      "billCode": "C-225",
+      "title": "An Act to amend the Criminal Code",
+      "summary": "An Act to amend the Criminal Code",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-13",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13584104",
+      "sponsors": [
+        "Frank Caputo"
+      ]
+    },
+    {
+      "id": "ca-s-217",
+      "billCode": "S-217",
+      "title": "Fairness for All Canadian Taxpayers Act (measuring the tax gap to fight international tax evasion)",
+      "summary": "An Act to amend the Canada Revenue Agency Act (reporting on unpaid income tax)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541945",
+      "sponsors": [
+        "Sen. Percy E. Downe"
+      ]
+    },
+    {
+      "id": "ca-c-8",
+      "billCode": "C-8",
+      "title": "An Act respecting cyber security, amending the Telecommunications Act and making consequential amendments to other Acts",
+      "summary": "An Act respecting cyber security, amending the Telecommunications Act and making consequential amendments to other Acts",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13563649",
+      "sponsors": [
+        "Hon. Gary Anandasangaree"
+      ]
+    },
+    {
+      "id": "ca-c-25",
+      "billCode": "C-25",
+      "title": "Strong and Free Elections Act",
+      "summary": "An Act to amend the Canada Elections Act and to enact An Act to change the names of certain electoral districts, 2026",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13986893",
+      "sponsors": [
+        "Hon. Steven MacKinnon"
+      ]
+    },
+    {
+      "id": "ca-c-26",
+      "billCode": "C-26",
+      "title": "An Act to authorize certain payments to be made out of the Consolidated Revenue Fund for the purpose of improving housing supply",
+      "summary": "An Act to authorize certain payments to be made out of the Consolidated Revenue Fund for the purpose of improving housing supply",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "development-incentive",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13986875",
+      "sponsors": [
+        "Hon. François-Philippe Champagne"
+      ]
+    },
+    {
+      "id": "ca-c-27",
+      "billCode": "C-27",
+      "title": "Final Self-Government Agreement for the Tlegohli Got’ine Act",
+      "summary": "An Act to give effect to the Final Self-Government Agreement for the Tlegohli Got’ine and to make consequential amendments to other Acts",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13932352",
+      "sponsors": [
+        "Hon. Rebecca Alty"
+      ]
+    },
+    {
+      "id": "ca-s-245",
+      "billCode": "S-245",
+      "title": "National Blanket Ceremony Day Act",
+      "summary": "An Act respecting a National Blanket Ceremony Day",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-23",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13985244",
+      "sponsors": [
+        "Sen. Mary Jane McCallum"
+      ]
+    },
+    {
+      "id": "ca-c-240",
+      "billCode": "C-240",
+      "title": "Offender Rehabilitation Act",
+      "summary": "An Act to amend the Criminal Code, to make related amendments to the Corrections and Conditional Release Act and to amend the Controlled Drugs and Substances Act",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13589558",
+      "sponsors": [
+        "Kelly DeRidder"
+      ]
+    },
+    {
+      "id": "ca-c-247",
+      "billCode": "C-247",
+      "title": "An Act to amend the Canada Labour Code",
+      "summary": "An Act to amend the Canada Labour Code",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13621852",
+      "sponsors": [
+        "Leah Gazan"
+      ]
+    },
+    {
+      "id": "ca-c-255",
+      "billCode": "C-255",
+      "title": "An Act to amend the Criminal Code (mischief — religious property)",
+      "summary": "An Act to amend the Criminal Code (mischief — religious property)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13701896",
+      "sponsors": [
+        "Kelly Block"
+      ]
+    },
+    {
+      "id": "ca-c-259",
+      "billCode": "C-259",
+      "title": "Fair Representation Act",
+      "summary": "An Act to amend the Canada Labour Code (fair representation)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13854949",
+      "sponsors": [
+        "Heather McPherson"
+      ]
+    },
+    {
+      "id": "ca-c-260",
+      "billCode": "C-260",
+      "title": "Preventing Coercion of Persons Not Seeking Medical Assistance in Dying Act",
+      "summary": "An Act to amend the Criminal Code (medical assistance in dying — protection against coercion)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13870255",
+      "sponsors": [
+        "Garnett Genuis"
+      ]
+    },
+    {
+      "id": "ca-c-261",
+      "billCode": "C-261",
+      "title": "An Act to amend the Old Age Security Act (amount of full pension)",
+      "summary": "An Act to amend the Old Age Security Act (amount of full pension)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13888588",
+      "sponsors": [
+        "Claude DeBellefeuille"
+      ]
+    },
+    {
+      "id": "ca-c-263",
+      "billCode": "C-263",
+      "title": "Silver Alert National Framework Act",
+      "summary": "An Act to establish a national framework for silver alerts",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13948667",
+      "sponsors": [
+        "Raquel Dancho"
+      ]
+    },
+    {
+      "id": "ca-c-264",
+      "billCode": "C-264",
+      "title": "An Act to repeal certain restrictions on shipping",
+      "summary": "An Act to repeal certain restrictions on shipping",
+      "stage": "Floor",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13933510",
+      "sponsors": [
+        "David McKenzie"
+      ]
+    },
+    {
+      "id": "ca-c-265",
+      "billCode": "C-265",
+      "title": "An Act to amend the Food and Drugs Act (List of Therapeutic Products Pre-approved for Special Access)",
+      "summary": "An Act to amend the Food and Drugs Act (List of Therapeutic Products Pre-approved for Special Access)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13953578",
+      "sponsors": [
+        "Marcus Powlowski"
+      ]
+    },
+    {
+      "id": "ca-c-266",
+      "billCode": "C-266",
+      "title": "National Framework on Skilled Trades and Labour Mobility Act",
+      "summary": "An Act to establish a national framework respecting skilled trades and labour mobility",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13951690",
+      "sponsors": [
+        "Parm Bains"
+      ]
+    },
+    {
+      "id": "ca-c-267",
+      "billCode": "C-267",
+      "title": "National Framework on the Durability of Electronic Products and Essential Home Appliances Act",
+      "summary": "An Act to establish a national framework to promote the durability of electronic products and essential home appliances",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13954018",
+      "sponsors": [
+        "Abdelhaq Sari"
+      ]
+    },
+    {
+      "id": "ca-c-268",
+      "billCode": "C-268",
+      "title": "Spectrum Policy Framework for Canada Act",
+      "summary": "An Act respecting the Spectrum Policy Framework for Canada",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13951565",
+      "sponsors": [
+        "Marianne Dandurand"
+      ]
+    },
+    {
+      "id": "ca-c-269",
+      "billCode": "C-269",
+      "title": "An Act to amend the Income Tax Act (heat recovery tax credit)",
+      "summary": "An Act to amend the Income Tax Act (heat recovery tax credit)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13956772",
+      "sponsors": [
+        "Greg McLean"
+      ]
+    },
+    {
+      "id": "ca-c-270",
+      "billCode": "C-270",
+      "title": "Stand on Guard Act",
+      "summary": "An Act to amend the Criminal Code (defence of person)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13954296",
+      "sponsors": [
+        "Sandra Cobena"
+      ]
+    },
+    {
+      "id": "ca-s-3",
+      "billCode": "S-3",
+      "title": "An Act to amend the Weights and Measures Act, the Electricity and Gas Inspection Act, the Weights and Measures Regulations and the Electricity and Gas Inspection Regulations",
+      "summary": "An Act to amend the Weights and Measures Act, the Electricity and Gas Inspection Act, the Weights and Measures Regulations and the Electricity and Gas Inspection Regulations",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-12",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13698308",
+      "sponsors": [
+        "Sen. Pierre Moreau"
+      ]
+    },
+    {
+      "id": "ca-s-212",
+      "billCode": "S-212",
+      "title": "National Strategy for Children and Youth Act",
+      "summary": "An Act respecting a national strategy for children and youth in Canada",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-12",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13540330",
+      "sponsors": [
+        "Sen. Rosemary Moodie"
+      ]
+    },
+    {
+      "id": "ca-s-202",
+      "billCode": "S-202",
+      "title": "An Act to amend the Food and Drugs Act (warning label on alcoholic beverages)",
+      "summary": "An Act to amend the Food and Drugs Act (warning label on alcoholic beverages)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-10",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13540359",
+      "sponsors": [
+        "Sen. Patrick Brazeau"
+      ]
+    },
+    {
+      "id": "ca-s-226",
+      "billCode": "S-226",
+      "title": "Jury Duty Appreciation Week Act",
+      "summary": "An Act respecting Jury Duty Appreciation Week",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-10",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13548190",
+      "sponsors": [
+        "Sen. Lucie Moncion"
+      ]
+    },
+    {
+      "id": "ca-c-232",
+      "billCode": "C-232",
+      "title": "An Act to amend the Corrections and Conditional Release Act (maximum security offenders)",
+      "summary": "An Act to amend the Corrections and Conditional Release Act (maximum security offenders)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-10",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13585516",
+      "sponsors": [
+        "Tony Baldinelli"
+      ]
+    },
+    {
+      "id": "ca-s-211",
+      "billCode": "S-211",
+      "title": "National Framework on Sports Betting Advertising Act",
+      "summary": "An Act respecting a national framework on sports betting advertising",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-12",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541972",
+      "sponsors": [
+        "Sen. Marty Deacon"
+      ]
+    },
+    {
+      "id": "ca-s-232",
+      "billCode": "S-232",
+      "title": "Can’t Buy Silence Act",
+      "summary": "An Act respecting non-disclosure agreements",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-12",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13559594",
+      "sponsors": [
+        "Sen. Marilou McPhedran"
+      ]
+    },
+    {
+      "id": "ca-c-21",
+      "billCode": "C-21",
+      "title": "Red River Métis Self-Government Recognition and Implementation Treaty Act",
+      "summary": "An Act to give effect to the Red River Métis Self-Government Recognition and Implementation Treaty and to make consequential amendments to other Acts",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-12",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13865078",
+      "sponsors": [
+        "Hon. Rebecca Alty"
+      ]
+    },
+    {
+      "id": "ca-s-218",
+      "billCode": "S-218",
+      "title": "An Act to amend the Constitution Act, 1982 (notwithstanding clause)",
+      "summary": "An Act to amend the Constitution Act, 1982 (notwithstanding clause)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-10",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541955",
+      "sponsors": [
+        "Sen. Peter Harder"
+      ]
+    },
+    {
+      "id": "ca-s-238",
+      "billCode": "S-238",
+      "title": "Enacting Climate Commitments Act",
+      "summary": "An Act to enact the Climate-Aligned Finance Act and to make related amendments to other Acts",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-10",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13702272",
+      "sponsors": [
+        "Sen. Rosa Galvez"
+      ]
+    },
+    {
+      "id": "ca-s-203",
+      "billCode": "S-203",
+      "title": "Alcoholic Beverage Promotion Prohibition Act",
+      "summary": "An Act to prohibit the promotion of alcoholic beverages",
+      "stage": "Floor",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-05",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541848",
+      "sponsors": [
+        "Sen. Patrick Brazeau"
+      ]
+    },
+    {
+      "id": "ca-s-208",
+      "billCode": "S-208",
+      "title": "An Act to amend the Criminal Code (independence of the judiciary)",
+      "summary": "An Act to amend the Criminal Code (independence of the judiciary)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-05",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541944",
+      "sponsors": [
+        "Sen. Kim Pate"
+      ]
+    },
+    {
+      "id": "ca-s-233",
+      "billCode": "S-233",
+      "title": "An Act to amend the Criminal Code (assault against persons who provide health services and first responders)",
+      "summary": "An Act to amend the Criminal Code (assault against persons who provide health services and first responders)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-04",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13602805",
+      "sponsors": [
+        "Sen. Leo Housakos"
+      ]
+    },
+    {
+      "id": "ca-c-226",
+      "billCode": "C-226",
+      "title": "National Framework for Food Price Transparency Act",
+      "summary": "An Act to establish a national framework to improve food price transparency",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-01-27",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13583158",
+      "sponsors": [
+        "Gurbux Saini"
+      ]
+    },
+    {
+      "id": "ca-s-201",
+      "billCode": "S-201",
+      "title": "National Framework on Sickle Cell Disease Act",
+      "summary": "An Act respecting a national framework on sickle cell disease",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-11",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13540346",
+      "sponsors": [
+        "Sen. Marie-Françoise Mégie"
+      ]
+    },
+    {
+      "id": "ca-s-244",
+      "billCode": "S-244",
+      "title": "National Diffuse Intrinsic Pontine Glioma Awareness Day Act",
+      "summary": "An Act respecting National Diffuse Intrinsic Pontine Glioma Awareness Day",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-09",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13827943",
+      "sponsors": [
+        "Sen. Yonah Martin"
+      ]
+    },
+    {
+      "id": "ca-c-218",
+      "billCode": "C-218",
+      "title": "An Act to amend the Criminal Code (medical assistance in dying)",
+      "summary": "An Act to amend the Criminal Code (medical assistance in dying)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-05",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13568723",
+      "sponsors": [
+        "Tamara Jansen"
+      ]
+    },
+    {
+      "id": "ca-s-239",
+      "billCode": "S-239",
+      "title": "Canadian Prosperity Act",
+      "summary": "An Act to amend the Competition Act",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-11-25",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13707662",
+      "sponsors": [
+        "Sen. Martin Klyne"
+      ]
+    },
+    {
+      "id": "ca-s-219",
+      "billCode": "S-219",
+      "title": "Judicial Independence Day Act",
+      "summary": "An Act to establish Judicial Independence Day",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-11-04",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541971",
+      "sponsors": [
+        "Sen. Pierre Moreau"
+      ]
+    },
+    {
+      "id": "ca-s-240",
+      "billCode": "S-240",
+      "title": "An Act to amend the Criminal Code (declaration of exception pursuant to subsection 33(1) of the Charter for mandatory minimum sentences for child sexual abuse and exploitation material offences)",
+      "summary": "An Act to amend the Criminal Code (declaration of exception pursuant to subsection 33(1) of the Charter for mandatory minimum sentences for child sexual abuse and exploitation material offences)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-11-04",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13726738",
+      "sponsors": [
+        "Sen. Leo Housakos"
+      ]
+    },
+    {
+      "id": "ca-c-238",
+      "billCode": "C-238",
+      "title": "An Act to amend the Criminal Code (restitution orders)",
+      "summary": "An Act to amend the Criminal Code (restitution orders)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-11-03",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13590474",
+      "sponsors": [
+        "Viviane Lapointe"
+      ]
+    },
+    {
+      "id": "ca-s-213",
+      "billCode": "S-213",
+      "title": "An Act to amend the Canada Elections Act (demographic information)",
+      "summary": "An Act to amend the Canada Elections Act (demographic information)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-10-30",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13540351",
+      "sponsors": [
+        "Sen. Donna Dasko"
+      ]
+    },
+    {
+      "id": "ca-c-239",
+      "billCode": "C-239",
+      "title": "An Act to amend the Canada Health Act (accountability)",
+      "summary": "An Act to amend the Canada Health Act (accountability)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-10-30",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13583805",
+      "sponsors": [
+        "Sukh Dhaliwal"
+      ]
+    },
+    {
+      "id": "ca-s-231",
+      "billCode": "S-231",
+      "title": "An Act to amend the Criminal Code (medical assistance in dying)",
+      "summary": "An Act to amend the Criminal Code (medical assistance in dying)",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-10-29",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13559562",
+      "sponsors": [
+        "Sen. Pamela Wallin"
+      ]
+    },
+    {
+      "id": "ca-s-207",
+      "billCode": "S-207",
+      "title": "An Act to amend the Criminal Records Act, to make consequential amendments to other Acts and to repeal a regulation",
+      "summary": "An Act to amend the Criminal Records Act, to make consequential amendments to other Acts and to repeal a regulation",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-10-02",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541931",
+      "sponsors": [
+        "Sen. Kim Pate"
+      ]
+    },
+    {
+      "id": "ca-s-236",
+      "billCode": "S-236",
+      "title": "An Act to amend the Canadian Victims Bill of Rights and to establish a framework for implementing the rights of victims of crime",
+      "summary": "An Act to amend the Canadian Victims Bill of Rights and to establish a framework for implementing the rights of victims of crime",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-09-30",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13619775",
+      "sponsors": [
+        "Sen. Leo Housakos"
+      ]
+    },
+    {
+      "id": "ca-s-235",
+      "billCode": "S-235",
+      "title": "National Strategy to Combat Human Trafficking Act",
+      "summary": "An Act respecting the National Strategy to Combat Human Trafficking",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-09-24",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13611963",
+      "sponsors": [
+        "Sen. Salma Ataullahjan"
+      ]
+    },
+    {
+      "id": "ca-c-2",
+      "billCode": "C-2",
+      "title": "Strong Borders Act",
+      "summary": "An Act respecting certain measures relating to the security of the border between Canada and the United States and respecting other related security measures",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-09-17",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13543613",
+      "sponsors": [
+        "Hon. Gary Anandasangaree"
+      ]
+    },
+    {
+      "id": "ca-s-224",
+      "billCode": "S-224",
+      "title": "An Act to amend the Director of Public Prosecutions Act",
+      "summary": "An Act to amend the Director of Public Prosecutions Act",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13545940",
+      "sponsors": [
+        "Sen. Mary Jane McCallum"
+      ]
+    },
+    {
+      "id": "ca-s-223",
+      "billCode": "S-223",
+      "title": "An Act to amend the Royal Canadian Mounted Police Act",
+      "summary": "An Act to amend the Royal Canadian Mounted Police Act",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-18",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13545905",
+      "sponsors": [
+        "Sen. Mary Jane McCallum"
+      ]
+    },
+    {
+      "id": "ca-s-229",
+      "billCode": "S-229",
+      "title": "Gatineau Park Act",
+      "summary": "An Act to amend the National Capital Act (Gatineau Park)",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-15",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13554320",
+      "sponsors": [
+        "Sen. Rosa Galvez"
+      ]
+    },
+    {
+      "id": "ca-c-18",
+      "billCode": "C-18",
+      "title": "Canada-Indonesia Comprehensive Economic Partnership Agreement Implementation Act",
+      "summary": "An Act to implement the Comprehensive Economic Partnership Agreement between Canada and Indonesia",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-15",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13824752",
+      "sponsors": [
+        "Hon. Maninder Sidhu"
+      ]
+    },
+    {
+      "id": "ca-s-210",
+      "billCode": "S-210",
+      "title": "Ukrainian Heritage Month Act",
+      "summary": "An Act respecting Ukrainian Heritage Month",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-14",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541964",
+      "sponsors": [
+        "Sen. Stanley Kutcher"
+      ]
+    },
+    {
+      "id": "ca-s-227",
+      "billCode": "S-227",
+      "title": "Arab Heritage Month Act",
+      "summary": "An Act respecting Arab Heritage Month",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-14",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13548201",
+      "sponsors": [
+        "Sen. Mohammad Khair Al Zaibak"
+      ]
+    },
+    {
+      "id": "ca-c-230",
+      "billCode": "C-230",
+      "title": "An Act to amend the Financial Administration Act and to make consequential amendments to other Acts (debt forgiveness registry)",
+      "summary": "An Act to amend the Financial Administration Act and to make consequential amendments to other Acts (debt forgiveness registry)",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-13",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13590170",
+      "sponsors": [
+        "Adam Chambers"
+      ]
+    },
+    {
+      "id": "ca-s-5",
+      "billCode": "S-5",
+      "title": "Connected Care for Canadians Act",
+      "summary": "An Act respecting the interoperability of health information technology and to prohibit data blocking by health information technology vendors",
+      "stage": "Committee",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13881240",
+      "sponsors": [
+        "Sen. Pierre Moreau"
+      ]
+    },
+    {
+      "id": "ca-s-205",
+      "billCode": "S-205",
+      "title": "Providing Alternatives to Isolation and Ensuring Oversight and Remedies in the Correctional System Act (Tona’s Law)",
+      "summary": "An Act to amend the Corrections and Conditional Release Act",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541884",
+      "sponsors": [
+        "Sen. Kim Pate"
+      ]
+    },
+    {
+      "id": "ca-s-214",
+      "billCode": "S-214",
+      "title": "An Act to amend the Special Economic Measures Act (disposal of foreign state assets)",
+      "summary": "An Act to amend the Special Economic Measures Act (disposal of foreign state assets)",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541851",
+      "sponsors": [
+        "Sen. Donna Dasko"
+      ]
+    },
+    {
+      "id": "ca-s-243",
+      "billCode": "S-243",
+      "title": "National Framework for Women’s Health in Canada Act",
+      "summary": "An Act to establish a national framework for women’s health in Canada",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13822755",
+      "sponsors": [
+        "Sen. Danièle Henkel"
+      ]
+    },
+    {
+      "id": "ca-c-13",
+      "billCode": "C-13",
+      "title": "An Act to implement the Protocol on the Accession of the United Kingdom of Great Britain and Northern Ireland to the Comprehensive and Progressive Agreement for Trans-Pacific Partnership",
+      "summary": "An Act to implement the Protocol on the Accession of the United Kingdom of Great Britain and Northern Ireland to the Comprehensive and Progressive Agreement for Trans-Pacific Partnership",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13669451",
+      "sponsors": [
+        "Hon. Maninder Sidhu"
+      ]
+    },
+    {
+      "id": "ca-c-236",
+      "billCode": "C-236",
+      "title": "Addressing the Continuing Victimization of Homicide Victims' Families Act",
+      "summary": "An Act to amend the Criminal Code, the Corrections and Conditional Release Act and the Prisons and Reformatories Act",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13587241",
+      "sponsors": [
+        "Dane Lloyd"
+      ]
+    },
+    {
+      "id": "ca-c-234",
+      "billCode": "C-234",
+      "title": "Living Donor Recognition Medal Act",
+      "summary": "An Act respecting the establishment and award of a Living Donor Recognition Medal",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-25",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13583696",
+      "sponsors": [
+        "Ziad Aboultaif"
+      ]
+    },
+    {
+      "id": "ca-c-235",
+      "billCode": "C-235",
+      "title": "Respecting Families of Murdered and Brutalized Persons Act",
+      "summary": "An Act to amend the Criminal Code (increasing parole ineligibility)",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-24",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13588449",
+      "sponsors": [
+        "Jeff Kibble"
+      ]
+    },
+    {
+      "id": "ca-c-10",
+      "billCode": "C-10",
+      "title": "Commissioner for Modern Treaty Implementation Act",
+      "summary": "An Act respecting the Commissioner for Modern Treaty Implementation",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-23",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13605049",
+      "sponsors": [
+        "Hon. Rebecca Alty"
+      ]
+    },
+    {
+      "id": "ca-c-20",
+      "billCode": "C-20",
+      "title": "Build Canada Homes Act",
+      "summary": "An Act respecting the establishment of Build Canada Homes",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "development-incentive",
+      "updatedDate": "2026-03-13",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13878167",
+      "sponsors": [
+        "Hon. Gregor Robertson"
+      ]
+    },
+    {
+      "id": "ca-s-241",
+      "billCode": "S-241",
+      "title": "An Act to amend the Criminal Code and the Indian Act",
+      "summary": "An Act to amend the Criminal Code and the Indian Act",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-12",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13760362",
+      "sponsors": [
+        "Sen. Scott Tannas"
+      ]
+    },
+    {
+      "id": "ca-c-14",
+      "billCode": "C-14",
+      "title": "Bail and Sentencing Reform Act",
+      "summary": "An Act to amend the Criminal Code, the Youth Criminal Justice Act and the National Defence Act (bail and sentencing)",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-12",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13679516",
+      "sponsors": [
+        "Hon. Sean Fraser"
+      ]
+    },
+    {
+      "id": "ca-s-4",
+      "billCode": "S-4",
+      "title": "An Act to amend the Energy Efficiency Act",
+      "summary": "An Act to amend the Energy Efficiency Act",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-11",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13779589",
+      "sponsors": [
+        "Sen. Pierre Moreau"
+      ]
+    },
+    {
+      "id": "ca-c-224",
+      "billCode": "C-224",
+      "title": "An Act to amend the Food and Drugs Act (natural health products)",
+      "summary": "An Act to amend the Food and Drugs Act (natural health products)",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-10",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13585232",
+      "sponsors": [
+        "Blaine Calkins"
+      ]
+    },
+    {
+      "id": "ca-s-2",
+      "billCode": "S-2",
+      "title": "An Act to amend the Indian Act (new registration entitlements)",
+      "summary": "An Act to amend the Indian Act (new registration entitlements)",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-27",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13542628",
+      "sponsors": [
+        "Sen. Marc Gold"
+      ]
+    },
+    {
+      "id": "ca-c-221",
+      "billCode": "C-221",
+      "title": "An Act to amend the Corrections and Conditional Release Act (disclosure of information to victims)",
+      "summary": "An Act to amend the Corrections and Conditional Release Act (disclosure of information to victims)",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-27",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13585237",
+      "sponsors": [
+        "Mel Arnold"
+      ]
+    },
+    {
+      "id": "ca-s-228",
+      "billCode": "S-228",
+      "title": "An Act to amend the Criminal Code (sterilization procedures)",
+      "summary": "An Act to amend the Criminal Code (sterilization procedures)",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13548203",
+      "sponsors": [
+        "Sen. Yvonne Boyer"
+      ]
+    },
+    {
+      "id": "ca-c-244",
+      "billCode": "C-244",
+      "title": "Clean Coasts Act",
+      "summary": "An Act to amend the Canadian Environmental Protection Act, 1999 and the Wrecked, Abandoned or Hazardous Vessels Act",
+      "stage": "Committee",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-25",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13596532",
+      "sponsors": [
+        "Patrick Weiler"
+      ]
+    },
+    {
+      "id": "ca-s-225",
+      "billCode": "S-225",
+      "title": "National Thanadelthur Day Act",
+      "summary": "An Act to establish National Thanadelthur Day",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-24",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13545907",
+      "sponsors": [
+        "Sen. Mary Jane McCallum"
+      ]
+    },
+    {
+      "id": "ca-c-219",
+      "billCode": "C-219",
+      "title": "Sergei Magnitsky International Anti-Corruption and Human Rights Act",
+      "summary": "An Act to amend the Department of Foreign Affairs, Trade and Development Act, the Justice for Victims of Corrupt Foreign Officials Act (Sergei Magnitsky Law), the Special Economic Measures Act and the Broadcasting Act",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-24",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13583642",
+      "sponsors": [
+        "James Bezan"
+      ]
+    },
+    {
+      "id": "ca-s-237",
+      "billCode": "S-237",
+      "title": "Cities and Municipalities Day Act",
+      "summary": "An Act respecting a Cities and Municipalities Day",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-12",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13623903",
+      "sponsors": [
+        "Sen. Éric Forest"
+      ]
+    },
+    {
+      "id": "ca-c-227",
+      "billCode": "C-227",
+      "title": "National Strategy on Housing for Young Canadians Act",
+      "summary": "An Act to establish a national strategy on housing for young Canadians",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-12",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13587256",
+      "sponsors": [
+        "Braedon Clark"
+      ]
+    },
+    {
+      "id": "ca-s-216",
+      "billCode": "S-216",
+      "title": "Chignecto Isthmus Dykeland System Act",
+      "summary": "An Act to declare the Chignecto Isthmus Dykeland System and related works to be for the general advantage of Canada",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-10",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541901",
+      "sponsors": [
+        "Sen. Jim Quinn"
+      ]
+    },
+    {
+      "id": "ca-c-11",
+      "billCode": "C-11",
+      "title": "Military Justice System Modernization Act",
+      "summary": "An Act to amend the National Defence Act and other Acts",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-09",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13608745",
+      "sponsors": [
+        "Hon. David J. McGuinty"
+      ]
+    },
+    {
+      "id": "ca-c-222",
+      "billCode": "C-222",
+      "title": "Relieving Grieving Parents of an Administrative Burden Act (Evan's Law)",
+      "summary": "An Act to amend the Employment Insurance Act and the Canada Labour Code (death of a child)",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-04",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13586188",
+      "sponsors": [
+        "Hon. Terry Beech"
+      ]
+    },
+    {
+      "id": "ca-c-223",
+      "billCode": "C-223",
+      "title": "Keeping Children Safe Act",
+      "summary": "An Act to amend the Divorce Act",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-04",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13586181",
+      "sponsors": [
+        "Lisa Hepfner"
+      ]
+    },
+    {
+      "id": "ca-c-16",
+      "billCode": "C-16",
+      "title": "Protecting Victims Act",
+      "summary": "An Act to amend certain Acts in relation to criminal and correctional matters (child protection, gender-based violence, delays and other measures)",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-02",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13813664",
+      "sponsors": [
+        "Hon. Sean Fraser"
+      ]
+    },
+    {
+      "id": "ca-s-204",
+      "billCode": "S-204",
+      "title": "National Framework on Heart Failure Act",
+      "summary": "An Act to establish a national framework on heart failure",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-09",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541857",
+      "sponsors": [
+        "Sen. Yonah Martin"
+      ]
+    },
+    {
+      "id": "ca-c-241",
+      "billCode": "C-241",
+      "title": "National Strategy on Flood and Drought Forecasting Act",
+      "summary": "An Act to establish a national strategy respecting flood and drought forecasting",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-03",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13592619",
+      "sponsors": [
+        "Tatiana Auguste"
+      ]
+    },
+    {
+      "id": "ca-s-220",
+      "billCode": "S-220",
+      "title": "Hellenic Heritage Month Act",
+      "summary": "An Act to designate the month of March as Hellenic Heritage Month",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-11-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541987",
+      "sponsors": [
+        "Sen. Tony Loffreda"
+      ]
+    },
+    {
+      "id": "ca-s-234",
+      "billCode": "S-234",
+      "title": "National Framework on Fetal Alcohol Spectrum Disorder Act",
+      "summary": "An Act respecting a national framework for fetal alcohol spectrum disorder",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-11-25",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13602863",
+      "sponsors": [
+        "Sen. Mohamed-Iqbal Ravalia"
+      ]
+    },
+    {
+      "id": "ca-s-206",
+      "billCode": "S-206",
+      "title": "National Framework for a Guaranteed Livable Basic Income Act",
+      "summary": "An Act to develop a national framework for a guaranteed livable basic income",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-11-06",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541900",
+      "sponsors": [
+        "Sen. Kim Pate"
+      ]
+    },
+    {
+      "id": "ca-s-221",
+      "billCode": "S-221",
+      "title": "National Bird of Canada Act",
+      "summary": "An Act to provide for the recognition of the Canada jay as the national bird of Canada",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541991",
+      "sponsors": [
+        "Sen. Salma Ataullahjan"
+      ]
+    },
+    {
+      "id": "ca-s-215",
+      "billCode": "S-215",
+      "title": "National Immigration Month Act",
+      "summary": "An Act respecting National Immigration Month",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-18",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541873",
+      "sponsors": [
+        "Sen. Amina Gerba"
+      ]
+    },
+    {
+      "id": "ca-s-209",
+      "billCode": "S-209",
+      "title": "Protecting Young Persons from Exposure to Pornography Act",
+      "summary": "An Act to restrict young persons’ online access to pornographic material",
+      "stage": "Filed",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-15",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13541954",
+      "sponsors": [
+        "Sen. Julie Miville-Dechêne"
+      ]
+    },
+    {
+      "id": "ca-c-273",
+      "billCode": "C-273",
+      "title": "Facilitating Agricultural Regulatory Modernization Act",
+      "summary": "An Act to amend the Feeds Act, the Fertilizers Act, the Seeds Act, the Pest Control Products Act and the Food and Drugs Act",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-14",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/14006658",
+      "sponsors": [
+        "David Bexte"
+      ]
+    },
+    {
+      "id": "ca-s-230",
+      "billCode": "S-230",
+      "title": "National Strategy for Soil Health Act",
+      "summary": "An Act respecting the development of a national strategy for soil health protection, conservation and enhancement",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13554334",
+      "sponsors": [
+        "Sen. Robert Black"
+      ]
+    },
+    {
+      "id": "ca-c-272",
+      "billCode": "C-272",
+      "title": "An Act to amend the Controlled Drugs and Substances Act (supervised drug consumption sites)",
+      "summary": "An Act to amend the Controlled Drugs and Substances Act (supervised drug consumption sites)",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13983245",
+      "sponsors": [
+        "Dan Mazier"
+      ]
+    },
+    {
+      "id": "ca-c-271",
+      "billCode": "C-271",
+      "title": "Protecting Canada's Essential Infrastructure Metals Act",
+      "summary": "An Act to amend the Criminal Code (scrap metal trafficking and essential infrastructure protection)",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "transit-oriented"
+      ],
+      "category": "transit-housing",
+      "updatedDate": "2026-03-13",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13960784",
+      "sponsors": [
+        "Connie Cody"
+      ]
+    },
+    {
+      "id": "ca-c-262",
+      "billCode": "C-262",
+      "title": "An Act to amend the Canada Post Corporation Act",
+      "summary": "An Act to amend the Canada Post Corporation Act",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-09",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13922919",
+      "sponsors": [
+        "Dan Albas"
+      ]
+    },
+    {
+      "id": "ca-s-242",
+      "billCode": "S-242",
+      "title": "Georgina’s Law",
+      "summary": "An Act respecting national action for the prevention of intimate partner violence",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-24",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13797949",
+      "sponsors": [
+        "Sen. Fabian Manning"
+      ]
+    },
+    {
+      "id": "ca-c-258",
+      "billCode": "C-258",
+      "title": "An Act to amend the Criminal Code to address the Supreme Court of Canada decision in R. v. Jordan",
+      "summary": "An Act to amend the Criminal Code to address the Supreme Court of Canada decision in R. v. Jordan",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-03",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13794076",
+      "sponsors": [
+        "Rhéal Éloi Fortin"
+      ]
+    },
+    {
+      "id": "ca-c-257",
+      "billCode": "C-257",
+      "title": "An Act to amend the Criminal Code (promotion of terrorist activity or group)",
+      "summary": "An Act to amend the Criminal Code (promotion of terrorist activity or group)",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-11-17",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13731554",
+      "sponsors": [
+        "Roman Baber"
+      ]
+    },
+    {
+      "id": "ca-c-256",
+      "billCode": "C-256",
+      "title": "An Act to amend certain Acts in relation to survivor pension benefits",
+      "summary": "An Act to amend certain Acts in relation to survivor pension benefits",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-11-07",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13727227",
+      "sponsors": [
+        "Gord Johns"
+      ]
+    },
+    {
+      "id": "ca-c-254",
+      "billCode": "C-254",
+      "title": "An Act to amend the Criminal Code (promotion of hatred against Indigenous peoples)",
+      "summary": "An Act to amend the Criminal Code (promotion of hatred against Indigenous peoples)",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "indigenous-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-10-31",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13703329",
+      "sponsors": [
+        "Leah Gazan"
+      ]
+    },
+    {
+      "id": "ca-c-253",
+      "billCode": "C-253",
+      "title": "National Framework for a Guaranteed Livable Basic Income Act",
+      "summary": "An Act to develop a national framework for a guaranteed livable basic income",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-10-29",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13603482",
+      "sponsors": [
+        "Lori Idlout"
+      ]
+    },
+    {
+      "id": "ca-c-252",
+      "billCode": "C-252",
+      "title": "Peacetime Service and Sacrifice Memorial Day Act",
+      "summary": "An Act respecting a national day of remembrance to honour Canadian Armed Forces members who have lost their lives in peacetime in Canada",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-10-22",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13668620",
+      "sponsors": [
+        "Gord Johns"
+      ]
+    },
+    {
+      "id": "ca-c-249",
+      "billCode": "C-249",
+      "title": "An Act to amend the Employment Insurance Act (combined weeks of benefits rule and certain benefits)",
+      "summary": "An Act to amend the Employment Insurance Act (combined weeks of benefits rule and certain benefits)",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-10-21",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13597539",
+      "sponsors": [
+        "Alexandre Boulerice"
+      ]
+    },
+    {
+      "id": "ca-c-250",
+      "billCode": "C-250",
+      "title": "Flight Attendants’ Remuneration Act",
+      "summary": "An Act to amend the Canada Labour Code (flight attendants)",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-10-21",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13632066",
+      "sponsors": [
+        "Don Davies"
+      ]
+    },
+    {
+      "id": "ca-c-251",
+      "billCode": "C-251",
+      "title": "An Act to amend the Customs Act and the Customs Tariff (forced labour and child labour)",
+      "summary": "An Act to amend the Customs Act and the Customs Tariff (forced labour and child labour)",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-10-21",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13569694",
+      "sponsors": [
+        "Simon-Pierre Savard-Tremblay"
+      ]
+    },
+    {
+      "id": "ca-c-248",
+      "billCode": "C-248",
+      "title": "Time Change Act",
+      "summary": "An Act respecting the holding of a pan-Canadian conference on time change",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-10-06",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13628491",
+      "sponsors": [
+        "Marie-France Lalonde"
+      ]
+    },
+    {
+      "id": "ca-c-229",
+      "billCode": "C-229",
+      "title": "National Framework on Attention Deficit Hyperactivity Disorder Act",
+      "summary": "An Act to establish a national framework respecting attention deficit hyperactivity disorder",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-09-18",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13545225",
+      "sponsors": [
+        "Heather McPherson"
+      ]
+    },
+    {
+      "id": "ca-c-216",
+      "billCode": "C-216",
+      "title": "Promotion of Safety in the Digital Age Act",
+      "summary": "An Act to enact the Protection of Minors in the Digital Age Act and to amend two Acts",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13565288",
+      "sponsors": [
+        "Hon. Michelle Rempel Garner"
+      ]
+    },
+    {
+      "id": "ca-c-217",
+      "billCode": "C-217",
+      "title": "Post-Secondary Education Financial Assistance for Persons with Disabilities Act",
+      "summary": "An Act to amend the Canada Student Financial Assistance Act and the Income Tax Act",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-19",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13564930",
+      "sponsors": [
+        "Don Davies"
+      ]
+    },
+    {
+      "id": "ca-c-212",
+      "billCode": "C-212",
+      "title": "Department of Citizenship and Immigration Ombud Act",
+      "summary": "An Act to establish the Office of the Ombud for the Department of Citizenship and Immigration and to make related and consequential amendments to other Acts",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-18",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13551707",
+      "sponsors": [
+        "Jenny Kwan"
+      ]
+    },
+    {
+      "id": "ca-c-213",
+      "billCode": "C-213",
+      "title": "An Act to amend the Immigration and Refugee Protection Act (cessation of refugee protection)",
+      "summary": "An Act to amend the Immigration and Refugee Protection Act (cessation of refugee protection)",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-18",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13551324",
+      "sponsors": [
+        "Jenny Kwan"
+      ]
+    },
+    {
+      "id": "ca-c-214",
+      "billCode": "C-214",
+      "title": "National Renewable Energy Stategy Act",
+      "summary": "An Act respecting the development of a national renewable energy strategy",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-18",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13561665",
+      "sponsors": [
+        "Don Davies"
+      ]
+    },
+    {
+      "id": "ca-c-215",
+      "billCode": "C-215",
+      "title": "An Act to amend the Marine Liability Act (national strategy respecting pollution caused by shipping container spills)",
+      "summary": "An Act to amend the Marine Liability Act (national strategy respecting pollution caused by shipping container spills)",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-18",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13562824",
+      "sponsors": [
+        "Gord Johns"
+      ]
+    },
+    {
+      "id": "ca-c-211",
+      "billCode": "C-211",
+      "title": "An Act to amend the Income Tax Act and the Canada Pension Plan (deeming provision)",
+      "summary": "An Act to amend the Income Tax Act and the Canada Pension Plan (deeming provision)",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-17",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13551940",
+      "sponsors": [
+        "Gord Johns"
+      ]
+    },
+    {
+      "id": "ca-c-210",
+      "billCode": "C-210",
+      "title": "An Act to amend the Constitution Act, 1867 (oath of office)",
+      "summary": "An Act to amend the Constitution Act, 1867 (oath of office)",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-16",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13544328",
+      "sponsors": [
+        "Xavier Barsalou-Duval"
+      ]
+    },
+    {
+      "id": "ca-c-209",
+      "billCode": "C-209",
+      "title": "Albanian Heritage Month Act",
+      "summary": "An Act to establish Albanian Heritage Month",
+      "stage": "Filed",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-12",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13554119",
+      "sponsors": [
+        "Yvan Baker"
+      ]
+    },
+    {
+      "id": "ca-c-208",
+      "billCode": "C-208",
+      "title": "National Livestock Brand of Canada Act",
+      "summary": "An Act to recognize a national livestock brand as a symbol of Canada and of western and frontier heritage",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-11",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13551147",
+      "sponsors": [
+        "Steven Bonk"
+      ]
+    },
+    {
+      "id": "ca-c-205",
+      "billCode": "C-205",
+      "title": "An Act to amend the National Housing Strategy Act",
+      "summary": "An Act to amend the National Housing Strategy Act",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-10",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13550483",
+      "sponsors": [
+        "Jenny Kwan"
+      ]
+    },
+    {
+      "id": "ca-c-206",
+      "billCode": "C-206",
+      "title": "National Strategy on Brain Injuries Act",
+      "summary": "An Act to establish a national strategy on brain injuries",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-10",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13546896",
+      "sponsors": [
+        "Gord Johns"
+      ]
+    },
+    {
+      "id": "ca-c-207",
+      "billCode": "C-207",
+      "title": "An Act to amend the Canada Pension Plan",
+      "summary": "An Act to amend the Canada Pension Plan",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-10",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13540152",
+      "sponsors": [
+        "Heather McPherson"
+      ]
+    },
+    {
+      "id": "ca-c-203",
+      "billCode": "C-203",
+      "title": "Ukrainian Heritage Month Act",
+      "summary": "An Act respecting Ukrainian Heritage Month",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-04",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13543368",
+      "sponsors": [
+        "Yvan Baker"
+      ]
+    },
+    {
+      "id": "ca-c-204",
+      "billCode": "C-204",
+      "title": "An Act to amend the Income Tax Act (volunteer firefighting and search and rescue volunteer tax credit)",
+      "summary": "An Act to amend the Income Tax Act (volunteer firefighting and search and rescue volunteer tax credit)",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-04",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13538631",
+      "sponsors": [
+        "Gord Johns"
+      ]
+    },
+    {
+      "id": "ca-c-201",
+      "billCode": "C-201",
+      "title": "An Act to amend the Canada Health Act (mental, addictions and substance use health services)",
+      "summary": "An Act to amend the Canada Health Act (mental, addictions and substance use health services)",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-05-29",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13538627",
+      "sponsors": [
+        "Gord Johns"
+      ]
+    },
+    {
+      "id": "ca-c-1",
+      "billCode": "C-1",
+      "title": "An Act respecting the administration of oaths of office",
+      "summary": "An Act respecting the administration of oaths of office",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-05-27",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13539341",
+      "sponsors": [
+        "Right Hon. Mark Carney"
+      ]
+    },
+    {
+      "id": "ca-s-1",
+      "billCode": "S-1",
+      "title": "An Act relating to railways",
+      "summary": "An Act relating to railways",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-05-26",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13539458",
+      "sponsors": [
+        "Sen. Judith Seidman"
+      ]
+    },
+    {
+      "id": "ca-c-220",
+      "billCode": "C-220",
+      "title": "An Act to amend the Criminal Code (immigration status in sentencing)",
+      "summary": "An Act to amend the Criminal Code (immigration status in sentencing)",
+      "stage": "Dead",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-25",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13583780",
+      "sponsors": [
+        "Hon. Michelle Rempel Garner"
+      ]
+    },
+    {
+      "id": "ca-c-242",
+      "billCode": "C-242",
+      "title": "Jail Not Bail Act",
+      "summary": "An Act to amend the Criminal Code and the Department of Justice Act",
+      "stage": "Dead",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-25",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13591943",
+      "sponsors": [
+        "Arpan Khanna"
+      ]
+    },
+    {
+      "id": "ca-c-243",
+      "billCode": "C-243",
+      "title": "An Act to amend the Corrections and Conditional Release Act (parole review)",
+      "summary": "An Act to amend the Corrections and Conditional Release Act (parole review)",
+      "stage": "Dead",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-25",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13595422",
+      "sponsors": [
+        "Kerry Diotte"
+      ]
+    },
+    {
+      "id": "ca-c-246",
+      "billCode": "C-246",
+      "title": "An Act to amend the Criminal Code (consecutive sentences for sexual offences)",
+      "summary": "An Act to amend the Criminal Code (consecutive sentences for sexual offences)",
+      "stage": "Dead",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-25",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13588503",
+      "sponsors": [
+        "Rachael Thomas"
+      ]
+    },
+    {
+      "id": "ca-c-233",
+      "billCode": "C-233",
+      "title": "An Act to amend the Export and Import Permits Act",
+      "summary": "An Act to amend the Export and Import Permits Act",
+      "stage": "Dead",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-11",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13589584",
+      "sponsors": [
+        "Jenny Kwan"
+      ]
+    },
+    {
+      "id": "ca-c-237",
+      "billCode": "C-237",
+      "title": "An Act to amend the Fisheries Act (Atlantic groundfish fisheries)",
+      "summary": "An Act to amend the Fisheries Act (Atlantic groundfish fisheries)",
+      "stage": "Dead",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-25",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13591570",
+      "sponsors": [
+        "Jonathan Rowe"
+      ]
+    },
+    {
+      "id": "ca-c-245",
+      "billCode": "C-245",
+      "title": "An Act to amend the Canadian Multiculturalism Act (non-application in Quebec)",
+      "summary": "An Act to amend the Canadian Multiculturalism Act (non-application in Quebec)",
+      "stage": "Dead",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-04",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13589580",
+      "sponsors": [
+        "Xavier Barsalou-Duval"
+      ]
+    },
+    {
+      "id": "ca-c-228",
+      "billCode": "C-228",
+      "title": "An Act to amend the Department of Foreign Affairs, Trade and Development Act (prior review of treaties by Parliament)",
+      "summary": "An Act to amend the Department of Foreign Affairs, Trade and Development Act (prior review of treaties by Parliament)",
+      "stage": "Dead",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-01-28",
+      "sourceUrl": "https://www.parl.ca/legisinfo/en/bill/13588678",
+      "sponsors": [
+        "Mario Simard"
+      ]
+    }
+  ]
+}

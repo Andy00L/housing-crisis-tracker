@@ -1,0 +1,12 @@
+{
+  "source": "OECD Housing Prices (sdmx.oecd.org)",
+  "measures": {
+    "HPI": "Nominal house price indices",
+    "RHP": "Real house price indices",
+    "RPI": "Rent prices",
+    "HPI_RPI": "Price to rent ratio",
+    "HPI_YDH": "Price to income ratio"
+  },
+  "lastUpdated": "2026-04-16",
+  "countries": {}
+}

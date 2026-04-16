@@ -1,0 +1,102 @@
+[
+  {
+    "id": "luzerne-county-pa",
+    "name": "Luzerne County",
+    "fips": "42079",
+    "state": "Pennsylvania",
+    "stateCode": "PA",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Salem Township) Data center moratorium enacted",
+        "date": "2024-10-01",
+        "status": "enacted",
+        "summary": "Salem Township in Luzerne County enacted a moratorium on data center development following community concerns about a proposed large-scale facility's impacts on water, noise, and rural character.",
+        "sourceUrl": "https://www.citizensvoice.com/news/salem-township-supervisors-pass-moratorium-on-data-centers/article_5e3d8e96-7f8a-11ef-9c5c-1f2e1e6c8d3e.html"
+      }
+    ],
+    "concerns": [
+      "water-consumption",
+      "noise-vibration",
+      "local-zoning",
+      "residential-proximity",
+      "local-control"
+    ],
+    "contextBlurb": "Salem Township in Luzerne County saw community opposition to proposed data center projects in a rural area. Residents raised concerns about water usage, noise, and compatibility with the township's agricultural character, leading to a moratorium on such facilities."
+  },
+  {
+    "id": "chester-county-pa",
+    "name": "Chester County",
+    "fips": "42029",
+    "state": "Pennsylvania",
+    "stateCode": "PA",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(West Whiteland Township) Transcontinental Realty/data center zoning dispute",
+        "date": "2024-06-01",
+        "status": "under-review",
+        "summary": "West Whiteland Township faced heated community debate over proposed data center developments near residential areas, with residents pushing back on zoning changes that would accommodate large facilities and their associated power and noise impacts.",
+        "sourceUrl": "https://www.dailylocal.com/2024/06/13/west-whiteland-residents-push-back-against-data-center-proposal/"
+      }
+    ],
+    "concerns": [
+      "noise-vibration",
+      "grid-capacity",
+      "local-zoning",
+      "residential-proximity",
+      "property-values"
+    ],
+    "contextBlurb": "Chester County's suburban townships have seen growing pressure from data center developers seeking sites in the Philadelphia exurbs. Residents in communities like West Whiteland Township have mobilized over noise, traffic, and aesthetic impacts of proposed facilities near homes."
+  },
+  {
+    "id": "northampton-county-pa",
+    "name": "Northampton County",
+    "fips": "42095",
+    "state": "Pennsylvania",
+    "stateCode": "PA",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Lower Nazareth Township) Data center tax incentive and zoning approval",
+        "date": "2024-03-01",
+        "status": "enacted",
+        "summary": "The Lehigh Valley region of Northampton County continued to attract major data center investment, with local municipalities approving zoning and tax incentive packages for facilities along the I-78 corridor.",
+        "sourceUrl": "https://www.mcall.com/2024/03/20/data-centers-lehigh-valley-growth/"
+      }
+    ],
+    "concerns": [
+      "tax-incentives",
+      "grid-capacity",
+      "economic-development",
+      "energy-rates",
+      "local-zoning"
+    ],
+    "contextBlurb": "Northampton County sits in the Lehigh Valley, one of Pennsylvania's fastest-growing data center corridors. The region's proximity to New York City and available power infrastructure have made it a magnet for hyperscale facilities, prompting local debates over tax incentives and grid strain."
+  },
+  {
+    "id": "buckingham-county-pa",
+    "name": "Bucks County",
+    "fips": "42017",
+    "state": "Pennsylvania",
+    "stateCode": "PA",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Falls Township) US Steel site redevelopment for data center campus",
+        "date": "2024-09-01",
+        "status": "under-review",
+        "summary": "Falls Township evaluated proposals to redevelop the former US Steel Fairless Works site into a large-scale data center campus, raising questions about power demand, environmental remediation, and local economic benefits.",
+        "sourceUrl": "https://www.phillyburbs.com/story/news/2024/09/10/falls-township-us-steel-data-center-bucks-county/75100043007/"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "environmental-review",
+      "economic-development",
+      "job-creation",
+      "energy-rates"
+    ],
+    "contextBlurb": "Bucks County's Falls Township is evaluating the potential conversion of the massive former US Steel Fairless Works industrial site into a data center campus. The project would represent one of the largest such developments in the Philadelphia region, with significant energy and infrastructure implications."
+  }
+]

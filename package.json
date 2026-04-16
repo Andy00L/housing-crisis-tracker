@@ -1,0 +1,67 @@
+{
+  "name": "housing-crisis-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Live tracker of housing policy, bills, and projects across Canada, the US, and selected international markets.",
+  "author": {
+    "name": "Andy Nguema Luemba",
+    "email": "andy.luemba@protonmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andy00L/housing-crisis-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Andy00L/housing-crisis-tracker/issues"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "cp data/news/summaries.json public/news-summaries.json",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "blurbs:refresh": "tsx scripts/cleanup/refresh-blurbs.ts --force",
+    "data:rebuild": "tsx scripts/build-placeholder.ts",
+    "news:poll": "tsx scripts/sync/news-rss.ts",
+    "news:regen": "tsx scripts/sync/news-regen.ts",
+    "geo:canada": "tsx scripts/geo/fetch-canada-geo.ts",
+    "sync:provinces": "tsx scripts/sync/province-housing-research.ts"
+  },
+  "dependencies": {
+    "@number-flow/react": "^0.6.0",
+    "@tavily/core": "^0.7.2",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/kv": "^3.0.0",
+    "cheerio": "^1.2.0",
+    "cobe": "^2.0.1",
+    "d3-geo": "^3.1.1",
+    "framer-motion": "^12.38.0",
+    "maplibre-gl": "^5.23.0",
+    "next": "16.2.3",
+    "opossum": "^9.0.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-grab": "^0.1.31",
+    "react-simple-maps": "^3.0.0",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.88.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/cheerio": "^0.22.35",
+    "@types/d3-geo": "^3.1.0",
+    "@types/node": "^20",
+    "@types/opossum": "^8.1.9",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-simple-maps": "^3.0.6",
+    "@types/topojson-client": "^3.1.5",
+    "dotenv": "^17.4.1",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.3",
+    "fast-xml-parser": "^5.6.0",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}

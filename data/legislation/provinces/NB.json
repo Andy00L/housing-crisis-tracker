@@ -1,0 +1,183 @@
+{
+  "state": "New Brunswick",
+  "stateCode": "NB",
+  "region": "na",
+  "stance": "restrictive",
+  "stanceZoning": "restrictive",
+  "stanceAffordability": "restrictive",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "New Brunswick's housing policy landscape as of April 2026 is shaped primarily by the Holt Liberal government's Bill 3 (An Act to Amend The Residential Tenancies Act), which established a 3% annual rent cap effective February 1, 2025, and Bill 22 (An Act Respecting Property Tax Affordability Measures), which froze property assessments at 2025 levels for one year. The province is also pursuing a 30,000-homes-by-2030 construction target, a 10-year $150.5M Canada Housing Infrastructure Fund agreement, a 100% HST rebate on purpose-built rental housing for projects commencing between November 15, 2024 and December 31, 2027, and a December 2025 homelessness strategy ('A Path Home') targeting a 40% reduction in chronic homelessness by 2028–29.",
+  "legislation": [
+    {
+      "id": "nb-a-path-home--dec-2025-",
+      "billCode": "A Path Home (Dec 2025)",
+      "title": "New Brunswick's Provincial Strategy on Homelessness – A Path Home",
+      "summary": "A cross-government strategy released December 18, 2025 targeting a 40% reduction in chronic homelessness by 2028–29, with bridge housing projects in Moncton and Bathurst, $7.4 million in emergency grants for non-profit housing providers, and a housing-first case management framework led by a Ministerial Task Force established September 16, 2025.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-18",
+      "sourceUrl": "https://www.gnb.ca/en/topic/family-home-community/housing-property/rental-housing/homelessness-strategy.html",
+      "sponsors": [
+        "Hon. David Hickey"
+      ]
+    },
+    {
+      "id": "nb-bill-22--snb-2025--c-17-",
+      "billCode": "Bill 22 (SNB 2025, c 17)",
+      "title": "An Act Respecting Property Tax Affordability Measures",
+      "summary": "Freezes real property assessment values for the 2026 taxation year at their 2025 levels for approximately 430,000 eligible properties, acting as an interim measure while the province undertakes a full property tax system overhaul; exemptions apply for new construction, major improvements, and property sales.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2025-06-06",
+      "sourceUrl": "https://www.gnb.ca/content/snb/en/news/news-release.2025.05.0179.html",
+      "sponsors": [
+        "Hon. René Legacy",
+        "Hon. Aaron Kennedy"
+      ]
+    },
+    {
+      "id": "nb-sor-2025-76",
+      "billCode": "SOR/2025-76",
+      "title": "Regulations Amending the Real Property (GST/HST) Regulations – New Brunswick Purpose-Built Rental Housing HST Rebate",
+      "summary": "Implements New Brunswick's 100% rebate of the 10% provincial portion of the HST for qualifying purpose-built rental housing (at least 4 units) where construction commences between November 15, 2024 and December 31, 2027, and is substantially completed before December 31, 2029; federally administered through the CRA.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2025-03-26",
+      "sourceUrl": "https://gazette.gc.ca/rp-pr/p2/2025/2025-03-26/html/sor-dors76-eng.html",
+      "sponsors": [
+        "Government of New Brunswick",
+        "Government of Canada"
+      ]
+    },
+    {
+      "id": "nb-canada-nb-chif-agreement--2025-",
+      "billCode": "Canada-NB CHIF Agreement (2025)",
+      "title": "Canada Housing Infrastructure Fund – New Brunswick 10-Year Agreement",
+      "summary": "A 10-year bilateral agreement providing New Brunswick with $150.5 million to build or upgrade water, wastewater, stormwater, and solid waste infrastructure in communities including Moncton and Saint John, directly enabling new residential density and housing supply growth.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "density",
+        "transit-oriented"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-03-03",
+      "sourceUrl": "https://www.canada.ca/en/housing-infrastructure-communities/news/2025/03/the-government-of-canada-and-new-brunswick-invest-in-housing-enabling-infrastructure.html",
+      "sponsors": [
+        "Government of New Brunswick",
+        "Government of Canada"
+      ]
+    },
+    {
+      "id": "nb-canada-nb-uhei-agreement--2025-",
+      "billCode": "Canada-NB UHEI Agreement (2025)",
+      "title": "Unsheltered Homelessness and Encampments Initiative – Canada-New Brunswick Agreement (Saint John)",
+      "summary": "A two-year bilateral agreement signed February 21, 2025 providing over $3.5 million in federal funding to Saint John to implement a Community Encampment Response Plan (CERP), offering tailored supports, short-term rental assistance, and case management services to people living without homes, addressing the acute housing crisis in New Brunswick's largest city.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "homelessness",
+        "short-term-rental"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2025-02-21",
+      "sourceUrl": "https://www.canada.ca/en/housing-infrastructure-communities/news/2025/02/the-governments-of-canada-and-new-brunswick-sign-an-agreement-to-address-unsheltered-homelessness.html",
+      "sponsors": [
+        "Government of Canada",
+        "Government of New Brunswick"
+      ]
+    },
+    {
+      "id": "nb-nb-reg-82-218--amended-to-2025-02-01-",
+      "billCode": "NB Reg 82-218 (amended to 2025-02-01)",
+      "title": "General Regulation – The Residential Tenancies Act",
+      "summary": "The principal regulation under the Residential Tenancies Act governing tenancy notice requirements, eviction procedures, and rent increase dispute processes; consolidated to February 1, 2025 to align with Bill 3's rent cap provisions.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2025-02-01",
+      "sourceUrl": "https://www.canlii.org/en/nb/laws/regu/nb-reg-82-218/latest/nb-reg-82-218.html",
+      "sponsors": []
+    },
+    {
+      "id": "nb-bill-3--snb-2024--c-29-",
+      "billCode": "Bill 3 (SNB 2024, c 29)",
+      "title": "An Act to Amend The Residential Tenancies Act",
+      "summary": "Introduces a 3% annual residential rent increase cap effective February 1, 2025, applicable to existing tenancies; landlords may apply for above-cap increases up to a maximum of 9% only for approved capital expenditure renovations.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2024-12-13",
+      "sourceUrl": "https://www.legnb.ca/en/legislation/bills/61/1/3/an-act-to-amend-the-residential-tenancies-act",
+      "sponsors": [
+        "Hon. David Hickey"
+      ]
+    },
+    {
+      "id": "nb-nb-reg-2024-31",
+      "billCode": "NB Reg 2024-31",
+      "title": "Regulation Amending the General Regulation – Residential Tenancies Act",
+      "summary": "Amends the General Regulation under the Residential Tenancies Act to update procedural and administrative requirements, including rules around the annual rent increase guideline review process published by the New Brunswick Housing Corporation each June.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2024-06-03",
+      "sourceUrl": "https://codifylaws.com/canadian-bill-and-regulation-details/nb-reg-2024-31-regulation-amending-the-general-regulation---residential-tenancies-act-new-brunswick-regulation",
+      "sponsors": []
+    },
+    {
+      "id": "nb-chb-nb-expanded-program--2024-",
+      "billCode": "CHB-NB Expanded Program (2024)",
+      "title": "Canada-New Brunswick Housing Benefit – Expanded Program",
+      "summary": "Expanded in January 2024 to include seniors and families in addition to working individuals, providing portable monthly rent subsidies to low-income private-market renters across New Brunswick, including in high-demand urban centres such as Moncton and Saint John where immigration-driven demand has pushed vacancy rates toward 2% or below.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www2.gnb.ca/content/dam/gnb/Departments/sd-ds/pdf/Housing/2022-2025-new-brunswick-action-plan.pdf",
+      "sponsors": [
+        "Government of New Brunswick",
+        "Government of Canada"
+      ]
+    },
+    {
+      "id": "nb-bill-53--snb-2023--c-25-",
+      "billCode": "Bill 53 (SNB 2023, c 25)",
+      "title": "An Act Respecting the New Brunswick Housing Corporation",
+      "summary": "Modernizes the New Brunswick Housing Corporation's mandate, governance structure, and authority to develop, own, manage, and fund affordable housing across the province, including coordination with the Saint John Housing Authority and Moncton Housing Authority.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2023-06-16",
+      "sourceUrl": "https://www.canlii.org/en/nb/laws/stat/rsnb-1973-c-n-6/latest/rsnb-1973-c-n-6.html",
+      "sponsors": []
+    }
+  ]
+}

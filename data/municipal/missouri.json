@@ -1,0 +1,27 @@
+[
+  {
+    "id": "kansas-city-mo",
+    "name": "Jackson County",
+    "fips": "29095",
+    "state": "Missouri",
+    "stateCode": "MO",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Kansas City) Meta data center campus approved with tax incentives",
+        "date": "2024-08-01",
+        "status": "enacted",
+        "summary": "Kansas City approved significant tax incentive packages to attract Meta's planned large-scale data center campus in the Kansas City area, part of Meta's multi-billion-dollar national expansion.",
+        "sourceUrl": "https://www.datacenterdynamics.com/en/news/meta-plans-data-center-campus-in-kansas-city-missouri/"
+      }
+    ],
+    "concerns": [
+      "tax-incentives",
+      "grid-capacity",
+      "economic-development",
+      "job-creation",
+      "energy-rates"
+    ],
+    "contextBlurb": "Kansas City has been actively courting hyperscale data center operators with tax incentive packages. The region's central location, fiber connectivity, and relatively affordable power have made it attractive for large campuses."
+  }
+]

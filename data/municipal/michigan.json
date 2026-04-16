@@ -1,0 +1,100 @@
+[
+  {
+    "id": "van-buren-county-mi",
+    "name": "Van Buren County",
+    "fips": "26159",
+    "state": "Michigan",
+    "stateCode": "MI",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Covert Township) Moratorium on large-scale data center development",
+        "date": "2024-09-01",
+        "status": "enacted",
+        "summary": "Covert Township enacted a moratorium on large-scale data center projects to allow time to study the impacts on local infrastructure, water, and zoning. The moratorium came amid proposals for major data center campuses in southwestern Michigan.",
+        "sourceUrl": "https://www.heraldpalladium.com/news/local/covert-township-passes-moratorium-on-data-centers/article_d2e65e6e-6f3c-11ef-9c0f-5f8b891c06cf.html"
+      }
+    ],
+    "concerns": [
+      "water-consumption",
+      "local-zoning",
+      "grid-capacity",
+      "local-control",
+      "environmental-review"
+    ],
+    "contextBlurb": "Van Buren County's Covert Township became one of several Michigan communities to enact data center moratoriums in 2024 amid growing interest from hyperscale operators eyeing southwestern Michigan for its available land and grid access."
+  },
+  {
+    "id": "ottawa-county-mi",
+    "name": "Ottawa County",
+    "fips": "26139",
+    "state": "Michigan",
+    "stateCode": "MI",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Holland Township) Consideration of data center zoning regulations",
+        "date": "2024-10-01",
+        "status": "under-review",
+        "summary": "Holland Township officials began reviewing zoning standards for data center developments, examining noise, energy, and water impacts as proposals for facilities emerged in the greater Holland area.",
+        "sourceUrl": "https://www.hollandsentinel.com/story/news/local/2024/10/03/holland-charter-township-considers-data-center-zoning/75486301007/"
+      }
+    ],
+    "concerns": [
+      "noise-vibration",
+      "local-zoning",
+      "water-consumption",
+      "grid-capacity"
+    ],
+    "contextBlurb": "Ottawa County communities have been weighing how to accommodate or regulate data center proposals, with Holland Township among those proactively reviewing zoning standards in anticipation of increased demand."
+  },
+  {
+    "id": "berrien-county-mi",
+    "name": "Berrien County",
+    "fips": "26021",
+    "state": "Michigan",
+    "stateCode": "MI",
+    "type": "county",
+    "actions": [
+      {
+        "title": "Holtec Palisades nuclear plant restart to serve data center demand",
+        "date": "2025-01-01",
+        "status": "under-review",
+        "summary": "The proposed restart of the Palisades Nuclear Generating Station in Covert, Berrien County area, gained momentum partly due to surging data center electricity demand, with federal loan guarantees and state support pursued for the unprecedented reactor restart.",
+        "sourceUrl": "https://www.bridgemi.com/business-watch/palisades-nuclear-plant-restart-michigan-gets-15b-federal-loan"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "energy-rates",
+      "economic-development",
+      "job-creation"
+    ],
+    "contextBlurb": "The Palisades nuclear plant restart in southwest Michigan is closely linked to growing regional electricity demand from data centers. The project has received a $1.5 billion federal loan guarantee and is seen as pivotal for meeting AI-driven energy needs."
+  },
+  {
+    "id": "kent-county-mi",
+    "name": "Kent County",
+    "fips": "26081",
+    "state": "Michigan",
+    "stateCode": "MI",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Byron Township) Data center development approved for Switch facility expansion",
+        "date": "2024-06-01",
+        "status": "enacted",
+        "summary": "Byron Township and Kent County supported continued expansion of the Switch data center campus near Grand Rapids, one of the largest data center complexes in the Midwest, with additional building permits and utility coordination.",
+        "sourceUrl": "https://www.mlive.com/news/grand-rapids/2024/04/switch-plans-another-big-expansion-of-grand-rapids-area-data-center.html"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "economic-development",
+      "tax-incentives",
+      "energy-rates",
+      "job-creation"
+    ],
+    "contextBlurb": "Kent County is home to Switch's massive Pyramid Campus near Grand Rapids, which continues to expand. The facility is one of the largest data center campuses in the U.S. and drives significant local economic activity and energy demand."
+  }
+]

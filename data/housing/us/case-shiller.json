@@ -1,0 +1,55 @@
+{
+  "seriesId": "CSUSHPISA",
+  "name": "S&P Case-Shiller National Home Price Index",
+  "lastUpdated": "2026-01",
+  "values": [
+    {
+      "period": "2025-02",
+      "value": 329.791
+    },
+    {
+      "period": "2025-03",
+      "value": 329.012
+    },
+    {
+      "period": "2025-04",
+      "value": 328.182
+    },
+    {
+      "period": "2025-05",
+      "value": 327.591
+    },
+    {
+      "period": "2025-06",
+      "value": 326.987
+    },
+    {
+      "period": "2025-07",
+      "value": 326.792
+    },
+    {
+      "period": "2025-08",
+      "value": 327.064
+    },
+    {
+      "period": "2025-09",
+      "value": 327.541
+    },
+    {
+      "period": "2025-10",
+      "value": 328.72
+    },
+    {
+      "period": "2025-11",
+      "value": 330.135
+    },
+    {
+      "period": "2025-12",
+      "value": 331.413
+    },
+    {
+      "period": "2026-01",
+      "value": 332.183
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "source": "Zillow Home Value Index (ZHVI)",
+  "level": "state",
+  "lastUpdated": "2026-04-16",
+  "states": [
+    {
+      "state": "0",
+      "regionName": "0",
+      "currentValue": 765036,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 778414,
+      "changeYoY": -1.7
+    },
+    {
+      "state": "1",
+      "regionName": "1",
+      "currentValue": 297592,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 304703,
+      "changeYoY": -2.3
+    },
+    {
+      "state": "2",
+      "regionName": "2",
+      "currentValue": 372755,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 390740,
+      "changeYoY": -4.6
+    },
+    {
+      "state": "3",
+      "regionName": "3",
+      "currentValue": 502162,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 480701,
+      "changeYoY": 4.5
+    },
+    {
+      "state": "4",
+      "regionName": "4",
+      "currentValue": 278429,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 271764,
+      "changeYoY": 2.5
+    },
+    {
+      "state": "5",
+      "regionName": "5",
+      "currentValue": 281547,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 269179,
+      "changeYoY": 4.6
+    },
+    {
+      "state": "6",
+      "regionName": "6",
+      "currentValue": 237200,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 229704,
+      "changeYoY": 3.3
+    },
+    {
+      "state": "7",
+      "regionName": "7",
+      "currentValue": 328277,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 334250,
+      "changeYoY": -1.8
+    },
+    {
+      "state": "8",
+      "regionName": "8",
+      "currentValue": 331413,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 333734,
+      "changeYoY": -0.7
+    },
+    {
+      "state": "9",
+      "regionName": "9",
+      "currentValue": 254230,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 244840,
+      "changeYoY": 3.8
+    },
+    {
+      "state": "10",
+      "regionName": "10",
+      "currentValue": 558900,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 540755,
+      "changeYoY": 3.4
+    },
+    {
+      "state": "11",
+      "regionName": "11",
+      "currentValue": 405474,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 399491,
+      "changeYoY": 1.5
+    },
+    {
+      "state": "12",
+      "regionName": "12",
+      "currentValue": 592562,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 596008,
+      "changeYoY": -0.6
+    },
+    {
+      "state": "13",
+      "regionName": "13",
+      "currentValue": 420906,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 430352,
+      "changeYoY": -2.2
+    },
+    {
+      "state": "14",
+      "regionName": "14",
+      "currentValue": 642387,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 632827,
+      "changeYoY": 1.5
+    },
+    {
+      "state": "15",
+      "regionName": "15",
+      "currentValue": 327696,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 328197,
+      "changeYoY": -0.2
+    },
+    {
+      "state": "16",
+      "regionName": "16",
+      "currentValue": 249724,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 243160,
+      "changeYoY": 2.7
+    },
+    {
+      "state": "17",
+      "regionName": "17",
+      "currentValue": 423956,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 423232,
+      "changeYoY": 0.2
+    },
+    {
+      "state": "18",
+      "regionName": "18",
+      "currentValue": 258099,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 252377,
+      "changeYoY": 2.3
+    },
+    {
+      "state": "19",
+      "regionName": "19",
+      "currentValue": 322641,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 306769,
+      "changeYoY": 5.2
+    },
+    {
+      "state": "20",
+      "regionName": "20",
+      "currentValue": 535507,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 549116,
+      "changeYoY": -2.5
+    },
+    {
+      "state": "21",
+      "regionName": "21",
+      "currentValue": 341308,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 333203,
+      "changeYoY": 2.4
+    },
+    {
+      "state": "22",
+      "regionName": "22",
+      "currentValue": 300562,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 301140,
+      "changeYoY": -0.2
+    },
+    {
+      "state": "23",
+      "regionName": "23",
+      "currentValue": 232106,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 231302,
+      "changeYoY": 0.3
+    },
+    {
+      "state": "24",
+      "regionName": "24",
+      "currentValue": 208930,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 209271,
+      "changeYoY": -0.2
+    },
+    {
+      "state": "25",
+      "regionName": "25",
+      "currentValue": 228840,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 226835,
+      "changeYoY": 0.9
+    },
+    {
+      "state": "26",
+      "regionName": "26",
+      "currentValue": 492347,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 496602,
+      "changeYoY": -0.9
+    },
+    {
+      "state": "27",
+      "regionName": "27",
+      "currentValue": 216242,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 212582,
+      "changeYoY": 1.7
+    },
+    {
+      "state": "28",
+      "regionName": "28",
+      "currentValue": 425333,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 406887,
+      "changeYoY": 4.5
+    },
+    {
+      "state": "30",
+      "regionName": "30",
+      "currentValue": 533118,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 522745,
+      "changeYoY": 2
+    },
+    {
+      "state": "31",
+      "regionName": "31",
+      "currentValue": 227764,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 220044,
+      "changeYoY": 3.5
+    },
+    {
+      "state": "32",
+      "regionName": "32",
+      "currentValue": 442655,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 451371,
+      "changeYoY": -1.9
+    },
+    {
+      "state": "33",
+      "regionName": "33",
+      "currentValue": 219754,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 215567,
+      "changeYoY": 1.9
+    },
+    {
+      "state": "34",
+      "regionName": "34",
+      "currentValue": 189895,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 189508,
+      "changeYoY": 0.2
+    },
+    {
+      "state": "35",
+      "regionName": "35",
+      "currentValue": 239111,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 232548,
+      "changeYoY": 2.8
+    },
+    {
+      "state": "36",
+      "regionName": "36",
+      "currentValue": 310375,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 307701,
+      "changeYoY": 0.9
+    },
+    {
+      "state": "37",
+      "regionName": "37",
+      "currentValue": 271338,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 263163,
+      "changeYoY": 3.1
+    },
+    {
+      "state": "38",
+      "regionName": "38",
+      "currentValue": 468156,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 462087,
+      "changeYoY": 1.3
+    },
+    {
+      "state": "39",
+      "regionName": "39",
+      "currentValue": 169780,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 168939,
+      "changeYoY": 0.5
+    },
+    {
+      "state": "40",
+      "regionName": "40",
+      "currentValue": 823970,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 837668,
+      "changeYoY": -1.6
+    },
+    {
+      "state": "41",
+      "regionName": "41",
+      "currentValue": 495256,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 482296,
+      "changeYoY": 2.7
+    },
+    {
+      "state": "42",
+      "regionName": "42",
+      "currentValue": 396938,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 395418,
+      "changeYoY": 0.4
+    },
+    {
+      "state": "43",
+      "regionName": "43",
+      "currentValue": 488738,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 475496,
+      "changeYoY": 2.8
+    },
+    {
+      "state": "44",
+      "regionName": "44",
+      "currentValue": 455364,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 451210,
+      "changeYoY": 0.9
+    },
+    {
+      "state": "45",
+      "regionName": "45",
+      "currentValue": 396207,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 389544,
+      "changeYoY": 1.7
+    },
+    {
+      "state": "46",
+      "regionName": "46",
+      "currentValue": 312005,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 304279,
+      "changeYoY": 2.5
+    },
+    {
+      "state": "47",
+      "regionName": "47",
+      "currentValue": 280510,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 266818,
+      "changeYoY": 5.1
+    },
+    {
+      "state": "48",
+      "regionName": "48",
+      "currentValue": 380987,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 366570,
+      "changeYoY": 3.9
+    },
+    {
+      "state": "49",
+      "regionName": "49",
+      "currentValue": 574199,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 592133,
+      "changeYoY": -3
+    },
+    {
+      "state": "50",
+      "regionName": "50",
+      "currentValue": 381496,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 380697,
+      "changeYoY": 0.2
+    },
+    {
+      "state": "51",
+      "regionName": "51",
+      "currentValue": 355667,
+      "currentPeriod": "2026-02-28",
+      "yearAgoValue": 351139,
+      "changeYoY": 1.3
+    }
+  ]
+}

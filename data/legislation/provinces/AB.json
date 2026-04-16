@@ -1,0 +1,218 @@
+{
+  "state": "Alberta",
+  "stateCode": "AB",
+  "region": "na",
+  "stance": "restrictive",
+  "stanceZoning": "restrictive",
+  "stanceAffordability": "restrictive",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Alberta's housing policy landscape as of April 2026 is shaped by the UCP government's dual focus on supply-side reform and affordability supports. Key enacted measures include Bill 20 (Municipal Affairs Statutes Amendment Act, 2024), which exempted non-profit affordable housing from property taxes and streamlined development approvals, and Bill 32 (Financial Statutes Amendment Act, 2024, No. 2), which indexed seniors lodge rates and social housing thresholds. The province continues to implement its 10-year 'Stronger Foundations' affordable housing strategy (launched 2021), targeting 25,000 additional supported households by 2031, while actively addressing encampment homelessness through a $430 million provincial investment and a joint Canada-Alberta Unsheltered Homelessness and Encampments Initiative signed in March 2025.",
+  "legislation": [
+    {
+      "id": "ab-sa-2024--c-20",
+      "billCode": "SA 2024, c 20",
+      "title": "Service Alberta Statutes Amendment Act, 2024",
+      "summary": "Amends the Condominium Property Act (RSA 2000 cC-22) with key sections proclaimed in force on February 15, 2026; updates governance and disclosure rules affecting condominium housing developments across Alberta.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-15",
+      "sourceUrl": "https://www.alberta.ca/proclamations",
+      "sponsors": [
+        "Nate Glubish"
+      ]
+    },
+    {
+      "id": "ab-stronger-foundations--policy-program-",
+      "billCode": "Stronger Foundations (Policy Program)",
+      "title": "Stronger Foundations: Alberta's 10-Year Affordable Housing Strategy",
+      "summary": "A 10-year provincial strategy launched November 2021 targeting housing for an additional 25,000 low-income households by 2031 (a 40%+ increase); implemented through the Affordable Housing Partnership Program (launched December 2022), the Affordable Housing Needs Assessment, the Housing Supports for Survivors of Gender-Based Violence program (launched April 2024), and the Affordable Housing Asset Management Framework.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "property-tax",
+      "updatedDate": "2025-11-24",
+      "sourceUrl": "https://www.alberta.ca/stronger-foundations-affordable-housing-strategy",
+      "sponsors": [
+        "Jason Nixon",
+        "Jeremy Nixon"
+      ]
+    },
+    {
+      "id": "ab-residential-tenancies-act--sa-2004--c-r-17-1-",
+      "billCode": "Residential Tenancies Act (SA 2004, c R-17.1)",
+      "title": "Residential Tenancies Act",
+      "summary": "Alberta's core landlord-tenant statute, last substantively updated with AR 199/2025 (amending the Residential Tenancies Exemption Regulation) and ongoing review by the Alberta Law Reform Institute (2023–2026); currently requires landlords to pay annual interest on security deposits (effective January 1, 2024) and permits fully digital lease agreements.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-05-15",
+      "sourceUrl": "https://open.alberta.ca/publications/r17p1",
+      "sponsors": [
+        "Government of Alberta"
+      ]
+    },
+    {
+      "id": "ab-canada-alberta-uhei-agreement--2025-",
+      "billCode": "Canada–Alberta UHEI Agreement (2025)",
+      "title": "Unsheltered Homelessness and Encampments Initiative – Alberta Agreement",
+      "summary": "A bilateral federal-provincial agreement signed March 2025 providing close to $35 million in federal funding over two years for Calgary, Edmonton, Lethbridge, and Red Deer; funds Community Encampment Response Plans to move people from encampments into stable housing with wrap-around supports, complementing Alberta's $430 million provincial homelessness investment for 2024–2026.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "homelessness"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2025-03-11",
+      "sourceUrl": "https://www.canada.ca/en/housing-infrastructure-communities/news/2025/03/the-governments-of-canada-and-alberta-sign-an-agreement-to-address-unsheltered-homelessness.html",
+      "sponsors": [
+        "Jason Nixon",
+        "Sean Fraser"
+      ]
+    },
+    {
+      "id": "ab-affordable-housing-partnership-program--regulation-",
+      "billCode": "Affordable Housing Partnership Program (Regulation)",
+      "title": "Affordable Housing Partnership Program",
+      "summary": "Capital funding program under Stronger Foundations providing provincial contributions of up to one-third of eligible project costs for new construction, renovation, or redevelopment of affordable and mixed-income housing; cost-matched through the Canada–Alberta Bilateral Agreement under the National Housing Strategy.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2025-01-31",
+      "sourceUrl": "https://www.alberta.ca/affordable-housing-partnership-program",
+      "sponsors": [
+        "Jason Nixon"
+      ]
+    },
+    {
+      "id": "ab-alberta-housing-act--rsa-2000--c-a-25-",
+      "billCode": "Alberta Housing Act (RSA 2000, c A-25)",
+      "title": "Alberta Housing Act",
+      "summary": "The foundational statute enabling the province to provide basic housing accommodation for persons requiring financial or social assistance; most recently amended by Bill 20 (2024) to establish the affordable housing accommodation designation and tax-exemption framework, and by Bill 32 (2024) to index lodge rates under the Alberta Escalator, effective January 2025.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://open.alberta.ca/publications/a25",
+      "sponsors": [
+        "Government of Alberta"
+      ]
+    },
+    {
+      "id": "ab-bill-32--sa-2024--c-15-",
+      "billCode": "Bill 32 (SA 2024, c 15)",
+      "title": "Financial Statutes Amendment Act, 2024 (No. 2)",
+      "summary": "Amends the Alberta Housing Act to introduce the 'Alberta Escalator,' standardizing CPI-based indexing of seniors' minimum monthly disposable income amounts used to calculate lodge rates; also adjusts income thresholds in social housing and income-support programs effective January 1, 2025 and annually thereafter.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-12-05",
+      "sourceUrl": "https://www.canlii.org/en/ab/laws/astat/sa-2024-c-15/latest/sa-2024-c-15.html",
+      "sponsors": [
+        "Nate Horner"
+      ]
+    },
+    {
+      "id": "ab-bill-20--sa-2024--c-11-",
+      "billCode": "Bill 20 (SA 2024, c 11)",
+      "title": "Municipal Affairs Statutes Amendment Act, 2024",
+      "summary": "Exempts non-profit subsidized affordable housing from municipal and education property taxes starting the 2025 tax year; allows municipalities to create multi-year residential property tax incentives to encourage housing development; limits non-statutory studies for development approvals and restricts extra public hearings; removes inclusionary housing provisions from Calgary and Edmonton city charters and clarifies off-site levy rules to reduce barriers to housing supply.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-05-15",
+      "sourceUrl": "https://www.alberta.ca/release.cfm?xID=89993",
+      "sponsors": [
+        "Ric McIver"
+      ]
+    },
+    {
+      "id": "ab-social-housing-accommodation-regulation--ar-244-1994--as-amended-",
+      "billCode": "Social Housing Accommodation Regulation (AR 244/1994, as amended)",
+      "title": "Social Housing Accommodation Regulation",
+      "summary": "Governs eligibility and priority-of-need scoring for Alberta's social housing programs; amended in 2023 to allow housing providers to prioritize target populations most in need, and evaluated in 2024–25 under the Stronger Foundations strategy to confirm the amendments met their objectives.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.alberta.ca/stronger-foundations-affordable-housing-strategy",
+      "sponsors": [
+        "Government of Alberta"
+      ]
+    },
+    {
+      "id": "ab-action-plan-on-homelessness--2022-",
+      "billCode": "Action Plan on Homelessness (2022)",
+      "title": "Alberta Action Plan on Homelessness",
+      "summary": "Announced October 2022 with $63 million in additional funding over two years, this provincial plan funds emergency and transitional shelters (24/7 operations), navigation centres (including Edmonton's 103rd Avenue centre opened in early 2024), and housing-with-supports programming in Alberta's seven major cities to reduce and prevent chronic homelessness.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.alberta.ca/homelessness-response",
+      "sponsors": [
+        "Jason Nixon"
+      ]
+    },
+    {
+      "id": "ab-municipal-affairs-and-housing-statutes-amendment-act--2026",
+      "billCode": "Municipal Affairs and Housing Statutes Amendment Act, 2026",
+      "title": "Municipal Affairs and Housing Statutes Amendment Act, 2026",
+      "summary": "Proposed 2026 legislation intended to improve clarity, consistency, and accountability in municipal governance as it relates to housing and municipal affairs in Alberta.",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-01",
+      "sourceUrl": "https://www.alberta.ca/new-and-proposed-legislation",
+      "sponsors": [
+        "Ric McIver"
+      ]
+    },
+    {
+      "id": "ab-bill-205--2023--private-member-s-bill-",
+      "billCode": "Bill 205 (2023, Private Member's Bill)",
+      "title": "Residential Tenancies Amendment Act, 2023 (Rent Control)",
+      "summary": "A private member's bill introduced in the 2023 session of the 31st Legislature that proposed capping annual rent increases at 2% or CPI (whichever is lower) for residential tenancies through December 31, 2025, with a landlord application process to the Dispute Resolution Service for exceptions; did not proceed to enactment.",
+      "stage": "Dead",
+      "stance": "concerning",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2023-05-30",
+      "sourceUrl": "https://docs.assembly.ab.ca/LADDAR_files/docs/bills/bill/legislature_31/session_1/20230530_bill-205.pdf",
+      "sponsors": [
+        "Opposition MLA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "id": "indonesia",
+  "geoId": "360",
+  "name": "Indonesia",
+  "region": "asia",
+  "level": "federal",
+  "contextBlurb": "Indonesia is still building its AI and data center framework. The 2022 Personal Data Protection Law is now enforceable but its dedicated agency isn't operational until 2026, and binding AI rules remain at the draft stage. Meanwhile, Jakarta and Batam are booming as data center hubs — backed by tax incentives and 100% foreign ownership — but water and energy sustainability concerns are drawing regulators in.",
+  "legislation": [
+    {
+      "id": "indonesia-pdp-law",
+      "billCode": "UU No. 27/2022",
+      "title": "Law on Personal Data Protection (Undang-Undang Perlindungan Data Pribadi)",
+      "summary": "Indonesia's comprehensive data protection law, modeled in part on the GDPR, which became fully enforceable on October 17, 2024 after a two-year transition period. It covers all personal data processing within and outside Indonesia that has legal effect on Indonesian citizens, with administrative fines up to 2% of annual revenue and criminal penalties up to six years imprisonment for violations; however, implementing regulations and the dedicated PDP Agency remain under development as of April 2026.",
+      "stage": "Enacted",
+      "stance": "concerning",
+      "impactTags": [
+        "data-privacy",
+        "cross-border-data-transfer",
+        "enforcement"
+      ],
+      "category": "data-privacy",
+      "updatedDate": "2025-10-01",
+      "partyOrigin": "B",
+      "sourceUrl": "https://iclg.com/practice-areas/data-protection-laws-and-regulations/indonesia"
+    },
+    {
+      "id": "indonesia-moci-cl9-ai-ethics",
+      "billCode": "MOCI CL 9/2023",
+      "title": "Ministry of Communication and Information Circular Letter No. 9 of 2023 on Artificial Intelligence Ethics",
+      "summary": "A non-binding ministerial circular issued in December 2023 that establishes an ethical code of conduct for all public and private electronic system operators engaging in AI-based activities in Indonesia, covering principles such as inclusivity, data protection, IP rights, and safety. It serves as the interim regulatory framework for AI pending the enactment of a binding Presidential Regulation on AI, which was still being finalized as of early 2026.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "ai-ethics",
+        "non-binding",
+        "electronic-system-operators"
+      ],
+      "category": "ai-governance",
+      "updatedDate": "2023-12-19",
+      "partyOrigin": "B",
+      "sourceUrl": "https://www.mondaq.com/new-technology/1652492/artificial-intelligence-in-indonesia-legal-and-regulatory-insights"
+    },
+    {
+      "id": "indonesia-presidential-reg-ai-draft",
+      "billCode": "Draft Perpres AI",
+      "title": "Draft Presidential Regulation on Artificial Intelligence (Peraturan Presiden tentang Kecerdasan Artifisial)",
+      "summary": "A binding Presidential Regulation on AI under development by Komdigi, intended to formalize Indonesia's National AI Roadmap and ethics guidelines into law; the draft covered AI safety, ethical use, sector-specific applications, and a Sovereign AI Fund framework. As of early 2026, the regulation had been submitted to the State Secretariat for harmonization but had not yet been enacted.",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "ai-governance",
+        "sovereign-ai",
+        "ethics",
+        "presidential-regulation"
+      ],
+      "category": "ai-governance",
+      "updatedDate": "2026-02-05",
+      "partyOrigin": "B",
+      "sourceUrl": "https://rri.co.id/en/national/2105710/indonesia-moves-toward-national-ai-regulation"
+    },
+    {
+      "id": "indonesia-ai-ethics-perpres-2026",
+      "billCode": "Perpres AI Ethics (pending)",
+      "title": "Presidential Regulation on AI Ethics (awaiting signature)",
+      "summary": "Indonesia's Presidential Regulation on AI Ethics — reported ~90% complete and awaiting President Prabowo's signature as of Q1 2026 — formalises the Stranas KA 2020–2045 as binding, introduces AI-content labelling, risk-tier safeguards and priority-sector obligations (health, education, food, mobility, public administration). Detailed enforcement will follow through sectoral regulations.",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "presidential-regulation",
+        "AI-ethics",
+        "risk-tiered",
+        "content-labelling"
+      ],
+      "category": "ai-governance",
+      "updatedDate": "2026-02-28",
+      "sourceUrl": "https://thelegalwire.ai/two-priority-ai-presidential-decrees-to-be-signed-by-prabowo-in-early-2026/"
+    },
+    {
+      "id": "indonesia-ai-roadmap-perpres-2026",
+      "billCode": "Perpres AI Roadmap",
+      "title": "Presidential Regulation on the National AI Roadmap",
+      "summary": "Companion Presidential Regulation elevating Indonesia's AI Roadmap (2020–2045) into binding national policy, setting priority sectors, workforce targets and sovereign-infrastructure ambitions. After publication, ministries must draft their own sectoral AI guidelines within an implementation window.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "AI-roadmap",
+        "sovereign-infrastructure",
+        "sector-guidelines",
+        "digital-talent"
+      ],
+      "category": "ai-governance",
+      "updatedDate": "2026-02-28",
+      "sourceUrl": "https://ps-engage.com/indonesias-ai-national-roadmap-white-paper-paving-the-way-toward-a-smarter-and-sovereign-digital-future/"
+    },
+    {
+      "id": "indonesia-sovereign-ai-dc-2025",
+      "billCode": "Sovereign AI DC policy",
+      "title": "BDx Sovereign AI Data Center (national infrastructure policy)",
+      "summary": "Launched December 2024 as a joint venture between Indosat Ooredoo Hutchison, Lintasarta and BDx Data Centers, Indonesia's first sovereign AI data centre — powered by NVIDIA accelerated computing — is now the de-facto reference facility for the government's sovereign-compute strategy referenced in the 2026 Perpres package.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "sovereign-ai",
+        "data-center",
+        "NVIDIA",
+        "SEZ-tax-incentives"
+      ],
+      "category": "data-center-siting",
+      "updatedDate": "2025-12-10",
+      "sourceUrl": "https://introl.com/blog/indonesia-first-sovereign-ai-data-center-market-analysis"
+    }
+  ],
+  "keyFigures": [
+    {
+      "id": "indonesia-hafid",
+      "name": "Meutya Hafid",
+      "role": "Minister of Communication and Digital Affairs (Komdigi)",
+      "party": "Golkar",
+      "stance": "review"
+    },
+    {
+      "id": "indonesia-patria",
+      "name": "Nezar Patria",
+      "role": "Deputy Minister of Communication and Digital Affairs",
+      "party": "Independent",
+      "stance": "favorable"
+    },
+    {
+      "id": "indonesia-prabowo",
+      "name": "Prabowo Subianto",
+      "role": "President of Indonesia",
+      "party": "Gerindra",
+      "stance": "favorable"
+    },
+    {
+      "id": "indonesia-prabowo-angga",
+      "name": "Angga Raka Prabowo",
+      "role": "Deputy Minister of Communication and Digital Affairs",
+      "party": "Gerindra",
+      "stance": "review"
+    },
+    {
+      "id": "indonesia-roeslani",
+      "name": "Rosan Roeslani",
+      "role": "Minister of Investment and Downstream Industry (BKPM)",
+      "party": "Independent",
+      "stance": "favorable"
+    },
+    {
+      "id": "indonesia-sugiono",
+      "name": "Ismail",
+      "role": "Director General of Digital Infrastructure, Komdigi",
+      "party": "N/A",
+      "stance": "favorable"
+    }
+  ],
+  "news": [
+    {
+      "id": "indonesia-news-1",
+      "headline": "Indonesia's data center boom raises alarm over water use",
+      "source": "The Jakarta Post",
+      "date": "2026-04-07",
+      "url": "https://www.thejakartapost.com/business/2026/04/07/indonesias-data-center-boom-raises-alarm-over-water-use.html"
+    },
+    {
+      "id": "indonesia-news-2",
+      "headline": "Indonesia Moves Toward National AI Regulation",
+      "source": "Radio Republik Indonesia (RRI)",
+      "date": "2026-02-05",
+      "url": "https://rri.co.id/en/national/2105710/indonesia-moves-toward-national-ai-regulation"
+    },
+    {
+      "id": "indonesia-news-3",
+      "headline": "From OpenAI to DeepSeek: Indonesia Drafts Regulation on AI",
+      "source": "Jakarta Globe",
+      "date": "2025-01-31",
+      "url": "https://jakartaglobe.id/tech/from-openai-to-deepseek-indonesia-drafts-regulation-on-ai"
+    },
+    {
+      "id": "indonesia-news-4",
+      "headline": "Indonesia Expected to Complete AI Regulations Draft This Month",
+      "source": "Tempo.co",
+      "date": "2025-09-19",
+      "url": "https://en.tempo.co/amp/2050472/indonesia-expected-to-complete-ai-regulations-draft-this-month"
+    },
+    {
+      "id": "indonesia-news-5",
+      "headline": "Two priority AI presidential decrees to be signed by Prabowo in early 2026",
+      "source": "The Legal Wire",
+      "date": "2026-01-22",
+      "url": "https://thelegalwire.ai/two-priority-ai-presidential-decrees-to-be-signed-by-prabowo-in-early-2026/"
+    },
+    {
+      "id": "indonesia-news-6",
+      "headline": "AI rules pushed to 2026 as govt charts next move",
+      "source": "The Jakarta Post",
+      "date": "2025-10-29",
+      "url": "https://www.thejakartapost.com/business/2025/10/29/ai-rules-pushed-to-2026-as-govt-charts-next-move.html"
+    },
+    {
+      "id": "indonesia-news-7",
+      "headline": "Indonesia pushes back AI roadmap to early 2026, ethics first amid pressure to move faster",
+      "source": "Complete AI Training",
+      "date": "2025-11-14",
+      "url": "https://completeaitraining.com/news/indonesia-pushes-back-ai-roadmap-to-early-2026-ethics-first/"
+    },
+    {
+      "id": "indonesia-news-8",
+      "headline": "Indonesia's AI regulatory ambitions will face enforcement realities",
+      "source": "MLex",
+      "date": "2026-02-17",
+      "url": "https://www.mlex.com/mlex/articles/2446189/indonesia-s-ai-regulatory-ambitions-will-face-enforcement-realities"
+    }
+  ],
+  "stanceZoning": "favorable",
+  "stanceAffordability": "review"
+}

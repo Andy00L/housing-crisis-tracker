@@ -1,0 +1,109 @@
+[
+  {
+    "id": "licking-county-oh",
+    "name": "Licking County",
+    "fips": "39089",
+    "state": "Ohio",
+    "stateCode": "OH",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(New Albany) Data center expansion approvals for Google, Meta, and others",
+        "date": "2024-03-01",
+        "status": "enacted",
+        "summary": "New Albany, straddling Licking and Franklin counties, has continued approving large-scale data center campus expansions, with Google and others investing billions in new facilities in the area's data center corridor.",
+        "sourceUrl": "https://www.dispatch.com/story/business/2024/05/16/google-data-center-new-albany-ohio-expansion/73aborting716007/"
+      },
+      {
+        "title": "(Jersey Township) Residents push back on data center zoning near homes",
+        "date": "2024-06-01",
+        "status": "under-review",
+        "summary": "Residents of Jersey Township in Licking County raised concerns about noise, property values, and water usage as data center development expanded into previously rural residential areas near New Albany's data center zone.",
+        "sourceUrl": "https://www.nbc4i.com/news/local-news/licking-county/jersey-township-residents-voice-concerns-over-data-center-expansion/"
+      }
+    ],
+    "concerns": [
+      "noise-vibration",
+      "water-consumption",
+      "grid-capacity",
+      "residential-proximity",
+      "property-values",
+      "local-zoning",
+      "tax-incentives"
+    ],
+    "contextBlurb": "Licking County is at the epicenter of Ohio's data center boom, driven by the New Albany area's massive data center corridor hosting Google, Meta, and others. Rapid expansion into adjacent townships like Jersey Township has prompted resident pushback over noise, water use, and residential proximity."
+  },
+  {
+    "id": "franklin-county-oh",
+    "name": "Franklin County",
+    "fips": "39049",
+    "state": "Ohio",
+    "stateCode": "OH",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Columbus) Amazon AWS data center campus expansion",
+        "date": "2024-08-01",
+        "status": "enacted",
+        "summary": "Amazon Web Services announced a $7.8 billion investment to expand its data center operations in central Ohio, including facilities in the Columbus metro area, receiving state and local tax incentive support.",
+        "sourceUrl": "https://www.aboutamazon.com/news/aws/aws-ohio-data-center-investment"
+      }
+    ],
+    "concerns": [
+      "tax-incentives",
+      "economic-development",
+      "job-creation",
+      "grid-capacity",
+      "energy-rates"
+    ],
+    "contextBlurb": "Franklin County, home to Columbus, has benefited from massive AWS and other cloud provider investments. The county and state have offered significant tax incentives to attract billions in data center spending, though questions about grid capacity and energy costs have emerged."
+  },
+  {
+    "id": "dublin-union-county-oh",
+    "name": "Union County",
+    "fips": "39159",
+    "state": "Ohio",
+    "stateCode": "OH",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Jerome Township) Residents oppose proposed data center rezoning",
+        "date": "2024-09-01",
+        "status": "under-review",
+        "summary": "Residents in Jerome Township in Union County near Dublin opposed proposed rezoning for a large data center project, citing noise, traffic, and incompatibility with agricultural and residential character.",
+        "sourceUrl": "https://www.thisweeknews.com/story/news/local/dublin/2024/09/12/jerome-township-residents-oppose-data-center-rezoning/75174182007/"
+      }
+    ],
+    "concerns": [
+      "local-zoning",
+      "noise-vibration",
+      "residential-proximity",
+      "local-control"
+    ],
+    "contextBlurb": "Union County, northwest of Columbus, has seen data center interest spill over from the booming central Ohio market. Residents in Jerome Township have pushed back against rezoning proposals that would convert agricultural land to industrial data center use."
+  },
+  {
+    "id": "hamilton-county-oh",
+    "name": "Hamilton County",
+    "fips": "39061",
+    "state": "Ohio",
+    "stateCode": "OH",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Cincinnati) QTS data center campus development and tax abatement",
+        "date": "2024-01-01",
+        "status": "enacted",
+        "summary": "QTS Realty Trust continued expanding its Cincinnati-area data center campus with local tax incentive agreements supporting multi-hundred-million-dollar investments in the region.",
+        "sourceUrl": "https://www.bizjournals.com/cincinnati/news/2024/01/23/qts-data-centers-expansion-cincinnati.html"
+      }
+    ],
+    "concerns": [
+      "tax-incentives",
+      "economic-development",
+      "grid-capacity",
+      "job-creation"
+    ],
+    "contextBlurb": "Hamilton County and the Cincinnati metro area have attracted data center investment from QTS and other operators, leveraging tax abatements and available power infrastructure to grow the region's digital economy."
+  }
+]

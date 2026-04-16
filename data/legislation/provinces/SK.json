@@ -1,0 +1,44 @@
+{
+  "state": "Saskatchewan",
+  "stateCode": "SK",
+  "region": "na",
+  "stance": "review",
+  "stanceZoning": "none",
+  "stanceAffordability": "review",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Saskatchewan's housing legislative activity includes Bill No. 608, The Rent Control Act, 2025, introduced by April ChiefCalf, and Bill No. 45, which makes consequential amendments to The Residential Tenancies Act, 2006 related to housing co-operatives. The province is also operating under The Saskatchewan Housing Action Plan 2025-2028, the final three-year action plan under the NHS Bilateral Agreement, outlining housing objectives through 2028.",
+  "legislation": [
+    {
+      "id": "sk-saskatchewan-housing-action-plan-2025-2028",
+      "billCode": "Saskatchewan Housing Action Plan 2025-2028",
+      "title": "The Saskatchewan Housing Action Plan 2025-2028",
+      "summary": "The final three-year action plan under the NHS Bilateral Agreement, outlining Saskatchewan's housing objectives and affordability initiatives through 2028.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://publications.saskatchewan.ca/api/v1/products/126063/formats/147555/download",
+      "sponsors": []
+    },
+    {
+      "id": "sk-bill-no--608",
+      "billCode": "Bill No. 608",
+      "title": "The Rent Control Act, 2025",
+      "summary": "Amends The Residential Tenancies Act and introduces rent control provisions under a new section 54.1. Introduced by April ChiefCalf.",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2026-04-15",
+      "sourceUrl": "https://docs.legassembly.sk.ca/legdocs/Bills/30L2S/Bill30-608.pdf",
+      "sponsors": [
+        "April ChiefCalf"
+      ]
+    }
+  ]
+}

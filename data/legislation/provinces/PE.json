@@ -1,0 +1,42 @@
+{
+  "state": "Prince Edward Island",
+  "stateCode": "PE",
+  "region": "na",
+  "stance": "review",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "review",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Prince Edward Island's housing policy is guided by the Building Together – PEI Housing Strategy 2024-2026, supported by a CMHC-PEI Three Year Action Plan (2026-2028). The 2026 Capital Budget allocates $128.3 million for affordable public housing investment, and the Affordable Housing Development Program offers forgivable loans of up to $55,000 per unit to increase housing supply. The province has also partnered with the community housing sector and operates programs under the Housing Corporation Act.",
+  "legislation": [
+    {
+      "id": "pe-housing-corporation-act---funding-agmt",
+      "billCode": "Housing Corporation Act – Funding Agmt",
+      "title": "Housing Corporation Act – Funding Agreement with PEI Community Housing Development Inc.",
+      "summary": "An Order in Council under the Housing Corporation Act establishing a funding agreement with PEI Community Housing Development Inc. to support community housing development.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-01-06",
+      "sourceUrl": "https://www.princeedwardisland.ca/sites/default/files/5190/Orders26Index_17.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "pe-pei-housing-strategy-2024-2026",
+      "billCode": "PEI Housing Strategy 2024-2026",
+      "title": "Building Together – Prince Edward Island Housing Strategy 2024-2026",
+      "summary": "A multi-year provincial housing strategy focused on accelerating housing supply, affordability, and infrastructure, with progress reported annually.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "transit-oriented"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.princeedwardisland.ca/sites/default/files/c955/PEI%20Housing%20Strategy_24-25%20Progress%20Report.pdf",
+      "sponsors": []
+    }
+  ]
+}

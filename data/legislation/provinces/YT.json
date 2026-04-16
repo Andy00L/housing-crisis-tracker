@@ -1,0 +1,57 @@
+{
+  "state": "Yukon",
+  "stateCode": "YT",
+  "region": "na",
+  "stance": "review",
+  "stanceZoning": "none",
+  "stanceAffordability": "review",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Yukon's housing policy landscape in 2025 is anchored by the new Residential Tenancies Act, which came into effect September 1, 2025, replacing the Residential Landlord and Tenant Act and eliminating 'without cause' evictions. Appropriation Acts 2025-0004 and 2025-0010 authorized significant public expenditures including housing-related funding. The Yukon Housing Corporation continues to table annual reports as required by legislation and is expanding supportive housing programs in partnership with organizations such as Safe at Home Society.",
+  "legislation": [
+    {
+      "id": "yt-2025-0010",
+      "billCode": "2025-0010",
+      "title": "Second Appropriation Act 2025-26",
+      "summary": "Authorizes supplementary spending of up to $183,417,000 from the Yukon Treasury for the 2025-26 fiscal year, supplementing amounts already authorized by earlier appropriation.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-01",
+      "sourceUrl": "https://laws.yukon.ca/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0010/2025-0010_1.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "yt-safe-and-supportive-housing-program--5131-5th-ave-",
+      "billCode": "Safe and Supportive Housing Program (5131 5th Ave)",
+      "title": "Safe and Supportive Housing Program at 5131 5th Avenue",
+      "summary": "A government-funded supportive housing program launched July 1, 2025 in partnership with Safe at Home Society at 5131 5th Avenue in Whitehorse, expanding on an existing 17-unit program at 408 Alexander Street that began December 1, 2024.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "homelessness"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2025-07-01",
+      "sourceUrl": "https://yukon.ca/en/news/safe-and-supportive-housing-program-launches-5131-5th-avenue",
+      "sponsors": []
+    },
+    {
+      "id": "yt-2025-0004",
+      "billCode": "2025-0004",
+      "title": "First Appropriation Act 2025-26",
+      "summary": "Authorizes payment of up to $2,355,332,000 from the consolidated revenue fund to cover government charges for the 2025-26 fiscal year, including housing-related expenditures.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://laws.yukon.ca/cms/images/LEGISLATION/PRINCIPAL/2025/2025-0004/2025-0004.pdf",
+      "sponsors": []
+    }
+  ]
+}

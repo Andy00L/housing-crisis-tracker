@@ -1,0 +1,97 @@
+[
+  {
+    "id": "prince-william-county-wa",
+    "name": "Grant County",
+    "fips": "53025",
+    "state": "Washington",
+    "stateCode": "WA",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Quincy) Data center moratorium discussion amid power constraints",
+        "date": "2024-06-01",
+        "status": "under-review",
+        "summary": "The city of Quincy in Grant County, long a hub for major data centers from Microsoft and others, has faced growing concerns about grid capacity as AI-driven demand surges. Local officials and the Grant County PUD have debated limits on new data center power allocations.",
+        "sourceUrl": "https://www.datacenterdynamics.com/en/news/grant-county-pud-washington-state-struggles-to-keep-up-with-data-center-power-demand/"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "energy-rates",
+      "water-consumption",
+      "economic-development"
+    ],
+    "contextBlurb": "Grant County has been one of the Pacific Northwest's premier data center corridors, drawn by cheap hydropower. Surging AI workload demand has strained the Grant County PUD's ability to supply power, sparking local debate about growth limits and rate impacts on residential customers."
+  },
+  {
+    "id": "douglas-county-wa",
+    "name": "Douglas County",
+    "fips": "53017",
+    "state": "Washington",
+    "stateCode": "WA",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(East Wenatchee) Douglas County PUD power allocation constraints for data centers",
+        "date": "2024-08-01",
+        "status": "under-review",
+        "summary": "Douglas County PUD, which serves another major central Washington data center cluster, has been evaluating its capacity to meet growing demand from crypto mining and AI data center operators, with discussions on whether to limit new large-load interconnections.",
+        "sourceUrl": "https://www.wenatcheeworld.com/news/douglas-county-pud-stops-accepting-new-large-power-loads/article_88a79736-3a3d-11ef-9c0e-5f2e3f2c9a9e.html"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "energy-rates",
+      "water-consumption"
+    ],
+    "contextBlurb": "Douglas County, adjacent to Grant County in central Washington, has attracted data center operators thanks to inexpensive Columbia River hydropower. The Douglas County PUD has at times paused accepting new large-load customers as demand from AI and crypto facilities outstrips supply."
+  },
+  {
+    "id": "chelan-county-wa",
+    "name": "Chelan County",
+    "fips": "53007",
+    "state": "Washington",
+    "stateCode": "WA",
+    "type": "county",
+    "actions": [
+      {
+        "title": "Chelan County PUD rate increases and load management for data centers",
+        "date": "2024-01-01",
+        "status": "enacted",
+        "summary": "Chelan County PUD has implemented tiered electricity rate structures and load management policies aimed at ensuring data center and crypto mining operations pay rates that reflect the strain on the local grid and do not subsidize large industrial loads at residential ratepayers' expense.",
+        "sourceUrl": "https://www.chelanpud.org/about-us/newsroom"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "energy-rates",
+      "noise-vibration",
+      "residential-proximity"
+    ],
+    "contextBlurb": "Chelan County, home to Wenatchee and major hydroelectric dams, became an early hotspot for crypto mining and data centers. The local PUD has adopted rate and policy changes to manage large power consumers, which are now relevant as AI data center demand grows."
+  },
+  {
+    "id": "king-county-wa",
+    "name": "King County",
+    "fips": "53033",
+    "state": "Washington",
+    "stateCode": "WA",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(City of Seattle) Seattle City Light evaluating data center power demand impacts",
+        "date": "2025-02-01",
+        "status": "under-review",
+        "summary": "Seattle City Light and King County officials have been assessing the growing power demands of data center expansion in the Puget Sound region, including potential impacts on the utility's integrated resource plan and carbon commitments.",
+        "sourceUrl": "https://www.seattletimes.com/business/technology/ai-is-fueling-a-data-center-boom-can-the-northwest-power-grid-handle-it/"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "carbon-emissions",
+      "renewable-energy",
+      "economic-development"
+    ],
+    "contextBlurb": "King County and the greater Seattle metro area are home to major tech campuses and colocation data centers. The surge in AI computing demand has prompted utilities and local governments to reconsider grid planning and sustainability targets."
+  }
+]

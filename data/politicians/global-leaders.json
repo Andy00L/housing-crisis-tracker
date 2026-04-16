@@ -1,0 +1,102 @@
+{
+  "generatedAt": "2026-04-13",
+  "note": "Hand-curated executive/world-leader entries — not legislators, but unavoidable on any AI-policy tracker.",
+  "politicians": [
+    {
+      "id": "global-trump",
+      "name": "Donald Trump",
+      "role": "President of the United States · 47th",
+      "party": "R",
+      "stance": "favorable",
+      "country": "US",
+      "chamber": "executive",
+      "constituency": "United States",
+      "photoUrl": "/politicians/trump.jpg",
+      "summary": "Trump rescinded Biden's 2023 AI safety executive order on day one and replaced it with the Stargate-aligned Removing Barriers to American Leadership in AI EO, which directs agencies to clear regulations slowing AI development. His administration has tied federal procurement and export-control posture to American AI dominance, while pushing to expand domestic data-centre and chip-fab capacity.",
+      "keyPoints": [
+        "Executive Order 14179 (Jan. 2025): Removed Biden-era AI Bill of Rights guardrails and ordered agencies to identify rules that hinder AI development.",
+        "Endorsed the Stargate Project — a $500B private commitment to US AI data-centre buildout led by OpenAI, SoftBank, and Oracle.",
+        "Designated AI as a national-security priority in revised export-control posture toward China and PRC-aligned chip suppliers.",
+        "Backed expansion of federal lands for data-centre siting and accelerated NEPA review for AI infrastructure projects."
+      ],
+      "researchedBills": [
+        {
+          "code": "E.O. 14179",
+          "title": "Removing Barriers to American Leadership in Artificial Intelligence",
+          "role": "champion",
+          "year": 2025,
+          "summary": "Day-one executive order rescinding Biden's 2023 AI safety EO and directing agencies to identify and remove regulations that slow AI development."
+        },
+        {
+          "code": "E.O. 14141",
+          "title": "Advancing U.S. Leadership in AI Infrastructure",
+          "role": "champion",
+          "year": 2025,
+          "summary": "Opened federal lands for AI data-centre siting and accelerated NEPA environmental review for AI infrastructure."
+        },
+        {
+          "code": "Stargate",
+          "title": "Stargate Project (private-sector endorsement)",
+          "role": "champion",
+          "year": 2025,
+          "summary": "Publicly endorsed the $500B OpenAI/SoftBank/Oracle commitment to US AI data-centre buildout."
+        },
+        {
+          "code": "Chip EC",
+          "title": "Expanded AI chip export controls on China",
+          "role": "champion",
+          "year": 2025,
+          "summary": "Commerce Dept. rule tightening export licensing for advanced AI chips and HBM memory to PRC-aligned buyers."
+        }
+      ]
+    },
+    {
+      "id": "global-xi",
+      "name": "Xi Jinping",
+      "role": "General Secretary, Chinese Communist Party · President of China",
+      "party": "CCP",
+      "stance": "concerning",
+      "country": "CN",
+      "chamber": "executive",
+      "constituency": "China",
+      "photoUrl": "/politicians/xi.jpg",
+      "summary": "Xi has positioned AI as the centerpiece of China's strategic competition with the US, directing trillions in state and provincial investment into model training, chip self-sufficiency, and data-centre buildout. His administration's 2023 Generative AI Measures and 2024 AI Safety Governance Framework set the global benchmark for state-controlled AI deployment, conditioning model approval on alignment with 'core socialist values'.",
+      "keyPoints": [
+        "Generative AI Measures (Aug. 2023): China's first binding generative-AI rules, requiring CAC pre-approval and content alignment with state values.",
+        "AI Safety Governance Framework (Sept. 2024): Established a national risk taxonomy and inter-ministerial review for frontier models.",
+        "Approved Made in China 2025 follow-on chip-fab subsidies and Eastern Data, Western Computing data-centre relocation programme.",
+        "Frames AI primacy as a CCP-era national objective; routinely invoked in Politburo study sessions and PLA modernisation plans."
+      ],
+      "researchedBills": [
+        {
+          "code": "CAC-2023-Gen",
+          "title": "Interim Measures for the Management of Generative AI Services",
+          "role": "champion",
+          "year": 2023,
+          "summary": "First binding national rules on generative AI — requires CAC pre-approval and content alignment with 'core socialist values'."
+        },
+        {
+          "code": "AISGF-2024",
+          "title": "AI Safety Governance Framework (v1.0)",
+          "role": "champion",
+          "year": 2024,
+          "summary": "Established a national risk taxonomy and inter-ministerial review process for frontier model deployment."
+        },
+        {
+          "code": "EDWC",
+          "title": "Eastern Data, Western Computing national programme",
+          "role": "champion",
+          "year": 2022,
+          "summary": "State-directed relocation of data-centre buildout to Western China, tying approval to renewable-power sites."
+        },
+        {
+          "code": "MIC-2025",
+          "title": "Made in China 2025 follow-on chip-fab subsidies",
+          "role": "champion",
+          "year": 2024,
+          "summary": "Expanded state subsidies for domestic AI chip fabrication as a counter to US export controls."
+        }
+      ]
+    }
+  ]
+}

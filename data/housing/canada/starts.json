@@ -1,0 +1,403 @@
+{
+  "table": "34100135",
+  "name": "Housing starts and completions",
+  "lastUpdated": "2026-01-21",
+  "geographies": {
+    "Canada": {
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 52859
+        },
+        {
+          "period": "2024-04",
+          "value": 65739
+        },
+        {
+          "period": "2024-07",
+          "value": 62135
+        },
+        {
+          "period": "2024-10",
+          "value": 64634
+        },
+        {
+          "period": "2025-01",
+          "value": 47309
+        },
+        {
+          "period": "2025-04",
+          "value": 74657
+        },
+        {
+          "period": "2025-07",
+          "value": 70446
+        },
+        {
+          "period": "2025-10",
+          "value": 66616
+        }
+      ]
+    },
+    "Newfoundland and Labrador": {
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 263
+        },
+        {
+          "period": "2024-04",
+          "value": 409
+        },
+        {
+          "period": "2024-07",
+          "value": 527
+        },
+        {
+          "period": "2024-10",
+          "value": 473
+        },
+        {
+          "period": "2025-01",
+          "value": 165
+        },
+        {
+          "period": "2025-04",
+          "value": 493
+        },
+        {
+          "period": "2025-07",
+          "value": 443
+        },
+        {
+          "period": "2025-10",
+          "value": 467
+        }
+      ]
+    },
+    "Prince Edward Island": {
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 394
+        },
+        {
+          "period": "2024-04",
+          "value": 317
+        },
+        {
+          "period": "2024-07",
+          "value": 626
+        },
+        {
+          "period": "2024-10",
+          "value": 357
+        },
+        {
+          "period": "2025-01",
+          "value": 423
+        },
+        {
+          "period": "2025-04",
+          "value": 328
+        },
+        {
+          "period": "2025-07",
+          "value": 700
+        },
+        {
+          "period": "2025-10",
+          "value": 318
+        }
+      ]
+    },
+    "Nova Scotia": {
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 2158
+        },
+        {
+          "period": "2024-04",
+          "value": 2360
+        },
+        {
+          "period": "2024-07",
+          "value": 1426
+        },
+        {
+          "period": "2024-10",
+          "value": 1437
+        },
+        {
+          "period": "2025-01",
+          "value": 1771
+        },
+        {
+          "period": "2025-04",
+          "value": 2717
+        },
+        {
+          "period": "2025-07",
+          "value": 2840
+        },
+        {
+          "period": "2025-10",
+          "value": 2432
+        }
+      ]
+    },
+    "New Brunswick": {
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 750
+        },
+        {
+          "period": "2024-04",
+          "value": 1608
+        },
+        {
+          "period": "2024-07",
+          "value": 2158
+        },
+        {
+          "period": "2024-10",
+          "value": 1653
+        },
+        {
+          "period": "2025-01",
+          "value": 1053
+        },
+        {
+          "period": "2025-04",
+          "value": 1829
+        },
+        {
+          "period": "2025-07",
+          "value": 2557
+        },
+        {
+          "period": "2025-10",
+          "value": 2148
+        }
+      ]
+    },
+    "Quebec": {
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 8300
+        },
+        {
+          "period": "2024-04",
+          "value": 14911
+        },
+        {
+          "period": "2024-07",
+          "value": 9688
+        },
+        {
+          "period": "2024-10",
+          "value": 15814
+        },
+        {
+          "period": "2025-01",
+          "value": 10588
+        },
+        {
+          "period": "2025-04",
+          "value": 17843
+        },
+        {
+          "period": "2025-07",
+          "value": 14548
+        },
+        {
+          "period": "2025-10",
+          "value": 16885
+        }
+      ]
+    },
+    "Ontario": {
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 18169
+        },
+        {
+          "period": "2024-04",
+          "value": 19256
+        },
+        {
+          "period": "2024-07",
+          "value": 20614
+        },
+        {
+          "period": "2024-10",
+          "value": 16534
+        },
+        {
+          "period": "2025-01",
+          "value": 11019
+        },
+        {
+          "period": "2025-04",
+          "value": 17327
+        },
+        {
+          "period": "2025-07",
+          "value": 19748
+        },
+        {
+          "period": "2025-10",
+          "value": 17282
+        }
+      ]
+    },
+    "Manitoba": {
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 1130
+        },
+        {
+          "period": "2024-04",
+          "value": 1977
+        },
+        {
+          "period": "2024-07",
+          "value": 2137
+        },
+        {
+          "period": "2024-10",
+          "value": 1947
+        },
+        {
+          "period": "2025-01",
+          "value": 1410
+        },
+        {
+          "period": "2025-04",
+          "value": 1823
+        },
+        {
+          "period": "2025-07",
+          "value": 2529
+        },
+        {
+          "period": "2025-10",
+          "value": 2141
+        }
+      ]
+    },
+    "Saskatchewan": {
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 704
+        },
+        {
+          "period": "2024-04",
+          "value": 932
+        },
+        {
+          "period": "2024-07",
+          "value": 1499
+        },
+        {
+          "period": "2024-10",
+          "value": 1184
+        },
+        {
+          "period": "2025-01",
+          "value": 1316
+        },
+        {
+          "period": "2025-04",
+          "value": 1592
+        },
+        {
+          "period": "2025-07",
+          "value": 1713
+        },
+        {
+          "period": "2025-10",
+          "value": 1529
+        }
+      ]
+    },
+    "Alberta": {
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 9940
+        },
+        {
+          "period": "2024-04",
+          "value": 11879
+        },
+        {
+          "period": "2024-07",
+          "value": 12621
+        },
+        {
+          "period": "2024-10",
+          "value": 13387
+        },
+        {
+          "period": "2025-01",
+          "value": 11708
+        },
+        {
+          "period": "2025-04",
+          "value": 17000
+        },
+        {
+          "period": "2025-07",
+          "value": 13230
+        },
+        {
+          "period": "2025-10",
+          "value": 12920
+        }
+      ]
+    },
+    "British Columbia": {
+      "values": [
+        {
+          "period": "2024-01",
+          "value": 11051
+        },
+        {
+          "period": "2024-04",
+          "value": 12090
+        },
+        {
+          "period": "2024-07",
+          "value": 10839
+        },
+        {
+          "period": "2024-10",
+          "value": 11848
+        },
+        {
+          "period": "2025-01",
+          "value": 7856
+        },
+        {
+          "period": "2025-04",
+          "value": 13705
+        },
+        {
+          "period": "2025-07",
+          "value": 12138
+        },
+        {
+          "period": "2025-10",
+          "value": 10494
+        }
+      ]
+    }
+  }
+}

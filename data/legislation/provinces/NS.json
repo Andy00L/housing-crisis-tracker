@@ -1,0 +1,123 @@
+{
+  "state": "Nova Scotia",
+  "stateCode": "NS",
+  "region": "na",
+  "stance": "favorable",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Nova Scotia's housing policy is guided by the 'Our Homes, Action for Housing' five-year plan, which as of September 2025 had enabled 68,841 new units against a target of 41,200. Key legislative tools include the Housing Supply and Services Act and the Housing in Halifax Regional Municipality Act, with recent amendments in February 2026 extending the Executive Panel on Housing and granting the Minister of Housing new powers to accelerate supply.",
+  "legislation": [
+    {
+      "id": "ns-housing-supply-and-services-act",
+      "billCode": "Housing Supply and Services Act",
+      "title": "Housing Supply and Services Act",
+      "summary": "Provides the legislative framework for housing supply initiatives in Nova Scotia; amended in February 2026 to give the Minister of Housing new authority to prevent delays in housing projects.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "development-incentive",
+      "updatedDate": "2026-02-27",
+      "sourceUrl": "https://news.novascotia.ca/en/2026/02/27/province-strengthens-housing-legislation-accelerate-supply",
+      "sponsors": [
+        "John White"
+      ]
+    },
+    {
+      "id": "ns-housing-in-halifax-regional-municipality-act",
+      "billCode": "Housing in Halifax Regional Municipality Act",
+      "title": "Housing in Halifax Regional Municipality Act",
+      "summary": "Establishes the Executive Panel on Housing in the Halifax Regional Municipality; amended in February 2026 to extend the panel's mandate and reduce barriers to housing approvals.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-02-27",
+      "sourceUrl": "https://news.novascotia.ca/en/2026/02/27/province-strengthens-housing-legislation-accelerate-supply",
+      "sponsors": [
+        "John White"
+      ]
+    },
+    {
+      "id": "ns-shannon-park-affordable-housing-investment",
+      "billCode": "Shannon Park Affordable Housing Investment",
+      "title": "Shannon Park Generational Affordable Housing Investment",
+      "summary": "A $300-million joint provincial-federal investment announced December 14, 2025, to build 1,430 new homes across Nova Scotia, with 930 located at Shannon Park in Dartmouth.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "development-incentive",
+      "updatedDate": "2025-12-14",
+      "sourceUrl": "https://news.novascotia.ca/en/2025/12/14/province-invests-generational-affordable-housing-shannon-park",
+      "sponsors": [
+        "John White"
+      ]
+    },
+    {
+      "id": "ns-our-homes--action-for-housing-plan",
+      "billCode": "Our Homes, Action for Housing Plan",
+      "title": "Our Homes, Action for Housing Plan",
+      "summary": "Nova Scotia's five-year housing plan with 12 key actions targeting 41,200 new units and affordability improvements; as of July 2025 the plan had paved the way for over 68,841 new units.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-09-24",
+      "sourceUrl": "https://news.novascotia.ca/en/2025/09/24/housing-plan-track-meet-or-exceed-goals",
+      "sponsors": []
+    },
+    {
+      "id": "ns-rgi-public-housing-program--2023--",
+      "billCode": "RGI Public Housing Program (2023–)",
+      "title": "Rent-Geared-to-Income Public Housing Units Program",
+      "summary": "Since 2023, the Province has committed to building 515 new rent-geared-to-income public housing units across Nova Scotia to provide homes for more than 1,300 residents.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-07-31",
+      "sourceUrl": "https://novascotia.ca/action-for-housing/docs/action-for-housing-progress-report-2025-07.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "ns-community-housing-acquisition-program",
+      "billCode": "Community Housing Acquisition Program",
+      "title": "Community Housing Acquisition Program",
+      "summary": "Provincial program providing low-interest mortgages and funding to community organizations to acquire and preserve affordable housing units across Nova Scotia.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-05-23",
+      "sourceUrl": "https://news.novascotia.ca/en/2025/05/23/funding-affordable-housing-annapolis-valley",
+      "sponsors": []
+    },
+    {
+      "id": "ns-short-term-rental-registration-regulations",
+      "billCode": "Short-term Rental Registration Regulations",
+      "title": "Short-term Rentals Registration Regulations",
+      "summary": "Requires all short-term accommodations offering rentals of 28 consecutive days or less to register to operate in Nova Scotia; includes enforcement and appeals processes.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://novascotia.ca/just/regulations/regs/strentals.htm",
+      "sponsors": []
+    }
+  ]
+}

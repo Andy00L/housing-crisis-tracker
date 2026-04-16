@@ -1,0 +1,376 @@
+{
+  "source": "US Census Bureau, American Community Survey 1-Year Estimates",
+  "year": 2023,
+  "lastUpdated": "2026-04-16",
+  "fields": {
+    "medianHomeValue": "B25077_001E — Median value (dollars) of owner-occupied housing units",
+    "medianGrossRent": "B25064_001E — Median gross rent (dollars)",
+    "totalHousingUnits": "B25001_001E — Total housing units"
+  },
+  "states": [
+    {
+      "name": "Alabama",
+      "fips": "01",
+      "medianHomeValue": 216600,
+      "medianGrossRent": 982,
+      "totalHousingUnits": 2360120
+    },
+    {
+      "name": "Alaska",
+      "fips": "02",
+      "medianHomeValue": 347500,
+      "medianGrossRent": 1373,
+      "totalHousingUnits": 329681
+    },
+    {
+      "name": "Arizona",
+      "fips": "04",
+      "medianHomeValue": 411200,
+      "medianGrossRent": 1608,
+      "totalHousingUnits": 3239474
+    },
+    {
+      "name": "Arkansas",
+      "fips": "05",
+      "medianHomeValue": 195700,
+      "medianGrossRent": 933,
+      "totalHousingUnits": 1409104
+    },
+    {
+      "name": "California",
+      "fips": "06",
+      "medianHomeValue": 725800,
+      "medianGrossRent": 1992,
+      "totalHousingUnits": 14762527
+    },
+    {
+      "name": "Colorado",
+      "fips": "08",
+      "medianHomeValue": 550300,
+      "medianGrossRent": 1771,
+      "totalHousingUnits": 2638093
+    },
+    {
+      "name": "Connecticut",
+      "fips": "09",
+      "medianHomeValue": 367800,
+      "medianGrossRent": 1463,
+      "totalHousingUnits": 1546010
+    },
+    {
+      "name": "Delaware",
+      "fips": "10",
+      "medianHomeValue": 359700,
+      "medianGrossRent": 1358,
+      "totalHousingUnits": 471472
+    },
+    {
+      "name": "District of Columbia",
+      "fips": "11",
+      "medianHomeValue": 715500,
+      "medianGrossRent": 1904,
+      "totalHousingUnits": 367125
+    },
+    {
+      "name": "Florida",
+      "fips": "12",
+      "medianHomeValue": 381000,
+      "medianGrossRent": 1719,
+      "totalHousingUnits": 10451823
+    },
+    {
+      "name": "Georgia",
+      "fips": "13",
+      "medianHomeValue": 323000,
+      "medianGrossRent": 1400,
+      "totalHousingUnits": 4610506
+    },
+    {
+      "name": "Hawaii",
+      "fips": "15",
+      "medianHomeValue": 846400,
+      "medianGrossRent": 1940,
+      "totalHousingUnits": 572042
+    },
+    {
+      "name": "Idaho",
+      "fips": "16",
+      "medianHomeValue": 428600,
+      "medianGrossRent": 1256,
+      "totalHousingUnits": 815304
+    },
+    {
+      "name": "Illinois",
+      "fips": "17",
+      "medianHomeValue": 263300,
+      "medianGrossRent": 1238,
+      "totalHousingUnits": 5470727
+    },
+    {
+      "name": "Indiana",
+      "fips": "18",
+      "medianHomeValue": 225900,
+      "medianGrossRent": 1044,
+      "totalHousingUnits": 3002580
+    },
+    {
+      "name": "Iowa",
+      "fips": "19",
+      "medianHomeValue": 213300,
+      "medianGrossRent": 949,
+      "totalHousingUnits": 1448736
+    },
+    {
+      "name": "Kansas",
+      "fips": "20",
+      "medianHomeValue": 219800,
+      "medianGrossRent": 1036,
+      "totalHousingUnits": 1299931
+    },
+    {
+      "name": "Kentucky",
+      "fips": "21",
+      "medianHomeValue": 211800,
+      "medianGrossRent": 929,
+      "totalHousingUnits": 2036559
+    },
+    {
+      "name": "Louisiana",
+      "fips": "22",
+      "medianHomeValue": 215600,
+      "medianGrossRent": 1020,
+      "totalHousingUnits": 2124930
+    },
+    {
+      "name": "Maine",
+      "fips": "23",
+      "medianHomeValue": 310700,
+      "medianGrossRent": 1189,
+      "totalHousingUnits": 757424
+    },
+    {
+      "name": "Maryland",
+      "fips": "24",
+      "medianHomeValue": 413600,
+      "medianGrossRent": 1651,
+      "totalHousingUnits": 2572382
+    },
+    {
+      "name": "Massachusetts",
+      "fips": "25",
+      "medianHomeValue": 570800,
+      "medianGrossRent": 1757,
+      "totalHousingUnits": 3045867
+    },
+    {
+      "name": "Michigan",
+      "fips": "26",
+      "medianHomeValue": 236100,
+      "medianGrossRent": 1101,
+      "totalHousingUnits": 4642957
+    },
+    {
+      "name": "Minnesota",
+      "fips": "27",
+      "medianHomeValue": 328600,
+      "medianGrossRent": 1264,
+      "totalHousingUnits": 2574932
+    },
+    {
+      "name": "Mississippi",
+      "fips": "28",
+      "medianHomeValue": 169800,
+      "medianGrossRent": 898,
+      "totalHousingUnits": 1350552
+    },
+    {
+      "name": "Missouri",
+      "fips": "29",
+      "medianHomeValue": 233600,
+      "medianGrossRent": 1019,
+      "totalHousingUnits": 2844440
+    },
+    {
+      "name": "Montana",
+      "fips": "30",
+      "medianHomeValue": 392300,
+      "medianGrossRent": 1083,
+      "totalHousingUnits": 535481
+    },
+    {
+      "name": "Nebraska",
+      "fips": "31",
+      "medianHomeValue": 245200,
+      "medianGrossRent": 1042,
+      "totalHousingUnits": 873525
+    },
+    {
+      "name": "Nevada",
+      "fips": "32",
+      "medianHomeValue": 441100,
+      "medianGrossRent": 1622,
+      "totalHousingUnits": 1348248
+    },
+    {
+      "name": "New Hampshire",
+      "fips": "33",
+      "medianHomeValue": 415400,
+      "medianGrossRent": 1517,
+      "totalHousingUnits": 653070
+    },
+    {
+      "name": "New Jersey",
+      "fips": "34",
+      "medianHomeValue": 461000,
+      "medianGrossRent": 1667,
+      "totalHousingUnits": 3803652
+    },
+    {
+      "name": "New Mexico",
+      "fips": "35",
+      "medianHomeValue": 256300,
+      "medianGrossRent": 1084,
+      "totalHousingUnits": 965373
+    },
+    {
+      "name": "New York",
+      "fips": "36",
+      "medianHomeValue": 420200,
+      "medianGrossRent": 1561,
+      "totalHousingUnits": 8631232
+    },
+    {
+      "name": "North Carolina",
+      "fips": "37",
+      "medianHomeValue": 308600,
+      "medianGrossRent": 1245,
+      "totalHousingUnits": 4979177
+    },
+    {
+      "name": "North Dakota",
+      "fips": "38",
+      "medianHomeValue": 246700,
+      "medianGrossRent": 916,
+      "totalHousingUnits": 378124
+    },
+    {
+      "name": "Ohio",
+      "fips": "39",
+      "medianHomeValue": 220200,
+      "medianGrossRent": 1014,
+      "totalHousingUnits": 5317134
+    },
+    {
+      "name": "Oklahoma",
+      "fips": "40",
+      "medianHomeValue": 208600,
+      "medianGrossRent": 1020,
+      "totalHousingUnits": 1788886
+    },
+    {
+      "name": "Oregon",
+      "fips": "41",
+      "medianHomeValue": 484800,
+      "medianGrossRent": 1481,
+      "totalHousingUnits": 1879510
+    },
+    {
+      "name": "Pennsylvania",
+      "fips": "42",
+      "medianHomeValue": 259900,
+      "medianGrossRent": 1197,
+      "totalHousingUnits": 5839797
+    },
+    {
+      "name": "Rhode Island",
+      "fips": "44",
+      "medianHomeValue": 411800,
+      "medianGrossRent": 1365,
+      "totalHousingUnits": 487127
+    },
+    {
+      "name": "South Carolina",
+      "fips": "45",
+      "medianHomeValue": 272900,
+      "medianGrossRent": 1170,
+      "totalHousingUnits": 2490327
+    },
+    {
+      "name": "South Dakota",
+      "fips": "46",
+      "medianHomeValue": 268200,
+      "medianGrossRent": 921,
+      "totalHousingUnits": 417187
+    },
+    {
+      "name": "Tennessee",
+      "fips": "47",
+      "medianHomeValue": 307300,
+      "medianGrossRent": 1214,
+      "totalHousingUnits": 3195170
+    },
+    {
+      "name": "Texas",
+      "fips": "48",
+      "medianHomeValue": 296900,
+      "medianGrossRent": 1413,
+      "totalHousingUnits": 12394809
+    },
+    {
+      "name": "Utah",
+      "fips": "49",
+      "medianHomeValue": 517700,
+      "medianGrossRent": 1551,
+      "totalHousingUnits": 1258529
+    },
+    {
+      "name": "Vermont",
+      "fips": "50",
+      "medianHomeValue": 332000,
+      "medianGrossRent": 1202,
+      "totalHousingUnits": 341357
+    },
+    {
+      "name": "Virginia",
+      "fips": "51",
+      "medianHomeValue": 382900,
+      "medianGrossRent": 1567,
+      "totalHousingUnits": 3717625
+    },
+    {
+      "name": "Washington",
+      "fips": "53",
+      "medianHomeValue": 576000,
+      "medianGrossRent": 1731,
+      "totalHousingUnits": 3361561
+    },
+    {
+      "name": "West Virginia",
+      "fips": "54",
+      "medianHomeValue": 163700,
+      "medianGrossRent": 850,
+      "totalHousingUnits": 863756
+    },
+    {
+      "name": "Wisconsin",
+      "fips": "55",
+      "medianHomeValue": 272500,
+      "medianGrossRent": 1071,
+      "totalHousingUnits": 2787388
+    },
+    {
+      "name": "Wyoming",
+      "fips": "56",
+      "medianHomeValue": 298700,
+      "medianGrossRent": 1000,
+      "totalHousingUnits": 280119
+    },
+    {
+      "name": "Puerto Rico",
+      "fips": "72",
+      "medianHomeValue": 131500,
+      "medianGrossRent": 557,
+      "totalHousingUnits": 1613134
+    }
+  ]
+}

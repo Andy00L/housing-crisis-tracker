@@ -1,0 +1,73 @@
+[
+  {
+    "id": "hardin-county-ky",
+    "name": "Hardin County",
+    "fips": "21093",
+    "state": "Kentucky",
+    "stateCode": "KY",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Elizabethtown) Envision AESC gigafactory and data center development incentives",
+        "date": "2024-06-01",
+        "status": "enacted",
+        "summary": "Hardin County and the city of Elizabethtown have been central to major economic development incentive packages tied to large-scale industrial and technology facilities, including battery and data-related manufacturing investments in the Glendale area.",
+        "sourceUrl": "https://www.lanereport.com/175091/2024/06/05/hardin-county-industrial-growth-continues/"
+      }
+    ],
+    "concerns": [
+      "tax-incentives",
+      "economic-development",
+      "grid-capacity",
+      "job-creation"
+    ],
+    "contextBlurb": "Hardin County has become a hub for major industrial investment in central Kentucky, anchored by the Glendale mega-site. Local officials have approved various incentive packages to attract large-scale facilities that stress electricity infrastructure."
+  },
+  {
+    "id": "jefferson-county-ky",
+    "name": "Jefferson County",
+    "fips": "21111",
+    "state": "Kentucky",
+    "stateCode": "KY",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Louisville) Louisville Gas & Electric planning for data center load growth",
+        "date": "2024-09-01",
+        "status": "under-review",
+        "summary": "Louisville Gas & Electric (LG&E), serving Jefferson County, has filed updated integrated resource plans reflecting surging demand from data center and industrial customers, prompting public scrutiny over energy rates and grid capacity.",
+        "sourceUrl": "https://psc.ky.gov/Home/Library"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "energy-rates",
+      "carbon-emissions"
+    ],
+    "contextBlurb": "Jefferson County, home to Louisville, has seen growing interest from data center developers drawn by relatively affordable electricity. Utility planning processes are under review as demand projections shift upward."
+  },
+  {
+    "id": "scott-county-ky",
+    "name": "Scott County",
+    "fips": "21209",
+    "state": "Kentucky",
+    "stateCode": "KY",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Georgetown) Approval of data center campus near Toyota supplier corridor",
+        "date": "2025-01-01",
+        "status": "enacted",
+        "summary": "Scott County fiscal court and Georgetown officials have approved zoning and development plans for data center facilities in the industrial corridor, leveraging Kentucky's competitive electricity rates and available land.",
+        "sourceUrl": "https://www.kentucky.com/news/business/article297062489.html"
+      }
+    ],
+    "concerns": [
+      "local-zoning",
+      "economic-development",
+      "grid-capacity",
+      "tax-incentives"
+    ],
+    "contextBlurb": "Scott County, near Lexington, has attracted data center interest due to its industrial infrastructure, access to fiber, and proximity to Kentucky Utilities power supply. Local zoning decisions have facilitated new campus-style developments."
+  }
+]

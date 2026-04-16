@@ -1,0 +1,4022 @@
+{
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "region": "eu",
+  "lastUpdated": "2026-04-16",
+  "legislation": [
+    {
+      "id": "uk-3755",
+      "billCode": "UK-3755",
+      "title": "House of Lords (Hereditary Peers) Act 2026",
+      "summary": "House of Lords (Hereditary Peers) Act 2026",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-03-20",
+      "sourceUrl": "https://bills.parliament.uk/bills/3755",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3764",
+      "billCode": "UK-3764",
+      "title": "Renters’ Rights Act 2025",
+      "summary": "Renters’ Rights Act 2025",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-02-27",
+      "sourceUrl": "https://bills.parliament.uk/bills/3764",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3946",
+      "billCode": "UK-3946",
+      "title": "Planning and Infrastructure Act 2025",
+      "summary": "Planning and Infrastructure Act 2025",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-02-19",
+      "sourceUrl": "https://bills.parliament.uk/bills/3946",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3772",
+      "billCode": "UK-3772",
+      "title": "Institute for Apprenticeships and Technical Education (Transfer of Functions etc) Act 2025",
+      "summary": "Institute for Apprenticeships and Technical Education (Transfer of Functions etc) Act 2025",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-05-16",
+      "sourceUrl": "https://bills.parliament.uk/bills/3772",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3523",
+      "billCode": "UK-3523",
+      "title": "Leasehold and Freehold Reform Act 2024",
+      "summary": "Leasehold and Freehold Reform Act 2024",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-04-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/3523",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1382",
+      "billCode": "UK-1382",
+      "title": "House of Lords (Expulsion and Suspension) Act 2015",
+      "summary": "House of Lords (Expulsion and Suspension) Act 2015",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-01-08",
+      "sourceUrl": "https://bills.parliament.uk/bills/1382",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3195",
+      "billCode": "UK-3195",
+      "title": "Supported Housing (Regulatory Oversight) Act 2023",
+      "summary": "Supported Housing (Regulatory Oversight) Act 2023",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2024-05-16",
+      "sourceUrl": "https://bills.parliament.uk/bills/3195",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3177",
+      "billCode": "UK-3177",
+      "title": "Social Housing (Regulation) Act 2023",
+      "summary": "Social Housing (Regulation) Act 2023",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2023-07-27",
+      "sourceUrl": "https://bills.parliament.uk/bills/3177",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3064",
+      "billCode": "UK-3064",
+      "title": "Commercial Rent (Coronavirus) Bill",
+      "summary": "Commercial Rent (Coronavirus) Bill",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2022-11-17",
+      "sourceUrl": "https://bills.parliament.uk/bills/3064",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2864",
+      "billCode": "UK-2864",
+      "title": "Leasehold Reform (Ground Rent) Act 2022",
+      "summary": "Leasehold Reform (Ground Rent) Act 2022",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2022-02-09",
+      "sourceUrl": "https://bills.parliament.uk/bills/2864",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2520",
+      "billCode": "UK-2520",
+      "title": "Telecommunications Infrastructure (Leasehold Property) Act 2021",
+      "summary": "Telecommunications Infrastructure (Leasehold Property) Act 2021",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2021-03-16",
+      "sourceUrl": "https://bills.parliament.uk/bills/2520",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2753",
+      "billCode": "UK-2753",
+      "title": "Business and Planning Act 2020",
+      "summary": "Business and Planning Act 2020",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2020-07-24",
+      "sourceUrl": "https://bills.parliament.uk/bills/2753",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2242",
+      "billCode": "UK-2242",
+      "title": "Tenant Fees Act 2019",
+      "summary": "Tenant Fees Act 2019",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2019-02-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/2242",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1711",
+      "billCode": "UK-1711",
+      "title": "House of Commons Members’ Fund Act 2016",
+      "summary": "House of Commons Members’ Fund Act 2016",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2018-12-19",
+      "sourceUrl": "https://bills.parliament.uk/bills/1711",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2073",
+      "billCode": "UK-2073",
+      "title": "Parental Bereavement (Leave and Pay) Act 2018",
+      "summary": "Parental Bereavement (Leave and Pay) Act 2018",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2018-09-14",
+      "sourceUrl": "https://bills.parliament.uk/bills/2073",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1838",
+      "billCode": "UK-1838",
+      "title": "Homelessness Reduction Act 2017",
+      "summary": "Homelessness Reduction Act 2017",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "homelessness"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2017-08-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1838",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1889",
+      "billCode": "UK-1889",
+      "title": "Neighbourhood Planning Act 2017",
+      "summary": "Neighbourhood Planning Act 2017",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2017-04-28",
+      "sourceUrl": "https://bills.parliament.uk/bills/1889",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1700",
+      "billCode": "UK-1700",
+      "title": "Housing and Planning Act 2016",
+      "summary": "Housing and Planning Act 2016",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2016-05-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/1700",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1744",
+      "billCode": "UK-1744",
+      "title": "Northern Ireland (Stormont Agreement and Implementation Plan) Act 2016",
+      "summary": "Northern Ireland (Stormont Agreement and Implementation Plan) Act 2016",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2016-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/1744",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1550",
+      "billCode": "UK-1550",
+      "title": "House of Commons Commission Act 2015",
+      "summary": "House of Commons Commission Act 2015",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2015-03-27",
+      "sourceUrl": "https://bills.parliament.uk/bills/1550",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1206",
+      "billCode": "UK-1206",
+      "title": "House of Lords Reform Act",
+      "summary": "House of Lords Reform Act",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2014-07-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/1206",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1235",
+      "billCode": "UK-1235",
+      "title": "Leasehold Reform (Amendment) Act",
+      "summary": "Leasehold Reform (Amendment) Act",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2014-03-14",
+      "sourceUrl": "https://bills.parliament.uk/bills/1235",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1037",
+      "billCode": "UK-1037",
+      "title": "Prevention of Social Housing Fraud Act 2013",
+      "summary": "Prevention of Social Housing Fraud Act 2013",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2013-02-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/1037",
+      "sponsors": []
+    },
+    {
+      "id": "uk-568",
+      "billCode": "UK-568",
+      "title": "Mortgage Repossessions (Protection of Tenants etc) Act 2010",
+      "summary": "Mortgage Repossessions (Protection of Tenants etc) Act 2010",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2010-04-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/568",
+      "sponsors": []
+    },
+    {
+      "id": "uk-444",
+      "billCode": "UK-444",
+      "title": "Apprenticeships, Skills, Children and Learning",
+      "summary": "Apprenticeships, Skills, Children and Learning",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2009-11-20",
+      "sourceUrl": "https://bills.parliament.uk/bills/444",
+      "sponsors": []
+    },
+    {
+      "id": "uk-196",
+      "billCode": "UK-196",
+      "title": "Housing and Regeneration Act 2008",
+      "summary": "Housing and Regeneration Act 2008",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2009-02-25",
+      "sourceUrl": "https://bills.parliament.uk/bills/196",
+      "sponsors": []
+    },
+    {
+      "id": "uk-222",
+      "billCode": "UK-222",
+      "title": "Planning and Energy Act 2008",
+      "summary": "Planning and Energy Act 2008",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2009-02-25",
+      "sourceUrl": "https://bills.parliament.uk/bills/222",
+      "sponsors": []
+    },
+    {
+      "id": "uk-200",
+      "billCode": "UK-200",
+      "title": "Planning Act 2008",
+      "summary": "Planning Act 2008",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2009-02-23",
+      "sourceUrl": "https://bills.parliament.uk/bills/200",
+      "sponsors": []
+    },
+    {
+      "id": "uk-160",
+      "billCode": "UK-160",
+      "title": "Investment Exchanges and Clearing Houses Act 2006",
+      "summary": "Investment Exchanges and Clearing Houses Act 2006",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2007-10-27",
+      "sourceUrl": "https://bills.parliament.uk/bills/160",
+      "sponsors": []
+    },
+    {
+      "id": "uk-150",
+      "billCode": "UK-150",
+      "title": "Planning-Gain Supplement (Preparations) Act 2007",
+      "summary": "Planning-Gain Supplement (Preparations) Act 2007",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2007-10-27",
+      "sourceUrl": "https://bills.parliament.uk/bills/150",
+      "sponsors": []
+    },
+    {
+      "id": "uk-4018",
+      "billCode": "UK-4018",
+      "title": "Planning and Development (Community Infrastructure) Bill",
+      "summary": "Planning and Development (Community Infrastructure) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density",
+        "community-opposition"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-03-17",
+      "sourceUrl": "https://bills.parliament.uk/bills/4018",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3980",
+      "billCode": "UK-3980",
+      "title": "Short-term Lets (Planning Permission) Bill",
+      "summary": "Short-term Lets (Planning Permission) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-03-17",
+      "sourceUrl": "https://bills.parliament.uk/bills/3980",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3943",
+      "billCode": "UK-3943",
+      "title": "Housing Estates Bill",
+      "summary": "Housing Estates Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-02-26",
+      "sourceUrl": "https://bills.parliament.uk/bills/3943",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3834",
+      "billCode": "UK-3834",
+      "title": "Heritage Public Houses Bill",
+      "summary": "Heritage Public Houses Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "heritage-protection"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-02-25",
+      "sourceUrl": "https://bills.parliament.uk/bills/3834",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3814",
+      "billCode": "UK-3814",
+      "title": "Agricultural Land (Planning) Bill",
+      "summary": "Agricultural Land (Planning) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-10-29",
+      "sourceUrl": "https://bills.parliament.uk/bills/3814",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3994",
+      "billCode": "UK-3994",
+      "title": "Planning (Flooding) Bill",
+      "summary": "Planning (Flooding) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-10-14",
+      "sourceUrl": "https://bills.parliament.uk/bills/3994",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3992",
+      "billCode": "UK-3992",
+      "title": "Right to Manage and Leasehold Bill",
+      "summary": "Right to Manage and Leasehold Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-09-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/3992",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3990",
+      "billCode": "UK-3990",
+      "title": "Registration of Births (Inclusion of Deceased Parents) Bill",
+      "summary": "Registration of Births (Inclusion of Deceased Parents) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-09-11",
+      "sourceUrl": "https://bills.parliament.uk/bills/3990",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3740",
+      "billCode": "UK-3740",
+      "title": "Support for Infants and Parents etc (Information) Bill [HL]",
+      "summary": "Support for Infants and Parents etc (Information) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-07-14",
+      "sourceUrl": "https://bills.parliament.uk/bills/3740",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3959",
+      "billCode": "UK-3959",
+      "title": "Co-operative Housing Tenure Bill",
+      "summary": "Co-operative Housing Tenure Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-07-11",
+      "sourceUrl": "https://bills.parliament.uk/bills/3959",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3618",
+      "billCode": "UK-3618",
+      "title": "Housing Standards (Refugees and Asylum Seekers) Bill",
+      "summary": "Housing Standards (Refugees and Asylum Seekers) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-02-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/3618",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3611",
+      "billCode": "UK-3611",
+      "title": "House of Lords (Hereditary Peers) (Abolition of By-Elections) (No. 2) Bill",
+      "summary": "House of Lords (Hereditary Peers) (Abolition of By-Elections) (No. 2) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-02-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/3611",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3714",
+      "billCode": "UK-3714",
+      "title": "Heritage Public Houses Bill",
+      "summary": "Heritage Public Houses Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "heritage-protection"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-02-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/3714",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3655",
+      "billCode": "UK-3655",
+      "title": "Affordable Housing (Conversion of Commercial Property) Bill",
+      "summary": "Affordable Housing (Conversion of Commercial Property) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-02-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/3655",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3715",
+      "billCode": "UK-3715",
+      "title": "Tenant Farming Commissioner Bill",
+      "summary": "Tenant Farming Commissioner Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-02-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/3715",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3591",
+      "billCode": "UK-3591",
+      "title": "Landlord and Tenant Act 1985 (Amendment) Bill",
+      "summary": "Landlord and Tenant Act 1985 (Amendment) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-02-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/3591",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3726",
+      "billCode": "UK-3726",
+      "title": "Children (Parental Imprisonment) Bill",
+      "summary": "Children (Parental Imprisonment) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-02-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/3726",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3462",
+      "billCode": "UK-3462",
+      "title": "Renters (Reform) Bill",
+      "summary": "Renters (Reform) Bill",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2024-09-23",
+      "sourceUrl": "https://bills.parliament.uk/bills/3462",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3680",
+      "billCode": "UK-3680",
+      "title": "Support for Infants and Parents etc (Information) Bill",
+      "summary": "Support for Infants and Parents etc (Information) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2024-06-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/3680",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3548",
+      "billCode": "UK-3548",
+      "title": "High Streets (Designation, Review and Improvement Plan) Bill",
+      "summary": "High Streets (Designation, Review and Improvement Plan) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2024-05-29",
+      "sourceUrl": "https://bills.parliament.uk/bills/3548",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3302",
+      "billCode": "UK-3302",
+      "title": "House of Lords (Hereditary Peers) (Abolition of By-Elections) Bill",
+      "summary": "House of Lords (Hereditary Peers) (Abolition of By-Elections) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2023-11-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/3302",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3175",
+      "billCode": "UK-3175",
+      "title": "House of Lords (Peerage Nominations) Bill [HL]",
+      "summary": "House of Lords (Peerage Nominations) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2023-10-31",
+      "sourceUrl": "https://bills.parliament.uk/bills/3175",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2957",
+      "billCode": "UK-2957",
+      "title": "Prime Minister (Accountability to House of Commons) Bill",
+      "summary": "Prime Minister (Accountability to House of Commons) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/2957",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3002",
+      "billCode": "UK-3002",
+      "title": "Housing Standards (Refugees and Asylum Seekers) Bill",
+      "summary": "Housing Standards (Refugees and Asylum Seekers) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/3002",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2964",
+      "billCode": "UK-2964",
+      "title": "Leader of the House of Commons (Election) Bill",
+      "summary": "Leader of the House of Commons (Election) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/2964",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3012",
+      "billCode": "UK-3012",
+      "title": "Planning (Proper Maintenance of Land) Bill",
+      "summary": "Planning (Proper Maintenance of Land) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/3012",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2955",
+      "billCode": "UK-2955",
+      "title": "Homeless People (Current Accounts) Bill",
+      "summary": "Homeless People (Current Accounts) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization",
+        "homelessness"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2022-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/2955",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3116",
+      "billCode": "UK-3116",
+      "title": "House of Lords (Retirement Age) Bill",
+      "summary": "House of Lords (Retirement Age) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/3116",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3076",
+      "billCode": "UK-3076",
+      "title": "House of Lords (Elected Senate) Bill",
+      "summary": "House of Lords (Elected Senate) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/3076",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3061",
+      "billCode": "UK-3061",
+      "title": "Public Houses (Electrical Safety) Bill",
+      "summary": "Public Houses (Electrical Safety) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/3061",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2973",
+      "billCode": "UK-2973",
+      "title": "House of Lords (Hereditary Peers) (Abolition of By-Elections) (No. 2) Bill",
+      "summary": "House of Lords (Hereditary Peers) (Abolition of By-Elections) (No. 2) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/2973",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3104",
+      "billCode": "UK-3104",
+      "title": "Social Housing (Emergency Protection of Tenancy Rights) Bill",
+      "summary": "Social Housing (Emergency Protection of Tenancy Rights) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2022-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/3104",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3131",
+      "billCode": "UK-3131",
+      "title": "Planning (Women’s Safety) Bill",
+      "summary": "Planning (Women’s Safety) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/3131",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3080",
+      "billCode": "UK-3080",
+      "title": "Quarries (Planning) Bill",
+      "summary": "Quarries (Planning) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/3080",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3047",
+      "billCode": "UK-3047",
+      "title": "Planning (Street Plans) Bill",
+      "summary": "Planning (Street Plans) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/3047",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3109",
+      "billCode": "UK-3109",
+      "title": "Parliamentary Elections (Optional Preferential Vote) Bill",
+      "summary": "Parliamentary Elections (Optional Preferential Vote) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2022-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/3109",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2947",
+      "billCode": "UK-2947",
+      "title": "Kinship Care (Parental Leave) Bill",
+      "summary": "Kinship Care (Parental Leave) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2022-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/2947",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3030",
+      "billCode": "UK-3030",
+      "title": "Planning and Local Representation Bill",
+      "summary": "Planning and Local Representation Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-05-03",
+      "sourceUrl": "https://bills.parliament.uk/bills/3030",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2960",
+      "billCode": "UK-2960",
+      "title": "Business of the House Commission Bill",
+      "summary": "Business of the House Commission Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-04-29",
+      "sourceUrl": "https://bills.parliament.uk/bills/2960",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2936",
+      "billCode": "UK-2936",
+      "title": "Commercial Rent (Prohibition of Upward-Only Reviews) Bill",
+      "summary": "Commercial Rent (Prohibition of Upward-Only Reviews) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2022-04-29",
+      "sourceUrl": "https://bills.parliament.uk/bills/2936",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2881",
+      "billCode": "UK-2881",
+      "title": "House of Lords (Hereditary Peers) (Abolition of By-Elections) Bill [HL]",
+      "summary": "House of Lords (Hereditary Peers) (Abolition of By-Elections) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-04-28",
+      "sourceUrl": "https://bills.parliament.uk/bills/2881",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2849",
+      "billCode": "UK-2849",
+      "title": "Scottish Parliament (Disqualification of Members of the House of Commons) Bill",
+      "summary": "Scottish Parliament (Disqualification of Members of the House of Commons) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-05-06",
+      "sourceUrl": "https://bills.parliament.uk/bills/2849",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2780",
+      "billCode": "UK-2780",
+      "title": "Remote Participation in House of Commons Proceedings (Motion) Bill",
+      "summary": "Remote Participation in House of Commons Proceedings (Motion) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-05-06",
+      "sourceUrl": "https://bills.parliament.uk/bills/2780",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2803",
+      "billCode": "UK-2803",
+      "title": "Supported Housing (Regulation) Bill",
+      "summary": "Supported Housing (Regulation) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/2803",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2591",
+      "billCode": "UK-2591",
+      "title": "House of Lords (Removal of Bishops) Bill [HL]",
+      "summary": "House of Lords (Removal of Bishops) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/2591",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2554",
+      "billCode": "UK-2554",
+      "title": "House of Lords (Elections and Reform) Bill [HL]",
+      "summary": "House of Lords (Elections and Reform) Bill [HL]",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/2554",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2782",
+      "billCode": "UK-2782",
+      "title": "Planning (Proper Maintenance of Land) Bill",
+      "summary": "Planning (Proper Maintenance of Land) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/2782",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2607",
+      "billCode": "UK-2607",
+      "title": "Duty to Plan for Terrorism (Consultation) Bill [HL]",
+      "summary": "Duty to Plan for Terrorism (Consultation) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/2607",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2575",
+      "billCode": "UK-2575",
+      "title": "Rented Homes Bill [HL]",
+      "summary": "Rented Homes Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2021-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/2575",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2840",
+      "billCode": "UK-2840",
+      "title": "Housing and Homelessness (Local Accommodation Duty) Bill",
+      "summary": "Housing and Homelessness (Local Accommodation Duty) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "homelessness"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2021-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/2840",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2646",
+      "billCode": "UK-2646",
+      "title": "Housing Act 2004 (Amendment) Bill",
+      "summary": "Housing Act 2004 (Amendment) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/2646",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2777",
+      "billCode": "UK-2777",
+      "title": "Houses in Multiple Occupation Bill",
+      "summary": "Houses in Multiple Occupation Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/2777",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2690",
+      "billCode": "UK-2690",
+      "title": "Homeless People (Current Accounts) Bill",
+      "summary": "Homeless People (Current Accounts) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization",
+        "homelessness"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2021-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/2690",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2834",
+      "billCode": "UK-2834",
+      "title": "High Performance Vehicle Renting (Regulation) Bill",
+      "summary": "High Performance Vehicle Renting (Regulation) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2021-05-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/2834",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1981",
+      "billCode": "UK-1981",
+      "title": "Child Maintenance (Assessment of Parents’ Income) Bill",
+      "summary": "Child Maintenance (Assessment of Parents’ Income) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2021-04-08",
+      "sourceUrl": "https://bills.parliament.uk/bills/1981",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2492",
+      "billCode": "UK-2492",
+      "title": "Duty to Plan for Terrorism (Consultation) Bill [HL]",
+      "summary": "Duty to Plan for Terrorism (Consultation) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-11-08",
+      "sourceUrl": "https://bills.parliament.uk/bills/2492",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2499",
+      "billCode": "UK-2499",
+      "title": "Rented Homes Bill [HL]",
+      "summary": "Rented Homes Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2019-11-08",
+      "sourceUrl": "https://bills.parliament.uk/bills/2499",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2464",
+      "billCode": "UK-2464",
+      "title": "Telecommunications Infrastructure (Leasehold Property) Bill",
+      "summary": "Telecommunications Infrastructure (Leasehold Property) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2019-11-06",
+      "sourceUrl": "https://bills.parliament.uk/bills/2464",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2361",
+      "billCode": "UK-2361",
+      "title": "Planning (Affordable Housing and Land Compensation) Bill",
+      "summary": "Planning (Affordable Housing and Land Compensation) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability",
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-09-19",
+      "sourceUrl": "https://bills.parliament.uk/bills/2361",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2225",
+      "billCode": "UK-2225",
+      "title": "Housing and Planning (Local Decision-Making) Bill",
+      "summary": "Housing and Planning (Local Decision-Making) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-09-19",
+      "sourceUrl": "https://bills.parliament.uk/bills/2225",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2155",
+      "billCode": "UK-2155",
+      "title": "House of Lords (Exclusion of Hereditary Peers) Bill",
+      "summary": "House of Lords (Exclusion of Hereditary Peers) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-09-19",
+      "sourceUrl": "https://bills.parliament.uk/bills/2155",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2377",
+      "billCode": "UK-2377",
+      "title": "House of Commons (Precedence of Government Business) (European Union (Withdrawal) Act 2018) Bill",
+      "summary": "House of Commons (Precedence of Government Business) (European Union (Withdrawal) Act 2018) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-09-19",
+      "sourceUrl": "https://bills.parliament.uk/bills/2377",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2212",
+      "billCode": "UK-2212",
+      "title": "Shared Parental Leave and Pay (Extension) Bill",
+      "summary": "Shared Parental Leave and Pay (Extension) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2019-09-19",
+      "sourceUrl": "https://bills.parliament.uk/bills/2212",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2386",
+      "billCode": "UK-2386",
+      "title": "Parental Rights (Rapists) and Family Courts Bill",
+      "summary": "Parental Rights (Rapists) and Family Courts Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2019-09-19",
+      "sourceUrl": "https://bills.parliament.uk/bills/2386",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2424",
+      "billCode": "UK-2424",
+      "title": "Parental Leave (Premature and Sick Babies) Bill",
+      "summary": "Parental Leave (Premature and Sick Babies) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2019-09-19",
+      "sourceUrl": "https://bills.parliament.uk/bills/2424",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2173",
+      "billCode": "UK-2173",
+      "title": "Leasehold Reform Bill",
+      "summary": "Leasehold Reform Bill",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2019-09-19",
+      "sourceUrl": "https://bills.parliament.uk/bills/2173",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2431",
+      "billCode": "UK-2431",
+      "title": "Ground Rents (Leasehold Properties) Bill",
+      "summary": "Ground Rents (Leasehold Properties) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2019-09-18",
+      "sourceUrl": "https://bills.parliament.uk/bills/2431",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2157",
+      "billCode": "UK-2157",
+      "title": "Business of the House Commission Bill",
+      "summary": "Business of the House Commission Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-09-17",
+      "sourceUrl": "https://bills.parliament.uk/bills/2157",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2456",
+      "billCode": "UK-2456",
+      "title": "Compulsory Purchase and Planning Bill",
+      "summary": "Compulsory Purchase and Planning Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-09-17",
+      "sourceUrl": "https://bills.parliament.uk/bills/2456",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2168",
+      "billCode": "UK-2168",
+      "title": "Affordable Home Ownership Bill",
+      "summary": "Affordable Home Ownership Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2019-09-17",
+      "sourceUrl": "https://bills.parliament.uk/bills/2168",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2029",
+      "billCode": "UK-2029",
+      "title": "Extension of Franchise (House of Lords) Bill [HL]",
+      "summary": "Extension of Franchise (House of Lords) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-09-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/2029",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2024",
+      "billCode": "UK-2024",
+      "title": "Local Housing Authority Debt Bill [HL]",
+      "summary": "Local Housing Authority Debt Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-09-10",
+      "sourceUrl": "https://bills.parliament.uk/bills/2024",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2362",
+      "billCode": "UK-2362",
+      "title": "House of Lords (Elections and Reform) Bill [HL]",
+      "summary": "House of Lords (Elections and Reform) Bill [HL]",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-09-10",
+      "sourceUrl": "https://bills.parliament.uk/bills/2362",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2004",
+      "billCode": "UK-2004",
+      "title": "House of Lords Bill [HL]",
+      "summary": "House of Lords Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-09-10",
+      "sourceUrl": "https://bills.parliament.uk/bills/2004",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1991",
+      "billCode": "UK-1991",
+      "title": "House of Lords (Hereditary Peers) (Abolition of By-Elections) Bill [HL]",
+      "summary": "House of Lords (Hereditary Peers) (Abolition of By-Elections) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-09-10",
+      "sourceUrl": "https://bills.parliament.uk/bills/1991",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2427",
+      "billCode": "UK-2427",
+      "title": "Domestic Energy Efficiency Plan Bill",
+      "summary": "Domestic Energy Efficiency Plan Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-06-19",
+      "sourceUrl": "https://bills.parliament.uk/bills/2427",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2383",
+      "billCode": "UK-2383",
+      "title": "Employment Rights (Shared Parental Leave and Flexible Working) Bill",
+      "summary": "Employment Rights (Shared Parental Leave and Flexible Working) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2019-04-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/2383",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2223",
+      "billCode": "UK-2223",
+      "title": "House of Peers Bill",
+      "summary": "House of Peers Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-03-25",
+      "sourceUrl": "https://bills.parliament.uk/bills/2223",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2257",
+      "billCode": "UK-2257",
+      "title": "Parental Leave and Pay Arrangements (Publication) Bill",
+      "summary": "Parental Leave and Pay Arrangements (Publication) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2019-03-25",
+      "sourceUrl": "https://bills.parliament.uk/bills/2257",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2209",
+      "billCode": "UK-2209",
+      "title": "Homelessness (End of Life Care) Bill",
+      "summary": "Homelessness (End of Life Care) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "homelessness"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2019-03-25",
+      "sourceUrl": "https://bills.parliament.uk/bills/2209",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2304",
+      "billCode": "UK-2304",
+      "title": "Housing Reform Bill",
+      "summary": "Housing Reform Bill",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-03-22",
+      "sourceUrl": "https://bills.parliament.uk/bills/2304",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2135",
+      "billCode": "UK-2135",
+      "title": "House of Commons Whips (Transparency) Bill",
+      "summary": "House of Commons Whips (Transparency) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-03-22",
+      "sourceUrl": "https://bills.parliament.uk/bills/2135",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2130",
+      "billCode": "UK-2130",
+      "title": "Prime Minister (Accountability to House of Commons) Bill",
+      "summary": "Prime Minister (Accountability to House of Commons) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-03-22",
+      "sourceUrl": "https://bills.parliament.uk/bills/2130",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2320",
+      "billCode": "UK-2320",
+      "title": "Fire Safety (Leasehold Properties) Bill",
+      "summary": "Fire Safety (Leasehold Properties) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2019-03-22",
+      "sourceUrl": "https://bills.parliament.uk/bills/2320",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2323",
+      "billCode": "UK-2323",
+      "title": "Planning (Appeals) Bill",
+      "summary": "Planning (Appeals) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-03-21",
+      "sourceUrl": "https://bills.parliament.uk/bills/2323",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2265",
+      "billCode": "UK-2265",
+      "title": "House of Lords (Abolition and Replacement) Bill",
+      "summary": "House of Lords (Abolition and Replacement) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-03-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/2265",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2345",
+      "billCode": "UK-2345",
+      "title": "Kitchens in Rented Accommodation (Benefit Claimants) Bill",
+      "summary": "Kitchens in Rented Accommodation (Benefit Claimants) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2019-03-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/2345",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2311",
+      "billCode": "UK-2311",
+      "title": "Gypsy and Traveller Communities (Housing, Planning and Education) Bill",
+      "summary": "Gypsy and Traveller Communities (Housing, Planning and Education) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-03-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/2311",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2129",
+      "billCode": "UK-2129",
+      "title": "Leader of the House of Commons (Election) Bill",
+      "summary": "Leader of the House of Commons (Election) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2019-02-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/2129",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2138",
+      "billCode": "UK-2138",
+      "title": "Homeless People (Current Accounts) Bill",
+      "summary": "Homeless People (Current Accounts) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization",
+        "homelessness"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2019-02-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/2138",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2185",
+      "billCode": "UK-2185",
+      "title": "Child Maintenance (Assessment of Parents' Income) Bill",
+      "summary": "Child Maintenance (Assessment of Parents' Income) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2018-11-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/2185",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2198",
+      "billCode": "UK-2198",
+      "title": "Planning (Agent of Change) Bill",
+      "summary": "Planning (Agent of Change) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2018-09-14",
+      "sourceUrl": "https://bills.parliament.uk/bills/2198",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1797",
+      "billCode": "UK-1797",
+      "title": "House of Lords Reform Bill [HL]",
+      "summary": "House of Lords Reform Bill [HL]",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2017-05-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/1797",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1789",
+      "billCode": "UK-1789",
+      "title": "House of Lords Bill [HL]",
+      "summary": "House of Lords Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2017-05-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/1789",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1815",
+      "billCode": "UK-1815",
+      "title": "Extension of Franchise (House of Lords) Bill [HL]",
+      "summary": "Extension of Franchise (House of Lords) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2017-05-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/1815",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1942",
+      "billCode": "UK-1942",
+      "title": "House of Lords (Exclusion of Hereditary Peers) Bill",
+      "summary": "House of Lords (Exclusion of Hereditary Peers) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2017-04-28",
+      "sourceUrl": "https://bills.parliament.uk/bills/1942",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1874",
+      "billCode": "UK-1874",
+      "title": "Housing (Tenants' Rights) Bill",
+      "summary": "Housing (Tenants' Rights) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2017-04-28",
+      "sourceUrl": "https://bills.parliament.uk/bills/1874",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1913",
+      "billCode": "UK-1913",
+      "title": "Housing Standards (Preparation and Storage of Food by Tenants in Receipt of Universal Credit or Housing Benefit) Bill",
+      "summary": "Housing Standards (Preparation and Storage of Food by Tenants in Receipt of Universal Credit or Housing Benefit) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2017-03-21",
+      "sourceUrl": "https://bills.parliament.uk/bills/1913",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1953",
+      "billCode": "UK-1953",
+      "title": "Town and Country Planning (Electricity Generating Consent) Bill",
+      "summary": "Town and Country Planning (Electricity Generating Consent) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2017-03-08",
+      "sourceUrl": "https://bills.parliament.uk/bills/1953",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1893",
+      "billCode": "UK-1893",
+      "title": "Parental Bereavement Leave (Statutory Entitlement) Bill",
+      "summary": "Parental Bereavement Leave (Statutory Entitlement) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2016-12-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/1893",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1767",
+      "billCode": "UK-1767",
+      "title": "House of Lords Reform (Exclusion of Hereditary Peers) Bill",
+      "summary": "House of Lords Reform (Exclusion of Hereditary Peers) Bill",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2016-05-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/1767",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1715",
+      "billCode": "UK-1715",
+      "title": "House of Lords (Parliamentary Standards Etc) Bill",
+      "summary": "House of Lords (Parliamentary Standards Etc) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2016-05-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/1715",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1667",
+      "billCode": "UK-1667",
+      "title": "House of Lords (Maximum Membership) Bill",
+      "summary": "House of Lords (Maximum Membership) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2016-05-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/1667",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1737",
+      "billCode": "UK-1737",
+      "title": "House of Commons Members' Fund Bill",
+      "summary": "House of Commons Members' Fund Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2016-05-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/1737",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1771",
+      "billCode": "UK-1771",
+      "title": "Town and Country Planning (Electricity Generating Consent) Bill",
+      "summary": "Town and Country Planning (Electricity Generating Consent) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2016-05-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/1771",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1710",
+      "billCode": "UK-1710",
+      "title": "Planning (Listed Buildings and Conservation Areas) Act 1990 (Amendment) Bill",
+      "summary": "Planning (Listed Buildings and Conservation Areas) Act 1990 (Amendment) Bill",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "density",
+        "heritage-protection"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2016-05-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/1710",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1768",
+      "billCode": "UK-1768",
+      "title": "Landlord and Tenant (Reform) Bill",
+      "summary": "Landlord and Tenant (Reform) Bill",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2016-05-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/1768",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1600",
+      "billCode": "UK-1600",
+      "title": "Direct Planning (Pilot) Bill [HL]",
+      "summary": "Direct Planning (Pilot) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2016-05-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/1600",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1593",
+      "billCode": "UK-1593",
+      "title": "Planning (Subterranean Development) Bill [HL]",
+      "summary": "Planning (Subterranean Development) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2015-11-23",
+      "sourceUrl": "https://bills.parliament.uk/bills/1593",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1530",
+      "billCode": "UK-1530",
+      "title": "Local Planning and Housing Bill",
+      "summary": "Local Planning and Housing Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2015-03-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1530",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1556",
+      "billCode": "UK-1556",
+      "title": "Housing Ombudsman (Power to Settle Disputes Between Neighbours and Tenants) Bill",
+      "summary": "Housing Ombudsman (Power to Settle Disputes Between Neighbours and Tenants) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2015-03-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1556",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1458",
+      "billCode": "UK-1458",
+      "title": "Housing (Affordability, Supply and Tenant Protection) Bill",
+      "summary": "Housing (Affordability, Supply and Tenant Protection) Bill",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2015-03-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1458",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1485",
+      "billCode": "UK-1485",
+      "title": "Houses in Multiple Occupation (Energy Performance Certificates and Minimum Energy Efficiency Standards) Bill",
+      "summary": "Houses in Multiple Occupation (Energy Performance Certificates and Minimum Energy Efficiency Standards) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2015-03-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1485",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1455",
+      "billCode": "UK-1455",
+      "title": "House of Lords (Maximum Membership) Bill",
+      "summary": "House of Lords (Maximum Membership) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2015-03-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1455",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1500",
+      "billCode": "UK-1500",
+      "title": "House of Commons Members’ Fund Bill",
+      "summary": "House of Commons Members’ Fund Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2015-03-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1500",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1505",
+      "billCode": "UK-1505",
+      "title": "Carers Bedroom Entitlement (Social Housing Sector) Bill",
+      "summary": "Carers Bedroom Entitlement (Social Housing Sector) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2015-03-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1505",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1492",
+      "billCode": "UK-1492",
+      "title": "Business of the House Commission Bill",
+      "summary": "Business of the House Commission Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2015-03-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1492",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1496",
+      "billCode": "UK-1496",
+      "title": "Affordable Housing Contributions (Ten Unit Threshold) Bill",
+      "summary": "Affordable Housing Contributions (Ten Unit Threshold) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2015-03-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1496",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1529",
+      "billCode": "UK-1529",
+      "title": "Planning Consent Applications (Contracts) Bill",
+      "summary": "Planning Consent Applications (Contracts) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2015-03-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1529",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1538",
+      "billCode": "UK-1538",
+      "title": "Local Government (Planning Permission and Referendums) Bill",
+      "summary": "Local Government (Planning Permission and Referendums) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2015-03-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1538",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1546",
+      "billCode": "UK-1546",
+      "title": "Private Rented Sector (Decent Homes Standard) Bill",
+      "summary": "Private Rented Sector (Decent Homes Standard) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2015-03-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1546",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1518",
+      "billCode": "UK-1518",
+      "title": "Apprenticeships (Child Benefit and Tax Credit Entitlement) (Research) Bill",
+      "summary": "Apprenticeships (Child Benefit and Tax Credit Entitlement) (Research) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2015-03-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1518",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1503",
+      "billCode": "UK-1503",
+      "title": "Leader of the House of Lords Bill [HL]",
+      "summary": "Leader of the House of Lords Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2014-10-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1503",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1172",
+      "billCode": "UK-1172",
+      "title": "Extension of Franchise (House of Lords) Bill [HL]",
+      "summary": "Extension of Franchise (House of Lords) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2014-05-22",
+      "sourceUrl": "https://bills.parliament.uk/bills/1172",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1283",
+      "billCode": "UK-1283",
+      "title": "Selective Licensing (Housing Standards) Bill",
+      "summary": "Selective Licensing (Housing Standards) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2014-05-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1283",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1347",
+      "billCode": "UK-1347",
+      "title": "Housing Benefit and Universal Credit in the Social Housing Sector (Regular Payments) Bill",
+      "summary": "Housing Benefit and Universal Credit in the Social Housing Sector (Regular Payments) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2014-05-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1347",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1257",
+      "billCode": "UK-1257",
+      "title": "House of Lords (Maximum Membership) Bill",
+      "summary": "House of Lords (Maximum Membership) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2014-05-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1257",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1323",
+      "billCode": "UK-1323",
+      "title": "House of Commons Members' Fund Bill",
+      "summary": "House of Commons Members' Fund Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2014-05-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1323",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1277",
+      "billCode": "UK-1277",
+      "title": "Planning Regulations (Removal of Provisions in Respect of Gypsies and Travellers) Bill",
+      "summary": "Planning Regulations (Removal of Provisions in Respect of Gypsies and Travellers) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2014-05-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1277",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1370",
+      "billCode": "UK-1370",
+      "title": "National Planning Policy Framework (Community Involvement) Bill",
+      "summary": "National Planning Policy Framework (Community Involvement) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density",
+        "community-opposition"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2014-05-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1370",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1224",
+      "billCode": "UK-1224",
+      "title": "Young Offenders (Parental Responsibility) Bill",
+      "summary": "Young Offenders (Parental Responsibility) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2014-05-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1224",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1289",
+      "billCode": "UK-1289",
+      "title": "Young Apprenticeships Bill",
+      "summary": "Young Apprenticeships Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2014-05-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1289",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1372",
+      "billCode": "UK-1372",
+      "title": "Smoke Alarms (Private Rented Sector) Bill",
+      "summary": "Smoke Alarms (Private Rented Sector) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2014-05-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1372",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1301",
+      "billCode": "UK-1301",
+      "title": "Regulation of the Private Rented Sector Bill",
+      "summary": "Regulation of the Private Rented Sector Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2014-05-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1301",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1355",
+      "billCode": "UK-1355",
+      "title": "Private Rented Sector Bill",
+      "summary": "Private Rented Sector Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2014-05-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1355",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1291",
+      "billCode": "UK-1291",
+      "title": "Parental Bereavement Leave (Statutory Entitlement) Bill",
+      "summary": "Parental Bereavement Leave (Statutory Entitlement) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2014-05-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1291",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1208",
+      "billCode": "UK-1208",
+      "title": "Apprenticeships and Skills (Public Procurement Contracts) Bill",
+      "summary": "Apprenticeships and Skills (Public Procurement Contracts) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2014-05-15",
+      "sourceUrl": "https://bills.parliament.uk/bills/1208",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1193",
+      "billCode": "UK-1193",
+      "title": "House of Lords Reform Bill [HL]",
+      "summary": "House of Lords Reform Bill [HL]",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2013-05-16",
+      "sourceUrl": "https://bills.parliament.uk/bills/1193",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1023",
+      "billCode": "UK-1023",
+      "title": "Membership of the House of Lords (Elections) Bill [HL]",
+      "summary": "Membership of the House of Lords (Elections) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2013-04-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1023",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1002",
+      "billCode": "UK-1002",
+      "title": "Extension of Franchise (House of Lords) Bill [HL]",
+      "summary": "Extension of Franchise (House of Lords) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2013-04-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1002",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1138",
+      "billCode": "UK-1138",
+      "title": "Housing Market Reform Bill",
+      "summary": "Housing Market Reform Bill",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2013-04-26",
+      "sourceUrl": "https://bills.parliament.uk/bills/1138",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1134",
+      "billCode": "UK-1134",
+      "title": "Energy Efficiency (Houses in Multiple Occupation) Bill",
+      "summary": "Energy Efficiency (Houses in Multiple Occupation) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2013-04-26",
+      "sourceUrl": "https://bills.parliament.uk/bills/1134",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1109",
+      "billCode": "UK-1109",
+      "title": "Consolidation of Housing Regulations Bill",
+      "summary": "Consolidation of Housing Regulations Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2013-04-26",
+      "sourceUrl": "https://bills.parliament.uk/bills/1109",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1072",
+      "billCode": "UK-1072",
+      "title": "Town and Country Planning (Control of Advertisements) (England) Regulations 2007 (Amendment) Bill",
+      "summary": "Town and Country Planning (Control of Advertisements) (England) Regulations 2007 (Amendment) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2013-04-26",
+      "sourceUrl": "https://bills.parliament.uk/bills/1072",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1162",
+      "billCode": "UK-1162",
+      "title": "Planning Permission (Financial Penalties) Bill",
+      "summary": "Planning Permission (Financial Penalties) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2013-04-26",
+      "sourceUrl": "https://bills.parliament.uk/bills/1162",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1116",
+      "billCode": "UK-1116",
+      "title": "Planning Applications (Community Right of Appeal) Bill",
+      "summary": "Planning Applications (Community Right of Appeal) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density",
+        "community-opposition"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2013-04-26",
+      "sourceUrl": "https://bills.parliament.uk/bills/1116",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1120",
+      "billCode": "UK-1120",
+      "title": "Planning Act 2008 (Amendment) Bill",
+      "summary": "Planning Act 2008 (Amendment) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2013-04-26",
+      "sourceUrl": "https://bills.parliament.uk/bills/1120",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1073",
+      "billCode": "UK-1073",
+      "title": "Local Services (Planning) Bill",
+      "summary": "Local Services (Planning) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2013-04-26",
+      "sourceUrl": "https://bills.parliament.uk/bills/1073",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1146",
+      "billCode": "UK-1146",
+      "title": "Regulation of the Private Rented Sector Bill",
+      "summary": "Regulation of the Private Rented Sector Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2013-04-26",
+      "sourceUrl": "https://bills.parliament.uk/bills/1146",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1008",
+      "billCode": "UK-1008",
+      "title": "House of Lords (Cessation of Membership) Bill [HL]",
+      "summary": "House of Lords (Cessation of Membership) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2013-03-04",
+      "sourceUrl": "https://bills.parliament.uk/bills/1008",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1050",
+      "billCode": "UK-1050",
+      "title": "Children (Access to Parents) Bill",
+      "summary": "Children (Access to Parents) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2012-11-22",
+      "sourceUrl": "https://bills.parliament.uk/bills/1050",
+      "sponsors": []
+    },
+    {
+      "id": "uk-658",
+      "billCode": "UK-658",
+      "title": "House of Lords (Amendment) Bill [HL]",
+      "summary": "House of Lords (Amendment) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2012-05-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/658",
+      "sponsors": []
+    },
+    {
+      "id": "uk-804",
+      "billCode": "UK-804",
+      "title": "Council Housing (Local Financing Pathfinders) Bill",
+      "summary": "Council Housing (Local Financing Pathfinders) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2012-05-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/804",
+      "sponsors": []
+    },
+    {
+      "id": "uk-966",
+      "billCode": "UK-966",
+      "title": "Energy Generation (Planning and Right to Invest) Bill",
+      "summary": "Energy Generation (Planning and Right to Invest) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2012-05-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/966",
+      "sponsors": []
+    },
+    {
+      "id": "uk-839",
+      "billCode": "UK-839",
+      "title": "Tied Public Houses (Code of Practice) Bill",
+      "summary": "Tied Public Houses (Code of Practice) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/839",
+      "sponsors": []
+    },
+    {
+      "id": "uk-977",
+      "billCode": "UK-977",
+      "title": "Housing (Selective Licensing of Private Landlords in Exempted Areas) Bill",
+      "summary": "Housing (Selective Licensing of Private Landlords in Exempted Areas) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/977",
+      "sponsors": []
+    },
+    {
+      "id": "uk-929",
+      "billCode": "UK-929",
+      "title": "Housing (Amendment) Bill",
+      "summary": "Housing (Amendment) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/929",
+      "sponsors": []
+    },
+    {
+      "id": "uk-766",
+      "billCode": "UK-766",
+      "title": "House of Commons Disqualification (Amendment) Bill",
+      "summary": "House of Commons Disqualification (Amendment) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/766",
+      "sponsors": []
+    },
+    {
+      "id": "uk-895",
+      "billCode": "UK-895",
+      "title": "Co-Operative Housing Tenure Bill",
+      "summary": "Co-Operative Housing Tenure Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/895",
+      "sponsors": []
+    },
+    {
+      "id": "uk-691",
+      "billCode": "UK-691",
+      "title": "Planning (Opencast Mining Separation Zones) Bill",
+      "summary": "Planning (Opencast Mining Separation Zones) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/691",
+      "sponsors": []
+    },
+    {
+      "id": "uk-965",
+      "billCode": "UK-965",
+      "title": "Planning Applications (Appeals by Town and Parish Councils) Bill",
+      "summary": "Planning Applications (Appeals by Town and Parish Councils) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/965",
+      "sponsors": []
+    },
+    {
+      "id": "uk-861",
+      "billCode": "UK-861",
+      "title": "Planning (Grade 1 Agricultural Land Protection) Bill",
+      "summary": "Planning (Grade 1 Agricultural Land Protection) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/861",
+      "sponsors": []
+    },
+    {
+      "id": "uk-785",
+      "billCode": "UK-785",
+      "title": "Planning (Developer Bonds) Bill",
+      "summary": "Planning (Developer Bonds) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/785",
+      "sponsors": []
+    },
+    {
+      "id": "uk-700",
+      "billCode": "UK-700",
+      "title": "Fire Safety (Protection of Tenants) Bill",
+      "summary": "Fire Safety (Protection of Tenants) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/700",
+      "sponsors": []
+    },
+    {
+      "id": "uk-720",
+      "billCode": "UK-720",
+      "title": "Young Offenders (Parental Responsibility) Bill",
+      "summary": "Young Offenders (Parental Responsibility) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/720",
+      "sponsors": []
+    },
+    {
+      "id": "uk-735",
+      "billCode": "UK-735",
+      "title": "Transparent Taxation (Receipts) Bill",
+      "summary": "Transparent Taxation (Receipts) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/735",
+      "sponsors": []
+    },
+    {
+      "id": "uk-975",
+      "billCode": "UK-975",
+      "title": "Surrogate Parents (Leave, Pay and Allowance Arrangements) Bill",
+      "summary": "Surrogate Parents (Leave, Pay and Allowance Arrangements) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/975",
+      "sponsors": []
+    },
+    {
+      "id": "uk-868",
+      "billCode": "UK-868",
+      "title": "Kinship Carers (Parental Responsibility Agreements) Bill",
+      "summary": "Kinship Carers (Parental Responsibility Agreements) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/868",
+      "sponsors": []
+    },
+    {
+      "id": "uk-737",
+      "billCode": "UK-737",
+      "title": "Shared Parenting Orders Bill",
+      "summary": "Shared Parenting Orders Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/737",
+      "sponsors": []
+    },
+    {
+      "id": "uk-852",
+      "billCode": "UK-852",
+      "title": "Children (Access to Parents) Bill",
+      "summary": "Children (Access to Parents) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/852",
+      "sponsors": []
+    },
+    {
+      "id": "uk-794",
+      "billCode": "UK-794",
+      "title": "Grandparents (Access Rights) Bill",
+      "summary": "Grandparents (Access Rights) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/794",
+      "sponsors": []
+    },
+    {
+      "id": "uk-757",
+      "billCode": "UK-757",
+      "title": "Apprenticeships and Skills (Public Procurement Contracts) Bill",
+      "summary": "Apprenticeships and Skills (Public Procurement Contracts) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2012-05-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/757",
+      "sponsors": []
+    },
+    {
+      "id": "uk-858",
+      "billCode": "UK-858",
+      "title": "Planning (Green Belt Protection) Bill",
+      "summary": "Planning (Green Belt Protection) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2012-02-03",
+      "sourceUrl": "https://bills.parliament.uk/bills/858",
+      "sponsors": []
+    },
+    {
+      "id": "uk-855",
+      "billCode": "UK-855",
+      "title": "Sustainable Energy (Local Plans) Bill",
+      "summary": "Sustainable Energy (Local Plans) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2011-11-09",
+      "sourceUrl": "https://bills.parliament.uk/bills/855",
+      "sponsors": []
+    },
+    {
+      "id": "uk-703",
+      "billCode": "UK-703",
+      "title": "Protection of Local Services (Planning) Bill",
+      "summary": "Protection of Local Services (Planning) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2011-03-29",
+      "sourceUrl": "https://bills.parliament.uk/bills/703",
+      "sponsors": []
+    },
+    {
+      "id": "uk-579",
+      "billCode": "UK-579",
+      "title": "Town and Country Planning Act 1990 (Amendment) Bill",
+      "summary": "Town and Country Planning Act 1990 (Amendment) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2010-04-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/579",
+      "sponsors": []
+    },
+    {
+      "id": "uk-583",
+      "billCode": "UK-583",
+      "title": "Local Government (Infrastructure Requirement Plans) Bill",
+      "summary": "Local Government (Infrastructure Requirement Plans) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2010-04-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/583",
+      "sponsors": []
+    },
+    {
+      "id": "uk-614",
+      "billCode": "UK-614",
+      "title": "Rental Accommodation (Thermal Insulation Standards) Bill",
+      "summary": "Rental Accommodation (Thermal Insulation Standards) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2010-04-08",
+      "sourceUrl": "https://bills.parliament.uk/bills/614",
+      "sponsors": []
+    },
+    {
+      "id": "uk-523",
+      "billCode": "UK-523",
+      "title": "Rentcharges (Notification) Bill",
+      "summary": "Rentcharges (Notification) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2009-11-18",
+      "sourceUrl": "https://bills.parliament.uk/bills/523",
+      "sponsors": []
+    },
+    {
+      "id": "uk-527",
+      "billCode": "UK-527",
+      "title": "Local Planning Authorities (Protection of Local Services) Bill",
+      "summary": "Local Planning Authorities (Protection of Local Services) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2009-11-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/527",
+      "sponsors": []
+    },
+    {
+      "id": "uk-499",
+      "billCode": "UK-499",
+      "title": "Sustainable Energy (Local Plans) Bill",
+      "summary": "Sustainable Energy (Local Plans) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2009-11-12",
+      "sourceUrl": "https://bills.parliament.uk/bills/499",
+      "sponsors": []
+    },
+    {
+      "id": "uk-407",
+      "billCode": "UK-407",
+      "title": "Leaseholders Rights Bill",
+      "summary": "Leaseholders Rights Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2009-10-29",
+      "sourceUrl": "https://bills.parliament.uk/bills/407",
+      "sponsors": []
+    },
+    {
+      "id": "uk-301",
+      "billCode": "UK-301",
+      "title": "Sustainable Energy (Local Plans) Bill",
+      "summary": "Sustainable Energy (Local Plans) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2008-10-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/301",
+      "sponsors": []
+    },
+    {
+      "id": "uk-236",
+      "billCode": "UK-236",
+      "title": "Leasehold Reform Bill",
+      "summary": "Leasehold Reform Bill",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2008-10-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/236",
+      "sponsors": []
+    },
+    {
+      "id": "uk-324",
+      "billCode": "UK-324",
+      "title": "Transparent Taxation (Receipts) Bill",
+      "summary": "Transparent Taxation (Receipts) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2008-10-16",
+      "sourceUrl": "https://bills.parliament.uk/bills/324",
+      "sponsors": []
+    },
+    {
+      "id": "uk-260",
+      "billCode": "UK-260",
+      "title": "Planning (Location of Hazardous Sites) Bill",
+      "summary": "Planning (Location of Hazardous Sites) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2008-06-06",
+      "sourceUrl": "https://bills.parliament.uk/bills/260",
+      "sponsors": []
+    },
+    {
+      "id": "uk-282",
+      "billCode": "UK-282",
+      "title": "Allotments (Planning) Bill",
+      "summary": "Allotments (Planning) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2008-05-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/282",
+      "sponsors": []
+    },
+    {
+      "id": "uk-174",
+      "billCode": "UK-174",
+      "title": "Grandparents (Rights of Access) Bill",
+      "summary": "Grandparents (Rights of Access) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2007-11-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/174",
+      "sponsors": []
+    },
+    {
+      "id": "uk-99",
+      "billCode": "UK-99",
+      "title": "Telecommunications Masts (Planning Control) Bill",
+      "summary": "Telecommunications Masts (Planning Control) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2007-11-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/99",
+      "sponsors": []
+    },
+    {
+      "id": "uk-106",
+      "billCode": "UK-106",
+      "title": "Town and Country Planning (Amendment) Bill",
+      "summary": "Town and Country Planning (Amendment) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2007-10-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/106",
+      "sponsors": []
+    },
+    {
+      "id": "uk-113",
+      "billCode": "UK-113",
+      "title": "Housing Association (Rights and Representation of Residents) Bill",
+      "summary": "Housing Association (Rights and Representation of Residents) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2007-10-26",
+      "sourceUrl": "https://bills.parliament.uk/bills/113",
+      "sponsors": []
+    },
+    {
+      "id": "uk-58",
+      "billCode": "UK-58",
+      "title": "Local Planning Authorities (Energy and Energy Efficiency) Bill",
+      "summary": "Local Planning Authorities (Energy and Energy Efficiency) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2007-10-26",
+      "sourceUrl": "https://bills.parliament.uk/bills/58",
+      "sponsors": []
+    },
+    {
+      "id": "uk-135",
+      "billCode": "UK-135",
+      "title": "Council Housing (Direct Investment) Bill",
+      "summary": "Council Housing (Direct Investment) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2007-10-24",
+      "sourceUrl": "https://bills.parliament.uk/bills/135",
+      "sponsors": []
+    },
+    {
+      "id": "uk-111",
+      "billCode": "UK-111",
+      "title": "House of Commons (Participation) Bill",
+      "summary": "House of Commons (Participation) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2007-10-24",
+      "sourceUrl": "https://bills.parliament.uk/bills/111",
+      "sponsors": []
+    },
+    {
+      "id": "uk-116",
+      "billCode": "UK-116",
+      "title": "Infrastructure Audit (Housing Development) Bill",
+      "summary": "Infrastructure Audit (Housing Development) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2007-10-24",
+      "sourceUrl": "https://bills.parliament.uk/bills/116",
+      "sponsors": []
+    },
+    {
+      "id": "uk-112",
+      "billCode": "UK-112",
+      "title": "Houses in Multiple Occupation Bill",
+      "summary": "Houses in Multiple Occupation Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2007-10-22",
+      "sourceUrl": "https://bills.parliament.uk/bills/112",
+      "sponsors": []
+    },
+    {
+      "id": "uk-149",
+      "billCode": "UK-149",
+      "title": "Planning (Consultation) Bill",
+      "summary": "Planning (Consultation) Bill",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2007-10-22",
+      "sourceUrl": "https://bills.parliament.uk/bills/149",
+      "sponsors": []
+    },
+    {
+      "id": "uk-42",
+      "billCode": "UK-42",
+      "title": "House of Lords Bill [HL]",
+      "summary": "House of Lords Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2007-10-21",
+      "sourceUrl": "https://bills.parliament.uk/bills/42",
+      "sponsors": []
+    },
+    {
+      "id": "uk-43",
+      "billCode": "UK-43",
+      "title": "House of Lords (Amendment) Bill [HL]",
+      "summary": "House of Lords (Amendment) Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2007-10-21",
+      "sourceUrl": "https://bills.parliament.uk/bills/43",
+      "sponsors": []
+    },
+    {
+      "id": "uk-46",
+      "billCode": "UK-46",
+      "title": "Leasehold Information Bill [HL]",
+      "summary": "Leasehold Information Bill [HL]",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2007-10-19",
+      "sourceUrl": "https://bills.parliament.uk/bills/46",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3801",
+      "billCode": "UK-3801",
+      "title": "Homelessness Prevention Bill",
+      "summary": "Homelessness Prevention Bill",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "homelessness"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2025-03-31",
+      "sourceUrl": "https://bills.parliament.uk/bills/3801",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3770",
+      "billCode": "UK-3770",
+      "title": "House of Lords (Peerage Nominations) Bill [HL]",
+      "summary": "House of Lords (Peerage Nominations) Bill [HL]",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-03-20",
+      "sourceUrl": "https://bills.parliament.uk/bills/3770",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2530",
+      "billCode": "UK-2530",
+      "title": "House of Lords (Hereditary Peers) (Abolition of By-Elections) Bill [HL]",
+      "summary": "House of Lords (Hereditary Peers) (Abolition of By-Elections) Bill [HL]",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/2530",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2529",
+      "billCode": "UK-2529",
+      "title": "Extension of Franchise (House of Lords) Bill [HL]",
+      "summary": "Extension of Franchise (House of Lords) Bill [HL]",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/2529",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1784",
+      "billCode": "UK-1784",
+      "title": "House of Lords Act 1999 (Amendment) Bill [HL]",
+      "summary": "House of Lords Act 1999 (Amendment) Bill [HL]",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2017-05-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/1784",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1781",
+      "billCode": "UK-1781",
+      "title": "Renters’ Rights Bill [HL]",
+      "summary": "Renters’ Rights Bill [HL]",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2017-05-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/1781",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1412",
+      "billCode": "UK-1412",
+      "title": "Affordable Homes Bill",
+      "summary": "Affordable Homes Bill",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2015-03-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/1412",
+      "sponsors": []
+    },
+    {
+      "id": "uk-363",
+      "billCode": "UK-363",
+      "title": "House of Lords Bill [HL]",
+      "summary": "House of Lords Bill [HL]",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2009-11-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/363",
+      "sponsors": []
+    },
+    {
+      "id": "uk-364",
+      "billCode": "UK-364",
+      "title": "House of Lords (Members' Taxation Status) Bill [HL]",
+      "summary": "House of Lords (Members' Taxation Status) Bill [HL]",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2009-11-13",
+      "sourceUrl": "https://bills.parliament.uk/bills/364",
+      "sponsors": []
+    },
+    {
+      "id": "uk-186",
+      "billCode": "UK-186",
+      "title": "House of Lords Bill [HL]",
+      "summary": "House of Lords Bill [HL]",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2009-02-23",
+      "sourceUrl": "https://bills.parliament.uk/bills/186",
+      "sponsors": []
+    },
+    {
+      "id": "uk-288",
+      "billCode": "UK-288",
+      "title": "House of Lords (Members' Taxation Status) Bill [HL]",
+      "summary": "House of Lords (Members' Taxation Status) Bill [HL]",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2009-02-23",
+      "sourceUrl": "https://bills.parliament.uk/bills/288",
+      "sponsors": []
+    },
+    {
+      "id": "uk-263",
+      "billCode": "UK-263",
+      "title": "House of Lords (Amendment) Bill [HL]",
+      "summary": "House of Lords (Amendment) Bill [HL]",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2009-02-23",
+      "sourceUrl": "https://bills.parliament.uk/bills/263",
+      "sponsors": []
+    },
+    {
+      "id": "uk-274",
+      "billCode": "UK-274",
+      "title": "Safety Deposit Current Accounts Bill [HL]",
+      "summary": "Safety Deposit Current Accounts Bill [HL]",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2009-02-23",
+      "sourceUrl": "https://bills.parliament.uk/bills/274",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3517",
+      "billCode": "UK-3517",
+      "title": "Housing Act 1988 (Amendment) Bill [HL]",
+      "summary": "Housing Act 1988 (Amendment) Bill [HL]",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2024-05-29",
+      "sourceUrl": "https://bills.parliament.uk/bills/3517",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3537",
+      "billCode": "UK-3537",
+      "title": "House of Lords (Hereditary Peers) (Abolition of By-Elections) Bill [HL]",
+      "summary": "House of Lords (Hereditary Peers) (Abolition of By-Elections) Bill [HL]",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2024-05-29",
+      "sourceUrl": "https://bills.parliament.uk/bills/3537",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3401",
+      "billCode": "UK-3401",
+      "title": "Relocation of the House of Lords (Report to Parliament) Bill",
+      "summary": "Relocation of the House of Lords (Report to Parliament) Bill",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2023-11-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/3401",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3250",
+      "billCode": "UK-3250",
+      "title": "Prime Minister (Accountability to House of Commons) Bill",
+      "summary": "Prime Minister (Accountability to House of Commons) Bill",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2023-11-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/3250",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3372",
+      "billCode": "UK-3372",
+      "title": "Planning Application Fees Bill",
+      "summary": "Planning Application Fees Bill",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2023-11-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/3372",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3434",
+      "billCode": "UK-3434",
+      "title": "Planning (Quarries) Bill",
+      "summary": "Planning (Quarries) Bill",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2023-11-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/3434",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3395",
+      "billCode": "UK-3395",
+      "title": "Shared Parental Leave and Pay (Bereavement) Bill",
+      "summary": "Shared Parental Leave and Pay (Bereavement) Bill",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2023-11-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/3395",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3317",
+      "billCode": "UK-3317",
+      "title": "Parliamentary Elections (Optional Preferential Vote) Bill",
+      "summary": "Parliamentary Elections (Optional Preferential Vote) Bill",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2023-11-02",
+      "sourceUrl": "https://bills.parliament.uk/bills/3317",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3264",
+      "billCode": "UK-3264",
+      "title": "Housing Standards (Refugees and Asylum Seekers) Bill",
+      "summary": "Housing Standards (Refugees and Asylum Seekers) Bill",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2023-11-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/3264",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3292",
+      "billCode": "UK-3292",
+      "title": "House of Lords (Elected Senate) Bill",
+      "summary": "House of Lords (Elected Senate) Bill",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2023-11-01",
+      "sourceUrl": "https://bills.parliament.uk/bills/3292",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3165",
+      "billCode": "UK-3165",
+      "title": "Local Authority (Housing Allocation) Bill [HL]",
+      "summary": "Local Authority (Housing Allocation) Bill [HL]",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2023-10-31",
+      "sourceUrl": "https://bills.parliament.uk/bills/3165",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3323",
+      "billCode": "UK-3323",
+      "title": "House of Lords (Hereditary Peers) (Abolition of By-Elections) (No. 2) Bill [HL]",
+      "summary": "House of Lords (Hereditary Peers) (Abolition of By-Elections) (No. 2) Bill [HL]",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2023-10-31",
+      "sourceUrl": "https://bills.parliament.uk/bills/3323",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3244",
+      "billCode": "UK-3244",
+      "title": "Business of the House Commission Bill",
+      "summary": "Business of the House Commission Bill",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2023-10-31",
+      "sourceUrl": "https://bills.parliament.uk/bills/3244",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3337",
+      "billCode": "UK-3337",
+      "title": "Leasehold Reform (Tribunal Judgments and Legal Costs) Bill [HL]",
+      "summary": "Leasehold Reform (Tribunal Judgments and Legal Costs) Bill [HL]",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2023-10-31",
+      "sourceUrl": "https://bills.parliament.uk/bills/3337",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3319",
+      "billCode": "UK-3319",
+      "title": "Leasehold Reform (Reasonableness of Service Charges) Bill [HL]",
+      "summary": "Leasehold Reform (Reasonableness of Service Charges) Bill [HL]",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2023-10-31",
+      "sourceUrl": "https://bills.parliament.uk/bills/3319",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3387",
+      "billCode": "UK-3387",
+      "title": "Leasehold Reform (Forfeiture) Bill [HL]",
+      "summary": "Leasehold Reform (Forfeiture) Bill [HL]",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2023-10-31",
+      "sourceUrl": "https://bills.parliament.uk/bills/3387",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3321",
+      "billCode": "UK-3321",
+      "title": "Leasehold Reform (Disclosure and Insurance Commissions) Bill [HL]",
+      "summary": "Leasehold Reform (Disclosure and Insurance Commissions) Bill [HL]",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2023-10-31",
+      "sourceUrl": "https://bills.parliament.uk/bills/3321",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3495",
+      "billCode": "UK-3495",
+      "title": "Automated External Defibrillators (Housing Developments) Bill",
+      "summary": "Automated External Defibrillators (Housing Developments) Bill",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2023-10-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/3495",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3420",
+      "billCode": "UK-3420",
+      "title": "Affordable Housing (Conversion of Commercial Property) Bill",
+      "summary": "Affordable Housing (Conversion of Commercial Property) Bill",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2023-10-30",
+      "sourceUrl": "https://bills.parliament.uk/bills/3420",
+      "sponsors": []
+    },
+    {
+      "id": "uk-3028",
+      "billCode": "UK-3028",
+      "title": "House of Lords (Peerage Nominations) Bill [HL]",
+      "summary": "House of Lords (Peerage Nominations) Bill [HL]",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2022-04-28",
+      "sourceUrl": "https://bills.parliament.uk/bills/3028",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2853",
+      "billCode": "UK-2853",
+      "title": "Planning (Local Authority Housing Developments) Bill",
+      "summary": "Planning (Local Authority Housing Developments) Bill",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/2853",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2905",
+      "billCode": "UK-2905",
+      "title": "Planning (Enforcement) Bill",
+      "summary": "Planning (Enforcement) Bill",
+      "stage": "Dead",
+      "stance": "review",
+      "impactTags": [
+        "density"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-11-19",
+      "sourceUrl": "https://bills.parliament.uk/bills/2905",
+      "sponsors": []
+    },
+    {
+      "id": "uk-1067",
+      "billCode": "UK-1067",
+      "title": "House of Lords Reform Bill",
+      "summary": "House of Lords Reform Bill",
+      "stage": "Dead",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-05-21",
+      "sourceUrl": "https://bills.parliament.uk/bills/1067",
+      "sponsors": []
+    },
+    {
+      "id": "uk-2688",
+      "billCode": "UK-2688",
+      "title": "Prime Minister (Accountability to the House of Commons) Bill",
+      "summary": "Prime Minister (Accountability to the House of Commons) Bill",
+      "stage": "Dead",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2021-05-05",
+      "sourceUrl": "https://bills.parliament.uk/bills/2688",
+      "sponsors": []
+    }
+  ]
+}

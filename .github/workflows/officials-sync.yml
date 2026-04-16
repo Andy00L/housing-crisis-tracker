@@ -1,0 +1,59 @@
+name: officials-sync
+
+# Monthly sync of Canadian officials. Reads canada.ca for the canonical
+# minister list, enriches via Tavily + Claude for biographical context,
+# writes data/politicians/canada.json, and rebuilds placeholder-data.
+
+on:
+  schedule:
+    - cron: "0 9 1-7 * 0" # First Sunday of the month, 09:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: officials-sync
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - run: npm ci --no-audit --no-fund
+
+      - name: Officials (canada.ca + Tavily)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: npx tsx scripts/sync/officials.ts
+
+      - name: Rebuild placeholder
+        run: npx tsx scripts/build-placeholder.ts
+
+      - name: Build
+        run: npm run build
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain data/ lib/placeholder-data.ts)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/politicians/ data/raw/_run-reports/ lib/placeholder-data.ts
+            git commit -m "officials: monthly sync $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          else
+            echo "No changes."
+          fi
+
+      - name: Summarize run report
+        if: always()
+        run: npx tsx scripts/ci/summarize-run-report.ts

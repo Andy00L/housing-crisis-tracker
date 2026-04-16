@@ -1,0 +1,77 @@
+[
+  {
+    "id": "franklin-county-ma",
+    "name": "Franklin County",
+    "fips": "25011",
+    "state": "Massachusetts",
+    "stateCode": "MA",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Town of Greenfield) Moratorium on Large-Scale Data Centers",
+        "date": "2025-02-06",
+        "status": "enacted",
+        "summary": "The Greenfield Town Council voted to enact a moratorium on large-scale data center developments for up to 18 months, citing concerns about energy consumption and infrastructure impacts while the town studies appropriate zoning regulations.",
+        "sourceUrl": "https://www.recorder.com/greenfield-data-center-moratorium-approved-58847401"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "energy-rates",
+      "local-zoning",
+      "environmental-review",
+      "water-consumption"
+    ],
+    "contextBlurb": "Franklin County communities, particularly Greenfield, have acted preemptively to pause data center proposals while studying potential impacts on the region's energy grid and municipal infrastructure. The area's relatively affordable land and proximity to fiber routes have attracted developer interest."
+  },
+  {
+    "id": "worcester-county-ma",
+    "name": "Worcester County",
+    "fips": "25027",
+    "state": "Massachusetts",
+    "stateCode": "MA",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Town of Fitchburg) Data Center Zoning Review",
+        "date": "2025-01-15",
+        "status": "under-review",
+        "summary": "Fitchburg officials initiated a review of zoning bylaws to address data center siting after receiving inquiries from developers, examining noise, energy, and water impacts on residential neighborhoods.",
+        "sourceUrl": "https://www.sentinelandenterprise.com/2025/01/15/fitchburg-weighs-data-center-regulations/"
+      }
+    ],
+    "concerns": [
+      "local-zoning",
+      "noise-vibration",
+      "water-consumption",
+      "grid-capacity",
+      "residential-proximity"
+    ],
+    "contextBlurb": "Worcester County municipalities have seen growing interest from data center developers seeking sites in central Massachusetts. Local officials are evaluating appropriate zoning frameworks to manage potential impacts on residential areas and utility infrastructure."
+  },
+  {
+    "id": "norfolk-county-ma",
+    "name": "Norfolk County",
+    "fips": "25021",
+    "state": "Massachusetts",
+    "stateCode": "MA",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Town of Braintree) Opposition to Proposed Data Center Expansion",
+        "date": "2024-09-01",
+        "status": "under-review",
+        "summary": "Braintree residents and officials raised concerns about a proposed data center facility's impact on local power grid capacity and noise levels, prompting additional environmental and utility impact reviews.",
+        "sourceUrl": "https://www.patriotledger.com/story/news/local/2024/09/03/braintree-residents-voice-concerns-data-center/74945612007/"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "noise-vibration",
+      "residential-proximity",
+      "energy-rates",
+      "environmental-review"
+    ],
+    "contextBlurb": "Norfolk County, part of the greater Boston metro area, has faced data center siting pressures as developers look for locations near major internet exchange points. Community opposition has centered on noise, energy demands, and neighborhood compatibility."
+  }
+]

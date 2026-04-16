@@ -1,0 +1,4914 @@
+{
+  "source": "Zillow Observed Rent Index (ZORI)",
+  "level": "metro",
+  "lastUpdated": "2026-04-16",
+  "metros": [
+    {
+      "metro": "0",
+      "currentRent": 1895,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1862,
+      "changeYoY": 1.8
+    },
+    {
+      "metro": "1",
+      "currentRent": 3258,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 3128,
+      "changeYoY": 4.2
+    },
+    {
+      "metro": "2",
+      "currentRent": 2884,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2856,
+      "changeYoY": 1
+    },
+    {
+      "metro": "3",
+      "currentRent": 2132,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2024,
+      "changeYoY": 5.3
+    },
+    {
+      "metro": "4",
+      "currentRent": 1630,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1629,
+      "changeYoY": 0.1
+    },
+    {
+      "metro": "5",
+      "currentRent": 1620,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1628,
+      "changeYoY": -0.5
+    },
+    {
+      "metro": "6",
+      "currentRent": 2331,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2332,
+      "changeYoY": 0
+    },
+    {
+      "metro": "7",
+      "currentRent": 1859,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1805,
+      "changeYoY": 3
+    },
+    {
+      "metro": "8",
+      "currentRent": 2654,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2642,
+      "changeYoY": 0.5
+    },
+    {
+      "metro": "9",
+      "currentRent": 1808,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1783,
+      "changeYoY": 1.4
+    },
+    {
+      "metro": "10",
+      "currentRent": 3098,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 3050,
+      "changeYoY": 1.6
+    },
+    {
+      "metro": "11",
+      "currentRent": 1724,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1738,
+      "changeYoY": -0.8
+    },
+    {
+      "metro": "12",
+      "currentRent": 3103,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2921,
+      "changeYoY": 6.2
+    },
+    {
+      "metro": "13",
+      "currentRent": 2478,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2441,
+      "changeYoY": 1.5
+    },
+    {
+      "metro": "14",
+      "currentRent": 1461,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1429,
+      "changeYoY": 2.3
+    },
+    {
+      "metro": "15",
+      "currentRent": 2181,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2149,
+      "changeYoY": 1.5
+    },
+    {
+      "metro": "16",
+      "currentRent": 1664,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1601,
+      "changeYoY": 4
+    },
+    {
+      "metro": "17",
+      "currentRent": 2871,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2833,
+      "changeYoY": 1.4
+    },
+    {
+      "metro": "18",
+      "currentRent": 1976,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2011,
+      "changeYoY": -1.7
+    },
+    {
+      "metro": "19",
+      "currentRent": 1844,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1860,
+      "changeYoY": -0.9
+    },
+    {
+      "metro": "20",
+      "currentRent": 1857,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1814,
+      "changeYoY": 2.4
+    },
+    {
+      "metro": "21",
+      "currentRent": 1395,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1350,
+      "changeYoY": 3.3
+    },
+    {
+      "metro": "22",
+      "currentRent": 1922,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1921,
+      "changeYoY": 0.1
+    },
+    {
+      "metro": "23",
+      "currentRent": 1716,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1710,
+      "changeYoY": 0.4
+    },
+    {
+      "metro": "24",
+      "currentRent": 1392,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1414,
+      "changeYoY": -1.6
+    },
+    {
+      "metro": "25",
+      "currentRent": 1779,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1762,
+      "changeYoY": 0.9
+    },
+    {
+      "metro": "26",
+      "currentRent": 2211,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2166,
+      "changeYoY": 2.1
+    },
+    {
+      "metro": "27",
+      "currentRent": 1446,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1393,
+      "changeYoY": 3.8
+    },
+    {
+      "metro": "28",
+      "currentRent": 1536,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1484,
+      "changeYoY": 3.5
+    },
+    {
+      "metro": "29",
+      "currentRent": 1563,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1605,
+      "changeYoY": -2.6
+    },
+    {
+      "metro": "30",
+      "currentRent": 1720,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1725,
+      "changeYoY": -0.3
+    },
+    {
+      "metro": "31",
+      "currentRent": 1481,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1432,
+      "changeYoY": 3.4
+    },
+    {
+      "metro": "32",
+      "currentRent": 1484,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1462,
+      "changeYoY": 1.5
+    },
+    {
+      "metro": "34",
+      "currentRent": 1486,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1452,
+      "changeYoY": 2.4
+    },
+    {
+      "metro": "35",
+      "currentRent": 1394,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1331,
+      "changeYoY": 4.7
+    },
+    {
+      "metro": "36",
+      "currentRent": 3431,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 3268,
+      "changeYoY": 5
+    },
+    {
+      "metro": "37",
+      "currentRent": 1777,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1773,
+      "changeYoY": 0.2
+    },
+    {
+      "metro": "38",
+      "currentRent": 1787,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1692,
+      "changeYoY": 5.6
+    },
+    {
+      "metro": "39",
+      "currentRent": 2095,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2002,
+      "changeYoY": 4.6
+    },
+    {
+      "metro": "40",
+      "currentRent": 1666,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1657,
+      "changeYoY": 0.6
+    },
+    {
+      "metro": "41",
+      "currentRent": 1484,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1436,
+      "changeYoY": 3.3
+    },
+    {
+      "metro": "42",
+      "currentRent": 1359,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1328,
+      "changeYoY": 2.4
+    },
+    {
+      "metro": "43",
+      "currentRent": 1651,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1652,
+      "changeYoY": 0
+    },
+    {
+      "metro": "44",
+      "currentRent": 1421,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1404,
+      "changeYoY": 1.2
+    },
+    {
+      "metro": "45",
+      "currentRent": 1658,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1597,
+      "changeYoY": 3.8
+    },
+    {
+      "metro": "46",
+      "currentRent": 1361,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1335,
+      "changeYoY": 1.9
+    },
+    {
+      "metro": "47",
+      "currentRent": 1577,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1575,
+      "changeYoY": 0.1
+    },
+    {
+      "metro": "48",
+      "currentRent": 1599,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1606,
+      "changeYoY": -0.5
+    },
+    {
+      "metro": "49",
+      "currentRent": 1886,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1839,
+      "changeYoY": 2.5
+    },
+    {
+      "metro": "50",
+      "currentRent": 1374,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1329,
+      "changeYoY": 3.4
+    },
+    {
+      "metro": "51",
+      "currentRent": 1406,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1383,
+      "changeYoY": 1.6
+    },
+    {
+      "metro": "52",
+      "currentRent": 1500,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1447,
+      "changeYoY": 3.7
+    },
+    {
+      "metro": "53",
+      "currentRent": 1644,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1586,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "54",
+      "currentRent": 1447,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1443,
+      "changeYoY": 0.3
+    },
+    {
+      "metro": "55",
+      "currentRent": 2803,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2675,
+      "changeYoY": 4.8
+    },
+    {
+      "metro": "56",
+      "currentRent": 1340,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1304,
+      "changeYoY": 2.7
+    },
+    {
+      "metro": "57",
+      "currentRent": 1842,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1779,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "58",
+      "currentRent": 2122,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2051,
+      "changeYoY": 3.5
+    },
+    {
+      "metro": "59",
+      "currentRent": 1394,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1347,
+      "changeYoY": 3.5
+    },
+    {
+      "metro": "60",
+      "currentRent": 2731,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2688,
+      "changeYoY": 1.6
+    },
+    {
+      "metro": "61",
+      "currentRent": 1551,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1549,
+      "changeYoY": 0.1
+    },
+    {
+      "metro": "62",
+      "currentRent": 1503,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1494,
+      "changeYoY": 0.6
+    },
+    {
+      "metro": "63",
+      "currentRent": 1757,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1715,
+      "changeYoY": 2.5
+    },
+    {
+      "metro": "64",
+      "currentRent": 1611,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1540,
+      "changeYoY": 4.6
+    },
+    {
+      "metro": "65",
+      "currentRent": 1716,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1702,
+      "changeYoY": 0.8
+    },
+    {
+      "metro": "66",
+      "currentRent": 1354,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1328,
+      "changeYoY": 2
+    },
+    {
+      "metro": "67",
+      "currentRent": 1104,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1096,
+      "changeYoY": 0.8
+    },
+    {
+      "metro": "68",
+      "currentRent": 2020,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1960,
+      "changeYoY": 3.1
+    },
+    {
+      "metro": "69",
+      "currentRent": 1451,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1429,
+      "changeYoY": 1.5
+    },
+    {
+      "metro": "70",
+      "currentRent": 1767,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1712,
+      "changeYoY": 3.3
+    },
+    {
+      "metro": "71",
+      "currentRent": 3005,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2967,
+      "changeYoY": 1.3
+    },
+    {
+      "metro": "72",
+      "currentRent": 1543,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1501,
+      "changeYoY": 2.8
+    },
+    {
+      "metro": "73",
+      "currentRent": 2094,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2169,
+      "changeYoY": -3.4
+    },
+    {
+      "metro": "74",
+      "currentRent": 1308,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1271,
+      "changeYoY": 2.9
+    },
+    {
+      "metro": "75",
+      "currentRent": 1969,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1918,
+      "changeYoY": 2.7
+    },
+    {
+      "metro": "76",
+      "currentRent": 1409,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1372,
+      "changeYoY": 2.7
+    },
+    {
+      "metro": "77",
+      "currentRent": 2360,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2304,
+      "changeYoY": 2.4
+    },
+    {
+      "metro": "78",
+      "currentRent": 1842,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1920,
+      "changeYoY": -4
+    },
+    {
+      "metro": "79",
+      "currentRent": 1758,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1698,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "80",
+      "currentRent": 1694,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1697,
+      "changeYoY": -0.2
+    },
+    {
+      "metro": "81",
+      "currentRent": 1206,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1175,
+      "changeYoY": 2.6
+    },
+    {
+      "metro": "82",
+      "currentRent": 1825,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1825,
+      "changeYoY": 0
+    },
+    {
+      "metro": "83",
+      "currentRent": 1239,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1194,
+      "changeYoY": 3.8
+    },
+    {
+      "metro": "84",
+      "currentRent": 1257,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1230,
+      "changeYoY": 2.2
+    },
+    {
+      "metro": "85",
+      "currentRent": 1896,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1795,
+      "changeYoY": 5.6
+    },
+    {
+      "metro": "86",
+      "currentRent": 2160,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2101,
+      "changeYoY": 2.8
+    },
+    {
+      "metro": "87",
+      "currentRent": 1641,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1600,
+      "changeYoY": 2.6
+    },
+    {
+      "metro": "88",
+      "currentRent": 1659,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1620,
+      "changeYoY": 2.4
+    },
+    {
+      "metro": "89",
+      "currentRent": 1487,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1427,
+      "changeYoY": 4.2
+    },
+    {
+      "metro": "90",
+      "currentRent": 1787,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1777,
+      "changeYoY": 0.6
+    },
+    {
+      "metro": "91",
+      "currentRent": 1620,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1562,
+      "changeYoY": 3.7
+    },
+    {
+      "metro": "92",
+      "currentRent": 1732,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1687,
+      "changeYoY": 2.6
+    },
+    {
+      "metro": "93",
+      "currentRent": 1159,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1112,
+      "changeYoY": 4.2
+    },
+    {
+      "metro": "94",
+      "currentRent": 1158,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1107,
+      "changeYoY": 4.6
+    },
+    {
+      "metro": "95",
+      "currentRent": 1654,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1631,
+      "changeYoY": 1.5
+    },
+    {
+      "metro": "96",
+      "currentRent": 1442,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1429,
+      "changeYoY": 0.9
+    },
+    {
+      "metro": "97",
+      "currentRent": 1887,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1868,
+      "changeYoY": 1
+    },
+    {
+      "metro": "98",
+      "currentRent": 1479,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1425,
+      "changeYoY": 3.8
+    },
+    {
+      "metro": "99",
+      "currentRent": 1415,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1382,
+      "changeYoY": 2.3
+    },
+    {
+      "metro": "100",
+      "currentRent": 1491,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1467,
+      "changeYoY": 1.6
+    },
+    {
+      "metro": "101",
+      "currentRent": 1303,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1257,
+      "changeYoY": 3.7
+    },
+    {
+      "metro": "102",
+      "currentRent": 1500,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1481,
+      "changeYoY": 1.3
+    },
+    {
+      "metro": "103",
+      "currentRent": 2061,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2021,
+      "changeYoY": 2
+    },
+    {
+      "metro": "104",
+      "currentRent": 1515,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1473,
+      "changeYoY": 2.8
+    },
+    {
+      "metro": "105",
+      "currentRent": 2253,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2178,
+      "changeYoY": 3.4
+    },
+    {
+      "metro": "106",
+      "currentRent": 1046,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 989,
+      "changeYoY": 5.7
+    },
+    {
+      "metro": "107",
+      "currentRent": 1327,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1261,
+      "changeYoY": 5.2
+    },
+    {
+      "metro": "108",
+      "currentRent": 1585,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1544,
+      "changeYoY": 2.7
+    },
+    {
+      "metro": "109",
+      "currentRent": 1476,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1436,
+      "changeYoY": 2.8
+    },
+    {
+      "metro": "110",
+      "currentRent": 1477,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1408,
+      "changeYoY": 5
+    },
+    {
+      "metro": "111",
+      "currentRent": 1721,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1680,
+      "changeYoY": 2.4
+    },
+    {
+      "metro": "112",
+      "currentRent": 2616,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2585,
+      "changeYoY": 1.2
+    },
+    {
+      "metro": "113",
+      "currentRent": 1895,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1769,
+      "changeYoY": 7.1
+    },
+    {
+      "metro": "114",
+      "currentRent": 1382,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1356,
+      "changeYoY": 1.9
+    },
+    {
+      "metro": "115",
+      "currentRent": 2302,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2266,
+      "changeYoY": 1.6
+    },
+    {
+      "metro": "116",
+      "currentRent": 1330,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1297,
+      "changeYoY": 2.5
+    },
+    {
+      "metro": "117",
+      "currentRent": 1682,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1680,
+      "changeYoY": 0.1
+    },
+    {
+      "metro": "118",
+      "currentRent": 1252,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1210,
+      "changeYoY": 3.5
+    },
+    {
+      "metro": "119",
+      "currentRent": 1731,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1683,
+      "changeYoY": 2.9
+    },
+    {
+      "metro": "120",
+      "currentRent": 1318,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1320,
+      "changeYoY": -0.1
+    },
+    {
+      "metro": "121",
+      "currentRent": 1757,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1767,
+      "changeYoY": -0.6
+    },
+    {
+      "metro": "122",
+      "currentRent": 1357,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1300,
+      "changeYoY": 4.4
+    },
+    {
+      "metro": "123",
+      "currentRent": 2383,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2365,
+      "changeYoY": 0.8
+    },
+    {
+      "metro": "124",
+      "currentRent": 3279,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 3257,
+      "changeYoY": 0.7
+    },
+    {
+      "metro": "125",
+      "currentRent": 2826,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2794,
+      "changeYoY": 1.1
+    },
+    {
+      "metro": "126",
+      "currentRent": 1644,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1623,
+      "changeYoY": 1.3
+    },
+    {
+      "metro": "127",
+      "currentRent": 1269,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1232,
+      "changeYoY": 3
+    },
+    {
+      "metro": "128",
+      "currentRent": 1459,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1447,
+      "changeYoY": 0.8
+    },
+    {
+      "metro": "129",
+      "currentRent": 1421,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1426,
+      "changeYoY": -0.4
+    },
+    {
+      "metro": "130",
+      "currentRent": 1424,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1392,
+      "changeYoY": 2.3
+    },
+    {
+      "metro": "131",
+      "currentRent": 2085,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2015,
+      "changeYoY": 3.5
+    },
+    {
+      "metro": "132",
+      "currentRent": 1153,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1120,
+      "changeYoY": 3
+    },
+    {
+      "metro": "133",
+      "currentRent": 1422,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1333,
+      "changeYoY": 6.7
+    },
+    {
+      "metro": "134",
+      "currentRent": 1894,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1852,
+      "changeYoY": 2.3
+    },
+    {
+      "metro": "135",
+      "currentRent": 1067,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1032,
+      "changeYoY": 3.3
+    },
+    {
+      "metro": "136",
+      "currentRent": 1145,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1067,
+      "changeYoY": 7.4
+    },
+    {
+      "metro": "137",
+      "currentRent": 1026,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 994,
+      "changeYoY": 3.3
+    },
+    {
+      "metro": "138",
+      "currentRent": 1779,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1782,
+      "changeYoY": -0.2
+    },
+    {
+      "metro": "139",
+      "currentRent": 1679,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1619,
+      "changeYoY": 3.7
+    },
+    {
+      "metro": "140",
+      "currentRent": 1273,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1209,
+      "changeYoY": 5.3
+    },
+    {
+      "metro": "141",
+      "currentRent": 1301,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1259,
+      "changeYoY": 3.3
+    },
+    {
+      "metro": "142",
+      "currentRent": 2497,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2491,
+      "changeYoY": 0.2
+    },
+    {
+      "metro": "143",
+      "currentRent": 1382,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1328,
+      "changeYoY": 4.1
+    },
+    {
+      "metro": "144",
+      "currentRent": 949,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 916,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "145",
+      "currentRent": 1485,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1454,
+      "changeYoY": 2.1
+    },
+    {
+      "metro": "146",
+      "currentRent": 1898,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1820,
+      "changeYoY": 4.3
+    },
+    {
+      "metro": "147",
+      "currentRent": 2692,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2683,
+      "changeYoY": 0.3
+    },
+    {
+      "metro": "148",
+      "currentRent": 2039,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2017,
+      "changeYoY": 1.1
+    },
+    {
+      "metro": "149",
+      "currentRent": 1603,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1585,
+      "changeYoY": 1.1
+    },
+    {
+      "metro": "150",
+      "currentRent": 1394,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1346,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "151",
+      "currentRent": 1021,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 967,
+      "changeYoY": 5.6
+    },
+    {
+      "metro": "152",
+      "currentRent": 1970,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1928,
+      "changeYoY": 2.2
+    },
+    {
+      "metro": "153",
+      "currentRent": 1199,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1122,
+      "changeYoY": 6.8
+    },
+    {
+      "metro": "154",
+      "currentRent": 1292,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1266,
+      "changeYoY": 2.1
+    },
+    {
+      "metro": "155",
+      "currentRent": 1633,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1583,
+      "changeYoY": 3.2
+    },
+    {
+      "metro": "156",
+      "currentRent": 2238,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2239,
+      "changeYoY": 0
+    },
+    {
+      "metro": "157",
+      "currentRent": 1096,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1054,
+      "changeYoY": 4
+    },
+    {
+      "metro": "158",
+      "currentRent": 1235,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1186,
+      "changeYoY": 4.1
+    },
+    {
+      "metro": "159",
+      "currentRent": 1388,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1331,
+      "changeYoY": 4.3
+    },
+    {
+      "metro": "160",
+      "currentRent": 1415,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1389,
+      "changeYoY": 1.9
+    },
+    {
+      "metro": "161",
+      "currentRent": 1714,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1721,
+      "changeYoY": -0.4
+    },
+    {
+      "metro": "162",
+      "currentRent": 1390,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1377,
+      "changeYoY": 1
+    },
+    {
+      "metro": "163",
+      "currentRent": 1341,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1332,
+      "changeYoY": 0.7
+    },
+    {
+      "metro": "164",
+      "currentRent": 1370,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1315,
+      "changeYoY": 4.2
+    },
+    {
+      "metro": "165",
+      "currentRent": 1050,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 980,
+      "changeYoY": 7.1
+    },
+    {
+      "metro": "167",
+      "currentRent": 1365,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1317,
+      "changeYoY": 3.7
+    },
+    {
+      "metro": "168",
+      "currentRent": 1681,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1653,
+      "changeYoY": 1.7
+    },
+    {
+      "metro": "169",
+      "currentRent": 1336,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1284,
+      "changeYoY": 4
+    },
+    {
+      "metro": "170",
+      "currentRent": 1586,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1518,
+      "changeYoY": 4.5
+    },
+    {
+      "metro": "171",
+      "currentRent": 1685,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1627,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "172",
+      "currentRent": 1993,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1917,
+      "changeYoY": 4
+    },
+    {
+      "metro": "173",
+      "currentRent": 1161,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1121,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "174",
+      "currentRent": 1690,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1667,
+      "changeYoY": 1.4
+    },
+    {
+      "metro": "175",
+      "currentRent": 3022,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2929,
+      "changeYoY": 3.2
+    },
+    {
+      "metro": "176",
+      "currentRent": 1916,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1920,
+      "changeYoY": -0.2
+    },
+    {
+      "metro": "177",
+      "currentRent": 1876,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1851,
+      "changeYoY": 1.3
+    },
+    {
+      "metro": "178",
+      "currentRent": 1418,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1399,
+      "changeYoY": 1.3
+    },
+    {
+      "metro": "179",
+      "currentRent": 1115,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1034,
+      "changeYoY": 7.9
+    },
+    {
+      "metro": "180",
+      "currentRent": 2163,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2072,
+      "changeYoY": 4.4
+    },
+    {
+      "metro": "181",
+      "currentRent": 1980,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1960,
+      "changeYoY": 1
+    },
+    {
+      "metro": "182",
+      "currentRent": 1289,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1256,
+      "changeYoY": 2.7
+    },
+    {
+      "metro": "183",
+      "currentRent": 3359,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 3319,
+      "changeYoY": 1.2
+    },
+    {
+      "metro": "184",
+      "currentRent": 1045,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1007,
+      "changeYoY": 3.8
+    },
+    {
+      "metro": "185",
+      "currentRent": 1879,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1843,
+      "changeYoY": 2
+    },
+    {
+      "metro": "186",
+      "currentRent": 1239,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1183,
+      "changeYoY": 4.8
+    },
+    {
+      "metro": "187",
+      "currentRent": 1327,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1319,
+      "changeYoY": 0.6
+    },
+    {
+      "metro": "188",
+      "currentRent": 1522,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1459,
+      "changeYoY": 4.3
+    },
+    {
+      "metro": "189",
+      "currentRent": 1622,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1571,
+      "changeYoY": 3.2
+    },
+    {
+      "metro": "190",
+      "currentRent": 1341,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1313,
+      "changeYoY": 2.2
+    },
+    {
+      "metro": "191",
+      "currentRent": 1335,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1300,
+      "changeYoY": 2.7
+    },
+    {
+      "metro": "192",
+      "currentRent": 1031,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 968,
+      "changeYoY": 6.5
+    },
+    {
+      "metro": "193",
+      "currentRent": 1286,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1238,
+      "changeYoY": 3.9
+    },
+    {
+      "metro": "194",
+      "currentRent": 1115,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1074,
+      "changeYoY": 3.9
+    },
+    {
+      "metro": "195",
+      "currentRent": 1266,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1169,
+      "changeYoY": 8.3
+    },
+    {
+      "metro": "196",
+      "currentRent": 1009,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 971,
+      "changeYoY": 4
+    },
+    {
+      "metro": "197",
+      "currentRent": 1219,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1159,
+      "changeYoY": 5.1
+    },
+    {
+      "metro": "198",
+      "currentRent": 1852,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1835,
+      "changeYoY": 1
+    },
+    {
+      "metro": "199",
+      "currentRent": 1160,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1098,
+      "changeYoY": 5.7
+    },
+    {
+      "metro": "200",
+      "currentRent": 1214,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1187,
+      "changeYoY": 2.3
+    },
+    {
+      "metro": "201",
+      "currentRent": 1337,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1326,
+      "changeYoY": 0.9
+    },
+    {
+      "metro": "202",
+      "currentRent": 2686,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2520,
+      "changeYoY": 6.6
+    },
+    {
+      "metro": "203",
+      "currentRent": 1691,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1636,
+      "changeYoY": 3.3
+    },
+    {
+      "metro": "205",
+      "currentRent": 1922,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1873,
+      "changeYoY": 2.6
+    },
+    {
+      "metro": "206",
+      "currentRent": 2144,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2141,
+      "changeYoY": 0.1
+    },
+    {
+      "metro": "207",
+      "currentRent": 1617,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1587,
+      "changeYoY": 1.9
+    },
+    {
+      "metro": "208",
+      "currentRent": 1389,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1334,
+      "changeYoY": 4.1
+    },
+    {
+      "metro": "209",
+      "currentRent": 1306,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1244,
+      "changeYoY": 5
+    },
+    {
+      "metro": "210",
+      "currentRent": 1740,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1707,
+      "changeYoY": 1.9
+    },
+    {
+      "metro": "211",
+      "currentRent": 2069,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2014,
+      "changeYoY": 2.7
+    },
+    {
+      "metro": "212",
+      "currentRent": 1963,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1894,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "213",
+      "currentRent": 1155,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1049,
+      "changeYoY": 10.1
+    },
+    {
+      "metro": "214",
+      "currentRent": 1345,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1305,
+      "changeYoY": 3.1
+    },
+    {
+      "metro": "215",
+      "currentRent": 1604,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1553,
+      "changeYoY": 3.3
+    },
+    {
+      "metro": "216",
+      "currentRent": 2023,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2008,
+      "changeYoY": 0.7
+    },
+    {
+      "metro": "217",
+      "currentRent": 1726,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1688,
+      "changeYoY": 2.3
+    },
+    {
+      "metro": "218",
+      "currentRent": 1481,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1472,
+      "changeYoY": 0.6
+    },
+    {
+      "metro": "219",
+      "currentRent": 1399,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1339,
+      "changeYoY": 4.5
+    },
+    {
+      "metro": "220",
+      "currentRent": 1172,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1112,
+      "changeYoY": 5.4
+    },
+    {
+      "metro": "221",
+      "currentRent": 1317,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1267,
+      "changeYoY": 4
+    },
+    {
+      "metro": "222",
+      "currentRent": 1100,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 833,
+      "changeYoY": 32
+    },
+    {
+      "metro": "223",
+      "currentRent": 1083,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1025,
+      "changeYoY": 5.7
+    },
+    {
+      "metro": "224",
+      "currentRent": 1326,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1261,
+      "changeYoY": 5.2
+    },
+    {
+      "metro": "225",
+      "currentRent": 1377,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1366,
+      "changeYoY": 0.8
+    },
+    {
+      "metro": "226",
+      "currentRent": 1667,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1656,
+      "changeYoY": 0.6
+    },
+    {
+      "metro": "227",
+      "currentRent": 1479,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1428,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "228",
+      "currentRent": 1295,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1226,
+      "changeYoY": 5.6
+    },
+    {
+      "metro": "229",
+      "currentRent": 2490,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2416,
+      "changeYoY": 3.1
+    },
+    {
+      "metro": "230",
+      "currentRent": 1206,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1188,
+      "changeYoY": 1.5
+    },
+    {
+      "metro": "231",
+      "currentRent": 1343,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1285,
+      "changeYoY": 4.5
+    },
+    {
+      "metro": "232",
+      "currentRent": 2145,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2071,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "233",
+      "currentRent": 1003,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 967,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "234",
+      "currentRent": 1570,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1529,
+      "changeYoY": 2.7
+    },
+    {
+      "metro": "235",
+      "currentRent": 974,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 934,
+      "changeYoY": 4.4
+    },
+    {
+      "metro": "236",
+      "currentRent": 1821,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1727,
+      "changeYoY": 5.5
+    },
+    {
+      "metro": "237",
+      "currentRent": 1867,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1885,
+      "changeYoY": -0.9
+    },
+    {
+      "metro": "239",
+      "currentRent": 1364,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1306,
+      "changeYoY": 4.5
+    },
+    {
+      "metro": "240",
+      "currentRent": 1591,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1511,
+      "changeYoY": 5.3
+    },
+    {
+      "metro": "241",
+      "currentRent": 2209,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2144,
+      "changeYoY": 3
+    },
+    {
+      "metro": "242",
+      "currentRent": 1673,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1657,
+      "changeYoY": 1
+    },
+    {
+      "metro": "243",
+      "currentRent": 1233,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1131,
+      "changeYoY": 9
+    },
+    {
+      "metro": "244",
+      "currentRent": 1689,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1656,
+      "changeYoY": 2
+    },
+    {
+      "metro": "245",
+      "currentRent": 1620,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1564,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "246",
+      "currentRent": 1363,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1323,
+      "changeYoY": 3
+    },
+    {
+      "metro": "247",
+      "currentRent": 1886,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1882,
+      "changeYoY": 0.3
+    },
+    {
+      "metro": "248",
+      "currentRent": 1250,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1238,
+      "changeYoY": 1
+    },
+    {
+      "metro": "249",
+      "currentRent": 1868,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1832,
+      "changeYoY": 2
+    },
+    {
+      "metro": "250",
+      "currentRent": 1166,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1092,
+      "changeYoY": 6.8
+    },
+    {
+      "metro": "251",
+      "currentRent": 1770,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1325,
+      "changeYoY": 33.6
+    },
+    {
+      "metro": "252",
+      "currentRent": 1323,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1259,
+      "changeYoY": 5.1
+    },
+    {
+      "metro": "253",
+      "currentRent": 1637,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1545,
+      "changeYoY": 6
+    },
+    {
+      "metro": "254",
+      "currentRent": 1585,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1542,
+      "changeYoY": 2.7
+    },
+    {
+      "metro": "255",
+      "currentRent": 1329,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1271,
+      "changeYoY": 4.6
+    },
+    {
+      "metro": "255",
+      "currentRent": 1285,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1238,
+      "changeYoY": 3.8
+    },
+    {
+      "metro": "257",
+      "currentRent": 1100,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1063,
+      "changeYoY": 3.5
+    },
+    {
+      "metro": "258",
+      "currentRent": 1117,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1090,
+      "changeYoY": 2.4
+    },
+    {
+      "metro": "259",
+      "currentRent": 1365,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1297,
+      "changeYoY": 5.2
+    },
+    {
+      "metro": "260",
+      "currentRent": 1385,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1346,
+      "changeYoY": 2.9
+    },
+    {
+      "metro": "261",
+      "currentRent": 1095,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1061,
+      "changeYoY": 3.3
+    },
+    {
+      "metro": "262",
+      "currentRent": 1705,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1660,
+      "changeYoY": 2.7
+    },
+    {
+      "metro": "263",
+      "currentRent": 1850,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1783,
+      "changeYoY": 3.8
+    },
+    {
+      "metro": "264",
+      "currentRent": 1301,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1249,
+      "changeYoY": 4.2
+    },
+    {
+      "metro": "265",
+      "currentRent": 1728,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1654,
+      "changeYoY": 4.5
+    },
+    {
+      "metro": "266",
+      "currentRent": 1000,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 954,
+      "changeYoY": 4.8
+    },
+    {
+      "metro": "267",
+      "currentRent": 3511,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 3608,
+      "changeYoY": -2.7
+    },
+    {
+      "metro": "268",
+      "currentRent": 1233,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1169,
+      "changeYoY": 5.5
+    },
+    {
+      "metro": "269",
+      "currentRent": 1192,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1118,
+      "changeYoY": 6.7
+    },
+    {
+      "metro": "270",
+      "currentRent": 1475,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1440,
+      "changeYoY": 2.4
+    },
+    {
+      "metro": "271",
+      "currentRent": 1610,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1605,
+      "changeYoY": 0.3
+    },
+    {
+      "metro": "272",
+      "currentRent": 1157,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1141,
+      "changeYoY": 1.5
+    },
+    {
+      "metro": "273",
+      "currentRent": 1607,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1534,
+      "changeYoY": 4.8
+    },
+    {
+      "metro": "274",
+      "currentRent": 2110,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2142,
+      "changeYoY": -1.5
+    },
+    {
+      "metro": "275",
+      "currentRent": 2195,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2147,
+      "changeYoY": 2.2
+    },
+    {
+      "metro": "276",
+      "currentRent": 1110,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1080,
+      "changeYoY": 2.8
+    },
+    {
+      "metro": "277",
+      "currentRent": 1197,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1164,
+      "changeYoY": 2.8
+    },
+    {
+      "metro": "278",
+      "currentRent": 1652,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1567,
+      "changeYoY": 5.5
+    },
+    {
+      "metro": "279",
+      "currentRent": 1407,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1372,
+      "changeYoY": 2.5
+    },
+    {
+      "metro": "280",
+      "currentRent": 1725,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1662,
+      "changeYoY": 3.8
+    },
+    {
+      "metro": "281",
+      "currentRent": 1245,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1204,
+      "changeYoY": 3.4
+    },
+    {
+      "metro": "282",
+      "currentRent": 1257,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1210,
+      "changeYoY": 3.9
+    },
+    {
+      "metro": "283",
+      "currentRent": 1206,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1205,
+      "changeYoY": 0.1
+    },
+    {
+      "metro": "284",
+      "currentRent": 1943,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1922,
+      "changeYoY": 1.1
+    },
+    {
+      "metro": "285",
+      "currentRent": 1994,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1961,
+      "changeYoY": 1.7
+    },
+    {
+      "metro": "286",
+      "currentRent": 1020,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 974,
+      "changeYoY": 4.7
+    },
+    {
+      "metro": "287",
+      "currentRent": 1974,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1808,
+      "changeYoY": 9.2
+    },
+    {
+      "metro": "288",
+      "currentRent": 1556,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1487,
+      "changeYoY": 4.6
+    },
+    {
+      "metro": "289",
+      "currentRent": 1692,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1720,
+      "changeYoY": -1.6
+    },
+    {
+      "metro": "290",
+      "currentRent": 1768,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1706,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "291",
+      "currentRent": 1014,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 916,
+      "changeYoY": 10.7
+    },
+    {
+      "metro": "292",
+      "currentRent": 1166,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1110,
+      "changeYoY": 5.1
+    },
+    {
+      "metro": "293",
+      "currentRent": 1191,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1108,
+      "changeYoY": 7.4
+    },
+    {
+      "metro": "294",
+      "currentRent": 1133,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "295",
+      "currentRent": 1048,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 981,
+      "changeYoY": 6.8
+    },
+    {
+      "metro": "296",
+      "currentRent": 1072,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1021,
+      "changeYoY": 4.9
+    },
+    {
+      "metro": "297",
+      "currentRent": 1123,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1095,
+      "changeYoY": 2.5
+    },
+    {
+      "metro": "298",
+      "currentRent": 1258,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1197,
+      "changeYoY": 5.1
+    },
+    {
+      "metro": "299",
+      "currentRent": 1144,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1104,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "300",
+      "currentRent": 1380,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1323,
+      "changeYoY": 4.3
+    },
+    {
+      "metro": "301",
+      "currentRent": 1321,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1254,
+      "changeYoY": 5.4
+    },
+    {
+      "metro": "302",
+      "currentRent": 2250,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2202,
+      "changeYoY": 2.2
+    },
+    {
+      "metro": "303",
+      "currentRent": 1251,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1225,
+      "changeYoY": 2.2
+    },
+    {
+      "metro": "304",
+      "currentRent": 1159,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1112,
+      "changeYoY": 4.2
+    },
+    {
+      "metro": "305",
+      "currentRent": 1476,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1431,
+      "changeYoY": 3.1
+    },
+    {
+      "metro": "306",
+      "currentRent": 1372,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1339,
+      "changeYoY": 2.5
+    },
+    {
+      "metro": "307",
+      "currentRent": 1502,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1456,
+      "changeYoY": 3.2
+    },
+    {
+      "metro": "308",
+      "currentRent": 1797,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1737,
+      "changeYoY": 3.4
+    },
+    {
+      "metro": "309",
+      "currentRent": 898,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 855,
+      "changeYoY": 5.1
+    },
+    {
+      "metro": "310",
+      "currentRent": 1328,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1281,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "311",
+      "currentRent": 1185,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1157,
+      "changeYoY": 2.4
+    },
+    {
+      "metro": "312",
+      "currentRent": 2746,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2801,
+      "changeYoY": -2
+    },
+    {
+      "metro": "313",
+      "currentRent": 1331,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1295,
+      "changeYoY": 2.7
+    },
+    {
+      "metro": "314",
+      "currentRent": 1405,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1353,
+      "changeYoY": 3.8
+    },
+    {
+      "metro": "315",
+      "currentRent": 1464,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1435,
+      "changeYoY": 2.1
+    },
+    {
+      "metro": "316",
+      "currentRent": 1116,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1026,
+      "changeYoY": 8.8
+    },
+    {
+      "metro": "317",
+      "currentRent": 1699,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1623,
+      "changeYoY": 4.7
+    },
+    {
+      "metro": "318",
+      "currentRent": 1152,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1096,
+      "changeYoY": 5.1
+    },
+    {
+      "metro": "319",
+      "currentRent": 1424,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1450,
+      "changeYoY": -1.8
+    },
+    {
+      "metro": "320",
+      "currentRent": 1114,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1047,
+      "changeYoY": 6.4
+    },
+    {
+      "metro": "321",
+      "currentRent": 861,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 821,
+      "changeYoY": 4.9
+    },
+    {
+      "metro": "322",
+      "currentRent": 811,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 754,
+      "changeYoY": 7.6
+    },
+    {
+      "metro": "323",
+      "currentRent": 1335,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1293,
+      "changeYoY": 3.3
+    },
+    {
+      "metro": "324",
+      "currentRent": 1326,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1200,
+      "changeYoY": 10.6
+    },
+    {
+      "metro": "325",
+      "currentRent": 1307,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1291,
+      "changeYoY": 1.2
+    },
+    {
+      "metro": "326",
+      "currentRent": 1579,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1530,
+      "changeYoY": 3.2
+    },
+    {
+      "metro": "327",
+      "currentRent": 2182,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2096,
+      "changeYoY": 4.1
+    },
+    {
+      "metro": "328",
+      "currentRent": 931,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 853,
+      "changeYoY": 9.2
+    },
+    {
+      "metro": "329",
+      "currentRent": 1700,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1737,
+      "changeYoY": -2.1
+    },
+    {
+      "metro": "330",
+      "currentRent": 1601,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1570,
+      "changeYoY": 2
+    },
+    {
+      "metro": "331",
+      "currentRent": 1430,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1373,
+      "changeYoY": 4.1
+    },
+    {
+      "metro": "332",
+      "currentRent": 1114,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1079,
+      "changeYoY": 3.3
+    },
+    {
+      "metro": "334",
+      "currentRent": 1365,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1363,
+      "changeYoY": 0.1
+    },
+    {
+      "metro": "335",
+      "currentRent": 1356,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1314,
+      "changeYoY": 3.2
+    },
+    {
+      "metro": "336",
+      "currentRent": 1047,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1008,
+      "changeYoY": 3.9
+    },
+    {
+      "metro": "337",
+      "currentRent": 887,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 838,
+      "changeYoY": 5.8
+    },
+    {
+      "metro": "338",
+      "currentRent": 1388,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1334,
+      "changeYoY": 4
+    },
+    {
+      "metro": "339",
+      "currentRent": 1421,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1333,
+      "changeYoY": 6.6
+    },
+    {
+      "metro": "340",
+      "currentRent": 961,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 903,
+      "changeYoY": 6.5
+    },
+    {
+      "metro": "341",
+      "currentRent": 1547,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1491,
+      "changeYoY": 3.8
+    },
+    {
+      "metro": "342",
+      "currentRent": 1388,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1345,
+      "changeYoY": 3.2
+    },
+    {
+      "metro": "343",
+      "currentRent": 912,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 855,
+      "changeYoY": 6.7
+    },
+    {
+      "metro": "344",
+      "currentRent": 1342,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1267,
+      "changeYoY": 5.9
+    },
+    {
+      "metro": "345",
+      "currentRent": 1824,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1825,
+      "changeYoY": -0.1
+    },
+    {
+      "metro": "346",
+      "currentRent": 1327,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1267,
+      "changeYoY": 4.7
+    },
+    {
+      "metro": "347",
+      "currentRent": 1505,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1509,
+      "changeYoY": -0.3
+    },
+    {
+      "metro": "348",
+      "currentRent": 1046,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 967,
+      "changeYoY": 8.2
+    },
+    {
+      "metro": "349",
+      "currentRent": 1448,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1358,
+      "changeYoY": 6.6
+    },
+    {
+      "metro": "350",
+      "currentRent": 1389,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1389,
+      "changeYoY": 0
+    },
+    {
+      "metro": "351",
+      "currentRent": 1289,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1215,
+      "changeYoY": 6.1
+    },
+    {
+      "metro": "352",
+      "currentRent": 969,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 896,
+      "changeYoY": 8.1
+    },
+    {
+      "metro": "353",
+      "currentRent": 827,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 790,
+      "changeYoY": 4.8
+    },
+    {
+      "metro": "354",
+      "currentRent": 1498,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1448,
+      "changeYoY": 3.5
+    },
+    {
+      "metro": "355",
+      "currentRent": 1514,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1448,
+      "changeYoY": 4.5
+    },
+    {
+      "metro": "356",
+      "currentRent": 2126,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2154,
+      "changeYoY": -1.3
+    },
+    {
+      "metro": "357",
+      "currentRent": 924,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 899,
+      "changeYoY": 2.8
+    },
+    {
+      "metro": "358",
+      "currentRent": 1054,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 980,
+      "changeYoY": 7.5
+    },
+    {
+      "metro": "359",
+      "currentRent": 1030,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1001,
+      "changeYoY": 3
+    },
+    {
+      "metro": "360",
+      "currentRent": 1661,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1644,
+      "changeYoY": 1
+    },
+    {
+      "metro": "361",
+      "currentRent": 1807,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1767,
+      "changeYoY": 2.2
+    },
+    {
+      "metro": "361",
+      "currentRent": 1653,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1607,
+      "changeYoY": 2.9
+    },
+    {
+      "metro": "363",
+      "currentRent": 1551,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1559,
+      "changeYoY": -0.6
+    },
+    {
+      "metro": "364",
+      "currentRent": 983,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 930,
+      "changeYoY": 5.7
+    },
+    {
+      "metro": "365",
+      "currentRent": 1194,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1149,
+      "changeYoY": 3.9
+    },
+    {
+      "metro": "366",
+      "currentRent": 1325,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1294,
+      "changeYoY": 2.4
+    },
+    {
+      "metro": "367",
+      "currentRent": 1508,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1485,
+      "changeYoY": 1.5
+    },
+    {
+      "metro": "368",
+      "currentRent": 1423,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1373,
+      "changeYoY": 3.7
+    },
+    {
+      "metro": "369",
+      "currentRent": 1050,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "370",
+      "currentRent": 1397,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1333,
+      "changeYoY": 4.9
+    },
+    {
+      "metro": "371",
+      "currentRent": 884,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 838,
+      "changeYoY": 5.5
+    },
+    {
+      "metro": "372",
+      "currentRent": 1769,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "373",
+      "currentRent": 992,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 970,
+      "changeYoY": 2.3
+    },
+    {
+      "metro": "374",
+      "currentRent": 1306,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1250,
+      "changeYoY": 4.5
+    },
+    {
+      "metro": "375",
+      "currentRent": 1343,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1216,
+      "changeYoY": 10.4
+    },
+    {
+      "metro": "376",
+      "currentRent": 1969,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1895,
+      "changeYoY": 3.9
+    },
+    {
+      "metro": "377",
+      "currentRent": 1173,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1089,
+      "changeYoY": 7.8
+    },
+    {
+      "metro": "378",
+      "currentRent": 1124,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1042,
+      "changeYoY": 7.9
+    },
+    {
+      "metro": "379",
+      "currentRent": 1247,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1252,
+      "changeYoY": -0.5
+    },
+    {
+      "metro": "380",
+      "currentRent": 1277,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1216,
+      "changeYoY": 5
+    },
+    {
+      "metro": "381",
+      "currentRent": 1073,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 989,
+      "changeYoY": 8.5
+    },
+    {
+      "metro": "382",
+      "currentRent": 1213,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1192,
+      "changeYoY": 1.7
+    },
+    {
+      "metro": "384",
+      "currentRent": 2172,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2104,
+      "changeYoY": 3.2
+    },
+    {
+      "metro": "385",
+      "currentRent": 1146,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1059,
+      "changeYoY": 8.2
+    },
+    {
+      "metro": "386",
+      "currentRent": 1296,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1180,
+      "changeYoY": 9.8
+    },
+    {
+      "metro": "387",
+      "currentRent": 1174,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1033,
+      "changeYoY": 13.6
+    },
+    {
+      "metro": "388",
+      "currentRent": 1067,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "389",
+      "currentRent": 2399,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2362,
+      "changeYoY": 1.6
+    },
+    {
+      "metro": "390",
+      "currentRent": 1553,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1538,
+      "changeYoY": 1
+    },
+    {
+      "metro": "391",
+      "currentRent": 1500,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1428,
+      "changeYoY": 5.1
+    },
+    {
+      "metro": "392",
+      "currentRent": 1261,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1215,
+      "changeYoY": 3.8
+    },
+    {
+      "metro": "393",
+      "currentRent": 1125,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "394",
+      "currentRent": 1229,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1203,
+      "changeYoY": 2.1
+    },
+    {
+      "metro": "396",
+      "currentRent": 1076,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1017,
+      "changeYoY": 5.8
+    },
+    {
+      "metro": "397",
+      "currentRent": 1070,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1083,
+      "changeYoY": -1.2
+    },
+    {
+      "metro": "398",
+      "currentRent": 1793,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1780,
+      "changeYoY": 0.7
+    },
+    {
+      "metro": "399",
+      "currentRent": 1217,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1114,
+      "changeYoY": 9.2
+    },
+    {
+      "metro": "400",
+      "currentRent": 1182,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1167,
+      "changeYoY": 1.3
+    },
+    {
+      "metro": "401",
+      "currentRent": 1184,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1156,
+      "changeYoY": 2.4
+    },
+    {
+      "metro": "402",
+      "currentRent": 1740,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1756,
+      "changeYoY": -0.9
+    },
+    {
+      "metro": "403",
+      "currentRent": 1558,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1564,
+      "changeYoY": -0.3
+    },
+    {
+      "metro": "404",
+      "currentRent": 1000,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "405",
+      "currentRent": 1012,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 982,
+      "changeYoY": 3
+    },
+    {
+      "metro": "406",
+      "currentRent": 1461,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1420,
+      "changeYoY": 2.9
+    },
+    {
+      "metro": "407",
+      "currentRent": 1904,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1834,
+      "changeYoY": 3.9
+    },
+    {
+      "metro": "408",
+      "currentRent": 1184,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "409",
+      "currentRent": 1016,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 972,
+      "changeYoY": 4.5
+    },
+    {
+      "metro": "410",
+      "currentRent": 2202,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1930,
+      "changeYoY": 14.1
+    },
+    {
+      "metro": "411",
+      "currentRent": 2055,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1943,
+      "changeYoY": 5.8
+    },
+    {
+      "metro": "412",
+      "currentRent": 1080,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1023,
+      "changeYoY": 5.6
+    },
+    {
+      "metro": "413",
+      "currentRent": 1281,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1288,
+      "changeYoY": -0.6
+    },
+    {
+      "metro": "415",
+      "currentRent": 918,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 888,
+      "changeYoY": 3.3
+    },
+    {
+      "metro": "416",
+      "currentRent": 2053,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1911,
+      "changeYoY": 7.5
+    },
+    {
+      "metro": "417",
+      "currentRent": 1463,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1446,
+      "changeYoY": 1.2
+    },
+    {
+      "metro": "418",
+      "currentRent": 1017,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 954,
+      "changeYoY": 6.6
+    },
+    {
+      "metro": "419",
+      "currentRent": 919,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 882,
+      "changeYoY": 4.1
+    },
+    {
+      "metro": "420",
+      "currentRent": 1221,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1132,
+      "changeYoY": 7.8
+    },
+    {
+      "metro": "422",
+      "currentRent": 1587,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1519,
+      "changeYoY": 4.5
+    },
+    {
+      "metro": "424",
+      "currentRent": 1509,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1421,
+      "changeYoY": 6.2
+    },
+    {
+      "metro": "425",
+      "currentRent": 1358,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1260,
+      "changeYoY": 7.8
+    },
+    {
+      "metro": "426",
+      "currentRent": 1013,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 981,
+      "changeYoY": 3.2
+    },
+    {
+      "metro": "427",
+      "currentRent": 1139,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1025,
+      "changeYoY": 11.1
+    },
+    {
+      "metro": "428",
+      "currentRent": 2097,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1997,
+      "changeYoY": 5
+    },
+    {
+      "metro": "429",
+      "currentRent": 1321,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1228,
+      "changeYoY": 7.5
+    },
+    {
+      "metro": "430",
+      "currentRent": 1209,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1176,
+      "changeYoY": 2.8
+    },
+    {
+      "metro": "431",
+      "currentRent": 756,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "432",
+      "currentRent": 1222,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1200,
+      "changeYoY": 1.8
+    },
+    {
+      "metro": "433",
+      "currentRent": 1329,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1283,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "435",
+      "currentRent": 899,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 833,
+      "changeYoY": 7.8
+    },
+    {
+      "metro": "436",
+      "currentRent": 861,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "437",
+      "currentRent": 1468,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1398,
+      "changeYoY": 5
+    },
+    {
+      "metro": "438",
+      "currentRent": 1009,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1026,
+      "changeYoY": -1.6
+    },
+    {
+      "metro": "439",
+      "currentRent": 1167,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1138,
+      "changeYoY": 2.5
+    },
+    {
+      "metro": "440",
+      "currentRent": 921,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "441",
+      "currentRent": 1527,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1506,
+      "changeYoY": 1.4
+    },
+    {
+      "metro": "442",
+      "currentRent": 3530,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 3581,
+      "changeYoY": -1.4
+    },
+    {
+      "metro": "443",
+      "currentRent": 1286,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1318,
+      "changeYoY": -2.4
+    },
+    {
+      "metro": "444",
+      "currentRent": 1320,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1232,
+      "changeYoY": 7.1
+    },
+    {
+      "metro": "445",
+      "currentRent": 1349,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1316,
+      "changeYoY": 2.5
+    },
+    {
+      "metro": "446",
+      "currentRent": 1371,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1374,
+      "changeYoY": -0.2
+    },
+    {
+      "metro": "447",
+      "currentRent": 1542,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1566,
+      "changeYoY": -1.5
+    },
+    {
+      "metro": "448",
+      "currentRent": 903,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "449",
+      "currentRent": 1714,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1650,
+      "changeYoY": 3.9
+    },
+    {
+      "metro": "450",
+      "currentRent": 977,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "451",
+      "currentRent": 1109,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1071,
+      "changeYoY": 3.5
+    },
+    {
+      "metro": "453",
+      "currentRent": 1535,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1508,
+      "changeYoY": 1.8
+    },
+    {
+      "metro": "454",
+      "currentRent": 1224,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1163,
+      "changeYoY": 5.2
+    },
+    {
+      "metro": "455",
+      "currentRent": 1377,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1280,
+      "changeYoY": 7.6
+    },
+    {
+      "metro": "456",
+      "currentRent": 2875,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2693,
+      "changeYoY": 6.8
+    },
+    {
+      "metro": "457",
+      "currentRent": 1379,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1260,
+      "changeYoY": 9.5
+    },
+    {
+      "metro": "458",
+      "currentRent": 986,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 942,
+      "changeYoY": 4.7
+    },
+    {
+      "metro": "459",
+      "currentRent": 1245,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "461",
+      "currentRent": 1010,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 934,
+      "changeYoY": 8.2
+    },
+    {
+      "metro": "462",
+      "currentRent": 1252,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1229,
+      "changeYoY": 1.9
+    },
+    {
+      "metro": "463",
+      "currentRent": 1937,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1904,
+      "changeYoY": 1.8
+    },
+    {
+      "metro": "464",
+      "currentRent": 1170,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "465",
+      "currentRent": 1262,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1253,
+      "changeYoY": 0.7
+    },
+    {
+      "metro": "466",
+      "currentRent": 1912,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1807,
+      "changeYoY": 5.8
+    },
+    {
+      "metro": "467",
+      "currentRent": 2714,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2651,
+      "changeYoY": 2.4
+    },
+    {
+      "metro": "468",
+      "currentRent": 995,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 904,
+      "changeYoY": 10
+    },
+    {
+      "metro": "469",
+      "currentRent": 1487,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "470",
+      "currentRent": 1261,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1155,
+      "changeYoY": 9.1
+    },
+    {
+      "metro": "471",
+      "currentRent": 1137,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1050,
+      "changeYoY": 8.3
+    },
+    {
+      "metro": "472",
+      "currentRent": 853,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 790,
+      "changeYoY": 8
+    },
+    {
+      "metro": "473",
+      "currentRent": 1429,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1376,
+      "changeYoY": 3.9
+    },
+    {
+      "metro": "475",
+      "currentRent": 810,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "476",
+      "currentRent": 946,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 936,
+      "changeYoY": 1
+    },
+    {
+      "metro": "477",
+      "currentRent": 2097,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2059,
+      "changeYoY": 1.9
+    },
+    {
+      "metro": "478",
+      "currentRent": 3589,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 3551,
+      "changeYoY": 1.1
+    },
+    {
+      "metro": "479",
+      "currentRent": 1371,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1385,
+      "changeYoY": -1
+    },
+    {
+      "metro": "481",
+      "currentRent": 1329,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1284,
+      "changeYoY": 3.5
+    },
+    {
+      "metro": "482",
+      "currentRent": 1144,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1118,
+      "changeYoY": 2.4
+    },
+    {
+      "metro": "485",
+      "currentRent": 1263,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1215,
+      "changeYoY": 4
+    },
+    {
+      "metro": "486",
+      "currentRent": 961,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 843,
+      "changeYoY": 13.9
+    },
+    {
+      "metro": "488",
+      "currentRent": 1051,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 993,
+      "changeYoY": 5.9
+    },
+    {
+      "metro": "489",
+      "currentRent": 1520,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1526,
+      "changeYoY": -0.4
+    },
+    {
+      "metro": "490",
+      "currentRent": 1230,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1180,
+      "changeYoY": 4.3
+    },
+    {
+      "metro": "491",
+      "currentRent": 1871,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1796,
+      "changeYoY": 4.2
+    },
+    {
+      "metro": "492",
+      "currentRent": 1578,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1548,
+      "changeYoY": 1.9
+    },
+    {
+      "metro": "493",
+      "currentRent": 1468,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1418,
+      "changeYoY": 3.5
+    },
+    {
+      "metro": "494",
+      "currentRent": 990,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "496",
+      "currentRent": 1225,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1138,
+      "changeYoY": 7.6
+    },
+    {
+      "metro": "497",
+      "currentRent": 855,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "498",
+      "currentRent": 1662,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1598,
+      "changeYoY": 4
+    },
+    {
+      "metro": "499",
+      "currentRent": 844,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 802,
+      "changeYoY": 5.3
+    },
+    {
+      "metro": "500",
+      "currentRent": 1498,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1423,
+      "changeYoY": 5.3
+    },
+    {
+      "metro": "502",
+      "currentRent": 1149,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 954,
+      "changeYoY": 20.4
+    },
+    {
+      "metro": "504",
+      "currentRent": 1242,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "505",
+      "currentRent": 1151,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1049,
+      "changeYoY": 9.7
+    },
+    {
+      "metro": "506",
+      "currentRent": 1320,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1294,
+      "changeYoY": 2.1
+    },
+    {
+      "metro": "507",
+      "currentRent": 998,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "508",
+      "currentRent": 1117,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1077,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "509",
+      "currentRent": 1237,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1255,
+      "changeYoY": -1.4
+    },
+    {
+      "metro": "510",
+      "currentRent": 1667,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1627,
+      "changeYoY": 2.5
+    },
+    {
+      "metro": "511",
+      "currentRent": 1028,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 980,
+      "changeYoY": 4.8
+    },
+    {
+      "metro": "512",
+      "currentRent": 1006,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 936,
+      "changeYoY": 7.5
+    },
+    {
+      "metro": "513",
+      "currentRent": 1125,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "514",
+      "currentRent": 1779,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1647,
+      "changeYoY": 8
+    },
+    {
+      "metro": "515",
+      "currentRent": 1075,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "516",
+      "currentRent": 876,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "517",
+      "currentRent": 1244,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1199,
+      "changeYoY": 3.8
+    },
+    {
+      "metro": "518",
+      "currentRent": 1478,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "519",
+      "currentRent": 1789,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1656,
+      "changeYoY": 8
+    },
+    {
+      "metro": "520",
+      "currentRent": 1992,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1888,
+      "changeYoY": 5.5
+    },
+    {
+      "metro": "522",
+      "currentRent": 1718,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1617,
+      "changeYoY": 6.2
+    },
+    {
+      "metro": "523",
+      "currentRent": 1119,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1097,
+      "changeYoY": 2
+    },
+    {
+      "metro": "524",
+      "currentRent": 1272,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "525",
+      "currentRent": 1542,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1513,
+      "changeYoY": 1.9
+    },
+    {
+      "metro": "526",
+      "currentRent": 1513,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1408,
+      "changeYoY": 7.5
+    },
+    {
+      "metro": "527",
+      "currentRent": 832,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 789,
+      "changeYoY": 5.4
+    },
+    {
+      "metro": "528",
+      "currentRent": 2178,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2115,
+      "changeYoY": 3
+    },
+    {
+      "metro": "529",
+      "currentRent": 1506,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1461,
+      "changeYoY": 3.1
+    },
+    {
+      "metro": "530",
+      "currentRent": 1762,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1673,
+      "changeYoY": 5.3
+    },
+    {
+      "metro": "531",
+      "currentRent": 1189,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1163,
+      "changeYoY": 2.3
+    },
+    {
+      "metro": "535",
+      "currentRent": 1666,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1644,
+      "changeYoY": 1.4
+    },
+    {
+      "metro": "537",
+      "currentRent": 1074,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1008,
+      "changeYoY": 6.6
+    },
+    {
+      "metro": "540",
+      "currentRent": 1543,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1503,
+      "changeYoY": 2.7
+    },
+    {
+      "metro": "542",
+      "currentRent": 1307,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1120,
+      "changeYoY": 16.7
+    },
+    {
+      "metro": "543",
+      "currentRent": 1339,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1322,
+      "changeYoY": 1.3
+    },
+    {
+      "metro": "544",
+      "currentRent": 1453,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "546",
+      "currentRent": 1169,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1097,
+      "changeYoY": 6.6
+    },
+    {
+      "metro": "550",
+      "currentRent": 1890,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1831,
+      "changeYoY": 3.2
+    },
+    {
+      "metro": "551",
+      "currentRent": 1771,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1684,
+      "changeYoY": 5.2
+    },
+    {
+      "metro": "553",
+      "currentRent": 1613,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1633,
+      "changeYoY": -1.3
+    },
+    {
+      "metro": "554",
+      "currentRent": 1248,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1161,
+      "changeYoY": 7.5
+    },
+    {
+      "metro": "555",
+      "currentRent": 1566,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1464,
+      "changeYoY": 6.9
+    },
+    {
+      "metro": "556",
+      "currentRent": 1003,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 980,
+      "changeYoY": 2.3
+    },
+    {
+      "metro": "557",
+      "currentRent": 1470,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1418,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "558",
+      "currentRent": 991,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 907,
+      "changeYoY": 9.3
+    },
+    {
+      "metro": "561",
+      "currentRent": 1476,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1444,
+      "changeYoY": 2.2
+    },
+    {
+      "metro": "562",
+      "currentRent": 1546,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1485,
+      "changeYoY": 4.1
+    },
+    {
+      "metro": "563",
+      "currentRent": 1192,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "564",
+      "currentRent": 2355,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2175,
+      "changeYoY": 8.3
+    },
+    {
+      "metro": "566",
+      "currentRent": 3634,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 3568,
+      "changeYoY": 1.8
+    },
+    {
+      "metro": "567",
+      "currentRent": 2017,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1996,
+      "changeYoY": 1
+    },
+    {
+      "metro": "568",
+      "currentRent": 943,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "569",
+      "currentRent": 1458,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "570",
+      "currentRent": 713,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "571",
+      "currentRent": 945,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "573",
+      "currentRent": 1603,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1442,
+      "changeYoY": 11.2
+    },
+    {
+      "metro": "574",
+      "currentRent": 1174,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "576",
+      "currentRent": 1498,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1525,
+      "changeYoY": -1.8
+    },
+    {
+      "metro": "577",
+      "currentRent": 1878,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "578",
+      "currentRent": 1062,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 994,
+      "changeYoY": 6.8
+    },
+    {
+      "metro": "579",
+      "currentRent": 1103,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "580",
+      "currentRent": 1100,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1010,
+      "changeYoY": 8.9
+    },
+    {
+      "metro": "582",
+      "currentRent": 1493,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1432,
+      "changeYoY": 4.2
+    },
+    {
+      "metro": "583",
+      "currentRent": 1975,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "584",
+      "currentRent": 1154,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1111,
+      "changeYoY": 3.9
+    },
+    {
+      "metro": "585",
+      "currentRent": 1422,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1393,
+      "changeYoY": 2.1
+    },
+    {
+      "metro": "586",
+      "currentRent": 890,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 855,
+      "changeYoY": 4.1
+    },
+    {
+      "metro": "588",
+      "currentRent": 1211,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1142,
+      "changeYoY": 6
+    },
+    {
+      "metro": "589",
+      "currentRent": 1798,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1813,
+      "changeYoY": -0.8
+    },
+    {
+      "metro": "590",
+      "currentRent": 1126,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1114,
+      "changeYoY": 1.1
+    },
+    {
+      "metro": "592",
+      "currentRent": 1215,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1267,
+      "changeYoY": -4.1
+    },
+    {
+      "metro": "593",
+      "currentRent": 675,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "595",
+      "currentRent": 2200,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "598",
+      "currentRent": 878,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "599",
+      "currentRent": 1670,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "601",
+      "currentRent": 1534,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "602",
+      "currentRent": 1275,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "603",
+      "currentRent": 1219,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1061,
+      "changeYoY": 14.9
+    },
+    {
+      "metro": "604",
+      "currentRent": 1952,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1784,
+      "changeYoY": 9.4
+    },
+    {
+      "metro": "606",
+      "currentRent": 1649,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "607",
+      "currentRent": 1332,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "608",
+      "currentRent": 1308,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1317,
+      "changeYoY": -0.7
+    },
+    {
+      "metro": "610",
+      "currentRent": 2441,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2295,
+      "changeYoY": 6.4
+    },
+    {
+      "metro": "611",
+      "currentRent": 1234,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1180,
+      "changeYoY": 4.6
+    },
+    {
+      "metro": "612",
+      "currentRent": 1330,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1242,
+      "changeYoY": 7.1
+    },
+    {
+      "metro": "614",
+      "currentRent": 875,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 893,
+      "changeYoY": -2
+    },
+    {
+      "metro": "615",
+      "currentRent": 1252,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1194,
+      "changeYoY": 4.8
+    },
+    {
+      "metro": "616",
+      "currentRent": 1255,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1203,
+      "changeYoY": 4.3
+    },
+    {
+      "metro": "618",
+      "currentRent": 1047,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 971,
+      "changeYoY": 7.9
+    },
+    {
+      "metro": "619",
+      "currentRent": 1285,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "620",
+      "currentRent": 1272,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1190,
+      "changeYoY": 6.9
+    },
+    {
+      "metro": "622",
+      "currentRent": 1333,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "623",
+      "currentRent": 1113,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1054,
+      "changeYoY": 5.5
+    },
+    {
+      "metro": "624",
+      "currentRent": 1192,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "626",
+      "currentRent": 1209,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1065,
+      "changeYoY": 13.6
+    },
+    {
+      "metro": "628",
+      "currentRent": 1863,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1831,
+      "changeYoY": 1.7
+    },
+    {
+      "metro": "629",
+      "currentRent": 1219,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1213,
+      "changeYoY": 0.5
+    },
+    {
+      "metro": "630",
+      "currentRent": 1265,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "631",
+      "currentRent": 781,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "632",
+      "currentRent": 2103,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "633",
+      "currentRent": 1226,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "635",
+      "currentRent": 1070,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "637",
+      "currentRent": 1419,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1365,
+      "changeYoY": 4
+    },
+    {
+      "metro": "638",
+      "currentRent": 1181,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "639",
+      "currentRent": 1195,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "640",
+      "currentRent": 1400,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "641",
+      "currentRent": 1457,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1460,
+      "changeYoY": -0.2
+    },
+    {
+      "metro": "646",
+      "currentRent": 1715,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1577,
+      "changeYoY": 8.7
+    },
+    {
+      "metro": "647",
+      "currentRent": 1022,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 947,
+      "changeYoY": 7.9
+    },
+    {
+      "metro": "649",
+      "currentRent": 867,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "651",
+      "currentRent": 1260,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1214,
+      "changeYoY": 3.8
+    },
+    {
+      "metro": "657",
+      "currentRent": 849,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 700,
+      "changeYoY": 21.3
+    },
+    {
+      "metro": "659",
+      "currentRent": 816,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 752,
+      "changeYoY": 8.6
+    },
+    {
+      "metro": "661",
+      "currentRent": 1444,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "663",
+      "currentRent": 1525,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1533,
+      "changeYoY": -0.6
+    },
+    {
+      "metro": "664",
+      "currentRent": 843,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "665",
+      "currentRent": 1223,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "666",
+      "currentRent": 1064,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "667",
+      "currentRent": 1506,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "670",
+      "currentRent": 875,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "671",
+      "currentRent": 1323,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "673",
+      "currentRent": 1028,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "674",
+      "currentRent": 959,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 758,
+      "changeYoY": 26.6
+    },
+    {
+      "metro": "676",
+      "currentRent": 1086,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "677",
+      "currentRent": 964,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "678",
+      "currentRent": 1031,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1081,
+      "changeYoY": -4.7
+    },
+    {
+      "metro": "679",
+      "currentRent": 817,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "680",
+      "currentRent": 1435,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1446,
+      "changeYoY": -0.7
+    },
+    {
+      "metro": "685",
+      "currentRent": 1556,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "686",
+      "currentRent": 1117,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "687",
+      "currentRent": 1383,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1429,
+      "changeYoY": -3.2
+    },
+    {
+      "metro": "688",
+      "currentRent": 1458,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "691",
+      "currentRent": 1700,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1663,
+      "changeYoY": 2.2
+    },
+    {
+      "metro": "694",
+      "currentRent": 837,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "696",
+      "currentRent": 919,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 890,
+      "changeYoY": 3.2
+    },
+    {
+      "metro": "697",
+      "currentRent": 1084,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1050,
+      "changeYoY": 3.2
+    },
+    {
+      "metro": "698",
+      "currentRent": 830,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 754,
+      "changeYoY": 10.1
+    },
+    {
+      "metro": "699",
+      "currentRent": 1031,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "703",
+      "currentRent": 1203,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1073,
+      "changeYoY": 12.2
+    },
+    {
+      "metro": "704",
+      "currentRent": 1992,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "705",
+      "currentRent": 1215,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1116,
+      "changeYoY": 8.9
+    },
+    {
+      "metro": "708",
+      "currentRent": 941,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 837,
+      "changeYoY": 12.5
+    },
+    {
+      "metro": "711",
+      "currentRent": 984,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "712",
+      "currentRent": 950,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "714",
+      "currentRent": 1025,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "715",
+      "currentRent": 1304,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1245,
+      "changeYoY": 4.8
+    },
+    {
+      "metro": "717",
+      "currentRent": 825,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "718",
+      "currentRent": 1925,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "719",
+      "currentRent": 888,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "720",
+      "currentRent": 999,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 951,
+      "changeYoY": 5.1
+    },
+    {
+      "metro": "722",
+      "currentRent": 934,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 924,
+      "changeYoY": 1
+    },
+    {
+      "metro": "727",
+      "currentRent": 905,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 802,
+      "changeYoY": 12.9
+    },
+    {
+      "metro": "729",
+      "currentRent": 2333,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2322,
+      "changeYoY": 0.5
+    },
+    {
+      "metro": "730",
+      "currentRent": 1128,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "733",
+      "currentRent": 1142,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1129,
+      "changeYoY": 1.1
+    },
+    {
+      "metro": "734",
+      "currentRent": 1141,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1036,
+      "changeYoY": 10.1
+    },
+    {
+      "metro": "735",
+      "currentRent": 1095,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1113,
+      "changeYoY": -1.6
+    },
+    {
+      "metro": "736",
+      "currentRent": 1554,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "737",
+      "currentRent": 825,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "740",
+      "currentRent": 886,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "744",
+      "currentRent": 2432,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "745",
+      "currentRent": 1333,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "746",
+      "currentRent": 1250,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "749",
+      "currentRent": 978,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "751",
+      "currentRent": 863,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 863,
+      "changeYoY": 0
+    },
+    {
+      "metro": "752",
+      "currentRent": 919,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "758",
+      "currentRent": 1400,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "759",
+      "currentRent": 1435,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "760",
+      "currentRent": 1449,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1371,
+      "changeYoY": 5.7
+    },
+    {
+      "metro": "761",
+      "currentRent": 1401,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "764",
+      "currentRent": 1318,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1180,
+      "changeYoY": 11.6
+    },
+    {
+      "metro": "767",
+      "currentRent": 767,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 727,
+      "changeYoY": 5.5
+    },
+    {
+      "metro": "768",
+      "currentRent": 3623,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 3389,
+      "changeYoY": 6.9
+    },
+    {
+      "metro": "770",
+      "currentRent": 1207,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "773",
+      "currentRent": 825,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "774",
+      "currentRent": 1104,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "775",
+      "currentRent": 1019,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "777",
+      "currentRent": 2163,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "778",
+      "currentRent": 1447,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1365,
+      "changeYoY": 6
+    },
+    {
+      "metro": "780",
+      "currentRent": 1527,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "785",
+      "currentRent": 1249,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1183,
+      "changeYoY": 5.5
+    },
+    {
+      "metro": "786",
+      "currentRent": 1018,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1025,
+      "changeYoY": -0.7
+    },
+    {
+      "metro": "788",
+      "currentRent": 1155,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "790",
+      "currentRent": 840,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "792",
+      "currentRent": 1986,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "793",
+      "currentRent": 1308,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "794",
+      "currentRent": 1083,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "795",
+      "currentRent": 825,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "805",
+      "currentRent": 1413,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "809",
+      "currentRent": 1421,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1373,
+      "changeYoY": 3.5
+    },
+    {
+      "metro": "811",
+      "currentRent": 3439,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 3442,
+      "changeYoY": -0.1
+    },
+    {
+      "metro": "821",
+      "currentRent": 967,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 934,
+      "changeYoY": 3.6
+    },
+    {
+      "metro": "826",
+      "currentRent": 893,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "827",
+      "currentRent": 1225,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "831",
+      "currentRent": 1125,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "832",
+      "currentRent": 1719,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1628,
+      "changeYoY": 5.6
+    },
+    {
+      "metro": "840",
+      "currentRent": 1558,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "841",
+      "currentRent": 950,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "847",
+      "currentRent": 2011,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "849",
+      "currentRent": 1626,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1564,
+      "changeYoY": 4
+    },
+    {
+      "metro": "852",
+      "currentRent": 1227,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1095,
+      "changeYoY": 12.1
+    },
+    {
+      "metro": "854",
+      "currentRent": 1350,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "856",
+      "currentRent": 1271,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "857",
+      "currentRent": 808,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 791,
+      "changeYoY": 2.2
+    },
+    {
+      "metro": "863",
+      "currentRent": 1476,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "866",
+      "currentRent": 2530,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "867",
+      "currentRent": 3011,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 2629,
+      "changeYoY": 14.5
+    },
+    {
+      "metro": "872",
+      "currentRent": 1645,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1566,
+      "changeYoY": 5.1
+    },
+    {
+      "metro": "874",
+      "currentRent": 1523,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1577,
+      "changeYoY": -3.4
+    },
+    {
+      "metro": "875",
+      "currentRent": 1894,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 1881,
+      "changeYoY": 0.7
+    },
+    {
+      "metro": "877",
+      "currentRent": 795,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "878",
+      "currentRent": 938,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "882",
+      "currentRent": 859,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 858,
+      "changeYoY": 0.1
+    },
+    {
+      "metro": "890",
+      "currentRent": 1219,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "891",
+      "currentRent": 1025,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "892",
+      "currentRent": 1001,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 970,
+      "changeYoY": 3.1
+    },
+    {
+      "metro": "895",
+      "currentRent": 769,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "915",
+      "currentRent": 965,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": 903,
+      "changeYoY": 6.8
+    },
+    {
+      "metro": "929",
+      "currentRent": 1217,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "930",
+      "currentRent": 813,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    },
+    {
+      "metro": "932",
+      "currentRent": 947,
+      "currentPeriod": "2026-02-28",
+      "yearAgoRent": null,
+      "changeYoY": null
+    }
+  ]
+}

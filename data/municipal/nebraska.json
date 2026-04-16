@@ -1,0 +1,53 @@
+[
+  {
+    "id": "sarpy-county-ne",
+    "name": "Sarpy County",
+    "fips": "31153",
+    "state": "Nebraska",
+    "stateCode": "NE",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Papillion) Facebook/Meta data center expansion approval",
+        "date": "2024-03-01",
+        "status": "enacted",
+        "summary": "The City of Papillion continued to approve expansion phases of Meta's massive data center campus in Sarpy County, one of the largest data center developments in the state.",
+        "sourceUrl": "https://www.datacenterdynamics.com/en/news/meta-planning-800m-expansion-of-papillion-nebraska-data-center-campus/"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "energy-rates",
+      "water-consumption",
+      "tax-incentives",
+      "economic-development",
+      "job-creation"
+    ],
+    "contextBlurb": "Sarpy County hosts Meta's large data center campus in Papillion, which has undergone multiple expansion phases. The facility is one of the largest in the state and has raised questions about energy consumption and water usage, while also being celebrated for economic development benefits."
+  },
+  {
+    "id": "douglas-county-ne",
+    "name": "Douglas County",
+    "fips": "31055",
+    "state": "Nebraska",
+    "stateCode": "NE",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(Omaha) Data center growth and OPPD power planning discussions",
+        "date": "2025-01-01",
+        "status": "under-review",
+        "summary": "Omaha Public Power District has been evaluating the grid capacity implications of growing data center demand in the Omaha metro area, including studies on how to meet projected load increases from AI and data center operations.",
+        "sourceUrl": "https://www.oppd.com/news-resources/news-releases/2024/oppd-sees-record-demand/"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "energy-rates",
+      "carbon-emissions",
+      "renewable-energy",
+      "economic-development"
+    ],
+    "contextBlurb": "Douglas County, home to Omaha and OPPD's service territory, is experiencing growing interest from data center developers. OPPD has publicly discussed the challenge of meeting surging electricity demand driven in part by data center and AI workloads, prompting infrastructure and generation planning reviews."
+  }
+]

@@ -1,0 +1,186 @@
+{
+  "country": "CA",
+  "lastUpdated": "2026-04-16",
+  "officials": [
+    {
+      "id": "ca-pm",
+      "name": "Mark Carney",
+      "role": "Prime Minister of Canada",
+      "party": "Liberal",
+      "stance": "none",
+      "country": "CA",
+      "chamber": "commons",
+      "constituency": "Nepean",
+      "summary": "The snippets do not provide a specific public record on housing policy for Mark Carney in his role as Prime Minister; no clear housing stance can be confirmed from the available sources.",
+      "keyPoints": [
+        "Mark Carney serves as Prime Minister of Canada and Leader of the Liberal Party, as confirmed by multiple official government sources from 2026.",
+        "He has undertaken significant international engagements, including visits to Australia and the World Economic Forum in Davos, and announced Canada reaching the NATO 2% defence spending target."
+      ]
+    },
+    {
+      "id": "ca-min-housing",
+      "name": "Gregor Robertson",
+      "role": "Minister of Housing and Infrastructure",
+      "party": "Liberal",
+      "stance": "favorable",
+      "country": "CA",
+      "chamber": "commons",
+      "constituency": "Vancouver Fraserview—South Burnaby",
+      "summary": "As Minister of Housing and Infrastructure, Gregor Robertson has actively promoted housing investments and infrastructure announcements across multiple provinces, reflecting a pro-supply orientation consistent with the Liberal government's housing agenda.",
+      "keyPoints": [
+        "Gregor Robertson serves as Minister of Housing and Infrastructure and Minister responsible for Pacific Economic Development Canada, a role he assumed on January 16, 2026.",
+        "He has announced housing investments across Canada, including in Quebec and Nova Scotia, and infrastructure investments in Ontario and British Columbia."
+      ]
+    },
+    {
+      "id": "ca-min-finance",
+      "name": "François-Philippe Champagne",
+      "role": "Minister of Finance of Canada",
+      "party": "Liberal",
+      "stance": "none",
+      "country": "CA",
+      "chamber": "commons",
+      "constituency": "Saint-Maurice—Champlain",
+      "summary": "The available snippets do not contain a clear public record specifically on housing supply or housing policy for François-Philippe Champagne in his role as Minister of Finance.",
+      "keyPoints": [
+        "François-Philippe Champagne serves as Minister of Finance and National Revenue, representing the Government of Canada on economic and fiscal matters.",
+        "He has traveled internationally to Washington and Brussels to engage with counterparts on trade and economic security, and has announced measures combatting economic crime, money laundering, and extortion."
+      ]
+    },
+    {
+      "id": "ca-on-min-housing",
+      "name": "Rob Flack",
+      "role": "Ontario Minister of Municipal Affairs and Housing",
+      "party": "Conservative",
+      "stance": "favorable",
+      "country": "CA",
+      "chamber": "legislative",
+      "constituency": "CA-ON",
+      "summary": "Rob Flack has championed legislation focused on building homes and improving infrastructure in Ontario, indicating a pro-supply orientation toward housing development.",
+      "keyPoints": [
+        "Rob Flack currently serves as Ontario's Minister of Municipal Affairs and Housing, as confirmed by multiple Legislative Assembly of Ontario documents from 2026.",
+        "He has sponsored major legislation including Bill 98, the Building Homes and Improving Transportation Infrastructure Act, 2026, and Bill 100, the Better Regional Governance Act, 2026."
+      ]
+    },
+    {
+      "id": "ca-qc-min-housing",
+      "name": "Caroline Proulx",
+      "role": "Quebec Minister Responsible for Housing",
+      "party": "Coalition Avenir Québec",
+      "stance": "review",
+      "country": "CA",
+      "chamber": "legislative",
+      "constituency": "CA-QC",
+      "summary": "Caroline Proulx currently serves as Quebec's Minister Responsible for Housing under the CAQ government; her specific housing supply record is not detailed in the available snippets.",
+      "keyPoints": [
+        "Caroline Proulx is listed as Ministre responsable de l'Habitation (Minister Responsible for Housing) on the Quebec government's Conseil des ministres page.",
+        "She also holds the role of Ministre responsable de la Condition féminine (Minister Responsible for the Status of Women) concurrently."
+      ]
+    },
+    {
+      "id": "ca-bc-min-housing",
+      "name": "Christine Boyle",
+      "role": "BC Minister of Housing",
+      "party": "NDP",
+      "stance": "favorable",
+      "country": "CA",
+      "chamber": "legislative",
+      "constituency": "CA-BC",
+      "summary": "Christine Boyle has publicly supported increasing housing supply in BC, including fast-tracking home construction with federal support and opening new supportive housing, reflecting a pro-supply stance on housing.",
+      "keyPoints": [
+        "Christine Boyle serves as the Minister of Housing and Municipal Affairs in British Columbia, as confirmed by multiple official Government of BC sources.",
+        "She is accountable for the Ministry of Housing and Municipal Affairs 2026/27 service plan, signed February 6, 2026, and has been involved in initiatives including fast-tracking homes with federal support and opening new supportive housing."
+      ]
+    },
+    {
+      "id": "ca-ab-min-housing",
+      "name": "Jason Nixon",
+      "role": "Alberta Minister of Seniors, Community and Social Services",
+      "party": "Conservative",
+      "stance": "review",
+      "country": "CA",
+      "chamber": "legislative",
+      "constituency": "CA-AB",
+      "summary": "As Minister responsible for Housing, Nixon oversees efforts to support affordable and attainable housing for low- and middle-income renters and buyers in Alberta, though his specific public stance on housing supply remains limited in the available snippets.",
+      "keyPoints": [
+        "Jason Nixon was sworn in as the Minister of Assisted Living and Social Services on May 16, 2025, replacing the former Ministry of Seniors, Community and Social Services.",
+        "He is also designated as Minister responsible for Housing, overseeing affordable and attainable housing initiatives for low- and middle-income Albertans."
+      ]
+    },
+    {
+      "id": "ca-toronto-mayor",
+      "name": "Olivia Chow",
+      "role": "Mayor of Toronto",
+      "party": "Independent",
+      "stance": "concerning",
+      "country": "CA",
+      "chamber": "municipal",
+      "constituency": "CA-ON",
+      "summary": "Olivia Chow has pursued affordability-focused housing policies as Mayor of Toronto, with a record that includes some support for housing supply measures alongside tenant protection priorities, reflecting a mixed but cautious approach to increasing supply.",
+      "keyPoints": [
+        "Olivia Chow is the current Mayor of Toronto, as confirmed by multiple 2026 City of Toronto news releases including her presentation of the Key to the City and announcement of the 2026 budget.",
+        "Mayor Chow has led initiatives including a congestion plan, a school food program that won a Bloomberg Philanthropies Mayors Challenge prize, and expansion of the CampTO Nutrition Program."
+      ]
+    },
+    {
+      "id": "ca-vancouver-mayor",
+      "name": "Ken Sim",
+      "role": "Mayor of Vancouver",
+      "party": "Independent",
+      "stance": "favorable",
+      "country": "CA",
+      "chamber": "municipal",
+      "constituency": "CA-BC",
+      "summary": "Mayor Ken Sim supported Vancouver's first Official Development Plan, which aims to ensure growth happens in a thoughtful and coordinated way, reflecting a broadly pro-growth and supply-oriented approach to housing and development.",
+      "keyPoints": [
+        "Ken Sim serves as Mayor of Vancouver and has been involved in major city decisions including approving Vancouver's first Official Development Plan in March 2026.",
+        "Mayor Sim has championed investments in arts, culture, public safety, and urban transformation projects such as the Granville Street Pedestrian Zone ahead of the FIFA World Cup 2026."
+      ]
+    },
+    {
+      "id": "ca-montreal-mayor",
+      "name": "Soraya Martinez Ferrada",
+      "role": "Mayor of Montreal",
+      "party": "Projet Montréal",
+      "stance": "none",
+      "country": "CA",
+      "chamber": "municipal",
+      "constituency": "CA-QC",
+      "summary": "No specific housing stance is detailed in the available snippets; her record on housing supply cannot be determined from the provided sources.",
+      "keyPoints": [
+        "Soraya Martinez Ferrada is identified as the current Mayor (mairesse) of Montreal, leading the Office of the Mayor (La Mairie) at the Ville de Montréal.",
+        "She leads a team composed of elected councillors of Montreal as part of the mayoral office."
+      ]
+    },
+    {
+      "id": "ca-calgary-mayor",
+      "name": "Jeromy Farkas",
+      "role": "Mayor of Calgary",
+      "party": "Independent",
+      "stance": "none",
+      "country": "CA",
+      "chamber": "municipal",
+      "constituency": "CA-AB",
+      "summary": "There is no specific housing stance recorded for Jeromy Farkas in the available snippets; his housing policy record cannot be determined from the provided sources.",
+      "keyPoints": [
+        "Jeromy Farkas was elected Mayor of Calgary in the General Election on October 20, 2025.",
+        "He serves as the head of Calgary City Council, with the City of Calgary's official website listing him as the current Mayor."
+      ]
+    },
+    {
+      "id": "ca-ottawa-mayor",
+      "name": "Mark Sutcliffe",
+      "role": "Mayor of Ottawa",
+      "party": "Independent",
+      "stance": "none",
+      "country": "CA",
+      "chamber": "municipal",
+      "constituency": "CA-ON",
+      "summary": "The snippets do not contain specific details about Mayor Sutcliffe's housing stance; his public record on housing supply and development policies cannot be determined from the provided information alone.",
+      "keyPoints": [
+        "Mark Sutcliffe serves as Mayor of the City of Ottawa, as confirmed across multiple official City of Ottawa communications and publications.",
+        "He is associated with the City of Ottawa's Strategic Plan 2023–2026 and the Draft Budget 2026, which focuses on safe, reliable, and affordable city services."
+      ]
+    }
+  ]
+}

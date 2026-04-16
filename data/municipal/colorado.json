@@ -1,0 +1,50 @@
+[
+  {
+    "id": "adams-county-co",
+    "name": "Adams County",
+    "fips": "08001",
+    "state": "Colorado",
+    "stateCode": "CO",
+    "type": "county",
+    "actions": [
+      {
+        "title": "(City of Brighton) Meta data center campus approval",
+        "date": "2024-06-01",
+        "status": "enacted",
+        "summary": "The City of Brighton approved Meta's plans for a large data center campus in the area, part of Meta's broader national expansion. The project brought discussions around water use and power infrastructure.",
+        "sourceUrl": "https://www.datacenterdynamics.com/en/news/meta-plans-data-center-campus-in-brighton-colorado/"
+      }
+    ],
+    "concerns": [
+      "water-consumption",
+      "grid-capacity",
+      "economic-development",
+      "job-creation"
+    ],
+    "contextBlurb": "Adams County, including the City of Brighton, has become a target for hyperscale data center development due to available land and proximity to Denver metro infrastructure. Water consumption in semi-arid Colorado is a key concern for local officials and residents."
+  },
+  {
+    "id": "weld-county-co",
+    "name": "Weld County",
+    "fips": "08123",
+    "state": "Colorado",
+    "stateCode": "CO",
+    "type": "county",
+    "actions": [
+      {
+        "title": "Large-scale data center development near Platteville",
+        "date": "2024-08-01",
+        "status": "enacted",
+        "summary": "Weld County approved site plans for data center facilities taking advantage of available land and energy infrastructure in the northern Colorado corridor. Discussions included grid capacity and economic development benefits.",
+        "sourceUrl": "https://www.greeleytribune.com/2024/08/01/data-center-weld-county/"
+      }
+    ],
+    "concerns": [
+      "grid-capacity",
+      "water-consumption",
+      "economic-development",
+      "energy-rates"
+    ],
+    "contextBlurb": "Weld County's open land and energy infrastructure (including proximity to natural gas resources) have made it attractive for data center developers. County officials have weighed economic benefits against infrastructure impacts."
+  }
+]
