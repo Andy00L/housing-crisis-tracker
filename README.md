@@ -3,9 +3,9 @@
 A live map of housing policy. Canada is the primary dataset with federal
 bills, provincial legislation, major projects, and officials. The United
 States is a full secondary region covering federal housing law plus the
-10 housing-critical states. Europe and Asia-Pacific scaffolding is in
-place but dormant: scripts exist and data files are empty until the
-`europe-asia-sync` workflow is dispatched manually.
+10 housing-critical states. Europe (11 entities) and Asia-Pacific (7
+entities) carry light coverage with verified housing ministers, bills,
+and projects. Their sync runs via manual workflow dispatch.
 
 ```
 Next.js 16.2.3 . React 19.2.4 . TypeScript 5 . Tailwind CSS v4
@@ -33,17 +33,17 @@ run the sync scripts that refresh data from upstream APIs.
 - **United States (secondary).** Federal housing legislation plus the
   top 10 housing-critical states: California, New York, Texas, Florida,
   Washington, Massachusetts, Oregon, Colorado, Arizona, North Carolina.
-  Data comes from Tavily searches against congress.gov, hud.gov, and
-  each state legislature's domain. The other 40 states render as grey
-  on the map by design. We're honest about coverage rather than
-  faking it.
-- **Europe (light coverage, dormant).** UK, Germany, France, Italy,
-  Spain, Poland, Netherlands, Sweden, Finland, Ireland, and the
-  European Parliament. Scripts exist. Data files are empty until the
-  `europe-asia-sync` workflow is dispatched. Max 3 bills + 3 projects
-  per entity by design.
-- **Asia-Pacific (light coverage, dormant).** Japan, South Korea,
-  China, India, Indonesia, Taiwan, Australia. Same dormant pattern.
+  Federal bills come from the Congress.gov API. State bills come from
+  Tavily queries, Apify state scrapers, and state legislature domain
+  searches. The other 40 states render as grey on the map by design.
+  We're honest about coverage rather than faking it.
+- **Europe (light coverage).** UK, Germany, France, Italy, Spain,
+  Poland, Netherlands, Sweden, Finland, Ireland, and the European
+  Parliament. 13 bills, 19 projects, and 12 verified housing ministers
+  across 11 entities. Refreshed via manual `europe-asia-sync` dispatch.
+- **Asia-Pacific (light coverage).** Japan, South Korea, China, India,
+  Indonesia, Taiwan, Australia. 9 bills, 4 projects, and 7 verified
+  housing ministers. Same manual dispatch pattern as Europe.
 
 Counts (April 2026):
 
@@ -53,13 +53,13 @@ Counts (April 2026):
 | Canadian provincial bills | ~168 / 13 jurisdictions | BC Laws + Tavily |
 | Canadian housing projects | 13 | Build Canada Homes, CMHC |
 | Canadian officials | 12 | canada.ca + Tavily |
-| US federal housing bills | 2 | Tavily research (congress.gov, hud.gov) |
-| US state housing bills | ~60 / 10 states | Tavily research per state legislature |
-| US housing projects | ~25 | Tavily research (HUD, state agencies) |
+| US federal housing bills | 54 | Congress.gov API |
+| US state housing bills | 68 / 10 states | Tavily + Apify + state legislature queries |
+| US housing projects | 25 | Tavily research (HUD, state agencies) |
 | US housing officials | 9 | hud.gov + Tavily |
-| UK housing bills (secondary) | ~267 | UK Parliament Bills API |
-| Europe housing entities | 11 (dormant, empty) | scripts/sync/europe-housing.ts |
-| Asia-Pacific entities | 7 (dormant, empty) | scripts/sync/asia-pacific-housing.ts |
+| UK housing bills (secondary) | 267 | UK Parliament Bills API |
+| Europe (11 entities) | 13 bills, 19 projects, 12 officials | europe-housing.ts + europe-officials.ts |
+| Asia-Pacific (7 entities) | 9 bills, 4 projects, 7 officials | asia-pacific-housing.ts + asia-officials.ts |
 
 Counts come from `jq`/`node` over JSON files in `data/`, not from memory.
 
@@ -158,16 +158,16 @@ graph TD
     USPROJJSON --> BLD
     USOFFJSON --> BLD
 
-    subgraph Dormant["Dormant (Prompt E.2)"]
+    subgraph IntlPipelines["Europe + Asia-Pacific Pipelines (manual dispatch)"]
         EUSYNC[europe-housing.ts . 11 countries]
         EUOFF[europe-officials.ts]
         APSYNC[asia-pacific-housing.ts . 7 countries]
         APOFF[asia-officials.ts]
     end
-    EUSYNC -.-> W6
-    EUOFF -.-> W6
-    APSYNC -.-> W6
-    APOFF -.-> W6
+    EUSYNC --> W6
+    EUOFF --> W6
+    APSYNC --> W6
+    APOFF --> W6
 ```
 
 All five workflows finish with a `summarize-run-report` step that
@@ -248,12 +248,12 @@ npm run sync:provinces  # Provincial housing research
   has a sparse housing-bill slate for a given session (e.g. Texas
   during recess), the pipeline may pull fewer than 5 bills and mark the
   URLs as unvalidated if Tavily Extract briefly fails.
-- Europe and Asia-Pacific entities have minimal bill/project data (max
-  3 of each) per country by design. Full coverage for those regions
-  requires dispatching the `europe-asia-sync` workflow with
-  `execute_europe=1` and/or `execute_asia=1`. Until then, their map
-  tiles render grey and their entity panels show the "coverage pending"
-  notice.
+- Europe and Asia-Pacific entities have light bill/project data (max
+  3 of each) per country by design. Refreshing those regions requires
+  dispatching the `europe-asia-sync` workflow with `execute_europe=1`
+  and/or `execute_asia=1`. Countries with 0 bills show an honest
+  "coverage is limited in this release" notice rather than fabricated
+  content.
 - Tavily is on the dev tier (1000 credits per month). Running the full
   provincial research pipeline plus projects plus officials consumes
   roughly 100 to 150 credits. Heavy manual re-runs will exhaust the
