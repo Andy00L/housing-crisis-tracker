@@ -55,7 +55,7 @@ export default async function ProjectsPage({
         </div>
 
         {total > 0 ? (
-          <ProjectsList facilities={projects} groupBy={groupBy} />
+          <ProjectsList projects={projects} groupBy={groupBy} />
         ) : (
           <p className="text-sm text-muted">
             No projects on file for {entity.name}.

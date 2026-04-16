@@ -70,7 +70,7 @@ const SORT_OPTIONS: { key: SortKey; label: string }[] = [
   { key: "state", label: "Location" },
 ];
 
-// Relevance ranks facilities by how much we know about them combined
+// Relevance ranks projects by how much we know about them combined
 // with raw scale. Disclosed cost is the strongest signal — those are the
 // publicly-announced flagship projects.
 function relevanceScore(f: HousingProject): number {
@@ -121,20 +121,20 @@ interface Stat {
   value: string;
 }
 
-function buildStats(facilities: HousingProject[]): Stat[] {
-  const totalUnits = facilities.reduce((acc, f) => acc + (f.unitCount ?? 0), 0);
-  const totalCost = facilities.reduce((acc, f) => acc + (f.projectCost ?? 0), 0);
-  const totalAffordable = facilities.reduce((acc, f) => acc + (f.affordableUnits ?? 0), 0);
+function buildStats(projects: HousingProject[]): Stat[] {
+  const totalUnits = projects.reduce((acc, f) => acc + (f.unitCount ?? 0), 0);
+  const totalCost = projects.reduce((acc, f) => acc + (f.projectCost ?? 0), 0);
+  const totalAffordable = projects.reduce((acc, f) => acc + (f.affordableUnits ?? 0), 0);
 
   return [
-    { label: "Tracked", value: facilities.length.toLocaleString() },
+    { label: "Tracked", value: projects.length.toLocaleString() },
     { label: "Total units", value: totalUnits.toLocaleString() },
     { label: "Investment", value: formatCost(totalCost) },
     { label: "Affordable units", value: formatAffordable(totalAffordable) },
   ];
 }
 
-function targetForFacility(f: HousingProject): ViewTarget | null {
+function targetForProject(f: HousingProject): ViewTarget | null {
   if (f.country === "United States" && f.state && STATE_FIPS[f.state]) {
     return {
       region: "na",
@@ -454,7 +454,7 @@ export default function ProjectsOverview({
               const developer = stripConfidence(f.developer) ?? f.developer;
               const color = statusColorForProject(f.status);
               const isProposed = f.status === "proposed";
-              const target = targetForFacility(f);
+              const target = targetForProject(f);
               const location = f.state ?? f.country ?? "—";
 
               const isExpanded = selectedId === f.id;

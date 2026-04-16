@@ -38,11 +38,11 @@ interface SidePanelProps {
   size: "min" | "md";
   onSizeChange: (s: "min" | "md") => void;
   isMobileViewport: boolean;
-  /** When set, the panel renders facility detail instead of entity content. */
-  facility?: HousingProject | null;
-  onCloseFacility?: () => void;
-  /** Pins a facility from the Projects tab. */
-  onSelectFacility?: (dc: HousingProject) => void;
+  /** When set, the panel renders project detail instead of entity content. */
+  project?: HousingProject | null;
+  onCloseProject?: () => void;
+  /** Pins a project from the Projects tab. */
+  onSelectProject?: (project: HousingProject) => void;
   lens?: DimensionLens;
   /** When set, adds a "Local" tab with county-level actions. Each entry
    *  is a Legislation-shaped row (adapter applied upstream) so it
@@ -60,7 +60,7 @@ type Layer =
   | "legislation"
   | "figures"
   | "news"
-  | "datacenters"
+  | "projects"
   | "local"
   | "metrics";
 type Position = "left" | "right" | "bottom";
@@ -69,7 +69,7 @@ type Size = "min" | "md";
 const LEGISLATION_PREVIEW = 5;
 const FIGURES_PREVIEW = 3;
 const NEWS_PREVIEW = 3;
-const DC_PREVIEW = 6;
+const PROJECTS_PREVIEW = 6;
 
 // Bouncy spring — more pronounced overshoot for the rubber-band feel.
 const SPRING = "cubic-bezier(0.5, 1.55, 0.4, 1)";
@@ -154,9 +154,9 @@ export default function SidePanel({
   size,
   onSizeChange,
   isMobileViewport,
-  facility = null,
-  onCloseFacility,
-  onSelectFacility,
+  project = null,
+  onCloseProject,
+  onSelectProject,
   lens = "zoning",
   localActions,
 }: SidePanelProps) {
@@ -190,18 +190,18 @@ export default function SidePanel({
   );
   const dragStartRef = useRef<{ x: number; y: number } | null>(null);
 
-  // A pinned facility takes over the panel content while it's set.
-  const facilityMode = !!facility;
+  // A pinned project takes over the panel content while it's set.
+  const projectMode = !!project;
   const hasLegislation = !!entity && entity.legislation.length > 0;
   const hasFigures = !!entity && entity.keyFigures.length > 0;
   const hasNews = !!entity && entity.news.length > 0;
 
   // Scope projects to whatever the entity represents. The panel preview
   // always renders flat; grouping only matters on the full /projects page.
-  const scopedFacilities: HousingProject[] = entity
+  const scopedProjects: HousingProject[] = entity
     ? projectsForEntity(entity).projects
     : [];
-  const hasDatacenters = scopedFacilities.length > 0;
+  const hasProjects = scopedProjects.length > 0;
   const hasLocal = (localActions?.length ?? 0) > 0;
 
   // Metrics tab. Visible whenever the entity has at least one populated
@@ -239,7 +239,7 @@ export default function SidePanel({
   if (hasLocal) availableLayers.push("local");
   if (hasFigures) availableLayers.push("figures");
   if (hasNews) availableLayers.push("news");
-  if (hasDatacenters) availableLayers.push("datacenters");
+  if (hasProjects) availableLayers.push("projects");
   if (hasMetrics) availableLayers.push("metrics");
   const activeLayer: Layer =
     availableLayers.length > 0 && !availableLayers.includes(preferredLayer)
@@ -392,13 +392,13 @@ export default function SidePanel({
 
     // Tap (no significant movement). 12px threshold is forgiving enough
     // for touch micro-movement. The handle is the only minimize/dismiss
-    // affordance — if a facility is pinned we close it, otherwise we
+    // affordance. If a project is pinned we close it, otherwise we
     // toggle between Dynamic Island and the full panel.
     if (totalDist < 12) {
       if (size === "min") {
         setSize("md");
-      } else if (facilityMode && onCloseFacility) {
-        onCloseFacility();
+      } else if (projectMode && onCloseProject) {
+        onCloseProject();
       } else {
         setSize("min");
       }
@@ -442,8 +442,8 @@ export default function SidePanel({
 
   // ─── Render branches by size ───────────────────────────────────────────
 
-  const islandPrimary = facility
-    ? facility.developer.replace(/\s*#\w+/g, "").trim() || "Housing project"
+  const islandPrimary = project
+    ? project.developer.replace(/\s*#\w+/g, "").trim() || "Housing project"
     : entity?.name ?? null;
 
   const renderMin = () => (
@@ -499,7 +499,7 @@ export default function SidePanel({
     setSize("min");
   };
   const closeAndCollapse = () => {
-    if (facilityMode && onCloseFacility) onCloseFacility();
+    if (projectMode && onCloseProject) onCloseProject();
     setExpanded(false);
     setSize("min");
   };
@@ -508,7 +508,7 @@ export default function SidePanel({
     <>
       {/* Mac-style traffic-light controls — icons appear on hover (or
           always on touch, where there's no hover state). Red = close +
-          dismiss facility; yellow = minimize to island; green = toggle
+          dismiss project; yellow = minimize to island; green = toggle
           expanded reading surface. */}
       <div className="group/tl flex items-center gap-1.5 px-3.5 pt-3 pb-1.5 flex-shrink-0">
         <button
@@ -602,8 +602,8 @@ export default function SidePanel({
         />
       </div>
 
-      {facilityMode && facility ? (
-        <ProjectDetail facility={facility} />
+      {projectMode && project ? (
+        <ProjectDetail project={project} />
       ) : !entity ? (
         <div className="flex-1 flex items-center justify-center px-8 py-12 min-h-[160px]">
           <p className="text-xs text-muted text-center">
@@ -618,10 +618,10 @@ export default function SidePanel({
             </h2>
             <div className="mt-2 flex items-center gap-3">
               {/* Use the overall stance on the headline tag so a state
-                  like Texas — which has enacted AI/privacy bills but
-                  nothing data-center-specific — doesn't read as "No
-                  Action" when viewed under the data-center lens. The
-                  map coloring + SummaryBar still split by lens. */}
+                  with bills under one lens but nothing under the other
+                  doesn't read as "No Action" when the user happens to be
+                  viewing the quieter lens. The map coloring and the
+                  SummaryBar still split by lens. */}
               <StanceBadge
                 stance={entity.stance ?? (lens === "affordability" ? entity.stanceAffordability : entity.stanceZoning)}
                 size="md"
@@ -644,7 +644,7 @@ export default function SidePanel({
                 <div className="text-ink font-semibold mb-0.5">
                   Click anywhere to explore
                 </div>
-                A country, state, or province opens its
+                A country, state, province, or project pin opens its
                 detail. <span className="hidden lg:inline">Press <kbd className="font-sans px-1 rounded bg-white/85 border border-black/[.08] text-[10px] text-ink">?</kbd> for keyboard shortcuts.</span>
               </div>
             )}
@@ -706,7 +706,7 @@ export default function SidePanel({
                             ? "Figures"
                             : layer === "news"
                               ? "News"
-                              : layer === "datacenters"
+                              : layer === "projects"
                                 ? "Projects"
                                 : "Metrics";
                     return (
@@ -723,7 +723,7 @@ export default function SidePanel({
                             ? "Legislation"
                             : layer === "figures"
                               ? "Key Figures"
-                              : layer === "datacenters"
+                              : layer === "projects"
                                 ? "Projects"
                                 : layer === "metrics"
                                   ? "Housing metrics"
@@ -766,7 +766,7 @@ export default function SidePanel({
                     <LegislationList
                       legislation={entity.legislation.slice(0, LEGISLATION_PREVIEW)}
                       stateCode={entity.level === "federal" ? "US" : undefined}
-                      onSelectFacility={onSelectFacility}
+                      onSelectProject={onSelectProject}
                     />
                     <SeeAllLink
                       total={entity.legislation.length}
@@ -781,7 +781,7 @@ export default function SidePanel({
                   <motion.section layout>
                     <LegislationList
                       legislation={localActions.slice(0, LEGISLATION_PREVIEW)}
-                      onSelectFacility={onSelectFacility}
+                      onSelectProject={onSelectProject}
                     />
                     {localActions.length > LEGISLATION_PREVIEW && (
                       <div className="text-[11px] text-muted tracking-tight mt-3">
@@ -824,16 +824,16 @@ export default function SidePanel({
                   </motion.section>
                 )}
 
-                {activeLayer === "datacenters" && hasDatacenters && (
+                {activeLayer === "projects" && hasProjects && (
                   <motion.section layout>
                     <ProjectsList
-                      facilities={scopedFacilities.slice(0, DC_PREVIEW)}
+                      projects={scopedProjects.slice(0, PROJECTS_PREVIEW)}
                       groupBy={null}
-                      onSelectFacility={onSelectFacility}
+                      onSelectProject={onSelectProject}
                     />
                     <SeeAllLink
-                      total={scopedFacilities.length}
-                      shown={DC_PREVIEW}
+                      total={scopedProjects.length}
+                      shown={PROJECTS_PREVIEW}
                       label="projects"
                       href={`/projects/${encodeURIComponent(entity.id)}`}
                     />

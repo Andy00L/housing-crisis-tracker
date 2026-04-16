@@ -27,15 +27,15 @@ interface EuropeMapProps {
   setTooltip: SetTooltip;
   dimension?: Dimension;
   lens?: DimensionLens;
-  showDataCenters?: boolean;
-  onHoverFacility?: (
-    dc: HousingProject,
+  showProjects?: boolean;
+  onHoverProject?: (
+    project: HousingProject,
     x: number,
     y: number,
     clusterSize: number,
   ) => void;
-  onLeaveFacility?: () => void;
-  onSelectFacility?: (dc: HousingProject) => void;
+  onLeaveProject?: () => void;
+  onSelectProject?: (project: HousingProject) => void;
 }
 
 const euProj = euProjection as unknown as ProjectionFunction;
@@ -64,10 +64,10 @@ export default function EuropeMap({
   setTooltip,
   dimension = "overall",
   lens = "zoning",
-  showDataCenters = false,
-  onHoverFacility,
-  onLeaveFacility,
-  onSelectFacility,
+  showProjects = false,
+  onHoverProject,
+  onLeaveProject,
+  onSelectProject,
 }: EuropeMapProps) {
   return (
     <div
@@ -162,12 +162,12 @@ export default function EuropeMap({
               })
           }
         </Geographies>
-        {showDataCenters && onHoverFacility && onLeaveFacility && (
+        {showProjects && onHoverProject && onLeaveProject && (
           <ProjectDots projection={euProjection as unknown as (c: [number, number]) => [number, number] | null}
             projects={EU_PROJECTS}
-            onHoverFacility={onHoverFacility}
-            onLeaveFacility={onLeaveFacility}
-            onSelectFacility={onSelectFacility}
+            onHoverProject={onHoverProject}
+            onLeaveProject={onLeaveProject}
+            onSelectProject={onSelectProject}
           />
         )}
       </ComposableMap>

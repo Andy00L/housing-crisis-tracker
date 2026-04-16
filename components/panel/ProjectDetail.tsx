@@ -5,7 +5,7 @@ import type { HousingProject, ImpactTag, MunicipalAction } from "@/types";
 import { IMPACT_TAG_LABEL } from "@/types";
 import { statusColorForProject } from "@/lib/project-colors";
 import { ProposalProgress } from "@/components/ui/ProposalProgress";
-import { findActionsForFacility } from "@/lib/action-facility-link";
+import { findActionsForProject } from "@/lib/action-project-link";
 import { getMunicipalitiesByState } from "@/lib/municipal-data";
 import { STANCE_HEX } from "@/lib/map-utils";
 import type { StanceType } from "@/types";
@@ -25,7 +25,7 @@ const ACTION_STATUS_LABEL: Record<MunicipalAction["status"], string> = {
 };
 
 interface ProjectDetailProps {
-  facility: HousingProject;
+  project: HousingProject;
 }
 
 function formatUnits(count: number | undefined): string | null {
@@ -52,7 +52,7 @@ const STATUS_LABEL: Record<HousingProject["status"], string> = {
 };
 
 /**
- * Pinned facility detail shown inside the side panel. Intentionally
+ * Pinned project detail shown inside the side panel. Intentionally
  * minimal — matches the entity panel's rhythm (header + blurb + simple
  * definition list) instead of the busy pill-heavy treatment it had
  * before.
@@ -68,41 +68,41 @@ function prettyConcern(tag: string): string {
 }
 
 export default function ProjectDetail({
-  facility,
+  project,
 }: ProjectDetailProps) {
   const [issuesOpen, setIssuesOpen] = useState(true);
-  const developer = stripConfidence(facility.developer) ?? facility.developer;
+  const developer = stripConfidence(project.developer) ?? project.developer;
 
   // Reverse link: find county actions whose title/summary name this
-  // facility. Limited to municipalities in the facility's own state to
+  // project. Limited to municipalities in the project's own state to
   // keep the match tight.
   const relatedActions: Array<MunicipalAction & { municipalityName: string }> =
-    facility.state
-      ? findActionsForFacility(
-          facility,
-          getMunicipalitiesByState(facility.state).flatMap((m) =>
+    project.state
+      ? findActionsForProject(
+          project,
+          getMunicipalitiesByState(project.state).flatMap((m) =>
             m.actions.map((a) => ({ ...a, municipalityName: m.name })),
           ),
         )
       : [];
-  const units = formatUnits(facility.unitCount);
-  const cost = formatCost(facility.projectCost);
-  const color = statusColorForProject(facility.status);
-  const isProposed = facility.status === "proposed";
+  const units = formatUnits(project.unitCount);
+  const cost = formatCost(project.projectCost);
+  const color = statusColorForProject(project.status);
+  const isProposed = project.status === "proposed";
 
   const details: Array<{ label: string; value: string }> = [];
-  if (facility.projectType) details.push({ label: "Project type", value: facility.projectType });
+  if (project.projectType) details.push({ label: "Project type", value: project.projectType });
   if (units) details.push({ label: "Units", value: units });
-  if (facility.affordableUnits) details.push({ label: "Affordable units", value: String(facility.affordableUnits) });
+  if (project.affordableUnits) details.push({ label: "Affordable units", value: String(project.affordableUnits) });
   if (cost) details.push({ label: "Project cost", value: cost });
-  if (facility.yearCompleted)
-    details.push({ label: "Completed", value: String(facility.yearCompleted) });
-  else if (facility.yearProposed)
-    details.push({ label: "Proposed", value: String(facility.yearProposed) });
-  if (facility.location) {
-    details.push({ label: "Location", value: facility.location });
-  } else if (facility.state) {
-    details.push({ label: "Location", value: facility.state });
+  if (project.yearCompleted)
+    details.push({ label: "Completed", value: String(project.yearCompleted) });
+  else if (project.yearProposed)
+    details.push({ label: "Proposed", value: String(project.yearProposed) });
+  if (project.location) {
+    details.push({ label: "Location", value: project.location });
+  } else if (project.state) {
+    details.push({ label: "Location", value: project.state });
   }
 
   return (
@@ -120,7 +120,7 @@ export default function ProjectDetail({
               border: isProposed ? `1.25px solid ${color}` : "none",
             }}
           />
-          <span>{STATUS_LABEL[facility.status]}</span>
+          <span>{STATUS_LABEL[project.status]}</span>
           {units && (
             <>
               <span aria-hidden>·</span>
@@ -131,10 +131,10 @@ export default function ProjectDetail({
       </div>
 
       <div className="p-6 flex flex-col gap-5">
-        {/* Notes paragraph — equivalent of ContextBlurb for facilities */}
-        {facility.notes && (
+        {/* Notes paragraph. Equivalent of ContextBlurb for projects */}
+        {project.notes && (
           <p className="text-sm text-muted leading-relaxed">
-            {facility.notes}
+            {project.notes}
           </p>
         )}
 
@@ -157,74 +157,74 @@ export default function ProjectDetail({
           </dl>
         )}
 
-        {/* Proposal status — only for facilities with structured proposal
+        {/* Proposal status. Only for projects with structured proposal
             data. Every sub-section is conditional; nothing empty renders. */}
-        {facility.proposal &&
-          (facility.proposal.process?.length ||
-            facility.proposal.nextDecision ||
-            facility.proposal.powerSource ||
-            facility.proposal.waterSource ||
-            facility.proposal.opposition?.length ||
-            facility.proposal.requirements?.length) && (
+        {project.proposal &&
+          (project.proposal.process?.length ||
+            project.proposal.nextDecision ||
+            project.proposal.powerSource ||
+            project.proposal.waterSource ||
+            project.proposal.opposition?.length ||
+            project.proposal.requirements?.length) && (
             <section className="flex flex-col gap-4 py-4 border-t border-black/[.06]">
               <h3 className="text-[11px] font-medium tracking-tight text-muted">
                 Proposal status
               </h3>
 
-              {facility.proposal.process && facility.proposal.process.length > 0 && (
+              {project.proposal.process && project.proposal.process.length > 0 && (
                 <ProposalProgress
-                  process={facility.proposal.process}
+                  process={project.proposal.process}
                   variant="full"
                 />
               )}
 
-              {facility.proposal.nextDecision && (
+              {project.proposal.nextDecision && (
                 <div>
                   <div className="text-[11px] text-muted mb-1">Next decision</div>
                   <div className="text-[13px] text-ink tracking-tight leading-snug">
-                    {facility.proposal.nextDecision.what}
+                    {project.proposal.nextDecision.what}
                   </div>
                   <div className="text-[11.5px] text-muted mt-0.5">
-                    {facility.proposal.nextDecision.body}
-                    {facility.proposal.nextDecision.date && (
+                    {project.proposal.nextDecision.body}
+                    {project.proposal.nextDecision.date && (
                       <>
                         <span aria-hidden>{" · "}</span>
-                        {facility.proposal.nextDecision.date}
+                        {project.proposal.nextDecision.date}
                       </>
                     )}
                   </div>
                 </div>
               )}
 
-              {(facility.proposal.powerSource || facility.proposal.waterSource) && (
+              {(project.proposal.powerSource || project.proposal.waterSource) && (
                 <dl className="flex flex-col">
-                  {facility.proposal.powerSource && (
+                  {project.proposal.powerSource && (
                     <div className="flex items-start justify-between gap-4 py-2 text-[13px] border-t border-black/[.04] first:border-t-0">
                       <dt className="text-muted flex-shrink-0">Power</dt>
                       <dd className="text-ink text-right tracking-tight">
-                        {facility.proposal.powerSource}
+                        {project.proposal.powerSource}
                       </dd>
                     </div>
                   )}
-                  {facility.proposal.waterSource && (
+                  {project.proposal.waterSource && (
                     <div className="flex items-start justify-between gap-4 py-2 text-[13px] border-t border-black/[.04]">
                       <dt className="text-muted flex-shrink-0">Water</dt>
                       <dd className="text-ink text-right tracking-tight">
-                        {facility.proposal.waterSource}
+                        {project.proposal.waterSource}
                       </dd>
                     </div>
                   )}
                 </dl>
               )}
 
-              {facility.proposal.requirements &&
-                facility.proposal.requirements.length > 0 && (
+              {project.proposal.requirements &&
+                project.proposal.requirements.length > 0 && (
                   <div>
                     <div className="text-[11px] text-muted mb-1.5">
                       Still to clear
                     </div>
                     <ul className="flex flex-col gap-1">
-                      {facility.proposal.requirements.map((r, i) => (
+                      {project.proposal.requirements.map((r, i) => (
                         <li
                           key={i}
                           className="text-[13px] text-ink/85 leading-snug pl-3 relative before:content-[''] before:absolute before:left-0 before:top-[9px] before:w-1 before:h-1 before:rounded-full before:bg-black/30"
@@ -236,12 +236,12 @@ export default function ProjectDetail({
                   </div>
                 )}
 
-              {facility.proposal.opposition &&
-                facility.proposal.opposition.length > 0 && (
+              {project.proposal.opposition &&
+                project.proposal.opposition.length > 0 && (
                   <div>
                     <div className="text-[11px] text-muted mb-1.5">Opposition</div>
                     <ul className="flex flex-wrap gap-1.5">
-                      {facility.proposal.opposition.map((o, i) => (
+                      {project.proposal.opposition.map((o, i) => (
                         <li
                           key={i}
                           className="text-[11.5px] px-2 py-1 rounded-full bg-black/[.04] text-ink/80 tracking-tight"
@@ -256,7 +256,7 @@ export default function ProjectDetail({
           )}
 
         {/* Issues dropdown — collapsible list of concern tags */}
-        {facility.concerns && facility.concerns.length > 0 && (
+        {project.concerns && project.concerns.length > 0 && (
           <div>
             <button
               type="button"
@@ -267,7 +267,7 @@ export default function ProjectDetail({
               <span>
                 Issues{" "}
                 <span className="text-muted font-normal">
-                  ({facility.concerns.length})
+                  ({project.concerns.length})
                 </span>
               </span>
               <span
@@ -282,7 +282,7 @@ export default function ProjectDetail({
             </button>
             {issuesOpen && (
               <ul className="mt-1.5 flex flex-wrap gap-1.5">
-                {facility.concerns.map((c) => (
+                {project.concerns.map((c) => (
                   <li
                     key={c}
                     className="text-[11.5px] px-2 py-1 rounded-full bg-black/[.04] text-ink/80 tracking-tight"
@@ -296,7 +296,7 @@ export default function ProjectDetail({
         )}
 
         {/* Local actions — reverse link. County-level legislation
-            mentioning this facility by operator or location. Kept tight
+            mentioning this project by operator or location. Kept tight
             to match the issues-list rhythm above: small header, stance
             dot + title, date + municipality as muted meta. */}
         {relatedActions.length > 0 && (

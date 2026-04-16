@@ -214,7 +214,7 @@ function StanceTag({
 }
 
 /**
- * Guess a legislator's AI/DC stance from their sponsored bills. Useful
+ * Guess a legislator's stance from their sponsored bills. Useful
  * when the stated stance is "none" (uncurated) — authorship is usually
  * the cleanest positional signal we have. Returns null when sponsorships
  * don't lean clearly in one direction.

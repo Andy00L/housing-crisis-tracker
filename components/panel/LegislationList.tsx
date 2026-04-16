@@ -9,15 +9,15 @@ interface LegislationListProps {
   legislation: Legislation[];
   /** Two-letter state code ("US", "VA", ...) for donor lookup. */
   stateCode?: string;
-  /** Forwarded to BillExpanded — enables clickable "Related facilities"
-   *  chips that open the facility detail panel. */
-  onSelectFacility?: (f: HousingProject) => void;
+  /** Forwarded to BillExpanded. Enables clickable "Related projects"
+   *  chips that open the project detail panel. */
+  onSelectProject?: (f: HousingProject) => void;
 }
 
 export default function LegislationList({
   legislation,
   stateCode,
-  onSelectFacility,
+  onSelectProject,
 }: LegislationListProps) {
   const [openId, setOpenId] = useState<string | null>(null);
 
@@ -77,7 +77,7 @@ export default function LegislationList({
                   <BillExpanded
                     bill={bill}
                     stateCode={stateCode}
-                    onSelectFacility={onSelectFacility}
+                    onSelectProject={onSelectProject}
                   />
                 )}
               </div>

@@ -256,12 +256,12 @@ export default function MethodologyPage() {
             <SourceItem
               name="Nominatim (OpenStreetMap)"
               href="https://nominatim.openstreetmap.org"
-              note="facility geocoding (ODbL)"
+              note="project geocoding (ODbL)"
             />
             <SourceItem
               name="CARTO basemaps"
               href="https://carto.com/basemaps"
-              note="tile layer for the facility detail view"
+              note="tile layer for the project detail view"
             />
           </SourceGroup>
 

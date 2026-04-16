@@ -7,7 +7,7 @@ import { SIZE_BANDS } from "@/components/map/ProjectDots";
 
 interface MobileLegendProps {
   dimension: Dimension;
-  showDataCenters: boolean;
+  showProjects: boolean;
   visibility: number;
 }
 
@@ -102,7 +102,7 @@ export function SizeRow() {
   );
 }
 
-export function DataCenterRow() {
+export function ProjectStatusRow() {
   const items = [
     { color: "#0A84FF", label: "Operational", hollow: false },
     { color: "#FF9500", label: "Building", hollow: false },
@@ -143,12 +143,12 @@ export function DataCenterRow() {
 /**
  * Comprehensive bottom legend rendered on mobile when the side panel
  * is collapsed to the Dynamic Island. Combines the stance colors (or
- * the active dimension gradient) with the data-center status key into
+ * the active dimension gradient) with the project status key into
  * a single card so the user can decode every visual at once.
  */
 export default function MobileLegend({
   dimension,
-  showDataCenters,
+  showProjects,
   visibility,
 }: MobileLegendProps) {
   const showDimension = dimension !== "overall";
@@ -169,10 +169,10 @@ export default function MobileLegend({
       >
         <div className="px-4 py-3 flex flex-col gap-3">
           {showDimension ? <DimensionRow dimension={dimension} /> : <StanceRow />}
-          {showDataCenters && (
+          {showProjects && (
             <>
               <div className="h-px bg-black/[.05]" />
-              <DataCenterRow />
+              <ProjectStatusRow />
               <div className="h-px bg-black/[.05]" />
               <SizeRow />
             </>

@@ -86,6 +86,20 @@ export const CANADIAN_CITY_COORDS: Record<string, [number, number]> = {
   "Yellowknife": [62.4540, -114.3718],
   "Iqaluit": [63.7467, -68.5170],
   "Bowser": [49.4333, -124.6833],
+  "Burnaby": [49.2488, -122.9805],
+  "Langley": [49.1044, -122.6603],
+};
+
+/** Coordinates for US cities the housing pipeline currently surfaces.
+ *  Mirrors `CANADIAN_CITY_COORDS`. Values are taken from US Census
+ *  Bureau city-of-government coordinates (rounded to four decimals). */
+export const US_CITY_COORDS: Record<string, [number, number]> = {
+  "Phoenix": [33.4484, -112.0740],
+  "Sacramento": [38.5816, -121.4944],
+  "Emeryville": [37.8313, -122.2853],
+  "Denver": [39.7392, -104.9903],
+  "Seattle": [47.6062, -122.3321],
+  "Orange County": [33.7175, -117.8311],
 };
 
 /** Approximate geographic centroid for each province or territory. Used
@@ -108,6 +122,24 @@ export const PROVINCE_CENTROIDS: Record<string, [number, number]> = {
   NU: [70.0, -90.0],
 };
 
+/** Approximate geographic centroid for each US state and DC. Same
+ *  precision and intent as `PROVINCE_CENTROIDS`. */
+export const US_STATE_CENTROIDS: Record<string, [number, number]> = {
+  AL: [32.8, -86.8], AK: [63.6, -152.3], AZ: [34.3, -111.7], AR: [34.9, -92.4],
+  CA: [37.2, -119.5], CO: [38.9, -105.5], CT: [41.6, -72.7], DE: [38.9, -75.5],
+  DC: [38.9, -77.0], FL: [28.6, -82.4], GA: [32.7, -83.4], HI: [20.6, -157.5],
+  ID: [44.4, -114.6], IL: [40.0, -89.2], IN: [39.9, -86.3], IA: [42.1, -93.5],
+  KS: [38.5, -98.4], KY: [37.5, -85.3], LA: [31.1, -91.9], ME: [45.4, -69.2],
+  MD: [39.0, -76.7], MA: [42.3, -71.8], MI: [44.3, -85.4], MN: [46.3, -94.3],
+  MS: [32.7, -89.7], MO: [38.4, -92.3], MT: [47.0, -109.6], NE: [41.5, -99.8],
+  NV: [39.3, -116.6], NH: [43.7, -71.6], NJ: [40.2, -74.5], NM: [34.4, -106.1],
+  NY: [42.9, -75.5], NC: [35.6, -79.4], ND: [47.5, -100.5], OH: [40.3, -82.8],
+  OK: [35.6, -97.5], OR: [44.0, -120.6], PA: [40.9, -77.8], RI: [41.7, -71.5],
+  SC: [33.9, -80.9], SD: [44.4, -100.2], TN: [35.7, -86.7], TX: [31.1, -99.3],
+  UT: [39.3, -111.7], VT: [44.1, -72.7], VA: [37.5, -78.9], WA: [47.4, -120.4],
+  WV: [38.6, -80.6], WI: [44.6, -90.0], WY: [42.9, -107.5],
+};
+
 export type CoordinatePrecision = "exact" | "city" | "province" | "unknown";
 
 export interface ResolvedCoordinates {
@@ -124,7 +156,11 @@ export interface ResolvedCoordinates {
  * Project shape uses `lat` / `lng` (see `types/index.ts#HousingProject`),
  * not `latitude` / `longitude`. `location` is the free-text field that
  * may hold a city name. `state` is the 2 letter province code for
- * Canadian projects.
+ * Canadian projects or the USPS state code for US projects. National /
+ * statewide rows (state codes like "FEDERAL", or location strings like
+ * "California (statewide)") are intentionally treated as unknown so
+ * they don't drop a misleading single dot in the centroid of an entire
+ * state or country.
  */
 export function resolveProjectCoordinates(
   project: Pick<HousingProject, "lat" | "lng" | "location" | "state">,
@@ -132,13 +168,26 @@ export function resolveProjectCoordinates(
   if (typeof project.lat === "number" && typeof project.lng === "number") {
     return { lat: project.lat, lng: project.lng, precision: "exact" };
   }
-  if (project.location && CANADIAN_CITY_COORDS[project.location]) {
-    const [lat, lng] = CANADIAN_CITY_COORDS[project.location];
-    return { lat, lng, precision: "city" };
+  const loc = project.location;
+  if (loc) {
+    if (CANADIAN_CITY_COORDS[loc]) {
+      const [lat, lng] = CANADIAN_CITY_COORDS[loc];
+      return { lat, lng, precision: "city" };
+    }
+    if (US_CITY_COORDS[loc]) {
+      const [lat, lng] = US_CITY_COORDS[loc];
+      return { lat, lng, precision: "city" };
+    }
   }
-  if (project.state && PROVINCE_CENTROIDS[project.state]) {
-    const [lat, lng] = PROVINCE_CENTROIDS[project.state];
-    return { lat, lng, precision: "province" };
+  if (project.state) {
+    if (PROVINCE_CENTROIDS[project.state]) {
+      const [lat, lng] = PROVINCE_CENTROIDS[project.state];
+      return { lat, lng, precision: "province" };
+    }
+    if (US_STATE_CENTROIDS[project.state]) {
+      const [lat, lng] = US_STATE_CENTROIDS[project.state];
+      return { lat, lng, precision: "province" };
+    }
   }
   return { lat: 0, lng: 0, precision: "unknown" };
 }

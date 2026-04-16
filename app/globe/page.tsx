@@ -69,7 +69,7 @@ interface GlobeMarker {
   size: number;
   totalUnits: number;
   count: number;
-  facility: HousingProject;
+  project: HousingProject;
 }
 
 const LABEL_PAD_X = 80;
@@ -78,9 +78,9 @@ const MIN_SCALE = 1;
 const MAX_SCALE = 3.5;
 const ZOOM_SPEED = 0.002;
 
-function clusterFacilities(facilities: HousingProject[], cellDeg: number): GlobeMarker[] {
+function clusterProjectsGlobe(projects: HousingProject[], cellDeg: number): GlobeMarker[] {
   const buckets = new Map<string, HousingProject[]>();
-  for (const f of facilities) {
+  for (const f of projects) {
     // Skip projects without geocoded coords. They still appear in tables
     // and side panels, but the globe needs lat/lng to plot them.
     if (typeof f.lat !== "number" || typeof f.lng !== "number") continue;
@@ -103,7 +103,7 @@ function clusterFacilities(facilities: HousingProject[], cellDeg: number): Globe
     markers.push({
       id: `dc-${repr.id}`,
       location: [sumLat / bucket.length, sumLng / bucket.length],
-      size, totalUnits, count: bucket.length, facility: repr,
+      size, totalUnits, count: bucket.length, project: repr,
     });
   }
   markers.sort((a, b) => b.totalUnits - a.totalUnits);
@@ -140,12 +140,12 @@ export default function GlobePage() {
   const wheelTimerRef = useRef<ReturnType<typeof setTimeout>>(undefined);
   const labelRefs = useRef<Map<string, HTMLDivElement>>(new Map());
 
-  const [selectedFacility, setSelectedFacility] = useState<HousingProject | null>(null);
+  const [selectedProject, setSelectedProject] = useState<HousingProject | null>(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const drawerOpenRef = useRef(false);
   const [statsReady, setStatsReady] = useState(false);
 
-  const markers = useMemo(() => clusterFacilities(ALL_HOUSING_PROJECTS, 4), []);
+  const markers = useMemo(() => clusterProjectsGlobe(ALL_HOUSING_PROJECTS, 4), []);
 
   const topIds = useMemo(() => {
     const GEO_CELL = 40;
@@ -160,8 +160,8 @@ export default function GlobePage() {
     return new Set(Array.from(regions.values()).map((m) => m.id));
   }, [markers]);
 
-  const handleSelectFacility = useCallback((facility: HousingProject) => {
-    setSelectedFacility(facility);
+  const handleSelectProject = useCallback((project: HousingProject) => {
+    setSelectedProject(project);
     setDrawerOpen(true);
     drawerOpenRef.current = true;
   }, []);
@@ -319,23 +319,23 @@ export default function GlobePage() {
     };
   }, [markers]);
 
-  const developer = selectedFacility && (stripConfidence(selectedFacility.developer) ?? selectedFacility.developer);
-  const units = selectedFacility && formatUnits(selectedFacility.unitCount);
-  const cost = selectedFacility && formatCost(selectedFacility.projectCost);
+  const developer = selectedProject && (stripConfidence(selectedProject.developer) ?? selectedProject.developer);
+  const units = selectedProject && formatUnits(selectedProject.unitCount);
+  const cost = selectedProject && formatCost(selectedProject.projectCost);
 
   const details: { label: string; value: string }[] = [];
-  if (selectedFacility) {
-    if (selectedFacility.projectType) details.push({ label: "Project type", value: selectedFacility.projectType });
+  if (selectedProject) {
+    if (selectedProject.projectType) details.push({ label: "Project type", value: selectedProject.projectType });
     if (units) details.push({ label: "Units", value: units });
-    if (selectedFacility.affordableUnits) details.push({ label: "Affordable units", value: String(selectedFacility.affordableUnits) });
+    if (selectedProject.affordableUnits) details.push({ label: "Affordable units", value: String(selectedProject.affordableUnits) });
     if (cost) details.push({ label: "Project cost", value: cost });
-    if (selectedFacility.yearCompleted)
-      details.push({ label: "Completed", value: String(selectedFacility.yearCompleted) });
-    else if (selectedFacility.yearProposed)
-      details.push({ label: "Proposed", value: String(selectedFacility.yearProposed) });
-    if (selectedFacility.country) details.push({ label: "Country", value: selectedFacility.country });
-    if (selectedFacility.state) details.push({ label: "State", value: selectedFacility.state });
-    if (selectedFacility.location) details.push({ label: "Address", value: selectedFacility.location });
+    if (selectedProject.yearCompleted)
+      details.push({ label: "Completed", value: String(selectedProject.yearCompleted) });
+    else if (selectedProject.yearProposed)
+      details.push({ label: "Proposed", value: String(selectedProject.yearProposed) });
+    if (selectedProject.country) details.push({ label: "Country", value: selectedProject.country });
+    if (selectedProject.state) details.push({ label: "State", value: selectedProject.state });
+    if (selectedProject.location) details.push({ label: "Address", value: selectedProject.location });
   }
 
   const stats = useMemo(() => {
@@ -348,7 +348,7 @@ export default function GlobePage() {
     <div className="h-dvh w-screen overflow-hidden bg-[#0a0a0c] relative flex font-sans touch-none">
       <div className={`flex-1 relative flex justify-center overflow-hidden transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${drawerOpen ? "items-start pt-10 md:pt-0 md:items-center md:pr-[380px]" : "items-center"}`}>
         <Link
-          href="/#datacenters"
+          href="/#projects"
           className="absolute top-3 left-3 md:top-6 md:left-6 z-20 inline-flex items-center gap-1.5 text-xs md:text-sm text-white/50 hover:text-white/80 transition-colors"
         >
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
@@ -381,9 +381,9 @@ export default function GlobePage() {
           />
 
           {markers.map((m) => {
-            const name = stripConfidence(m.facility.developer) ?? "Unknown";
+            const name = stripConfidence(m.project.developer) ?? "Unknown";
             const unitLabel = m.totalUnits ? `${m.totalUnits.toLocaleString()} units` : null;
-            const markerColor = m.facility.status === "proposed" ? "bg-[#BF5AF2]" : m.facility.status === "under-construction" ? "bg-[#FF9500]" : "bg-[#0A84FF]";
+            const markerColor = m.project.status === "proposed" ? "bg-[#BF5AF2]" : m.project.status === "under-construction" ? "bg-[#FF9500]" : "bg-[#0A84FF]";
             const isTop = topIds.has(m.id);
             return (
               <div
@@ -392,7 +392,7 @@ export default function GlobePage() {
                 className="globe-marker absolute z-10 -translate-x-1/2 -translate-y-1/2 pointer-events-auto cursor-pointer"
                 onMouseEnter={() => { isPausedRef.current = true; }}
                 onMouseLeave={() => { if (!pointerDown.current) isPausedRef.current = false; }}
-                onClick={() => handleSelectFacility(m.facility)}
+                onClick={() => handleSelectProject(m.project)}
               >
                 <div className={`globe-marker-icon w-[14px] h-[14px] rounded-full ${markerColor} border-2 border-white shadow-[0_1px_4px_rgba(0,0,0,0.35)]`} />
                 <div className="absolute -inset-3 md:hidden" />
@@ -422,9 +422,9 @@ export default function GlobePage() {
 
       {/* Drawer: bottom sheet on mobile, right sidebar on desktop */}
       <div
-        className={`absolute z-30 bg-[#141416] shadow-[0_-8px_32px_rgba(0,0,0,0.4)] md:shadow-[-8px_0_32px_rgba(0,0,0,0.4)] transition-transform duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col bottom-0 left-0 right-0 max-h-[70vh] rounded-t-2xl border-t border-white/8 md:rounded-none md:border-t-0 md:border-l md:border-white/8 md:top-0 md:left-auto md:right-0 md:bottom-0 md:max-h-full md:h-full md:w-[380px] md:max-w-[90vw] ${drawerOpen && selectedFacility ? "translate-y-0 md:translate-x-0" : "translate-y-full md:translate-y-0 md:translate-x-full"}`}
+        className={`absolute z-30 bg-[#141416] shadow-[0_-8px_32px_rgba(0,0,0,0.4)] md:shadow-[-8px_0_32px_rgba(0,0,0,0.4)] transition-transform duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col bottom-0 left-0 right-0 max-h-[70vh] rounded-t-2xl border-t border-white/8 md:rounded-none md:border-t-0 md:border-l md:border-white/8 md:top-0 md:left-auto md:right-0 md:bottom-0 md:max-h-full md:h-full md:w-[380px] md:max-w-[90vw] ${drawerOpen && selectedProject ? "translate-y-0 md:translate-x-0" : "translate-y-full md:translate-y-0 md:translate-x-full"}`}
       >
-        {selectedFacility && (
+        {selectedProject && (
           <>
             <div className="flex justify-center pt-2 pb-0 md:hidden">
               <div className="w-10 h-1 rounded-full bg-white/20" />
@@ -433,12 +433,12 @@ export default function GlobePage() {
               <div className="min-w-0">
                 <h2 className="text-xl font-semibold text-white tracking-tight leading-tight truncate">{developer}</h2>
                 <div className="mt-1.5 flex items-center gap-2 text-xs text-white/50">
-                  {selectedFacility.status === "under-construction" ? (
+                  {selectedProject.status === "under-construction" ? (
                     <StatusLoader />
                   ) : (
-                    <span className={`inline-block w-[6px] h-[6px] rounded-full shrink-0 ${selectedFacility.status === "proposed" ? "bg-[#BF5AF2]" : "bg-[#0A84FF]"}`} />
+                    <span className={`inline-block w-[6px] h-[6px] rounded-full shrink-0 ${selectedProject.status === "proposed" ? "bg-[#BF5AF2]" : "bg-[#0A84FF]"}`} />
                   )}
-                  <span>{STATUS_LABEL[selectedFacility.status]}</span>
+                  <span>{STATUS_LABEL[selectedProject.status]}</span>
                   {units && (
                     <>
                       <span aria-hidden className="text-white/20">·</span>
@@ -448,7 +448,7 @@ export default function GlobePage() {
                 </div>
               </div>
               <button
-                onClick={() => { setDrawerOpen(false); drawerOpenRef.current = false; setTimeout(() => setSelectedFacility(null), 300); }}
+                onClick={() => { setDrawerOpen(false); drawerOpenRef.current = false; setTimeout(() => setSelectedProject(null), 300); }}
                 className="shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white/40 hover:text-white hover:bg-white/[.08] transition-colors"
                 aria-label="Close"
               >
@@ -460,8 +460,8 @@ export default function GlobePage() {
 
             <div className="flex-1 overflow-y-auto">
               <div className="p-6 flex flex-col gap-5">
-                {selectedFacility.notes && (
-                  <p className="text-[13px] text-white/60 leading-relaxed">{selectedFacility.notes}</p>
+                {selectedProject.notes && (
+                  <p className="text-[13px] text-white/60 leading-relaxed">{selectedProject.notes}</p>
                 )}
                 {details.length > 0 && (
                   <dl className="flex flex-col">
@@ -473,11 +473,11 @@ export default function GlobePage() {
                     ))}
                   </dl>
                 )}
-                {selectedFacility.concerns && selectedFacility.concerns.length > 0 && (
+                {selectedProject.concerns && selectedProject.concerns.length > 0 && (
                   <div>
                     <h3 className="text-[13px] font-medium text-white/80 mb-2">Community concerns</h3>
                     <div className="flex flex-wrap gap-1.5">
-                      {selectedFacility.concerns.map((c) => (
+                      {selectedProject.concerns.map((c) => (
                         <span key={c} className="text-[11px] px-2 py-1 rounded-full bg-white/[.06] text-white/60 tracking-tight">
                           {c.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")}
                         </span>
@@ -492,8 +492,8 @@ export default function GlobePage() {
             </div>
 
             <div className="px-6 py-4 border-t border-white/[.06] pb-[max(1rem,env(safe-area-inset-bottom))]">
-              <Link href="/datacenters" className="text-[13px] text-white/40 hover:text-white/80 transition-colors">
-                View all facilities →
+              <Link href="/projects" className="text-[13px] text-white/40 hover:text-white/80 transition-colors">
+                View all projects →
               </Link>
             </div>
           </>

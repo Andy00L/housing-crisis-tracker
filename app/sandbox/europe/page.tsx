@@ -177,7 +177,7 @@ export default function MapSandboxPage() {
                   onSelectCounty={setSelected}
                   selectedCountyFips={selected}
                   setTooltip={setTooltip}
-                  showDataCenters={showDCs}
+                  showProjects={showDCs}
                 />
               </Panel>
               <Panel
@@ -190,7 +190,7 @@ export default function MapSandboxPage() {
                   onSelectCounty={setSelected}
                   selectedCountyFips={selected}
                   setTooltip={setTooltip}
-                  showDataCenters={showDCs}
+                  showProjects={showDCs}
                 />
               </Panel>
               <Panel
@@ -203,7 +203,7 @@ export default function MapSandboxPage() {
                   onSelectCounty={setSelected}
                   selectedCountyFips={selected}
                   setTooltip={setTooltip}
-                  showDataCenters={showDCs}
+                  showProjects={showDCs}
                 />
               </Panel>
             </>
@@ -219,7 +219,7 @@ export default function MapSandboxPage() {
                   setTooltip={setTooltip}
                   dimension={dimension}
                   lens={lens}
-                  showDataCenters={showDCs}
+                  showProjects={showDCs}
                 />
               </Panel>
 
@@ -236,10 +236,10 @@ export default function MapSandboxPage() {
                   setTooltip={setTooltip}
                   dimension={dimension}
                   lens={lens}
-                  showDataCenters={showDCs}
-                  onHoverFacility={() => {}}
-                  onLeaveFacility={() => {}}
-                  onSelectFacility={() => {}}
+                  showProjects={showDCs}
+                  onHoverProject={() => {}}
+                  onLeaveProject={() => {}}
+                  onSelectProject={() => {}}
                 />
               </Panel>
 
@@ -253,10 +253,10 @@ export default function MapSandboxPage() {
                   setTooltip={setTooltip}
                   dimension={dimension}
                   lens={lens}
-                  showDataCenters={showDCs}
-                  onHoverFacility={() => {}}
-                  onLeaveFacility={() => {}}
-                  onSelectFacility={() => {}}
+                  showProjects={showDCs}
+                  onHoverProject={() => {}}
+                  onLeaveProject={() => {}}
+                  onSelectProject={() => {}}
                 />
               </Panel>
             </>

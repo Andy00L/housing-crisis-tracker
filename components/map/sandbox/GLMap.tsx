@@ -34,15 +34,15 @@ interface Props {
   setTooltip: SetTooltip;
   dimension?: Dimension;
   lens?: DimensionLens;
-  showDataCenters?: boolean;
-  onHoverFacility?: (
-    dc: HousingProject,
+  showProjects?: boolean;
+  onHoverProject?: (
+    project: HousingProject,
     x: number,
     y: number,
     clusterSize: number,
   ) => void;
-  onLeaveFacility?: () => void;
-  onSelectFacility?: (dc: HousingProject) => void;
+  onLeaveProject?: () => void;
+  onSelectProject?: (project: HousingProject) => void;
 }
 
 // CartoDB Positron raster tiles — free, no API key, no account. Gives us
@@ -118,7 +118,7 @@ function toGeoJSON(
   return { type: "FeatureCollection", features };
 }
 
-function facilitiesFC(
+function projectsFC(
   facs: HousingProject[],
 ): FeatureCollection<Geometry, GeoJsonProperties> {
   return {
@@ -147,10 +147,10 @@ export default function GLMap({
   setTooltip,
   dimension = "overall",
   lens = "zoning",
-  showDataCenters = false,
-  onHoverFacility,
-  onLeaveFacility,
-  onSelectFacility,
+  showProjects = false,
+  onHoverProject,
+  onLeaveProject,
+  onSelectProject,
 }: Props) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<MBMap | null>(null);
@@ -160,15 +160,15 @@ export default function GLMap({
 
   const onSelectRef = useRef(onSelectEntity);
   const onDrillRef = useRef(onDrill);
-  const onHoverFacRef = useRef(onHoverFacility);
-  const onLeaveFacRef = useRef(onLeaveFacility);
-  const onSelectFacRef = useRef(onSelectFacility);
+  const onHoverProjectRef = useRef(onHoverProject);
+  const onLeaveProjectRef = useRef(onLeaveProject);
+  const onSelectProjectRef = useRef(onSelectProject);
   const setTooltipRef = useRef(setTooltip);
   onSelectRef.current = onSelectEntity;
   onDrillRef.current = onDrill;
-  onHoverFacRef.current = onHoverFacility;
-  onLeaveFacRef.current = onLeaveFacility;
-  onSelectFacRef.current = onSelectFacility;
+  onHoverProjectRef.current = onHoverProject;
+  onLeaveProjectRef.current = onLeaveProject;
+  onSelectProjectRef.current = onSelectProject;
   setTooltipRef.current = setTooltip;
 
   // Init map once.
@@ -202,11 +202,11 @@ export default function GLMap({
       attachInteractions(map, {
         onSelect: (k) => onSelectRef.current(k),
         onDrill: (v) => onDrillRef.current?.(v),
-        onHoverFac: (dc, x, y) => onHoverFacRef.current?.(dc, x, y, 1),
-        onLeaveFac: () => onLeaveFacRef.current?.(),
-        onSelectFac: (dc) => onSelectFacRef.current?.(dc),
+        onHoverProj: (project, x, y) => onHoverProjectRef.current?.(project, x, y, 1),
+        onLeaveProj: () => onLeaveProjectRef.current?.(),
+        onSelectProj: (project) => onSelectProjectRef.current?.(project),
         setTooltip: (t) => setTooltipRef.current(t),
-        getFacilities: () => configRef.current.facilities,
+        getProjects: () => configRef.current.projects,
       });
       setReady(true);
     });
@@ -231,16 +231,16 @@ export default function GLMap({
     rebuildLayers(map, config, dimension, lens);
   }, [config, ready, dimension, lens]);
 
-  // Data center visibility.
+  // Project layer visibility.
   useEffect(() => {
     if (!ready) return;
     const map = mapRef.current;
     if (!map) return;
-    const vis = showDataCenters ? "visible" : "none";
-    for (const id of ["dc-clusters", "dc-cluster-core", "dc-points"]) {
+    const vis = showProjects ? "visible" : "none";
+    for (const id of ["project-clusters", "project-cluster-core", "project-points"]) {
       if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", vis);
     }
-  }, [showDataCenters, ready]);
+  }, [showProjects, ready]);
 
   // Reflect external selection.
   const lastSelectedRef = useRef<string | null>(null);
@@ -292,16 +292,16 @@ async function rebuildLayers(
     if (
       l.id.startsWith("poly-") ||
       l.id.startsWith("line-") ||
-      l.id === "dc-clusters" ||
-      l.id === "dc-cluster-core" ||
-      l.id === "dc-points"
+      l.id === "project-clusters" ||
+      l.id === "project-cluster-core" ||
+      l.id === "project-points"
     ) {
       if (map.getLayer(l.id)) map.removeLayer(l.id);
     }
   }
   const sources = Object.keys(map.getStyle().sources ?? {});
   for (const s of sources) {
-    if (s.endsWith("-src") || s === "dcs") {
+    if (s.endsWith("-src") || s === "projects-src") {
       if (map.getSource(s)) map.removeSource(s);
     }
   }
@@ -360,18 +360,18 @@ async function rebuildLayers(
     });
   }
 
-  // DC source.
-  map.addSource("dcs", {
+  // Project source.
+  map.addSource("projects-src", {
     type: "geojson",
-    data: facilitiesFC(config.facilities),
+    data: projectsFC(config.projects),
     cluster: true,
     clusterRadius: 32,
     clusterMaxZoom: 6,
   });
   map.addLayer({
-    id: "dc-clusters",
+    id: "project-clusters",
     type: "circle",
-    source: "dcs",
+    source: "projects-src",
     filter: ["has", "point_count"],
     paint: {
       "circle-color": statusColorForProject("operational"),
@@ -382,16 +382,16 @@ async function rebuildLayers(
     },
   });
   map.addLayer({
-    id: "dc-cluster-core",
+    id: "project-cluster-core",
     type: "circle",
-    source: "dcs",
+    source: "projects-src",
     filter: ["has", "point_count"],
     paint: { "circle-color": "#ffffff", "circle-radius": 2 },
   });
   map.addLayer({
-    id: "dc-points",
+    id: "project-points",
     type: "circle",
-    source: "dcs",
+    source: "projects-src",
     filter: ["!", ["has", "point_count"]],
     paint: {
       "circle-color": [
@@ -413,11 +413,11 @@ async function rebuildLayers(
 interface InteractionHandlers {
   onSelect: (key: string) => void;
   onDrill: (view: SandboxView) => void;
-  onHoverFac: (dc: HousingProject, x: number, y: number) => void;
-  onLeaveFac: () => void;
-  onSelectFac: (dc: HousingProject) => void;
+  onHoverProj: (project: HousingProject, x: number, y: number) => void;
+  onLeaveProj: () => void;
+  onSelectProj: (project: HousingProject) => void;
   setTooltip: (t: import("@/lib/map-utils").TooltipState | null) => void;
-  getFacilities: () => HousingProject[];
+  getProjects: () => HousingProject[];
 }
 
 function attachInteractions(map: MBMap, h: InteractionHandlers) {
@@ -509,32 +509,32 @@ function attachInteractions(map: MBMap, h: InteractionHandlers) {
     }
   });
 
-  // DC interactions.
-  map.on("mousemove", "dc-points", (e: MapLayerMouseEvent) => {
+  // Project interactions.
+  map.on("mousemove", "project-points", (e: MapLayerMouseEvent) => {
     const f = e.features?.[0];
     if (!f) return;
     const id = (f.properties as { id?: string }).id;
-    const dc = h.getFacilities().find((x) => x.id === id);
-    if (!dc) return;
+    const project = h.getProjects().find((x) => x.id === id);
+    if (!project) return;
     map.getCanvas().style.cursor = "pointer";
-    h.onHoverFac(dc, e.originalEvent.clientX, e.originalEvent.clientY);
+    h.onHoverProj(project, e.originalEvent.clientX, e.originalEvent.clientY);
   });
-  map.on("mouseleave", "dc-points", () => {
-    h.onLeaveFac();
+  map.on("mouseleave", "project-points", () => {
+    h.onLeaveProj();
   });
-  map.on("click", "dc-points", (e: MapLayerMouseEvent) => {
+  map.on("click", "project-points", (e: MapLayerMouseEvent) => {
     const f = e.features?.[0];
     if (!f) return;
     const id = (f.properties as { id?: string }).id;
-    const dc = h.getFacilities().find((x) => x.id === id);
-    if (dc) h.onSelectFac(dc);
+    const project = h.getProjects().find((x) => x.id === id);
+    if (project) h.onSelectProj(project);
   });
 
-  map.on("click", "dc-clusters", async (e: MapLayerMouseEvent) => {
+  map.on("click", "project-clusters", async (e: MapLayerMouseEvent) => {
     const f = e.features?.[0];
     if (!f) return;
     const clusterId = (f.properties as { cluster_id: number }).cluster_id;
-    const src = map.getSource("dcs") as GeoJSONSource;
+    const src = map.getSource("projects-src") as GeoJSONSource;
     const zoom = await src.getClusterExpansionZoom(clusterId);
     const geom = f.geometry as { coordinates?: [number, number] };
     if (geom.coordinates) map.easeTo({ center: geom.coordinates, zoom });

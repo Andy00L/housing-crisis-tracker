@@ -4,21 +4,22 @@ import { useEffect, useMemo, useState } from "react";
 import { useMapContext } from "react-simple-maps";
 import type { HousingProject, HousingProjectStatus } from "@/types";
 import { statusColorForProject } from "@/lib/project-colors";
+import { resolveProjectCoordinates } from "@/lib/projects-map";
 
 interface ProjectDotsProps {
   projects: HousingProject[];
   /** Called on mouse enter/move with the hovered project (or cluster
    *  representative) and screen coords. Prop name kept as
-   *  `onHoverFacility` for API compatibility with existing consumers. */
-  onHoverFacility: (
+   *  `onHoverProject` for API compatibility with existing consumers. */
+  onHoverProject: (
     project: HousingProject,
     x: number,
     y: number,
     clusterSize: number,
   ) => void;
-  onLeaveFacility: () => void;
+  onLeaveProject: () => void;
   /** Called on click. Pins the project in the side panel. */
-  onSelectFacility?: (project: HousingProject) => void;
+  onSelectProject?: (project: HousingProject) => void;
   /** Lng/lat cell size for grid clustering. Default 1.8 degrees. */
   clusterDeg?: number;
   /**
@@ -33,7 +34,7 @@ interface ProjectDotsProps {
 
 interface Cluster {
   key: string;
-  facilities: HousingProject[];
+  projects: HousingProject[];
   repr: HousingProject;
   lat: number;
   lng: number;
@@ -41,19 +42,19 @@ interface Cluster {
   dominantStatus: HousingProjectStatus | "mixed";
 }
 
-export type DcDotStatus = HousingProjectStatus | "mixed";
+export type ProjectDotStatus = HousingProjectStatus | "mixed";
 
 /**
  * County-view project icon. iOS app-icon shape (squircle) with a
  * subtle vertical gradient, a top sheen, and a soft drop shadow. Designed
  * to sit cleanly on a map full of circular power-plant dots. States and
- * continent views keep the simpler `DcDot` circle.
+ * continent views keep the simpler `ProjectDot` circle.
  *
  * Depends on these SVG defs being present in the parent SVG:
- *   - #dc-shadow, #dc-grad-operational, #dc-grad-construction,
- *     #dc-grad-mixed, #dc-sheen
+ *   - #project-shadow, #project-grad-operational, #project-grad-construction,
+ *     #project-grad-mixed, #project-sheen
  */
-export function DcIcon({
+export function ProjectIcon({
   x,
   y,
   size,
@@ -66,10 +67,10 @@ export function DcIcon({
 }: {
   x: number;
   y: number;
-  /** Matches DcDot radius at the same capacity band so the visual weight
+  /** Matches ProjectDot radius at the same capacity band so the visual weight
    *  stays consistent across map zooms. */
   size: number;
-  status: DcDotStatus;
+  status: ProjectDotStatus;
   onMouseEnter: (e: React.MouseEvent) => void;
   onMouseMove: (e: React.MouseEvent) => void;
   onMouseLeave: () => void;
@@ -84,10 +85,10 @@ export function DcIcon({
   const rx = d * 0.34;
   const gradId =
     status === "under-construction"
-      ? "dc-grad-construction"
+      ? "project-grad-construction"
       : status === "mixed"
-        ? "dc-grad-mixed"
-        : "dc-grad-operational";
+        ? "project-grad-mixed"
+        : "project-grad-operational";
   const bodyFill = isProposed ? "#FFFFFF" : `url(#${gradId})`;
   return (
     <g
@@ -109,7 +110,7 @@ export function DcIcon({
         rx={rx}
         fill="black"
         fillOpacity={0.14}
-        style={{ filter: "url(#dc-shadow)", pointerEvents: "none" }}
+        style={{ filter: "url(#project-shadow)", pointerEvents: "none" }}
       />
       {/* Body */}
       <rect
@@ -131,7 +132,7 @@ export function DcIcon({
           width={d - 1.2}
           height={(d - 1.2) * 0.48}
           rx={rx - 0.6}
-          fill="url(#dc-sheen)"
+          fill="url(#project-sheen)"
           style={{ pointerEvents: "none" }}
         />
       )}
@@ -151,13 +152,13 @@ export function DcIcon({
   );
 }
 
-interface DcDotProps {
+interface ProjectDotProps {
   /** When omitted, the parent must wrap this in a <Marker> that
    *  positions it. When present, renders at explicit screen coords. */
   x?: number;
   y?: number;
   r: number;
-  status: DcDotStatus;
+  status: ProjectDotStatus;
   /** Cluster count: shows the number when > 1. */
   count?: number;
   onMouseEnter: (e: React.MouseEvent) => void;
@@ -168,12 +169,12 @@ interface DcDotProps {
 }
 
 /**
- * Single source of truth for the data-center dot visual: halo, body
+ * Single source of truth for the project dot visual: halo, body
  * circle, and optional cluster number. Used by both the projected
  * (countries / states) and the locally-projected (county) renderings
  * so the dots look identical at every drill level.
  */
-export function DcDot({
+export function ProjectDot({
   x,
   y,
   r,
@@ -184,7 +185,7 @@ export function DcDot({
   onMouseLeave,
   onClick,
   interactive = true,
-}: DcDotProps) {
+}: ProjectDotProps) {
   const color = statusColorForProject(status);
   const isProposed = status === "proposed";
   const isCluster = count > 1;
@@ -246,12 +247,20 @@ export function DcDot({
 function clusterProjects(facs: HousingProject[], cellDeg: number): Cluster[] {
   const buckets = new Map<string, HousingProject[]>();
   for (const f of facs) {
-    // Projects without coords (e.g. Canadian rows from the projects pipeline)
-    // are tracked in the table view but never plotted on the map.
-    if (typeof f.lat !== "number" || typeof f.lng !== "number") continue;
-    const key = `${Math.round(f.lat / cellDeg)}|${Math.round(f.lng / cellDeg)}`;
+    // Projects without coords get a city-centroid (or province-centroid)
+    // fallback via `resolveProjectCoordinates`. Anything still unknown
+    // (e.g. national / statewide rows with no specific city) is left out
+    // of the map so we don't drop a misleading dot at a country centroid.
+    const resolved = resolveProjectCoordinates(f);
+    if (resolved.precision === "unknown") continue;
+    const lat = resolved.lat;
+    const lng = resolved.lng;
+    const key = `${Math.round(lat / cellDeg)}|${Math.round(lng / cellDeg)}`;
     const bucket = buckets.get(key) ?? [];
-    bucket.push(f);
+    // Carry the resolved coords forward so cluster math + projection
+    // both see the same numbers, regardless of whether the project
+    // shipped with lat/lng or relied on the fallback.
+    bucket.push({ ...f, lat, lng });
     buckets.set(key, bucket);
   }
   const clusters: Cluster[] = [];
@@ -270,7 +279,7 @@ function clusterProjects(facs: HousingProject[], cellDeg: number): Cluster[] {
     const statuses = new Set(bucket.map((f) => f.status));
     clusters.push({
       key,
-      facilities: bucket,
+      projects: bucket,
       repr,
       lat: sumLat / bucket.length,
       lng: sumLng / bucket.length,
@@ -302,9 +311,9 @@ function clusterRadius(totalUnits: number): number {
 
 export default function ProjectDots({
   projects,
-  onHoverFacility,
-  onLeaveFacility,
-  onSelectFacility,
+  onHoverProject,
+  onLeaveProject,
+  onSelectProject,
   clusterDeg = 1.8,
   projection: projectionProp,
 }: ProjectDotsProps) {
@@ -349,31 +358,31 @@ export default function ProjectDots({
         const r = clusterRadius(c.totalUnits);
         return (
           <g key={c.key} transform={`translate(${x}, ${y})`}>
-            <DcDot
+            <ProjectDot
               r={r}
               status={c.dominantStatus}
-              count={c.facilities.length}
+              count={c.projects.length}
               onMouseEnter={(e) =>
-                onHoverFacility(
+                onHoverProject(
                   c.repr,
                   e.clientX,
                   e.clientY,
-                  c.facilities.length,
+                  c.projects.length,
                 )
               }
               onMouseMove={(e) =>
-                onHoverFacility(
+                onHoverProject(
                   c.repr,
                   e.clientX,
                   e.clientY,
-                  c.facilities.length,
+                  c.projects.length,
                 )
               }
-              onMouseLeave={() => onLeaveFacility()}
+              onMouseLeave={() => onLeaveProject()}
               onClick={
-                onSelectFacility ? () => onSelectFacility(c.repr) : undefined
+                onSelectProject ? () => onSelectProject(c.repr) : undefined
               }
-              interactive={!!onSelectFacility}
+              interactive={!!onSelectProject}
             />
           </g>
         );

@@ -27,7 +27,7 @@ import {
   DIMENSION_TAGS,
 } from "@/lib/dimensions";
 import { ALL_HOUSING_PROJECTS } from "@/lib/projects-map";
-import { findRelatedFacilities } from "@/lib/action-facility-link";
+import { findRelatedProjects } from "@/lib/action-project-link";
 import { IMPACT_TAG_LABEL, STANCE_LABEL, STATE_FIPS, PROVINCE_UID } from "@/types";
 import SidePanel from "@/components/panel/SidePanel";
 import DepthStepper from "@/components/ui/DepthStepper";
@@ -100,7 +100,7 @@ function countyStance(actions: MunicipalAction[]): StanceType {
 function actionToLegislation(
   a: MunicipalAction,
   idx: number,
-  relatedFacilityIds?: string[],
+  relatedProjectIds?: string[],
 ): Legislation {
   return {
     id: `county-action-${idx}`,
@@ -113,19 +113,19 @@ function actionToLegislation(
     category: "zoning-reform",
     updatedDate: a.date,
     sourceUrl: a.sourceUrl,
-    ...(relatedFacilityIds && relatedFacilityIds.length > 0
-      ? { relatedFacilityIds }
+    ...(relatedProjectIds && relatedProjectIds.length > 0
+      ? { relatedProjectIds }
       : {}),
   };
 }
 
 function municipalityToEntity(m: MunicipalEntity): Entity {
-  const dcStance = countyStance(m.actions);
-  // Match each action to nearby data centers (same state) via keyword
-  // search on operator + location. This gives us the action → facility
-  // edge used inside BillExpanded and the facility → actions edge used
+  const countyStanceValue = countyStance(m.actions);
+  // Match each action to nearby projects (same state) via keyword
+  // search on operator + location. This gives us the action to project
+  // edge used inside BillExpanded and the project to actions edge used
   // inside ProjectDetail.
-  const stateFacilities = ALL_HOUSING_PROJECTS.filter(
+  const stateProjects = ALL_HOUSING_PROJECTS.filter(
     (f) => f.state === m.state,
   );
   return {
@@ -134,13 +134,13 @@ function municipalityToEntity(m: MunicipalEntity): Entity {
     name: `${m.name}, ${m.stateCode}`,
     region: "na",
     level: "state",
-    // County actions are all data-center siting decisions; AI stance isn't
-    // meaningful at this level, so mirror the DC stance for consistency.
-    stanceZoning: dcStance,
-    stanceAffordability: dcStance,
+    // County actions are all housing decisions today, so the same
+    // stance value drives both the zoning and affordability lenses.
+    stanceZoning: countyStanceValue,
+    stanceAffordability: countyStanceValue,
     contextBlurb: m.contextBlurb,
     legislation: m.actions.map((a, idx) =>
-      actionToLegislation(a, idx, findRelatedFacilities(a, stateFacilities)),
+      actionToLegislation(a, idx, findRelatedProjects(a, stateProjects)),
     ),
     keyFigures: [],
     news: [],
@@ -149,13 +149,13 @@ function municipalityToEntity(m: MunicipalEntity): Entity {
 
 // Pre-computed project count by state / province name and country name so
 // the tooltip can show it without filtering on every hover.
-const DC_COUNT_BY_NAME: Record<string, number> = {};
+const PROJECT_COUNT_BY_NAME: Record<string, number> = {};
 for (const f of ALL_HOUSING_PROJECTS) {
   if (f.state) {
-    DC_COUNT_BY_NAME[f.state] = (DC_COUNT_BY_NAME[f.state] ?? 0) + 1;
+    PROJECT_COUNT_BY_NAME[f.state] = (PROJECT_COUNT_BY_NAME[f.state] ?? 0) + 1;
   }
   if (f.country) {
-    DC_COUNT_BY_NAME[f.country] = (DC_COUNT_BY_NAME[f.country] ?? 0) + 1;
+    PROJECT_COUNT_BY_NAME[f.country] = (PROJECT_COUNT_BY_NAME[f.country] ?? 0) + 1;
   }
 }
 
@@ -252,13 +252,13 @@ export default function MapShell({
   const [history, setHistory] = useState<ViewState[]>([INITIAL_VIEW]);
   const [historyIdx, setHistoryIdx] = useState(0);
   const [tooltip, setTooltipInternal] = useState<TooltipState | null>(null);
-  const [hoveredFacility, setHoveredFacility] = useState<{
-    dc: HousingProject;
+  const [hoveredProject, setHoveredProject] = useState<{
+    project: HousingProject;
     x: number;
     y: number;
     clusterSize: number;
   } | null>(null);
-  const [selectedFacility, setSelectedFacility] = useState<HousingProject | null>(
+  const [selectedProject, setSelectedProject] = useState<HousingProject | null>(
     null,
   );
   // Mid-drill animation target. While set, USStatesMap lifts that state
@@ -281,54 +281,55 @@ export default function MapShell({
     setTooltipInternal(next);
   }, []);
 
-  // Data center dot visibility is driven by the lens: when the user is
-  // looking at the "Data Centers" lens, show the dots; otherwise hide them.
-  const showDataCenters = lens === "zoning";
-  const handleHoverFacility = useCallback(
-    (dc: HousingProject, x: number, y: number, clusterSize: number) => {
+  // Project dot visibility is driven by the lens. When the user is on
+  // the "Zoning" lens, show project pins on the map. Other lenses hide
+  // them so the chloropleth fill carries the signal alone.
+  const showProjects = lens === "zoning";
+  const handleHoverProject = useCallback(
+    (project: HousingProject, x: number, y: number, clusterSize: number) => {
       if (isDraggingRef.current) return;
-      setHoveredFacility({ dc, x, y, clusterSize });
+      setHoveredProject({ project, x, y, clusterSize });
     },
     [],
   );
-  const handleLeaveFacility = useCallback(() => setHoveredFacility(null), []);
-  const handleSelectFacility = (dc: HousingProject) => {
-    // Drill into the state when clicking a US facility from the NA
-    // continent view — otherwise the user is reading "California data
-    // center" while the map still shows the whole continent. Skip the
-    // drill if already scoped (avoids redundant history entries) or if
-    // the facility isn't in a recognized US state.
+  const handleLeaveProject = useCallback(() => setHoveredProject(null), []);
+  const handleSelectProject = (project: HousingProject) => {
+    // Drill into the state when clicking a US project from the NA
+    // continent view. Otherwise the user is reading a California
+    // project blurb while the map still shows the whole continent.
+    // Skip the drill if already scoped (avoids redundant history
+    // entries) or if the project isn't in a recognized US state.
     const shouldDrill =
       region === "na" &&
       naView === "countries" &&
-      dc.country === "United States" &&
-      !!dc.state &&
-      !!STATE_FIPS[dc.state];
+      project.country === "United States" &&
+      !!project.state &&
+      !!STATE_FIPS[project.state];
     if (shouldDrill) {
       navigateTo({
         region: "na",
         naView: "states",
-        selectedGeoId: dc.state!,
+        selectedGeoId: project.state!,
       });
     }
-    setSelectedFacility(dc);
+    setSelectedProject(project);
     // Desktop: clear the hover state so the tooltip doesn't duplicate
     // the now-pinned panel content. Also auto-expand the panel.
-    // Mobile: keep the panel as the island, and LEAVE hoveredFacility
+    // Mobile: keep the panel as the island, and LEAVE hoveredProject
     // set for ~2.5s so the ProjectCard shows as a quick-peek
     // tooltip, then auto-dismisses. Users get the gist without
     // committing to opening the full sidebar.
     if (!isMobileViewport) {
-      setHoveredFacility(null);
+      setHoveredProject(null);
       if (panelSize === "min") setExplicitPanelSize("md");
     } else {
       // Auto-dismiss the peek tooltip after a short read window.
       window.setTimeout(() => {
-        setHoveredFacility((h) => (h?.dc.id === dc.id ? null : h));
+        setHoveredProject((h) => (h?.project.id === project.id ? null : h));
       }, 2500);
     }
   };
-  const handleCloseFacility = () => setSelectedFacility(null);
+  const handleCloseProject = () => setSelectedProject(null);
 
   const current = history[historyIdx];
   const { region, naView, selectedGeoId } = current;
@@ -364,7 +365,19 @@ export default function MapShell({
         if (provEntity) return provEntity;
       }
     }
-    if (!selectedGeoId) return overviewEntity;
+    if (!selectedGeoId) {
+      // Canada-first default for the NA region. The shipped overview
+      // entity is still us-federal (matching the legacy behavior of
+      // every other region using its own bloc/federal overview), but the
+      // panel and the Dynamic Island label should land on Canada when a
+      // visitor first scrolls to the map. Fall back to the overview if
+      // the canada-federal entity is missing for any reason.
+      if (region === "na") {
+        const ca = getEntity("124", "na");
+        if (ca) return ca;
+      }
+      return overviewEntity;
+    }
     const found = getEntity(selectedGeoId, region);
     return found ?? overviewEntity;
   }, [
@@ -427,7 +440,7 @@ export default function MapShell({
     // tooltip would otherwise stick in place until the user happens to
     // mouse over a fresh path.
     setTooltipInternal(null);
-    setHoveredFacility(null);
+    setHoveredProject(null);
     const newHistory = [...history.slice(0, historyIdx + 1), next];
     setHistory(newHistory);
     setHistoryIdx(newHistory.length - 1);
@@ -445,7 +458,7 @@ export default function MapShell({
   if (navigateRef) navigateRef.current = navigateTo;
 
   const handleSelectEntity = (geoId: string) => {
-    setSelectedFacility(null);
+    setSelectedProject(null);
 
     // Mobile shortcut: single-tap on a drillable US state drops the
     // user straight into the county view. Double-tap-to-drill doesn't
@@ -547,7 +560,7 @@ export default function MapShell({
       selectedGeoId: null,
     };
     if (viewsEqual(current, updated)) return;
-    setSelectedFacility(null);
+    setSelectedProject(null);
     setHistory((h) => {
       const copy = [...h];
       copy[historyIdx] = updated;
@@ -573,7 +586,7 @@ export default function MapShell({
   // Clicking a US state from the continental (countries) view drills into
   // the states view with that state preselected. Keeps a single click flow.
   const handleSelectUsState = (stateName: string) => {
-    setSelectedFacility(null);
+    setSelectedProject(null);
     navigateTo({
       region: "na",
       naView: "states",
@@ -617,7 +630,7 @@ export default function MapShell({
     });
 
   const handleSelectCounty = (fips: string) => {
-    setSelectedFacility(null);
+    setSelectedProject(null);
     navigateTo({
       ...current,
       naView: "counties",
@@ -642,7 +655,7 @@ export default function MapShell({
   };
 
   const handleSelectProvince = (geoId: string) => {
-    setSelectedFacility(null);
+    setSelectedProject(null);
     navigateTo({
       region: "na",
       naView: "provinces",
@@ -685,7 +698,7 @@ export default function MapShell({
   };
 
   const handleSelectCd = (cduid: string) => {
-    setSelectedFacility(null);
+    setSelectedProject(null);
     navigateTo({
       ...current,
       naView: "census-divisions",
@@ -726,7 +739,7 @@ export default function MapShell({
   //   1 / 2 / 3                          jump to NA / EU / Asia
   //   W / ↑                              drill out (browser-back, follows the rich stack)
   //   S / ↓                              drill into the currently-selected country / state
-  //   Esc                                close facility card or reset selection
+  //   Esc                                close project card or reset selection
   // Listener bound to window because the SVG <Map> isn't focusable on its own.
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -805,8 +818,8 @@ export default function MapShell({
           return;
         }
         case "escape": {
-          if (selectedFacility) {
-            handleCloseFacility();
+          if (selectedProject) {
+            handleCloseProject();
             e.preventDefault();
           } else if (selectedGeoId) {
             handleResetRegion();
@@ -818,7 +831,7 @@ export default function MapShell({
     }
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [region, naView, selectedGeoId, selectedFacility, history.length, historyIdx]);
+  }, [region, naView, selectedGeoId, selectedProject, history.length, historyIdx]);
 
   const breadcrumbItems: BreadcrumbItem[] = useMemo(() => {
     const items: BreadcrumbItem[] = [
@@ -931,7 +944,7 @@ export default function MapShell({
     if (!stateName) return [];
     const munis = getMunicipalitiesByState(stateName);
     if (munis.length === 0) return [];
-    const stateFacilities = ALL_HOUSING_PROJECTS.filter(
+    const stateProjects = ALL_HOUSING_PROJECTS.filter(
       (f) => f.state === stateName,
     );
     const rows: Legislation[] = [];
@@ -941,7 +954,7 @@ export default function MapShell({
         const base = actionToLegislation(
           a,
           idx++,
-          findRelatedFacilities(a, stateFacilities),
+          findRelatedProjects(a, stateProjects),
         );
         // Prefix county name so each row is identifiable when the list
         // is flattened across many counties.
@@ -1233,7 +1246,7 @@ export default function MapShell({
           // Clear any stale tooltip / hover card on drag start so the
           // chrome doesn't track a stationary pointer.
           setTooltipInternal(null);
-          setHoveredFacility(null);
+          setHoveredProject(null);
           // Kill the transition so the rail tracks 1:1 with the finger.
           // Restored on release via `finishDrag`.
           if (railRef.current) railRef.current.style.transition = "none";
@@ -1345,25 +1358,25 @@ export default function MapShell({
   };
 
   // Click on empty map area = "step out of detail." Cascades:
-  //   pinned facility  →  clear facility
+  //   pinned project  →  clear project
   //   any selection    →  clear selection (back to region / counties overview)
   //   no selection     →  pop one drill level (counties → states → countries)
-  // We detect "empty" by checking the click target — geography paths and
-  // data-center circles are the only real interactive primitives. Clicks
+  // We detect "empty" by checking the click target. Geography paths and
+  // project dot circles are the only real interactive primitives. Clicks
   // on those bubble up here too, so we ignore the event when the target
   // sits inside one.
   const onMapBackgroundClick = (e: React.MouseEvent) => {
     if (isDraggingRef.current || swipeRef.current?.swiped) return;
     const target = e.target as Element | null;
     // Interactive primitives we never want to treat as "empty map area":
-    // geography fills (path), facility glyph hit-targets (rect / circle),
+    // geography fills (path), project glyph hit-targets (rect / circle),
     // cluster count labels (text). rect was missing here, which is why
-    // clicking a DC from county/state view reset the view — the click
-    // bubbled up and this handler fired "step out of detail."
+    // clicking a project icon from county/state view reset the view.
+    // The click bubbled up and this handler fired "step out of detail."
     if (target?.closest?.("path, rect, circle, text")) return;
 
-    if (selectedFacility) {
-      setSelectedFacility(null);
+    if (selectedProject) {
+      setSelectedProject(null);
       return;
     }
     if (region === "na" && naView === "counties" && selectedCountyFips) {
@@ -1582,17 +1595,17 @@ export default function MapShell({
   }, [naView, region, NA_DEPTH]);
 
   // Stepper breadcrumb — same as the internal breadcrumb, but with a
-  // trailing "Project" segment when a facility is pinned so the
-  // user can pop out of facility mode from the bottom pill.
+  // trailing "Project" segment when a project is pinned so the
+  // user can pop out of project mode from the bottom pill.
   const stepperBreadcrumb: BreadcrumbItem[] = useMemo(() => {
-    if (selectedFacility) {
+    if (selectedProject) {
       return [
         ...breadcrumbItems,
-        { label: "Project", onClick: () => setSelectedFacility(null) },
+        { label: "Project", onClick: () => setSelectedProject(null) },
       ];
     }
     return breadcrumbItems;
-  }, [breadcrumbItems, selectedFacility]);
+  }, [breadcrumbItems, selectedProject]);
 
   return (
     <div ref={mapRootRef} className="fixed inset-0 bg-white overflow-hidden z-0">
@@ -1678,10 +1691,10 @@ export default function MapShell({
                     selectedGeoId={selectedGeoId}
                     setTooltip={setTooltip}
                     dimension={dimension} lens={lens}
-                    showDataCenters={showDataCenters}
-                    onHoverFacility={handleHoverFacility}
-                    onLeaveFacility={handleLeaveFacility}
-                    onSelectFacility={handleSelectFacility}
+                    showProjects={showProjects}
+                    onHoverProject={handleHoverProject}
+                    onLeaveProject={handleLeaveProject}
+                    onSelectProject={handleSelectProject}
                   />
                 )}
                 {naView === "states" && (
@@ -1691,10 +1704,10 @@ export default function MapShell({
                     selectedGeoId={selectedGeoId}
                     setTooltip={setTooltip}
                     dimension={dimension} lens={lens}
-                    showDataCenters={showDataCenters}
-                    onHoverFacility={handleHoverFacility}
-                    onLeaveFacility={handleLeaveFacility}
-                    onSelectFacility={handleSelectFacility}
+                    showProjects={showProjects}
+                    onHoverProject={handleHoverProject}
+                    onLeaveProject={handleLeaveProject}
+                    onSelectProject={handleSelectProject}
                     drillingTo={drillingTo}
                   />
                 )}
@@ -1707,6 +1720,10 @@ export default function MapShell({
                     dimension={dimension}
                     lens={lens}
                     drillingTo={drillingTo}
+                    showProjects={showProjects}
+                    onHoverProject={handleHoverProject}
+                    onLeaveProject={handleLeaveProject}
+                    onSelectProject={handleSelectProject}
                   />
                 )}
                 {naView === "census-divisions" && selectedProvinceName && (
@@ -1723,10 +1740,10 @@ export default function MapShell({
                     onSelectCounty={handleSelectCounty}
                     selectedCountyFips={selectedCountyFips}
                     setTooltip={setTooltip}
-                    showDataCenters={showDataCenters}
-                    onHoverFacility={handleHoverFacility}
-                    onLeaveFacility={handleLeaveFacility}
-                    onSelectFacility={handleSelectFacility}
+                    showProjects={showProjects}
+                    onHoverProject={handleHoverProject}
+                    onLeaveProject={handleLeaveProject}
+                    onSelectProject={handleSelectProject}
                   />
                 )}
               </div>
@@ -1737,10 +1754,10 @@ export default function MapShell({
                 selectedGeoId={r === region ? selectedGeoId : null}
                 setTooltip={setTooltip}
                 dimension={dimension} lens={lens}
-                showDataCenters={showDataCenters}
-                onHoverFacility={handleHoverFacility}
-                onLeaveFacility={handleLeaveFacility}
-                onSelectFacility={handleSelectFacility}
+                showProjects={showProjects}
+                onHoverProject={handleHoverProject}
+                onLeaveProject={handleLeaveProject}
+                onSelectProject={handleSelectProject}
               />
             )}
             {r === "asia" && (
@@ -1749,10 +1766,10 @@ export default function MapShell({
                 selectedGeoId={r === region ? selectedGeoId : null}
                 setTooltip={setTooltip}
                 dimension={dimension} lens={lens}
-                showDataCenters={showDataCenters}
-                onHoverFacility={handleHoverFacility}
-                onLeaveFacility={handleLeaveFacility}
-                onSelectFacility={handleSelectFacility}
+                showProjects={showProjects}
+                onHoverProject={handleHoverProject}
+                onLeaveProject={handleLeaveProject}
+                onSelectProject={handleSelectProject}
               />
             )}
           </div>
@@ -1777,9 +1794,9 @@ export default function MapShell({
         size={panelSize}
         onSizeChange={setExplicitPanelSize}
         isMobileViewport={isMobileViewport}
-        facility={selectedFacility}
-        onCloseFacility={handleCloseFacility}
-        onSelectFacility={handleSelectFacility}
+        project={selectedProject}
+        onCloseProject={handleCloseProject}
+        onSelectProject={handleSelectProject}
         lens={lens}
         localActions={stateLocalActions}
       />
@@ -1815,7 +1832,7 @@ export default function MapShell({
           the map when pinch isn't available (desktop trackpad that
           doesn't ctrl+scroll, or mobile browsers that don't fire the
           gesture events cleanly). Stacked vertically so they don't
-          fight the depth stepper or data-center legend at the bottom
+          fight the depth stepper or projects legend at the bottom
           right. Same chrome language as the toolbar. */}
       <div
         className="fixed bottom-28 right-4 lg:bottom-6 lg:right-6 z-30"
@@ -1888,16 +1905,17 @@ export default function MapShell({
         />
       </div>
 
-      {/* Mobile legend moved into the `?` help sheet in the top toolbar —
-          it was stealing valuable vertical space from the map. Desktop
-          still gets the DC legend block below when the DC layer is on. */}
+      {/* Mobile legend moved into the `?` help sheet in the top toolbar.
+          It was stealing valuable vertical space from the map. Desktop
+          still gets the projects legend block below when the project
+          layer is on. */}
 
-      {/* Projects legend — Apple-style card, shown when the DC layer
-          is active. Hidden on mobile (below `lg`) because the
+      {/* Projects legend. Apple-style card, shown when the project
+          layer is active. Hidden on mobile (below `lg`) because the
           bottom-anchored side panel already occupies that area and
           would overlap. The dot colors are intuitive enough without it
           on small screens. */}
-      {showDataCenters && (
+      {showProjects && (
         <div
           className="hidden lg:block fixed bottom-28 right-6 z-20 w-[13.5rem]"
           style={{
@@ -1951,7 +1969,7 @@ export default function MapShell({
 
       {/* Tooltip rendered OUTSIDE the slide rail so its position:fixed
           is relative to the viewport, not the transformed rail. */}
-      {tooltip && !hoveredFacility && (() => {
+      {tooltip && !hoveredProject && (() => {
         // ─── County hover (rich municipality card) ────────────────────
         // Rendered inside the same tooltip slot as the state/country
         // card so positioning and z-index stay aligned. Matches the
@@ -2087,7 +2105,7 @@ export default function MapShell({
             ? ent.stanceAffordability
             : ent.stanceZoning
           : "none";
-        const dcCount = DC_COUNT_BY_NAME[tooltip.label] ?? 0;
+        const projectCount = PROJECT_COUNT_BY_NAME[tooltip.label] ?? 0;
         const bills = ent?.legislation ?? [];
         const billCount = bills.length;
         const activeCount = bills.filter(
@@ -2104,10 +2122,10 @@ export default function MapShell({
         //
         // Lens preference: we compute rows for the ACTIVE lens first so
         // the tooltip mirrors what the map is showing. If the entity has
-        // no coverage in that lens (e.g. Texas — all AI bills, no DC
-        // tags — hovered while on the DC lens), we fall back to the
-        // other lens's dimensions so the user still sees something
-        // actionable instead of an empty card.
+        // no coverage in that lens (e.g. a state with bills tagged
+        // exclusively under the other lens), we fall back to the other
+        // lens's dimensions so the user still sees something actionable
+        // instead of an empty card.
         const computeDimRows = (
           dims: Exclude<Dimension, "overall">[],
         ): { dim: Exclude<Dimension, "overall">; count: number; stance: StanceType }[] => {
@@ -2145,7 +2163,7 @@ export default function MapShell({
         if (dimRows.length === 0) dimRows = computeDimRows(fallbackLensDims);
         const visibleRows = dimRows.slice(0, 3);
         const hiddenRows = dimRows.length - visibleRows.length;
-        const isRich = ent || dcCount > 0;
+        const isRich = ent || projectCount > 0;
 
         if (!isRich) {
           return (
@@ -2230,7 +2248,7 @@ export default function MapShell({
                 </div>
               )}
 
-              {(billCount > 0 || dcCount > 0) && (
+              {(billCount > 0 || projectCount > 0) && (
                 <div className="mt-2.5 text-[11px] text-muted tracking-tight flex items-center gap-1.5 flex-wrap">
                   {billCount > 0 && (
                     <span>
@@ -2244,13 +2262,13 @@ export default function MapShell({
                       )}
                     </span>
                   )}
-                  {billCount > 0 && dcCount > 0 && (
+                  {billCount > 0 && projectCount > 0 && (
                     <span aria-hidden>·</span>
                   )}
-                  {dcCount > 0 && (
+                  {projectCount > 0 && (
                     <span>
-                      <span className="font-medium text-ink">{dcCount}</span>{" "}
-                      {dcCount === 1 ? "facility" : "facilities"}
+                      <span className="font-medium text-ink">{projectCount}</span>{" "}
+                      {projectCount === 1 ? "project" : "projects"}
                     </span>
                   )}
                 </div>
@@ -2266,18 +2284,18 @@ export default function MapShell({
         );
       })()}
 
-      {/* Rich facility detail card — overrides the plain tooltip when
+      {/* Rich project detail card. Overrides the plain tooltip when
           a project dot is being hovered. Suppressed only when hovering
-          the exact facility that's already pinned (its info is in the
-          panel). Hovering OTHER facilities still shows the card so users
+          the exact project that's already pinned (its info is in the
+          panel). Hovering OTHER projects still shows the card so users
           can browse without first closing the pinned one. */}
-      {hoveredFacility &&
-        hoveredFacility.dc.id !== selectedFacility?.id && (
+      {hoveredProject &&
+        hoveredProject.project.id !== selectedProject?.id && (
           <ProjectCard
-            facility={hoveredFacility.dc}
-            x={hoveredFacility.x}
-            y={hoveredFacility.y}
-            clusterSize={hoveredFacility.clusterSize}
+            project={hoveredProject.project}
+            x={hoveredProject.x}
+            y={hoveredProject.y}
+            clusterSize={hoveredProject.clusterSize}
           />
         )}
     </div>

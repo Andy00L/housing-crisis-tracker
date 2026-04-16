@@ -15,12 +15,16 @@ import {
   type SetTooltip,
 } from "@/lib/map-utils";
 import { getMunicipalitiesByState } from "@/lib/municipal-data";
+import { ALL_HOUSING_PROJECTS } from "@/lib/projects-map";
 import type { HousingProject, Dimension, DimensionLens } from "@/types";
 import ProjectDots from "./ProjectDots";
 
-// US housing project data is not ingested yet; the dot layer stays on
-// the map surface but renders nothing. See docs/repurpose-plan.md.
-const US_PROJECTS: HousingProject[] = [];
+// Scope the dot layer to US projects so the cluster math doesn't waste
+// cycles on Canadian / international rows that the US states projection
+// would silently drop anyway.
+const US_PROJECTS: HousingProject[] = ALL_HOUSING_PROJECTS.filter(
+  (p) => p.country === "United States",
+);
 
 interface USStatesMapProps {
   onSelectEntity: (geoId: string) => void;
@@ -29,19 +33,19 @@ interface USStatesMapProps {
   setTooltip: SetTooltip;
   dimension?: Dimension;
   lens?: DimensionLens;
-  showDataCenters?: boolean;
+  showProjects?: boolean;
   /** When set, that state visually "lifts" (scales up + drop-shadow) and
    *  the rest fade — staged before MapShell flips to CountyMap so the
    *  drill reads as a focus, not a hard cut. */
   drillingTo?: string | null;
-  onHoverFacility?: (
-    dc: HousingProject,
+  onHoverProject?: (
+    project: HousingProject,
     x: number,
     y: number,
     clusterSize: number,
   ) => void;
-  onLeaveFacility?: () => void;
-  onSelectFacility?: (dc: HousingProject) => void;
+  onLeaveProject?: () => void;
+  onSelectProject?: (project: HousingProject) => void;
 }
 
 const usProj = usProjection as unknown as ProjectionFunction;
@@ -64,11 +68,11 @@ export default function USStatesMap({
   setTooltip,
   dimension = "overall",
   lens = "zoning",
-  showDataCenters = false,
+  showProjects = false,
   drillingTo = null,
-  onHoverFacility,
-  onLeaveFacility,
-  onSelectFacility,
+  onHoverProject,
+  onLeaveProject,
+  onSelectProject,
 }: USStatesMapProps) {
   return (
     <div
@@ -186,12 +190,12 @@ export default function USStatesMap({
               );
             })}
         </Geographies>
-        {showDataCenters && onHoverFacility && onLeaveFacility && (
+        {showProjects && onHoverProject && onLeaveProject && (
           <ProjectDots projection={usProjection as unknown as (c: [number, number]) => [number, number] | null}
             projects={US_PROJECTS}
-            onHoverFacility={onHoverFacility}
-            onLeaveFacility={onLeaveFacility}
-            onSelectFacility={onSelectFacility}
+            onHoverProject={onHoverProject}
+            onLeaveProject={onLeaveProject}
+            onSelectProject={onSelectProject}
             clusterDeg={0.55}
           />
         )}

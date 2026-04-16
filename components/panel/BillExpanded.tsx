@@ -19,10 +19,10 @@ interface BillExpandedProps {
   bill: Legislation;
   /** Two-letter state code for donor lookup. "US" for federal, "VA" etc. for states. */
   stateCode?: string;
-  /** Optional: when set, "Related facilities" chips become clickable and
-   *  call back with the facility. Used inside the sidebar flow so clicking
-   *  a facility opens its detail panel. */
-  onSelectFacility?: (f: HousingProject) => void;
+  /** Optional: when set, "Related projects" chips become clickable and
+   *  call back with the project. Used inside the sidebar flow so clicking
+   *  a project opens its detail panel. */
+  onSelectProject?: (f: HousingProject) => void;
 }
 
 // Build-once lookup so we can resolve a project by ID on every render
@@ -44,11 +44,11 @@ function cleanOperator(op: string | undefined): string {
 export default function BillExpanded({
   bill,
   stateCode,
-  onSelectFacility,
+  onSelectProject,
 }: BillExpandedProps) {
   const isFederal = stateCode === "US";
   const sponsors = bill.sponsors ?? [];
-  const relatedFacilities: HousingProject[] = (bill.relatedFacilityIds ?? [])
+  const relatedProjects: HousingProject[] = (bill.relatedProjectIds ?? [])
     .map((id) => FACILITY_BY_ID.get(id))
     .filter((f): f is HousingProject => !!f);
 
@@ -101,17 +101,17 @@ export default function BillExpanded({
         </div>
       )}
 
-      {/* Related facilities — surfaces the action → facility edge.
+      {/* Related projects. Surfaces the action to project edge.
           Rendered as a labeled row of subtle chips to match the impact
-          tag / sponsor visual language. When onSelectFacility is
-          supplied, chips are buttons that pin the facility in the panel. */}
-      {relatedFacilities.length > 0 && (
+          tag / sponsor visual language. When onSelectProject is
+          supplied, chips are buttons that pin the project in the panel. */}
+      {relatedProjects.length > 0 && (
         <div>
           <div className="text-[11px] font-medium text-muted tracking-tight mb-2">
-            Related facilities
+            Related projects
           </div>
           <div className="flex flex-wrap gap-1.5">
-            {relatedFacilities.map((f) => {
+            {relatedProjects.map((f) => {
               const label = cleanOperator(f.developer) || f.location;
               const city = f.location ?? "";
               const inner = (
@@ -122,13 +122,13 @@ export default function BillExpanded({
                   )}
                 </>
               );
-              return onSelectFacility ? (
+              return onSelectProject ? (
                 <button
                   key={f.id}
                   type="button"
                   onClick={(e) => {
                     e.stopPropagation();
-                    onSelectFacility(f);
+                    onSelectProject(f);
                   }}
                   className="text-[11px] bg-black/[.04] hover:bg-black/[.08] text-muted hover:text-ink px-2 py-0.5 rounded-full tracking-tight transition-colors"
                 >

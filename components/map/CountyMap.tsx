@@ -12,7 +12,7 @@ import {
 } from "@/lib/municipal-data";
 import { STATE_FIPS, type HousingProject, type MunicipalActionStatus } from "@/types";
 import { ALL_HOUSING_PROJECTS } from "@/lib/projects-map";
-import { DcIcon, SIZE_BANDS } from "./ProjectDots";
+import { ProjectIcon, SIZE_BANDS } from "./ProjectDots";
 void getMunicipalitiesByState;
 
 // Water features removed in housing tracker migration
@@ -32,15 +32,15 @@ interface CountyMapProps {
   onSelectCounty: (fips: string) => void;
   selectedCountyFips: string | null;
   setTooltip: SetTooltip;
-  showDataCenters?: boolean;
-  onHoverFacility?: (
-    dc: HousingProject,
+  showProjects?: boolean;
+  onHoverProject?: (
+    project: HousingProject,
     x: number,
     y: number,
     clusterSize: number,
   ) => void;
-  onLeaveFacility?: () => void;
-  onSelectFacility?: (dc: HousingProject) => void;
+  onLeaveProject?: () => void;
+  onSelectProject?: (project: HousingProject) => void;
 }
 
 const COUNTIES_URL =
@@ -146,15 +146,15 @@ export default function CountyMap({
   onSelectCounty,
   selectedCountyFips,
   setTooltip,
-  showDataCenters = false,
-  onHoverFacility,
-  onLeaveFacility,
-  onSelectFacility,
+  showProjects = false,
+  onHoverProject,
+  onLeaveProject,
+  onSelectProject,
 }: CountyMapProps) {
   const statePrefix = STATE_FIPS[stateName];
   const [counties, setCounties] = useState<CountyCollection | null>(null);
   const [states, setStates] = useState<CountyCollection | null>(null);
-  const [hoveredDc, setHoveredDc] = useState<{
+  const [hoveredProjectCoord, setHoveredProjectCoord] = useState<{
     lat: number;
     lng: number;
     x: number;
@@ -238,20 +238,20 @@ export default function CountyMap({
           .filter((r) => r.d)
       : [];
 
-    // Project housing projects in the state. Skip rows without coords,
-    // some pipeline-sourced projects (e.g. Canadian rows) don't include
+    // Project housing projects in the state. Skip rows without coords.
+    // Some pipeline-sourced projects (e.g. Canadian rows) don't include
     // lat/lng and shouldn't be plotted on the county map. US housing
     // project data is not ingested yet, so this filter is effectively
     // always empty on the US side today.
-    const facilities = ALL_HOUSING_PROJECTS.filter(
+    const stateProjects = ALL_HOUSING_PROJECTS.filter(
       (f) => f.state === stateName && typeof f.lat === "number" && typeof f.lng === "number",
     );
-    const dcs = facilities
-      .map((dc) => {
-        const xy = projection([dc.lng as number, dc.lat as number]);
-        return xy ? { dc, x: xy[0], y: xy[1] } : null;
+    const projectMarkers = stateProjects
+      .map((project) => {
+        const xy = projection([project.lng as number, project.lat as number]);
+        return xy ? { project, x: xy[0], y: xy[1] } : null;
       })
-      .filter((p): p is { dc: HousingProject; x: number; y: number } => Boolean(p));
+      .filter((p): p is { project: HousingProject; x: number; y: number } => Boolean(p));
 
     // US-wide bbox for the zoom-in animation starting point.
     const usProj = geoAlbersUsa().scale(900).translate([480, 300]);
@@ -267,7 +267,7 @@ export default function CountyMap({
       countryPaths: nationalPaths,
       lakes,
       rivers,
-      dcs,
+      projectMarkers,
       bbox: b,
     };
   }, [counties, states, statePrefix, stateName]);
@@ -328,18 +328,18 @@ export default function CountyMap({
     countryPaths,
     lakes,
     rivers,
-    dcs,
+    projectMarkers,
   } = computed;
 
   // Thresholds for "large lake" gradient treatment. Area is in projected
   // pixel² so it scales with the fitted viewport automatically.
   const LARGE_LAKE_AREA = 400;
 
-  // Proximity ring pixel radii, if a DC is hovered.
-  const ringRadii = hoveredDc
+  // Proximity ring pixel radii, if a project icon is hovered.
+  const ringRadii = hoveredProjectCoord
     ? [25, 50].map((m) => ({
         miles: m,
-        r: milesToScreenRadius(projection, hoveredDc.lat, hoveredDc.lng, m),
+        r: milesToScreenRadius(projection, hoveredProjectCoord.lat, hoveredProjectCoord.lng, m),
       }))
     : [];
 
@@ -370,7 +370,7 @@ export default function CountyMap({
             <stop offset="0%" stopColor="#AFD2E2" stopOpacity="0.95" />
             <stop offset="100%" stopColor="#6BA3C4" stopOpacity="0.85" />
           </radialGradient>
-          <filter id="dc-shadow" x="-30%" y="-20%" width="160%" height="160%">
+          <filter id="project-shadow" x="-30%" y="-20%" width="160%" height="160%">
             <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" />
             <feOffset dy="1" />
             <feComponentTransfer>
@@ -381,29 +381,29 @@ export default function CountyMap({
               <feMergeNode in="SourceGraphic" />
             </feMerge>
           </filter>
-          {/* DC proximity halo — soft radial glow that fades to transparent,
-              replacing the old dashed radar ring. */}
-          <radialGradient id="dc-halo">
+          {/* Project proximity halo. Soft radial glow that fades to
+              transparent, replacing the old dashed radar ring. */}
+          <radialGradient id="project-halo">
             <stop offset="0%" stopColor="#0A84FF" stopOpacity="0.16" />
             <stop offset="55%" stopColor="#0A84FF" stopOpacity="0.07" />
             <stop offset="100%" stopColor="#0A84FF" stopOpacity="0" />
           </radialGradient>
           {/* App-icon body gradients — top 12% lighter so the icon reads
               as a lit surface, not a flat chip. */}
-          <linearGradient id="dc-grad-operational" x1="0" y1="0" x2="0" y2="1">
+          <linearGradient id="project-grad-operational" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stopColor="#3AA0FF" />
             <stop offset="100%" stopColor="#0A84FF" />
           </linearGradient>
-          <linearGradient id="dc-grad-construction" x1="0" y1="0" x2="0" y2="1">
+          <linearGradient id="project-grad-construction" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stopColor="#FFB547" />
             <stop offset="100%" stopColor="#FF9500" />
           </linearGradient>
-          <linearGradient id="dc-grad-mixed" x1="0" y1="0" x2="0" y2="1">
+          <linearGradient id="project-grad-mixed" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stopColor="#3AA0FF" />
             <stop offset="100%" stopColor="#0A84FF" />
           </linearGradient>
           {/* Sheen overlay for the top half of the icon body. */}
-          <linearGradient id="dc-sheen" x1="0" y1="0" x2="0" y2="1">
+          <linearGradient id="project-sheen" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stopColor="#FFFFFF" stopOpacity="0.22" />
             <stop offset="100%" stopColor="#FFFFFF" stopOpacity="0" />
           </linearGradient>
@@ -523,12 +523,12 @@ export default function CountyMap({
 
           {/* Project proximity halo. Soft radial glow centered on the
               hovered project icon. Fade on in/out via opacity. */}
-          {hoveredDc && ringRadii.length > 0 && (
+          {hoveredProjectCoord && ringRadii.length > 0 && (
             <circle
-              cx={hoveredDc.x}
-              cy={hoveredDc.y}
+              cx={hoveredProjectCoord.x}
+              cy={hoveredProjectCoord.y}
               r={ringRadii[ringRadii.length - 1].r}
-              fill="url(#dc-halo)"
+              fill="url(#project-halo)"
               style={{
                 pointerEvents: "none",
                 transition: "opacity 220ms ease",
@@ -537,32 +537,32 @@ export default function CountyMap({
           )}
 
           {/* Project icons. Rounded-rect rack shape (county view only). */}
-          {showDataCenters && onHoverFacility && onLeaveFacility && (
+          {showProjects && onHoverProject && onLeaveProject && (
             <g>
-              {dcs.map(({ dc, x, y }) => {
-                const size = bandRadius(dc.unitCount);
+              {projectMarkers.map(({ project, x, y }) => {
+                const size = bandRadius(project.unitCount);
                 return (
-                  <DcIcon
-                    key={dc.id}
+                  <ProjectIcon
+                    key={project.id}
                     x={x}
                     y={y}
                     size={size}
-                    status={dc.status}
+                    status={project.status}
                     onMouseEnter={(e) => {
-                      onHoverFacility(dc, e.clientX, e.clientY, 1);
-                      // dcs is filtered to only include rows with coords,
-                      // so the cast is safe here.
-                      setHoveredDc({ lat: dc.lat as number, lng: dc.lng as number, x, y });
+                      onHoverProject(project, e.clientX, e.clientY, 1);
+                      // projectMarkers is filtered to only include rows
+                      // with coords, so the cast is safe here.
+                      setHoveredProjectCoord({ lat: project.lat as number, lng: project.lng as number, x, y });
                     }}
-                    onMouseMove={(e) => onHoverFacility(dc, e.clientX, e.clientY, 1)}
+                    onMouseMove={(e) => onHoverProject(project, e.clientX, e.clientY, 1)}
                     onMouseLeave={() => {
-                      onLeaveFacility();
-                      setHoveredDc(null);
+                      onLeaveProject();
+                      setHoveredProjectCoord(null);
                     }}
                     onClick={
-                      onSelectFacility ? () => onSelectFacility(dc) : undefined
+                      onSelectProject ? () => onSelectProject(project) : undefined
                     }
-                    interactive={!!onSelectFacility}
+                    interactive={!!onSelectProject}
                   />
                 );
               })}

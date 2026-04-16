@@ -59,9 +59,9 @@ export default function DimensionToggle({
   lens,
   onLensChange,
 }: DimensionToggleProps) {
-  // Lens is now controlled by the page — the same state drives which
-  // dimension chips are shown here AND whether data-center dots render
-  // on the map. When the user switches lens, if the current dimension
+  // Lens is now controlled by the page. The same state drives which
+  // dimension chips are shown here AND whether project dots render on
+  // the map. When the user switches lens, if the current dimension
   // isn't valid for the new lens, we reset to "overall".
   const lensDimensions = useMemo<Dimension[]>(() => {
     return lens === "zoning" ? ZONING_DIMENSIONS : AFFORDABILITY_DIMENSIONS;

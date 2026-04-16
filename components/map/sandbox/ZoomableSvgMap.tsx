@@ -28,15 +28,15 @@ interface Props {
   setTooltip: SetTooltip;
   dimension?: Dimension;
   lens?: DimensionLens;
-  showDataCenters?: boolean;
-  onHoverFacility?: (
-    dc: HousingProject,
+  showProjects?: boolean;
+  onHoverProject?: (
+    project: HousingProject,
     x: number,
     y: number,
     clusterSize: number,
   ) => void;
-  onLeaveFacility?: () => void;
-  onSelectFacility?: (dc: HousingProject) => void;
+  onLeaveProject?: () => void;
+  onSelectProject?: (project: HousingProject) => void;
 }
 
 const LOD_ENTER = 3;
@@ -58,10 +58,10 @@ export default function ZoomableSvgMap({
   setTooltip,
   dimension = "overall",
   lens = "zoning",
-  showDataCenters = false,
-  onHoverFacility,
-  onLeaveFacility,
-  onSelectFacility,
+  showProjects = false,
+  onHoverProject,
+  onLeaveProject,
+  onSelectProject,
 }: Props) {
   const { zoom, center, setZoom, setCenter, containerRef, reset, minZoom, maxZoom } =
     useZoomPan({
@@ -255,17 +255,17 @@ export default function ZoomableSvgMap({
             );
           })}
 
-          {showDataCenters && onHoverFacility && onLeaveFacility && (
+          {showProjects && onHoverProject && onLeaveProject && (
             <ProjectDots
-              projects={config.facilities}
+              projects={config.projects}
               projection={
                 config.projection as unknown as (
                   c: [number, number],
                 ) => [number, number] | null
               }
-              onHoverFacility={onHoverFacility}
-              onLeaveFacility={onLeaveFacility}
-              onSelectFacility={onSelectFacility}
+              onHoverProject={onHoverProject}
+              onLeaveProject={onLeaveProject}
+              onSelectProject={onSelectProject}
             />
           )}
         </ZoomableGroup>

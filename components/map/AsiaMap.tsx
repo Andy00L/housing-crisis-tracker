@@ -27,15 +27,15 @@ interface AsiaMapProps {
   setTooltip: SetTooltip;
   dimension?: Dimension;
   lens?: DimensionLens;
-  showDataCenters?: boolean;
-  onHoverFacility?: (
-    dc: HousingProject,
+  showProjects?: boolean;
+  onHoverProject?: (
+    project: HousingProject,
     x: number,
     y: number,
     clusterSize: number,
   ) => void;
-  onLeaveFacility?: () => void;
-  onSelectFacility?: (dc: HousingProject) => void;
+  onLeaveProject?: () => void;
+  onSelectProject?: (project: HousingProject) => void;
 }
 
 const asiaProj = asiaProjection as unknown as ProjectionFunction;
@@ -68,10 +68,10 @@ export default function AsiaMap({
   setTooltip,
   dimension = "overall",
   lens = "zoning",
-  showDataCenters = false,
-  onHoverFacility,
-  onLeaveFacility,
-  onSelectFacility,
+  showProjects = false,
+  onHoverProject,
+  onLeaveProject,
+  onSelectProject,
 }: AsiaMapProps) {
   return (
     <div
@@ -134,8 +134,8 @@ export default function AsiaMap({
 
                 // Taiwan (ISO 158) is a sliver at Asia's scale — the
                 // visible path + hit target is too small to click
-                // without accidentally catching a data-center dot
-                // layered on top. Scale just this one country so both
+                // without accidentally catching a project dot layered
+                // on top. Scale just this one country so both
                 // the fill and the click surface grow together.
                 const isTaiwan = id === "158";
                 const scaleBump = isTaiwan ? "scale(2.6)" : undefined;
@@ -185,12 +185,12 @@ export default function AsiaMap({
               })
           }
         </Geographies>
-        {showDataCenters && onHoverFacility && onLeaveFacility && (
+        {showProjects && onHoverProject && onLeaveProject && (
           <ProjectDots projection={asiaProjection as unknown as (c: [number, number]) => [number, number] | null}
             projects={ASIA_PROJECTS}
-            onHoverFacility={onHoverFacility}
-            onLeaveFacility={onLeaveFacility}
-            onSelectFacility={onSelectFacility}
+            onHoverProject={onHoverProject}
+            onLeaveProject={onLeaveProject}
+            onSelectProject={onSelectProject}
           />
         )}
       </ComposableMap>

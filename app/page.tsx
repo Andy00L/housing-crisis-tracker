@@ -140,9 +140,9 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Section 4 — Major housing projects */}
+      {/* Section 4. Major housing projects */}
       <section
-        id="datacenters"
+        id="projects"
         className="relative z-10 bg-bg border-t border-black/[.06] scroll-mt-20"
       >
         <div className="max-w-5xl mx-auto px-8 pt-20 pb-24">

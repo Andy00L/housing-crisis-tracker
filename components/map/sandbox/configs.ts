@@ -10,7 +10,7 @@ import type { HousingProject, Region } from "@/types";
 
 // No EU, Asia, or US housing project data is ingested yet. Sandbox
 // views keep these bindings as empty arrays so the code that passes
-// `facilities` to the renderers keeps its contract.
+// `projects` to the renderers keeps its contract.
 const EU_PROJECTS: HousingProject[] = [];
 const ASIA_PROJECTS: HousingProject[] = [];
 const US_PROJECTS: HousingProject[] = [];
@@ -63,7 +63,7 @@ export interface MapConfig {
   /** [lng, lat] clamp for the center while panning. */
   clamp: [[number, number], [number, number]];
   layers: MapLayer[];
-  facilities: HousingProject[];
+  projects: HousingProject[];
   /** Used by GL + SVG high-detail swap. */
   highDetailUrl?: string;
   /** The geography URL that should be swapped to highDetailUrl above 3×. */
@@ -113,7 +113,7 @@ export const EUROPE_CONFIG: MapConfig = {
   initialCenter: [15, 52],
   initialZoom: 1,
   clamp: WORLD_CLAMP,
-  facilities: EU_PROJECTS,
+  projects: EU_PROJECTS,
   highDetailUrl: WORLD_HIGH,
   highDetailTargetUrl: WORLD_LOW,
   layers: [
@@ -147,7 +147,7 @@ export const ASIA_CONFIG: MapConfig = {
   initialCenter: [110, 12],
   initialZoom: 1,
   clamp: WORLD_CLAMP,
-  facilities: ASIA_PROJECTS,
+  projects: ASIA_PROJECTS,
   highDetailUrl: WORLD_HIGH,
   highDetailTargetUrl: WORLD_LOW,
   layers: [
@@ -177,7 +177,7 @@ export const NA_CONFIG: MapConfig = {
   initialCenter: [-96, 44],
   initialZoom: 1,
   clamp: WORLD_CLAMP,
-  facilities: ALL_HOUSING_PROJECTS,
+  projects: ALL_HOUSING_PROJECTS,
   highDetailUrl: WORLD_HIGH,
   highDetailTargetUrl: WORLD_LOW,
   layers: [
@@ -224,7 +224,7 @@ export const US_STATES_CONFIG: MapConfig = {
     [-130, 20],
     [-65, 52],
   ],
-  facilities: US_PROJECTS,
+  projects: US_PROJECTS,
   layers: [
     {
       id: "us-states",

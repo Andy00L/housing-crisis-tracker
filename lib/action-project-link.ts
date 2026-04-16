@@ -10,16 +10,19 @@ function cleanOperator(op: string | undefined): string {
 }
 
 /**
- * Extract keyword tokens from a facility that can be matched against an
+ * Extract keyword tokens from a project that can be matched against an
  * action's free text. Operator name + location city tokens, lowercased,
  * de-duplicated, length ≥ 3 so we don't match stopwords.
  */
-function facilityKeywords(f: HousingProject): string[] {
-  const op = cleanOperator(f.developer);
-  const loc = (f.location ?? "").trim();
+function projectKeywords(p: HousingProject): string[] {
+  const op = cleanOperator(p.developer);
+  const loc = (p.location ?? "").trim();
   const raw = [op, loc]
     .filter(Boolean)
-    // Split multi-word values — "Data Center Alley" → "Alley", "Loudoun"
+    // Split multi-word values. "Belvedere Affordable Housing" splits
+    // to "Belvedere", "Affordable", "Housing"; the stopword filter
+    // below drops the generic ones so only the distinctive token
+    // remains for matching.
     .flatMap((s) => s.split(/[,/&\s]+/))
     .map((s) => s.trim())
     .filter((s) => s.length >= 3);
@@ -27,16 +30,13 @@ function facilityKeywords(f: HousingProject): string[] {
 }
 
 /**
- * Return the IDs of facilities whose operator or location appears in the
- * action's title or summary. Conservative match — requires the keyword
+ * Return the IDs of projects whose operator or location appears in the
+ * action's title or summary. Conservative match. Requires the keyword
  * to appear as a whole word in the action text. Skips generic tokens
- * ("county", "data", "center") that would over-match.
+ * ("county", "city", "housing") that would over-match.
  */
 const GENERIC_TOKENS = new Set([
   "county",
-  "data",
-  "center",
-  "centers",
   "city",
   "township",
   "corporation",
@@ -44,24 +44,25 @@ const GENERIC_TOKENS = new Set([
   "llc",
   "group",
   "holdings",
-  "technologies",
-  "technology",
-  "tech",
-  "corp",
-  "co",
-  "industries",
+  "housing",
+  "homes",
+  "residential",
+  "apartments",
+  "development",
+  "project",
+  "projects",
   "us",
   "usa",
 ]);
 
-export function findRelatedFacilities(
+export function findRelatedProjects(
   action: MunicipalAction,
-  facilities: HousingProject[],
+  projects: HousingProject[],
 ): string[] {
   const text = `${action.title} ${action.summary}`.toLowerCase();
   const matches = new Set<string>();
-  for (const f of facilities) {
-    const keywords = facilityKeywords(f).filter(
+  for (const p of projects) {
+    const keywords = projectKeywords(p).filter(
       (k) => !GENERIC_TOKENS.has(k),
     );
     if (keywords.length === 0) continue;
@@ -70,7 +71,7 @@ export function findRelatedFacilities(
     for (const k of keywords) {
       const pattern = new RegExp(`\\b${k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`);
       if (pattern.test(text)) {
-        matches.add(f.id);
+        matches.add(p.id);
         break;
       }
     }
@@ -79,15 +80,15 @@ export function findRelatedFacilities(
 }
 
 /**
- * Reverse lookup: which actions (across a set of municipalities) reference
- * this facility? Used by the facility detail view to surface local
- * political context.
+ * Reverse lookup: which actions (across a set of municipalities)
+ * reference this project? Used by the project detail view to surface
+ * local political context.
  */
-export function findActionsForFacility(
-  facility: HousingProject,
+export function findActionsForProject(
+  project: HousingProject,
   actions: Array<MunicipalAction & { municipalityName: string }>,
 ): Array<MunicipalAction & { municipalityName: string }> {
-  const keywords = facilityKeywords(facility).filter(
+  const keywords = projectKeywords(project).filter(
     (k) => !GENERIC_TOKENS.has(k),
   );
   if (keywords.length === 0) return [];

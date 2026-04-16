@@ -32,7 +32,7 @@ export default function PoliticiansPage() {
           Politicians
         </h1>
         <p className="text-sm text-muted mb-10 max-w-xl">
-          The lawmakers shaping AI and data-center policy — and what
+          The lawmakers shaping housing policy. Who they are and what
           they've actually done about it.
         </p>
         <Suspense fallback={<div className="text-sm text-muted">Loading…</div>}>

@@ -15,7 +15,21 @@ import {
   type SetTooltip,
 } from "@/lib/map-utils";
 import { getCensusDivisionsByProvince } from "@/lib/census-division-data";
-import { PROVINCE_NAME, type Dimension, type DimensionLens } from "@/types";
+import { ALL_HOUSING_PROJECTS } from "@/lib/projects-map";
+import {
+  PROVINCE_NAME,
+  type Dimension,
+  type DimensionLens,
+  type HousingProject,
+} from "@/types";
+import ProjectDots from "./ProjectDots";
+
+// Scope the dot layer to Canadian projects. The Canada map's projection
+// would silently drop everything else, but pre-filtering keeps the
+// cluster math honest about how many rows it actually plotted.
+const CA_PROJECTS: HousingProject[] = ALL_HOUSING_PROJECTS.filter(
+  (p) => p.country === "Canada",
+);
 
 interface CanadaProvincesMapProps {
   onSelectEntity: (geoId: string) => void;
@@ -26,6 +40,15 @@ interface CanadaProvincesMapProps {
   lens?: DimensionLens;
   /** When set, that province visually "lifts" before flipping to CensusDivisionMap. */
   drillingTo?: string | null;
+  showProjects?: boolean;
+  onHoverProject?: (
+    project: HousingProject,
+    x: number,
+    y: number,
+    clusterSize: number,
+  ) => void;
+  onLeaveProject?: () => void;
+  onSelectProject?: (project: HousingProject) => void;
 }
 
 const caProj = caProjection as unknown as ProjectionFunction;
@@ -59,6 +82,10 @@ export default function CanadaProvincesMap({
   dimension = "overall",
   lens = "zoning",
   drillingTo = null,
+  showProjects = false,
+  onHoverProject,
+  onLeaveProject,
+  onSelectProject,
 }: CanadaProvincesMapProps) {
   return (
     <div
@@ -174,6 +201,19 @@ export default function CanadaProvincesMap({
               );
             })}
         </Geographies>
+        {showProjects && onHoverProject && onLeaveProject && (
+          <ProjectDots
+            projection={
+              caProjection as unknown as (
+                c: [number, number],
+              ) => [number, number] | null
+            }
+            projects={CA_PROJECTS}
+            onHoverProject={onHoverProject}
+            onLeaveProject={onLeaveProject}
+            onSelectProject={onSelectProject}
+          />
+        )}
       </ComposableMap>
     </div>
   );

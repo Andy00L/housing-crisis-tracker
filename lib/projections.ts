@@ -4,10 +4,17 @@ import { geoAlbersUsa, geoMercator, geoPath } from "d3-geo";
 export const usProjection = geoAlbersUsa().scale(900).translate([480, 300]);
 
 // North America (Canada + US) Mercator projection.
+//
+// Centered near the US/Canada border so the continental view shows
+// both countries with roughly equal weight. The previous center
+// (lat 52) was a Canada-only framing that cut Florida and the Gulf
+// coast out of the viewport. Translate sits just below the SVG
+// midpoint so Mercator's high-latitude stretch over Nunavut still
+// fits without pushing the southern US off the bottom edge.
 export const naProjection = geoMercator()
-  .center([-96, 52])
+  .center([-96, 48])
   .scale(420)
-  .translate([480, 220]);
+  .translate([480, 320]);
 
 // Canada provinces map projection — centered on Canadian landmass.
 export const caProjection = geoMercator()

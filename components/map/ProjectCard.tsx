@@ -5,7 +5,7 @@ import { statusColorForProject } from "@/lib/project-colors";
 import { ProposalProgress } from "@/components/ui/ProposalProgress";
 
 interface ProjectCardProps {
-  facility: HousingProject;
+  project: HousingProject;
   x: number;
   y: number;
   /** If > 1, this card is showing the largest project in a cluster. */
@@ -42,31 +42,31 @@ const STATUS_LABEL: Record<HousingProject["status"], string> = {
  * are conditional, never show an empty field.
  */
 export default function ProjectCard({
-  facility,
+  project,
   x,
   y,
   clusterSize = 1,
 }: ProjectCardProps) {
-  const developer = stripConfidence(facility.developer) ?? facility.developer;
-  const units = formatUnits(facility.unitCount);
-  const cost = formatCost(facility.projectCost);
-  const color = statusColorForProject(facility.status);
-  const isProposed = facility.status === "proposed";
+  const developer = stripConfidence(project.developer) ?? project.developer;
+  const units = formatUnits(project.unitCount);
+  const cost = formatCost(project.projectCost);
+  const color = statusColorForProject(project.status);
+  const isProposed = project.status === "proposed";
   const isCluster = clusterSize > 1;
 
   // Location: prefer "City, State/Country", but skip the qualifier when
   // it's already in the raw location string.
-  const rawLocation = stripConfidence(facility.location);
-  const qualifier = facility.state ?? facility.country;
+  const rawLocation = stripConfidence(project.location);
+  const qualifier = project.state ?? project.country;
   const locationLine =
     rawLocation && qualifier && !rawLocation.toLowerCase().includes(qualifier.toLowerCase())
       ? `${rawLocation}, ${qualifier}`
       : (rawLocation ?? qualifier ?? null);
 
   const rows: Array<{ label: string; value: string }> = [];
-  if (facility.projectType) rows.push({ label: "Type", value: facility.projectType });
+  if (project.projectType) rows.push({ label: "Type", value: project.projectType });
   if (units) rows.push({ label: "Units", value: units });
-  if (facility.affordableUnits) rows.push({ label: "Affordable", value: `${facility.affordableUnits} units` });
+  if (project.affordableUnits) rows.push({ label: "Affordable", value: `${project.affordableUnits} units` });
   if (cost) rows.push({ label: "Cost", value: cost });
   if (locationLine) rows.push({ label: "Location", value: locationLine });
 
@@ -76,7 +76,7 @@ export default function ProjectCard({
   // viewport edge.
   const cardWidth = 260;
   const hasProposalBlock =
-    !!facility.proposal?.process && facility.proposal.process.length > 0;
+    !!project.proposal?.process && project.proposal.process.length > 0;
   const estHeight =
     120 + // header
     rows.length * 22 + // rows
@@ -120,7 +120,7 @@ export default function ProjectCard({
               }}
             />
             <span className="text-[11px] font-medium text-ink tracking-tight">
-              {STATUS_LABEL[facility.status]}
+              {STATUS_LABEL[project.status]}
             </span>
           </div>
         </div>
@@ -143,26 +143,26 @@ export default function ProjectCard({
           </dl>
         )}
 
-        {facility.proposal?.process && facility.proposal.process.length > 0 && (
+        {project.proposal?.process && project.proposal.process.length > 0 && (
           <div className="px-3.5 pt-2.5 pb-2.5 border-t border-black/[.05]">
-            <ProposalProgress process={facility.proposal.process} variant="dense" />
-            {facility.proposal.nextDecision && (
+            <ProposalProgress process={project.proposal.process} variant="dense" />
+            {project.proposal.nextDecision && (
               <div className="mt-2">
                 <div className="text-[11px] font-medium text-muted tracking-tight mb-0.5">
                   Next
                 </div>
                 <div className="text-[12.5px] text-ink tracking-tight leading-snug">
-                  {facility.proposal.nextDecision.what}
+                  {project.proposal.nextDecision.what}
                 </div>
-                {(facility.proposal.nextDecision.body ||
-                  facility.proposal.nextDecision.date) && (
+                {(project.proposal.nextDecision.body ||
+                  project.proposal.nextDecision.date) && (
                   <div className="text-[11px] text-muted tracking-tight mt-0.5">
-                    {facility.proposal.nextDecision.body}
-                    {facility.proposal.nextDecision.body &&
-                      facility.proposal.nextDecision.date && (
+                    {project.proposal.nextDecision.body}
+                    {project.proposal.nextDecision.body &&
+                      project.proposal.nextDecision.date && (
                         <span aria-hidden> · </span>
                       )}
-                    {facility.proposal.nextDecision.date}
+                    {project.proposal.nextDecision.date}
                   </div>
                 )}
               </div>

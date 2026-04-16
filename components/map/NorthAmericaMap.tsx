@@ -31,15 +31,15 @@ interface NorthAmericaMapProps {
   setTooltip: SetTooltip;
   dimension?: Dimension;
   lens?: DimensionLens;
-  showDataCenters?: boolean;
-  onHoverFacility?: (
-    dc: HousingProject,
+  showProjects?: boolean;
+  onHoverProject?: (
+    project: HousingProject,
     x: number,
     y: number,
     clusterSize: number,
   ) => void;
-  onLeaveFacility?: () => void;
-  onSelectFacility?: (dc: HousingProject) => void;
+  onLeaveProject?: () => void;
+  onSelectProject?: (project: HousingProject) => void;
 }
 
 const naProj = naProjection as unknown as ProjectionFunction;
@@ -48,6 +48,10 @@ const WORLD_URL =
   "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 const STATES_URL =
   "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
+// Local Statistics Canada 2021 boundary file. Drawn on top of the
+// Canada country shape so the continental view shows province seams the
+// same way it shows US state lines, instead of a single solid blob.
+const CA_PROVINCES_URL = "/geo/canada-provinces-2021.topo.json";
 
 // Non-US North America contextual shapes rendered from the world atlas.
 // Canada is interactive (we have an entity); Mexico is a neutral silhouette
@@ -65,10 +69,10 @@ export default function NorthAmericaMap({
   setTooltip,
   dimension = "overall",
   lens = "zoning",
-  showDataCenters = false,
-  onHoverFacility,
-  onLeaveFacility,
-  onSelectFacility,
+  showProjects = false,
+  onHoverProject,
+  onLeaveProject,
+  onSelectProject,
 }: NorthAmericaMapProps) {
   return (
     <div
@@ -89,8 +93,8 @@ export default function NorthAmericaMap({
           height: "100%",
           // Force high-quality vector rendering. Without this, mobile
           // WebKit may pick optimizeSpeed for small primitives like the
-          // data-center dots, which is what makes them look pixelated
-          // when the parent layer is CSS-scaled for pinch-zoom.
+          // project dots, which is what makes them look pixelated when
+          // the parent layer is CSS-scaled for pinch-zoom.
           shapeRendering: "geometricPrecision",
         }}
       >
@@ -173,7 +177,48 @@ export default function NorthAmericaMap({
           }}
         </Geographies>
 
-        {/* Layer 2 — US states, rendered at the continental zoom so the US
+        {/* Layer 2. Canada province seams, drawn as a hairline overlay
+            on top of the Canada country shape so the continental view
+            matches the visual treatment of the US (state lines visible
+            from the very first paint, not gated behind a click). The
+            paths are non-interactive. Clicks still bubble through to
+            the Canada Geography below, which routes via onSelectCanada
+            to the provinces drill-down. */}
+        <Geographies geography={CA_PROVINCES_URL}>
+          {({ geographies }) =>
+            geographies.map((geo) => (
+              <Geography
+                key={geo.rsmKey}
+                geography={geo}
+                style={{
+                  default: {
+                    fill: "transparent",
+                    stroke: NEUTRAL_STROKE,
+                    strokeWidth: 0.6,
+                    strokeLinejoin: "round",
+                    outline: "none",
+                    pointerEvents: "none",
+                  },
+                  hover: {
+                    fill: "transparent",
+                    stroke: NEUTRAL_STROKE,
+                    strokeWidth: 0.6,
+                    outline: "none",
+                    pointerEvents: "none",
+                  },
+                  pressed: {
+                    fill: "transparent",
+                    stroke: NEUTRAL_STROKE,
+                    strokeWidth: 0.6,
+                    outline: "none",
+                  },
+                }}
+              />
+            ))
+          }
+        </Geographies>
+
+        {/* Layer 3. US states, rendered at the continental zoom so the US
             shows its per-state stance breakdown instead of a single blob. */}
         <Geographies geography={STATES_URL}>
           {({ geographies }) => {
@@ -258,12 +303,12 @@ export default function NorthAmericaMap({
           }}
         </Geographies>
 
-        {showDataCenters && onHoverFacility && onLeaveFacility && (
+        {showProjects && onHoverProject && onLeaveProject && (
           <ProjectDots projection={naProjection as unknown as (c: [number, number]) => [number, number] | null}
             projects={ALL_HOUSING_PROJECTS}
-            onHoverFacility={onHoverFacility}
-            onLeaveFacility={onLeaveFacility}
-            onSelectFacility={onSelectFacility}
+            onHoverProject={onHoverProject}
+            onLeaveProject={onLeaveProject}
+            onSelectProject={onSelectProject}
           />
         )}
       </ComposableMap>

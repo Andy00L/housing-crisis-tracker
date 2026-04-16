@@ -17,7 +17,7 @@ interface Props {
   setTooltip: SetTooltip;
   dimension: Dimension;
   lens: DimensionLens;
-  showDataCenters: boolean;
+  showProjects: boolean;
 }
 
 export default function StaticAdapter({
@@ -28,7 +28,7 @@ export default function StaticAdapter({
   setTooltip,
   dimension,
   lens,
-  showDataCenters,
+  showProjects,
 }: Props) {
   const common = {
     onSelectEntity,
@@ -36,10 +36,10 @@ export default function StaticAdapter({
     setTooltip,
     dimension,
     lens,
-    showDataCenters,
-    onHoverFacility: () => {},
-    onLeaveFacility: () => {},
-    onSelectFacility: () => {},
+    showProjects,
+    onHoverProject: () => {},
+    onLeaveProject: () => {},
+    onSelectProject: () => {},
   };
 
   if (view.kind === "counties") {
@@ -49,10 +49,10 @@ export default function StaticAdapter({
         onSelectCounty={(fips) => onSelectEntity(fips)}
         selectedCountyFips={selectedGeoId}
         setTooltip={setTooltip}
-        showDataCenters={showDataCenters}
-        onHoverFacility={() => {}}
-        onLeaveFacility={() => {}}
-        onSelectFacility={() => {}}
+        showProjects={showProjects}
+        onHoverProject={() => {}}
+        onLeaveProject={() => {}}
+        onSelectProject={() => {}}
       />
     );
   }

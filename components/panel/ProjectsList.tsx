@@ -4,10 +4,10 @@ import type { HousingProject } from "@/types";
 import { statusColorForProject } from "@/lib/project-colors";
 
 interface ProjectsListProps {
-  facilities: HousingProject[];
+  projects: HousingProject[];
   /** What field to group the rows by. `null` renders a flat list. */
   groupBy: "state" | "country" | null;
-  onSelectFacility?: (dc: HousingProject) => void;
+  onSelectProject?: (project: HousingProject) => void;
 }
 
 function stripConfidence(s: string | undefined): string {
@@ -29,12 +29,12 @@ function sortByUnitCountDesc(a: HousingProject, b: HousingProject): number {
   return (b.unitCount ?? 0) - (a.unitCount ?? 0);
 }
 
-function groupFacilities(
-  facilities: HousingProject[],
+function groupProjects(
+  projects: HousingProject[],
   key: "state" | "country",
 ): Array<{ label: string; items: HousingProject[] }> {
   const map = new Map<string, HousingProject[]>();
-  for (const f of facilities) {
+  for (const f of projects) {
     const k = (f[key] ?? "Unknown").toString();
     const list = map.get(k) ?? [];
     list.push(f);
@@ -51,17 +51,17 @@ function groupFacilities(
     .map(({ label, items }) => ({ label, items }));
 }
 
-function FacilityRow({
-  facility,
+function ProjectRow({
+  project,
   onSelect,
 }: {
-  facility: HousingProject;
-  onSelect?: (dc: HousingProject) => void;
+  project: HousingProject;
+  onSelect?: (project: HousingProject) => void;
 }) {
-  const developer = stripConfidence(facility.developer) || "Housing project";
-  const units = formatUnits(facility.unitCount);
-  const color = statusColorForProject(facility.status);
-  const isProposed = facility.status === "proposed";
+  const developer = stripConfidence(project.developer) || "Housing project";
+  const units = formatUnits(project.unitCount);
+  const color = statusColorForProject(project.status);
+  const isProposed = project.status === "proposed";
 
   const clickable = !!onSelect;
   const Inner = (
@@ -78,7 +78,7 @@ function FacilityRow({
           {developer}
         </span>
         <span className="block text-[11px] text-muted truncate">
-          {STATUS_LABEL[facility.status]}
+          {STATUS_LABEL[project.status]}
           {units ? ` · ${units}` : ""}
         </span>
       </span>
@@ -89,7 +89,7 @@ function FacilityRow({
     return (
       <button
         type="button"
-        onClick={() => onSelect!(facility)}
+        onClick={() => onSelect!(project)}
         className="w-full flex items-start gap-2.5 py-2 px-2 -mx-2 rounded-lg text-left hover:bg-black/[.03] transition-colors"
       >
         {Inner}
@@ -102,32 +102,32 @@ function FacilityRow({
 }
 
 export default function ProjectsList({
-  facilities,
+  projects,
   groupBy,
-  onSelectFacility,
+  onSelectProject,
 }: ProjectsListProps) {
-  if (facilities.length === 0) {
+  if (projects.length === 0) {
     return (
       <p className="text-xs text-muted">No projects tracked here yet.</p>
     );
   }
 
   if (!groupBy) {
-    const sorted = facilities.slice().sort(sortByUnitCountDesc);
+    const sorted = projects.slice().sort(sortByUnitCountDesc);
     return (
       <div className="flex flex-col">
         {sorted.map((f) => (
-          <FacilityRow
+          <ProjectRow
             key={f.id}
-            facility={f}
-            onSelect={onSelectFacility}
+            project={f}
+            onSelect={onSelectProject}
           />
         ))}
       </div>
     );
   }
 
-  const groups = groupFacilities(facilities, groupBy);
+  const groups = groupProjects(projects, groupBy);
   return (
     <div className="flex flex-col gap-4">
       {groups.map((g) => (
@@ -142,10 +142,10 @@ export default function ProjectsList({
           </div>
           <div className="flex flex-col">
             {g.items.map((f) => (
-              <FacilityRow
+              <ProjectRow
                 key={f.id}
-                facility={f}
-                onSelect={onSelectFacility}
+                project={f}
+                onSelect={onSelectProject}
               />
             ))}
           </div>

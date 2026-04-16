@@ -303,9 +303,9 @@ export interface Legislation {
   stance?: StanceType;
   /**
    * Per-dimension stance overrides. A bill can read differently across
-   * dimensions (e.g. pro-development on data-center-energy, restrictive
-   * on ai-consumer). Only set for multi-dimension bills — single-dim
-   * bills defer to `stance`.
+   * dimensions (e.g. favorable on supply, restrictive on rental-market).
+   * Only set for multi-dimension bills. Single-dim bills defer to
+   * `stance`.
    */
   dimensionStances?: Partial<Record<Exclude<Dimension, "overall">, StanceType>>;
   impactTags: ImpactTag[];
@@ -317,7 +317,7 @@ export interface Legislation {
    *  actions where the action's title/summary mentions a specific housing
    *  project by developer + location. Used to render "Related projects"
    *  chips inside the expanded bill card. */
-  relatedFacilityIds?: string[];
+  relatedProjectIds?: string[];
   legiscanUrl?: string;
   legiscanId?: number;
   sponsors?: string[];
@@ -504,7 +504,7 @@ export interface ProposalGate {
   date?: string;
 }
 
-/** Structured detail about a proposed / under-construction facility. */
+/** Structured detail about a proposed / under-construction project. */
 export interface ProposalInfo {
   /** Ordered milestones left-to-right. Rendered as a dot row in the tooltip. */
   process?: ProposalGate[];
