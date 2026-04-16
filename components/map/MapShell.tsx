@@ -37,9 +37,17 @@ import NorthAmericaMap from "./NorthAmericaMap";
 import USStatesMap from "./USStatesMap";
 import CanadaProvincesMap from "./CanadaProvincesMap";
 import CensusDivisionMap from "./CensusDivisionMap";
+import dynamic from "next/dynamic";
 import CountyMap from "./CountyMap";
-import EuropeMap from "./EuropeMap";
-import AsiaMap from "./AsiaMap";
+
+const EuropeMap = dynamic(
+  () => import("./EuropeMap"),
+  { ssr: false, loading: () => <div className="h-full w-full animate-pulse bg-neutral-100" /> },
+);
+const AsiaMap = dynamic(
+  () => import("./AsiaMap"),
+  { ssr: false, loading: () => <div className="h-full w-full animate-pulse bg-neutral-100" /> },
+);
 import ProjectCard from "./ProjectCard";
 import {
   getMunicipalitiesByState,

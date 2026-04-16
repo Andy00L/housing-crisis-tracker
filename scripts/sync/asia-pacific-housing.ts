@@ -101,21 +101,21 @@ const SPECS: Record<string, CountrySpec> = {
   id: {
     code: "ID",
     name: "Indonesia",
-    domains: ["pu.go.id", "dpr.go.id"],
+    domains: ["pu.go.id", "dpr.go.id", "pkp.go.id"],
     currency: "IDR",
     languageNote: "use Indonesian terms (rumah susun, perumahan)",
   },
   tw: {
     code: "TW",
     name: "Taiwan",
-    domains: ["ly.gov.tw", "cpami.gov.tw"],
+    domains: ["ly.gov.tw", "lis.ly.gov.tw", "cpami.gov.tw", "moi.gov.tw"],
     currency: "TWD",
     languageNote: "use traditional Chinese (社會住宅, 公共住宅)",
   },
   au: {
     code: "AU",
     name: "Australia",
-    domains: ["aph.gov.au", "housing.gov.au", "dhw.gov.au"],
+    domains: ["aph.gov.au", "legislation.gov.au", "housing.gov.au", "dhw.gov.au"],
     currency: "AUD",
   },
 };
@@ -412,9 +412,30 @@ async function main() {
   mkdirSync(LEG_DIR, { recursive: true });
   mkdirSync(PROJ_DIR, { recursive: true });
 
+  // Native language queries for countries where English-only searches
+  // return zero results because official sources publish in the local language.
+  const nativeQueries: Record<string, string[]> = {
+    AU: [
+      "Housing Australia Future Fund 2025",
+      "National Housing Accord 2025 parliament",
+      "Help to Buy scheme Australia 2025",
+    ],
+    ID: [
+      "undang-undang perumahan Indonesia 2025",
+      "rumah susun peraturan 2025",
+      "Kementerian Perumahan 2025",
+    ],
+    TW: [
+      "\u4f4f\u5b85\u6cd5 \u4fee\u6b63 2025 \u7acb\u6cd5\u9662",
+      "\u793e\u6703\u4f4f\u5b85 \u653f\u7b56 2025",
+      "\u623f\u5c4b\u5e02\u5834 \u6cd5\u898f 2025",
+    ],
+  };
+
   const billQueries = [
     `${spec.name} housing bill 2025 2026 affordability`,
     `${spec.name} tenant protection rent control 2025`,
+    ...(nativeQueries[spec.code] ?? []),
   ];
   const projectQueries = [
     `${spec.name} housing project 2025 2026 social housing development`,

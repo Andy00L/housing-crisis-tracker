@@ -86,14 +86,14 @@ const SPECS: Record<string, CountrySpec> = {
   de: {
     code: "DE",
     name: "Germany",
-    domains: ["bmwsb.bund.de", "bundestag.de", "bmi.bund.de"],
+    domains: ["bmwsb.bund.de", "bundestag.de", "bundesrat.de", "bmi.bund.de"],
     currency: "EUR",
     languageNote: "mix German and English terms (Wohnungsbau, Mietpreisbremse)",
   },
   fr: {
     code: "FR",
     name: "France",
-    domains: ["legifrance.gouv.fr", "assemblee-nationale.fr", "ecologie.gouv.fr"],
+    domains: ["legifrance.gouv.fr", "assemblee-nationale.fr", "senat.fr", "ecologie.gouv.fr"],
     currency: "EUR",
     languageNote: "use French terms (logement, loi SRU, encadrement loyers)",
   },
@@ -493,9 +493,25 @@ async function main() {
   mkdirSync(LEG_DIR, { recursive: true });
   mkdirSync(PROJ_DIR, { recursive: true });
 
+  // Native language queries for countries where English-only searches
+  // return zero results because official sources publish in the local language.
+  const nativeQueries: Record<string, string[]> = {
+    DE: [
+      "Wohnungsbaugesetz 2025 Bundestag",
+      "Mietpreisbremse Bundesrat 2025",
+      "Baulandmobilisierungsgesetz 2025",
+    ],
+    FR: [
+      "loi logement 2025 Assemblee nationale",
+      "encadrement loyers 2025 France",
+      "loi habitat indigne 2025",
+    ],
+  };
+
   const billQueries = [
     `${spec.name} housing bill 2025 2026 affordability`,
     `${spec.name} tenant protection rent control 2025`,
+    ...(nativeQueries[spec.code] ?? []),
   ];
   const projectQueries = [
     `${spec.name} housing project 2025 2026 social housing development`,
