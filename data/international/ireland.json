@@ -4,185 +4,43 @@
   "name": "Ireland",
   "region": "eu",
   "level": "federal",
-  "contextBlurb": "Dublin hosts Europe's second-largest data center cluster — already 22% of national electricity, projected to hit 31% by 2034. In December 2025 the CRU ended a de facto Dublin moratorium with a new policy requiring new data centers to bring their own dispatchable generation and source 80% of demand from new Irish renewables within six years. Ireland is also among the EU's most advanced AI Act implementers, standing up a statutory National AI Office by August 2026.",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "contextBlurb": "Ireland's housing portfolio is led by James Browne (Fianna Fáil), Minister for Housing, Local Government and Heritage. The Housing Finance Agency (Amendment) Bill 2025 expands the agency's lending capacity to 6.65 billion euro through 2028. A national rent control limiting rent increases for properties other than new build apartments takes effect from 1 March 2026, alongside rolling 6 year tenancy protections.",
   "legislation": [
     {
-      "id": "ireland-cru-leu-connection-policy",
-      "billCode": "CRU2025236",
-      "title": "CRU Large Energy Users Connection Policy Decision (Data Centre Grid Connection Policy)",
-      "summary": "Published by the Commission for Regulation of Utilities in December 2025, this binding decision replaces the 2021 moratorium framework and requires new data centres above 10 MVA to provide on-site or proximate dispatchable generation matching their full grid import capacity, participate in the Single Electricity Market, and source 80% of annual electricity from additional Irish renewables within a six-year glide path. System Operators EirGrid and ESB Networks must assess each application against location constraints and publish a standardised connection process by 31 March 2026.",
-      "stage": "Enacted",
-      "stance": "concerning",
-      "impactTags": [
-        "grid-capacity",
-        "renewable-obligation",
-        "hyperscale",
-        "dublin-constraint",
-        "energy-security"
-      ],
-      "category": "data-center-energy",
-      "updatedDate": "2025-12-12",
-      "partyOrigin": "B",
-      "sourceUrl": "https://www.cru.ie/about-us/news/the-cru-publishes-its-decision-on-new-electricity-connection-policy-for-data-centres/"
+      "id": "eu-ie-housing-finance-agency-amendment-bill-2025",
+      "billCode": "Housing Finance Agency (Amendment) Bill 2025",
+      "title": "Housing Finance Agency (Amendment) Bill 2025",
+      "summary": "Amends the Housing Finance Agency's mandate and expands its forecast lending capacity, covering social housing, cost rental, local authority mortgages, housing infrastructure, and retrofitting through to 2028. Total projected lending of 6.65 billion euro to support delivery of affordable and social housing at scale.",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": ["social-housing"],
+      "category": "affordable-housing",
+      "updatedDate": "2025-10-28",
+      "sourceUrl": "https://data.oireachtas.ie/ie/oireachtas/libraryResearch/2025/2025-10-28_bill-digest-housing-finance-agency-amendment-bill-2025_en.pdf"
     },
     {
-      "id": "ireland-leap-large-energy-user-action-plan",
-      "billCode": "LEAP-2026",
-      "title": "Large Energy User Action Plan (LEAP)",
-      "summary": "Approved by Cabinet on 13 January 2026 and jointly published by the Ministers for Enterprise and Climate, this 17-action government strategy sets a plan-led framework for siting very large energy users — including data centres, semiconductors, and pharma — near indigenous renewable energy sources, particularly offshore wind on Ireland's west coast. It identifies 'green energy park' locations for co-location of hyperscale facilities with renewables, aiming to redirect investment away from congested Dublin-area grid nodes toward unconstrained regional sites and signals intent to legislate for private wire connections in 2026.",
+      "id": "eu-ie-rental-sector-national-rent-control-2025",
+      "billCode": "Rental Sector National Rent Control 2025",
+      "title": "National Rent Control and Tenancy Protection Measures 2025",
+      "summary": "Government-approved policy measures introduced 10 June 2025 providing enhanced rent controls and tenancy protections for new tenancies. Includes a national rent control limiting rent increases for properties other than new build apartments from 1 March 2026, and rolling 6 year tenancy protections. Measures enacted through expansion of rent pressure zones nationwide on 20 June 2025.",
       "stage": "Enacted",
-      "stance": "review",
-      "impactTags": [
-        "green-energy-parks",
-        "regional-siting",
-        "offshore-wind",
-        "private-wires",
-        "fdi"
-      ],
-      "category": "data-center-siting",
-      "updatedDate": "2026-01-13",
-      "partyOrigin": "B",
-      "sourceUrl": "https://enterprise.gov.ie/en/news-and-events/department-news/2026/january/20260113.html"
-    },
-    {
-      "id": "ireland-ai-bill-2026",
-      "billCode": "RAI Bill 2026",
-      "title": "General Scheme of the Regulation of Artificial Intelligence Bill 2026",
-      "summary": "Published in February 2026, this General Scheme gives full domestic effect to EU Regulation 2024/1689 (the EU AI Act) by establishing the legislative and institutional architecture for national supervision and enforcement. It proposes creating a new statutory independent body — the AI Office of Ireland (Oifig Intleachta Shaorga na hÉireann) — under the Department of Enterprise, Tourism and Employment, to serve as the central coordinating authority, operate a regulatory sandbox, and act as Ireland's Single Point of Contact with the European Commission, with the Office required to be operational by 2 August 2026.",
-      "stage": "Filed",
-      "stance": "review",
-      "impactTags": [
-        "eu-ai-act",
-        "national-ai-office",
-        "enforcement",
-        "regulatory-sandbox",
-        "high-risk-ai"
-      ],
-      "category": "ai-governance",
-      "updatedDate": "2026-02-04",
-      "partyOrigin": "B",
-      "sourceUrl": "https://enterprise.gov.ie/en/legislation/general-scheme-of-the-regulation-of-artificial-intelligence-bill-2026.html"
-    },
-    {
-      "id": "ireland-so-dc-process-march-2026",
-      "billCode": "SO Engagement Process",
-      "title": "System Operators Data Centre Engagement Process (March 2026)",
-      "summary": "Pursuant to the CRU's LEU decision, EirGrid and ESB Networks published their dedicated engagement and connection process for data-centre applicants by 31 March 2026, standardising how projects demonstrate dispatchable generation, storage, and SEM participation ahead of grid offers.",
-      "stage": "Enacted",
-      "stance": "review",
-      "impactTags": [
-        "EirGrid",
-        "ESB-Networks",
-        "data-center",
-        "connection-process"
-      ],
-      "category": "data-center-energy",
-      "updatedDate": "2026-03-31",
-      "sourceUrl": "https://www.pinsentmasons.com/out-law/news/irish-data-centres-power-national-grid-regulator"
+      "stance": "favorable",
+      "impactTags": ["rent-stabilization"],
+      "category": "rent-regulation",
+      "updatedDate": "2025-06-20",
+      "sourceUrl": "https://www.gov.ie/en/department-of-housing-local-government-and-heritage/press-releases/over-40000-more-tenancies-now-benefit-from-rent-controls-as-rent-pressure-zones-expanded-nationwide/"
     }
   ],
   "keyFigures": [
     {
-      "id": "ireland-burke",
-      "name": "Peter Burke",
-      "role": "Minister for Enterprise, Tourism and Employment",
-      "party": "FG",
-      "stance": "favorable"
-    },
-    {
-      "id": "ireland-obrien",
-      "name": "Darragh O'Brien",
-      "role": "Minister for Climate, Energy and the Environment",
-      "party": "FF",
-      "stance": "review"
-    },
-    {
-      "id": "ireland-smyth",
-      "name": "Niamh Smyth",
-      "role": "Minister of State for Trade Promotion, Artificial Intelligence and Digital Transformation",
-      "party": "FF",
-      "stance": "favorable"
-    },
-    {
-      "id": "ireland-sweeney",
-      "name": "Niamh Sweeney",
-      "role": "Commissioner, Data Protection Commission (DPC)",
-      "party": "N/A",
-      "stance": "concerning"
-    },
-    {
-      "id": "ireland-hogan",
-      "name": "Des Hogan",
-      "role": "Chairperson and Commissioner, Data Protection Commission (DPC)",
-      "party": "N/A",
-      "stance": "concerning"
-    },
-    {
-      "id": "ireland-ocallaghan",
-      "name": "Jim O'Callaghan",
-      "role": "Minister for Justice, Home Affairs and Migration",
-      "party": "Fianna Fáil",
-      "stance": "review"
-    },
-    {
-      "id": "ireland-martin",
-      "name": "Micheál Martin",
-      "role": "Taoiseach (Prime Minister of Ireland)",
+      "id": "ie-browne",
+      "name": "James Browne",
+      "role": "Minister for Housing, Local Government and Heritage",
       "party": "Fianna Fáil",
       "stance": "favorable"
     }
   ],
-  "news": [
-    {
-      "id": "ireland-news-1",
-      "headline": "New data centres must generate and supply electricity to wider market, regulator rules",
-      "source": "The Irish Times",
-      "date": "2025-12-12",
-      "url": "https://www.irishtimes.com/business/2025/12/12/new-data-centres-must-generate-and-supply-electricity-to-wider-market-regulator-rules/"
-    },
-    {
-      "id": "ireland-news-2",
-      "headline": "Cabinet approves energy plan in bid to attract investment",
-      "source": "RTÉ News",
-      "date": "2026-01-13",
-      "url": "https://www.rte.ie/news/politics/2026/0113/1552975-energy-plan-govt/"
-    },
-    {
-      "id": "ireland-news-3",
-      "headline": "Ireland Moves to Establish AI Office Under 2026 Bill to Enforce EU AI Act",
-      "source": "BABL AI",
-      "date": "2026-02-10",
-      "url": "https://babl.ai/ireland-moves-to-establish-ai-office-under-2026-bill-to-enforce-eu-ai-act/"
-    },
-    {
-      "id": "ireland-news-4",
-      "headline": "PV and storage will be central to Ireland's first co-located data center and renewables campus",
-      "source": "PV Magazine",
-      "date": "2026-03-30",
-      "url": "https://www.pv-magazine.com/2026/03/30/pv-and-storage-will-be-central-to-irelands-first-co-located-data-center-and-renewables-campus/"
-    },
-    {
-      "id": "ireland-news-5",
-      "headline": "New Irish data centres must generate power back into national grid, rules regulator",
-      "source": "Pinsent Masons",
-      "date": "2025-12-19",
-      "url": "https://www.pinsentmasons.com/out-law/news/irish-data-centres-power-national-grid-regulator"
-    },
-    {
-      "id": "ireland-news-7",
-      "headline": "Powering AI: Europe switches on its first microgrid-connected data center",
-      "source": "CNBC",
-      "date": "2026-03-11",
-      "url": "https://www.cnbc.com/2026/03/11/data-center-microgrid-power-ireland-ai-boom-avk-pure-dc.html"
-    },
-    {
-      "id": "ireland-news-8",
-      "headline": "What the world can learn from Ireland's battle to power data centres",
-      "source": "Irish Times",
-      "date": "2026-03-17",
-      "url": "https://www.irishtimes.com/business/2026/03/17/what-the-world-can-learn-from-irelands-battle-to-power-data-centres/"
-    }
-  ],
-  "stanceZoning": "concerning",
-  "stanceAffordability": "concerning"
+  "news": []
 }

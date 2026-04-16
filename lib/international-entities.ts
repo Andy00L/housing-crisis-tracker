@@ -3,9 +3,12 @@ import { RESEARCHED_INTERNATIONAL } from "./international-researched";
 
 /**
  * EU + Asia + Canada (non-US North America) entities. Hand-curated baseline
- * entities live in HAND_CURATED below. Claude-researched additions (via
- * scripts/sync/international.ts) are imported from data/international/*.json
- * through ./international-researched and merged in below.
+ * entities live in HAND_CURATED below. Pipeline-researched additions are
+ * imported from data/international/*.json through ./international-researched
+ * and merged in below. Entries here are housing-focused; the pre-pivot
+ * tracker's residue has been replaced with housing minister data and bill
+ * summaries drawn from data/legislation/europe and
+ * data/legislation/asia-pacific.
  */
 const HAND_CURATED: Entity[] = [
   // ─────────── EU REGION ───────────
@@ -16,127 +19,74 @@ const HAND_CURATED: Entity[] = [
     region: "eu",
     level: "bloc",
     isOverview: true,
-    // EU passed the world's most comprehensive AI law (the AI Act) plus
-    // EnEfG-style data center mandates. Heaviest regulator on the planet.
-    stanceZoning: "concerning",
-    stanceAffordability: "concerning",
+    stanceZoning: "favorable",
+    stanceAffordability: "favorable",
     contextBlurb:
-      "The EU AI Act is the world's first comprehensive legal framework for AI — a risk-based regime that bans certain uses outright, forces conformity assessments on high-risk systems, and layers transparency duties on general-purpose models. Alongside it, the recast Energy Efficiency Directive imposes mandatory reporting, PUE disclosure, and waste-heat reuse on any data center above 500 kW.",
+      "The European Union is advancing a coordinated response to housing affordability through the European Affordable Housing Plan, presented by the Commission in December 2025. The European Parliament adopted report A10-0025/2026 in March 2026, calling for incentive-based tax systems for low and middle income households, a 60 day cap on planning permit processing, and measures to prevent short-term rentals from threatening city affordability. Dan Jorgensen serves as the first European Commissioner for Energy and Housing.",
     legislation: [
       {
-        id: "eu-ai-act",
-        billCode: "Reg. 2024/1689",
-        title: "Artificial Intelligence Act",
+        id: "eu-eu-a10-0025-2026",
+        billCode: "A10-0025/2026",
+        title:
+          "Housing Crisis in the European Union with the Aim of Proposing Solutions for Decent, Sustainable and Affordable Housing",
         summary:
-          "Risk-based regulation prohibiting unacceptable AI uses, requiring conformity assessments for high-risk systems, and transparency obligations for general-purpose AI models.",
-        stage: "Enacted",
-        impactTags: [],
+          "Report adopted by the European Parliament in plenary on 10 March 2026, setting out MEPs' recommendations to tackle the EU housing crisis. Includes incentive-based tax systems for low- and middle-income households, limits on planning permit processing to 60 days, and measures to prevent short-term rentals from threatening city affordability.",
+        stage: "Floor",
+        stance: "favorable",
+        impactTags: ["affordability"],
         category: "affordable-housing",
-        updatedDate: "2026-03-12",
-        partyOrigin: "B",
+        updatedDate: "2026-03-10",
+        sourceUrl:
+          "https://www.europarl.europa.eu/news/en/agenda/plenary-news/2026-03-09/1/parliament-s-proposals-to-address-europe-s-housing-crisis",
+        sponsors: ["Borja Giménez Larraz"],
       },
       {
-        id: "eu-edd",
-        billCode: "Dir. 2023/1791",
-        title: "Energy Efficiency Directive (recast)",
+        id: "eu-eu-eahp-2025",
+        billCode: "EAHP-2025",
+        title: "European Affordable Housing Plan",
         summary:
-          "Mandatory reporting and efficiency standards for data centers above 500 kW, including PUE disclosure and waste-heat reuse requirements.",
-        stage: "Enacted",
-        impactTags: ["environmental-review", "transit-oriented"],
-        category: "zoning-reform",
-        updatedDate: "2026-02-28",
-        partyOrigin: "B",
+          "Presented by the Commission on 16 December 2025. The Plan supports Member States, regions, and cities in expanding access to affordable housing, and is accompanied by consultations on a prospective Affordable Housing Act.",
+        stage: "Filed",
+        stance: "favorable",
+        impactTags: ["affordability"],
+        category: "affordable-housing",
+        updatedDate: "2025-12-16",
+        sourceUrl:
+          "https://www.europarl.europa.eu/legislative-train/theme-supporting-people-strengthening-our-societies-and-our-social-model/file-the-european-affordable-housing-plan",
+      },
+      {
+        id: "eu-eu-a-10-2025-0139",
+        billCode: "A-10-2025-0139",
+        title:
+          "Report on the Role of Cohesion Policy Investment in Resolving the Current Housing Crisis",
+        summary:
+          "European Parliament report examining how EU cohesion policy funds can be deployed to address the housing crisis. Provides recommendations on investment strategies to improve housing availability and affordability across Member States.",
+        stage: "Committee",
+        stance: "favorable",
+        impactTags: ["affordability"],
+        category: "affordable-housing",
+        updatedDate: "2025-01-01",
+        sourceUrl:
+          "https://www.europarl.europa.eu/doceo/document/A-10-2025-0139_EN.html",
       },
     ],
     keyFigures: [
       {
-        id: "eu-vdl",
-        name: "Ursula von der Leyen",
-        role: "European Commission · President · AI Act and Cloud & AI Development Act",
-        party: "EPP",
-        stance: "concerning",
-      },
-      {
-        id: "eu-virkkunen",
-        name: "Henna Virkkunen",
-        role: "European Commission · EVP Tech Sovereignty, Security & Democracy",
-        party: "EPP",
-        stance: "concerning",
-      },
-      {
-        id: "eu-ribera",
-        name: "Teresa Ribera",
-        role: "European Commission · EVP Clean, Just & Competitive Transition · data-center energy rules",
+        id: "eu-jorgensen",
+        name: "Dan Jørgensen",
+        role: "European Commission · Commissioner for Energy and Housing",
         party: "S&D",
-        stance: "restrictive",
-      },
-      {
-        id: "eu-merz",
-        name: "Friedrich Merz",
-        role: "Germany · Chancellor · EnEfG enforcement and sovereign-AI investment",
-        party: "CDU",
-        stance: "concerning",
-      },
-      {
-        id: "eu-macron",
-        name: "Emmanuel Macron",
-        role: "France · President · sovereign-AI champion (Mistral, Scaleway)",
-        party: "Renaissance",
-        stance: "favorable",
-      },
-      {
-        id: "eu-meloni",
-        name: "Giorgia Meloni",
-        role: "Italy · Prime Minister · G7 AI chair and Hiroshima Process lead",
-        party: "FdI",
         stance: "review",
       },
       {
-        id: "eu-martin",
-        name: "Micheál Martin",
-        role: "Ireland · Taoiseach · host of 30%+ of EU hyperscale capacity",
-        party: "Fianna Fáil",
+        id: "eu-gimenez-larraz",
+        name: "Borja Giménez Larraz",
+        role: "MEP · Rapporteur, A10-0025/2026 housing crisis report",
+        party: "EPP",
         stance: "favorable",
       },
-      {
-        id: "eu-sioli",
-        name: "Lucilla Sioli",
-        role: "European AI Office · Director · AI Act operational lead",
-        party: "—",
-        stance: "concerning",
-      },
     ],
-    news: [
-      {
-        id: "eu-news-1",
-        headline:
-          "EU Commission Publishes First Guidelines for GPAI Providers",
-        source: "European Commission",
-        date: "2025-07-18",
-        url: "https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers",
-      },
-      {
-        id: "eu-news-2",
-        headline: "EU Sets 2026 AI Act Enforcement Priorities",
-        source: "Creati AI",
-        date: "2026-02-12",
-        url: "https://creati.ai/ai-news/2026-02-12/eu-commission-ai-act-implementation-2026/",
-      },
-      {
-        id: "eu-news-3",
-        headline: "Orrick: Six Steps Before EU AI Act Enforcement",
-        source: "Orrick",
-        date: "2025-11-15",
-        url: "https://www.orrick.com/en/Insights/2025/11/The-EU-AI-Act-6-Steps-to-Take-Before-2-August-2026",
-      },
-      {
-        id: "eu-news-4",
-        headline: "EU AI Act GPAI Transparency Rules Take Effect",
-        source: "DLA Piper",
-        date: "2025-08-15",
-        url: "https://www.dlapiper.com/en-us/insights/publications/2025/08/latest-wave-of-obligations-under-the-eu-ai-act-take-effect",
-      },
-    ],
+    news: [],
   },
   {
     id: "germany",
@@ -144,85 +94,21 @@ const HAND_CURATED: Entity[] = [
     name: "Germany",
     region: "eu",
     level: "federal",
-    // Germany has the strictest data center energy law in Europe (EnEfG:
-    // PUE ≤ 1.2, 100% renewables by 2027, mandatory waste-heat reuse).
-    // Pro-tech in tone but the actual regulatory regime is restrictive.
-    stanceZoning: "concerning",
-    stanceAffordability: "concerning",
+    stanceZoning: "review",
+    stanceAffordability: "review",
     contextBlurb:
-      "Germany is implementing the EU AI Act with extra national teeth — especially on AI in employment. Its binding data center efficiency law (EnEfG) requires all new facilities to run on 100% renewable power by 2027, the strictest grid standard among major EU economies.",
-    legislation: [
-      {
-        id: "de-enefg",
-        billCode: "EnEfG §11",
-        title: "Energy Efficiency Act — Data Centre Provisions",
-        summary:
-          "Requires PUE ≤ 1.2 for new data centers, 50% waste-heat reuse, and 100% renewable energy by 2027.",
-        stage: "Enacted",
-        impactTags: ["environmental-review", "transit-oriented"],
-        category: "zoning-reform",
-        updatedDate: "2026-03-27",
-        partyOrigin: "B",
-      },
-      {
-        id: "de-ai-employment",
-        billCode: "Drs. 20/8129",
-        title: "AI in Employment Act",
-        summary:
-          "Establishes works council co-determination rights over AI systems used in hiring, performance review, and dismissal decisions.",
-        stage: "Floor",
-        impactTags: [],
-        category: "development-incentive",
-        updatedDate: "2026-03-10",
-        partyOrigin: "D",
-      },
-    ],
+      "Germany's federal housing portfolio is led by Verena Hubertz (SPD), Bundesbauministerin (Federal Minister for Housing, Urban Development and Building). English-language coverage of Bundestag housing legislation is thin in this release. The tracker continues to monitor federal housing activity but has not yet captured German-language housing bills with sufficient detail to surface here.",
+    legislation: [],
     keyFigures: [
       {
-        id: "de-wissing",
-        name: "Volker Wissing",
-        role: "Federal Minister for Digital and Transport · EnEfG sponsor",
-        party: "FDP",
-        stance: "favorable",
-      },
-      {
-        id: "de-mast",
-        name: "Katja Mast",
-        role: "MdB · SPD · Lead, AI in Employment Act",
+        id: "de-hubertz",
+        name: "Verena Hubertz",
+        role: "Federal Minister for Housing, Urban Development and Building",
         party: "SPD",
-        stance: "favorable",
-      },
-      {
-        id: "de-rasche",
-        name: "Maria-Lena Weiss",
-        role: "MdB · CDU · Digital Committee Ranking Member",
-        party: "CDU",
         stance: "review",
       },
     ],
-    news: [
-      {
-        id: "de-news-1",
-        headline: "EnEfG Sets PUE ≤1.2 for German Data Centers",
-        source: "White & Case",
-        date: "2024-02-08",
-        url: "https://www.whitecase.com/insight-alert/data-center-requirements-under-new-german-energy-efficiency-act",
-      },
-      {
-        id: "de-news-2",
-        headline: "Germany Mandates Data Center Waste-Heat Recovery",
-        source: "Cundall",
-        date: "2024-04-30",
-        url: "https://www.cundall.com/ideas/blog/why-germanys-energy-efficiency-act-makes-waste-heat-recovery-a-national-priority",
-      },
-      {
-        id: "de-news-3",
-        headline: "Germany First to Codify EU Data Center Rules",
-        source: "Columbia Climate Law Blog",
-        date: "2025-10-24",
-        url: "https://blogs.law.columbia.edu/climatechange/2025/10/24/from-eu-framework-to-national-action-how-germany-regulates-data-center-energy-use/",
-      },
-    ],
+    news: [],
   },
   {
     id: "france",
@@ -230,85 +116,21 @@ const HAND_CURATED: Entity[] = [
     name: "France",
     region: "eu",
     level: "federal",
-    // Macron's all-in sovereign-AI-compute push, €2.5B France 2030 fund,
-    // and the AI mega-site build-out make France one of the most
-    // innovation-friendly EU members despite the bloc-level AI Act.
-    stanceZoning: "favorable",
-    stanceAffordability: "concerning",
+    stanceZoning: "review",
+    stanceAffordability: "review",
     contextBlurb:
-      "France is pitching itself as Europe's AI capital — anchored by an AI sovereignty strategy and a hard push for domestic compute. On the flip side, CNIL (the data protection authority) has flagged data center water consumption as an urgent regulatory gap, signaling scrutiny of the hyperscale buildout alongside the welcome mat.",
-    legislation: [
-      {
-        id: "fr-loi-num",
-        billCode: "PJL-AN 2024-512",
-        title: "Loi pour la Souveraineté Numérique",
-        summary:
-          "Establishes a national framework for sovereign cloud certification and data center siting near low-carbon power sources.",
-        stage: "Committee",
-        impactTags: [],
-        category: "zoning-reform",
-        updatedDate: "2026-03-05",
-        partyOrigin: "B",
-      },
-      {
-        id: "fr-cnil-water",
-        billCode: "Arr. CNIL-2025",
-        title: "CNIL Water Use Disclosure Order",
-        summary:
-          "Mandates water consumption disclosure for data centers exceeding 5 MW under expanded environmental reporting authority.",
-        stage: "Enacted",
-        impactTags: ["affordability"],
-        category: "zoning-reform",
-        updatedDate: "2026-03-22",
-        partyOrigin: "B",
-      },
-    ],
+      "France's housing portfolio is led by Vincent Jeanbrun (LR), Ministre de la Ville et du Logement, appointed on 12 October 2025. Coverage of Assemblée Nationale housing legislation is limited in this release. The tracker continues to monitor French parliamentary activity for affordability and rental measures.",
+    legislation: [],
     keyFigures: [
       {
-        id: "fr-bothorel",
-        name: "Éric Bothorel",
-        role: "Deputy · Renaissance · Chair, AI Working Group",
-        party: "Renaissance",
-        stance: "favorable",
-      },
-      {
-        id: "fr-de-montchalin",
-        name: "Amélie de Montchalin",
-        role: "Senator · Renaissance · Lead, Loi pour la Souveraineté Numérique",
-        party: "Renaissance",
-        stance: "favorable",
-      },
-      {
-        id: "fr-bayou",
-        name: "Julien Bayou",
-        role: "Deputy · EELV · Water-use disclosure advocate",
-        party: "EELV",
-        stance: "restrictive",
+        id: "fr-jeanbrun",
+        name: "Vincent Jeanbrun",
+        role: "Ministre de la Ville et du Logement",
+        party: "LR",
+        stance: "review",
       },
     ],
-    news: [
-      {
-        id: "fr-news-1",
-        headline: "France Adds Sector-Specific Data Center Rules",
-        source: "National Law Review",
-        date: "2026-02-20",
-        url: "https://natlawreview.com/article/building-data-centers-france-navigating-regulatory-hurdles-and-unlocking-growth",
-      },
-      {
-        id: "fr-news-2",
-        headline: "France Now Hosts 352 Active Data Centers",
-        source: "Futura Sciences",
-        date: "2026-01-25",
-        url: "https://www.futura-sciences.com/en/french-data-centers-set-off-alarm-what-risks-are-hitting-closer-than-you-think_27400/",
-      },
-      {
-        id: "fr-news-3",
-        headline: "Inside Macron's Push for AI Data Center Capital",
-        source: "Data Center Dynamics",
-        date: "2026-02-28",
-        url: "https://www.datacenterdynamics.com/en/analysis/france-ai-data-center-build-out-emmanuel-macron/",
-      },
-    ],
+    news: [],
   },
   {
     id: "united-kingdom",
@@ -316,86 +138,43 @@ const HAND_CURATED: Entity[] = [
     name: "United Kingdom",
     region: "eu",
     level: "federal",
-    // Post-Brexit UK deliberately chose a pro-innovation, principles-based
-    // approach distinct from the EU AI Act. Bletchley Declaration host,
-    // AI Growth Zones in planning, AI Bill delayed to keep options open.
-    stanceZoning: "review",
-    stanceAffordability: "review",
-    // (key figures populated below)
+    stanceZoning: "favorable",
+    stanceAffordability: "favorable",
     contextBlurb:
-      "Post-Brexit the UK has taken a pro-innovation, principles-based AI approach that's deliberately distinct from the EU AI Act. Surging data center demand has pressured the grid hard enough that National Grid is now running a formal load-zone review.",
+      "The United Kingdom's housing portfolio is led by Steve Reed, Secretary of State for Housing, Communities and Local Government, with Matthew Pennycook as Minister for Housing and Planning. The 39 billion pound Social and Affordable Homes Programme 2026 to 2036, administered by Homes England and the Greater London Authority, opened bidding in early 2026 to scale delivery of social and affordable housing across England.",
     legislation: [
       {
-        id: "uk-ai-bill",
-        billCode: "HL Bill 11",
-        title: "Artificial Intelligence (Regulation) Bill",
+        id: "eu-uk-sahp-2026-2036",
+        billCode: "SAHP-2026-2036",
+        title: "Social and Affordable Homes Programme 2026 to 2036",
         summary:
-          "Establishes a UK AI Authority with cross-sectoral coordination duties and a statutory duty to consult on high-risk model evaluations.",
-        stage: "Committee",
-        impactTags: [],
-        category: "affordable-housing",
-        updatedDate: "2026-03-28",
-        partyOrigin: "B",
-      },
-      {
-        id: "uk-grid",
-        billCode: "Ofgem CR-2025/04",
-        title: "Data Centre Connection Code Review",
-        summary:
-          "Ofgem consultation on new connection queue rules for sub-50 MW data center loads following grid congestion in West London.",
+          "A 39 billion pound ten-year programme administered by Homes England and the Greater London Authority to accelerate the delivery of social and affordable housing across England. Bidding opened in early 2026. The programme incorporates new design elements alongside the best of previous programmes to maximise housebuilding at scale.",
         stage: "Filed",
-        impactTags: ["density"],
-        category: "zoning-reform",
-        updatedDate: "2026-03-13",
-        partyOrigin: "B",
+        stance: "favorable",
+        impactTags: ["affordability"],
+        category: "affordable-housing",
+        updatedDate: "2026-01-28",
+        sourceUrl:
+          "https://www.gov.uk/government/publications/launching-the-social-and-affordable-homes-programme-2026-to-2036",
       },
     ],
     keyFigures: [
       {
-        id: "uk-clement-jones",
-        name: "Lord Tim Clement-Jones",
-        role: "Peer · Lib Dem · Lead, HL Bill 11",
-        party: "Lib Dem",
+        id: "uk-reed",
+        name: "Steve Reed",
+        role: "Secretary of State for Housing, Communities and Local Government",
+        party: "Labour",
         stance: "favorable",
       },
       {
-        id: "uk-onwurah",
-        name: "Chi Onwurah",
-        role: "MP · Labour · Shadow Minister, Science & Innovation",
+        id: "uk-pennycook",
+        name: "Matthew Pennycook",
+        role: "Minister for Housing and Planning",
         party: "Labour",
-        stance: "review",
-      },
-      {
-        id: "uk-vaizey",
-        name: "Lord Ed Vaizey",
-        role: "Peer · Conservative · Communications and Digital Committee",
-        party: "Conservative",
-        stance: "concerning",
+        stance: "favorable",
       },
     ],
-    news: [
-      {
-        id: "uk-news-1",
-        headline: "Ofgem Launches Grid Connection Overhaul",
-        source: "Data Center Dynamics",
-        date: "2026-02-15",
-        url: "https://www.datacenterdynamics.com/en/news/uk-energy-regulator-ofgem-launches-grid-connection-overhaul-consultation-with-data-centers-a-focal-point/",
-      },
-      {
-        id: "uk-news-2",
-        headline: "Planning Reform for UK AI Growth Zones",
-        source: "Burges Salmon",
-        date: "2026-01-30",
-        url: "https://www.burges-salmon.com/articles/102lxwu/data-centres-ai-growth-zones-in-planning-change-on-the-horizon-in-2026/",
-      },
-      {
-        id: "uk-news-3",
-        headline: "UK AI Bill Delayed Until After King's Speech",
-        source: "Taylor Wessing",
-        date: "2025-12-10",
-        url: "https://www.taylorwessing.com/en/interface/2025/predictions-2026/uk-tech-and-digital-regulatory-policy-in-2026",
-      },
-    ],
+    news: [],
   },
 
   // ─────────── ASIA REGION ───────────
@@ -406,120 +185,49 @@ const HAND_CURATED: Entity[] = [
     region: "asia",
     level: "bloc",
     isOverview: true,
-    stanceZoning: "favorable",
+    stanceZoning: "review",
     stanceAffordability: "review",
     contextBlurb:
-      "Taiwan's TSMC produces over 90% of leading-edge silicon — the supply-chain chokepoint behind every AI buildout. China is racing ahead via its East-Data-West-Compute grid. Japan and Korea have both passed national AI laws (Japan voluntary, Korea binding).",
+      "Housing portfolios across the Asia-Pacific region are held by ministers ranging from Yasushi Kaneko (Japan, Minister of Land, Infrastructure, Transport and Tourism) to Ni Hong (China, Minister of Housing and Urban-Rural Development). South Korea, India, and Australia each maintain dedicated housing ministries, with Clare O'Neil (Australia, Labor) and Manohar Lal Khattar (India, BJP) leading affordability and supply programs in their respective markets.",
     legislation: [],
     keyFigures: [
       {
-        id: "asia-xi",
-        name: "Xi Jinping",
-        role: "China · President · drives East-Data-West-Compute and state AI strategy",
-        party: "CCP",
-        stance: "concerning",
-      },
-      {
-        id: "asia-cc-wei",
-        name: "C.C. Wei",
-        role: "Taiwan · TSMC Chair & CEO · controls >90% of leading-edge silicon",
-        party: "—",
-        stance: "favorable",
-      },
-      {
-        id: "asia-lai",
-        name: "Lai Ching-te",
-        role: "Taiwan · President · US semiconductor alliance steward",
-        party: "DPP",
-        stance: "favorable",
-      },
-      {
-        id: "asia-modi",
-        name: "Narendra Modi",
-        role: "India · Prime Minister · IndiaAI Mission and sovereign compute push",
-        party: "BJP",
-        stance: "favorable",
-      },
-      {
-        id: "asia-wong",
-        name: "Lawrence Wong",
-        role: "Singapore · Prime Minister · regional AI hub strategy",
-        party: "PAP",
-        stance: "favorable",
-      },
-      {
-        id: "asia-ishiba",
-        name: "Shigeru Ishiba",
-        role: "Japan · Prime Minister · voluntary AI framework and hyperscale investment",
+        id: "asia-kaneko",
+        name: "Yasushi Kaneko",
+        role: "Japan · Minister of Land, Infrastructure, Transport and Tourism",
         party: "LDP",
         stance: "review",
       },
       {
-        id: "asia-koh",
-        name: "Tan See Leng",
-        role: "Singapore · Minister for Manpower & Trade · AI Verify toolkit lead",
-        party: "PAP",
-        stance: "favorable",
-      },
-      {
-        id: "asia-lim",
-        name: "Lim Joon Yong",
-        role: "ASEAN Digital Working Group · Lead Negotiator",
-        party: "—",
+        id: "asia-kim-yun-duk",
+        name: "Kim Yun-duk",
+        role: "South Korea · Minister of Land, Infrastructure and Transport",
+        party: "Democratic Party",
         stance: "review",
       },
-    ],
-    news: [
       {
-        id: "asia-news-1",
-        headline: "Japan Joins Asia PUE Cap Push for Data Centers",
-        source: "Uptime Institute",
-        date: "2026-02-10",
-        url: "https://intelligence.uptimeinstitute.com/resource/japan-joins-push-data-center-regulation",
+        id: "asia-ni-hong",
+        name: "Ni Hong",
+        role: "China · Minister of Housing and Urban-Rural Development (MOHURD)",
+        party: "Communist Party of China",
+        stance: "review",
       },
       {
-        id: "asia-news-2",
-        headline: "South Korea AI Basic Act Takes Effect",
-        source: "Cooley",
-        date: "2026-01-27",
-        url: "https://www.cooley.com/news/insight/2026/2026-01-27-south-koreas-ai-basic-act-overview-and-key-takeaways",
+        id: "asia-khattar",
+        name: "Manohar Lal Khattar",
+        role: "India · Minister of Housing and Urban Affairs",
+        party: "BJP",
+        stance: "review",
       },
       {
-        id: "asia-news-3",
-        headline: "China Cybersecurity Law Adds AI Governance",
-        source: "ICLG",
-        date: "2026-01-10",
-        url: "https://iclg.com/practice-areas/telecoms-media-and-internet-laws-and-regulations/03-china-s-key-developments-in-artificial-intelligence-governance-in-2025",
-      },
-      {
-        id: "asia-news-chip-smugglers",
-        headline: "Chasing the Asia Chip Smuggling Network",
-        source: "The Wire China",
-        date: "2026-03-01",
-        url: "https://www.thewirechina.com/2026/03/01/chasing-the-chip-smugglers-nvidia-ai-chips-china/",
-      },
-      {
-        id: "asia-news-axios-smuggling",
-        headline: "AI Chip Smuggling Signals Strong Chinese Demand",
-        source: "Axios",
-        date: "2026-03-20",
-        url: "https://www.axios.com/2026/03/20/ai-chip-smuggling-china",
-      },
-      {
-        id: "asia-news-fdd-smuggling",
-        headline: "FDD: Limits of Industry Self-Policing on Chip Smuggling",
-        source: "Foundation for Defense of Democracies",
-        date: "2026-03-20",
-        url: "https://www.fdd.org/analysis/2026/03/20/exposure-of-major-chinese-linked-chip-smuggling-operations-shows-limits-of-industry-self-policing/",
-      },
-      {
-        id: "asia-news-singapore-deepseek",
-        headline: "US Probes DeepSeek for Smuggling Nvidia GPUs via Singapore",
-        source: "Tom's Hardware",
-        date: "2025-02-03",
-        url: "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-investigates-whether-deepseek-smuggled-nvidia-ai-gpus-via-singapore",
+        id: "asia-oneil",
+        name: "Clare O'Neil",
+        role: "Australia · Minister for Housing",
+        party: "Labor",
+        stance: "favorable",
       },
     ],
+    news: [],
   },
   {
     id: "japan",
@@ -527,96 +235,50 @@ const HAND_CURATED: Entity[] = [
     name: "Japan",
     region: "asia",
     level: "federal",
-    stanceZoning: "favorable",
+    stanceZoning: "review",
     stanceAffordability: "review",
     contextBlurb:
-      "Japan has taken an innovation-first approach: METI's voluntary AI guidelines rather than binding rules. In parallel, the FSA and METI are jointly reviewing how data centers integrate with the grid as part of the GX (Green Transformation) initiative.",
+      "Japan's housing portfolio is led by Yasushi Kaneko (LDP), Minister of Land, Infrastructure, Transport and Tourism. Recent activity captured by the tracker includes a House of Representatives review of real estate acquisition by foreign nationals (January 2026) and a 2024 MLIT policy document on housing support for vulnerable populations including data on vacant houses (akiya) available for rent or sale nationwide.",
     legislation: [
       {
-        id: "jp-ai-guidelines",
-        billCode: "METI 2024-G",
-        title: "AI Business Operator Guidelines (revised)",
+        id: "ap-jp-202602-rea",
+        billCode: "202602-REA",
+        title:
+          "Overview of Real Estate Acquisition by Foreign Nationals (House of Representatives review)",
         summary:
-          "Voluntary risk management framework for AI developers and deployers, aligned with international interoperability principles.",
-        stage: "Enacted",
-        impactTags: [],
-        category: "affordable-housing",
-        updatedDate: "2026-03-22",
-        partyOrigin: "B",
+          "Document from the House of Representatives reviewing policy frameworks around real estate acquisition by foreign nationals in Japan. References a January 2026 expert panel opinion and inter-ministerial measures for an orderly coexistence society. Relevant party proposals from the LDP and Nippon Ishin no Kai are noted.",
+        stage: "Committee",
+        stance: "restrictive",
+        impactTags: ["affordability"],
+        category: "foreign-investment",
+        updatedDate: "2026-02-01",
+        sourceUrl:
+          "https://www.shugiin.go.jp/internet/itdb_rchome.nsf/html/rchome/shiryo/202602_real_estate_acquisition_by_foreign_nationals.pdf/$File/202602_real_estate_acquisition_by_foreign_nationals.pdf",
       },
       {
-        id: "jp-gx-dc",
-        billCode: "Bill 213",
-        title: "GX Data Centre Promotion Act",
+        id: "ap-jp-mlit-hsp-2024",
+        billCode: "MLIT-HSP-2024",
+        title: "Japanese Housing Policies for Persons Requiring Housing Support",
         summary:
-          "Provides tax incentives for data centers sited in regions with surplus renewable generation and grid capacity headroom.",
-        stage: "Floor",
-        impactTags: ["transit-oriented", "vacancy-tax"],
-        category: "zoning-reform",
-        updatedDate: "2026-03-26",
-        partyOrigin: "B",
+          "Ministry of Land, Infrastructure, Transport and Tourism (MLIT) policy document addressing housing support measures for vulnerable populations. Includes data on vacant houses (akiya) available for rent or sale nationwide and outlines necessary support measures when renting to persons requiring assistance.",
+        stage: "Enacted",
+        stance: "favorable",
+        impactTags: ["affordability"],
+        category: "affordable-housing",
+        updatedDate: "2024-01-01",
+        sourceUrl: "https://www.mlit.go.jp/en/jutakukentiku/content/001972618.pdf",
       },
     ],
     keyFigures: [
       {
-        id: "jp-saito",
-        name: "Ken Saito",
-        role: "Minister of Economy, Trade and Industry · METI guidelines",
-        party: "LDP",
-        stance: "favorable",
-      },
-      {
-        id: "jp-konishi",
-        name: "Hiroyuki Konishi",
-        role: "Diet Member · CDP · Lead, GX Data Centre Promotion Act",
-        party: "CDP",
-        stance: "favorable",
-      },
-      {
-        id: "jp-yamada",
-        name: "Taro Yamada",
-        role: "Diet Member · LDP · Digital Society Committee",
+        id: "jp-kaneko",
+        name: "Yasushi Kaneko",
+        role: "Minister of Land, Infrastructure, Transport and Tourism",
         party: "LDP",
         stance: "review",
       },
     ],
-    news: [
-      {
-        id: "jp-news-1",
-        headline: "METI to Mandate 1.4 PUE Cap for Japanese Data Centers",
-        source: "Uptime Institute",
-        date: "2026-02-10",
-        url: "https://intelligence.uptimeinstitute.com/resource/japan-joins-push-data-center-regulation",
-      },
-      {
-        id: "jp-news-2",
-        headline: "METI Releases AI Contract Checklist",
-        source: "BABL AI",
-        date: "2026-01-15",
-        url: "https://babl.ai/japans-meti-releases-ai-contract-checklist-to-guide-businesses-in-the-era-of-generative-ai/",
-      },
-      {
-        id: "jp-news-3",
-        headline: "Japan Passes AI Law With No Fines or Bans",
-        source: "MailMate",
-        date: "2025-11-20",
-        url: "https://mailmate.jp/blog/japan-ai-regulation-news",
-      },
-      {
-        id: "jp-news-china-feud",
-        headline: "China Probes Japan's Chipmaking Material Exports",
-        source: "Bloomberg",
-        date: "2026-01-06",
-        url: "https://www.bloomberg.com/news/articles/2026-01-06/japan-protests-china-s-new-export-controls-on-dual-use-goods",
-      },
-      {
-        id: "jp-news-meti-controls",
-        headline: "Japan Tightens 23 Categories of Chip Equipment Exports",
-        source: "CSIS",
-        date: "2025-11-10",
-        url: "https://www.csis.org/analysis/understanding-us-allies-current-legal-authority-implement-ai-and-semiconductor-export",
-      },
-    ],
+    news: [],
   },
   {
     id: "china",
@@ -624,115 +286,49 @@ const HAND_CURATED: Entity[] = [
     name: "China",
     region: "asia",
     level: "federal",
-    // Mixed: heavy hand on AI services (CAC content labeling, generative
-    // AI security review, algorithm filing) but massive state subsidy on
-    // compute infrastructure (East Data West Compute, $8.2B AI fund,
-    // 80–100% grid reserve margin). "concerning" captures the tension
-    // better than the older "restrictive" tag.
     stanceZoning: "favorable",
-    stanceAffordability: "restrictive",
+    stanceAffordability: "favorable",
     contextBlurb:
-      "China runs the world's most prescriptive AI regime. Generative AI services face mandatory pre-launch security reviews, content labeling is required, and strict data localization rules sit alongside enormous state compute investment.",
+      "China's housing portfolio is led by Ni Hong, Minister of Housing and Urban-Rural Development (MOHURD). Recent regulation includes the State Council Housing Rental Regulations (2025), setting safety and structural integrity rules for landlords. Beijing's Wangjing International Talent Apartments opened in 2025 with rent-free promotion periods of up to 120 days for tenants signing one-year leases.",
     legislation: [
       {
-        id: "cn-genai",
-        billCode: "CAC 2023-07",
-        title: "Interim Measures for Generative AI Services",
+        id: "ap-cn-sc-rental-2025",
+        billCode: "SC-RENTAL-2025",
+        title: "State Council Housing Rental Regulations",
         summary:
-          "Requires security assessments, content labeling, and licensed providers for public-facing generative AI services.",
+          "Housing Rental Regulations passed by State Council administrative meeting. Requires rented properties to comply with current laws and mandatory standards, prohibits any change to load-bearing structures or damage to fire-prevention facilities, and bars unapproved modifications to other property fixtures without landlord consent.",
         stage: "Enacted",
-        impactTags: [],
-        category: "affordable-housing",
-        updatedDate: "2026-03-29",
-        partyOrigin: "B",
+        stance: "favorable",
+        impactTags: ["affordability"],
+        category: "tenant-protection",
+        updatedDate: "2025-08-07",
+        sourceUrl: "http://en.moj.gov.cn/2025-08/07/c_1115214.htm",
       },
       {
-        id: "cn-east-data",
-        billCode: "NDRC-2024-DC",
-        title: "East Data West Compute Initiative — Phase II",
+        id: "ap-cn-bj-talent-apt-2025",
+        billCode: "BJ-TALENT-APT-2025",
+        title: "Beijing Wangjing International Talent Apartments Leasing Policy",
         summary:
-          "National plan directing eastern data center workloads to renewable-rich western provinces, with mandatory PUE caps in eastern hubs.",
+          "Beijing's Wangjing International Talent Apartments opened for lease, offering minimum 5 day and maximum 120 day rent-free promotion periods for tenants signing one-year leases. Aimed at attracting international talent to settle in Beijing.",
         stage: "Enacted",
-        impactTags: ["density", "transit-oriented", "environmental-review"],
-        category: "zoning-reform",
-        updatedDate: "2026-03-08",
-        partyOrigin: "B",
+        stance: "favorable",
+        impactTags: ["affordability"],
+        category: "affordable-housing",
+        updatedDate: "2025-07-14",
+        sourceUrl:
+          "https://english.beijing.gov.cn/workinginbeijing/whybeijing/favorabletreatment/list/202507/t20250714_4148681.html",
       },
     ],
     keyFigures: [
       {
-        id: "cn-zhuang",
-        name: "Zhuang Rongwen",
-        role: "Director · Cyberspace Administration of China",
-        party: "CCP",
-        stance: "restrictive",
-      },
-      {
-        id: "cn-li",
-        name: "Li Lecheng",
-        role: "Vice Minister · MIIT · NDRC East Data West Compute lead",
-        party: "CCP",
-        stance: "restrictive",
-      },
-      {
-        id: "cn-wang",
-        name: "Wang Zhigang",
-        role: "Former Minister of Science and Technology",
-        party: "CCP",
-        stance: "favorable",
+        id: "cn-ni-hong",
+        name: "Ni Hong",
+        role: "Minister of Housing and Urban-Rural Development (MOHURD)",
+        party: "Communist Party of China",
+        stance: "review",
       },
     ],
-    news: [
-      {
-        id: "cn-news-1",
-        headline: "China Cybersecurity Law Adds AI Governance Rules",
-        source: "King & Wood Mallesons",
-        date: "2025-11-15",
-        url: "https://www.kwm.com/us/en/insights/latest-thinking/from-ai-governance-to-enhanced-enforcement-chinas-cybersecurity-law-amendment.html",
-      },
-      {
-        id: "cn-news-2",
-        headline: "China Announces Global AI Governance Action Plan",
-        source: "ANSI",
-        date: "2025-08-01",
-        url: "https://www.ansi.org/standards-news/all-news/8-1-25-china-announces-action-plan-for-global-ai-governance",
-      },
-      {
-        id: "cn-news-3",
-        headline: "China's Mandatory AI Content Labelling Takes Effect",
-        source: "ICLG",
-        date: "2026-01-10",
-        url: "https://iclg.com/practice-areas/telecoms-media-and-internet-laws-and-regulations/03-china-s-key-developments-in-artificial-intelligence-governance-in-2025",
-      },
-      {
-        id: "cn-news-supermicro",
-        headline: "Super Micro Co-Founder Charged in $2.5B Chip Smuggling",
-        source: "Tech Insider",
-        date: "2026-04-08",
-        url: "https://tech-insider.org/super-micro-nvidia-chip-smuggling-china-2026/",
-      },
-      {
-        id: "cn-news-160m",
-        headline: "DOJ Breaks Up $160M Nvidia GPU Smuggling Ring",
-        source: "CNBC",
-        date: "2025-12-31",
-        url: "https://www.cnbc.com/2025/12/31/160-million-export-controlled-nvidia-gpus-allegedly-smuggled-to-china.html",
-      },
-      {
-        id: "cn-news-grid-advantage",
-        headline: "China's Grid Advantage May Decide the AI Race",
-        source: "Fortune",
-        date: "2025-08-14",
-        url: "https://fortune.com/2025/08/14/data-centers-china-grid-us-infrastructure/",
-      },
-      {
-        id: "cn-news-chip-security-act",
-        headline: "Congress Passes Chip Security Act With Tracking Tech",
-        source: "BISI",
-        date: "2026-03-26",
-        url: "https://bisi.org.uk/reports/ai-chip-smuggling-the-limits-of-us-export-controls",
-      },
-    ],
+    news: [],
   },
   {
     id: "south-korea",
@@ -740,100 +336,51 @@ const HAND_CURATED: Entity[] = [
     name: "South Korea",
     region: "asia",
     level: "federal",
-    // South Korea's AI Basic Act (effective Jan 22 2026) is a real binding
-    // framework with statutory high-impact-AI categories and reporting
-    // obligations — that's heavier than Japan's voluntary regime, so
-    // "review" / under-discussion fits better than "favorable".
-    stanceZoning: "review",
-    stanceAffordability: "concerning",
+    stanceZoning: "favorable",
+    stanceAffordability: "favorable",
     contextBlurb:
-      "South Korea passed its AI Basic Act in 2024 — establishing a national oversight framework, a regulatory sandbox, and an AI safety institute. The Ministry of Trade is now studying how upcoming hyperscale projects will stress the grid.",
+      "South Korea's housing portfolio is led by Kim Yun-duk, Minister of Land, Infrastructure and Transport. Korea Land and Housing Corporation (LH) operates the Housing Welfare Business and Rental Housing Supply program, which together provide jeonse-based and rental support targeted at vulnerable groups under the broader Haengbok Housing and Urban Regeneration policy framework.",
     legislation: [
       {
-        id: "kr-ai-bf",
-        billCode: "Bill 2206128",
-        title: "AI Basic Act",
+        id: "ap-kr-lh-hw-2022",
+        billCode: "LH-HW-2022",
+        title:
+          "LH Housing Welfare Business: Housing Supports for Vulnerable and Marginalized Groups",
         summary:
-          "Framework establishing high-impact AI categories, regulatory sandbox provisions, and a national AI safety institute.",
+          "Korea Land and Housing Corporation (LH) provides tailored housing welfare services so that current and prospective tenants can access safe, clean, and affordable housing. Includes housing support (rental included) for vulnerable and marginalized groups, operated based on December 2022 statistics.",
         stage: "Enacted",
-        impactTags: [],
+        stance: "favorable",
+        impactTags: ["affordability"],
         category: "affordable-housing",
-        updatedDate: "2026-03-25",
-        partyOrigin: "B",
+        updatedDate: "2022-12-31",
+        sourceUrl: "https://lh.or.kr/menu.es?mid=a20400000000",
       },
       {
-        id: "kr-dc-grid",
-        billCode: "MOTIE-2025-04",
-        title: "Hyperscale Data Centre Grid Integration Act",
+        id: "ap-kr-lh-rental-org",
+        billCode: "LH-RENTAL-ORG",
+        title:
+          "Rental Housing Supply and Jeonse Support Program",
         summary:
-          "Mandates grid impact assessments and curtailment agreements for data centers exceeding 200 MW.",
-        stage: "Committee",
-        impactTags: ["density", "environmental-review"],
-        category: "zoning-reform",
-        updatedDate: "2026-03-11",
-        partyOrigin: "B",
+          "LH's public housing supply system operates rental housing and jeonse-based housing support programs. Includes Haengbok Housing, Urban Regeneration projects, and rental subsidies as part of a comprehensive housing welfare policy.",
+        stage: "Enacted",
+        stance: "favorable",
+        impactTags: ["affordability"],
+        category: "rent-regulation",
+        updatedDate: "2023-01-01",
+        sourceUrl:
+          "https://www.lh.or.kr/boardDownload.es?bid=0049&list_no=651251&seq=1",
       },
     ],
     keyFigures: [
       {
-        id: "kr-ahn",
-        name: "Ahn Cheol-soo",
-        role: "National Assembly Member · PPP · Lead, AI Basic Act",
-        party: "PPP",
-        stance: "favorable",
-      },
-      {
-        id: "kr-jo",
-        name: "Jo Seoung-lae",
-        role: "National Assembly Member · DPK · Lead, MOTIE-2025-04",
-        party: "DPK",
+        id: "kr-kim-yun-duk",
+        name: "Kim Yun-duk",
+        role: "Minister of Land, Infrastructure and Transport",
+        party: "Democratic Party",
         stance: "review",
       },
-      {
-        id: "kr-park",
-        name: "Park Soo-young",
-        role: "Minister of Science and ICT",
-        party: "PPP",
-        stance: "favorable",
-      },
     ],
-    news: [
-      {
-        id: "kr-news-1",
-        headline: "South Korea's AI Basic Act Takes Effect",
-        source: "Cooley",
-        date: "2026-01-27",
-        url: "https://www.cooley.com/news/insight/2026/2026-01-27-south-koreas-ai-basic-act-overview-and-key-takeaways",
-      },
-      {
-        id: "kr-news-2",
-        headline: "OneTrust: Preparing for South Korea's New AI Law",
-        source: "OneTrust",
-        date: "2026-01-22",
-        url: "https://www.onetrust.com/blog/south-koreas-new-ai-law-what-it-means-for-organizations-and-how-to-prepare/",
-      },
-      {
-        id: "kr-news-3",
-        headline: "ITIF: One Law, One Weak Link in Korea's AI Policy",
-        source: "ITIF",
-        date: "2025-09-29",
-        url: "https://itif.org/publications/2025/09/29/one-law-sets-south-koreas-ai-policy-one-weak-link-could-break-it/",
-      },
-      {
-        id: "kr-news-tier1",
-        headline: "Korea Tier 1 on US AI Diffusion Rule",
-        source: "CSIS",
-        date: "2025-11-10",
-        url: "https://www.csis.org/analysis/understanding-us-allies-current-legal-authority-implement-ai-and-semiconductor-export",
-      },
-      {
-        id: "kr-news-cotton-letter",
-        headline: "Cotton, Huizenga Press for Tighter Asia Chip Controls",
-        source: "Office of Senator Tom Cotton",
-        date: "2026-03-25",
-        url: "https://www.cotton.senate.gov/news/press-releases/cotton-introduces-bill-to-lower-energy-costs-for-arkansans",
-      },
-    ],
+    news: [],
   },
   {
     id: "australia",
@@ -841,71 +388,28 @@ const HAND_CURATED: Entity[] = [
     name: "Australia",
     region: "asia",
     level: "federal",
-    // The Mar 2026 National Expectations framework is non-binding and
-    // operates as approval prioritization, not hard regulation — closer
-    // to innovation-friendly than restrictive.
     stanceZoning: "review",
-    stanceAffordability: "review",
+    stanceAffordability: "favorable",
     contextBlurb:
-      "Australia is betting on voluntary standards over AI legislation, relying on its October 2025 Guidance for AI Adoption and a forthcoming AI Safety Institute. In March 2026 the federal government issued its first national expectations for data center developers, tying regulatory priority to clean energy and water sustainability. Privacy reform is rolling out in tranches, and the eSafety Commissioner runs one of the world's most active online-safety enforcement regimes.",
-    legislation: [
+      "Australia's housing portfolio is led by Clare O'Neil (Labor), Minister for Housing. English-language coverage of Commonwealth housing legislation is thin in the current release. The tracker continues to monitor federal Labor government activity around the Housing Australia Future Fund and supporting affordability measures.",
+    legislation: [],
+    keyFigures: [
       {
-        id: "au-expectations-2026",
-        billCode: "DISR Expectations 2026",
-        title:
-          "National Expectations of Data Centres and AI Infrastructure Developers",
-        summary:
-          "Commonwealth framework released March 2026 setting non-binding expectations for hyperscale data center and AI infrastructure projects, including grid impact, water use, local compute access for Australian startups and researchers, and alignment with the national clean energy transition. Operates as a prioritization lens for federal approvals rather than a hard regulatory regime.",
-        stage: "Enacted",
-        impactTags: [
-          "density",
-          "affordability",
-          "transit-oriented",
-          "environmental-review",
-        ],
-        category: "zoning-reform",
-        updatedDate: "2026-03-23",
-        partyOrigin: "B",
-        sourceUrl:
-          "https://www.industry.gov.au/publications/expectations-data-centres-and-ai-infrastructure-developers",
+        id: "au-oneil",
+        name: "Clare O'Neil",
+        role: "Minister for Housing",
+        party: "Labor",
+        stance: "favorable",
       },
     ],
-    keyFigures: [],
-    news: [
-      {
-        id: "au-news-1",
-        headline: "Australia Releases National Data Center Expectations",
-        source: "DISR",
-        date: "2026-03-23",
-        url: "https://www.industry.gov.au/publications/expectations-data-centres-and-ai-infrastructure-developers",
-      },
-      {
-        id: "au-news-2",
-        headline: "HSF Kramer Breaks Down Australia's New Framework",
-        source: "Herbert Smith Freehills Kramer",
-        date: "2026-03-25",
-        url: "https://www.hsfkramer.com/insights/2026-03/national-expectations-for-the-development-of-data-centres-and-ai-infrastructure-have-been-released-what-you-need-to-know",
-      },
-      {
-        id: "au-news-3",
-        headline: "Australia Puts AI Data Centers on Notice",
-        source: "Data Center Knowledge",
-        date: "2026-03-24",
-        url: "https://www.datacenterknowledge.com/regulations/australia-puts-ai-data-centers-on-notice-with-new-approval-rules",
-      },
-      {
-        id: "au-news-4",
-        headline: "Bird & Bird: Australia Tightens Hyperscaler Obligations",
-        source: "Bird & Bird",
-        date: "2026-03-26",
-        url: "https://www.twobirds.com/en/insights/2026/australia/australia-sets-new-national-expectations-for-data-centres-and-ai-infrastructure",
-      },
-    ],
+    news: [],
   },
 ];
 
-// Merge hand-curated baseline with whatever Claude has researched so far.
-// Researched entries override hand-curated ones if IDs collide.
+// Merge hand-curated baseline with whatever the international pipeline has
+// produced so far. Researched entries override hand-curated ones if IDs
+// collide (the pipeline is the more authoritative source for any country
+// it covers).
 const RESEARCHED_BY_ID = new Map<string, Entity>();
 for (const e of RESEARCHED_INTERNATIONAL) RESEARCHED_BY_ID.set(e.id, e);
 
