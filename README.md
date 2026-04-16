@@ -138,14 +138,18 @@ graph TD
     end
 
     subgraph US_Pipelines["US Pipelines"]
-        USFED[congress.gov via Tavily] --> USFEDSYNC[us-federal-housing.ts]
+        CGOV[Congress.gov API primary] --> USFEDSYNC[us-federal-housing.ts]
+        TAVILYF[Tavily enrichment cap] --> USFEDSYNC
         USST[state legislature domains via Tavily] --> USSTSYNC[us-states-housing-research.ts]
+        APIFY[Apify state scrapers] --> USSTSYNC
+        LEGISCAN[LegiScan dormant supplement] --> USLSSYNC[us-legiscan-housing.ts]
         USPROJ[HUD + state agencies via Tavily] --> USPROJSYNC[us-housing-projects.ts]
         HUDGOV[hud.gov leadership] --> USOFFSYNC[us-officials.ts]
     end
 
     USFEDSYNC --> USFEDJSON[data/legislation/federal-us-housing.json]
     USSTSYNC --> USSTJSON[data/legislation/us-states-housing/*.json]
+    USLSSYNC --> USSTJSON
     USPROJSYNC --> USPROJJSON[data/projects/us.json]
     USOFFSYNC --> USOFFJSON[data/politicians/us.json]
 
@@ -177,7 +181,9 @@ pipeline status at a glance without digging through logs.
 | `ANTHROPIC_API_KEY` | yes | Classification, blurbs, news, officials, regional overview |
 | `TAVILY_API_KEY` | yes | Provincial research, housing projects, officials, URL validation |
 | `FRED_API_KEY` | no | US FRED metrics. Weekly metrics-sync only. |
-| `LEGISCAN_API_KEY` | no | US state bills. Falls back to static data if absent. |
+| `CONGRESS_GOV_API_KEY` | no | Primary source for US federal bills. Free, 5000 req/hour. Register at api.congress.gov. |
+| `APIFY_API_TOKEN` | no | State legislature scrapers (Colorado, Arizona). Free tier $5/month of compute. |
+| `LEGISCAN_API_KEY` | no | US state bills. Dormant until set. When present, upgrades existing state data on next sync. |
 | `KV_REST_API_URL` | no | Visitor counter (Vercel KV) |
 | `KV_REST_API_TOKEN` | no | Visitor counter (Vercel KV) |
 

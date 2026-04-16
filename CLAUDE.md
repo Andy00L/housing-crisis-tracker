@@ -62,3 +62,24 @@ Fixing during audit corrupts the audit's value (you can't audit your own fix).
 - Europe and Asia-Pacific pipelines MUST exit immediately when their
   EXECUTE_EUROPE / EXECUTE_ASIA guard is not set. Dormant is the default
   state; the manual workflow is what flips the switch.
+
+## US data source priority
+
+- Federal bills: Congress.gov API is authoritative. Never accept federal
+  bill data from Tavily snippets as canonical. Tavily is only for
+  enrichment (summaries, news context) with a hard 15-credit cap per
+  run.
+- State bills: LegiScan when `LEGISCAN_API_KEY` is present, Apify
+  scraper (lib/sources/state-scrapers) when a state-specific scraper
+  exists and the Tavily pass fell short, Tavily as the fallback of last
+  resort. The merge pass preserves classification (stance, impactTags,
+  category) while letting the higher-tier source upgrade sourceUrl and
+  stage.
+- Never fabricate congress.gov or state.gov URLs. Federal URLs are
+  built deterministically from canonicalBillUrl in
+  lib/sources/congress-gov.ts. State URLs must come from an official
+  state legislature domain that matches the state's officialDomains
+  allowlist.
+- US pipelines that depend on a missing key fail fast rather than
+  silently dropping to a lower tier. This keeps the run report honest
+  about which source a given bill came from.

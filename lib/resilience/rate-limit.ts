@@ -44,6 +44,9 @@ const RATE_LIMITS: Partial<Record<SourceName, number>> = {
   tavily: 3,
   anthropic: 2,
   rss: 4,
+  "congress-gov": 4,
+  apify: 2,
+  legiscan: 2,
 };
 
 const DEFAULT_LIMIT = 4;

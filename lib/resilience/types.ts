@@ -26,7 +26,10 @@ export type SourceName =
   | "hud-gov"
   | "tavily"
   | "anthropic"
-  | "rss";
+  | "rss"
+  | "congress-gov"
+  | "apify"
+  | "legiscan";
 
 /** Why a resilientFetch call failed. Distinct shapes so callers can switch. */
 export type FailureReason =

@@ -37,6 +37,11 @@ const TIMEOUTS: Record<SourceName, number> = {
   tavily: 30_000,
   anthropic: 60_000,
   rss: 15_000,
+  "congress-gov": 30_000,
+  // Apify actor runs block on polling until the actor finishes. Each poll is
+  // quick, but the overall runActor() call wraps a long-lived operation.
+  apify: 600_000,
+  legiscan: 30_000,
 };
 
 /** Override breaker options per source if the default tuning doesn't fit. */
@@ -49,6 +54,10 @@ const OVERRIDES: Partial<
   // Many RSS feeds under one breaker means occasional single-feed outages
   // should not trip everyone. Raise volume threshold to smooth that.
   rss: { volumeThreshold: 10 },
+  // Apify actor runs are infrequent and a single failed actor should not
+  // take the breaker down for an hour. Keep volumeThreshold lower and reset
+  // timeout shorter so a broken selector surfaces next run.
+  apify: { volumeThreshold: 3, resetTimeout: 1_800_000 },
 };
 
 type BaseFn = (url: string, init?: RequestInit) => Promise<Response>;

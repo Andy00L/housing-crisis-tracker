@@ -37,6 +37,12 @@ import {
   type TavilySearchResponse,
 } from "@/lib/tavily-client";
 import { startRunReport } from "@/lib/resilience/run-report";
+import {
+  hasScraper,
+  scrapeStateIfAvailable,
+  type StateScrapedBill,
+} from "@/lib/sources/state-scrapers";
+import { ApifyBudgetExhausted, ApifyError } from "@/lib/sources/apify";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "../..");
@@ -56,6 +62,75 @@ interface StateSpec {
   /** Two queries per state. Keep narrow to fit the 2-credit budget. */
   queries: [string, string];
 }
+
+// State-specific supplementary queries. These run in addition to the two
+// generic queries above and cover the signature housing statutes each state
+// is actually known for. They materially boost coverage for states where
+// the generic queries only surface one or two bills (Colorado especially).
+//
+// Keep each state's list short (3-4 queries) so the per-run Tavily budget
+// stays predictable: generic 2 + specific 4 = up to 6 searches per state.
+const STATE_SPECIFIC_QUERIES: Record<string, string[]> = {
+  CO: [
+    "Colorado Proposition 123 affordable housing fund 2025",
+    "Colorado HB25 housing legislation",
+    "Colorado SB25 affordable housing",
+    "CHFA Colorado Housing Finance Authority 2025 legislation",
+  ],
+  AZ: [
+    "Arizona SB1281 housing 2025",
+    "Arizona Proposition 201 housing",
+    "Arizona Housing Finance Authority 2025 legislation",
+  ],
+  NC: [
+    "North Carolina HB housing 2025",
+    "North Carolina SB housing 2025",
+    "NCHFA legislation 2025",
+    "North Carolina zoning reform 2025",
+  ],
+  CA: [
+    "California SB9 housing",
+    "California AB housing 2025",
+    "California HCD Housing and Community Development 2025 bills",
+  ],
+  NY: [
+    "New York Good Cause Eviction Act",
+    "New York rent stabilization 2025",
+    "New York HCR Homes Community Renewal 2025 legislation",
+  ],
+  TX: [
+    "Texas HB housing 2025",
+    "Texas SB zoning 2025",
+    "TDHCA Texas Housing 2025 legislation",
+  ],
+  FL: [
+    "Florida Live Local Act",
+    "Florida HB housing 2025",
+    "Florida Housing Finance Corporation 2025",
+  ],
+  WA: [
+    "Washington HB 1110 missing middle",
+    "Washington HB housing 2025",
+    "Washington Commerce Department 2025 legislation",
+  ],
+  MA: [
+    "Massachusetts MBTA Communities Act",
+    "Massachusetts HB housing 2025",
+    "Massachusetts CHAPA legislation 2025",
+  ],
+  OR: [
+    "Oregon HB 2001 housing",
+    "Oregon SB housing 2025",
+    "Oregon Housing and Community Services 2025",
+  ],
+};
+
+// Below this count, the Apify scraper is considered essential (the state
+// is failing coverage). At or above this count, the scraper runs anyway
+// when one is available because its marginal cost is tiny (~0.01-0.05 CU
+// per run) and it routinely surfaces bills Tavily misses. The threshold
+// is kept as a diagnostic signal in the logs rather than a gate.
+const APIFY_TRIGGER_THRESHOLD = 4;
 
 const STATES: StateSpec[] = [
   {
@@ -226,6 +301,90 @@ function maxStance(a: StanceType, b: StanceType): StanceType {
   return rank[a] >= rank[b] ? a : b;
 }
 
+/**
+ * Stage inference from a scraped status string. Scraped status text varies
+ * wildly by state, so this stays conservative: anything we do not recognize
+ * maps to "Filed" so the bill shows up in the map without claiming more
+ * progress than we can verify.
+ */
+function scrapedStatusToStage(status: string | undefined): Stage {
+  const t = (status ?? "").toLowerCase();
+  if (!t) return "Filed";
+  if (/(signed|enacted|became law|public law|governor signed)/.test(t)) return "Enacted";
+  if (/(passed|adopted|third reading passed)/.test(t)) return "Floor";
+  if (/(committee|reported|hearing)/.test(t)) return "Committee";
+  if (/(dead|failed|died)/.test(t)) return "Dead";
+  return "Filed";
+}
+
+/**
+ * Normalize a scraped bill from the state scrapers into the same shape
+ * researchState emits from the Tavily/Claude path. Returns null if the input
+ * is missing fields we cannot reasonably reconstruct.
+ *
+ * The Tavily-validated URL guard does not apply to scraped URLs because the
+ * scraper's own page function only emits URLs from the state legislature
+ * site it is targeting; they are canonical by construction.
+ */
+function normalizeScrapedBill(
+  sb: StateScrapedBill,
+  spec: StateSpec,
+): {
+  id: string;
+  billCode: string;
+  title: string;
+  summary: string;
+  stage: Stage;
+  stance: StanceType;
+  impactTags: ImpactTag[];
+  category: LegislationCategory;
+  updatedDate: string;
+  sourceUrl: string;
+  sponsors: string[];
+} | null {
+  const billNumber = (sb.billNumber ?? "").trim();
+  const title = (sb.title ?? "").trim();
+  const url = (sb.url ?? "").trim();
+  if (!billNumber || !title || !url) return null;
+
+  // Verify the URL lies on one of the state's official domains, same rule
+  // the Tavily path enforces. Apify scrapers are state-scoped but a selector
+  // could still pick up a stray off-domain link (social, press release, etc.).
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, "");
+    const allowed = spec.officialDomains.some(
+      (d) => host === d || host.endsWith("." + d),
+    );
+    if (!allowed) return null;
+  } catch {
+    return null;
+  }
+
+  const text = title.toLowerCase();
+  const stage = scrapedStatusToStage(sb.status);
+  const category = classifyCategory(text);
+  const impactTags = classifyTags(text);
+  const stance = deriveStance(text, stage);
+  const slug = billNumber.replace(/[^a-z0-9]+/gi, "-").replace(/(^-|-$)/g, "").toLowerCase();
+  const summary = sb.status
+    ? `${title} (status: ${sb.status})`
+    : title;
+
+  return {
+    id: `us-${spec.code.toLowerCase()}-${slug}`,
+    billCode: billNumber,
+    title,
+    summary,
+    stage,
+    stance,
+    impactTags,
+    category,
+    updatedDate: sb.introducedDate ?? new Date().toISOString().slice(0, 10),
+    sourceUrl: url,
+    sponsors: sb.sponsor ? [sb.sponsor] : [],
+  };
+}
+
 // ── Snippet gather + Claude extract (per-state) ─────────────────────
 interface Snippet {
   url: string;
@@ -236,13 +395,23 @@ interface Snippet {
 
 async function gather(spec: StateSpec): Promise<Snippet[]> {
   const seen = new Map<string, Snippet>();
-  for (const q of spec.queries) {
+  const supplementary = STATE_SPECIFIC_QUERIES[spec.code] ?? [];
+  // Generic queries use the official-domain allowlist. Supplementary
+  // queries drop the allowlist because the state-specific phrases already
+  // encode site intent and the best matches may be on state news sites,
+  // state agency sites, or the legislature's staging host.
+  const allQueries: Array<{ q: string; restrict: boolean }> = [
+    ...spec.queries.map((q) => ({ q, restrict: true })),
+    ...supplementary.map((q) => ({ q, restrict: false })),
+  ];
+
+  for (const { q, restrict } of allQueries) {
     let resp: TavilySearchResponse;
     try {
       resp = await searchTavily(q, {
         searchDepth: "basic",
         maxResults: 10,
-        includeDomains: spec.officialDomains,
+        includeDomains: restrict ? spec.officialDomains : undefined,
         timeRange: "year",
       });
     } catch (err) {
@@ -258,7 +427,7 @@ async function gather(spec: StateSpec): Promise<Snippet[]> {
       }
     }
   }
-  return Array.from(seen.values()).sort((a, b) => b.score - a.score).slice(0, 15);
+  return Array.from(seen.values()).sort((a, b) => b.score - a.score).slice(0, 20);
 }
 
 interface ExtractedBill {
@@ -398,7 +567,7 @@ async function validateUrls(bills: ExtractedBill[]) {
 async function researchState(
   anthropic: Anthropic,
   spec: StateSpec,
-): Promise<{ bills: number; stance: StanceType; validated: boolean }> {
+): Promise<{ bills: number; stance: StanceType; validated: boolean; apifyAdded: number }> {
   console.log(`  [research] ${spec.code} (${spec.name})...`);
 
   const snippets = await gather(spec);
@@ -486,6 +655,49 @@ async function researchState(
     };
   });
 
+  // ── Apify fallback merge ──────────────────────────────────────────
+  // Runs whenever the state has a dedicated scraper. Tavily bills always
+  // win on metadata conflicts; Apify bills only fill gaps in billNumber
+  // coverage. Per-run compute units are tracked inside lib/sources/apify.ts
+  // (data/raw/apify/_usage.json); this counter only tallies bills merged so
+  // we can surface it in the run report. APIFY_TRIGGER_THRESHOLD is kept
+  // as a severity signal: falling below it means the Tavily path alone is
+  // not giving us adequate coverage.
+  let apifyAdded = 0;
+  if (hasScraper(spec.code)) {
+    const severity =
+      legislation.length < APIFY_TRIGGER_THRESHOLD ? "essential" : "supplement";
+    console.log(
+      `  [apify] ${spec.code} has ${legislation.length} bills; running Apify scraper (${severity})`,
+    );
+    try {
+      const scraped = await scrapeStateIfAvailable(spec.code);
+      if (scraped && scraped.length > 0) {
+        const existingCodes = new Set(legislation.map((b) => b.billCode.toUpperCase()));
+        for (const sb of scraped) {
+          const normalized = normalizeScrapedBill(sb, spec);
+          if (!normalized) continue;
+          if (existingCodes.has(normalized.billCode.toUpperCase())) continue;
+          legislation.push(normalized);
+          existingCodes.add(normalized.billCode.toUpperCase());
+          apifyAdded += 1;
+        }
+        console.log(`  [apify] ${spec.code} merged ${apifyAdded} new bills from scraper`);
+      } else {
+        console.log(`  [apify] ${spec.code} scraper returned 0 bills`);
+      }
+    } catch (err) {
+      if (err instanceof ApifyBudgetExhausted) {
+        console.warn(`  [apify] ${spec.code}: budget exhausted, skipping scraper`);
+      } else if (err instanceof ApifyError && err.kind === "auth") {
+        // Auth errors should halt all future scraper attempts this run.
+        throw err;
+      } else {
+        console.warn(`  [apify] ${spec.code} scraper failed: ${(err as Error).message}`);
+      }
+    }
+  }
+
   const STAGE_RANK: Record<Stage, number> = {
     Enacted: 5, Floor: 4, Committee: 3, Filed: 2, "Carried Over": 1, Dead: 0,
   };
@@ -529,10 +741,16 @@ async function researchState(
 
   const outPath = join(OUT_DIR, `${spec.code}.json`);
   writeFileSync(outPath, JSON.stringify(output, null, 2), { encoding: "utf8" });
+  const apifyNote = apifyAdded > 0 ? `, +${apifyAdded} via Apify` : "";
   console.log(
-    `  [done] ${spec.code}: ${legislation.length} bills, stance=${overall}${finalValidated ? "" : " (urls unvalidated)"}`,
+    `  [done] ${spec.code}: ${legislation.length} bills, stance=${overall}${finalValidated ? "" : " (urls unvalidated)"}${apifyNote}`,
   );
-  return { bills: legislation.length, stance: overall, validated: finalValidated };
+  return {
+    bills: legislation.length,
+    stance: overall,
+    validated: finalValidated,
+    apifyAdded,
+  };
 }
 
 async function main() {
@@ -583,11 +801,19 @@ async function main() {
       const result = await researchState(anthropic, spec);
       processed += 1;
       report.noteSuccess(spec.code);
+      const supplementaryCount = STATE_SPECIFIC_QUERIES[spec.code]?.length ?? 0;
       report.recordUsage("tavily", {
         calls: 1,
-        credits_consumed: spec.queries.length + (result.validated ? 8 : 0),
+        credits_consumed:
+          spec.queries.length + supplementaryCount + (result.validated ? 8 : 0),
       });
       report.recordUsage("anthropic", { calls: 1, approx_cost_usd: 0.05 });
+      if (result.apifyAdded > 0) {
+        report.recordUsage("apify", { calls: 1 });
+        report.addNote(
+          `${spec.code}: Apify scraper added ${result.apifyAdded} bills (see data/raw/apify/_usage.json for CU)`,
+        );
+      }
       if (!result.validated) {
         report.addNote(`${spec.code}: URLs were not Tavily-validated this run`);
       }
@@ -614,6 +840,18 @@ async function main() {
           next_action: "retry when Tavily recovers",
         });
         continue;
+      }
+      if (err instanceof ApifyError && err.kind === "auth") {
+        console.error(`  [ERROR] Apify auth failure: ${err.message}`);
+        report.markSourceDegraded("apify");
+        report.noteFailure({
+          entity: spec.code,
+          error: err.message,
+          retryable: false,
+          next_action: "Verify APIFY_API_TOKEN",
+        });
+        // Auth problems affect every remaining state; bail.
+        break;
       }
       console.error(`  [ERROR] ${spec.code} (${spec.name}):`, err);
       report.noteFailure({

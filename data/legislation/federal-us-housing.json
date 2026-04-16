@@ -2,41 +2,990 @@
   "state": "United States",
   "stateCode": "US",
   "region": "na",
-  "stance": "favorable",
-  "stanceZoning": "none",
+  "stance": "concerning",
+  "stanceZoning": "concerning",
   "stanceAffordability": "favorable",
   "lastUpdated": "2026-04-16",
-  "contextBlurb": "The 119th Congress has advanced several housing-related measures, including the One Big Beautiful Bill Act (P.L. 119-21), which permanently expands state LIHTC allocations and lowers the private activity bond financing threshold starting in 2026. The Housing for the 21st Century Act (H.R. 6644) passed the House in February 2026 and received a Senate amendment renaming it the 21st Century ROAD to Housing Act. Additional bills such as the Affordable Housing Credit Improvement Act of 2025 (H.R. 2725/S. 1515) seek further LIHTC reforms, while HUD under Secretary Scott Turner has restructured homelessness grant competitions and proposed consolidating housing programs in the FY2026 budget.",
+  "contextBlurb": "The US Congress is tracking multiple housing measures via Congress.gov. Advancing: S 3092, HR 5824, HR 4874, S 2638.",
   "legislation": [
     {
-      "id": "us-federal-hr-1",
-      "billCode": "HR 1",
-      "title": "One Big Beautiful Bill Act",
-      "summary": "Permanently increases states' annual LIHTC allocations and reduces the private activity bond financing threshold from 50% to 25% starting in 2026, expanding the pipeline of affordable rental housing eligible for 4% tax credits.",
-      "stage": "Enacted",
+      "id": "us-federal-s-3092",
+      "billCode": "S 3092",
+      "title": "Affordable Housing Expansion Act",
+      "summary": "The Affordable Housing Expansion Act proposes mechanisms to expand the supply of affordable housing, likely through incentives or program expansions under existing federal frameworks. The bill was referred to the Senate Banking, Housing, and Urban Affairs Committee for further consideration.",
+      "stage": "Committee",
       "stance": "favorable",
       "impactTags": [
-        "affordability"
+        "affordability",
+        "first-time-buyer"
       ],
       "category": "affordable-housing",
-      "updatedDate": "2025-07-11",
-      "sourceUrl": "https://www.congress.gov/crs-product/RS22389",
-      "sponsors": []
+      "updatedDate": "2025-11-03",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/3092",
+      "sponsors": [
+        "Sen. Moran, Jerry [R-KS]"
+      ]
     },
     {
-      "id": "us-federal-hr-6644",
-      "billCode": "HR 6644",
-      "title": "Housing for the 21st Century Act / 21st Century ROAD to Housing Act",
-      "summary": "Wide-ranging housing bill passed by the House in February 2026 and amended in the Senate as the 21st Century ROAD to Housing Act; contains provisions to increase housing supply, modify existing federal housing programs, and create new federal housing initiatives.",
-      "stage": "Floor",
+      "id": "us-federal-hr-5824",
+      "billCode": "HR 5824",
+      "title": "Tribal Affordable Housing Act",
+      "summary": "The Tribal Affordable Housing Act targets affordable housing development for Native American tribal communities, likely by expanding or reforming the Native American Housing Assistance and Self-Determination Act (NAHASDA) programs. The bill was referred to the House Committee on Financial Services.",
+      "stage": "Committee",
       "stance": "favorable",
       "impactTags": [
+        "affordability",
+        "indigenous-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-10-24",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/5824",
+      "sponsors": [
+        "Rep. Stansbury, Melanie A. [D-NM-1]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-4874",
+      "billCode": "HR 4874",
+      "title": "Affordable Housing Resident Services Act",
+      "summary": "The Affordable Housing Resident Services Act would authorize HUD grants to owners and operators of federally assisted affordable housing to fund on-site resident services coordinators and supportive service programs. It aims to improve housing stability and quality of life for low-income residents by connecting them with health, employment, and social services.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-08-05",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4874",
+      "sponsors": [
+        "Rep. Aguilar, Pete [D-CA-33]"
+      ]
+    },
+    {
+      "id": "us-federal-s-2638",
+      "billCode": "S 2638",
+      "title": "Energy Efficiency for Affordable Housing Act",
+      "summary": "The Energy Efficiency for Affordable Housing Act would expand and modify tax incentives for energy efficiency improvements in affordable multifamily housing, including enhancements to the 179D deduction for qualifying affordable housing properties. It targets benefits toward properties serving low-income tenants to reduce utility costs and carbon emissions.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "inclusionary-zoning"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-07-31",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2638",
+      "sponsors": [
+        "Sen. Klobuchar, Amy [D-MN]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-4378",
+      "billCode": "HR 4378",
+      "title": "District of Columbia Board of Zoning Adjustment Home Rule Act",
+      "summary": "The District of Columbia Board of Zoning Adjustment Home Rule Act would transfer authority over DC's Board of Zoning Adjustment to local DC governance, reducing federal oversight of zoning appeals and adjustments. The bill was referred to the House Committee on Oversight and Government Reform.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "density",
+        "nimby"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-07-14",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4378",
+      "sponsors": [
+        "Del. Norton, Eleanor Holmes [D-DC-At Large]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-4359",
+      "billCode": "HR 4359",
+      "title": "Public Housing Fire Safety Act",
+      "summary": "The Public Housing Fire Safety Act would require public housing authorities to implement enhanced fire safety measures, such as sprinkler systems or smoke detection upgrades, in federally assisted public housing buildings. The bill was referred to the House Committee on Financial Services.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "homelessness"
+      ],
+      "category": "building-code",
+      "updatedDate": "2025-07-10",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4359",
+      "sponsors": [
+        "Rep. Watson Coleman, Bonnie [D-NJ-12]"
+      ]
+    },
+    {
+      "id": "us-federal-s-2234",
+      "billCode": "S 2234",
+      "title": "Reducing Homelessness Through Program Reform Act",
+      "summary": "The Reducing Homelessness Through Program Reform Act proposes reforms to federal homelessness assistance programs, likely by modifying eligibility criteria, program structures, or reporting requirements under HUD's McKinney-Vento programs. The bill was referred to the Senate Banking, Housing, and Urban Affairs Committee.",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "homelessness",
+        "affordability"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2025-07-09",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/2234",
+      "sponsors": [
+        "Sen. Rounds, Mike [R-SD]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-4088",
+      "billCode": "HR 4088",
+      "title": "District of Columbia Zoning Commission Home Rule Act",
+      "summary": "The District of Columbia Zoning Commission Home Rule Act would transfer authority over DC's Zoning Commission away from federal oversight, granting the District greater local control over its own zoning decisions. The bill was referred to the House Committee on Oversight and Government Reform.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "density",
+        "nimby"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-06-23",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/4088",
+      "sponsors": [
+        "Del. Norton, Eleanor Holmes [D-DC-At Large]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-3540",
+      "billCode": "HR 3540",
+      "title": "Low-Income Housing Tax Credit Elimination Act",
+      "summary": "The Low-Income Housing Tax Credit Elimination Act would repeal the LIHTC program entirely, removing the primary federal tax incentive used to finance construction and rehabilitation of affordable rental housing. Elimination of the credit would significantly reduce private investment in affordable housing development.",
+      "stage": "Committee",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability",
+        "inclusionary-zoning"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-05-21",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3540",
+      "sponsors": [
+        "Rep. Grothman, Glenn [R-WI-6]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-3252",
+      "billCode": "HR 3252",
+      "title": "Disaster Housing Flexibility Act of 2025",
+      "summary": "The Disaster Housing Flexibility Act of 2025 would grant FEMA greater administrative flexibility to provide temporary and transitional housing assistance to disaster survivors for extended periods. It streamlines eligibility and extends duration of housing assistance programs following major disaster declarations.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "homelessness"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-05-07",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3252",
+      "sponsors": [
+        "Rep. Moskowitz, Jared [D-FL-23]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-3216",
+      "billCode": "HR 3216",
+      "title": "Housing Market Transparency Act",
+      "summary": "The Housing Market Transparency Act would require reporting of certain residential real estate transactions to the IRS and FHFA to identify patterns of institutional ownership, algorithmic rent-setting, and market concentration. It creates new disclosure obligations for large landlords and corporate buyers.",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability",
+        "short-term-rental",
+        "vacancy-tax"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-05-06",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3216",
+      "sponsors": [
+        "Rep. Horsford, Steven [D-NV-4]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-3215",
+      "billCode": "HR 3215",
+      "title": "Utilizing National Land for Opportunities and Community Key (UNLOCK) Housing Act",
+      "summary": "The UNLOCK Housing Act directs federal agencies to identify underutilized federal lands suitable for transfer or lease to state, local, or nonprofit entities for affordable housing development. It establishes a streamlined process for conveying federal land to housing developers at below-market rates.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "public-land",
+        "affordability",
+        "density"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-05-06",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3215",
+      "sponsors": [
+        "Rep. Horsford, Steven [D-NV-4]"
+      ]
+    },
+    {
+      "id": "us-federal-s-1603",
+      "billCode": "S 1603",
+      "title": "Preserving Rural Housing Investments Act",
+      "summary": "The Preserving Rural Housing Investments Act would modify the Low-Income Housing Tax Credit program to improve the financial viability of rural affordable housing projects, including by adjusting basis boost provisions for rural areas. It aims to attract private investment to affordable housing preservation in underserved rural markets.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "indigenous-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-05-06",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1603",
+      "sponsors": [
+        "Sen. Moran, Jerry [R-KS]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-3126",
+      "billCode": "HR 3126",
+      "title": "Promoting Submetering for Affordable Housing Act",
+      "summary": "The Promoting Submetering for Affordable Housing Act would create a tax incentive for owners of affordable multifamily housing who install individual utility submetering systems to allocate utility costs directly to tenants. The credit is intended to encourage energy conservation and reduce operating costs in affordable units.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "inclusionary-zoning"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-04-30",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/3126",
+      "sponsors": [
+        "Rep. Tenney, Claudia [R-NY-24]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-2746",
+      "billCode": "HR 2746",
+      "title": "Fix Moldy Housing Act",
+      "summary": "The Fix Moldy Housing Act directs the EPA to develop and disseminate guidelines for identifying, preventing, and remediating mold in residential dwellings. It targets low-income and federally assisted housing stock for priority remediation guidance.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "homelessness"
+      ],
+      "category": "building-code",
+      "updatedDate": "2025-04-08",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2746",
+      "sponsors": [
+        "Rep. Stevens, Haley M. [D-MI-11]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-2747",
+      "billCode": "HR 2747",
+      "title": "Healthy Affordable Housing Act",
+      "summary": "The Healthy Affordable Housing Act directs HUD to establish minimum health and safety standards addressing mold, lead, and other hazards in federally assisted housing. It creates a grant program to help housing authorities and affordable housing owners remediate health hazards in existing units.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "homelessness"
+      ],
+      "category": "building-code",
+      "updatedDate": "2025-04-08",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2747",
+      "sponsors": [
+        "Rep. Stevens, Haley M. [D-MI-11]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-2684",
+      "billCode": "HR 2684",
+      "title": "Dignity in Housing Act of 2025",
+      "summary": "The Dignity in Housing Act of 2025 would prohibit federally assisted housing programs from denying admission solely based on an applicant's prior eviction record. It directs HUD to issue guidance requiring public housing authorities and voucher programs to adopt fair-chance admission policies.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "homelessness"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-04-07",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2684",
+      "sponsors": [
+        "Rep. Malliotakis, Nicole [R-NY-11]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-2494",
+      "billCode": "HR 2494",
+      "title": "To direct the Secretary of Housing and Urban Development to annually submit to the Congress a report that analyzes State and local strategies, activities, and plans that promote affordable housing, and for other purposes.",
+      "summary": "This bill directs the HUD Secretary to submit an annual report to Congress analyzing state and local strategies, activities, and plans that promote affordable housing. The report would identify best practices and barriers to affordable housing development across jurisdictions.",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability",
+        "inclusionary-zoning"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-03-31",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2494",
+      "sponsors": [
+        "Rep. Cherfilus-McCormick, Sheila [D-FL-20]"
+      ]
+    },
+    {
+      "id": "us-federal-s-1174",
+      "billCode": "S 1174",
+      "title": "Local Zoning Decisions Protection Act of 2025",
+      "summary": "The Local Zoning Decisions Protection Act of 2025 would prohibit the federal government from conditioning grants or funding on local zoning law changes, effectively shielding exclusionary zoning practices from federal reform pressure. The bill was referred to the Senate Banking, Housing, and Urban Affairs Committee.",
+      "stage": "Committee",
+      "stance": "restrictive",
+      "impactTags": [
+        "nimby",
+        "community-opposition"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-03-27",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/1174",
+      "sponsors": [
+        "Sen. Lee, Mike [R-UT]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-2475",
+      "billCode": "HR 2475",
+      "title": "Youth Homelessness Guaranteed Income Pilot Program Act of 2025",
+      "summary": "The Youth Homelessness Guaranteed Income Pilot Program Act of 2025 would establish a pilot program providing guaranteed income payments to youth experiencing homelessness. The bill was referred to both the House Committee on Financial Services and the Committee on Ways and Means.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "homelessness",
+        "affordability"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2025-03-27",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2475",
+      "sponsors": [
+        "Rep. Tlaib, Rashida [D-MI-12]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-2206",
+      "billCode": "HR 2206",
+      "title": "Prevent Homelessness Act of 2025",
+      "summary": "The Prevent Homelessness Act of 2025 would establish or expand federal programs aimed at preventing individuals and families from falling into homelessness, likely through emergency rental assistance or eviction prevention mechanisms. The bill was referred to the House Committee on Financial Services.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "homelessness",
+        "affordability"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2025-03-18",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/2206",
+      "sponsors": [
+        "Rep. Lieu, Ted [D-CA-36]"
+      ]
+    },
+    {
+      "id": "us-federal-s-885",
+      "billCode": "S 885",
+      "title": "Strategy and Investment in Rural Housing Preservation Act of 2025",
+      "summary": "The Strategy and Investment in Rural Housing Preservation Act of 2025 would expand USDA rural housing loan and grant programs to preserve and rehabilitate affordable housing stock in rural communities. It increases funding authorization and extends eligibility to a broader range of low-income rural households.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "indigenous-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-03-06",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/885",
+      "sponsors": [
+        "Sen. Shaheen, Jeanne [D-NH]"
+      ]
+    },
+    {
+      "id": "us-federal-s-890",
+      "billCode": "S 890",
+      "title": "Choice in Affordable Housing Act of 2025",
+      "summary": "The Choice in Affordable Housing Act of 2025 aims to strengthen housing choice voucher programs, likely by improving landlord participation incentives and expanding voucher accessibility for low-income renters. The bill was referred to the Senate Banking, Housing, and Urban Affairs Committee.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "homelessness"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-03-06",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/890",
+      "sponsors": [
+        "Sen. Coons, Christopher A. [D-DE]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-1769",
+      "billCode": "HR 1769",
+      "title": "Local Zoning Decisions Protection Act of 2025",
+      "summary": "This version of the Local Zoning Decisions Protection Act of 2025, also sponsored by Rep. Gosar, similarly seeks to prevent the federal government from conditioning funding on local zoning reforms. The bill was referred to the House Committee on the Judiciary.",
+      "stage": "Committee",
+      "stance": "restrictive",
+      "impactTags": [
+        "nimby",
+        "community-opposition"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-03-03",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1769",
+      "sponsors": [
+        "Rep. Gosar, Paul A. [R-AZ-9]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-1609",
+      "billCode": "HR 1609",
+      "title": "Local Zoning Decisions Protection Act of 2025",
+      "summary": "The Local Zoning Decisions Protection Act of 2025 would bar the federal government from using grant funding as leverage to require local governments to reform their zoning laws. The bill was referred to the House Committee on the Judiciary.",
+      "stage": "Committee",
+      "stance": "restrictive",
+      "impactTags": [
+        "nimby",
+        "community-opposition"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-02-26",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/1609",
+      "sponsors": [
+        "Rep. Gosar, Paul A. [R-AZ-9]"
+      ]
+    },
+    {
+      "id": "us-federal-hjres-52",
+      "billCode": "HJRES 52",
+      "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Federal Housing Finance Agency relating to \"Quality Control Standards for Automated Valuation Models\".",
+      "summary": "This joint resolution seeks to nullify the FHFA rule establishing quality control standards for automated valuation models used in mortgage lending. Congressional disapproval would prevent the rule from taking effect under the Congressional Review Act.",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "mortgage-regulation",
         "affordability"
       ],
       "category": "affordable-housing",
-      "updatedDate": "2026-03-12",
-      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/6644/text",
-      "sponsors": []
+      "updatedDate": "2025-02-12",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/52",
+      "sponsors": [
+        "Rep. Clyde, Andrew S. [R-GA-9]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-891",
+      "billCode": "HR 891",
+      "title": "Pro-Housing Act of 2025",
+      "summary": "The Pro-Housing Act of 2025 conditions certain federal infrastructure and community development grants on recipient jurisdictions demonstrating progress in removing exclusionary zoning barriers and expanding housing supply. It establishes a scoring framework to evaluate local housing policy reforms.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "density",
+        "affordability",
+        "nimby"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-02-01",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/891",
+      "sponsors": [
+        "Rep. Ryan, Patrick [D-NY-18]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-889",
+      "billCode": "HR 889",
+      "title": "Deliver Housing Now Act of 2025",
+      "summary": "The Deliver Housing Now Act of 2025 ties federal community development and transportation grants to state and local adoption of pro-housing policies such as upzoning and streamlined permitting. It creates incentives for jurisdictions to increase housing supply near transit corridors.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "density",
+        "transit-oriented"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-31",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/889",
+      "sponsors": [
+        "Rep. Ryan, Patrick [D-NY-18]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-646",
+      "billCode": "HR 646",
+      "title": "Build Housing with Care Act of 2025",
+      "summary": "The Build Housing with Care Act of 2025 would create a grant program enabling nonprofits and local governments to develop affordable housing combined with on-site supportive services such as childcare, health care, and social services. It also provides tax credit enhancements to incentivize co-location of care services in affordable housing developments.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "social-housing",
+        "homelessness"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-23",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/646",
+      "sponsors": [
+        "Rep. Bonamici, Suzanne [D-OR-1]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-577",
+      "billCode": "HR 577",
+      "title": "Treatment and Homelessness Housing Integration Act of 2024",
+      "summary": "The Treatment and Homelessness Housing Integration Act of 2025 would create grants linking substance use disorder treatment programs with supportive housing placements for homeless individuals. It directs HUD and HHS to coordinate funding to integrate treatment and stable housing services.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "homelessness",
+        "affordability"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2025-01-21",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/577",
+      "sponsors": [
+        "Rep. Calvert, Ken [R-CA-41]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-68",
+      "billCode": "HR 68",
+      "title": "Housing Fairness Act of 2025",
+      "summary": "The Housing Fairness Act of 2025 directs HUD to conduct paired-testing audits to detect housing discrimination in rental and sales markets. It authorizes grants to fair housing organizations to carry out testing and enforcement activities.",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability",
+        "inclusionary-zoning"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-03",
+      "sourceUrl": "https://www.congress.gov/bill/119th-congress/house-bill/68",
+      "sponsors": [
+        "Rep. Green, Al [D-TX-9]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-7451",
+      "billCode": "HR 7451",
+      "title": "Youth Homelessness Guaranteed Income Pilot Program Act of 2024",
+      "summary": "The Youth Homelessness Guaranteed Income Pilot Program Act of 2024 would establish a pilot program providing guaranteed income payments to young people experiencing homelessness to help them secure and maintain stable housing. It tests direct cash transfers as an intervention to reduce youth homelessness.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "homelessness",
+        "affordability"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2024-12-17",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7451",
+      "sponsors": [
+        "Rep. Tlaib, Rashida [D-MI-12]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-9553",
+      "billCode": "HR 9553",
+      "title": "Affordable Housing Resident Services Act",
+      "summary": "The Affordable Housing Resident Services Act would authorize funding for supportive services provided to residents of affordable housing developments, such as job training, health services, and financial counseling. It aims to improve housing stability and outcomes for low-income residents by integrating services into affordable housing properties.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "homelessness"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-09-12",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/9553",
+      "sponsors": [
+        "Rep. Aguilar, Pete [D-CA-33]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-8900",
+      "billCode": "HR 8900",
+      "title": "Keep Housing Affordable Act of 2024",
+      "summary": "The Keep Housing Affordable Act of 2024 would modify or extend LIHTC provisions to preserve the affordability of existing low-income housing and prevent expiration of affordability restrictions. It uses tax incentives to maintain affordable rents and prevent displacement of low-income residents.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "displacement"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-06-28",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/8900",
+      "sponsors": [
+        "Rep. Nickel, Wiley [D-NC-13]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-7972",
+      "billCode": "HR 7972",
+      "title": "Affordable Housing and Area Median Income Fairness Act of 2024",
+      "summary": "The Affordable Housing and Area Median Income Fairness Act of 2024 would reform how Area Median Income (AMI) is calculated for purposes of determining affordable housing eligibility, aiming to better reflect local income conditions in high-cost urban areas. The bill was referred to the House Committee on Financial Services.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "inclusionary-zoning"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-04-12",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7972",
+      "sponsors": [
+        "Rep. Clarke, Yvette D. [D-NY-9]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-7908",
+      "billCode": "HR 7908",
+      "title": "Commission on Youth Homelessness Act",
+      "summary": "The Commission on Youth Homelessness Act would establish a federal commission to study the causes and extent of youth homelessness and recommend policy solutions. It has no direct operative funding or programmatic effect, directing instead a formal study and reporting process.",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "homelessness"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2024-04-09",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7908",
+      "sponsors": [
+        "Rep. Krishnamoorthi, Raja [D-IL-8]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-7862",
+      "billCode": "HR 7862",
+      "title": "Government Agencies Affordable Housing Conversion Act of 2024",
+      "summary": "The Government Agencies Affordable Housing Conversion Act of 2024 would authorize and facilitate the conversion of underutilized federal or government agency buildings into affordable housing units. It establishes a mechanism for transferring or repurposing federal property for residential use with affordability restrictions.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "public-land"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-04-02",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7862",
+      "sponsors": [
+        "Rep. Schiff, Adam B. [D-CA-30]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-7782",
+      "billCode": "HR 7782",
+      "title": "Green New Deal for Public Housing Act",
+      "summary": "The Green New Deal for Public Housing Act would authorize federal funding to rehabilitate and retrofit existing public housing units with green energy upgrades and build new energy-efficient public housing. It combines climate goals with expansion of publicly owned affordable housing stock.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "social-housing",
+        "affordability",
+        "environmental-review"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-03-21",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7782",
+      "sponsors": [
+        "Rep. Ocasio-Cortez, Alexandria [D-NY-14]"
+      ]
+    },
+    {
+      "id": "us-federal-s-3925",
+      "billCode": "S 3925",
+      "title": "Boosting Tax Credits for Accessible Housing Act",
+      "summary": "This bill would expand Low-Income Housing Tax Credits (LIHTC) specifically to incentivize construction and rehabilitation of accessible housing units for people with disabilities. It increases tax credit allocations tied to accessibility standards.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "inclusionary-zoning"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-03-12",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/3925",
+      "sponsors": [
+        "Sen. Casey, Robert P., Jr. [D-PA]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-7412",
+      "billCode": "HR 7412",
+      "title": "Rural Housing Voucher Enhancement Act of 2024",
+      "summary": "The Rural Housing Voucher Enhancement Act of 2024 would expand and improve the Section 542 rural housing voucher program administered by USDA, enhancing rental assistance for low-income residents in rural areas. The bill was referred to the House Committee on Financial Services.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "homelessness"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-02-20",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7412",
+      "sponsors": [
+        "Rep. Crockett, Jasmine [D-TX-30]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-7328",
+      "billCode": "HR 7328",
+      "title": "Housing Innovation Act",
+      "summary": "The Housing Innovation Act would establish a grant or pilot program to support innovative housing construction methods and technologies aimed at reducing costs and increasing housing supply. It directs HUD to fund experimental approaches to residential development.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "density",
+        "public-land"
+      ],
+      "category": "development-incentive",
+      "updatedDate": "2024-02-13",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7328",
+      "sponsors": [
+        "Rep. DeSaulnier, Mark [D-CA-10]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-7230",
+      "billCode": "HR 7230",
+      "title": "Puerto Rico Low-Income Housing Support Act",
+      "summary": "The Puerto Rico Low-Income Housing Support Act would modify federal low-income housing assistance programs to better address the unique needs of Puerto Rico, including adjusting eligibility formulas or funding allocations for the territory. It aims to close the gap in housing support between Puerto Rico and the fifty states.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "inclusionary-zoning"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-02-05",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7230",
+      "sponsors": [
+        "Rescom. González-Colón, Jenniffer [R-PR-At Large]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-7186",
+      "billCode": "HR 7186",
+      "title": "Treatment and Homelessness Housing Integration Act of 2024",
+      "summary": "The Treatment and Homelessness Housing Integration Act of 2024 would authorize programs integrating substance use disorder and mental health treatment with housing assistance for homeless individuals. It establishes or funds housing-linked treatment pathways to reduce chronic homelessness.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "homelessness"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2024-02-01",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7186",
+      "sponsors": [
+        "Rep. Calvert, Ken [R-CA-41]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-7110",
+      "billCode": "HR 7110",
+      "title": "LIHTC Landlord Accountability Act of 2024",
+      "summary": "The LIHTC Landlord Accountability Act of 2024 would impose new tenant protection requirements on landlords receiving Low-Income Housing Tax Credits, such as restrictions on evictions, rent increases, and habitability standards. It conditions receipt of federal tax benefits on compliance with stronger tenant rights protections.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "displacement"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2024-01-29",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/7110",
+      "sponsors": [
+        "Rep. Espaillat, Adriano [D-NY-13]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-6948",
+      "billCode": "HR 6948",
+      "title": "Strengthening Housing Supply Act of 2024",
+      "summary": "The Strengthening Housing Supply Act of 2024 would provide incentives or grants to localities that adopt zoning reforms to increase housing supply, such as allowing higher-density development and reducing barriers to construction. It conditions federal funding on jurisdictions demonstrating measurable increases in housing production.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "density",
+        "nimby"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2024-01-10",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/6948",
+      "sponsors": [
+        "Rep. Waters, Maxine [D-CA-43]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-5814",
+      "billCode": "HR 5814",
+      "title": "Affordable Housing Stability During Shutdowns Act of 2023",
+      "summary": "The Affordable Housing Stability During Shutdowns Act of 2023 would require that federal housing assistance programs, including Section 8 vouchers and public housing subsidies, continue operating and making payments during government shutdowns. It prevents disruption of housing benefits for low-income recipients caused by funding lapses.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "homelessness"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2023-09-28",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/5814",
+      "sponsors": [
+        "Rep. Schiff, Adam B. [D-CA-30]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-5277",
+      "billCode": "HR 5277",
+      "title": "Prevent Homelessness Act of 2023",
+      "summary": "The Prevent Homelessness Act of 2023 would create or expand federal programs providing emergency rental assistance or other interventions to prevent individuals and families from becoming homeless. It targets households at imminent risk of losing housing due to financial hardship.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "homelessness",
+        "affordability",
+        "displacement"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2023-08-25",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/5277",
+      "sponsors": [
+        "Rep. Lieu, Ted [D-CA-36]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-5176",
+      "billCode": "HR 5176",
+      "title": "Affordable and Homeless Housing Incentives Act of 2023",
+      "summary": "The Affordable and Homeless Housing Incentives Act of 2023 would create or expand tax incentives for developers and property owners who provide affordable housing units or housing for homeless individuals. It uses the tax code to encourage private sector participation in addressing housing affordability and homelessness.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "homelessness",
+        "inclusionary-zoning"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2023-08-08",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/5176",
+      "sponsors": [
+        "Rep. Schiff, Adam B. [D-CA-30]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-3719",
+      "billCode": "HR 3719",
+      "title": "Save Affordable Housing Act of 2023",
+      "summary": "The Save Affordable Housing Act of 2023 would modify LIHTC rules to protect existing affordable housing units from being converted to market-rate housing when their affordability agreements expire. It strengthens tenant and affordability protections within the tax credit program to preserve the existing affordable housing stock.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "displacement"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2023-05-25",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/3719",
+      "sponsors": [
+        "Rep. Neguse, Joe [D-CO-2]"
+      ]
+    },
+    {
+      "id": "us-federal-s-611",
+      "billCode": "S 611",
+      "title": "Energy Efficiency for Affordable Housing Act",
+      "summary": "The Energy Efficiency for Affordable Housing Act would expand tax credits to incentivize energy efficiency improvements in affordable housing properties, including those funded through LIHTC. It aims to lower operating costs for affordable housing owners and reduce utility burdens on low-income tenants.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "environmental-review"
+      ],
+      "category": "building-code",
+      "updatedDate": "2023-03-01",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/senate-bill/611",
+      "sponsors": [
+        "Sen. Klobuchar, Amy [D-MN]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-773",
+      "billCode": "HR 773",
+      "title": "Homelessness and Behavioral Health Care Coordination Act of 2023",
+      "summary": "The Homelessness and Behavioral Health Care Coordination Act of 2023 would fund programs that coordinate housing services with behavioral health care for individuals experiencing homelessness. It directs federal resources toward integrated service models linking mental health and substance use treatment with stable housing placement.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "homelessness"
+      ],
+      "category": "homelessness-services",
+      "updatedDate": "2023-02-02",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/773",
+      "sponsors": [
+        "Rep. Dean, Madeleine [D-PA-4]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-418",
+      "billCode": "HR 418",
+      "title": "Affordable Housing Equity Act of 2023",
+      "summary": "The Affordable Housing Equity Act of 2023 would reform LIHTC provisions to increase equity investment in affordable housing, potentially by adjusting credit rates or eligible basis rules. It seeks to attract more private capital to affordable housing development by improving the financial returns available through the tax credit structure.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "inclusionary-zoning"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2023-01-20",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/418",
+      "sponsors": [
+        "Rep. Gomez, Jimmy [D-CA-34]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-307",
+      "billCode": "HR 307",
+      "title": "Public Housing Emergency Response Act",
+      "summary": "The Public Housing Emergency Response Act authorizes emergency funding and response mechanisms for public housing developments facing critical infrastructure or safety failures. It directs HUD to provide expedited financial assistance to public housing authorities to address emergency conditions that threaten the habitability of units.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability",
+        "homelessness"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2023-01-11",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/307",
+      "sponsors": [
+        "Rep. Velazquez, Nydia M. [D-NY-7]"
+      ]
+    },
+    {
+      "id": "us-federal-hr-6318",
+      "billCode": "HR 6318",
+      "title": "Public Housing for the 21st Century Act of 2023",
+      "summary": "The Public Housing for the 21st Century Act of 2023 would modernize and expand the federal public housing program, potentially through new construction financing mechanisms and updated management frameworks for public housing authorities. The bill received introductory remarks in the House.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "social-housing",
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2023-11-30",
+      "sourceUrl": "https://www.congress.gov/bill/118th-congress/house-bill/6318",
+      "sponsors": [
+        "Rep. Tlaib, Rashida [D-MI-12]"
+      ]
     }
   ]
 }
