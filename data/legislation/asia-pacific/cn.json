@@ -1,0 +1,42 @@
+{
+  "state": "China",
+  "stateCode": "CN",
+  "region": "asia",
+  "stance": "favorable",
+  "stanceZoning": "none",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "以下为从相关片段中提取的中国住房法规（住房政策），涵盖租房保护、保障房等方面的最新动态。",
+  "legislation": [
+    {
+      "id": "ap-cn-sc-rental-2025",
+      "billCode": "SC-RENTAL-2025",
+      "title": "国务院住房租赁条例 (Housing Rental Regulations)",
+      "summary": "国务院行政会议通过的住房租赁条例规定，出租房屋须符合现行法律和强制性标准，不得危害租户安全与健康；禁止改变承重结构或损坏消防设施；未经房东批准，不得改变房屋其他设施。",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-08-07",
+      "sourceUrl": "http://en.moj.gov.cn/2025-08/07/c_1115214.htm",
+      "sponsors": []
+    },
+    {
+      "id": "ap-cn-bj-talent-apt-2025",
+      "billCode": "BJ-TALENT-APT-2025",
+      "title": "北京望京国际人才公寓租赁政策 (Wangjing International Talent Apartments Leasing Policy)",
+      "summary": "北京望京国际人才公寓正式开放租赁，为签订一年期租约的租户提供最少5天、最多120天的免租优惠，具体天数视租约情况而定，旨在吸引国际人才落户北京。",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-07-14",
+      "sourceUrl": "https://english.beijing.gov.cn/workinginbeijing/whybeijing/favorabletreatment/list/202507/t20250714_4148681.html",
+      "sponsors": []
+    }
+  ]
+}

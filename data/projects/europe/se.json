@@ -1,0 +1,101 @@
+{
+  "country": "Sweden",
+  "countryCode": "SE",
+  "currency": "SEK",
+  "lastUpdated": "2026-04-16",
+  "projects": [
+    {
+      "id": "eu-se-vision-for-sweden-2025-housing-planning-initiative",
+      "developer": "National Board of Housing, Building and Planning (Boverket)",
+      "status": "proposed",
+      "projectName": "Vision for Sweden 2025 Housing Planning Initiative",
+      "location": "Sweden (national)",
+      "state": "SE",
+      "country": "Sweden",
+      "projectType": "mixed",
+      "yearProposed": 2014,
+      "notes": "The National Board of Housing, Building and Planning (Boverket) was assigned by the Swedish government in 2011 to produce a Vision for Sweden 2025. The initiative aims to present objectives for Sweden's future built environment, drawing on ",
+      "source": "https://www.boverket.se/en/start/publications/2014/vision-for-sweden-2025",
+      "primaryBeneficiary": "Swedish residents and municipalities nationwide",
+      "storyBlurb": "The National Board of Housing, Building and Planning (Boverket) was assigned by the Swedish government in 2011 to produce a Vision for Sweden 2025. The initiative aims to present objectives for Sweden's future built environment, drawing on approximately one hundred national goals related to physical social planning. The vision emphasizes that town and country planning at all levels should facilitate people's everyday lives while reducing resource utilisation, and that existing values in the built environment should be nurtured and developed. It also calls on the government, regions, and municipalities to invest in public transport to major urban areas, reflecting an integrated approach to housing and transit planning across the country.",
+      "issues": [
+        "transit-access",
+        "green-space-environment",
+        "community-input-consultation"
+      ],
+      "sources": [
+        {
+          "title": "Vision for Sweden 2025",
+          "publisher": "Boverket",
+          "url": "https://www.boverket.se/en/start/publications/2014/vision-for-sweden-2025",
+          "date": "2014-01-01"
+        },
+        {
+          "title": "Vision for Sweden 2025 (PDF)",
+          "publisher": "Boverket",
+          "url": "https://www.boverket.se/globalassets/publikationer/dokument/2014/vision-for-sweden-2025.pdf",
+          "date": "2014-01-01"
+        }
+      ]
+    },
+    {
+      "id": "eu-se-new-mortgage-rules-housing-market-reform",
+      "developer": "Swedish Government / Sveriges Riksdag",
+      "status": "proposed",
+      "projectName": "New Mortgage Rules Housing Market Reform",
+      "location": "Sweden (national)",
+      "state": "SE",
+      "country": "Sweden",
+      "projectType": "mixed",
+      "yearProposed": 2026,
+      "notes": "The Swedish Riksdag has voted in favour of government proposals to reform mortgage rules with the goal of reducing barriers to entry in the housing market. Under the new rules, the mortgage cap will be raised from 85 to 90 per cent of a hom",
+      "source": "https://www.riksdagen.se/en/news/articles/2026/mar/4/new-mortgage-rules-to-reduce-thresholds-in-the_cmsfca551a0-b04d-4677-aa67-0aab4f002e56en",
+      "primaryBeneficiary": "First-time homebuyers and new home purchasers in Sweden",
+      "storyBlurb": "The Swedish Riksdag has voted in favour of government proposals to reform mortgage rules with the goal of reducing barriers to entry in the housing market. Under the new rules, the mortgage cap will be raised from 85 to 90 per cent of a home's market value for new home purchases, making it easier for buyers to enter the market with a smaller deposit. However, the possibility of expanding a mortgage with a supplementary loan will be limited to 80 per cent of market value. Additionally, the stricter amortisation requirement previously in place will be removed. These reforms are intended to lower the financial thresholds that have historically made homeownership difficult, particularly for younger and first-time buyers, while balancing concerns about household debt levels across Sweden.",
+      "issues": [
+        "affordability"
+      ],
+      "sources": [
+        {
+          "title": "New mortgage rules to reduce thresholds in the housing market",
+          "publisher": "Sveriges Riksdag",
+          "url": "https://www.riksdagen.se/en/news/articles/2026/mar/4/new-mortgage-rules-to-reduce-thresholds-in-the_cmsfca551a0-b04d-4677-aa67-0aab4f002e56en",
+          "date": "2026-03-04"
+        }
+      ]
+    },
+    {
+      "id": "eu-se-swedish-housing-market-tenure-and-production-framework",
+      "developer": "National Board of Housing, Building and Planning (Boverket)",
+      "status": "operational",
+      "projectName": "Swedish Housing Market Tenure and Production Framework",
+      "location": "Sweden (national)",
+      "state": "SE",
+      "country": "Sweden",
+      "projectType": "rental",
+      "notes": "Sweden's national housing production framework, overseen by Boverket, encompasses multiple tenure forms including the right to rent, tenant-owner rights, ownership rights, and cooperative rental arrangements. A large share of housing produc",
+      "source": "https://www.boverket.se/en/start/swedish-market/analyse-market",
+      "primaryBeneficiary": "Renters and tenant-owners in Swedish multi-unit dwellings",
+      "storyBlurb": "Sweden's national housing production framework, overseen by Boverket, encompasses multiple tenure forms including the right to rent, tenant-owner rights, ownership rights, and cooperative rental arrangements. A large share of housing production focuses on tenant-owner and rental units within multi-family dwellings. Ownership apartments in multi-family buildings were only made possible from 2009 onward, reflecting Sweden's historically rental-dominant housing culture. The framework is supported by credit guarantee mechanisms, which act as insurance policies that lenders can use to secure housing loans. Boverket's Housing Market Survey also monitors all 290 Swedish municipalities to track housing supply, demand, and affordability conditions, providing comprehensive national data that informs policy and planning decisions across the country.",
+      "issues": [
+        "affordability",
+        "social-mix",
+        "density-height"
+      ],
+      "sources": [
+        {
+          "title": "Analyse construction and housing market",
+          "publisher": "Boverket",
+          "url": "https://www.boverket.se/en/start/swedish-market/analyse-market",
+          "date": ""
+        },
+        {
+          "title": "The Housing Market Survey",
+          "publisher": "Boverket",
+          "url": "https://www.boverket.se/en/start/swedish-market/analyse-market/the-housing-market/the-housing-market-survey",
+          "date": ""
+        }
+      ]
+    }
+  ]
+}

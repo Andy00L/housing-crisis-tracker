@@ -1,0 +1,28 @@
+{
+  "country": "South Korea",
+  "countryCode": "KR",
+  "currency": "KRW",
+  "lastUpdated": "2026-04-16",
+  "projects": [
+    {
+      "id": "ap-kr-land-housing-policy-research-program",
+      "developer": "토지주택연구원 (Land and Housing Research Institute – LH)",
+      "status": "operational",
+      "projectName": "토지주택 정책 연구 (Land & Housing Policy Research Program)",
+      "location": "Nationwide",
+      "state": "KR",
+      "country": "South Korea",
+      "affordableUnits": 0,
+      "projectType": "social",
+      "notes": "토지주택연구원 publishes the Land & Housing Review journal (연 4회, quarterly), covering 토지 (land), 주택 (housing), and urban policy research. Key themes include 임대 housing policy reform and the evolving role of 전세 contracts in the Korean housing mark",
+      "source": "https://lhri.lh.or.kr/eng/pblictn/PblictnList.do?menuIdx=396&pblictnCode=LHI_JRNL",
+      "primaryBeneficiary": "Policy makers / 임대주택 거주자",
+      "storyBlurb": "토지주택연구원 publishes the Land & Housing Review journal (연 4회, quarterly), covering 토지 (land), 주택 (housing), and urban policy research. Key themes include 임대 housing policy reform and the evolving role of 전세 contracts in the Korean housing market amid rising affordability pressures.",
+      "issues": [
+        "affordability",
+        "community-input-consultation"
+      ],
+      "sources": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "state": "Poland",
+  "stateCode": "PL",
+  "region": "eu",
+  "stance": "favorable",
+  "stanceZoning": "none",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Polski rynek mieszkaniowy podlega regulacjom dotyczącym kredytów hipotecznych oraz opodatkowania nieruchomości. UOKiK promuje bezpieczne umowy kredytów hipotecznych opartych na stałej stopie procentowej, a Sejm analizuje zagadnienia podatku katastralnego od nieruchomości. Dostępne fragmenty nie ujawniają kompleksowego pakietu ustaw mieszkaniowych w toku legislacji.",
+  "legislation": [
+    {
+      "id": "eu-pl-uokik-hyp-2025",
+      "billCode": "UOKiK-HYP-2025",
+      "title": "Ustawa o bezpiecznym kredycie hipotecznym – wzorzec umowy według UOKiK",
+      "summary": "Ustawa wprowadza do polskiego prawa wzorzec bezpiecznej i przejrzystej umowy kredytu hipotecznego opartej na stałej stopie procentowej przez określony okres. Celem jest ochrona konsumentów nabywających mieszkania na kredyt.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://uokik.gov.pl/en/mortgage-loan-according-to-uokik-clear-safe-cheaper",
+      "sponsors": [
+        "UOKiK"
+      ]
+    }
+  ]
+}

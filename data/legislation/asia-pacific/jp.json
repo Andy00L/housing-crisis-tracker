@@ -1,0 +1,42 @@
+{
+  "state": "Japan",
+  "stateCode": "JP",
+  "region": "asia",
+  "stance": "review",
+  "stanceZoning": "none",
+  "stanceAffordability": "review",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "The following housing-related legislative and policy items for Japan were extracted from official government document snippets, covering topics such as foreign real estate acquisition, housing support for persons in need, and residential land trends.",
+  "legislation": [
+    {
+      "id": "ap-jp-202602-rea",
+      "billCode": "202602-REA",
+      "title": "外国人による不動産取得に関する整理 (Overview of Real Estate Acquisition by Foreign Nationals)",
+      "summary": "A document from the House of Representatives (衆議院) reviewing policy frameworks around real estate acquisition by foreign nationals in Japan, referencing a January 2026 expert panel opinion and inter-ministerial measures for an orderly coexistence society. Relevant party proposals from the LDP and Nippon Ishin no Kai are also noted.",
+      "stage": "Committee",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "foreign-investment",
+      "updatedDate": "2026-02-01",
+      "sourceUrl": "https://www.shugiin.go.jp/internet/itdb_rchome.nsf/html/rchome/shiryo/202602_real_estate_acquisition_by_foreign_nationals.pdf/$File/202602_real_estate_acquisition_by_foreign_nationals.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "ap-jp-mlit-hsp-2024",
+      "billCode": "MLIT-HSP-2024",
+      "title": "Japanese Housing Policies for Persons Requiring Housing Support (住宅支援を必要とする方への住宅政策)",
+      "summary": "A Ministry of Land, Infrastructure, Transport and Tourism (MLIT) policy document addressing housing support measures for vulnerable populations, including data on vacant houses (空き家) available for rent or sale nationwide, and outlining necessary support measures when renting to persons requiring assistance.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.mlit.go.jp/en/jutakukentiku/content/001972618.pdf",
+      "sponsors": []
+    }
+  ]
+}

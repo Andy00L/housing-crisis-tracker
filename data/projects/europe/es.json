@@ -1,0 +1,90 @@
+{
+  "country": "Spain",
+  "countryCode": "ES",
+  "currency": "EUR",
+  "lastUpdated": "2026-04-16",
+  "projects": [
+    {
+      "id": "eu-es-madrid-affordable-housing-2021",
+      "developer": "MADRID AFFORDABLE HOUSING 2021 SA",
+      "status": "proposed",
+      "projectName": "MADRID AFFORDABLE HOUSING 2021",
+      "location": "Madrid",
+      "state": "ES",
+      "country": "Spain",
+      "projectType": "social",
+      "yearProposed": 2026,
+      "notes": "MADRID AFFORDABLE HOUSING 2021 SA appears in the official Spanish commercial registry bulletin (BORME) for March 4, 2026, registered under number BORME-A-2026-43-28. The company name explicitly references affordable housing in Madrid, sugge",
+      "source": "https://www.boe.es/borme/dias/2026/03/04/pdfs/BORME-A-2026-43-99.pdf",
+      "primaryBeneficiary": "Affordable housing residents in Madrid",
+      "storyBlurb": "MADRID AFFORDABLE HOUSING 2021 SA appears in the official Spanish commercial registry bulletin (BORME) for March 4, 2026, registered under number BORME-A-2026-43-28. The company name explicitly references affordable housing in Madrid, suggesting it was established with a mandate to develop or manage below-market-rate residential units in the Spanish capital. Founded in 2021, the entity has continued its registration activity into 2026. Madrid faces significant housing affordability pressures, with rising rents pushing lower-income residents out of central neighborhoods. Projects like this one, registered as a public limited company (SA), may represent institutional efforts to address housing shortfalls through dedicated vehicles. Specific unit counts and project costs were not available in the snippet, but the company's stated focus on affordability positions it within Spain's broader social housing agenda.",
+      "issues": [
+        "affordability",
+        "displacement-gentrification"
+      ],
+      "sources": [
+        {
+          "title": "ÍNDICE ALFABÉTICO DE SOCIEDADES del BORME núm. 43 de 2026",
+          "publisher": "Boletín Oficial del Registro Mercantil (BOE)",
+          "url": "https://www.boe.es/borme/dias/2026/03/04/pdfs/BORME-A-2026-43-99.pdf",
+          "date": "2026-03-04"
+        }
+      ]
+    },
+    {
+      "id": "eu-es-collegiate-spain-residencias-de-estudiantes",
+      "developer": "COLLEGIATE SPAIN RESIDENCIAS DE ESTUDIANTES SL",
+      "status": "operational",
+      "projectName": "COLLEGIATE SPAIN RESIDENCIAS DE ESTUDIANTES",
+      "location": "Spain (national)",
+      "state": "ES",
+      "country": "Spain",
+      "projectType": "rental",
+      "yearProposed": 2026,
+      "notes": "COLLEGIATE SPAIN RESIDENCIAS DE ESTUDIANTES SL is listed in the BORME commercial registry bulletin dated March 4, 2026, under reference BORME-A-2026-43-28. The company name indicates it is part of the Collegiate brand, a well-known operator",
+      "source": "https://www.boe.es/borme/dias/2026/03/04/pdfs/BORME-A-2026-43-99.pdf",
+      "primaryBeneficiary": "University students seeking managed residential accommodation",
+      "storyBlurb": "COLLEGIATE SPAIN RESIDENCIAS DE ESTUDIANTES SL is listed in the BORME commercial registry bulletin dated March 4, 2026, under reference BORME-A-2026-43-28. The company name indicates it is part of the Collegiate brand, a well-known operator of purpose-built student accommodation (PBSA) with a presence across Europe. In Spain, student housing has become an increasingly competitive and high-demand asset class, particularly in cities like Madrid, Barcelona, and Valencia, where university enrollment is high and affordable rental options near campuses are scarce. Student residences of this type typically offer rental rooms with shared amenities, targeting both domestic and international students. The registration activity recorded in 2026 may reflect an expansion or restructuring of operations within the Spanish market. Affordability and access remain key concerns for students in major Spanish cities.",
+      "issues": [
+        "affordability",
+        "density-height"
+      ],
+      "sources": [
+        {
+          "title": "ÍNDICE ALFABÉTICO DE SOCIEDADES del BORME núm. 43 de 2026",
+          "publisher": "Boletín Oficial del Registro Mercantil (BOE)",
+          "url": "https://www.boe.es/borme/dias/2026/03/04/pdfs/BORME-A-2026-43-99.pdf",
+          "date": "2026-03-04"
+        }
+      ]
+    },
+    {
+      "id": "eu-es-la-encina-coliving",
+      "developer": "LA ENCINA COLIVING SL",
+      "status": "operational",
+      "projectName": "LA ENCINA COLIVING",
+      "location": "Madrid",
+      "state": "ES",
+      "country": "Spain",
+      "projectType": "rental",
+      "yearProposed": 2026,
+      "notes": "LA ENCINA COLIVING SL appears in the Madrid section of the BORME bulletin dated March 4, 2026, listed as the sole administrator (Adm. Unico) of a registered entity. The company name identifies it as a coliving operator, a growing residentia",
+      "source": "https://www.boe.es/borme/dias/2026/03/04/pdfs/BORME-A-2026-43-28.pdf",
+      "primaryBeneficiary": "Urban renters seeking coliving residential arrangements in Madrid",
+      "storyBlurb": "LA ENCINA COLIVING SL appears in the Madrid section of the BORME bulletin dated March 4, 2026, listed as the sole administrator (Adm. Unico) of a registered entity. The company name identifies it as a coliving operator, a growing residential model in Spanish cities that provides furnished, flexible rental accommodation with shared common areas and services, typically targeting young professionals and digital nomads. Coliving has expanded rapidly in Madrid as a response to housing affordability challenges and demand for flexible living arrangements. The appearance of this entity in the official registry reflects continued corporate structuring activity within the sector. While specific unit counts and financial details were not disclosed in the snippet, the coliving model generally addresses density and community living goals. Concerns around affordability and displacement remain relevant as coliving operators scale in high-demand urban areas.",
+      "issues": [
+        "affordability",
+        "displacement-gentrification",
+        "community-input-consultation"
+      ],
+      "sources": [
+        {
+          "title": "Actos de MADRID del BORME núm. 43 de 2026",
+          "publisher": "Boletín Oficial del Registro Mercantil (BOE)",
+          "url": "https://www.boe.es/borme/dias/2026/03/04/pdfs/BORME-A-2026-43-28.pdf",
+          "date": "2026-03-04"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "country": "India",
+  "countryCode": "IN",
+  "currency": "INR",
+  "lastUpdated": "2026-04-16",
+  "projects": [
+    {
+      "id": "ap-in-swamih-investment-fund-1-0",
+      "developer": "SBI Ventures / Department of Economic Affairs, Ministry of Finance",
+      "status": "under-construction",
+      "projectName": "SWAMIH Investment Fund 1.0",
+      "location": "Pan-India",
+      "state": "IN",
+      "country": "India",
+      "unitCount": 458000,
+      "affordableUnits": 458000,
+      "projectCost": 55000,
+      "projectType": "mixed",
+      "yearProposed": 2019,
+      "notes": "Launched in November 2019, SWAMIH Fund 1.0 provides last-mile financing to stalled affordable and mid-income housing projects across India. Before its launch, around 1,509 stalled projects involving approximately 4.58 lakh units required ~₹",
+      "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2212593&reg=3&lang=1",
+      "primaryBeneficiary": "Affordable and mid-income homebuyers in stalled housing projects",
+      "storyBlurb": "Launched in November 2019, SWAMIH Fund 1.0 provides last-mile financing to stalled affordable and mid-income housing projects across India. Before its launch, around 1,509 stalled projects involving approximately 4.58 lakh units required ~₹55,000 crore to complete. As of 15 December 2025, approximately 61,000 homes have been delivered across 110 projects, including over 7,000 units under rehabilitation.",
+      "issues": [
+        "affordability"
+      ],
+      "sources": []
+    },
+    {
+      "id": "ap-in-swamih-fund-2",
+      "developer": "Government of India / Ministry of Finance",
+      "status": "proposed",
+      "projectName": "SWAMIH Fund 2",
+      "location": "Pan-India",
+      "state": "IN",
+      "country": "India",
+      "unitCount": 100000,
+      "affordableUnits": 100000,
+      "projectCost": 15000,
+      "projectType": "mixed",
+      "yearProposed": 2025,
+      "notes": "Announced in Budget 2025-26, SWAMIH Fund 2 builds on the success of SWAMIH Fund 1.0 with a ₹15,000 crore corpus aimed at completing an additional 1 lakh stalled housing units across India. It continues the government's strategy of priority ",
+      "source": "https://pib.gov.in/PressNoteDetails.aspx?id=157795&NoteId=157795&ModuleId=3",
+      "primaryBeneficiary": "Affordable and mid-income homebuyers in stalled housing projects",
+      "storyBlurb": "Announced in Budget 2025-26, SWAMIH Fund 2 builds on the success of SWAMIH Fund 1.0 with a ₹15,000 crore corpus aimed at completing an additional 1 lakh stalled housing units across India. It continues the government's strategy of priority last-mile financing to revive stranded residential projects in the affordable and mid-income segments.",
+      "issues": [
+        "affordability"
+      ],
+      "sources": []
+    },
+    {
+      "id": "ap-in-inclusive-resilient-and-sustainable-housing-for-urban-poor-s",
+      "developer": "Government of India / Asian Development Bank / Government of Tamil Nadu",
+      "status": "under-construction",
+      "projectName": "Inclusive, Resilient and Sustainable Housing for Urban Poor Sector Project (Tamil Nadu)",
+      "location": "Tamil Nadu (state-wide)",
+      "state": "IN",
+      "country": "India",
+      "affordableUnits": 0,
+      "projectCost": 150000000,
+      "projectType": "social",
+      "yearProposed": 2021,
+      "notes": "On 7 December 2021, the Government of India and the Asian Development Bank signed a $150 million loan to provide inclusive, resilient, and sustainable housing for the urban poor in Tamil Nadu. The project targets improved access to dignifie",
+      "source": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1783457",
+      "primaryBeneficiary": "Urban poor in Tamil Nadu",
+      "storyBlurb": "On 7 December 2021, the Government of India and the Asian Development Bank signed a $150 million loan to provide inclusive, resilient, and sustainable housing for the urban poor in Tamil Nadu. The project targets improved access to dignified and disaster-resilient homes for low-income urban residents in the state.",
+      "issues": [
+        "affordability",
+        "green-space-environment"
+      ],
+      "sources": []
+    }
+  ]
+}

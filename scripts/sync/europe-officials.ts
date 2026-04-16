@@ -81,12 +81,14 @@ const CANONICALS: CanonicalEntry[] = [
   },
   {
     id: "eu-fr-ministre-logement",
-    role: "Ministre du Logement",
+    role: "Ministre de la Ville et du Logement",
     country: "FR",
-    url: "https://www.ecologie.gouv.fr/equipe-ministerielle",
-    nameSelectors: ["h2", "a"],
+    url: "https://www.info.gouv.fr/personnalite/vincent-jeanbrun",
+    nameSelectors: ["h2", "h1", "a"],
     roleKeywords: ["Logement"],
-    fallback: { name: "Valérie Létard", party: "UDI" },
+    // Vincent Jeanbrun appointed to Gouvernement Lecornu II on 2025-10-12.
+    // Verified via info.gouv.fr on 2026-04-16.
+    fallback: { name: "Vincent Jeanbrun", party: "LR" },
   },
   {
     id: "eu-it-ministro-infrastrutture",
@@ -100,25 +102,36 @@ const CANONICALS: CanonicalEntry[] = [
     id: "eu-es-ministerio-vivienda",
     role: "Ministra de Vivienda y Agenda Urbana",
     country: "ES",
-    url: "https://www.mitma.gob.es/ministerio",
-    nameSelectors: ["h2", "a"],
+    // Spain split Vivienda into its own ministry (MIVAU) during the
+    // current government. mitma.gob.es is now Transportes only. MIVAU is
+    // the correct canonical source for the housing minister.
+    url: "https://www.mivau.gob.es/el-ministerio/sala-de-prensa/noticias/ministra-y-altos-cargos",
+    nameSelectors: ["h1.title", "h2.title", "h1", "h2"],
+    roleKeywords: ["Ministra", "Ministro"],
     fallback: { name: "Isabel Rodríguez", party: "PSOE" },
   },
   {
     id: "eu-pl-ministerstwo",
     role: "Minister of Development and Technology",
     country: "PL",
-    url: "https://www.gov.pl/web/rozwoj-i-technologia",
-    nameSelectors: ["h2", "a"],
+    // The ministry homepage leads with top-level service links whose h2s
+    // look like headings but are actually UI chrome. Drill into the
+    // minister-specific page instead so the first useful h2 is the name.
+    url: "https://www.gov.pl/web/rozwoj-technologia/krzysztof-paszyk",
+    nameSelectors: ["h1.page__title", "h1", "h2"],
+    roleKeywords: ["Minister", "Paszyk"],
     fallback: { name: "Krzysztof Paszyk", party: "PSL" },
   },
   {
     id: "eu-nl-vro-minister",
     role: "Minister for Public Housing and Spatial Planning",
     country: "NL",
-    url: "https://www.rijksoverheid.nl/ministeries",
-    nameSelectors: ["h2", "a"],
-    fallback: { name: "Mona Keijzer", party: "BBB" },
+    url: "https://www.rijksoverheid.nl/regering/bewindspersonen/elanor-boekholt-osullivan",
+    nameSelectors: ["h1", "h2", "a"],
+    // Mona Keijzer stepped down 2026-02-23 to return to the Tweede Kamer.
+    // Elanor Boekholt-O'Sullivan (D66) was appointed the same day in the
+    // incoming Cabinet-Jetten. Verified via rijksoverheid.nl on 2026-04-16.
+    fallback: { name: "Elanor Boekholt-O'Sullivan", party: "D66" },
   },
   {
     id: "eu-se-housing-minister",
@@ -130,10 +143,13 @@ const CANONICALS: CanonicalEntry[] = [
   },
   {
     id: "eu-fi-environment-minister",
-    role: "Minister of the Environment",
+    role: "Minister of Climate and the Environment",
     country: "FI",
-    url: "https://ym.fi/en/ministry",
-    nameSelectors: ["h2", "a"],
+    url: "https://ym.fi/en/minister-of-climate-and-the-environment",
+    nameSelectors: ["h1", "h2", "a"],
+    // Title confirmed as "Minister of Climate and the Environment" (housing
+    // portfolio sits under this role in Finland; there is no dedicated
+    // housing minister). Verified via ym.fi on 2026-04-16.
     fallback: { name: "Sari Multala", party: "Kokoomus" },
   },
   {
@@ -145,12 +161,16 @@ const CANONICALS: CanonicalEntry[] = [
     fallback: { name: "James Browne", party: "Fianna Fáil" },
   },
   {
-    id: "eu-parliament-afco-chair",
-    role: "Chair, Committee on Constitutional Affairs (AFCO)",
+    id: "eu-commissioner-housing",
+    role: "European Commissioner for Energy and Housing",
     country: "EU",
-    url: "https://www.europarl.europa.eu/committees/en/afco/home",
-    nameSelectors: ["h2", "a"],
-    fallback: { name: "Sven Simon", party: "EPP" },
+    url: "https://commission.europa.eu/about/organisation/college-commissioners/dan-jorgensen_en",
+    nameSelectors: ["h1", "h2", "a"],
+    // Dan Jørgensen holds the Energy and Housing portfolio in the
+    // von der Leyen II Commission (since 2024). First EC Commissioner
+    // with an explicit housing brief. Verified via commission.europa.eu
+    // on 2026-04-16.
+    fallback: { name: "Dan Jørgensen", party: "S&D" },
   },
 ];
 
@@ -199,6 +219,62 @@ function canonicalSourceName(url: string): import("@/lib/resilience/types").Sour
   return null;
 }
 
+// Phrases that look like names to the "First Last" regex but are really
+// page titles or section headers. Rejecting these prevents canonical pages
+// from leaking chrome text into the minister field.
+const NON_NAME_PREFIXES = [
+  // English / international
+  "Minister",
+  "Secretary",
+  "Commissioner",
+  "Data",
+  "News",
+  "About",
+  "Home",
+  "Page",
+  // Spanish
+  "Ministra",
+  "Ministerio",
+  "Altos",
+  "Datos",
+  "Inicio",
+  "Sala",
+  // French
+  "Ministre",
+  "Accueil",
+  "Actualités",
+  // German
+  "Startseite",
+  "Ministerin",
+  "Bundesministerin",
+  // Italian
+  "Ministro",
+  "Ministero",
+  "Attualità",
+  // Dutch
+  "Minister",
+  "Nieuws",
+];
+
+function looksLikePageChrome(text: string): boolean {
+  for (const prefix of NON_NAME_PREFIXES) {
+    const re = new RegExp(`^${prefix}\\b`, "i");
+    if (re.test(text)) return true;
+  }
+  return false;
+}
+
+function looksLikeHeadline(text: string): boolean {
+  // Commas and certain verb-y keywords usually mean we grabbed a news headline.
+  if (text.includes(",")) return true;
+  if (/\b(se reúne|meets|announces|says|declares|dit|sagt|zegt)\b/i.test(text)) return true;
+  // Honorifics push British titles up to 7-8 words ("The Rt Hon Steve Reed
+  // OBE MP"). Past 8 words we are almost certainly in headline territory.
+  const words = text.trim().split(/\s+/);
+  if (words.length > 8) return true;
+  return false;
+}
+
 function parseName(html: string, entry: CanonicalEntry): string | null {
   const $ = cheerio.load(html);
   for (const sel of entry.nameSelectors) {
@@ -206,7 +282,9 @@ function parseName(html: string, entry: CanonicalEntry): string | null {
     if (matches.length === 0) continue;
     for (const el of matches.toArray()) {
       const text = $(el).text().replace(/\s+/g, " ").trim();
-      if (!text || text.length < 4 || text.length > 80) continue;
+      if (!text || text.length < 4 || text.length > 60) continue;
+      if (looksLikePageChrome(text)) continue;
+      if (looksLikeHeadline(text)) continue;
       if (entry.roleKeywords) {
         const surrounding = $(el).closest("li, article, section, div").first().text();
         if (!entry.roleKeywords.some((kw) => surrounding.toLowerCase().includes(kw.toLowerCase()))) {
@@ -219,6 +297,49 @@ function parseName(html: string, entry: CanonicalEntry): string | null {
     }
   }
   return null;
+}
+
+// Regression guards. If the pipeline produces an output where the expected
+// name no longer shows up for a role, we log a warning but keep the build
+// green so the file ships with whatever we could fetch. The list is
+// refreshed whenever a minister changes during a live run of Prompt E.2.
+interface ExpectedRole {
+  countryCode: string;
+  roleKeyword: string;
+  expectedNameSubstring: string;
+}
+
+const EXPECTED_EUROPE_ROLES: ExpectedRole[] = [
+  { countryCode: "UK", roleKeyword: "Secretary of State", expectedNameSubstring: "Reed" },
+  { countryCode: "UK", roleKeyword: "Minister for Housing", expectedNameSubstring: "Pennycook" },
+  { countryCode: "DE", roleKeyword: "Housing", expectedNameSubstring: "Hubertz" },
+  { countryCode: "FR", roleKeyword: "Logement", expectedNameSubstring: "Jeanbrun" },
+  { countryCode: "IT", roleKeyword: "Infrastrutture", expectedNameSubstring: "Salvini" },
+  { countryCode: "ES", roleKeyword: "Vivienda", expectedNameSubstring: "Rodríguez" },
+  { countryCode: "PL", roleKeyword: "Development", expectedNameSubstring: "Paszyk" },
+  { countryCode: "NL", roleKeyword: "Housing", expectedNameSubstring: "Boekholt" },
+  { countryCode: "SE", roleKeyword: "Housing", expectedNameSubstring: "Carlson" },
+  { countryCode: "FI", roleKeyword: "Climate", expectedNameSubstring: "Multala" },
+  { countryCode: "IE", roleKeyword: "Housing", expectedNameSubstring: "Browne" },
+  { countryCode: "EU", roleKeyword: "Housing", expectedNameSubstring: "Jørgensen" },
+];
+
+function verifyExpectations(out: Legislator[]): string[] {
+  const warnings: string[] = [];
+  for (const exp of EXPECTED_EUROPE_ROLES) {
+    const match = out.find(
+      (o) =>
+        o.country === exp.countryCode &&
+        o.role.toLowerCase().includes(exp.roleKeyword.toLowerCase()) &&
+        o.name.toLowerCase().includes(exp.expectedNameSubstring.toLowerCase()),
+    );
+    if (!match) {
+      warnings.push(
+        `expected ${exp.countryCode} ${exp.roleKeyword} to contain "${exp.expectedNameSubstring}" but did not find a match`,
+      );
+    }
+  }
+  return warnings;
 }
 
 async function main() {
@@ -264,6 +385,12 @@ async function main() {
   }
 
   for (const note of notes) report.addNote(note);
+
+  const regressionWarnings = verifyExpectations(out);
+  for (const w of regressionWarnings) {
+    console.warn(`[europe-officials] REGRESSION: ${w}`);
+    report.addNote(`regression guard: ${w}`);
+  }
 
   mkdirSync(dirname(OUT_PATH), { recursive: true });
   writeFileSync(

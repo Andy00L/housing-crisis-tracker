@@ -1,0 +1,42 @@
+{
+  "state": "South Korea",
+  "stateCode": "KR",
+  "region": "asia",
+  "stance": "favorable",
+  "stanceZoning": "none",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "한국(South Korea)의 주택(주택) 및 임대(임대) 관련 주요 정책과 프로그램으로, LH(Korea Land & Housing Corporation)와 국토교통부(Ministry of Land, Infrastructure and Transport)가 추진하는 housing welfare 및 전세(전세) 지원 사업을 포함합니다.",
+  "legislation": [
+    {
+      "id": "ap-kr-lh-hw-2022",
+      "billCode": "LH-HW-2022",
+      "title": "LH Housing Welfare Business – 취약계층 주택 지원 프로그램 (Housing Supports for Vulnerable and Marginalized Groups)",
+      "summary": "LH는 현재 및 잠재적 주택 거주자들이 안전하고 청결하며 저렴한 주택을 보장받을 수 있도록 맞춤형 housing welfare 서비스를 제공합니다. 취약계층 및 소외계층을 위한 주택 지원(임대 포함)을 포함하며, 2022년 12월 기준 통계를 기반으로 운영됩니다.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2022-12-31",
+      "sourceUrl": "https://lh.or.kr/menu.es?mid=a20400000000",
+      "sponsors": []
+    },
+    {
+      "id": "ap-kr-lh-rental-org",
+      "billCode": "LH-RENTAL-ORG",
+      "title": "임대주택 공급 및 전세 지원 사업 (Rental Housing – Purchase/전세 Program)",
+      "summary": "LH의 공공주택 공급 체계 내에서 임대주택(Rental Housing) 및 전세(전세) 방식의 주택 지원 프로그램을 운영합니다. 행복주택(Haengbok Housing), 도시재생(Urban Regeneration), 임대 보조금(Rental Subsidy) 등을 포함한 종합적인 주택복지 정책입니다.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2023-01-01",
+      "sourceUrl": "https://www.lh.or.kr/boardDownload.es?bid=0049&list_no=651251&seq=1",
+      "sponsors": []
+    }
+  ]
+}

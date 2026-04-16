@@ -1,0 +1,59 @@
+{
+  "state": "European Parliament",
+  "stateCode": "EU",
+  "region": "eu",
+  "stance": "favorable",
+  "stanceZoning": "none",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "The European Parliament has been actively addressing Europe's housing crisis through its Special Housing Committee, adopting recommendations on affordability, short-term rentals, and construction sector reform. The European Commission also presented its European Affordable Housing Plan in December 2025, complementing parliamentary efforts. Together, these initiatives aim to promote decent, sustainable, and affordable housing across EU Member States.",
+  "legislation": [
+    {
+      "id": "eu-eu-a10-0025-2026",
+      "billCode": "A10-0025/2026",
+      "title": "Housing Crisis in the European Union with the Aim of Proposing Solutions for Decent, Sustainable and Affordable Housing",
+      "summary": "This report, adopted by the European Parliament in plenary on 10 March 2026, sets out MEPs' recommendations to tackle the EU housing crisis, including incentive-based tax systems for low- and middle-income households, limits on planning permit processing to 60 days, and measures to prevent short-term rentals from threatening city affordability.",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-10",
+      "sourceUrl": "https://www.europarl.europa.eu/news/en/agenda/plenary-news/2026-03-09/1/parliament-s-proposals-to-address-europe-s-housing-crisis",
+      "sponsors": [
+        "Borja Giménez Larraz"
+      ]
+    },
+    {
+      "id": "eu-eu-a-10-2025-0139",
+      "billCode": "A-10-2025-0139",
+      "title": "Report on the Role of Cohesion Policy Investment in Resolving the Current Housing Crisis",
+      "summary": "This European Parliament report examines how EU cohesion policy funds can be deployed to address the housing crisis, providing recommendations on investment strategies to improve housing availability and affordability across Member States.",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.europarl.europa.eu/doceo/document/A-10-2025-0139_EN.html",
+      "sponsors": []
+    },
+    {
+      "id": "eu-eu-eahp-2025",
+      "billCode": "EAHP-2025",
+      "title": "European Affordable Housing Plan",
+      "summary": "Presented by the Commission on 16 December 2025, the European Affordable Housing Plan aims to support Member States, regions, and cities in expanding access to affordable housing, and is accompanied by consultations on a prospective Affordable Housing Act.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-16",
+      "sourceUrl": "https://www.europarl.europa.eu/legislative-train/theme-supporting-people-strengthening-our-societies-and-our-social-model/file-the-european-affordable-housing-plan",
+      "sponsors": []
+    }
+  ]
+}

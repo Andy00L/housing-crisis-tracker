@@ -1,5 +1,138 @@
 {
   "region": "europe",
   "lastUpdated": "2026-04-16",
-  "officials": []
+  "officials": [
+    {
+      "id": "eu-uk-ministry-of-housing-secretary",
+      "name": "The Rt Hon Steve Reed OBE MP",
+      "role": "Secretary of State for Housing, Communities and Local Government",
+      "party": "Labour",
+      "stance": "review",
+      "country": "UK",
+      "chamber": "executive",
+      "summary": "Secretary of State for Housing, Communities and Local Government (UK). Data collected in dormant Europe pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "eu-uk-minister-for-housing-and-planning",
+      "name": "Matthew Pennycook MP",
+      "role": "Minister for Housing and Planning",
+      "party": "Labour",
+      "stance": "review",
+      "country": "UK",
+      "chamber": "executive",
+      "summary": "Minister for Housing and Planning (UK). Data collected in dormant Europe pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "eu-de-federal-housing-minister",
+      "name": "Verena Hubertz",
+      "role": "Federal Minister for Housing, Urban Development and Building",
+      "party": "SPD",
+      "stance": "review",
+      "country": "DE",
+      "chamber": "executive",
+      "summary": "Federal Minister for Housing, Urban Development and Building (DE). Data collected in dormant Europe pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "eu-fr-ministre-logement",
+      "name": "Vincent Jeanbrun",
+      "role": "Ministre de la Ville et du Logement",
+      "party": "LR",
+      "stance": "review",
+      "country": "FR",
+      "chamber": "executive",
+      "summary": "Ministre de la Ville et du Logement (FR). Data collected in dormant Europe pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "eu-it-ministro-infrastrutture",
+      "name": "Matteo Salvini",
+      "role": "Ministro delle Infrastrutture e dei Trasporti",
+      "party": "Lega",
+      "stance": "review",
+      "country": "IT",
+      "chamber": "executive",
+      "summary": "Ministro delle Infrastrutture e dei Trasporti (IT). Data collected in dormant Europe pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "eu-es-ministerio-vivienda",
+      "name": "Isabel Rodríguez",
+      "role": "Ministra de Vivienda y Agenda Urbana",
+      "party": "PSOE",
+      "stance": "review",
+      "country": "ES",
+      "chamber": "executive",
+      "summary": "Ministra de Vivienda y Agenda Urbana (ES). Data collected in dormant Europe pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "eu-pl-ministerstwo",
+      "name": "Krzysztof Paszyk",
+      "role": "Minister of Development and Technology",
+      "party": "PSL",
+      "stance": "review",
+      "country": "PL",
+      "chamber": "executive",
+      "summary": "Minister of Development and Technology (PL). Data collected in dormant Europe pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "eu-nl-vro-minister",
+      "name": "Elanor Boekholt-O’Sullivan",
+      "role": "Minister for Public Housing and Spatial Planning",
+      "party": "D66",
+      "stance": "review",
+      "country": "NL",
+      "chamber": "executive",
+      "summary": "Minister for Public Housing and Spatial Planning (NL). Data collected in dormant Europe pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "eu-se-housing-minister",
+      "name": "Andreas Carlson",
+      "role": "Minister for Housing",
+      "party": "KD",
+      "stance": "review",
+      "country": "SE",
+      "chamber": "executive",
+      "summary": "Minister for Housing (SE). Data collected in dormant Europe pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "eu-fi-environment-minister",
+      "name": "Sari Multala",
+      "role": "Minister of Climate and the Environment",
+      "party": "Kokoomus",
+      "stance": "review",
+      "country": "FI",
+      "chamber": "executive",
+      "summary": "Minister of Climate and the Environment (FI). Data collected in dormant Europe pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "eu-ie-housing-minister",
+      "name": "James Browne",
+      "role": "Minister for Housing, Local Government and Heritage",
+      "party": "Fianna Fáil",
+      "stance": "review",
+      "country": "IE",
+      "chamber": "executive",
+      "summary": "Minister for Housing, Local Government and Heritage (IE). Data collected in dormant Europe pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "eu-commissioner-housing",
+      "name": "Dan Jørgensen",
+      "role": "European Commissioner for Energy and Housing",
+      "party": "S&D",
+      "stance": "review",
+      "country": "EU",
+      "chamber": "executive",
+      "summary": "European Commissioner for Energy and Housing (EU). Data collected in dormant Europe pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    }
+  ]
 }

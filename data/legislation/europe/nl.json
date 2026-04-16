@@ -1,0 +1,27 @@
+{
+  "state": "Netherlands",
+  "stateCode": "NL",
+  "region": "eu",
+  "stance": "favorable",
+  "stanceZoning": "none",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Nederland heeft recentelijk belangrijke stappen gezet op het gebied van volkshuisvesting en huurregulering. De Wet betaalbare huur, ingevoerd per 1 juli 2024, breidt huurprijsbescherming uit naar het middensegment via het woningwaarderingsstelsel. Het wetgevingslandschap richt zich op het toegankelijker maken van huurwoningen voor een bredere groep huurders.",
+  "legislation": [
+    {
+      "id": "eu-nl-wet-betaalbare-huur",
+      "billCode": "Wet betaalbare huur",
+      "title": "Wet betaalbare huur",
+      "summary": "De Wet betaalbare huur reguleert huurprijzen voor zelfstandige en onzelfstandige woonruimten die tot 143 punten scoren op het woningwaarderingsstelsel. De wet is van toepassing op nieuwe huurcontracten vanaf 1 juli 2024 en geldt onder bepaalde voorwaarden ook voor bestaande huurcontracten.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2025-08-22",
+      "sourceUrl": "https://www.volkshuisvestingnederland.nl/site/binaries/site-content/collections/documents/2025/08/22/brochure-wet-betaalbare-huur/Brochure+Wet+betaalbare+huur+Engels+%E2%80%93+digitaal.pdf",
+      "sponsors": []
+    }
+  ]
+}

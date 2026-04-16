@@ -1,0 +1,57 @@
+{
+  "state": "India",
+  "stateCode": "IN",
+  "region": "asia",
+  "stance": "favorable",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "The following housing-related bills and initiatives have been identified from recent Indian government press releases and parliamentary sources, focusing on housing finance, affordability, and urban development.",
+  "legislation": [
+    {
+      "id": "ap-in-nhb-gs-2025",
+      "billCode": "NHB-GS-2025",
+      "title": "National Housing Bank Gruh Sugam Portal Initiative",
+      "summary": "The National Housing Bank (NHB), the apex agency established by the Government of India to promote a cost-effective housing finance system, has launched the Gruh Sugam Portal. The portal focuses on Defence, Paramilitary and Government Personnel, streamlining the home loan process, enhancing transparency, and fostering affordability in housing finance.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245721&reg=3&lang=1",
+      "sponsors": []
+    },
+    {
+      "id": "ap-in-mohua-yer-2025",
+      "billCode": "MoHUA-YER-2025",
+      "title": "Ministry of Housing and Urban Affairs: Year End Review 2025",
+      "summary": "The Ministry of Housing and Urban Affairs released its Year End Review for 2025, highlighting key achievements and initiatives undertaken to address urban housing needs across India, including efforts toward affordable and quality housing for the common man.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-31",
+      "sourceUrl": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2209583&reg=1&lang=1",
+      "sponsors": []
+    },
+    {
+      "id": "ap-in-pib-housing-quality",
+      "billCode": "PIB-HOUSING-QUALITY",
+      "title": "Quality and Affordability Standards in Housing for Common Man",
+      "summary": "A government policy address emphasizing that quality along with affordability must be ensured in housing for the common man. The initiative calls for adequate air circulation and light as norms for building plan approval, urges the industry to leverage technology in construction, promotes green buildings and green materials, and addresses housing shortages in rural areas to contain rural-urban migration.",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2021-01-01",
+      "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1696819",
+      "sponsors": []
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-15T15:34:36.181Z",
+  "generatedAt": "2026-04-16T17:49:00.371Z",
   "regional": {
     "na": {
-      "summary": "Anthropic's Mythos model has drawn attention from Washington policymakers and financial sector figures, with the company's co-founder confirming it is talking to the Trump administration about the next AI model while government officials and banks weigh its cybersecurity implications. A leaked OpenAI memo revealed a strategy to attack Anthropic as a competitor, while OpenAI simultaneously distanced itself from Microsoft. On the infrastructure front, community resistance to data centers is intensifying across multiple states: Auburn's plan commission recommended a data center moratorium on April 14, Ohio residents forced a vote for a yearlong moratorium on local data centers, New Jersey voters polled in favor of a moratorium on data center construction, Apex held a public hearing on a data center ban after community pushback, and a letter urged Maine Governor Janet Mills to approve a moratorium on data center development. Massillon, by contrast, scaled back its data center ban amid developer interest, illustrating the uneven local regulatory landscape.",
+      "summary": "No housing-related developments are present in the provided news items for this period. The submitted articles cover AI model releases, data center land-use moratoriums, and technology sector competition, none of which constitute residential housing policy, zoning reform, construction, or affordability news for North America.",
       "keyDevelopments": [
         {
           "headline": "Trump WH Releases National AI Policy Framework",
@@ -47,41 +47,8 @@
           "relatedEntity": "Canada"
         }
       ],
-      "highlights": [
-        {
-          "text": "talking to the Trump administration about the next AI model",
-          "topic": "cooperation"
-        },
-        {
-          "text": "Anthropic's Mythos model has drawn attention from Washington policymakers and financial sector figures",
-          "topic": "legislation"
-        },
-        {
-          "text": "Auburn's plan commission recommended a data center moratorium on April 14",
-          "topic": "infrastructure"
-        },
-        {
-          "text": "Ohio residents forced a vote for a yearlong moratorium on local data centers",
-          "topic": "infrastructure"
-        },
-        {
-          "text": "moratorium on data center construction",
-          "topic": "infrastructure"
-        },
-        {
-          "text": "Apex held a public hearing on a data center ban after community pushback",
-          "topic": "infrastructure"
-        },
-        {
-          "text": "scaled back its data center ban amid developer interest",
-          "topic": "infrastructure"
-        },
-        {
-          "text": "leaked OpenAI memo revealed a strategy to attack Anthropic",
-          "topic": "legislation"
-        }
-      ],
-      "generatedAt": "2026-04-14T12:21:13.644Z"
+      "highlights": [],
+      "generatedAt": "2026-04-16T17:48:52.236Z"
     },
     "eu": {
       "summary": "The EU AI Act's high-risk provisions are set to lock in for all member states by August 2, 2026, driving parallel national implementation efforts: Ireland has advanced legislation establishing a National AI Office ahead of that deadline, Germany is moving on a national AI Act implementation bill traced to a September 2025 draft, and Luxembourg has issued an update on harmonised EU AI rules implementation. On the infrastructure side, the EU Cloud and AI Development Act aims to triple data center capacity in 5–7 years, while the European Commission has rolled out a Data Centre Energy Efficiency Package targeting 2030 carbon neutrality. The EU has also opened a consultation on measuring energy consumption and emissions of AI systems, signaling that environmental accountability for AI workloads is becoming a formal regulatory priority alongside capacity expansion.",

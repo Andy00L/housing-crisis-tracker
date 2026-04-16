@@ -1,0 +1,27 @@
+{
+  "state": "United Kingdom",
+  "stateCode": "UK",
+  "region": "eu",
+  "stance": "favorable",
+  "stanceZoning": "none",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "The United Kingdom's housing legislative landscape is undergoing significant reform, with the landmark Renters' Rights Act 2025 reshaping the private rented sector in England by abolishing fixed-term tenancies and strengthening tenant protections. Simultaneously, the government is launching the £39 billion Social and Affordable Homes Programme 2026–2036 to accelerate the delivery of social and affordable housing at scale.",
+  "legislation": [
+    {
+      "id": "eu-uk-sahp-2026-2036",
+      "billCode": "SAHP-2026-2036",
+      "title": "Social and Affordable Homes Programme 2026 to 2036",
+      "summary": "A new £39 billion ten-year programme administered by Homes England and the Greater London Authority to accelerate the delivery of social and affordable housing across England, with bidding opening in early 2026. The programme incorporates new design elements alongside the best of previous programmes to maximise housebuilding at scale.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-01-28",
+      "sourceUrl": "https://www.gov.uk/government/publications/launching-the-social-and-affordable-homes-programme-2026-to-2036",
+      "sponsors": []
+    }
+  ]
+}

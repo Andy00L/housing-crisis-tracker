@@ -1,5 +1,83 @@
 {
   "region": "asia-pacific",
   "lastUpdated": "2026-04-16",
-  "officials": []
+  "officials": [
+    {
+      "id": "ap-jp-mlit-minister",
+      "name": "Yasushi Kaneko",
+      "role": "Minister of Land, Infrastructure, Transport and Tourism",
+      "party": "LDP",
+      "stance": "review",
+      "country": "JP",
+      "chamber": "executive",
+      "summary": "Minister of Land, Infrastructure, Transport and Tourism (JP). Collected by dormant Asia-Pacific pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "ap-kr-molit-minister",
+      "name": "Kim Yun-duk",
+      "role": "Minister of Land, Infrastructure and Transport",
+      "party": "Democratic Party",
+      "stance": "review",
+      "country": "KR",
+      "chamber": "executive",
+      "summary": "Minister of Land, Infrastructure and Transport (KR). Collected by dormant Asia-Pacific pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "ap-cn-mohurd-minister",
+      "name": "Ni Hong",
+      "role": "Minister of Housing and Urban-Rural Development",
+      "party": "Communist Party of China",
+      "stance": "review",
+      "country": "CN",
+      "chamber": "executive",
+      "summary": "Minister of Housing and Urban-Rural Development (CN). Collected by dormant Asia-Pacific pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "ap-in-mohua-minister",
+      "name": "Manohar Lal Khattar",
+      "role": "Minister of Housing and Urban Affairs",
+      "party": "BJP",
+      "stance": "review",
+      "country": "IN",
+      "chamber": "executive",
+      "summary": "Minister of Housing and Urban Affairs (IN). Collected by dormant Asia-Pacific pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "ap-id-pkp-minister",
+      "name": "Maruarar Sirait",
+      "role": "Minister of Housing and Settlement",
+      "party": "Gerindra",
+      "stance": "review",
+      "country": "ID",
+      "chamber": "executive",
+      "summary": "Minister of Housing and Settlement (ID). Collected by dormant Asia-Pacific pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "ap-tw-nlma-ministry-interior",
+      "name": "Liu Shyh-fang",
+      "role": "Minister of the Interior (housing portfolio via NLMA)",
+      "party": "DPP",
+      "stance": "review",
+      "country": "TW",
+      "chamber": "executive",
+      "summary": "Minister of the Interior (housing portfolio via NLMA) (TW). Collected by dormant Asia-Pacific pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    },
+    {
+      "id": "ap-au-housing-minister",
+      "name": "Clare O'Neil",
+      "role": "Minister for Housing",
+      "party": "Labor",
+      "stance": "review",
+      "country": "AU",
+      "chamber": "executive",
+      "summary": "Minister for Housing (AU). Collected by dormant Asia-Pacific pipeline; full enrichment pending Prompt E.2.",
+      "keyPoints": []
+    }
+  ]
 }

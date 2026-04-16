@@ -1,0 +1,34 @@
+{
+  "country": "Finland",
+  "countryCode": "FI",
+  "currency": "EUR",
+  "lastUpdated": "2026-04-16",
+  "projects": [
+    {
+      "id": "eu-fi-asp-loan-government-guarantee-housing-programme",
+      "developer": "Ministry of the Environment / Finnish Government",
+      "status": "proposed",
+      "projectName": "ASP Loan Government Guarantee Housing Programme",
+      "location": "Finland (national)",
+      "state": "FI",
+      "country": "Finland",
+      "projectType": "condo",
+      "yearProposed": 2026,
+      "notes": "Finland's Ministry of the Environment has revised the legislation governing government guarantees for ASP loans and housing loans, with the reforms set to enter into force in June 2026. The ASP (home savings premium) scheme allows account h",
+      "source": "https://ym.fi/en/owner-occupied-housing",
+      "primaryBeneficiary": "First-time owner-occupiers using ASP savings accounts",
+      "storyBlurb": "Finland's Ministry of the Environment has revised the legislation governing government guarantees for ASP loans and housing loans, with the reforms set to enter into force in June 2026. The ASP (home savings premium) scheme allows account holders to accumulate deposits and subsequently apply for an interest subsidy loan, commonly known as an ASP loan. When necessary, a government guarantee is also available free of charge to support the purchase of an owner-occupied apartment or the construction of a home. This initiative is designed to make owner-occupied housing more accessible and financially viable for individuals and families, particularly first-time buyers. The updated legal framework reflects the Finnish government's ongoing commitment to improving housing affordability and expanding access to homeownership through structured financial support mechanisms.",
+      "issues": [
+        "affordability"
+      ],
+      "sources": [
+        {
+          "title": "Owner-occupied housing",
+          "publisher": "Ministry of the Environment, Finland",
+          "url": "https://ym.fi/en/owner-occupied-housing",
+          "date": "2026-06-01"
+        }
+      ]
+    }
+  ]
+}

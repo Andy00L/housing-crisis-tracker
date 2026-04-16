@@ -1,0 +1,36 @@
+{
+  "country": "Poland",
+  "countryCode": "PL",
+  "currency": "PLN",
+  "lastUpdated": "2026-04-16",
+  "projects": [
+    {
+      "id": "eu-pl-social-housing-development-eu-supported",
+      "developer": "Unknown",
+      "status": "proposed",
+      "projectName": "Social Housing Development (EU-Supported)",
+      "location": "Żyrardów",
+      "state": "PL",
+      "country": "Poland",
+      "projectType": "social",
+      "yearProposed": 2025,
+      "notes": "As part of Poland's broader 2025 European Funds programme, which has been described as a year of intensive development of transport and infrastructure projects subsidised by European Funds, reference is made to the concurrent development of",
+      "source": "https://www.cupt.gov.pl/en/aktualnosc/fepw-en/eu-support-for-renovation-of-railway-station-in-zyrardow-granted/",
+      "primaryBeneficiary": "Low-income residents of Żyrardów",
+      "storyBlurb": "As part of Poland's broader 2025 European Funds programme, which has been described as a year of intensive development of transport and infrastructure projects subsidised by European Funds, reference is made to the concurrent development of social housing initiatives in the country. The mention of social housing development appears alongside major transport investments such as the renovation of the Żyrardów railway station, suggesting an integrated urban development approach linking transit access with affordable housing provision. While specific unit counts and project costs are not detailed in available sources, the programme signals EU-backed commitment to expanding social housing stock in Polish municipalities, potentially benefiting lower-income households who would gain improved access to both affordable accommodation and upgraded public transport infrastructure in the region.",
+      "issues": [
+        "affordability",
+        "transit-access",
+        "social-mix"
+      ],
+      "sources": [
+        {
+          "title": "EU support for renovation of railway station in Zyrardow granted",
+          "publisher": "CUPT (Centre of EU Transport Projects)",
+          "url": "https://www.cupt.gov.pl/en/aktualnosc/fepw-en/eu-support-for-renovation-of-railway-station-in-zyrardow-granted/",
+          "date": "2025-01-01"
+        }
+      ]
+    }
+  ]
+}

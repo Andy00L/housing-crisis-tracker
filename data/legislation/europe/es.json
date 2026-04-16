@@ -1,0 +1,64 @@
+{
+  "state": "Spain",
+  "stateCode": "ES",
+  "region": "eu",
+  "stance": "favorable",
+  "stanceZoning": "none",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "El mercado de vivienda en España sigue siendo un tema central en el debate público, con iniciativas orientadas a la vivienda asequible y la regulación del alquiler. Los registros del BORME reflejan actividad societaria relacionada con la vivienda y el alquiler, aunque los snippets disponibles corresponden principalmente a actos mercantiles registrales y no a proyectos de ley parlamentarios. Con la información disponible, solo es posible identificar referencias indirectas a entidades vinculadas al sector de la vivienda.",
+  "legislation": [
+    {
+      "id": "eu-es-borme-a-2026-43-28",
+      "billCode": "BORME-A-2026-43-28",
+      "title": "Constitución de MADRID AFFORDABLE HOUSING 2021 SA (vivienda asequible en Madrid)",
+      "summary": "Registro mercantil de la sociedad Madrid Affordable Housing 2021 SA, entidad vinculada a la promoción de vivienda asequible en Madrid. Su actividad societaria refleja iniciativas privadas enmarcadas en políticas de vivienda asequible.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-04",
+      "sourceUrl": "https://www.boe.es/borme/dias/2026/03/04/pdfs/BORME-A-2026-43-99.pdf",
+      "sponsors": [
+        "MADRID AFFORDABLE HOUSING 2021 SA"
+      ]
+    },
+    {
+      "id": "eu-es-borme-a-2026-43-03",
+      "billCode": "BORME-A-2026-43-03",
+      "title": "Acto registral de KEYGO RENT SPAIN SA (alquiler en España)",
+      "summary": "Inscripción registral de Keygo Rent Spain SA, sociedad dedicada al alquiler en el mercado español. Refleja la actividad del sector del alquiler en el contexto del mercado de vivienda en España.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability",
+        "rent-stabilization"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2026-03-04",
+      "sourceUrl": "https://www.boe.es/borme/dias/2026/03/04/pdfs/BORME-A-2026-43-99.pdf",
+      "sponsors": [
+        "KEYGO RENT SPAIN SA"
+      ]
+    },
+    {
+      "id": "eu-es-borme-a-2026-43-kh",
+      "billCode": "BORME-A-2026-43-KH",
+      "title": "Acto registral de KH LA VIVIENDA (sector vivienda)",
+      "summary": "Referencia registral a la entidad KH La Vivienda en el BORME, vinculada al sector de la vivienda en España. Su inscripción refleja la actividad continuada de sociedades en el ámbito de la vivienda.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-04",
+      "sourceUrl": "https://www.boe.es/borme/dias/2026/03/04/pdfs/BORME-A-2026-43-99.pdf",
+      "sponsors": [
+        "KH LA VIVIENDA"
+      ]
+    }
+  ]
+}

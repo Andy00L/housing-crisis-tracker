@@ -1,0 +1,63 @@
+{
+  "country": "Italy",
+  "countryCode": "IT",
+  "currency": "EUR",
+  "lastUpdated": "2026-04-16",
+  "projects": [
+    {
+      "id": "eu-it-housing-sociale-edilizia-residenziale-pubblica",
+      "developer": "Ministero delle Infrastrutture e dei Trasporti",
+      "status": "operational",
+      "projectName": "Housing Sociale - Edilizia Residenziale Pubblica",
+      "location": "Italy (national)",
+      "state": "IT",
+      "country": "Italy",
+      "projectType": "social",
+      "yearProposed": 2014,
+      "notes": "The Italian Ministry of Infrastructure and Transport has maintained an ongoing social housing program documented through a series of conferences and legislative reviews. Key events include the 'Povera Casa' conference of June 12, 2014, whic",
+      "source": "https://mit.gov.it/temi/casa/housing-sociale/documentazione",
+      "primaryBeneficiary": "Low-income residents requiring subsidized housing",
+      "storyBlurb": "The Italian Ministry of Infrastructure and Transport has maintained an ongoing social housing program documented through a series of conferences and legislative reviews. Key events include the 'Povera Casa' conference of June 12, 2014, which addressed housing poverty, and a September 2014 conference focused on reducing energy bills and improving the efficiency of the residential housing stock. The ministry has also compiled regional legislative analyses covering the requirements and procedures for accessing public residential housing (edilizia residenziale pubblica). These efforts reflect Italy's multi-tiered approach to social housing, involving national policy frameworks and regional implementation. The program continues to serve as a reference point for social housing governance across Italian regions, addressing both affordability and energy efficiency in the public housing stock.",
+      "issues": [
+        "affordability",
+        "green-space-environment"
+      ],
+      "sources": [
+        {
+          "title": "Housing sociale | Ministero delle infrastrutture e dei trasporti",
+          "publisher": "Ministero delle Infrastrutture e dei Trasporti",
+          "url": "https://mit.gov.it/temi/casa/housing-sociale/documentazione",
+          "date": "2014-06-12"
+        }
+      ]
+    },
+    {
+      "id": "eu-it-investimenti-immobiliari-a-rilevanza-sociale-pnrr-e-fondi-pr",
+      "developer": "Institutional investors / Parliamentary Commission initiative",
+      "status": "proposed",
+      "projectName": "Investimenti Immobiliari a Rilevanza Sociale - PNRR e Fondi Previdenziali",
+      "location": "Italy (national)",
+      "state": "IT",
+      "country": "Italy",
+      "projectType": "mixed",
+      "yearProposed": 2026,
+      "notes": "A March 2026 parliamentary hearing examined the role of real estate within pension fund portfolios and its intersection with social and infrastructure housing initiatives in Italy. The analysis focused on principles of prudence, diversifica",
+      "source": "https://documenti.camera.it/leg19/documentiAcquisiti/COM27/Audizioni/leg19.com27.Audizioni.Contributo%20Scritto.PUBBLICO.ideGes.84567.05-03-2026-13-16-56.147.pdf",
+      "primaryBeneficiary": "Social housing beneficiaries and long-term institutional investors",
+      "storyBlurb": "A March 2026 parliamentary hearing examined the role of real estate within pension fund portfolios and its intersection with social and infrastructure housing initiatives in Italy. The analysis focused on principles of prudence, diversification, and stable returns for institutional investors, while also evaluating evolving European regulatory frameworks that indirectly affect the real estate sector. Comparative models were studied to assess how long-term capital — including pension funds — could be engaged in socially relevant real estate interventions. The hearing aimed to identify concrete mechanisms to attract private institutional capital into social housing projects, potentially complementing public PNRR-funded investments. This initiative represents a broader policy effort to bridge the gap between institutional finance and Italy's pressing need for affordable and socially inclusive housing developments.",
+      "issues": [
+        "affordability",
+        "social-mix",
+        "community-input-consultation"
+      ],
+      "sources": [
+        {
+          "title": "Audizione del 5 marzo 2026 presso la Commissione parlamentare",
+          "publisher": "Camera dei Deputati",
+          "url": "https://documenti.camera.it/leg19/documentiAcquisiti/COM27/Audizioni/leg19.com27.Audizioni.Contributo%20Scritto.PUBBLICO.ideGes.84567.05-03-2026-13-16-56.147.pdf",
+          "date": "2026-03-05"
+        }
+      ]
+    }
+  ]
+}

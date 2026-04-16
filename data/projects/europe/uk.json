@@ -1,0 +1,75 @@
+{
+  "country": "United Kingdom",
+  "countryCode": "UK",
+  "currency": "GBP",
+  "lastUpdated": "2026-04-16",
+  "projects": [
+    {
+      "id": "eu-uk-social-and-affordable-homes-programme-sahp-2026-2036",
+      "developer": "Homes England / Ministry of Housing, Communities and Local Government",
+      "status": "proposed",
+      "projectName": "Social and Affordable Homes Programme (SAHP) 2026–2036",
+      "location": "England",
+      "state": "UK",
+      "country": "United Kingdom",
+      "projectCost": 39000000000,
+      "projectType": "social",
+      "yearProposed": 2026,
+      "notes": "The £39 billion Social and Affordable Homes Programme (SAHP) 2026–2036 represents a landmark decade-long commitment by the UK government to accelerate the delivery of social and affordable housing across England. Administered by Homes Engla",
+      "source": "https://www.gov.uk/government/collections/social-and-affordable-homes-programme-2026-to-2036",
+      "primaryBeneficiary": "Families priced out of homeownership and social housing tenants",
+      "storyBlurb": "The £39 billion Social and Affordable Homes Programme (SAHP) 2026–2036 represents a landmark decade-long commitment by the UK government to accelerate the delivery of social and affordable housing across England. Administered by Homes England and the Greater London Authority, the programme provides registered providers — including councils, private registered providers, SME developers, and institutional investors — with long-term capital funding certainty. Key design elements include flexibility on grant rates for expensive-to-build homes, an updated estate regeneration approach, and a new portfolio bidding route to support smaller providers. The programme also prioritises supported housing units, addressing a critical shortage nationwide. Bidding opened following a January 2026 progress update, with the government reintroducing rent convergence after ten years to bolster investment confidence and protect tenants.",
+      "issues": [
+        "affordability",
+        "displacement-gentrification",
+        "community-input-consultation",
+        "social-mix"
+      ],
+      "sources": [
+        {
+          "title": "Social and Affordable Homes Programme 2026 to 2036",
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/collections/social-and-affordable-homes-programme-2026-to-2036",
+          "date": "2026-01-28"
+        },
+        {
+          "title": "Thousands more families to get warm, secure social homes",
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/thousands-more-families-to-get-warm-secure-social-homes",
+          "date": "2026-01-28"
+        }
+      ]
+    },
+    {
+      "id": "eu-uk-seven-new-towns-housebuilding-programme",
+      "developer": "UK Government / Homes England",
+      "status": "proposed",
+      "projectName": "Seven New Towns Housebuilding Programme",
+      "location": "England",
+      "state": "UK",
+      "country": "United Kingdom",
+      "unitCount": 120000,
+      "projectType": "mixed",
+      "yearProposed": 2025,
+      "notes": "The UK Government has proposed seven new towns designed to kickstart a major housebuilding push, with each location set to deliver at least 10,000 homes and several delivering up to 40,000. The initiative is a cornerstone of the government'",
+      "source": "https://www.gov.uk/government/news/seven-new-towns-proposed-to-kickstart-housebuilding-push",
+      "primaryBeneficiary": "Households seeking new homes in planned communities",
+      "storyBlurb": "The UK Government has proposed seven new towns designed to kickstart a major housebuilding push, with each location set to deliver at least 10,000 homes and several delivering up to 40,000. The initiative is a cornerstone of the government's broader strategy to address the chronic housing shortage across England. These new towns are intended to provide large-scale, planned communities with mixed housing tenures, infrastructure, and amenities built in from the outset. By designating entirely new settlements, the programme seeks to avoid the constraints of building within existing urban areas, though questions around community consultation, green space, school capacity, and transit connectivity remain central to the planning process. The scheme works in tandem with the Social and Affordable Homes Programme to ensure a meaningful proportion of new town homes are affordable.",
+      "issues": [
+        "community-input-consultation",
+        "green-space-environment",
+        "transit-access",
+        "school-capacity",
+        "affordability"
+      ],
+      "sources": [
+        {
+          "title": "Seven new towns proposed to kickstart housebuilding push",
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/seven-new-towns-proposed-to-kickstart-housebuilding-push",
+          "date": "2025-01-01"
+        }
+      ]
+    }
+  ]
+}

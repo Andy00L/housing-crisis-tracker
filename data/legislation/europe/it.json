@@ -1,0 +1,48 @@
+{
+  "state": "Italy",
+  "stateCode": "IT",
+  "region": "eu",
+  "stance": "review",
+  "stanceZoning": "none",
+  "stanceAffordability": "review",
+  "lastUpdated": "2026-04-16",
+  "contextBlurb": "Il panorama legislativo italiano in materia di edilizia e alloggi sociali è influenzato sia da iniziative nazionali che da sviluppi europei, tra cui l'annunciato European Plan for Affordable Housing. Il Senato della Repubblica ha in esame diversi disegni di legge in commissione, mentre esperti del settore immobiliare sono stati auditi dalla Camera per valutare il ruolo degli investimenti istituzionali in interventi immobiliari a rilevanza sociale.",
+  "legislation": [
+    {
+      "id": "eu-it-s-37-19-legislatura",
+      "billCode": "S. 37 - 19ª Legislatura",
+      "title": "Disegno di legge S. 37",
+      "summary": "Disegno di legge in esame presso il Senato della Repubblica nella 19ª Legislatura, con trattazioni in commissione che includono audizioni informali e presentazione di emendamenti relativi al settore edilizio e degli alloggi.",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-09-10",
+      "sourceUrl": "http://www.senato.it/leggi-e-documenti/disegni-di-legge/scheda-ddl?tab=trattazioni_commissione&did=55223",
+      "sponsors": [
+        "Luca De Carlo (FdI)",
+        "Andrea Martella (PD-IDP)"
+      ]
+    },
+    {
+      "id": "eu-it-s-565-19-legislatura",
+      "billCode": "S. 565 - 19ª Legislatura",
+      "title": "Disegno di legge S. 565",
+      "summary": "Disegno di legge in esame presso il Senato nella 19ª Legislatura, oggetto di audizioni informali e discussione di emendamenti in commissione, riguardante interventi nel settore dell'edilizia e degli alloggi sociali.",
+      "stage": "Committee",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-09-10",
+      "sourceUrl": "http://www.senato.it/leggi-e-documenti/disegni-di-legge/scheda-ddl?tab=trattazioni_commissione&did=56684",
+      "sponsors": [
+        "Luca De Carlo (FdI)",
+        "Andrea Martella (PD-IDP)"
+      ]
+    }
+  ]
+}

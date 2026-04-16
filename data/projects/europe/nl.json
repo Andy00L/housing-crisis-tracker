@@ -1,0 +1,37 @@
+{
+  "country": "Netherlands",
+  "countryCode": "NL",
+  "currency": "EUR",
+  "lastUpdated": "2026-04-16",
+  "projects": [
+    {
+      "id": "eu-nl-netherlands-social-housing-shortage-response",
+      "developer": "unknown",
+      "status": "proposed",
+      "projectName": "Netherlands Social Housing Shortage Response",
+      "location": "Netherlands",
+      "state": "NL",
+      "country": "Netherlands",
+      "unitCount": 400000,
+      "affordableUnits": 400000,
+      "projectType": "social",
+      "notes": "The Netherlands faces a shortage of adequate and affordable housing estimated at nearly 400,000 units, according to concluding observations on the seventh periodic report reviewed by the Dutch parliament. The situation is compounded by shar",
+      "source": "https://www.tweedekamer.nl/downloads/document?id=2026D07455",
+      "primaryBeneficiary": "Low-income renters in the Netherlands",
+      "storyBlurb": "The Netherlands faces a shortage of adequate and affordable housing estimated at nearly 400,000 units, according to concluding observations on the seventh periodic report reviewed by the Dutch parliament. The situation is compounded by sharp increases in rental costs and a notable decline in social housing units across the country. These findings highlight systemic pressures on the housing market that disproportionately affect lower-income residents who rely on affordable and social housing options. The observations call attention to the urgent need for policy interventions to address the growing gap between housing supply and demand, reverse the trend of declining social housing stock, and curb rental cost escalation that threatens housing security for vulnerable populations throughout the Netherlands.",
+      "issues": [
+        "affordability",
+        "displacement-gentrification",
+        "social-mix"
+      ],
+      "sources": [
+        {
+          "title": "Concluding observations on the seventh periodic report of the Netherlands",
+          "publisher": "Tweede Kamer / tweedekamer.nl",
+          "url": "https://www.tweedekamer.nl/downloads/document?id=2026D07455",
+          "date": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "country": "European Parliament",
+  "countryCode": "EU",
+  "currency": "EUR",
+  "lastUpdated": "2026-04-16",
+  "projects": [
+    {
+      "id": "eu-eu-eu-housing-crisis-recommendations-report-a10-0025-2026",
+      "developer": "European Parliament Special Committee on the Housing Crisis (HOUS)",
+      "status": "proposed",
+      "projectName": "EU Housing Crisis Recommendations Report (A10-0025/2026)",
+      "location": "Brussels",
+      "state": "EU",
+      "country": "European Parliament",
+      "projectType": "social",
+      "yearProposed": 2026,
+      "notes": "On 9 February 2026, the European Parliament's Special Housing Committee adopted its final recommendations to tackle Europe's housing crisis. The report calls for short-term rentals to be regulated so they do not threaten urban affordability",
+      "source": "https://www.europarl.europa.eu/news/en/press-room/20260205IPR33603/meps-adopt-proposals-to-tackle-europe-s-housing-crisis",
+      "primaryBeneficiary": "Low- and middle-income EU households",
+      "storyBlurb": "On 9 February 2026, the European Parliament's Special Housing Committee adopted its final recommendations to tackle Europe's housing crisis. The report calls for short-term rentals to be regulated so they do not threaten urban affordability, incentive-based tax systems to support low- and middle-income households, and enhanced EU industrial sovereignty in the construction and renovation sector. It also proposes limiting the processing of planning permits to 60 days to speed up housing delivery. The report further recommends better coordination of existing EU funding and reallocation of unused Recovery and Resilience Plan resources toward affordable housing. These recommendations were subsequently debated in plenary on 10 March 2026, with MEPs voting on the final text authored by lead rapporteur Borja Giménez Larraz.",
+      "issues": [
+        "affordability",
+        "displacement-gentrification",
+        "community-input-consultation"
+      ],
+      "sources": [
+        {
+          "title": "MEPs adopt proposals to tackle Europe's housing crisis",
+          "publisher": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20260205IPR33603/meps-adopt-proposals-to-tackle-europe-s-housing-crisis",
+          "date": "2026-02-09"
+        },
+        {
+          "title": "Parliament's proposals to address Europe's housing crisis",
+          "publisher": "European Parliament",
+          "url": "https://www.europarl.europa.eu/news/en/agenda/plenary-news/2026-03-09/1/parliament-s-proposals-to-address-europe-s-housing-crisis",
+          "date": "2026-03-09"
+        }
+      ]
+    },
+    {
+      "id": "eu-eu-european-affordable-housing-plan",
+      "developer": "European Commission",
+      "status": "proposed",
+      "projectName": "European Affordable Housing Plan",
+      "state": "EU",
+      "country": "European Parliament",
+      "projectType": "social",
+      "yearProposed": 2025,
+      "notes": "In December 2025, the European Commission published its European Affordable Housing Plan, responding to a 2025 European Council call for ambitious and comprehensive action on housing. The plan aims to boost affordable housing supply, mobili",
+      "source": "https://housing.ec.europa.eu/european-affordable-housing-plan_en",
+      "primaryBeneficiary": "Vulnerable and low-income EU residents",
+      "storyBlurb": "In December 2025, the European Commission published its European Affordable Housing Plan, responding to a 2025 European Council call for ambitious and comprehensive action on housing. The plan aims to boost affordable housing supply, mobilise investment, and simplify permitting processes across EU Member States. It also targets the expansion of social housing and support for people in vulnerable situations. The EU has already mobilised €43 billion under the current multiannual budget framework for housing-related support. A dedicated Housing Summit, where experts, policymakers, and stakeholders will convene to share approaches and best practices, is planned for 2026. The plan was acknowledged by the European Parliament in its March 2026 legislative train as a key pillar of EU housing policy.",
+      "issues": [
+        "affordability",
+        "displacement-gentrification",
+        "social-mix"
+      ],
+      "sources": [
+        {
+          "title": "The European Affordable Housing Plan",
+          "publisher": "European Commission",
+          "url": "https://housing.ec.europa.eu/european-affordable-housing-plan_en",
+          "date": "2025-12-01"
+        },
+        {
+          "title": "Addressing the housing crisis in the EU",
+          "publisher": "European Parliament Research Service",
+          "url": "https://www.europarl.europa.eu/RegData/etudes/ATAG/2026/782675/EPRS_ATA(2026)782675_EN.pdf",
+          "date": "2026-01-01"
+        }
+      ]
+    },
+    {
+      "id": "eu-eu-housing-advisory-board-recommendations-to-hous-special-commi",
+      "developer": "Housing Advisory Board (HAB), chaired by Eamon Ryan",
+      "status": "proposed",
+      "projectName": "Housing Advisory Board Recommendations to HOUS Special Committee",
+      "location": "Brussels",
+      "state": "EU",
+      "country": "European Parliament",
+      "projectType": "social",
+      "yearProposed": 2025,
+      "notes": "On 1 December 2025, Eamon Ryan, Chair of the Housing Advisory Board, presented the Board's 75 recommendations to the European Parliament's Special Committee on the Housing Crisis. Contained in a 48-page report, the recommendations outline t",
+      "source": "https://www.europarl.europa.eu/cmsdata/301653/HOUS%20NEWSLETTER%20JANUARY%202026.pdf",
+      "primaryBeneficiary": "EU residents facing housing insecurity",
+      "storyBlurb": "On 1 December 2025, Eamon Ryan, Chair of the Housing Advisory Board, presented the Board's 75 recommendations to the European Parliament's Special Committee on the Housing Crisis. Contained in a 48-page report, the recommendations outline ten key points aimed at reshaping EU housing policy. Central among these is a paradigm shift toward viewing housing as social infrastructure rather than a speculative asset, along with a broad definition of affordability. The recommendations were discussed at the HOUS committee meeting on 2 December 2025, alongside an exchange of views with Ryan. These proposals informed the committee's own final report adopted in February 2026, helping shape the European Parliament's broader legislative push for decent, sustainable, and affordable housing across Member States.",
+      "issues": [
+        "affordability",
+        "displacement-gentrification",
+        "community-input-consultation",
+        "social-mix"
+      ],
+      "sources": [
+        {
+          "title": "Special Committee on the Housing Crisis in the European Union – Newsletter January 2026",
+          "publisher": "European Parliament",
+          "url": "https://www.europarl.europa.eu/cmsdata/301653/HOUS%20NEWSLETTER%20JANUARY%202026.pdf",
+          "date": "2026-01-01"
+        }
+      ]
+    }
+  ]
+}

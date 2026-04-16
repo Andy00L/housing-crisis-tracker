@@ -44,9 +44,13 @@ const CANONICALS: CanonicalEntry[] = [
     id: "ap-jp-mlit-minister",
     role: "Minister of Land, Infrastructure, Transport and Tourism",
     country: "JP",
-    url: "https://www.mlit.go.jp/en/",
+    url: "https://japan.kantei.go.jp/104/meibo/daijin/index.html",
     nameSelectors: ["h2", "h3"],
-    fallback: { name: "Tetsuo Saito", party: "Komeito" },
+    // Tetsuo Saito (Komeito) stepped down after the LDP-Komeito coalition
+    // ended in October 2025. Yasushi Kaneko (LDP) was appointed in the
+    // Takaichi cabinet on 2025-10-21. Verified via japan.kantei.go.jp
+    // on 2026-04-16.
+    fallback: { name: "Yasushi Kaneko", party: "LDP" },
   },
   {
     id: "ap-kr-molit-minister",
@@ -54,7 +58,9 @@ const CANONICALS: CanonicalEntry[] = [
     country: "KR",
     url: "https://www.molit.go.kr/english/USR/WPGE0201/m_35030/DTL.jsp",
     nameSelectors: ["h2", "h3"],
-    fallback: { name: "Park Sang-woo", party: "Democratic Party" },
+    // Kim Yun-duk serves as MOLIT Minister under the current administration.
+    // Verified via molit.go.kr on 2026-04-16.
+    fallback: { name: "Kim Yun-duk", party: "Democratic Party" },
   },
   {
     id: "ap-cn-mohurd-minister",
@@ -73,20 +79,28 @@ const CANONICALS: CanonicalEntry[] = [
     fallback: { name: "Manohar Lal Khattar", party: "BJP" },
   },
   {
-    id: "ap-id-pupr-minister",
-    role: "Minister of Public Works and Housing",
+    id: "ap-id-pkp-minister",
+    role: "Minister of Housing and Settlement",
     country: "ID",
-    url: "https://www.pu.go.id/",
+    url: "https://pkp.go.id/",
     nameSelectors: ["h2", "h3"],
-    fallback: { name: "Dody Hanggodo", party: "Indonesia Onward Coalition" },
+    // President Prabowo split the old PUPR ministry into PU (Public Works,
+    // led by Dody Hanggodo) and PKP (Housing and Settlement, led by
+    // Maruarar Sirait). The housing-specific role is PKP. Verified via
+    // pkp.go.id on 2026-04-16.
+    fallback: { name: "Maruarar Sirait", party: "Gerindra" },
   },
   {
-    id: "ap-tw-cpami-minister",
-    role: "Minister, Construction and Planning Agency",
+    id: "ap-tw-nlma-ministry-interior",
+    role: "Minister of the Interior (housing portfolio via NLMA)",
     country: "TW",
-    url: "https://www.cpami.gov.tw/",
+    url: "https://www.nlma.gov.tw/home.html",
     nameSelectors: ["h2", "h3"],
-    fallback: { name: "Chen Chun-Jung", party: "DPP" },
+    // CPAMI was reorganized into the National Land Management Agency (NLMA)
+    // under the Ministry of the Interior. Liu Shyh-fang (DPP) is the
+    // current Minister of the Interior, which oversees NLMA. Verified via
+    // Taiwan FCC on 2026-04-16.
+    fallback: { name: "Liu Shyh-fang", party: "DPP" },
   },
   {
     id: "ap-au-housing-minister",
@@ -137,6 +151,62 @@ async function fetchCanonical(url: string): Promise<string | null> {
   return typeof res.data === "string" ? res.data : null;
 }
 
+// Phrases that look like names to the "First Last" check but are really
+// page titles or section headers in the ministry pages we hit.
+const NON_NAME_PREFIXES = [
+  "Minister",
+  "Ministry",
+  "List",
+  "Tag",
+  "Menu",
+  "Home",
+  "About",
+  "News",
+  "Contact",
+  "Latest",
+  // Indonesian page chrome
+  "Berita",
+  "Beranda",
+  "Terkini",
+  "Pelaksanaan",
+  "Kementerian",
+  "Anggaran",
+  "Aplikasi",
+  "Program",
+  "Direktorat",
+  "Bidang",
+  "Profil",
+  "Informasi",
+  // Japanese hiragana/latin page chrome
+  "The Cabinet",
+  "Cabinet",
+  // Chinese page chrome (pinyin)
+  "Shouye",
+];
+
+function looksLikePageChrome(text: string): boolean {
+  for (const prefix of NON_NAME_PREFIXES) {
+    const re = new RegExp(`^${prefix}\\b`, "i");
+    if (re.test(text)) return true;
+  }
+  return false;
+}
+
+function looksLikeHeadline(text: string): boolean {
+  if (text.includes(",") && text.length > 40) return true;
+  const words = text.trim().split(/\s+/);
+  if (words.length > 6) return true;
+  return false;
+}
+
+function looksLikeName(text: string): boolean {
+  // Digits, fiscal-year references, and obvious non-name content do not
+  // appear in a minister's rendered display name.
+  if (/\d/.test(text)) return false;
+  if (/\b(TA|FY|AY)\b/i.test(text)) return false;
+  return true;
+}
+
 function parseName(html: string, entry: CanonicalEntry): string | null {
   const $ = cheerio.load(html);
   for (const sel of entry.nameSelectors) {
@@ -144,11 +214,50 @@ function parseName(html: string, entry: CanonicalEntry): string | null {
     if (matches.length === 0) continue;
     for (const el of matches.toArray()) {
       const text = $(el).text().replace(/\s+/g, " ").trim();
-      if (!text || text.length < 3 || text.length > 80) continue;
+      if (!text || text.length < 3 || text.length > 60) continue;
+      if (looksLikePageChrome(text)) continue;
+      if (looksLikeHeadline(text)) continue;
+      if (!looksLikeName(text)) continue;
       if (/[\p{L}]{2,}\s+[\p{L}]{2,}/u.test(text)) return text;
     }
   }
   return null;
+}
+
+// Regression guards. Same pattern as europe-officials.ts: log a warning
+// when an expected name is missing but keep the build green.
+interface ExpectedRole {
+  countryCode: string;
+  roleKeyword: string;
+  expectedNameSubstring: string;
+}
+
+const EXPECTED_ASIA_ROLES: ExpectedRole[] = [
+  { countryCode: "JP", roleKeyword: "Land, Infrastructure", expectedNameSubstring: "Kaneko" },
+  { countryCode: "KR", roleKeyword: "Land, Infrastructure", expectedNameSubstring: "Kim" },
+  { countryCode: "CN", roleKeyword: "Urban-Rural", expectedNameSubstring: "Ni" },
+  { countryCode: "IN", roleKeyword: "Housing", expectedNameSubstring: "Khattar" },
+  { countryCode: "ID", roleKeyword: "Housing", expectedNameSubstring: "Sirait" },
+  { countryCode: "TW", roleKeyword: "Interior", expectedNameSubstring: "Liu" },
+  { countryCode: "AU", roleKeyword: "Housing", expectedNameSubstring: "O'Neil" },
+];
+
+function verifyExpectations(out: Legislator[]): string[] {
+  const warnings: string[] = [];
+  for (const exp of EXPECTED_ASIA_ROLES) {
+    const match = out.find(
+      (o) =>
+        o.country === exp.countryCode &&
+        o.role.toLowerCase().includes(exp.roleKeyword.toLowerCase()) &&
+        o.name.toLowerCase().includes(exp.expectedNameSubstring.toLowerCase()),
+    );
+    if (!match) {
+      warnings.push(
+        `expected ${exp.countryCode} ${exp.roleKeyword} to contain "${exp.expectedNameSubstring}" but did not find a match`,
+      );
+    }
+  }
+  return warnings;
 }
 
 async function main() {
@@ -194,6 +303,12 @@ async function main() {
   }
 
   for (const note of notes) report.addNote(note);
+
+  const regressionWarnings = verifyExpectations(out);
+  for (const w of regressionWarnings) {
+    console.warn(`[asia-officials] REGRESSION: ${w}`);
+    report.addNote(`regression guard: ${w}`);
+  }
 
   mkdirSync(dirname(OUT_PATH), { recursive: true });
   writeFileSync(

@@ -1,0 +1,102 @@
+{
+  "country": "Ireland",
+  "countryCode": "IE",
+  "currency": "EUR",
+  "lastUpdated": "2026-04-16",
+  "projects": [
+    {
+      "id": "eu-ie-accelerated-social-housing-delivery-programme",
+      "developer": "Department of Housing, Local Government and Heritage / Local Authorities",
+      "status": "under-construction",
+      "projectName": "Accelerated Social Housing Delivery Programme",
+      "location": "Ireland (13 local authorities)",
+      "state": "IE",
+      "country": "Ireland",
+      "unitCount": 1500,
+      "affordableUnits": 1500,
+      "projectType": "social",
+      "yearProposed": 2025,
+      "notes": "The Accelerated Social Housing Delivery Programme comprises 36 sites spread across 13 local authorities throughout Ireland, with a target of delivering over 1,500 new social homes. Announced as part of the government's broader push to scale",
+      "source": "https://www.gov.ie/en/department-of-housing-local-government-and-heritage/press-releases/commencement-domata-for-december-2025-shows-significant-jump-in-new-he-starts/",
+      "primaryBeneficiary": "Social housing applicants across 13 local authorities",
+      "storyBlurb": "The Accelerated Social Housing Delivery Programme comprises 36 sites spread across 13 local authorities throughout Ireland, with a target of delivering over 1,500 new social homes. Announced as part of the government's broader push to scale up social housing output, the programme was highlighted in December 2025 commencement data showing a significant jump in new housing starts. The initiative is part of the wider national housing plan, 'Delivering Homes, Building Communities,' which aims to increase average annual social home delivery to 12,000 units per year. By fast-tracking design, procurement and construction across multiple local authority areas simultaneously, the programme seeks to address chronic shortages in social housing supply and reduce waiting lists. It represents a direct government-led intervention to counteract delays that have historically hampered social housing delivery at the local level.",
+      "issues": [
+        "affordability",
+        "social-mix",
+        "community-input-consultation"
+      ],
+      "sources": [
+        {
+          "title": "Commencement data for December 2025 shows significant jump in new housing starts",
+          "publisher": "Government of Ireland – Department of Housing, Local Government and Heritage",
+          "url": "https://www.gov.ie/en/department-of-housing-local-government-and-heritage/press-releases/commencement-domata-for-december-2025-shows-significant-jump-in-new-he-starts/",
+          "date": "2025-12-01"
+        }
+      ]
+    },
+    {
+      "id": "eu-ie-housing-infrastructure-investment-fund-hiif",
+      "developer": "Department of Housing, Local Government and Heritage",
+      "status": "proposed",
+      "projectName": "Housing Infrastructure Investment Fund (HIIF)",
+      "location": "Ireland (nationwide)",
+      "state": "IE",
+      "country": "Ireland",
+      "projectCost": 1000000000,
+      "projectType": "mixed",
+      "yearProposed": 2025,
+      "notes": "The Housing Infrastructure Investment Fund (HIIF) is a €1 billion initiative announced under Ireland's national housing plan, 'Delivering Homes, Building Communities 2025–2030.' Its primary purpose is to fund public infrastructure projects ",
+      "source": "https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/housing-infrastructure-investment-fund-call-1-scheme-outline/",
+      "primaryBeneficiary": "Towns and cities requiring infrastructure to unlock housing development",
+      "storyBlurb": "The Housing Infrastructure Investment Fund (HIIF) is a €1 billion initiative announced under Ireland's national housing plan, 'Delivering Homes, Building Communities 2025–2030.' Its primary purpose is to fund public infrastructure projects that unblock delays preventing housing development on sites across towns and cities nationwide. The fund specifically targets infrastructure gaps not covered by the capital investment plans of other government departments or agencies, enabling stalled housing sites to proceed. By investing in roads, utilities, and other enabling infrastructure, the HIIF aims to unlock significant numbers of new homes across a range of tenures. The first call for applications has been outlined, inviting projects that demonstrate clear capacity to accelerate housing delivery. The fund represents one of the most ambitious infrastructure-led housing interventions in Irish history and is central to the government's ambition to dramatically increase housing output over the second half of the decade.",
+      "issues": [
+        "affordability",
+        "density-height",
+        "transit-access"
+      ],
+      "sources": [
+        {
+          "title": "Housing Infrastructure Investment Fund Call 1 Scheme Outline",
+          "publisher": "Government of Ireland – Department of Housing, Local Government and Heritage",
+          "url": "https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/housing-infrastructure-investment-fund-call-1-scheme-outline/",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "id": "eu-ie-second-hand-property-acquisition-programme-for-homeless-fami",
+      "developer": "Department of Housing, Local Government and Heritage",
+      "status": "proposed",
+      "projectName": "Second-Hand Property Acquisition Programme for Homeless Families",
+      "location": "Ireland (nationwide)",
+      "state": "IE",
+      "country": "Ireland",
+      "projectCost": 100000000,
+      "projectType": "social",
+      "yearProposed": 2026,
+      "notes": "As part of Ireland's broader housing investment package for 2026, the government has committed €100 million in capital funding specifically for the acquisition of second-hand properties. The programme is designed to support the exit of fami",
+      "source": "https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/investment-to-activate-300000-homes/",
+      "primaryBeneficiary": "Families longest in homeless emergency accommodation",
+      "storyBlurb": "As part of Ireland's broader housing investment package for 2026, the government has committed €100 million in capital funding specifically for the acquisition of second-hand properties. The programme is designed to support the exit of families who have spent the longest time in homeless emergency accommodation, providing them with stable, long-term housing solutions. This initiative complements other homeless capital programmes funded under the Department's current provision, which includes over €2 billion in total current funding for housing programmes in 2026. By purchasing existing properties rather than waiting for new builds, the scheme aims to deliver homes to vulnerable families more rapidly. It reflects the Programme for Government commitment to ensure emergency accommodation is available to all who need it, while simultaneously creating pathways out of homelessness into secure, permanent housing for those most in need.",
+      "issues": [
+        "affordability",
+        "displacement-gentrification",
+        "social-mix"
+      ],
+      "sources": [
+        {
+          "title": "Investment to Activate 300,000 Homes",
+          "publisher": "Government of Ireland – Department of Housing, Local Government and Heritage",
+          "url": "https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/investment-to-activate-300000-homes/",
+          "date": "2026-01-01"
+        },
+        {
+          "title": "ESTIMATES 2026 Vote 34 – D/Housing, Local Government and Heritage",
+          "publisher": "Oireachtas",
+          "url": "https://data.oireachtas.ie/ie/oireachtas/committee/dail/34/select_committee_on_housing_local_government_and_heritage/submissions/2026/2026-02-24_opening-statement-james-brownet-d-minister-for-housing-local-government-and-heritage-department-of-housing-local-government-and-heritage_en.pdf",
+          "date": "2026-02-24"
+        }
+      ]
+    }
+  ]
+}
