@@ -39,24 +39,25 @@ jobs:
 
       # ── USA (LegiScan, if key is present) ───────────────────────
       - name: US legislation ingest (LegiScan)
-        if: ${{ secrets.LEGISCAN_API_KEY != '' }}
         env:
           LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
+        if: env.LEGISCAN_API_KEY != ''
         run: npx tsx scripts/sync/legislation-ingest.ts
 
       - name: US legislation classify
-        if: ${{ secrets.LEGISCAN_API_KEY != '' && secrets.ANTHROPIC_API_KEY != '' }}
         env:
+          LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        if: env.LEGISCAN_API_KEY != '' && env.ANTHROPIC_API_KEY != ''
         run: npx tsx scripts/sync/legislation-classify.ts
 
       # ── USA federal housing (Congress.gov primary) ──────────────
       - name: US federal housing (Congress.gov primary)
-        if: ${{ secrets.CONGRESS_GOV_API_KEY != '' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           CONGRESS_GOV_API_KEY: ${{ secrets.CONGRESS_GOV_API_KEY }}
+        if: env.CONGRESS_GOV_API_KEY != ''
         run: npx tsx scripts/sync/us-federal-housing.ts
 
       - name: US states housing (Tavily research + Apify, top 10)
@@ -70,9 +71,9 @@ jobs:
       # Upgrades sourceUrl to canonical state_link and stage to numeric LegiScan
       # status. Skipped automatically while the secret is empty.
       - name: US LegiScan supplement
-        if: ${{ secrets.LEGISCAN_API_KEY != '' }}
         env:
           LEGISCAN_API_KEY: ${{ secrets.LEGISCAN_API_KEY }}
+        if: env.LEGISCAN_API_KEY != ''
         run: npx tsx scripts/sync/us-legiscan-housing.ts
 
       # ── UK ──────────────────────────────────────────────────────
