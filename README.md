@@ -1,5 +1,6 @@
 # Housing Tracker . Canada-first, multi-region
 
+m
 A live map of housing policy. Canada is the primary dataset with federal
 bills, provincial legislation, major projects, and officials. The United
 States is a full secondary region covering federal housing law plus the
@@ -47,19 +48,19 @@ run the sync scripts that refresh data from upstream APIs.
 
 Counts (April 2026):
 
-| Layer | Count | Source |
-|---|---|---|
-| Canadian housing bills (federal) | ~152 | LEGISinfo |
-| Canadian provincial bills | ~168 / 13 jurisdictions | BC Laws + Tavily |
-| Canadian housing projects | 13 | Build Canada Homes, CMHC |
-| Canadian officials | 12 | canada.ca + Tavily |
-| US federal housing bills | 54 | Congress.gov API |
-| US state housing bills | 68 / 10 states | Tavily + Apify + state legislature queries |
-| US housing projects | 25 | Tavily research (HUD, state agencies) |
-| US housing officials | 9 | hud.gov + Tavily |
-| UK housing bills (secondary) | 267 | UK Parliament Bills API |
-| Europe (11 entities) | 13 bills, 19 projects, 12 officials | europe-housing.ts + europe-officials.ts |
-| Asia-Pacific (7 entities) | 9 bills, 4 projects, 7 officials | asia-pacific-housing.ts + asia-officials.ts |
+| Layer                            | Count                               | Source                                      |
+| -------------------------------- | ----------------------------------- | ------------------------------------------- |
+| Canadian housing bills (federal) | ~152                                | LEGISinfo                                   |
+| Canadian provincial bills        | ~168 / 13 jurisdictions             | BC Laws + Tavily                            |
+| Canadian housing projects        | 13                                  | Build Canada Homes, CMHC                    |
+| Canadian officials               | 12                                  | canada.ca + Tavily                          |
+| US federal housing bills         | 54                                  | Congress.gov API                            |
+| US state housing bills           | 68 / 10 states                      | Tavily + Apify + state legislature queries  |
+| US housing projects              | 25                                  | Tavily research (HUD, state agencies)       |
+| US housing officials             | 9                                   | hud.gov + Tavily                            |
+| UK housing bills (secondary)     | 267                                 | UK Parliament Bills API                     |
+| Europe (11 entities)             | 13 bills, 19 projects, 12 officials | europe-housing.ts + europe-officials.ts     |
+| Asia-Pacific (7 entities)        | 9 bills, 4 projects, 7 officials    | asia-pacific-housing.ts + asia-officials.ts |
 
 Counts come from `jq`/`node` over JSON files in `data/`, not from memory.
 
@@ -176,16 +177,16 @@ pipeline status at a glance without digging through logs.
 
 ## Configuration
 
-| Variable | Required | Used by |
-|---|---|---|
-| `ANTHROPIC_API_KEY` | yes | Classification, blurbs, news, officials, regional overview |
-| `TAVILY_API_KEY` | yes | Provincial research, housing projects, officials, URL validation |
-| `FRED_API_KEY` | no | US FRED metrics. Weekly metrics-sync only. |
-| `CONGRESS_GOV_API_KEY` | no | Primary source for US federal bills. Free, 5000 req/hour. Register at api.congress.gov. |
-| `APIFY_API_TOKEN` | no | State legislature scrapers (Colorado, Arizona). Free tier $5/month of compute. |
-| `LEGISCAN_API_KEY` | no | US state bills. Dormant until set. When present, upgrades existing state data on next sync. |
-| `KV_REST_API_URL` | no | Visitor counter (Vercel KV) |
-| `KV_REST_API_TOKEN` | no | Visitor counter (Vercel KV) |
+| Variable               | Required | Used by                                                                                     |
+| ---------------------- | -------- | ------------------------------------------------------------------------------------------- |
+| `ANTHROPIC_API_KEY`    | yes      | Classification, blurbs, news, officials, regional overview                                  |
+| `TAVILY_API_KEY`       | yes      | Provincial research, housing projects, officials, URL validation                            |
+| `FRED_API_KEY`         | no       | US FRED metrics. Weekly metrics-sync only.                                                  |
+| `CONGRESS_GOV_API_KEY` | no       | Primary source for US federal bills. Free, 5000 req/hour. Register at api.congress.gov.     |
+| `APIFY_API_TOKEN`      | no       | State legislature scrapers (Colorado, Arizona). Free tier $5/month of compute.              |
+| `LEGISCAN_API_KEY`     | no       | US state bills. Dormant until set. When present, upgrades existing state data on next sync. |
+| `KV_REST_API_URL`      | no       | Visitor counter (Vercel KV)                                                                 |
+| `KV_REST_API_TOKEN`    | no       | Visitor counter (Vercel KV)                                                                 |
 
 See `.env.example` for the full list with inline notes.
 
