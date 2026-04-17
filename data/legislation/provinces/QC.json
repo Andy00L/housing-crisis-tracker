@@ -5,22 +5,142 @@
   "stance": "restrictive",
   "stanceZoning": "review",
   "stanceAffordability": "restrictive",
-  "lastUpdated": "2026-04-16",
-  "contextBlurb": "Quebec's housing policy is administered through the Société d'habitation du Québec (SHQ) and the Tribunal administratif du logement (TAL). Key initiatives include the Programme d'habitation abordable Québec (PHAQ) and Bill 20, an Act to facilitate access to housing. The province regulates landlord-tenant relations, subsidized housing eligibility, and affordable housing construction through legislation and programs.",
+  "lastUpdated": "2026-04-17",
+  "contextBlurb": "Quebec's housing policy landscape includes the Programme d'habitation abordable Québec (PHAQ), which funds affordable and highly prefabricated multi-unit housing, and Bill 20 (An Act to facilitate access to housing), which amends the Act respecting the Société d'habitation du Québec to update rules on affordable housing eligibility and compensation. The Tribunal administratif du logement (TAL) oversees landlord-tenant disputes, including potential punitive damages in cases of insalubrity and insecurity. Quebec also operates rent supplement programs and subsidized housing allowing low-income households to pay 25% of their income in rent.",
   "legislation": [
     {
-      "id": "qc-bill-20",
-      "billCode": "Bill 20",
-      "title": "An Act to enact the Act to facilitate access to housing and to amend the Act respecting the Société d'habitation du Québec",
-      "summary": "Amends the Act respecting the Société d'habitation du Québec to allow loan guarantees, prescribe compensation for lessees who cease to be eligible for affordable housing, and expand the scope of low-rental housing to affordable housing.",
+      "id": "qc-hlm---logement-subventionn-",
+      "billCode": "HLM / Logement subventionnÃ©",
+      "title": "Subsidized Housing Program (Low-Rental Housing / HLM)",
+      "summary": "Provincial program allowing low-income households to pay rent equal to 25% of their income through low-rental housing (HLM) units administered by the SociÃ©tÃ© d'habitation du QuÃ©bec.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2026-02-11",
+      "sourceUrl": "https://www.quebec.ca/en/gouvernement/ministeres-organismes/societe-habitation/looking-for-housing-we-are-here-to-help-you/subsidized-housing",
+      "sponsors": []
+    },
+    {
+      "id": "qc-bail-r-sidentiel--tal-",
+      "billCode": "Bail rÃ©sidentiel (TAL)",
+      "title": "RÃ¨gles relatives au bail rÃ©sidentiel â€” Tribunal administratif du logement",
+      "summary": "Requires use of the Tribunal administratif du logement standard lease form for all new residential leases, including rooms, apartments, and houses, with mandatory spousal consent for family residences.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2026-02-11",
+      "sourceUrl": "https://www.quebec.ca/habitation-territoire/location/bail",
+      "sponsors": []
+    },
+    {
+      "id": "qc-aides-financi-res-logement",
+      "billCode": "Aides financiÃ¨res logement",
+      "title": "Programme d'aides financiÃ¨res pour le logement",
+      "summary": "Financial assistance framework for low-income households and those with specific housing needs, administered through the SociÃ©tÃ© d'habitation du QuÃ©bec.",
       "stage": "Enacted",
       "stance": "review",
       "impactTags": [
         "affordability"
       ],
       "category": "affordable-housing",
+      "updatedDate": "2026-02-11",
+      "sourceUrl": "https://www.quebec.ca/habitation-territoire/location/aides-financieres-au-logement",
+      "sponsors": []
+    },
+    {
+      "id": "qc-bill-20",
+      "billCode": "Bill 20",
+      "title": "An Act to facilitate access to housing and to amend the Act respecting the Société d'habitation du Québec",
+      "summary": "Amends the Act respecting the Société d'habitation du Québec to add loan guarantees and update rules on compensation for lessees who cease to be eligible for affordable or low-rental housing.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
       "updatedDate": "2025-01-01",
       "sourceUrl": "https://www.assnat.qc.ca/Media/Process.aspx?MediaId=ANQ.Vigie.Bll.DocumentGenerique_218009en&process=Default&token=ZyMoxNwUn8ikQ+TRKYwPCjWrKwg+vIv9rjij7p3xLGTZDmLVSmJLoqe/vG7/YWzz",
+      "sponsors": []
+    },
+    {
+      "id": "qc-phaq-volet-3",
+      "billCode": "PHAQ Volet 3",
+      "title": "Programme d'habitation abordable Québec – Volet 3 : Initiative de multilogements hautement préfabriqués",
+      "summary": "A component of the Programme d'habitation abordable Québec targeting organizations wishing to partner with a design-builder selected by the SHQ to develop highly prefabricated multi-unit housing projects.",
+      "stage": "Enacted",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.quebec.ca/habitation-territoire/construction-renovation/construction-logements-abordables/programme-habitation-abordable-quebec/volet-3-initiative-multilogements-hautement-prefabriques",
+      "sponsors": []
+    },
+    {
+      "id": "qc-reconnaissance---logements--tudiants",
+      "billCode": "Reconnaissance – Logements étudiants",
+      "title": "Reconnaissance d'un propriétaire de logements étudiants",
+      "summary": "Establishes a recognition process for landlords of student housing, requiring that after the first five years of recognition, more than half of the units must be rented to students.",
+      "stage": "Enacted",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.quebec.ca/habitation-territoire/location/reconnaissance-proprietaire-logements-etudiants",
+      "sponsors": []
+    },
+    {
+      "id": "qc-droits-et-obligations---locateurs-et-locataires",
+      "billCode": "Droits et obligations – Locateurs et locataires",
+      "title": "Règles relatives aux droits et obligations des locateurs et des locataires",
+      "summary": "Sets out the rights and obligations of landlords and tenants in Quebec, including rules on access to dwellings, property visits, and resolution of noise disputes between tenants.",
+      "stage": "Enacted",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.quebec.ca/habitation-territoire/location/droits-et-obligations-des-locateurs-et-des-locataires",
+      "sponsors": []
+    },
+    {
+      "id": "qc-programme---logement-subventionn-",
+      "billCode": "Programme – Logement subventionné",
+      "title": "Subsidized Housing Program – Québec Rent Supplement Program",
+      "summary": "Allows low-income households to pay rent equal to 25% of their income through units in the private rental market or owned by housing cooperatives and non-profit housing organizations.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.quebec.ca/en/gouvernement/ministeres-organismes/societe-habitation/looking-for-housing-we-are-here-to-help-you/subsidized-housing",
+      "sponsors": []
+    },
+    {
+      "id": "qc-pracim-2025-2028-volet-1",
+      "billCode": "PRACIM 2025-2028 Volet 1",
+      "title": "Guide du PRACIM 2025-2028 – Volet 1 : Projets de bâtiments de base sans mise en commun",
+      "summary": "Sets out the framework for the PRACIM 2025–2028 program for basic building projects without shared facilities, where the benefit is directed to a single recipient organization.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/infrastructures/pracim/GUI_volet_1_sans_commun_pracim_2025_2028.pdf",
       "sponsors": []
     },
     {
@@ -99,96 +219,6 @@
       "sponsors": []
     },
     {
-      "id": "qc-tal---r-forme-2025",
-      "billCode": "TAL – Réforme 2025",
-      "title": "Échanges entre le Ministère et le Tribunal administratif du logement relatifs aux évictions",
-      "summary": "Proposed reforms discussed between the Ministry and the Tribunal administratif du logement (TAL) to allow punitive damages against landlords in cases of insalubrity and insecurity, and to anonymize tenant applications.",
-      "stage": "Filed",
-      "stance": "review",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "tenant-protection",
-      "updatedDate": "2025-01-01",
-      "sourceUrl": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/documents_administratifs/acces_information/demande_acces/2025/DAI_2025-075_tribunal_administratif_evictions.pdf",
-      "sponsors": []
-    },
-    {
-      "id": "qc-all-gement-r-glementaire---mamh",
-      "billCode": "Allègement réglementaire – MAMH",
-      "title": "Analyse d'impact réglementaire – Projet de règlement modifiant les critères du ministère des Affaires municipales et de l'Habitation",
-      "summary": "The Ministère des Affaires municipales et de l'Habitation applies the Government Policy on Regulatory Streamlining to its regulatory process as outlined in the Strategic Plan 2023–2027, including amendments to housing-related regulations.",
-      "stage": "Filed",
-      "stance": "favorable",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "affordable-housing",
-      "updatedDate": "2025-01-01",
-      "sourceUrl": "https://www.quebec.ca/gouvernement/ministeres-organismes/affaires-municipales/cadre-legal-transparence/allegement-reglementaire-administratif",
-      "sponsors": []
-    },
-    {
-      "id": "qc-hlm---logement-subventionn-",
-      "billCode": "HLM / Logement subventionnÃ©",
-      "title": "Subsidized Housing Program (Low-Rental Housing / HLM)",
-      "summary": "Provincial program allowing low-income households to pay rent equal to 25% of their income through low-rental housing (HLM) units administered by the SociÃ©tÃ© d'habitation du QuÃ©bec.",
-      "stage": "Enacted",
-      "stance": "review",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "rent-regulation",
-      "updatedDate": "2026-02-11",
-      "sourceUrl": "https://www.quebec.ca/en/gouvernement/ministeres-organismes/societe-habitation/looking-for-housing-we-are-here-to-help-you/subsidized-housing",
-      "sponsors": []
-    },
-    {
-      "id": "qc-bail-r-sidentiel--tal-",
-      "billCode": "Bail rÃ©sidentiel (TAL)",
-      "title": "RÃ¨gles relatives au bail rÃ©sidentiel â€” Tribunal administratif du logement",
-      "summary": "Requires use of the Tribunal administratif du logement standard lease form for all new residential leases, including rooms, apartments, and houses, with mandatory spousal consent for family residences.",
-      "stage": "Enacted",
-      "stance": "review",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "tenant-protection",
-      "updatedDate": "2026-02-11",
-      "sourceUrl": "https://www.quebec.ca/habitation-territoire/location/bail",
-      "sponsors": []
-    },
-    {
-      "id": "qc-aides-financi-res-logement",
-      "billCode": "Aides financiÃ¨res logement",
-      "title": "Programme d'aides financiÃ¨res pour le logement",
-      "summary": "Financial assistance framework for low-income households and those with specific housing needs, administered through the SociÃ©tÃ© d'habitation du QuÃ©bec.",
-      "stage": "Enacted",
-      "stance": "review",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "affordable-housing",
-      "updatedDate": "2026-02-11",
-      "sourceUrl": "https://www.quebec.ca/habitation-territoire/location/aides-financieres-au-logement",
-      "sponsors": []
-    },
-    {
-      "id": "qc-phaq-volet-3",
-      "billCode": "PHAQ Volet 3",
-      "title": "Programme d'habitation abordable QuÃ©bec â€” Volet 3 : Initiative de multilogements hautement prÃ©fabriquÃ©s",
-      "summary": "Government program supporting the construction of affordable multi-unit housing using highly prefabricated methods; a second call for projects closed November 14, 2025.",
-      "stage": "Enacted",
-      "stance": "review",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "building-code",
-      "updatedDate": "2025-11-14",
-      "sourceUrl": "https://www.quebec.ca/habitation-territoire/construction-renovation/construction-logements-abordables/programme-habitation-abordable-quebec/volet-3-initiative-multilogements-hautement-prefabriques",
-      "sponsors": []
-    },
-    {
       "id": "qc-projet-de-loi-n--20",
       "billCode": "Projet de loi nÂ° 20",
       "title": "Loi Ã©dictant la Loi visant Ã  favoriser l'accÃ¨s au logement et modifiant diverses dispositions",
@@ -246,6 +276,81 @@
       "category": "affordable-housing",
       "updatedDate": "2026-02-11",
       "sourceUrl": "https://cdn-contenu.quebec.ca/cdn-contenu/gouvernement/MCE/dossiers-soumis-conseil-ministres/25-26/2025-0240_memoire.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "qc-tal---r-forme-2025",
+      "billCode": "TAL – Réforme 2025",
+      "title": "Échanges entre le Ministère et le Tribunal administratif du logement – Propositions de réforme 2025",
+      "summary": "Proposes granting the Tribunal administratif du logement the power to award punitive damages against landlords in cases of insalubrity and insecurity, and to anonymize tenant applications.",
+      "stage": "Filed",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/documents_administratifs/acces_information/demande_acces/2025/DAI_2025-075_tribunal_administratif_evictions.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "qc-constitution-du-qu-bec---pl-2025",
+      "billCode": "Constitution du Québec – PL 2025",
+      "title": "Projet de loi constitutionnelle de 2025 sur le Québec",
+      "summary": "Proposes a Constitution for Quebec to protect the Quebec nation, its values, and its collective rights, with potential implications for housing and land-use jurisdiction.",
+      "stage": "Filed",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/politiques-orientations/constitution-quebec",
+      "sponsors": []
+    },
+    {
+      "id": "qc-pl---projets-prioritaires-nationaux",
+      "billCode": "PL – Projets prioritaires nationaux",
+      "title": "Projet de loi visant à accélérer l'octroi des autorisations requises pour la réalisation des projets prioritaires et d'envergure nationale",
+      "summary": "Aims to reduce delays in obtaining authorizations for large-scale and nationally significant projects, including housing construction, in the context of rising costs and economic uncertainty.",
+      "stage": "Filed",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/politiques-orientations/octroi-autorisations-requises-realisation-projets-prioritaires-envergure-nationale",
+      "sponsors": []
+    },
+    {
+      "id": "qc-air---pl11-meie-2025",
+      "billCode": "AIR – PL11 MEIE 2025",
+      "title": "Projet de loi omnibus 2025 – Analyse d'impact réglementaire (allègement réglementaire et administratif)",
+      "summary": "An omnibus regulatory relief bill for 2025 that proposes administrative simplifications including streamlined record-keeping requirements, estimated to generate recurring annual savings for businesses in Quebec.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/economie/publications-adm/lois-reglements/allegement/AIR-202511-PL11-MEIE.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "qc-all-gement-r-glementaire---mamh",
+      "billCode": "Allègement réglementaire – MAMH",
+      "title": "Analyse d'impact réglementaire – Projet de règlement modifiant les critères du ministère des Affaires municipales et de l'Habitation",
+      "summary": "The Ministère des Affaires municipales et de l'Habitation applies the Government Policy on Regulatory Streamlining to its regulatory process as outlined in the Strategic Plan 2023–2027, including amendments to housing-related regulations.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.quebec.ca/gouvernement/ministeres-organismes/affaires-municipales/cadre-legal-transparence/allegement-reglementaire-administratif",
       "sponsors": []
     }
   ]

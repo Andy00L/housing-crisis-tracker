@@ -6,15 +6,15 @@
   "stanceZoning": "restrictive",
   "stanceAffordability": "restrictive",
   "lastUpdated": "2026-04-17",
-  "contextBlurb": "New Brunswick has released 'A Path Home: New Brunswick's Provincial Strategy on Homelessness,' targeting a 40% reduction in chronic homelessness by 2028-29. The 2026-27 budget includes $78.1 million for public housing development and maintenance, alongside a federal-provincial agreement to accelerate affordable housing construction. Regulation 2025-20 under the Building Code Administration Act was filed in April 2025 as part of ongoing legislative updates to housing standards.",
+  "contextBlurb": "New Brunswick has released 'A Path Home: New Brunswick's Provincial Strategy on Homelessness' targeting a 40% reduction in chronic homelessness by 2028-29, and secured a federal-provincial agreement on affordable housing. The 2026-27 capital budget includes $78.1 million for public housing development and maintenance, while Regulation 2025-20 under the Building Code Administration Act was filed in April 2025.",
   "legislation": [
     {
       "id": "nb-federal-provincial-housing-agreement-2026",
       "billCode": "Federal-Provincial Housing Agreement 2026",
       "title": "Federal-Provincial Agreement on Affordable Housing",
-      "summary": "An intergovernmental agreement reached in March 2026 between Canada and New Brunswick aimed at increasing the pace of affordable home construction across the province.",
+      "summary": "A federal-provincial agreement reached in 2026 aimed at accelerating the construction of affordable homes for New Brunswickers.",
       "stage": "Enacted",
-      "stance": "review",
+      "stance": "favorable",
       "impactTags": [
         "affordability"
       ],
@@ -59,9 +59,9 @@
       "id": "nb-a-path-home",
       "billCode": "A Path Home",
       "title": "New Brunswick's Provincial Strategy on Homelessness",
-      "summary": "A provincial homelessness strategy released in December 2025 committing government and partners to reduce chronic homelessness by 40% by 2028-29.",
+      "summary": "Released in December 2025, this provincial strategy aims to reduce chronic homelessness by 40 per cent by 2028-29 through coordinated government and partner commitments.",
       "stage": "Enacted",
-      "stance": "review",
+      "stance": "favorable",
       "impactTags": [
         "affordability"
       ],
@@ -73,10 +73,10 @@
     {
       "id": "nb-capital-estimates-2026-27",
       "billCode": "Capital Estimates 2026-27",
-      "title": "Government 2026-27 Capital Estimates — Public Housing Investment",
-      "summary": "Capital estimates released in December 2025 committing $78.1 million to the development of new public housing and maintenance of existing housing stock.",
+      "title": "2026-27 Capital Estimates — Public Housing Investment",
+      "summary": "The 2026-27 capital estimates include $78.1 million for the development of new public housing and maintenance of existing housing stock in New Brunswick.",
       "stage": "Enacted",
-      "stance": "restrictive",
+      "stance": "favorable",
       "impactTags": [
         "social-housing"
       ],
@@ -210,7 +210,7 @@
       "id": "nb-regulation-2024-28",
       "billCode": "Regulation 2024-28",
       "title": "Repeal of New Brunswick Regulation 2001-89 under the Assessment and Planning Appeal Board Act",
-      "summary": "Repeals the former general regulation under the Assessment and Planning Appeal Board Act, filed May 15, 2024, as part of a broader legislative housekeeping effort.",
+      "summary": "Filed May 15, 2024, this regulation repealed the General Regulation under the Assessment and Planning Appeal Board Act.",
       "stage": "Enacted",
       "stance": "review",
       "impactTags": [
@@ -225,7 +225,7 @@
       "id": "nb-regulation-2024-29",
       "billCode": "Regulation 2024-29",
       "title": "General Regulation under the Local Governance Commission Act",
-      "summary": "Establishes a new general regulation under the Local Governance Commission Act, setting parameters for cost-recovery, appointing a supervisor, and providing notice of control, filed May 15, 2024.",
+      "summary": "Filed May 15, 2024, this regulation established a new General Regulation under the Local Governance Commission Act, setting parameters for cost-recovery, appointing a supervisor, and providing notice of control.",
       "stage": "Enacted",
       "stance": "review",
       "impactTags": [
@@ -270,6 +270,23 @@
       "sponsors": []
     },
     {
+      "id": "nb-bill-no--22",
+      "billCode": "Bill No. 22",
+      "title": "Supplementary Appropriations Act 2025-2026 (1)",
+      "summary": "A supplementary appropriations bill for the 2025-2026 fiscal year, sponsored by Hon. Robert McKee, K.C., of the Liberal Party representing Moncton Centre.",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-15",
+      "sourceUrl": "https://www.legnb.ca/en/legislation/bills/61/2/22/supplementary-appropriations-act-2025-2026-1",
+      "sponsors": [
+        "Hon. Robert McKee, K.C."
+      ]
+    },
+    {
       "id": "nb-bill-22",
       "billCode": "Bill 22",
       "title": "Supplementary Appropriations Act 2025-2026 (1)",
@@ -290,7 +307,7 @@
       "id": "nb-regulation-2025-20",
       "billCode": "Regulation 2025-20",
       "title": "Regulation under the Building Code Administration Act",
-      "summary": "A provincial regulation filed under the Building Code Administration Act (Order in Council 2025-63), establishing updated building code administration rules for New Brunswick.",
+      "summary": "A new regulation filed under the Building Code Administration Act (Order in Council 2025-63), establishing updated building code administration rules in New Brunswick.",
       "stage": "Filed",
       "stance": "review",
       "impactTags": [

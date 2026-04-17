@@ -176,15 +176,15 @@ async function main() {
   const raw = JSON.parse(readFileSync(DATA_PATH, "utf8")) as CaProject[];
   const projects = Array.isArray(raw) ? raw : [];
 
-  // Select NHS projects with generic descriptions, sorted by unit count
-  const nhsProjects = projects.filter((p) => p.id?.startsWith("nhs-"));
-  const candidates = nhsProjects
+  // Select projects with generic descriptions, sorted by unit count
+  const candidates = projects
     .filter((p) => isGenericDescription(p.blurb) && !p.storyBlurb && p.city)
     .sort((a, b) => (b.unitCount ?? 0) - (a.unitCount ?? 0))
     .slice(0, MAX_PROJECTS);
 
+  const genericTotal = projects.filter((p) => isGenericDescription(p.blurb) && !p.storyBlurb).length;
   console.log(
-    `  NHS projects: ${nhsProjects.length}, generic: ${candidates.length} selected`,
+    `  Total projects: ${projects.length}, generic: ${genericTotal}, selected (with city): ${candidates.length}`,
   );
   report.incrementTotal(candidates.length);
 

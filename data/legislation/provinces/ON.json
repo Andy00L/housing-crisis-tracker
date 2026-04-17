@@ -2,132 +2,12 @@
   "state": "Ontario",
   "stateCode": "ON",
   "region": "na",
-  "stance": "review",
+  "stance": "concerning",
   "stanceZoning": "favorable",
-  "stanceAffordability": "review",
-  "lastUpdated": "2026-04-16",
-  "contextBlurb": "Ontario's 44th Parliament has introduced a range of housing-related legislation addressing tenant protections, homelessness, and development speed. Key bills include Bill 60 (Fighting Delays, Building Faster Act, 2025), which has been enacted into law, and Bill 17 (Protect Ontario by Building Faster and Smarter Act, 2025), focused on accelerating construction. Several private member's bills such as Bill 51 (Rent Stabilization Act) and Bill 28 (Homelessness Ends with Housing Act) reflect ongoing debates over affordability and tenant rights.",
+  "stanceAffordability": "concerning",
+  "lastUpdated": "2026-04-17",
+  "contextBlurb": "Ontario's 44th Parliament has introduced a range of housing-related legislation addressing tenant rights, homelessness, and housing construction. Key bills include Bill 60 (Fighting Delays, Building Faster Act, 2025), which amends planning and municipal rules to accelerate development, and Bill 51 (Rent Stabilization Act, 2025), which proposes a rent registry and caps on lawful rent increases. Additional measures such as Bill 28 (Homelessness Ends with Housing Act, 2025) and Bill 64 (Housing Equity and Rental Transparency Act, 2025) reflect ongoing legislative activity around housing affordability and tenant protections.",
   "legislation": [
-    {
-      "id": "on-bill-60",
-      "billCode": "Bill 60",
-      "title": "Fighting Delays, Building Faster Act, 2025",
-      "summary": "Enacted legislation that amends planning and municipal rules to speed up housing development, including provisions affecting community improvement plans and Landlord and Tenant Board processes.",
-      "stage": "Enacted",
-      "stance": "review",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "zoning-reform",
-      "updatedDate": "2025-01-01",
-      "sourceUrl": "https://www.ontario.ca/laws/statute/s25014",
-      "sponsors": []
-    },
-    {
-      "id": "on-bill-23",
-      "billCode": "Bill 23",
-      "title": "An Act to amend the Residential Tenancies Act, 2006 and the Retirement Homes Act, 2010",
-      "summary": "Proposes amendments to the Residential Tenancies Act, 2006 and the Retirement Homes Act, 2010, with a deferred vote on Second Reading recorded in April 2026.",
-      "stage": "Floor",
-      "stance": "review",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "affordable-housing",
-      "updatedDate": "2026-04-16",
-      "sourceUrl": "https://www.ola.org/en/legislative-business/house-documents/parliament-44/session-1/2026-04-16/orders-notices",
-      "sponsors": []
-    },
-    {
-      "id": "on-bill-98",
-      "billCode": "Bill 98",
-      "title": "Building Homes and Improving Transportation Infrastructure Act, 2026",
-      "summary": "A bill from Parliament 44, Session 1 targeting housing construction and transportation infrastructure improvements across Ontario.",
-      "stage": "Floor",
-      "stance": "favorable",
-      "impactTags": [
-        "transit-oriented"
-      ],
-      "category": "zoning-reform",
-      "updatedDate": "2026-01-01",
-      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98/acts-affected",
-      "sponsors": []
-    },
-    {
-      "id": "on-bill-17",
-      "billCode": "Bill 17",
-      "title": "Protect Ontario by Building Faster and Smarter Act, 2025",
-      "summary": "A government bill aimed at accelerating housing construction and streamlining development approvals across Ontario.",
-      "stage": "Floor",
-      "stance": "favorable",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "zoning-reform",
-      "updatedDate": "2025-01-01",
-      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-17/debates",
-      "sponsors": []
-    },
-    {
-      "id": "on-bill-68",
-      "billCode": "Bill 68",
-      "title": "Plan to Protect Ontario Act (Budget Measures), 2025 (No. 2)",
-      "summary": "Budget measures legislation that includes a new section granting the Minister of Municipal Affairs and Housing authority to make regulations in connection with amendments to relevant Acts.",
-      "stage": "Floor",
-      "stance": "review",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "affordable-housing",
-      "updatedDate": "2025-01-01",
-      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-68",
-      "sponsors": []
-    },
-    {
-      "id": "on-bill-28",
-      "billCode": "Bill 28",
-      "title": "Homelessness Ends with Housing Act, 2025",
-      "summary": "Establishes the Government of Ontario's vision to eliminate homelessness in a transparent and accountable manner.",
-      "stage": "Filed",
-      "stance": "review",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "affordable-housing",
-      "updatedDate": "2025-01-01",
-      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-28",
-      "sponsors": []
-    },
-    {
-      "id": "on-bill-51",
-      "billCode": "Bill 51",
-      "title": "Rent Stabilization Act, 2025",
-      "summary": "Proposes a rent registry maintained by the Landlord and Tenant Board and a mechanism allowing tenants to apply for orders where rent charged exceeds the maximum lawful rent.",
-      "stage": "Filed",
-      "stance": "review",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "rent-regulation",
-      "updatedDate": "2025-01-01",
-      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-51",
-      "sponsors": []
-    },
-    {
-      "id": "on-bill-64",
-      "billCode": "Bill 64",
-      "title": "Housing Equity and Rental Transparency Act, 2025",
-      "summary": "A bill introduced in Parliament 44, Session 1, addressing housing equity and rental transparency in Ontario.",
-      "stage": "Filed",
-      "stance": "review",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "affordable-housing",
-      "updatedDate": "2025-01-01",
-      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-64/status",
-      "sponsors": []
-    },
     {
       "id": "on-zoning-order-001-2025",
       "billCode": "Zoning Order 001-2025",
@@ -189,6 +69,96 @@
       "sponsors": []
     },
     {
+      "id": "on-bill-60",
+      "billCode": "Bill 60",
+      "title": "Fighting Delays, Building Faster Act, 2025",
+      "summary": "Amends planning and municipal legislation to accelerate housing development and reduce approval delays. Also modifies community improvement plan provisions for upper-tier municipalities.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.ontario.ca/laws/statute/s25014",
+      "sponsors": []
+    },
+    {
+      "id": "on-bill-23",
+      "billCode": "Bill 23",
+      "title": "An Act to amend the Residential Tenancies Act, 2006 and the Retirement Homes Act, 2010",
+      "summary": "Proposes amendments to the Residential Tenancies Act, 2006 and the Retirement Homes Act, 2010, with a deferred second reading vote recorded in April 2026.",
+      "stage": "Floor",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-16",
+      "sourceUrl": "https://www.ola.org/en/legislative-business/house-documents/parliament-44/session-1/2026-04-16/orders-notices",
+      "sponsors": []
+    },
+    {
+      "id": "on-bill-17",
+      "billCode": "Bill 17",
+      "title": "Protect Ontario by Building Faster and Smarter Act, 2025",
+      "summary": "Legislation aimed at streamlining housing construction and development approvals across Ontario.",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-17/debates",
+      "sponsors": []
+    },
+    {
+      "id": "on-bill-56",
+      "billCode": "Bill 56",
+      "title": "Building a More Competitive Economy Act, 2025",
+      "summary": "An omnibus bill that amends multiple acts, including provisions affecting housing-related legislation and regulatory frameworks.",
+      "stage": "Floor",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56",
+      "sponsors": []
+    },
+    {
+      "id": "on-bill-68",
+      "billCode": "Bill 68",
+      "title": "Plan to Protect Ontario Act (Budget Measures), 2025 (No. 2)",
+      "summary": "Budget measures bill that includes a new section granting the Minister of Municipal Affairs and Housing authority to make regulations in connection with amendments to the Act.",
+      "stage": "Floor",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-68",
+      "sponsors": []
+    },
+    {
+      "id": "on-bill-98",
+      "billCode": "Bill 98",
+      "title": "Building Homes and Improving Transportation Infrastructure Act, 2026",
+      "summary": "Legislation combining housing construction goals with transportation infrastructure improvements across Ontario.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "transit-oriented"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-98/acts-affected",
+      "sponsors": []
+    },
+    {
       "id": "on-building-homes-and-improving-transportation-infrastructure-act",
       "billCode": "Building Homes and Improving Transportation Infrastructure Act",
       "title": "Building Homes and Improving Transportation Infrastructure Act",
@@ -201,6 +171,66 @@
       "category": "zoning-reform",
       "updatedDate": "2025-05-12",
       "sourceUrl": "https://news.ontario.ca/en/release/1007229/ontario-introducing-legislation-to-improve-transit-and-build-more-homes",
+      "sponsors": []
+    },
+    {
+      "id": "on-bill-28",
+      "billCode": "Bill 28",
+      "title": "Homelessness Ends with Housing Act, 2025",
+      "summary": "Establishes the Government of Ontario's vision to eliminate homelessness in a transparent and accountable manner.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-28",
+      "sponsors": []
+    },
+    {
+      "id": "on-bill-51",
+      "billCode": "Bill 51",
+      "title": "Rent Stabilization Act, 2025",
+      "summary": "Proposes a rent registry maintained by the Landlord and Tenant Board and a mechanism for tenants to apply for orders where rent charged exceeds the maximum lawful rent.",
+      "stage": "Filed",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-51",
+      "sponsors": []
+    },
+    {
+      "id": "on-bill-52",
+      "billCode": "Bill 52",
+      "title": "EV-Ready Homes Act (Electric Vehicle Charging), 2025",
+      "summary": "Requires homes to be equipped or ready for electric vehicle charging infrastructure.",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "transit-oriented"
+      ],
+      "category": "transit-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-52",
+      "sponsors": []
+    },
+    {
+      "id": "on-bill-64",
+      "billCode": "Bill 64",
+      "title": "Housing Equity and Rental Transparency Act, 2025",
+      "summary": "Addresses housing equity and rental transparency, amending relevant acts governing residential tenancies in Ontario.",
+      "stage": "Filed",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-64/status",
       "sponsors": []
     }
   ]

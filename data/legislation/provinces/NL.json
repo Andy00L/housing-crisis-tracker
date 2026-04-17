@@ -6,8 +6,25 @@
   "stanceZoning": "none",
   "stanceAffordability": "favorable",
   "lastUpdated": "2026-04-17",
-  "contextBlurb": "Newfoundland and Labrador's housing policy is anchored by the Newfoundland and Labrador Housing Corporation (NLHC), which administers programs addressing homelessness, transitional housing, and low-income rental support. The provincial government introduced a Special Debate on Housing in 2026, responding to a 71 per cent growth in the social housing waitlist between 2021 and 2025. Emergency rental assistance of up to $1,500 per household per month has also been made available through provincial releases.",
+  "contextBlurb": "Newfoundland and Labrador's housing policy landscape in 2025-2026 includes a provincial government special debate on housing, an RFP for a new Transitional and Supportive Living Program in St. John's, and a federal-provincial housing project addressing homelessness. The social housing waitlist grew 71 per cent between 2021 and 2025, prompting renewed focus on increasing housing supply and reviewing waitlist policies. Rental assistance of up to $1,500 per household per month is available to eligible individuals.",
   "legislation": [
+    {
+      "id": "nl-nlhc-2025-08-29",
+      "billCode": "NLHC-2025-08-29",
+      "title": "Federal-Provincial Housing and Homelessness Project",
+      "summary": "A joint federal-provincial housing project aimed at addressing housing and homelessness challenges in Newfoundland and Labrador, announced by the Newfoundland and Labrador Housing Corporation.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-08-29",
+      "sourceUrl": "https://www.gov.nl.ca/releases/2025/nlhc/0829n09/",
+      "sponsors": [
+        "Newfoundland and Labrador Housing Corporation"
+      ]
+    },
     {
       "id": "nl-nlhc-2025-0829",
       "billCode": "NLHC-2025-0829",
@@ -21,40 +38,6 @@
       "category": "affordable-housing",
       "updatedDate": "2025-08-29",
       "sourceUrl": "https://www.gov.nl.ca/releases/2025/nlhc/0829n09/",
-      "sponsors": [
-        "Newfoundland and Labrador Housing Corporation"
-      ]
-    },
-    {
-      "id": "nl-sswb-hmp",
-      "billCode": "SSWB-HMP",
-      "title": "Home Modification Program",
-      "summary": "Provides funding to assist homeowners with low-to-moderate income to modify their homes, administered through the Department of Social Supports and Well-Being.",
-      "stage": "Enacted",
-      "stance": "review",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "affordable-housing",
-      "updatedDate": "2025-08-29",
-      "sourceUrl": "https://www.gov.nl.ca/sswb/info/housing/",
-      "sponsors": [
-        "Newfoundland and Labrador Housing Corporation"
-      ]
-    },
-    {
-      "id": "nl-sswb-rhp",
-      "billCode": "SSWB-RHP",
-      "title": "Rental Housing Program for Low-Income Households",
-      "summary": "A provincial program providing rental housing support for low-income households, listed under the Government of Newfoundland and Labrador's housing programs and services.",
-      "stage": "Enacted",
-      "stance": "review",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "affordable-housing",
-      "updatedDate": "2025-08-29",
-      "sourceUrl": "https://www.gov.nl.ca/sswb/info/housing/",
       "sponsors": [
         "Newfoundland and Labrador Housing Corporation"
       ]
@@ -128,6 +111,23 @@
       ]
     },
     {
+      "id": "nl-exec-2025-08-27",
+      "billCode": "EXEC-2025-08-27",
+      "title": "Rental Assistance Program",
+      "summary": "A provincial program providing up to $1,500 per household per month to assist with the cost of rental accommodations, with individuals required to provide receipts to confirm rental expenses.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-08-27",
+      "sourceUrl": "https://www.gov.nl.ca/releases/2025/exec/0827n01/",
+      "sponsors": [
+        "Government of Newfoundland and Labrador"
+      ]
+    },
+    {
       "id": "nl-exec-0827n01-2025",
       "billCode": "EXEC-0827N01-2025",
       "title": "Emergency Rental Assistance Program",
@@ -159,6 +159,57 @@
       "sourceUrl": "https://www.gov.nl.ca/releases/2025/exec/0827n01/",
       "sponsors": [
         "Government of Newfoundland and Labrador"
+      ]
+    },
+    {
+      "id": "nl-sswb-hmp",
+      "billCode": "SSWB-HMP",
+      "title": "Home Modification Program",
+      "summary": "A program administered through the Department of Social Supports and Well-Being that provides funding to homeowners with low-to-moderate income for home modifications.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-08-01",
+      "sourceUrl": "https://www.gov.nl.ca/sswb/info/housing/",
+      "sponsors": [
+        "Department of Social Supports and Well-Being"
+      ]
+    },
+    {
+      "id": "nl-sswb-rhp",
+      "billCode": "SSWB-RHP",
+      "title": "Rental Housing Program for Low-Income Households",
+      "summary": "A provincial program providing rental housing support for low-income households in Newfoundland and Labrador, administered through the Newfoundland and Labrador Housing Corporation.",
+      "stage": "Enacted",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-08-01",
+      "sourceUrl": "https://www.gov.nl.ca/sswb/info/housing/",
+      "sponsors": [
+        "Newfoundland and Labrador Housing Corporation"
+      ]
+    },
+    {
+      "id": "nl-nlhc-2026-03-31",
+      "billCode": "NLHC-2026-03-31",
+      "title": "Special Debate on Housing",
+      "summary": "A provincial government special debate on housing introduced to address a 71 per cent growth in the social housing waitlist between 2021 and 2025, focusing on increasing housing supply and reviewing waitlist and eligibility policies.",
+      "stage": "Floor",
+      "stance": "favorable",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-31",
+      "sourceUrl": "https://www.gov.nl.ca/releases/2026/nlhc/0331n05/",
+      "sponsors": [
+        "Newfoundland and Labrador Housing Corporation"
       ]
     },
     {
@@ -198,10 +249,10 @@
     {
       "id": "nl-rfp-nlhc-2025-08",
       "billCode": "RFP-NLHC-2025-08",
-      "title": "Transitional and Supportive Living Program RFP – St. John's",
-      "summary": "A Request for Proposals issued by the NLHC for the creation of a new Transitional and Supportive Living Program in St. John's to help those experiencing homelessness achieve housing stability.",
+      "title": "Request for Proposals: Transitional and Supportive Living Program in St. John's",
+      "summary": "A request for proposals issued by the Newfoundland and Labrador Housing Corporation for the creation of a new Transitional and Supportive Living Program designed to help those experiencing homelessness achieve housing stability.",
       "stage": "Filed",
-      "stance": "review",
+      "stance": "favorable",
       "impactTags": [
         "homelessness"
       ],

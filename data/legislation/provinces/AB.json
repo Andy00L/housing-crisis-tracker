@@ -5,8 +5,8 @@
   "stance": "restrictive",
   "stanceZoning": "restrictive",
   "stanceAffordability": "restrictive",
-  "lastUpdated": "2026-04-16",
-  "contextBlurb": "Alberta's housing policy landscape as of April 2026 is shaped by the UCP government's dual focus on supply-side reform and affordability supports. Key enacted measures include Bill 20 (Municipal Affairs Statutes Amendment Act, 2024), which exempted non-profit affordable housing from property taxes and streamlined development approvals, and Bill 32 (Financial Statutes Amendment Act, 2024, No. 2), which indexed seniors lodge rates and social housing thresholds. The province continues to implement its 10-year 'Stronger Foundations' affordable housing strategy (launched 2021), targeting 25,000 additional supported households by 2031, while actively addressing encampment homelessness through a $430 million provincial investment and a joint Canada-Alberta Unsheltered Homelessness and Encampments Initiative signed in March 2025.",
+  "lastUpdated": "2026-04-17",
+  "contextBlurb": "Alberta's 31st Legislature, 2nd Session (2025-2026) includes Bill 28, the Municipal Affairs and Housing Statutes Amendment Act, 2026, among active housing-related legislation. The province also administers the Affordable Housing Partnership Program and the Indigenous Housing Capital Program, providing capital funding for new and renovated affordable housing units. Ministerial Order ALSS-2025-024 sets out criteria for designating affordable housing accommodations under provincial regulations.",
   "legislation": [
     {
       "id": "ab-sa-2024--c-20",
@@ -26,6 +26,21 @@
       ]
     },
     {
+      "id": "ab-ahl-designation-list",
+      "billCode": "AHL-Designation-List",
+      "title": "Affordable Housing Designation List",
+      "summary": "A regularly updated government registry identifying properties designated as affordable housing accommodations under Alberta's assisted living and social services legislation.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-12",
+      "sourceUrl": "https://open.alberta.ca/publications/affordable-housing-designation-list",
+      "sponsors": []
+    },
+    {
       "id": "ab-stronger-foundations--policy-program-",
       "billCode": "Stronger Foundations (Policy Program)",
       "title": "Stronger Foundations: Alberta's 10-Year Affordable Housing Strategy",
@@ -42,6 +57,21 @@
         "Jason Nixon",
         "Jeremy Nixon"
       ]
+    },
+    {
+      "id": "ab-ahpp-2025",
+      "billCode": "AHPP-2025",
+      "title": "Affordable Housing Partnership Program",
+      "summary": "A provincial capital grant program that funds development, renovation, and expansion of affordable housing units, with projects eligible for federal cost-matching under the National Housing Strategy bilateral agreement.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-11-06",
+      "sourceUrl": "https://open.alberta.ca/dataset/5c943538-6757-45f2-bfba-99f1a3bb7b33/resource/37d238a4-e64c-4809-83a4-6da4c267cd62/download/alss-affordable-housing-partnership-program-guidelines-2025.pdf",
+      "sponsors": []
     },
     {
       "id": "ab-residential-tenancies-act--sa-2004--c-r-17-1-",
@@ -94,6 +124,36 @@
       "sponsors": [
         "Jason Nixon"
       ]
+    },
+    {
+      "id": "ab-ministerial-order-alss-2025-024",
+      "billCode": "Ministerial Order ALSS-2025-024",
+      "title": "Ministerial Order 2025-024 [Assisted Living and Social Services]",
+      "summary": "Sets out the circumstances under which a housing accommodation is suitable for designation as affordable housing accommodation under Alberta's assisted living and social services framework.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://open.alberta.ca/publications/alss-2025-024",
+      "sponsors": []
+    },
+    {
+      "id": "ab-ihcp-2025",
+      "billCode": "IHCP-2025",
+      "title": "Indigenous Housing Capital Program",
+      "summary": "Provides capital funding to Indigenous communities and organizations for affordable and seniors housing projects, including off-reserve and Métis settlement housing initiatives across Alberta.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "indigenous-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.alberta.ca/system/files/alss-indigenous-housing-capital-program-projects.pdf",
+      "sponsors": []
     },
     {
       "id": "ab-alberta-housing-act--rsa-2000--c-a-25-",
@@ -179,6 +239,21 @@
       "sponsors": [
         "Jason Nixon"
       ]
+    },
+    {
+      "id": "ab-bill-28",
+      "billCode": "Bill 28",
+      "title": "Municipal Affairs and Housing Statutes Amendment Act, 2026",
+      "summary": "Amends statutes related to municipal affairs and housing in Alberta. Listed among active bills in the 31st Legislature, 2nd Session.",
+      "stage": "Floor",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-04-15",
+      "sourceUrl": "https://www.assembly.ab.ca/",
+      "sponsors": []
     },
     {
       "id": "ab-municipal-affairs-and-housing-statutes-amendment-act--2026",

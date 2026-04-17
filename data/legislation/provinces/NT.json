@@ -6,21 +6,112 @@
   "stanceZoning": "restrictive",
   "stanceAffordability": "restrictive",
   "lastUpdated": "2026-04-17",
-  "contextBlurb": "Housing in the Northwest Territories is primarily administered by Housing NWT (formerly the NWT Housing Corporation), which manages approximately 2,900 homes across 32 communities. Key programs include Public Housing, Homeownership Programs, and CMHC-funded initiatives. Recent activity includes new modular duplex construction in remote communities and memoranda of agreement with First Nations on community housing planning.",
+  "contextBlurb": "Housing NWT (formerly NWT Housing Corporation) manages approximately 2,900 homes across 32 communities in the Northwest Territories, operating programs including Public Housing, Homeownership, and Rental Support. Key policy instruments include the Builders' Lien Act (replacing the Mechanics Lien Act as of September 1), memoranda of agreement with First Nations on community housing planning, and ongoing capital investments in modular social housing units in remote communities.",
   "legislation": [
     {
       "id": "nt-builders--lien-act",
       "billCode": "Builders' Lien Act",
-      "title": "Builders' Lien Act (replacing Mechanics Lien Act)",
-      "summary": "The Builders' Lien Act and its supporting regulations came into force on September 1, replacing the former Mechanics Lien Act, affecting construction and housing-related liens in the NWT.",
+      "title": "Builders' Lien Act (and supporting regulations)",
+      "summary": "Came into force September 1, replacing the former Mechanics Lien Act. Governs lien rights for builders and contractors in the Northwest Territories.",
       "stage": "Enacted",
       "stance": "review",
       "impactTags": [
         "affordability"
       ],
-      "category": "building-code",
-      "updatedDate": "2025-06-25",
+      "category": "affordable-housing",
+      "updatedDate": "2025-09-01",
       "sourceUrl": "https://www.gov.nt.ca/en/newsroom?f%5B0%5D=field_news_department%3A99",
+      "sponsors": []
+    },
+    {
+      "id": "nt-moa-adk-fn-2025",
+      "billCode": "MOA-ADK-FN-2025",
+      "title": "Memorandum of Agreement on Housing with Acho Dene Koe First Nation",
+      "summary": "Agreement between Housing NWT and Acho Dene Koe First Nation establishing a Housing Working Group to prioritize community housing planning and coordinate program delivery.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-25",
+      "sourceUrl": "https://www.gov.nt.ca/en/newsroom/housing-nwt-signs-memorandum-agreement-housing-acho-dene-koe-first-nation-strengthen",
+      "sponsors": []
+    },
+    {
+      "id": "nt-paulatuk-duplex-2025",
+      "billCode": "Paulatuk-Duplex-2025",
+      "title": "New Modular Duplex in Paulatuk – Social Housing Capital Project",
+      "summary": "Capital investment by Housing NWT constructing a three-bedroom modular duplex in Paulatuk to replace end-of-life social housing units and maintain community housing condition standards.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "density",
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-25",
+      "sourceUrl": "https://www.gov.nt.ca/en/newsroom/new-modular-duplex-paulatuk-replace-and-upgrade-social-housing-units",
+      "sponsors": []
+    },
+    {
+      "id": "nt-ftmcpherson-duplex-2025",
+      "billCode": "FtMcPherson-Duplex-2025",
+      "title": "Two New Modular Duplexes in Fort McPherson – Social Housing Capital Project",
+      "summary": "Housing NWT completed two new modular duplexes in Fort McPherson to address local housing need, supporting faster delivery of housing in remote communities while meeting northern building standards.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-06-25",
+      "sourceUrl": "https://www.gov.nt.ca/en/newsroom/housing-nwt-completes-two-new-modular-duplexes-fort-mcpherson",
+      "sponsors": []
+    },
+    {
+      "id": "nt-ftgoodhope-partnership-2025",
+      "billCode": "FtGoodHope-Partnership-2025",
+      "title": "Fort Good Hope Community-Led Housing and Trades Training Partnership",
+      "summary": "Partnership initiative in Fort Good Hope aimed at improving housing conditions in the Sahtu region by building local trades capacity and supporting community-led housing solutions.",
+      "stage": "Enacted",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-06-25",
+      "sourceUrl": "https://www.gov.nt.ca/en/newsroom/new-partnership-fort-good-hope-supports-community-led-housing-and-trades-training",
+      "sponsors": []
+    },
+    {
+      "id": "nt-nwt-public-housing-smoking-ban",
+      "billCode": "NWT Public Housing Smoking Ban",
+      "title": "Smoking Ban in Public Housing Units",
+      "summary": "GNWT policy implementing a smoking ban in all Housing NWT-owned and operated units, including all public housing units across the territory.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.nwthc.gov.nt.ca/en/services/tenant-education",
+      "sponsors": []
+    },
+    {
+      "id": "nt-housing-appeal-committee-reg-",
+      "billCode": "Housing Appeal Committee Reg.",
+      "title": "Housing Appeal Committee Process",
+      "summary": "Formal appeal process available to applicants, tenants, and clients of NWT Homeownership Programs and the Public Housing Program to challenge housing decisions.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.nwthc.gov.nt.ca/en/housing-appeal-committee",
       "sponsors": []
     },
     {
@@ -129,6 +220,21 @@
       "sponsors": [
         "Government of Northwest Territories"
       ]
+    },
+    {
+      "id": "nt-cnit-2021",
+      "billCode": "CNIT-2021",
+      "title": "Monthly Core Need Income Thresholds per Community 2021",
+      "summary": "Regulatory thresholds establishing income eligibility limits for core housing need determinations across NWT communities, applicable to Homeownership, Rental Support, and Repairs and Maintenance programs.",
+      "stage": "Enacted",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2021-01-01",
+      "sourceUrl": "https://www.nwthc.gov.nt.ca/en/resources?search_api_views_fulltext=core+need&sort_by=field_resource_publication_date&sort_order=DESC",
+      "sponsors": []
     },
     {
       "id": "nt-core-need-income-thresholds-2021",

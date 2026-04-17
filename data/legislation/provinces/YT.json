@@ -2,12 +2,27 @@
   "state": "Yukon",
   "stateCode": "YT",
   "region": "na",
-  "stance": "review",
+  "stance": "concerning",
   "stanceZoning": "none",
-  "stanceAffordability": "review",
+  "stanceAffordability": "concerning",
   "lastUpdated": "2026-04-17",
-  "contextBlurb": "Yukon's housing legislative landscape is anchored by the new Residential Tenancies Act (Bill No. 46), which received assent and came into effect September 1, 2025, replacing the former Residential Landlord and Tenant Act. The 2025 spring sitting of the Yukon Legislative Assembly also committed $57.6 million in new and ongoing housing projects and $24.4 million for residential lot development. Minimum health, safety, and housing standards under the new Act took effect September 1, 2025.",
+  "contextBlurb": "Yukon's housing legislation landscape is anchored by the new Residential Tenancies Act (Bill No. 46), which received assent and came into effect on September 1, 2025, replacing the former Residential Landlord and Tenant Act. The 2025 spring sitting of the Yukon Legislative Assembly included $57.6 million in new and ongoing housing projects and $24.4 million for residential lot development. The Yukon Housing Corporation continues to operate under statutory reporting requirements and publishes annual reports to the Legislative Assembly.",
   "legislation": [
+    {
+      "id": "yt-supp-est-2025-26-1",
+      "billCode": "SUPP-EST-2025-26-1",
+      "title": "2025-26 Supplementary Estimates No. 1",
+      "summary": "Supplementary budget estimates for the 2025-26 fiscal year prepared by the Department of Finance, tabled in the 1st Session of the 36th Legislature in December 2025.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-01",
+      "sourceUrl": "https://yukon.ca/en/your-government/performance-and-finance/budget/2025-26-supplementary-estimates-no-1",
+      "sponsors": []
+    },
     {
       "id": "yt-supp-est-no--1-2025-26",
       "billCode": "Supp Est No. 1 2025-26",
@@ -27,9 +42,9 @@
       "id": "yt-bill-no--46",
       "billCode": "Bill No. 46",
       "title": "Residential Tenancies Act",
-      "summary": "Replaces the Residential Landlord and Tenant Act, strengthening rental protections for tenants and landlords across Yukon. Came into full effect September 1, 2025.",
+      "summary": "Replaces the former Residential Landlord and Tenant Act, strengthening rental protections for landlords and tenants. Came into effect September 1, 2025.",
       "stage": "Enacted",
-      "stance": "review",
+      "stance": "concerning",
       "impactTags": [
         "affordability"
       ],
@@ -51,6 +66,36 @@
       "category": "affordable-housing",
       "updatedDate": "2025-09-01",
       "sourceUrl": "https://yukon.ca/en/minimum-health-safety-and-housing-standards-residential-tenancies-act-2025",
+      "sponsors": []
+    },
+    {
+      "id": "yt-rta-2025-reg-health",
+      "billCode": "RTA-2025-REG-HEALTH",
+      "title": "Minimum Health, Safety and Housing Standards (Residential Tenancies Act 2025)",
+      "summary": "Establishes minimum health, safety, and housing standards applicable under the new Residential Tenancies Act, coming into effect September 1, 2025.",
+      "stage": "Enacted",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-08-26",
+      "sourceUrl": "https://yukon.ca/en/minimum-health-safety-and-housing-standards-residential-tenancies-act-2025",
+      "sponsors": []
+    },
+    {
+      "id": "yt-rta-2025-shared",
+      "billCode": "RTA-2025-SHARED",
+      "title": "Shared Accommodations Policy – Residential Tenancies Act 2025",
+      "summary": "Provides rules and fact sheets governing shared accommodations, subletting, and roommate arrangements under the Residential Tenancies Act 2025.",
+      "stage": "Enacted",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-08-26",
+      "sourceUrl": "https://yukon.ca/en/shared-accommodations-residential-tenancies-act-2025",
       "sponsors": []
     },
     {
@@ -87,7 +132,7 @@
       "id": "yt-2025-0004",
       "billCode": "2025-0004",
       "title": "First Appropriation Act 2025-26",
-      "summary": "Authorizes payment of up to $2,355,332,000 from the consolidated revenue fund for government charges, including housing-related expenditures for the 2025-26 fiscal year.",
+      "summary": "Authorizes payment of up to $2,355,332,000 from the consolidated revenue fund to defray government charges, including housing-related expenditures for the 2025-26 fiscal year.",
       "stage": "Enacted",
       "stance": "review",
       "impactTags": [
@@ -102,7 +147,7 @@
       "id": "yt-2025-0010",
       "billCode": "2025-0010",
       "title": "Second Appropriation Act 2025-26",
-      "summary": "Authorizes an additional maximum of $183,417,000 from the Yukon Treasury for supplementary government expenditures in fiscal year 2025-26.",
+      "summary": "Authorizes an additional sum of up to $183,417,000 from the Yukon Treasury for the 2025-26 fiscal year as supplementary appropriations.",
       "stage": "Enacted",
       "stance": "review",
       "impactTags": [

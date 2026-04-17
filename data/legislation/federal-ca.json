@@ -2,10 +2,10 @@
   "state": "Canada",
   "stateCode": "CA",
   "region": "na",
-  "stance": "concerning",
+  "stance": "review",
   "stanceZoning": "review",
-  "stanceAffordability": "concerning",
-  "lastUpdated": "2026-04-16",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-17",
   "contextBlurb": "Canada faces an acute housing affordability crisis. The federal government has introduced multiple housing supply and affordability bills in the 45th Parliament, including the Build Canada Homes program, CMHC-funded initiatives, and measures targeting foreign buyers and underused housing.",
   "legislation": [
     {
@@ -82,7 +82,7 @@
       "title": "Making Life More Affordable for Canadians Act",
       "summary": "An Act respecting certain affordability measures for Canadians and another measure",
       "stage": "Enacted",
-      "stance": "review",
+      "stance": "favorable",
       "impactTags": [
         "affordability"
       ],
@@ -558,7 +558,7 @@
       "title": "An Act to repeal certain restrictions on shipping",
       "summary": "An Act to repeal certain restrictions on shipping",
       "stage": "Floor",
-      "stance": "concerning",
+      "stance": "review",
       "impactTags": [
         "affordability"
       ],
@@ -847,7 +847,7 @@
       "title": "Alcoholic Beverage Promotion Prohibition Act",
       "summary": "An Act to prohibit the promotion of alcoholic beverages",
       "stage": "Floor",
-      "stance": "concerning",
+      "stance": "review",
       "impactTags": [
         "affordability"
       ],
@@ -1272,7 +1272,7 @@
       "title": "Connected Care for Canadians Act",
       "summary": "An Act respecting the interoperability of health information technology and to prohibit data blocking by health information technology vendors",
       "stage": "Committee",
-      "stance": "concerning",
+      "stance": "review",
       "impactTags": [
         "affordability"
       ],
@@ -1561,7 +1561,7 @@
       "title": "Clean Coasts Act",
       "summary": "An Act to amend the Canadian Environmental Protection Act, 1999 and the Wrecked, Abandoned or Hazardous Vessels Act",
       "stage": "Committee",
-      "stance": "concerning",
+      "stance": "review",
       "impactTags": [
         "affordability"
       ],
@@ -1629,7 +1629,7 @@
       "title": "National Strategy on Housing for Young Canadians Act",
       "summary": "An Act to establish a national strategy on housing for young Canadians",
       "stage": "Committee",
-      "stance": "review",
+      "stance": "concerning",
       "impactTags": [
         "affordability"
       ],
@@ -1680,7 +1680,7 @@
       "title": "Relieving Grieving Parents of an Administrative Burden Act (Evan's Law)",
       "summary": "An Act to amend the Employment Insurance Act and the Canada Labour Code (death of a child)",
       "stage": "Committee",
-      "stance": "review",
+      "stance": "concerning",
       "impactTags": [
         "affordability"
       ],
@@ -1850,7 +1850,7 @@
       "title": "Protecting Young Persons from Exposure to Pornography Act",
       "summary": "An Act to restrict young persons’ online access to pornographic material",
       "stage": "Filed",
-      "stance": "concerning",
+      "stance": "review",
       "impactTags": [
         "affordability"
       ],
@@ -2292,7 +2292,7 @@
       "title": "Albanian Heritage Month Act",
       "summary": "An Act to establish Albanian Heritage Month",
       "stage": "Filed",
-      "stance": "concerning",
+      "stance": "review",
       "impactTags": [
         "affordability"
       ],
@@ -2326,7 +2326,7 @@
       "title": "An Act to amend the National Housing Strategy Act",
       "summary": "An Act to amend the National Housing Strategy Act",
       "stage": "Filed",
-      "stance": "review",
+      "stance": "favorable",
       "impactTags": [
         "affordability"
       ],

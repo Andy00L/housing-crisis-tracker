@@ -2,24 +2,24 @@
   "state": "Nunavut",
   "stateCode": "NU",
   "region": "na",
-  "stance": "restrictive",
+  "stance": "review",
   "stanceZoning": "none",
-  "stanceAffordability": "restrictive",
+  "stanceAffordability": "review",
   "lastUpdated": "2026-04-17",
-  "contextBlurb": "Nunavut's housing legislation is primarily administered through the Nunavut Housing Corporation, which received $87,185,000 in capital appropriations under Bill 2, the Appropriation (Capital) Act, 2026-2027. The Legislative Assembly has also passed supplementary appropriation bills affecting housing capital, and the Office of the Auditor General has tabled a report specifically on public housing in Nunavut. Overcrowding and tuberculosis links remain documented policy concerns for the Nunavut Housing Corporation.",
+  "contextBlurb": "Nunavut's housing legislation is primarily administered through the Nunavut Housing Corporation, which received $87,185,000 in capital appropriations under Bill 2, the Appropriation (Capital) Act, 2026-2027. Recent legislative activity includes supplementary capital and operations appropriations, as well as an amendment to the Nunavut Housing Act noted in the Annual Statutes. Public housing oversight has also been subject to review by the Office of the Auditor General.",
   "legislation": [
     {
       "id": "nu-bill-2",
       "billCode": "Bill 2",
       "title": "Appropriation (Capital) Act, 2026-2027",
-      "summary": "Authorizes the Government of Nunavut to make capital expenditures for the fiscal year ending March 31, 2027, including $87,185,000 for the Nunavut Housing Corporation out of a total capital appropriation of $373,217,000.",
+      "summary": "Authorizes the Government of Nunavut to make capital expenditures for the fiscal year ending March 31, 2027, including $87,185,000 allocated to the Nunavut Housing Corporation.",
       "stage": "Enacted",
-      "stance": "restrictive",
+      "stance": "concerning",
       "impactTags": [
         "affordability"
       ],
       "category": "affordable-housing",
-      "updatedDate": "2026-03-17",
+      "updatedDate": "2026-03-01",
       "sourceUrl": "https://www.assembly.nu.ca/sites/default/files/2026-03/Bill_2_Appropriation_%28Capital%29_Act_2026-2027_EF.pdf",
       "sponsors": []
     },
@@ -27,14 +27,14 @@
       "id": "nu-bill-1",
       "billCode": "Bill 1",
       "title": "Interim Appropriation (Operations and Maintenance) Act, 2026-2027",
-      "summary": "Authorizes the Government of Nunavut to make interim operations and maintenance expenditures for the 2026-2027 fiscal year, covering departmental operating costs including housing-related services.",
+      "summary": "Authorizes the Government of Nunavut to make interim operations and maintenance expenditures for the 2026-2027 fiscal year.",
       "stage": "Enacted",
       "stance": "review",
       "impactTags": [
         "affordability"
       ],
       "category": "affordable-housing",
-      "updatedDate": "2026-03-17",
+      "updatedDate": "2026-03-01",
       "sourceUrl": "https://www.assembly.nu.ca/sites/default/files/2026-03/Bill_1_Interim_Appropriation_%28O%26M%29_Act_2026-2027_EF.pdf",
       "sponsors": []
     },
@@ -42,9 +42,9 @@
       "id": "nu-bill-82",
       "billCode": "Bill 82",
       "title": "Supplementary Appropriation (Capital) Act, No. 3, 2025-2026",
-      "summary": "A supplementary capital appropriation bill for the 2025-2026 fiscal year, considered by the Legislative Assembly of Nunavut in September 2025.",
+      "summary": "A supplementary capital appropriation for the 2025-2026 fiscal year, considered during the fall 2025 legislative session.",
       "stage": "Enacted",
-      "stance": "restrictive",
+      "stance": "review",
       "impactTags": [
         "affordability"
       ],
@@ -57,9 +57,9 @@
       "id": "nu-bill-81",
       "billCode": "Bill 81",
       "title": "Interim Appropriation (Capital) Act, 2026-2027",
-      "summary": "Authorizes interim capital expenditures for the 2026-2027 fiscal year pending passage of the main capital appropriation, considered by the Legislative Assembly in September 2025.",
+      "summary": "Authorizes interim capital expenditures for the Government of Nunavut for the 2026-2027 fiscal year.",
       "stage": "Enacted",
-      "stance": "restrictive",
+      "stance": "review",
       "impactTags": [
         "affordability"
       ],
@@ -69,10 +69,25 @@
       "sponsors": []
     },
     {
+      "id": "nu-bill-84",
+      "billCode": "Bill 84",
+      "title": "Write-Off of Assets Act, 2024-2025",
+      "summary": "Authorizes the write-off of certain government assets for the 2024-2025 fiscal year, passed at third reading in September 2025.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-09-17",
+      "sourceUrl": "https://www.assembly.nu.ca/sites/default/files/2025-09/20250917_Blues_English.pdf",
+      "sponsors": []
+    },
+    {
       "id": "nu-bill-83",
       "billCode": "Bill 83",
       "title": "Supplementary Appropriations (Operations and Maintenance) Act, No. 3, 2025-2026",
-      "summary": "A supplementary operations and maintenance appropriation bill for 2025-2026, assented to by Commissioner Eva Qamaniq Aariak.",
+      "summary": "Authorizes supplementary operations and maintenance expenditures for the 2025-2026 fiscal year, assented to by the Commissioner of Nunavut.",
       "stage": "Enacted",
       "stance": "review",
       "impactTags": [
@@ -87,9 +102,9 @@
       "id": "nu-bill-80",
       "billCode": "Bill 80",
       "title": "Supplementary Appropriation (Capital) Act, No. 2, 2025-2026",
-      "summary": "A supplementary capital appropriation act for the 2025-2026 fiscal year, considered alongside other short bills in the June 2025 sitting of the Legislative Assembly.",
+      "summary": "A supplementary capital appropriation for the 2025-2026 fiscal year, considered during the spring/summer 2025 legislative session.",
       "stage": "Enacted",
-      "stance": "restrictive",
+      "stance": "review",
       "impactTags": [
         "affordability"
       ],

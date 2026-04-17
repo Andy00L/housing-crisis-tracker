@@ -5,9 +5,24 @@
   "stance": "restrictive",
   "stanceZoning": "restrictive",
   "stanceAffordability": "restrictive",
-  "lastUpdated": "2026-04-16",
-  "contextBlurb": "Manitoba's NDP government has pursued an active housing agenda since 2023, anchored by the Residential Tenancies Act (CCSM c. R119) and its successive amendments, the 2024 Budget Implementation Act (Bill 37) establishing the Rental Housing Construction Incentive, and the January 2025 release of 'Your Way Home: Manitoba's Plan to End Chronic Homelessness.' The 2026 rent increase guideline is set at 1.8 per cent, and Bill 13—introduced March 12, 2026—proposes the largest expansion of rent control in decades by removing the new-building exemption and tightening above-guideline increase rules. Northern communities such as Thompson and Flin Flon face acute housing shortages addressed primarily through federal-provincial bilateral funding streams rather than dedicated northern housing legislation.",
+  "lastUpdated": "2026-04-17",
+  "contextBlurb": "Manitoba's housing legislation is anchored by The Residential Tenancies Act (SM 1990-91, c. 11) and is regularly updated through amendment acts. Recent activity includes Bill 13 (The Residential Tenancies Amendment Act) in the 3rd Session of the 43rd Legislature, which requires landlords to file rental unit information with the Director of Residential Tenancies, and Bill 32 (The Residential Tenancies Amendment Act – Measures to Address Unlawful Activities), which makes it easier to evict tenants engaged in unlawful activities such as drug dealing. The province also operates the Rental Housing Construction Incentive (RHCI) to fund development of affordable and market rental housing.",
   "legislation": [
+    {
+      "id": "mb-transitional-housing-program--mmf-",
+      "billCode": "Transitional Housing Program (MMF)",
+      "title": "Manitoba Government and Manitoba Métis Federation Safe, Supportive Transitional Housing Expansion",
+      "summary": "A government initiative announced in March 2026 to expand access to safe, supportive transitional housing in partnership with the Manitoba Métis Federation.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "homelessness"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-10",
+      "sourceUrl": "https://www.gov.mb.ca/fs/",
+      "sponsors": []
+    },
     {
       "id": "mb-man--reg--65-2025",
       "billCode": "Man. Reg. 65/2025",
@@ -86,6 +101,21 @@
       "sponsors": []
     },
     {
+      "id": "mb-bill-32--43rd-legislature--2nd-session-",
+      "billCode": "Bill 32 (43rd Legislature, 2nd Session)",
+      "title": "The Residential Tenancies Amendment Act (Measures to Address Unlawful Activities)",
+      "summary": "Amends The Residential Tenancies Act to make it easier for landlords to evict tenants engaged in unlawful activities such as drug dealing.",
+      "stage": "Enacted",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-04-30",
+      "sourceUrl": "https://news.gov.mb.ca/news/index.html?item=69478",
+      "sponsors": []
+    },
+    {
       "id": "mb-manitoba-housing-three-year-action-plan-2025-26-2027-28",
       "billCode": "Manitoba Housing Three-Year Action Plan 2025/26–2027/28",
       "title": "Manitoba Housing and Renewal Corporation Three-Year Action Plan (2025–2028)",
@@ -122,6 +152,21 @@
       ]
     },
     {
+      "id": "mb-rhci",
+      "billCode": "RHCI",
+      "title": "Rental Housing Construction Incentive",
+      "summary": "A Manitoba government program that funds the development of affordable and market rental housing, requiring recipients to demonstrate readiness to start construction within 12 months of receiving certification.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "development-incentive",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.gov.mb.ca/housing/progs/housing_starts_here_rhci.html",
+      "sponsors": []
+    },
+    {
       "id": "mb-bill-37--43-1----sm-2024",
       "billCode": "Bill 37 (43-1) / SM 2024",
       "title": "The Budget Implementation and Tax Statutes Amendment Act, 2024",
@@ -137,6 +182,51 @@
       "sponsors": [
         "Adrien Sala"
       ]
+    },
+    {
+      "id": "mb-sm-2014--residential-tenancies-amendment-act-",
+      "billCode": "SM 2014 (Residential Tenancies Amendment Act)",
+      "title": "The Residential Tenancies Amendment Act",
+      "summary": "Amendment to The Residential Tenancies Act that came into force on August 1, 2014, including provisions governing tenant reapplication timelines after a refused application.",
+      "stage": "Enacted",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2014-08-01",
+      "sourceUrl": "https://web2.gov.mb.ca/bills/43-3/b013e.php",
+      "sponsors": []
+    },
+    {
+      "id": "mb-sm-2009--c--10",
+      "billCode": "SM 2009, c. 10",
+      "title": "The Residential Tenancies Amendment Act",
+      "summary": "An earlier amendment to The Residential Tenancies Act, with specific subsections brought into force by proclamation.",
+      "stage": "Enacted",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2014-07-16",
+      "sourceUrl": "https://web2.gov.mb.ca/laws/statutes/index_procs.php?o=title_r",
+      "sponsors": []
+    },
+    {
+      "id": "mb-sm-1990-91--c--11",
+      "billCode": "SM 1990-91, c. 11",
+      "title": "The Residential Tenancies Act",
+      "summary": "The principal legislation governing residential tenancies in Manitoba, establishing rights and obligations for landlords and tenants.",
+      "stage": "Enacted",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "1991-01-01",
+      "sourceUrl": "https://web2.gov.mb.ca/laws/statutes/index_ccsm.php?order=&rp=y",
+      "sponsors": []
     },
     {
       "id": "mb-bill-13--43-3-",
@@ -169,6 +259,23 @@
       "updatedDate": "2025-03-24",
       "sourceUrl": "https://lawlibrary.ca/2025/03/24/legislative-update-march-24-2025/",
       "sponsors": []
+    },
+    {
+      "id": "mb-bill-13--43rd-legislature--3rd-session-",
+      "billCode": "Bill 13 (43rd Legislature, 3rd Session)",
+      "title": "The Residential Tenancies Amendment Act",
+      "summary": "Amends The Residential Tenancies Act to require landlords to file information about each of their rental units with the Director of Residential Tenancies. Introduced by Minister Sandhu, Minister of Public Service Delivery.",
+      "stage": "Filed",
+      "stance": "concerning",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://web2.gov.mb.ca/bills/43-3/index.php",
+      "sponsors": [
+        "Hon. Minister Sandhu"
+      ]
     },
     {
       "id": "mb-bill-26--43-2-",
