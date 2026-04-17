@@ -231,14 +231,35 @@ function classifyTags(text: string): ImpactTag[] {
 }
 
 function deriveStance(text: string, stage: Stage): StanceType {
-  const isMoratorium = /moratorium|prohibit|ban|restrict|freeze/.test(text);
-  const isIncentive = /incentive|accelerat|supply|build.*homes|fast.?track/.test(text);
-  const isStudy = /study|commission|review|strategy|framework/.test(text);
+  const lower = text.toLowerCase();
 
-  if (isMoratorium && stage === "Enacted") return "restrictive";
-  if (isMoratorium) return "concerning";
-  if (isIncentive) return "favorable";
-  if (isStudy) return "review";
+  // Restrictive: reduces supply, removes protections, cuts funding
+  const isRestrictive = /moratorium|downzon|height limit|single.?family only|repeal.*(rent|tenant)|weaken.*(rent|tenant|protect)|cut.*(housing|afford)|reduce.*(density|housing)/.test(lower);
+
+  // Favorable: increases supply, funds housing, protects tenants
+  const isFavorable = /incentive|accelerat|supply|build.*homes|fast.?track|streamlin|expand|expedit|preempt|density bonus|ADU|accessory dwelling|fourplex|triplex|duplex|multi.?family|upzon|inclusionary|affordab|social housing|co.?op|subsid|rent (control|stabiliz|cap|freeze|protect)|eviction protect|tenant (protect|right)|right to housing|housing fund|national housing|rapid housing|permit reform|parking (minimum|reform|eliminat)|missing middle|homelessness|shelter|supportive housing|public housing|housing first|rental assist|voucher|down.?payment|first.?time (buyer|home)|transit.?oriented|zoning reform|housing accelerat|logement (social|abordab)|habitation/.test(lower);
+
+  // Concerning: mixed signals
+  const isConcerning = /foreign (buyer|purchas|invest|own)|non.?resident.*(tax|ban)|speculation tax|immigration.*housing/.test(lower);
+
+  // Purely procedural: no substantive policy content
+  const isProcedural = /appropriation act|supply bill|^ways and means/i.test(lower);
+
+  // Study or framework with no operative housing provisions
+  const isStudy = /study|commission|task.?force|working group|advisory|royal assent.*(appropriation|supply)/i.test(lower);
+
+  if (isRestrictive && (stage === "Enacted" || stage === "Floor")) return "restrictive";
+  if (isRestrictive) return "concerning";
+  if (isFavorable) return "favorable";
+  if (isConcerning) return "concerning";
+  if (isProcedural || isStudy) return "review";
+
+  // Bills that survived housing keyword search but lack specific signals
+  // are tangentially housing-related. Classify as "concerning" (mixed/indirect)
+  // rather than "review", per housing tracker convention.
+  const hasHousingSignal = /hous(e|ing)|logement|habitation|rent|loyer|tenant|locataire|shelter|abri|homeless|sans.?abri|mortgage|hypoth/i.test(lower);
+  if (hasHousingSignal) return "concerning";
+
   return "review";
 }
 

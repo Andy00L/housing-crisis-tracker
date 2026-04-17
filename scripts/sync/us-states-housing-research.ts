@@ -266,13 +266,25 @@ function classifyTags(text: string): ImpactTag[] {
 
 function deriveStance(text: string, stage: Stage): StanceType {
   const lower = text.toLowerCase();
-  const isMoratorium = /moratorium|prohibit|ban\b|restrict|freeze|hard cap/.test(lower);
-  const isIncentive = /incentive|accelerat|supply|build.*homes|fast.?track|streamlin|expand|expedite|preempt|by.?right/.test(lower);
-  const isStudy = /study|commission|review|strategy|framework|task.?force/.test(lower);
-  if (isMoratorium && stage === "Enacted") return "restrictive";
-  if (isMoratorium) return "concerning";
-  if (isIncentive) return "favorable";
-  if (isStudy) return "review";
+
+  // Restrictive: reduces supply, removes protections, cuts funding
+  const isRestrictive = /moratorium|downzon|height limit|single.?family only|large.?lot minimum|exclusionary|repeal.*(rent|tenant)|weaken.*(rent|tenant|protect)|cut.*(housing|afford)|reduce.*(density|housing)|hard cap/.test(lower);
+
+  // Favorable: increases supply, funds housing, protects tenants
+  const isFavorable = /incentive|accelerat|supply|build.*homes|fast.?track|streamlin|expand|expedite|preempt|by.?right|density bonus|ADU|accessory dwelling|fourplex|triplex|duplex|multi.?family|upzon|inclusionary|affordab|social housing|co.?op|subsid|LIHTC|section 8|rent (control|stabiliz|cap|freeze|protect)|eviction protect|tenant (protect|right)|right to housing|housing fund|rapid housing|permit reform|parking (minimum|reform|eliminat)|missing middle|homelessness|shelter|supportive housing|public housing|housing first|rental assist|voucher|down.?payment assist|first.?time (buyer|home)|transit.?oriented|zoning reform|housing accelerat|MBTA Communities/.test(lower);
+
+  // Concerning: mixed signals
+  const isConcerning = /foreign (buyer|purchas|invest|own)|non.?resident.*(tax|ban)|speculation tax|immigration.*housing/.test(lower);
+
+  // Purely procedural
+  const isProcedural = /^(an )?act (to establish|respecting) (a )?(study|commission|task.?force|working group|advisory)|^appropriation|^budget/.test(lower);
+
+  if (isRestrictive && (stage === "Enacted" || stage === "Floor")) return "restrictive";
+  if (isRestrictive) return "concerning";
+  if (isFavorable) return "favorable";
+  if (isConcerning) return "concerning";
+  if (isProcedural) return "review";
+
   return "review";
 }
 
@@ -468,6 +480,16 @@ RULES:
    tenant protection, rent regulation, or homelessness services.
 5. The "stage" field MUST be one of: Filed, Committee, Floor, Enacted, Dead, Carried Over.
 6. The "stance" field MUST be one of: favorable, restrictive, concerning, review.
+   Stance guidance:
+     favorable: increases housing supply (upzoning, density bonuses, ADU legalization,
+       fast-track permitting, LIHTC), funds affordable housing, protects tenants
+       (rent stabilization, eviction protections), reduces barriers to development.
+     restrictive: reduces density (downzoning, moratoriums, height limits), removes
+       tenant protections, cuts housing funding, exclusionary policies.
+     concerning: bill has both pro-supply and anti-supply provisions, or addresses
+       housing tangentially.
+     review: ONLY for procedural bills with no specific housing policy content.
+       Do NOT default to "review" when uncertain. Make a decision.
 7. The "category" field MUST be one of: zoning-reform, rent-regulation,
    affordable-housing, development-incentive, building-code, foreign-investment,
    homelessness-services, tenant-protection, transit-housing, property-tax.

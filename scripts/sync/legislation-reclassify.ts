@@ -44,6 +44,7 @@ const MODEL = "claude-sonnet-4-6";
 const MAX_CALLS = process.env.RECLASSIFY_MAX
   ? Number(process.env.RECLASSIFY_MAX)
   : Infinity;
+const FORCE = process.argv.includes("--force");
 
 interface Classification {
   category: LegislationCategory;
@@ -63,9 +64,9 @@ interface RawBill {
   state?: string;
 }
 
-const SYSTEM_PROMPT = `You classify US state and federal legislation for a public policy tracker focused on AI regulation and data-center policy.
+const SYSTEM_PROMPT = `You classify US state and federal legislation for a housing crisis tracker focused on housing supply, affordability, and tenant protections.
 
-Return ONLY a JSON object — no prose, no markdown fences — matching this exact schema:
+Return ONLY a JSON object, no prose, no markdown fences, matching this exact schema:
 
 {
   "category": "<LegislationCategory>",
@@ -74,35 +75,42 @@ Return ONLY a JSON object — no prose, no markdown fences — matching this exa
   "summary": "<1-2 plain language sentences>"
 }
 
-Allowed LegislationCategory values (pick one — the single best fit):
-  - data-center-siting          moratoriums, construction bans, siting rules, setbacks, zoning specific to data centers
-  - data-center-energy          energy reporting, efficiency standards, grid impact, cooling water use
-  - ai-governance               comprehensive AI frameworks, risk management, oversight, transparency
-  - synthetic-media             deepfakes, digital replicas, political synthetic media, voice clones
-  - ai-healthcare               AI in medical decisions, therapy bots, health insurance algorithms
-  - ai-workforce                hiring algorithms, workplace surveillance, automated employment decisions
-  - ai-education                AI in schools, student data, AI literacy requirements
-  - ai-government               government use of AI, procurement, public sector oversight
-  - data-privacy                AI-related privacy, training data, consumer data rights
-  - ai-criminal-justice         facial recognition, predictive policing, biometric surveillance, law enforcement AI
+Allowed LegislationCategory values (pick one, the single best fit):
+  - zoning-reform              upzoning, density bonuses, ADU legalization, parking reform, missing middle, setback changes, lot splitting
+  - rent-regulation            rent control, rent stabilization, rent caps, rent freeze, rental protections
+  - affordable-housing         inclusionary zoning, LIHTC, below-market housing, subsidized housing, social housing
+  - development-incentive      tax incentives, fast-track permitting, density bonuses, opportunity zones, expedited review
+  - building-code              construction standards, energy efficiency, accessibility, fire safety for residential
+  - foreign-investment         foreign buyer restrictions, non-resident taxes, beneficial ownership, speculation taxes
+  - homelessness-services      shelters, supportive housing, encampment policy, Housing First programs
+  - tenant-protection          eviction protections, just cause, habitability, relocation assistance, lease rights
+  - transit-housing            transit-oriented development, station area plans, corridor planning
+  - property-tax               property tax reform, assessment changes, vacancy taxes, abatements
 
 Allowed ImpactTag values (include every tag that substantively applies, 0 to 5 max):
-  Environmental: water-consumption, carbon-emissions, protected-land, environmental-review, renewable-energy
-  Infrastructure: grid-capacity, energy-rates, water-infrastructure
-  Community: noise-vibration, local-zoning, local-control, residential-proximity, property-values
-  Economic: tax-incentives, job-creation, economic-development, nda-transparency
-  AI-specific: algorithmic-transparency, ai-safety, deepfake-regulation, ai-in-healthcare, ai-in-employment, ai-in-education, child-safety, data-privacy
+  Supply: affordability, density, lot-splitting, inclusionary-zoning, transit-oriented, public-land
+  Protection: rent-stabilization, displacement, homelessness, social-housing, indigenous-housing
+  Market: foreign-buyer, first-time-buyer, vacancy-tax, short-term-rental, mortgage-regulation
+  Community: community-opposition, heritage-protection, environmental-review, nimby
 
 Allowed StanceType values:
-  - restrictive   active ban, moratorium, or enforceable prohibition
-  - concerning    heavy regulation, mandatory review, strong restrictions advancing toward enactment
-  - review        studies, commissions, task forces, exploratory work without hard restrictions
-  - favorable     incentives, tax breaks, fast-tracking, permissive/deregulatory
-  - none          the bill is not actually about AI policy or data-center policy despite keyword matches
+  - favorable     increases housing supply (upzoning, density bonuses, ADU legalization, reduced parking minimums), funds affordable housing (LIHTC expansion, subsidies, social housing), protects tenants (rent stabilization, eviction protections), reduces barriers to development
+  - restrictive   reduces density or limits development (downzoning, moratoriums, height limits), removes tenant protections, cuts housing funding, exclusionary policies (large lot minimums, single-family-only zoning)
+  - concerning    bill has both supply-positive and supply-negative provisions, good intent but implementation may backfire, addresses housing tangentially (immigration bill with housing provisions)
+  - review        ONLY for bills where the text is genuinely unavailable, the bill is purely procedural with no housing policy content, or is an appropriations/budget bill with no specific housing provisions
+  - none          the bill is not about housing policy despite keyword matches
 
-Rules:
-  - If the bill is NOT relevant to AI or data-center policy, set stance to "none", category to your best guess, and impactTags to [].
-  - The summary MUST be 1-2 complete sentences in plain language a non-expert could understand. No bill jargon.
+Classification rules:
+  - If the bill increases housing supply (more units, higher density, faster approvals, funding): favorable
+  - If the bill protects tenants or improves affordability (rent stabilization, subsidies, eviction protections): favorable
+  - If the bill reduces supply or adds barriers (downzoning, moratoriums, excessive regulations): restrictive
+  - If the bill removes protections or cuts funding: restrictive
+  - If the bill has both supply-positive and supply-negative provisions: concerning
+  - If the bill touches housing tangentially (tax bill with one housing clause): concerning
+  - If the bill title and summary clearly indicate a housing policy direction, classify it even if the full text is not available
+  - DO NOT default to "review" when uncertain between favorable and concerning. Make a decision. "review" is for bills with NO housing policy signal.
+  - If the bill is NOT relevant to housing policy, set stance to "none", category to your best guess, and impactTags to [].
+  - The summary MUST be 1-2 complete sentences in plain language. No bill jargon.
   - impactTags are for things the bill substantively addresses, not passing references.`;
 
 function loadCache(): CacheFile {
@@ -186,8 +194,12 @@ async function main() {
     process.exit(1);
   }
   const anthropic = new Anthropic({ apiKey: key });
-  const cache = loadCache();
+  const cache = FORCE ? {} as CacheFile : loadCache();
   const bills = loadBills();
+
+  if (FORCE) {
+    console.log("[reclassify] --force: clearing classification cache, all bills will be re-classified");
+  }
 
   const todo = bills.filter((b) => !cache[String(b.bill_id)]);
   console.log(

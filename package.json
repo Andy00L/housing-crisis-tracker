@@ -28,7 +28,8 @@
     "sync:provinces": "tsx scripts/sync/province-housing-research.ts",
     "sync:cmhc-projects": "tsx scripts/sync/cmhc-projects.ts",
     "sync:nhs-projects": "tsx scripts/sync/cmhc-nhs-projects.ts",
-    "sync:canada-municipal": "tsx scripts/sync/canada-municipal-housing.ts"
+    "sync:canada-municipal": "tsx scripts/sync/canada-municipal-housing.ts",
+    "enrich:projects": "tsx scripts/sync/enrich-project-descriptions.ts"
   },
   "dependencies": {
     "@number-flow/react": "^0.6.0",

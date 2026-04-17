@@ -207,6 +207,11 @@ function classifyCategory(text: string): LegislationCategory {
   return "affordable-housing";
 }
 
+/** True when the text explicitly matched a category keyword (vs falling through to the default). */
+function hasExplicitCategory(text: string): boolean {
+  return CATEGORY_RULES.some(({ kw }) => kw.test(text));
+}
+
 function classifyTags(text: string): ImpactTag[] {
   const tags: ImpactTag[] = [];
   for (const { tag, kw } of TAG_RULES) {
@@ -217,26 +222,41 @@ function classifyTags(text: string): ImpactTag[] {
 
 function deriveStance(bill: RawBill, stage: Stage, category: LegislationCategory, _tags: ImpactTag[]): StanceType {
   const text = `${bill.title} ${bill.description ?? ""}`.toLowerCase();
-  const isMoratorium = /moratorium|prohibit|ban|restrict|freeze|cap/.test(text);
-  const isIncentive = /incentive|upzon|density bonus|fast.?track|expedit|exempt|credit/.test(text);
-  const isStudy = /study|commission|task force|working group|review|report/.test(text);
 
-  if (isMoratorium && stage === "Enacted") return "restrictive";
-  if (isMoratorium && (stage === "Floor" || stage === "Committee")) return "concerning";
-  if (isIncentive) return "favorable";
-  if (isStudy) return "review";
+  // Restrictive signals: reduces supply, removes protections, cuts funding
+  const isRestrictive = /moratorium|downzon|height limit|single.?family only|large.?lot minimum|exclusionary|repeal.*(rent|tenant)|weaken.*(rent|tenant|protect)|cut.*(housing|afford)|reduce.*(density|housing)|eliminat.*(rent control|tenant)/.test(text);
 
-  // Category-driven defaults
-  if (category === "zoning-reform" || category === "development-incentive") {
-    if (stage === "Enacted" || stage === "Floor") return "favorable";
-    return "review";
-  }
-  if (category === "rent-regulation" || category === "tenant-protection") {
-    if (stage === "Enacted" || stage === "Floor") return "concerning";
-    return "review";
-  }
-  if (category === "foreign-investment") {
-    return stage === "Enacted" ? "restrictive" : "review";
+  // Favorable signals: increases supply, funds housing, protects tenants
+  const isFavorable = /incentive|upzon|density bonus|fast.?track|expedit|exempt|credit|accelerat|supply|build.*homes|streamlin|expand|preempt|by.?right|ADU|accessory dwelling|fourplex|triplex|duplex|multi.?family|inclusionary|affordab|social housing|co.?op|subsid|LIHTC|section 8|rent (control|stabiliz|cap|freeze|protect)|eviction protect|tenant (protect|right)|right to housing|housing fund|national housing|rapid housing|permit reform|parking (minimum|reform|eliminat)|missing middle|homelessness|shelter|supportive housing|public housing|housing first|rental assist|voucher|down.?payment assist|first.?time (buyer|home)|transit.?oriented|zoning reform|housing accelerat/.test(text);
+
+  // Purely procedural: no substantive policy content
+  const isProcedural = /^(an )?act (respecting|to establish) (a )?(study|commission|task.?force|working group|advisory)|^appropriation|^supply bill/.test(text);
+
+  if (isRestrictive && (stage === "Enacted" || stage === "Floor")) return "restrictive";
+  if (isRestrictive) return "concerning";
+  if (isFavorable) return "favorable";
+  if (isProcedural) return "review";
+
+  // Category-driven classification only when the text explicitly matched a
+  // category keyword. Bills that fell through to the default "affordable-housing"
+  // with no specific keyword match stay as "review" since we have no strong signal.
+  if (!hasExplicitCategory(text)) return "review";
+
+  switch (category) {
+    case "affordable-housing":
+    case "homelessness-services":
+    case "development-incentive":
+    case "transit-housing":
+      return "favorable";
+    case "tenant-protection":
+    case "rent-regulation":
+    case "zoning-reform":
+      return stage === "Enacted" || stage === "Floor" ? "favorable" : "review";
+    case "foreign-investment":
+      return "concerning";
+    case "building-code":
+    case "property-tax":
+      return "review";
   }
   return "review";
 }
