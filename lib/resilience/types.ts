@@ -29,7 +29,8 @@ export type SourceName =
   | "rss"
   | "congress-gov"
   | "apify"
-  | "legiscan";
+  | "legiscan"
+  | "cmhc-nhs";
 
 /** Why a resilientFetch call failed. Distinct shapes so callers can switch. */
 export type FailureReason =

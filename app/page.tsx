@@ -8,6 +8,7 @@ import SummaryBar from "@/components/sections/SummaryBar";
 import DimensionToggle from "@/components/sections/DimensionToggle";
 import AIOverview from "@/components/sections/AIOverview";
 import LegislationTable from "@/components/sections/LegislationTable";
+import LegislativeFunnel from "@/components/sections/LegislativeFunnel";
 import ProjectsOverview from "@/components/sections/ProjectsOverview";
 import PoliticiansOverview from "@/components/sections/PoliticiansOverview";
 import LiveNews from "@/components/sections/LiveNews";
@@ -140,14 +141,29 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Section 4. Major housing projects */}
+      {/* Section 4. Legislative funnel */}
+      <section className="relative z-10 bg-bg border-t border-black/[.06]">
+        <div className="max-w-5xl mx-auto px-8 pt-20 pb-24">
+          <div className="text-[13px] font-medium text-muted tracking-tight mb-2">
+            04 · Legislative funnel
+          </div>
+          <h2 className="text-3xl md:text-4xl font-semibold text-ink tracking-tight leading-[1.1] mb-10">
+            How bills progress
+          </h2>
+          <FadeInOnView>
+            <LegislativeFunnel />
+          </FadeInOnView>
+        </div>
+      </section>
+
+      {/* Section 5. Major housing projects */}
       <section
         id="projects"
-        className="relative z-10 bg-bg border-t border-black/[.06] scroll-mt-20"
+        className="relative z-10 bg-white border-t border-black/[.06] scroll-mt-20"
       >
         <div className="max-w-5xl mx-auto px-8 pt-20 pb-24">
           <div className="text-[13px] font-medium text-muted tracking-tight mb-2">
-            04 · Major housing projects
+            05 · Major housing projects
           </div>
           <h2 className="text-3xl md:text-4xl font-semibold text-ink tracking-tight leading-[1.1] mb-3">
             Projects we&rsquo;re tracking
@@ -164,14 +180,14 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Section 5 — Who voted how */}
+      {/* Section 6 — Who voted how */}
       <section
         id="politicians"
-        className="relative z-10 bg-white border-t border-black/[.06] scroll-mt-20"
+        className="relative z-10 bg-bg border-t border-black/[.06] scroll-mt-20"
       >
         <div className="max-w-5xl mx-auto px-8 pt-20 pb-24">
           <div className="text-[13px] font-medium text-muted tracking-tight mb-2">
-            05 · Key players
+            06 · Key players
           </div>
           <h2 className="text-3xl md:text-4xl font-semibold text-ink tracking-tight leading-[1.1] mb-2">
             Officials & leaders
@@ -186,14 +202,14 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Section 6 — Live news feed */}
+      {/* Section 7 — Live news feed */}
       <section
         id="news"
-        className="relative z-10 bg-bg border-t border-black/[.06] scroll-mt-20"
+        className="relative z-10 bg-white border-t border-black/[.06] scroll-mt-20"
       >
         <div className="max-w-5xl mx-auto px-8 pt-20 pb-24">
           <div className="text-[13px] font-medium text-muted tracking-tight mb-2">
-            06 · From the wire
+            07 · From the wire
           </div>
           <h2 className="text-3xl md:text-4xl font-semibold text-ink tracking-tight leading-[1.1] mb-10 inline-flex items-center gap-3">
             Live news

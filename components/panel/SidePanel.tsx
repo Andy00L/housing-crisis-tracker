@@ -43,6 +43,12 @@ interface SidePanelProps {
   /** Pins a project from the Projects tab. */
   onSelectProject?: (project: HousingProject) => void;
   lens?: DimensionLens;
+  /** When false (default), operational projects are hidden from the
+   *  Projects tab. Mirrors the map toggle. */
+  showCompleted?: boolean;
+  /** When set, overrides the entity-derived project list with a
+   *  proximity-filtered set (e.g. projects near a Census Division). */
+  cdProjects?: HousingProject[] | null;
   /** When set, adds a "Local" tab with county-level actions. Each entry
    *  is a Legislation-shaped row (adapter applied upstream) so it
    *  reuses LegislationList's rendering. */
@@ -135,6 +141,8 @@ export default function SidePanel({
   onCloseProject,
   onSelectProject,
   lens = "zoning",
+  showCompleted = false,
+  cdProjects = null,
   localActions,
 }: SidePanelProps) {
   // Mobile defaults to the bottom-anchored card; desktop to top-left.
@@ -175,10 +183,16 @@ export default function SidePanel({
 
   // Scope projects to whatever the entity represents. The panel preview
   // always renders flat; grouping only matters on the full /projects page.
-  const scopedProjects: HousingProject[] = entity
+  const entityProjects: HousingProject[] = entity
     ? projectsForEntity(entity).projects
     : [];
-  const hasProjects = scopedProjects.length > 0;
+  const baseProjects = cdProjects ?? entityProjects;
+  const scopedProjects = showCompleted
+    ? baseProjects
+    : baseProjects.filter((p) => p.status !== "operational");
+  // Show the Projects tab when there are projects OR when a CD override
+  // is active (to show the "No projects" message instead of hiding the tab).
+  const hasProjects = scopedProjects.length > 0 || cdProjects !== null;
   const hasLocal = (localActions?.length ?? 0) > 0;
 
   // Metrics tab. Visible whenever the entity has at least one populated
@@ -803,17 +817,25 @@ export default function SidePanel({
 
                 {activeLayer === "projects" && hasProjects && (
                   <motion.section layout>
-                    <ProjectsList
-                      projects={scopedProjects.slice(0, PROJECTS_PREVIEW)}
-                      groupBy={null}
-                      onSelectProject={onSelectProject}
-                    />
-                    <SeeAllLink
-                      total={scopedProjects.length}
-                      shown={PROJECTS_PREVIEW}
-                      label="projects"
-                      href={`/projects/${encodeURIComponent(entity.id)}`}
-                    />
+                    {scopedProjects.length > 0 ? (
+                      <>
+                        <ProjectsList
+                          projects={scopedProjects.slice(0, PROJECTS_PREVIEW)}
+                          groupBy={null}
+                          onSelectProject={onSelectProject}
+                        />
+                        <SeeAllLink
+                          total={scopedProjects.length}
+                          shown={PROJECTS_PREVIEW}
+                          label="projects"
+                          href={`/projects/${encodeURIComponent(entity.id)}`}
+                        />
+                      </>
+                    ) : (
+                      <p className="text-xs text-muted py-4">
+                        No projects in this area
+                      </p>
+                    )}
                   </motion.section>
                 )}
 

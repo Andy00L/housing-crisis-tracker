@@ -3,10 +3,10 @@
 import {
   IMPACT_TAG_LABEL,
   CATEGORY_LABEL,
-  STANCE_LABEL,
   type HousingProject,
   type Legislation,
 } from "@/types";
+import StanceBadge from "@/components/ui/StanceBadge";
 import {
   findDonor,
   formatMoney,
@@ -65,12 +65,8 @@ export default function BillExpanded({
       {/* Meta row */}
       <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-muted">
         <span>{CATEGORY_LABEL[bill.category]}</span>
-        {bill.stance && (
-          <>
-            <span aria-hidden>·</span>
-            <span>{STANCE_LABEL[bill.stance]}</span>
-          </>
-        )}
+        <span aria-hidden>·</span>
+        <StanceBadge stance={bill.stance ?? "review"} size="sm" />
         {bill.partyOrigin && (
           <>
             <span aria-hidden>·</span>

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "cd-2466",
+    "name": "Montreal",
+    "fips": "2466",
+    "state": "Quebec",
+    "stateCode": "QC",
+    "type": "census-division",
+    "actions": [
+      {
+        "title": "By-law for a Diverse Metropolis replaced with single 20% off-market housing obligation",
+        "date": "2026-01-15",
+        "status": "enacted",
+        "summary": "Mayor Martinez Ferrada replaced the three-part 20-20-20 requirement with a single 20% off-market housing obligation, applying only to projects larger than 18,000 m2. The change aims to reduce regulatory barriers and accelerate housing construction.",
+        "sourceUrl": "https://montreal.ca/en/articles/diverse-metropolis-overview-law-7816"
+      },
+      {
+        "title": "Temporary exemption for downtown office-to-residential conversions",
+        "date": "2024-03-20",
+        "status": "enacted",
+        "summary": "Amendment to the Diverse Metropolis bylaw exempts downtown office-to-residential conversions from affordable housing obligations through December 31, 2026, encouraging adaptive reuse of vacant office space.",
+        "sourceUrl": "https://montreal.ca/en/articles/diverse-metropolis-overview-law-7816"
+      }
+    ],
+    "concerns": ["affordability", "inclusionary-zoning", "density"],
+    "contextBlurb": "Families in Montreal face vacancy rates hovering around 2%, with average two-bedroom rents near $1,200. The city has moved from a complex 20-20-20 inclusionary zoning framework to a simplified single 20% off-market obligation, trying to balance affordable housing targets with the pace of new construction."
+  },
+  {
+    "id": "cd-2423",
+    "name": "Quebec",
+    "fips": "2423",
+    "state": "Quebec",
+    "stateCode": "QC",
+    "type": "census-division",
+    "actions": [
+      {
+        "title": "Accessory dwelling unit bylaw (R.V.Q. 3294)",
+        "date": "2024-06-01",
+        "status": "enacted",
+        "summary": "Permits secondary dwellings (garden suites, ADUs) on lots with detached single-family homes without requiring land subdivision. Conditions vary by neighbourhood and lot type.",
+        "sourceUrl": "https://www.ville.quebec.qc.ca/"
+      }
+    ],
+    "concerns": ["affordability", "density"],
+    "contextBlurb": "Quebec City residents face tightening supply despite relatively lower rents compared to Montreal. The city has begun allowing accessory dwelling units on single-family lots, a first step toward gentle densification in established neighbourhoods."
+  },
+  {
+    "id": "cd-2465",
+    "name": "Laval",
+    "fips": "2465",
+    "state": "Quebec",
+    "stateCode": "QC",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["affordability"],
+    "contextBlurb": "Laval housing policy is tracked as part of Quebec coverage. Provincial legislation and local zoning changes are monitored in the tracker."
+  },
+  {
+    "id": "cd-2481",
+    "name": "Gatineau",
+    "fips": "2481",
+    "state": "Quebec",
+    "stateCode": "QC",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["affordability"],
+    "contextBlurb": "Gatineau's proximity to Ottawa creates unique cross-border housing pressure. Many federal workers live in Gatineau for lower housing costs, but rising demand has pushed rents up steadily."
+  },
+  {
+    "id": "cd-2443",
+    "name": "Sherbrooke",
+    "fips": "2443",
+    "state": "Quebec",
+    "stateCode": "QC",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["affordability"],
+    "contextBlurb": "Sherbrooke housing policy is tracked as part of Quebec coverage. Provincial legislation and local zoning changes are monitored in the tracker."
+  },
+  {
+    "id": "cd-2458",
+    "name": "Longueuil",
+    "fips": "2458",
+    "state": "Quebec",
+    "stateCode": "QC",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["affordability", "density"],
+    "contextBlurb": "Longueuil sits at the heart of Montreal's south shore suburbs. Housing demand continues to rise as families seek alternatives to Montreal's tighter market."
+  },
+  {
+    "id": "cd-2437",
+    "name": "Francheville",
+    "fips": "2437",
+    "state": "Quebec",
+    "stateCode": "QC",
+    "type": "census-division",
+    "actions": [],
+    "concerns": [],
+    "contextBlurb": "Trois-Rivieres and surrounding communities in the Francheville census division are tracked as part of Quebec housing coverage."
+  },
+  {
+    "id": "cd-2425",
+    "name": "Levis",
+    "fips": "2425",
+    "state": "Quebec",
+    "stateCode": "QC",
+    "type": "census-division",
+    "actions": [],
+    "concerns": [],
+    "contextBlurb": "Levis housing policy is tracked as part of Quebec coverage. The city sits across the St. Lawrence from Quebec City and shares its regional housing market pressures."
+  },
+  {
+    "id": "cd-2494",
+    "name": "Le Fjord-du-Saguenay",
+    "fips": "2494",
+    "state": "Quebec",
+    "stateCode": "QC",
+    "type": "census-division",
+    "actions": [],
+    "concerns": [],
+    "contextBlurb": "Saguenay and surrounding communities in the Fjord-du-Saguenay census division are tracked as part of Quebec housing coverage."
+  },
+  {
+    "id": "cd-2464",
+    "name": "Les Moulins",
+    "fips": "2464",
+    "state": "Quebec",
+    "stateCode": "QC",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["density"],
+    "contextBlurb": "Terrebonne and Mascouche in the Les Moulins census division form part of Montreal's rapidly growing northern suburbs. Housing starts have risen but supply still trails demand."
+  }
+]

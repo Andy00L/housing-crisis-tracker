@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { geoAlbersUsa, geoPath, type GeoProjection } from "d3-geo";
 import type { FeatureCollection, Geometry } from "geojson";
 import { feature } from "topojson-client";
@@ -12,20 +12,12 @@ import {
 } from "@/lib/municipal-data";
 import { STATE_FIPS, type HousingProject, type MunicipalActionStatus } from "@/types";
 import { ALL_HOUSING_PROJECTS } from "@/lib/projects-map";
-import { ProjectIcon, SIZE_BANDS } from "./ProjectDots";
+import ProjectDots from "./ProjectDots";
 void getMunicipalitiesByState;
 
 // Water features removed in housing tracker migration
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const WATER = { rivers: { type: "FeatureCollection" as const, features: [] as any[] }, lakes: { type: "FeatureCollection" as const, features: [] as any[] } };
-
-function bandRadius(unitCount: number | undefined): number {
-  const v = unitCount ?? 0;
-  for (const b of SIZE_BANDS) {
-    if (v < b.max) return b.r;
-  }
-  return SIZE_BANDS[SIZE_BANDS.length - 1].r;
-}
 
 interface CountyMapProps {
   stateName: string;
@@ -33,6 +25,7 @@ interface CountyMapProps {
   selectedCountyFips: string | null;
   setTooltip: SetTooltip;
   showProjects?: boolean;
+  showCompleted?: boolean;
   onHoverProject?: (
     project: HousingProject,
     x: number,
@@ -146,6 +139,7 @@ export default function CountyMap({
   selectedCountyFips,
   setTooltip,
   showProjects = false,
+  showCompleted = false,
   onHoverProject,
   onLeaveProject,
   onSelectProject,
@@ -237,20 +231,11 @@ export default function CountyMap({
           .filter((r) => r.d)
       : [];
 
-    // Project housing projects in the state. Skip rows without coords.
-    // Some pipeline-sourced projects (e.g. Canadian rows) don't include
-    // lat/lng and shouldn't be plotted on the county map. US housing
-    // project data is not ingested yet, so this filter is effectively
-    // always empty on the US side today.
+    // Filter housing projects for this state.
     const stateProjects = ALL_HOUSING_PROJECTS.filter(
-      (f) => f.state === stateName && typeof f.lat === "number" && typeof f.lng === "number",
+      (f) => f.state === stateName
+        && (showCompleted || f.status !== "operational"),
     );
-    const projectMarkers = stateProjects
-      .map((project) => {
-        const xy = projection([project.lng as number, project.lat as number]);
-        return xy ? { project, x: xy[0], y: xy[1] } : null;
-      })
-      .filter((p): p is { project: HousingProject; x: number; y: number } => Boolean(p));
 
     // US-wide bbox for the zoom-in animation starting point.
     const usProj = geoAlbersUsa().scale(900).translate([480, 300]);
@@ -266,10 +251,10 @@ export default function CountyMap({
       countryPaths: nationalPaths,
       lakes,
       rivers,
-      projectMarkers,
+      stateProjects,
       bbox: b,
     };
-  }, [counties, states, statePrefix, stateName]);
+  }, [counties, states, statePrefix, stateName, showCompleted]);
 
   // Transform-based zoom animation.
   const [animateReady, setAnimateReady] = useState(false);
@@ -304,6 +289,23 @@ export default function CountyMap({
     return `translate(${tx} ${ty}) scale(${scale})`;
   }, [computed]);
 
+  // Wrap hover/leave to also track SVG coordinates for the proximity halo.
+  const handleLocalHover = useCallback(
+    (project: HousingProject, clientX: number, clientY: number, count: number) => {
+      if (onHoverProject) onHoverProject(project, clientX, clientY, count);
+      if (computed?.projection && typeof project.lat === "number" && typeof project.lng === "number") {
+        const xy = computed.projection([project.lng, project.lat]);
+        if (xy) setHoveredProjectCoord({ lat: project.lat, lng: project.lng, x: xy[0], y: xy[1] });
+      }
+    },
+    [onHoverProject, computed],
+  );
+
+  const handleLocalLeave = useCallback(() => {
+    if (onLeaveProject) onLeaveProject();
+    setHoveredProjectCoord(null);
+  }, [onLeaveProject]);
+
   if (!statePrefix) {
     return (
       <div className="flex items-center justify-center text-sm text-muted">
@@ -327,7 +329,7 @@ export default function CountyMap({
     countryPaths,
     lakes,
     rivers,
-    projectMarkers,
+    stateProjects,
   } = computed;
 
   // Thresholds for "large lake" gradient treatment. Area is in projected
@@ -369,17 +371,6 @@ export default function CountyMap({
             <stop offset="0%" stopColor="#AFD2E2" stopOpacity="0.95" />
             <stop offset="100%" stopColor="#6BA3C4" stopOpacity="0.85" />
           </radialGradient>
-          <filter id="project-shadow" x="-30%" y="-20%" width="160%" height="160%">
-            <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" />
-            <feOffset dy="1" />
-            <feComponentTransfer>
-              <feFuncA type="linear" slope="0.15" />
-            </feComponentTransfer>
-            <feMerge>
-              <feMergeNode />
-              <feMergeNode in="SourceGraphic" />
-            </feMerge>
-          </filter>
           {/* Project proximity halo. Soft radial glow that fades to
               transparent, replacing the old dashed radar ring. */}
           <radialGradient id="project-halo">
@@ -387,25 +378,6 @@ export default function CountyMap({
             <stop offset="55%" stopColor="#0A84FF" stopOpacity="0.07" />
             <stop offset="100%" stopColor="#0A84FF" stopOpacity="0" />
           </radialGradient>
-          {/* App-icon body gradients — top 12% lighter so the icon reads
-              as a lit surface, not a flat chip. */}
-          <linearGradient id="project-grad-operational" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="#3AA0FF" />
-            <stop offset="100%" stopColor="#0A84FF" />
-          </linearGradient>
-          <linearGradient id="project-grad-construction" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="#FFB547" />
-            <stop offset="100%" stopColor="#FF9500" />
-          </linearGradient>
-          <linearGradient id="project-grad-mixed" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="#3AA0FF" />
-            <stop offset="100%" stopColor="#0A84FF" />
-          </linearGradient>
-          {/* Sheen overlay for the top half of the icon body. */}
-          <linearGradient id="project-sheen" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="#FFFFFF" stopOpacity="0.22" />
-            <stop offset="100%" stopColor="#FFFFFF" stopOpacity="0" />
-          </linearGradient>
         </defs>
 
         <g
@@ -535,37 +507,17 @@ export default function CountyMap({
             />
           )}
 
-          {/* Project icons. Rounded-rect rack shape (county view only). */}
+          {/* Compact project dots (small circles colored by projectType) */}
           {showProjects && onHoverProject && onLeaveProject && (
-            <g>
-              {projectMarkers.map(({ project, x, y }) => {
-                const size = bandRadius(project.unitCount);
-                return (
-                  <ProjectIcon
-                    key={project.id}
-                    x={x}
-                    y={y}
-                    size={size}
-                    status={project.status}
-                    onMouseEnter={(e) => {
-                      onHoverProject(project, e.clientX, e.clientY, 1);
-                      // projectMarkers is filtered to only include rows
-                      // with coords, so the cast is safe here.
-                      setHoveredProjectCoord({ lat: project.lat as number, lng: project.lng as number, x, y });
-                    }}
-                    onMouseMove={(e) => onHoverProject(project, e.clientX, e.clientY, 1)}
-                    onMouseLeave={() => {
-                      onLeaveProject();
-                      setHoveredProjectCoord(null);
-                    }}
-                    onClick={
-                      onSelectProject ? () => onSelectProject(project) : undefined
-                    }
-                    interactive={!!onSelectProject}
-                  />
-                );
-              })}
-            </g>
+            <ProjectDots
+              projects={stateProjects}
+              projection={(coords) => computed.projection(coords)}
+              compact
+              clusterDeg={0.3}
+              onHoverProject={handleLocalHover}
+              onLeaveProject={handleLocalLeave}
+              onSelectProject={onSelectProject}
+            />
           )}
 
         </g>

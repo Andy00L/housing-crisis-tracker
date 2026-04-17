@@ -145,11 +145,11 @@ export default function HealthFooter() {
           className={`inline-block w-1.5 h-1.5 rounded-full ${DOT_COLOR[data.overall]}`}
           aria-hidden
         />
-        <span>
+        <span className="hidden sm:inline">
           {total > 0 ? `${live}/${total} sources live` : STATUS_LABELS[data.overall]}
         </span>
-        <span aria-hidden>·</span>
-        <span>synced {formatRelative(data.last_updated)}</span>
+        <span className="hidden sm:inline" aria-hidden>·</span>
+        <span className="hidden sm:inline">synced {formatRelative(data.last_updated)}</span>
       </button>
 
       {open && (

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "cd-1307",
+    "name": "Westmorland",
+    "fips": "1307",
+    "state": "New Brunswick",
+    "stateCode": "NB",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["affordability"],
+    "contextBlurb": "Greater Moncton (Moncton, Dieppe, Riverview) has been one of Canada's fastest-growing metro areas, driven by interprovincial migration and immigration. Rental vacancy has fallen sharply, and average rents have risen over 20% since 2022."
+  },
+  {
+    "id": "cd-1301",
+    "name": "Saint John",
+    "fips": "1301",
+    "state": "New Brunswick",
+    "stateCode": "NB",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["affordability"],
+    "contextBlurb": "Saint John remains one of the more affordable cities in Atlantic Canada, but housing costs are climbing. The city's port and industrial base continue to attract new residents, tightening an already limited rental supply."
+  },
+  {
+    "id": "cd-1310",
+    "name": "York",
+    "fips": "1310",
+    "state": "New Brunswick",
+    "stateCode": "NB",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["affordability"],
+    "contextBlurb": "Fredericton's housing market has tightened as the provincial capital attracts government workers and university students. New construction has not kept pace with demand, particularly for affordable rental units."
+  },
+  {
+    "id": "cd-1309",
+    "name": "Northumberland",
+    "fips": "1309",
+    "state": "New Brunswick",
+    "stateCode": "NB",
+    "type": "census-division",
+    "actions": [],
+    "concerns": [],
+    "contextBlurb": "Miramichi and surrounding communities in Northumberland County are tracked as part of New Brunswick housing coverage."
+  },
+  {
+    "id": "cd-1306",
+    "name": "Albert",
+    "fips": "1306",
+    "state": "New Brunswick",
+    "stateCode": "NB",
+    "type": "census-division",
+    "actions": [],
+    "concerns": [],
+    "contextBlurb": "Riverview and Albert County sit across the Petitcodiac River from Moncton, sharing the Greater Moncton housing market. Population growth has been steady as the region attracts new residents."
+  },
+  {
+    "id": "cd-1315",
+    "name": "Gloucester",
+    "fips": "1315",
+    "state": "New Brunswick",
+    "stateCode": "NB",
+    "type": "census-division",
+    "actions": [],
+    "concerns": [],
+    "contextBlurb": "Bathurst and Gloucester County are tracked as part of New Brunswick housing coverage."
+  }
+]

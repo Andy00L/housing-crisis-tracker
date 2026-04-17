@@ -32,9 +32,19 @@ const LENS_BLURB: Record<DimensionLens, string> = {
 
 // One-liner shown under the active dimension chip explaining what the map
 // coloring measures.
+const CRISIS_LEGEND: { label: string; color: string }[] = [
+  { label: "Severe (7+)", color: "#DC2626" },
+  { label: "Moderate (4-6)", color: "#F59E0B" },
+  { label: "Mild (1-3)", color: "#FBBF24" },
+  { label: "Manageable (0)", color: "#22C55E" },
+  { label: "No data", color: "#D1D5DB" },
+];
+
 const DIMENSION_BLURB: Record<Dimension, string> = {
   overall:
     "Each jurisdiction's net stance across all bills we're tracking — darker red is more restrictive, green is more permissive.",
+  crisis:
+    "Composite score from housing price indices, year-over-year price change, average rent, and median home prices. Higher scores signal deeper affordability strain.",
   // Zoning lens
   affordability:
     "Weighted by bills addressing housing affordability, rent control, and cost-of-living measures.",
@@ -71,7 +81,11 @@ export default function DimensionToggle({
     onLensChange(next);
     const valid: Dimension[] =
       next === "zoning" ? ZONING_DIMENSIONS : AFFORDABILITY_DIMENSIONS;
-    if (dimension !== "overall" && !valid.includes(dimension)) {
+    if (
+      dimension !== "overall" &&
+      dimension !== "crisis" &&
+      !valid.includes(dimension)
+    ) {
       onChange("overall");
     }
   };
@@ -134,7 +148,7 @@ export default function DimensionToggle({
         Color map by
       </div>
       <div className="flex flex-wrap gap-2">
-        {(["overall", ...lensDimensions] as Dimension[]).map((d) => {
+        {(["overall", "crisis", ...lensDimensions] as Dimension[]).map((d) => {
           const active = d === dimension;
           let activeStyle: React.CSSProperties | undefined;
           if (active) {
@@ -170,7 +184,7 @@ export default function DimensionToggle({
         })}
       </div>
 
-      {/* Explainer for the active dimension — reserve enough vertical space
+      {/* Explainer for the active dimension. Reserve enough vertical space
           so the layout doesn't jump when the blurb length changes. */}
       <div className="mt-4 min-h-[2.75rem]">
         <p
@@ -183,6 +197,24 @@ export default function DimensionToggle({
           {DIMENSION_BLURB[dimension]}
         </p>
       </div>
+
+      {/* Crisis severity legend, shown only when crisis dimension is active. */}
+      {dimension === "crisis" && (
+        <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
+          {CRISIS_LEGEND.map(({ label, color }) => (
+            <span
+              key={label}
+              className="inline-flex items-center gap-1.5 text-[11px] text-muted"
+            >
+              <span
+                className="w-2.5 h-2.5 rounded-sm shrink-0"
+                style={{ backgroundColor: color }}
+              />
+              {label}
+            </span>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

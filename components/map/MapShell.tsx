@@ -48,12 +48,13 @@ const AsiaMap = dynamic(
   () => import("./AsiaMap"),
   { ssr: false, loading: () => <div className="h-full w-full animate-pulse bg-neutral-100" /> },
 );
+import { PROJECT_TYPE_COLOR } from "./ProjectDots";
 import ProjectCard from "./ProjectCard";
 import {
   getMunicipalitiesByState,
   getMunicipalityByFips,
 } from "@/lib/municipal-data";
-import { getCensusDivisionByUid } from "@/lib/census-division-data";
+import { getCensusDivisionByUid, getCensusDivisionsByProvince } from "@/lib/census-division-data";
 import type {
   HousingProject,
   Entity,
@@ -154,6 +155,22 @@ function municipalityToEntity(m: MunicipalEntity): Entity {
   };
 }
 
+/** Haversine distance in km between two lat/lng pairs. */
+function haversineKm(
+  lat1: number, lng1: number, lat2: number, lng2: number,
+): number {
+  const R = 6371;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLng = (lng2 - lng1) * Math.PI / 180;
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+    Math.sin(dLng / 2) * Math.sin(dLng / 2);
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+const CD_RADIUS_KM = 50;
+
 // Pre-computed project count by state / province name and country name so
 // the tooltip can show it without filtering on every hover.
 const PROJECT_COUNT_BY_NAME: Record<string, number> = {};
@@ -185,6 +202,7 @@ const STANCE_READOUT: Record<StanceType, string> = {
  * `DIMENSION_LABEL` for other surfaces.
  */
 const SHORT_DIMENSION_LABEL: Record<Exclude<Dimension, "overall">, string> = {
+  crisis: "Crisis",
   affordability: "Affordability",
   supply: "Supply",
   "rental-market": "Rental",
@@ -224,6 +242,26 @@ function aggregateStance(
     }
   }
   return winner;
+}
+
+// Shared sort for local-actions rows: enacted first, then under-review,
+// proposed, failed. Within each group, most recent date wins.
+const LOCAL_STAGE_ORDER: Record<string, number> = {
+  Enacted: 4,
+  Floor: 3,
+  Committee: 2,
+  Filed: 1,
+  "Carried Over": 0,
+  Dead: -1,
+};
+
+function sortLocalRows(rows: Legislation[]): Legislation[] {
+  rows.sort((a, b) => {
+    const diff = (LOCAL_STAGE_ORDER[b.stage] ?? 0) - (LOCAL_STAGE_ORDER[a.stage] ?? 0);
+    if (diff !== 0) return diff;
+    return (b.updatedDate ?? "").localeCompare(a.updatedDate ?? "");
+  });
+  return rows;
 }
 
 // Canada-first default. Loading the provinces view on first paint centers
@@ -292,6 +330,14 @@ export default function MapShell({
   // the "Zoning" lens, show project pins on the map. Other lenses hide
   // them so the chloropleth fill carries the signal alone.
   const showProjects = lens === "zoning";
+
+  // Active-only default: hide completed (operational) projects unless
+  // the user toggles the checkbox in the legend card.
+  const [showCompleted, setShowCompleted] = useState(false);
+
+  // Census Division centroid for proximity-filtering the side panel's
+  // Projects tab. Set via callback from CensusDivisionMap.
+  const [cdCentroid, setCdCentroid] = useState<[number, number] | null>(null);
   const handleHoverProject = useCallback(
     (project: HousingProject, x: number, y: number, clusterSize: number) => {
       if (isDraggingRef.current) return;
@@ -344,6 +390,24 @@ export default function MapShell({
   const selectedCountyFips = current.selectedCountyFips ?? null;
   const selectedProvinceName = current.selectedProvinceName ?? null;
   const selectedCduid = current.selectedCduid ?? null;
+
+  // Clear centroid when leaving census-divisions view (CensusDivisionMap
+  // unmounts so its cleanup effect won't fire the callback).
+  useEffect(() => {
+    if (naView !== "census-divisions") setCdCentroid(null);
+  }, [naView]);
+
+  // When a CD is selected, filter projects to those within CD_RADIUS_KM
+  // of the centroid. Null when not in census-divisions view or no CD
+  // selected, so SidePanel falls back to entity-scoped projects.
+  const cdProjects: HousingProject[] | null = useMemo(() => {
+    if (naView !== "census-divisions" || !selectedCduid || !cdCentroid) return null;
+    const [cLat, cLng] = cdCentroid;
+    return ALL_HOUSING_PROJECTS.filter((p) => {
+      if (typeof p.lat !== "number" || typeof p.lng !== "number") return false;
+      return haversineKm(p.lat, p.lng, cLat, cLng) <= CD_RADIUS_KM;
+    });
+  }, [naView, selectedCduid, cdCentroid]);
 
   const overviewEntity = useMemo(() => getOverviewEntity(region), [region]);
 
@@ -935,59 +999,85 @@ export default function MapShell({
   // Show "View local actions →" in the panel when the selected US state
   // has county-level municipal data. Gives a discoverable entry point
   // that doesn't rely on the user guessing the double-click gesture.
-  const showViewCountiesButton =
-    region === "na" &&
-    naView === "states" &&
-    selectedGeoId !== null &&
-    getMunicipalitiesByState(selectedGeoId).length > 0;
+  // Also shown for Canadian provinces that have census-division data.
+  const showViewCdButton = (() => {
+    if (region !== "na" || naView !== "provinces" || !selectedGeoId) return false;
+    const provName = Object.entries(PROVINCE_GEOID_MAP).find(
+      ([, id]) => id === selectedGeoId,
+    )?.[0];
+    return provName ? getCensusDivisionsByProvince(provName).length > 0 : false;
+  })();
 
-  // Aggregate the selected state's county actions into Legislation rows
-  // for the sidebar's "Local" tab. This lets users browse local actions
-  // without drilling — the zoom is for folks who want the geographic
+  const showViewCountiesButton =
+    (region === "na" &&
+     naView === "states" &&
+     selectedGeoId !== null &&
+     getMunicipalitiesByState(selectedGeoId).length > 0) ||
+    showViewCdButton;
+
+  // Aggregate county / census-division actions into Legislation rows for
+  // the sidebar's "Local" tab. This lets users browse local actions
+  // without drilling. The zoom is for folks who want the geographic
   // layout, not a required step.
   const stateLocalActions: Legislation[] = useMemo(() => {
-    if (region !== "na" || naView !== "counties") return [];
-    const stateName = selectedStateName ?? selectedGeoId;
-    if (!stateName) return [];
-    const munis = getMunicipalitiesByState(stateName);
-    if (munis.length === 0) return [];
-    const stateProjects = ALL_HOUSING_PROJECTS.filter(
-      (f) => f.state === stateName,
-    );
-    const rows: Legislation[] = [];
-    let idx = 0;
-    for (const m of munis) {
-      for (const a of m.actions) {
-        const base = actionToLegislation(
-          a,
-          idx++,
-          findRelatedProjects(a, stateProjects),
-        );
-        // Prefix county name so each row is identifiable when the list
-        // is flattened across many counties.
-        rows.push({
-          ...base,
-          title: `${m.name} · ${base.title}`,
-        });
+    if (region !== "na") return [];
+
+    // US counties view.
+    if (naView === "counties") {
+      const stateName = selectedStateName ?? selectedGeoId;
+      if (!stateName) return [];
+      const munis = getMunicipalitiesByState(stateName);
+      if (munis.length === 0) return [];
+      const stateProjects = ALL_HOUSING_PROJECTS.filter(
+        (f) => f.state === stateName,
+      );
+      const rows: Legislation[] = [];
+      let idx = 0;
+      for (const m of munis) {
+        for (const a of m.actions) {
+          const base = actionToLegislation(
+            a,
+            idx++,
+            findRelatedProjects(a, stateProjects),
+          );
+          rows.push({
+            ...base,
+            title: `${m.name} · ${base.title}`,
+          });
+        }
       }
+      return sortLocalRows(rows);
     }
-    // Enacted first, then under-review, proposed, failed. Within each,
-    // most recent updatedDate wins.
-    const order: Record<string, number> = {
-      Enacted: 4,
-      Floor: 3,
-      Committee: 2,
-      Filed: 1,
-      "Carried Over": 0,
-      Dead: -1,
-    };
-    rows.sort((a, b) => {
-      const diff = (order[b.stage] ?? 0) - (order[a.stage] ?? 0);
-      if (diff !== 0) return diff;
-      return (b.updatedDate ?? "").localeCompare(a.updatedDate ?? "");
-    });
-    return rows;
-  }, [region, naView, selectedGeoId, selectedStateName]);
+
+    // Canada census-divisions view.
+    if (naView === "census-divisions") {
+      const provName = selectedProvinceName ?? null;
+      if (!provName) return [];
+      const cds = getCensusDivisionsByProvince(provName);
+      if (cds.length === 0) return [];
+      const provProjects = ALL_HOUSING_PROJECTS.filter(
+        (f) => f.state === provName,
+      );
+      const rows: Legislation[] = [];
+      let idx = 0;
+      for (const m of cds) {
+        for (const a of m.actions) {
+          const base = actionToLegislation(
+            a,
+            idx++,
+            findRelatedProjects(a, provProjects),
+          );
+          rows.push({
+            ...base,
+            title: `${m.name} · ${base.title}`,
+          });
+        }
+      }
+      return sortLocalRows(rows);
+    }
+
+    return [];
+  }, [region, naView, selectedGeoId, selectedStateName, selectedProvinceName]);
 
   const regionIdx = REGION_ORDER.indexOf(region);
 
@@ -1699,6 +1789,7 @@ export default function MapShell({
                     setTooltip={setTooltip}
                     dimension={dimension} lens={lens}
                     showProjects={showProjects}
+                    showCompleted={showCompleted}
                     onHoverProject={handleHoverProject}
                     onLeaveProject={handleLeaveProject}
                     onSelectProject={handleSelectProject}
@@ -1712,6 +1803,7 @@ export default function MapShell({
                     setTooltip={setTooltip}
                     dimension={dimension} lens={lens}
                     showProjects={showProjects}
+                    showCompleted={showCompleted}
                     onHoverProject={handleHoverProject}
                     onLeaveProject={handleLeaveProject}
                     onSelectProject={handleSelectProject}
@@ -1728,6 +1820,7 @@ export default function MapShell({
                     lens={lens}
                     drillingTo={drillingTo}
                     showProjects={showProjects}
+                    showCompleted={showCompleted}
                     onHoverProject={handleHoverProject}
                     onLeaveProject={handleLeaveProject}
                     onSelectProject={handleSelectProject}
@@ -1739,6 +1832,12 @@ export default function MapShell({
                     onSelectCd={handleSelectCd}
                     selectedCduid={selectedCduid}
                     setTooltip={setTooltip}
+                    showProjects={showProjects}
+                    showCompleted={showCompleted}
+                    onHoverProject={handleHoverProject}
+                    onLeaveProject={handleLeaveProject}
+                    onSelectProject={handleSelectProject}
+                    onCdCentroidChange={setCdCentroid}
                   />
                 )}
                 {naView === "counties" && selectedStateName && (
@@ -1748,6 +1847,7 @@ export default function MapShell({
                     selectedCountyFips={selectedCountyFips}
                     setTooltip={setTooltip}
                     showProjects={showProjects}
+                    showCompleted={showCompleted}
                     onHoverProject={handleHoverProject}
                     onLeaveProject={handleLeaveProject}
                     onSelectProject={handleSelectProject}
@@ -1762,6 +1862,7 @@ export default function MapShell({
                 setTooltip={setTooltip}
                 dimension={dimension} lens={lens}
                 showProjects={showProjects}
+                showCompleted={showCompleted}
                 onHoverProject={handleHoverProject}
                 onLeaveProject={handleLeaveProject}
                 onSelectProject={handleSelectProject}
@@ -1774,6 +1875,7 @@ export default function MapShell({
                 setTooltip={setTooltip}
                 dimension={dimension} lens={lens}
                 showProjects={showProjects}
+                showCompleted={showCompleted}
                 onHoverProject={handleHoverProject}
                 onLeaveProject={handleLeaveProject}
                 onSelectProject={handleSelectProject}
@@ -1794,7 +1896,16 @@ export default function MapShell({
         showViewCountiesButton={showViewCountiesButton}
         onViewCounties={
           selectedGeoId
-            ? () => stageCountyDrill(selectedGeoId)
+            ? () => {
+                if (showViewCdButton) {
+                  const provName = Object.entries(PROVINCE_GEOID_MAP).find(
+                    ([, id]) => id === selectedGeoId,
+                  )?.[0];
+                  if (provName) stageCdDrill(selectedGeoId, provName);
+                } else {
+                  stageCountyDrill(selectedGeoId);
+                }
+              }
             : undefined
         }
         visibility={chromeOpacity}
@@ -1805,6 +1916,8 @@ export default function MapShell({
         onCloseProject={handleCloseProject}
         onSelectProject={handleSelectProject}
         lens={lens}
+        showCompleted={showCompleted}
+        cdProjects={cdProjects}
         localActions={stateLocalActions}
       />
 
@@ -1927,7 +2040,6 @@ export default function MapShell({
           className="hidden lg:block fixed bottom-28 right-6 z-20 w-[13.5rem]"
           style={{
             opacity: chromeOpacity,
-            pointerEvents: "none",
           }}
         >
           <div
@@ -1941,28 +2053,55 @@ export default function MapShell({
               <div className="text-[11px] font-semibold text-muted tracking-tight mb-2.5">
                 Projects
               </div>
-              <div className="flex flex-col gap-1.5">
-                <LegendRow color="#0A84FF" label="Operational" />
-                <LegendRow color="#FF9500" label="Under construction" />
-                <LegendRow color="#5856D6" label="Proposed" hollow />
-              </div>
-              <div className="mt-3 pt-2.5 border-t border-black/[.05]">
-                {/* Size-band key. Dot size scales with cluster total units,
-                    mirroring the three buckets in ProjectDots. Stacked
-                    vertically so it reads alongside the status rows above. */}
-                <div className="flex flex-col gap-1.5 mb-2.5">
-                  <SizeBandSwatch r={4} label="< 100 units" />
-                  <SizeBandSwatch r={7} label="100–500 units" />
-                  <SizeBandSwatch r={11} label="500+ units" />
+              {naView !== "census-divisions" && naView !== "counties" && (
+                <div className="flex flex-col gap-1.5">
+                  <LegendRow color="#0A84FF" label="Operational" />
+                  <LegendRow color="#FF9500" label="Under construction" />
+                  <LegendRow color="#5856D6" label="Proposed" hollow />
                 </div>
-                <p className="text-[11px] text-muted tracking-tight leading-[1.45]">
-                  A number inside a dot means several projects sit
-                  nearby.
-                </p>
-                <p className="mt-1.5 text-[11px] text-muted/70 tracking-tight">
-                  CMHC · public records · research
-                </p>
-              </div>
+              )}
+              <label className="inline-flex items-center gap-1.5 text-[11px] text-muted cursor-pointer mt-2.5 select-none">
+                <input
+                  type="checkbox"
+                  checked={showCompleted}
+                  onChange={(e) => setShowCompleted(e.target.checked)}
+                  className="w-3 h-3 rounded border-black/20 accent-ink"
+                />
+                Show completed projects
+              </label>
+              {(naView === "census-divisions" || naView === "counties") && (
+                <div className="mt-3 pt-2.5 border-t border-black/[.05]">
+                  <div className="text-[11px] font-semibold text-muted tracking-tight mb-2.5">
+                    Project types
+                  </div>
+                  <div className="flex flex-col gap-1.5">
+                    <LegendRow color={PROJECT_TYPE_COLOR.rental} label="Rental" />
+                    <LegendRow color={PROJECT_TYPE_COLOR.social} label="Social" />
+                    <LegendRow color={PROJECT_TYPE_COLOR.cooperative} label="Cooperative" />
+                    <LegendRow color={PROJECT_TYPE_COLOR.condo} label="Condo" />
+                    <LegendRow color={PROJECT_TYPE_COLOR.mixed} label="Mixed" />
+                  </div>
+                </div>
+              )}
+              {naView !== "census-divisions" && naView !== "counties" && (
+                <div className="mt-3 pt-2.5 border-t border-black/[.05]">
+                  {/* Size-band key. Dot size scales with cluster total units,
+                      mirroring the three buckets in ProjectDots. Stacked
+                      vertically so it reads alongside the status rows above. */}
+                  <div className="flex flex-col gap-1.5 mb-2.5">
+                    <SizeBandSwatch r={4} label="< 100 units" />
+                    <SizeBandSwatch r={7} label="100-500 units" />
+                    <SizeBandSwatch r={11} label="500+ units" />
+                  </div>
+                  <p className="text-[11px] text-muted tracking-tight leading-[1.45]">
+                    A number inside a dot means several projects sit
+                    nearby.
+                  </p>
+                  <p className="mt-1.5 text-[11px] text-muted/70 tracking-tight">
+                    CMHC · public records · research
+                  </p>
+                </div>
+              )}
               {region === "na" && (naView === "provinces" || naView === "census-divisions") && (
                 <p className="mt-2 text-[10px] text-muted/60 tracking-tight leading-snug">
                   Statistics Canada, 2021 Census Boundary Files.

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { geoMercator, geoPath } from "d3-geo";
+import { geoCentroid, geoMercator, geoPath } from "d3-geo";
 import type { FeatureCollection, Geometry } from "geojson";
 import { feature } from "topojson-client";
 import type { Topology, GeometryCollection } from "topojson-specification";
@@ -9,13 +9,29 @@ import { NEUTRAL_FILL, NEUTRAL_STROKE, type SetTooltip } from "@/lib/map-utils";
 import {
   getCensusDivisionByUid,
 } from "@/lib/census-division-data";
-import { PROVINCE_UID, type MunicipalActionStatus } from "@/types";
+import { PROVINCE_ABBR, PROVINCE_UID, type HousingProject, type MunicipalActionStatus } from "@/types";
+import { ALL_HOUSING_PROJECTS } from "@/lib/projects-map";
+import ProjectDots from "./ProjectDots";
 
 interface CensusDivisionMapProps {
   provinceName: string;
   onSelectCd: (cduid: string) => void;
   selectedCduid: string | null;
   setTooltip: SetTooltip;
+  showProjects?: boolean;
+  showCompleted?: boolean;
+  onHoverProject?: (
+    project: HousingProject,
+    x: number,
+    y: number,
+    clusterSize: number,
+  ) => void;
+  onLeaveProject?: () => void;
+  onSelectProject?: (project: HousingProject) => void;
+  /** Emits the geographic centroid [lat, lng] of the selected CD,
+   *  or null when nothing is selected. MapShell uses this to filter
+   *  the side panel's Projects tab by proximity. */
+  onCdCentroidChange?: (centroid: [number, number] | null) => void;
 }
 
 const CD_URL = "/geo/canada-census-divisions-2021.topo.json";
@@ -85,6 +101,40 @@ const CD_TYPE_LABEL: Record<string, string> = {
   DIS: "District",
 };
 
+/** Restore accented French names broken by Latin-1 to UTF-8 conversion
+ *  in the census divisions TopoJSON. */
+const CDNAME_FIX: Record<string, string> = {
+  "2401": "Les \u00CEles-de-la-Madeleine",
+  "2402": "Le Rocher-Perc\u00E9",
+  "2403": "La C\u00F4te-de-Gasp\u00E9",
+  "2404": "La Haute-Gasp\u00E9sie",
+  "2407": "La Matap\u00E9dia",
+  "2412": "Rivi\u00E8re-du-Loup",
+  "2413": "T\u00E9miscouata",
+  "2420": "L'\u00CEle-d'Orl\u00E9ans",
+  "2421": "La C\u00F4te-de-Beaupr\u00E9",
+  "2423": "Qu\u00E9bec",
+  "2425": "L\u00E9vis",
+  "2432": "L'\u00C9rable",
+  "2433": "Lotbini\u00E8re",
+  "2435": "M\u00E9kinac",
+  "2438": "B\u00E9cancour",
+  "2441": "Le Haut-Saint-Fran\u00E7ois",
+  "2442": "Le Val-Saint-Fran\u00E7ois",
+  "2445": "Memphr\u00E9magog",
+  "2451": "Maskinong\u00E9",
+  "2457": "La Vall\u00E9e-du-Richelieu",
+  "2466": "Montr\u00E9al",
+  "2473": "Th\u00E9r\u00E8se-De Blainville",
+  "2475": "La Rivi\u00E8re-du-Nord",
+  "2483": "La Vall\u00E9e-de-la-Gatineau",
+  "2485": "T\u00E9miscamingue",
+  "2489": "La Vall\u00E9e-de-l'Or",
+  "2495": "La Haute-C\u00F4te-Nord",
+  "2497": "Sept-Rivi\u00E8res--Caniapiscau",
+  "2499": "Nord-du-Qu\u00E9bec",
+};
+
 function cdTypeLabel(code: string | undefined): string {
   if (!code) return "Census division";
   return CD_TYPE_LABEL[code] ?? code;
@@ -122,6 +172,12 @@ export default function CensusDivisionMap({
   onSelectCd,
   selectedCduid,
   setTooltip,
+  showProjects = false,
+  showCompleted = false,
+  onHoverProject,
+  onLeaveProject,
+  onSelectProject,
+  onCdCentroidChange,
 }: CensusDivisionMapProps) {
   const provinceUid = PROVINCE_UID[provinceName];
   const [cds, setCds] = useState<CdCollection | null>(null);
@@ -180,14 +236,24 @@ export default function CensusDivisionMap({
       ? (caPath.bounds(provFeature) as [[number, number], [number, number]])
       : null;
 
+    // Filter housing projects for this province.
+    const provCode = PROVINCE_ABBR[provinceUid];
+    const provinceProjects = provCode
+      ? ALL_HOUSING_PROJECTS.filter(
+          (f) => f.state === provCode
+            && (showCompleted || f.status !== "operational"),
+        )
+      : [];
+
     return {
       projection,
       cdFeatures: filtered,
       zoomedPaths: paths,
       provincePaths: provincePath ? [provincePath] : [],
       bbox,
+      provinceProjects,
     };
-  }, [cds, provinces, provinceUid]);
+  }, [cds, provinces, provinceUid, showCompleted]);
 
   // Transform-based zoom animation (mirrors CountyMap).
   const [animateReady, setAnimateReady] = useState(false);
@@ -208,6 +274,29 @@ export default function CensusDivisionMap({
   useEffect(() => {
     firstMountRef.current = false;
   }, []);
+
+  // Emit the geographic centroid of the selected CD so MapShell can
+  // filter the side panel's Projects tab by proximity.
+  useEffect(() => {
+    if (!onCdCentroidChange) return;
+    if (!selectedCduid || !computed) {
+      onCdCentroidChange(null);
+      return;
+    }
+    const feat = computed.cdFeatures.find(
+      (f) => String(f.id ?? "").padStart(4, "0") === selectedCduid,
+    );
+    if (!feat) {
+      onCdCentroidChange(null);
+      return;
+    }
+    const [lng, lat] = geoCentroid(feat);
+    if (Number.isFinite(lat) && Number.isFinite(lng)) {
+      onCdCentroidChange([lat, lng]);
+    } else {
+      onCdCentroidChange(null);
+    }
+  }, [selectedCduid, computed, onCdCentroidChange]);
 
   const fromTransform = useMemo(() => {
     const bbox = computed?.bbox ?? null;
@@ -252,7 +341,7 @@ export default function CensusDivisionMap({
     );
   }
 
-  const { cdFeatures, zoomedPaths, provincePaths } = computed;
+  const { cdFeatures, zoomedPaths, provincePaths, provinceProjects } = computed;
 
   return (
     <div
@@ -297,7 +386,7 @@ export default function CensusDivisionMap({
           {zoomedPaths.map((d, i) => {
             const f = cdFeatures[i];
             const cduid = String(f.id ?? "").padStart(4, "0");
-            const cdName = f.properties?.CDNAME ?? cduid;
+            const cdName = CDNAME_FIX[cduid] ?? f.properties?.CDNAME ?? cduid;
             const cdType = f.properties?.CDTYPE;
             const cd = getCensusDivisionByUid(cduid);
             const statuses: MunicipalActionStatus[] =
@@ -340,6 +429,19 @@ export default function CensusDivisionMap({
               />
             );
           })}
+
+          {/* Compact project dots (small circles colored by projectType) */}
+          {showProjects && onHoverProject && onLeaveProject && (
+            <ProjectDots
+              projects={provinceProjects}
+              projection={(coords) => computed.projection(coords)}
+              compact
+              clusterDeg={0.4}
+              onHoverProject={onHoverProject}
+              onLeaveProject={onLeaveProject}
+              onSelectProject={onSelectProject}
+            />
+          )}
         </g>
       </svg>
     </div>

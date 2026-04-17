@@ -14,6 +14,7 @@ import {
 import { ENTITIES } from "@/lib/placeholder-data";
 import { DIMENSION_TAGS } from "@/lib/dimensions";
 import BillTimeline from "@/components/ui/BillTimeline";
+import StanceBadge from "@/components/ui/StanceBadge";
 import BillExpanded from "@/components/panel/BillExpanded";
 
 interface LegislationTableProps {
@@ -232,7 +233,7 @@ export default function LegislationTable({
       rows = rows.filter((r) => matchesStatus(r.bill.stage, activeStatus));
     }
 
-    if (dimension !== "overall") {
+    if (dimension !== "overall" && dimension !== "crisis") {
       const dimensionTags = new Set(DIMENSION_TAGS[dimension]);
       rows = rows.filter((r) =>
         r.bill.impactTags.some((t) => dimensionTags.has(t)),
@@ -264,7 +265,7 @@ export default function LegislationTable({
         billMatchesCategoryFilter(r.bill.category, activeCategory),
       );
     }
-    if (dimension !== "overall") {
+    if (dimension !== "overall" && dimension !== "crisis") {
       const dimensionTags = new Set(DIMENSION_TAGS[dimension]);
       rows = rows.filter((r) =>
         r.bill.impactTags.some((t) => dimensionTags.has(t)),
@@ -293,7 +294,7 @@ export default function LegislationTable({
   // Hide categories that have zero bills under the current dimension filter,
   // but always keep "all" visible.
   const dimensionFilteredRows = useMemo(() => {
-    if (dimension === "overall") return allRows;
+    if (dimension === "overall" || dimension === "crisis") return allRows;
     const dimensionTags = new Set(DIMENSION_TAGS[dimension]);
     return allRows.filter((r) =>
       r.bill.impactTags.some((t) => dimensionTags.has(t)),
@@ -570,8 +571,9 @@ export default function LegislationTable({
                     }}
                     className="w-full text-left cursor-pointer outline-none focus-visible:ring-2 focus-visible:ring-ink/20 rounded-lg"
                   >
-                    <div className="flex items-baseline gap-2 text-xs text-muted">
+                    <div className="flex items-center gap-2 text-xs text-muted">
                       <span>{bill.billCode}</span>
+                      <StanceBadge stance={bill.stance ?? "review"} size="sm" />
                       <span aria-hidden>·</span>
                       <button
                         type="button"

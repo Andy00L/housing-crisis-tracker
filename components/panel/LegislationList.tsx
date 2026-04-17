@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { HousingProject, Legislation } from "@/types";
 import BillTimeline from "@/components/ui/BillTimeline";
+import StanceBadge from "@/components/ui/StanceBadge";
 import BillExpanded from "./BillExpanded";
 
 interface LegislationListProps {
@@ -38,7 +39,10 @@ export default function LegislationList({
           >
             <div className="flex items-start justify-between gap-3">
               <div className="flex-1 min-w-0">
-                <div className="text-xs text-muted">{bill.billCode}</div>
+                <div className="flex items-center gap-2">
+                  <span className="text-xs text-muted">{bill.billCode}</span>
+                  <StanceBadge stance={bill.stance ?? "review"} size="sm" />
+                </div>
                 <div className="text-sm font-medium mt-1 text-ink tracking-tight">
                   {bill.title}
                 </div>

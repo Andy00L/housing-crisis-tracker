@@ -30,6 +30,14 @@ jobs:
 
       - run: npm ci --no-audit --no-fund
 
+      - name: CMHC projects (StatsCan CSV)
+        run: npx tsx scripts/sync/cmhc-projects.ts
+        continue-on-error: true
+
+      - name: NHS individual projects (HICC CSV)
+        run: npx tsx scripts/sync/cmhc-nhs-projects.ts
+        continue-on-error: true
+
       - name: Canadian housing projects (Tavily research)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

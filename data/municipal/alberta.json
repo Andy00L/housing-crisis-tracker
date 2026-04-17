@@ -1,0 +1,84 @@
+[
+  {
+    "id": "cd-4806",
+    "name": "Division No. 6",
+    "fips": "4806",
+    "state": "Alberta",
+    "stateCode": "AB",
+    "type": "census-division",
+    "actions": [
+      {
+        "title": "Citywide residential rezoning for housing (blanket rezoning)",
+        "date": "2024-08-15",
+        "status": "failed",
+        "summary": "Calgary changed its Land Use Bylaw to make R-CG the default residential district citywide, allowing duplexes, rowhouses, and townhouses. After sustained public opposition (411 speakers, 3,300 written submissions at the repeal hearing), council voted 12-3 to repeal the policy on April 8, 2026. The repeal may jeopardize Calgary's $251 million Housing Accelerator Fund agreement with CMHC.",
+        "sourceUrl": "https://www.calgary.ca/planning/projects/rezoning-for-housing.html"
+      }
+    ],
+    "concerns": ["density", "nimby", "community-opposition"],
+    "contextBlurb": "Calgary's attempt at blanket residential rezoning became one of Canada's most contentious housing debates. After a 16-day public hearing in 2024, the city enacted the policy, only to repeal it in April 2026 following continued opposition. The reversal puts the city's $251 million federal housing funding at risk."
+  },
+  {
+    "id": "cd-4811",
+    "name": "Division No. 11",
+    "fips": "4811",
+    "state": "Alberta",
+    "stateCode": "AB",
+    "type": "census-division",
+    "actions": [
+      {
+        "title": "Zoning Bylaw Renewal eliminating single-family-only zoning (Charter Bylaw 20001)",
+        "date": "2024-01-01",
+        "status": "enacted",
+        "summary": "Comprehensive overhaul that eliminated single-family-only zoning. Reduced residential zones from 16 to 6. The small-scale residential zone allows up to 8 units on mid-block sites of 600+ m2. In 2024, the city approved 16,519 new dwelling units, a 30% increase over 2023.",
+        "sourceUrl": "https://www.edmonton.ca/city_government/urban_planning_and_design/zoning-bylaw-renewal"
+      }
+    ],
+    "concerns": ["density", "affordability", "lot-splitting"],
+    "contextBlurb": "Edmonton took the boldest step of any major Canadian city, eliminating single-family-only zoning entirely in January 2024. The result: dwelling unit approvals jumped 30% in the first year, with multiplex construction more than doubling. The city has become a national model for zoning reform."
+  },
+  {
+    "id": "cd-4808",
+    "name": "Division No. 8",
+    "fips": "4808",
+    "state": "Alberta",
+    "stateCode": "AB",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["affordability"],
+    "contextBlurb": "Red Deer and surrounding communities in Division No. 8 are tracked as part of Alberta housing coverage. The city has seen population growth driven by affordability relative to Calgary and Edmonton."
+  },
+  {
+    "id": "cd-4802",
+    "name": "Division No. 2",
+    "fips": "4802",
+    "state": "Alberta",
+    "stateCode": "AB",
+    "type": "census-division",
+    "actions": [],
+    "concerns": [],
+    "contextBlurb": "Lethbridge and surrounding communities in Division No. 2 are tracked as part of Alberta housing coverage."
+  },
+  {
+    "id": "cd-4801",
+    "name": "Division No. 1",
+    "fips": "4801",
+    "state": "Alberta",
+    "stateCode": "AB",
+    "type": "census-division",
+    "actions": [],
+    "concerns": [],
+    "contextBlurb": "Medicine Hat and surrounding communities in Division No. 1 are tracked as part of Alberta housing coverage."
+  },
+  {
+    "id": "cd-4819",
+    "name": "Division No. 19",
+    "fips": "4819",
+    "state": "Alberta",
+    "stateCode": "AB",
+    "type": "census-division",
+    "actions": [],
+    "concerns": [],
+    "contextBlurb": "Grande Prairie and surrounding communities in Division No. 19 are tracked as part of Alberta housing coverage."
+  }
+]

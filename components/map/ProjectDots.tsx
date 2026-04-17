@@ -30,7 +30,18 @@ interface ProjectDotsProps {
    * direct via prop is the reliable path.
    */
   projection?: (coords: [number, number]) => [number, number] | null;
+  /** Compact mode for drill-down views: small circles colored by projectType. */
+  compact?: boolean;
 }
+
+/** Drill-down dot color by housing project type. */
+export const PROJECT_TYPE_COLOR: Record<string, string> = {
+  rental:      "#3B82F6",
+  social:      "#22C55E",
+  cooperative: "#8B5CF6",
+  condo:       "#F97316",
+  mixed:       "#6B7280",
+};
 
 interface Cluster {
   key: string;
@@ -40,6 +51,7 @@ interface Cluster {
   lng: number;
   totalUnits: number;
   dominantStatus: HousingProjectStatus | "mixed";
+  dominantType: string;
 }
 
 export type ProjectDotStatus = HousingProjectStatus | "mixed";
@@ -277,6 +289,16 @@ function clusterProjects(facs: HousingProject[], cellDeg: number): Cluster[] {
       if ((f.unitCount ?? 0) > (repr.unitCount ?? 0)) repr = f;
     }
     const statuses = new Set(bucket.map((f) => f.status));
+    const typeCounts = new Map<string, number>();
+    for (const f of bucket) {
+      const t = f.projectType ?? "mixed";
+      typeCounts.set(t, (typeCounts.get(t) ?? 0) + 1);
+    }
+    let dominantType = "mixed";
+    let maxTypeCount = 0;
+    for (const [t, n] of typeCounts) {
+      if (n > maxTypeCount) { maxTypeCount = n; dominantType = t; }
+    }
     clusters.push({
       key,
       projects: bucket,
@@ -285,6 +307,7 @@ function clusterProjects(facs: HousingProject[], cellDeg: number): Cluster[] {
       lng: sumLng / bucket.length,
       totalUnits,
       dominantStatus: statuses.size === 1 ? bucket[0].status : "mixed",
+      dominantType,
     });
   }
   // Biggest first so small dots render on top and aren't hidden.
@@ -316,6 +339,7 @@ export default function ProjectDots({
   onSelectProject,
   clusterDeg = 1.8,
   projection: projectionProp,
+  compact = false,
 }: ProjectDotsProps) {
   const clusters = useMemo(
     () => clusterProjects(projects, clusterDeg),
@@ -355,6 +379,58 @@ export default function ProjectDots({
         }
         const [x, y] = projected;
         if (!Number.isFinite(x) || !Number.isFinite(y)) return null;
+
+        if (compact) {
+          const typeColor = PROJECT_TYPE_COLOR[c.dominantType] ?? PROJECT_TYPE_COLOR.mixed;
+          const isCluster = c.projects.length > 1;
+          const compactR = isCluster ? (c.projects.length >= 6 ? 10 : 7) : 5;
+          return (
+            <g key={c.key}>
+              <circle
+                cx={x}
+                cy={y}
+                r={compactR}
+                fill={typeColor}
+                stroke="#FFFFFF"
+                strokeWidth={1}
+                shapeRendering="geometricPrecision"
+                style={{
+                  cursor: onSelectProject ? "pointer" : "default",
+                  pointerEvents: "all",
+                }}
+                onMouseEnter={(e) =>
+                  onHoverProject(c.repr, e.clientX, e.clientY, c.projects.length)
+                }
+                onMouseMove={(e) =>
+                  onHoverProject(c.repr, e.clientX, e.clientY, c.projects.length)
+                }
+                onMouseLeave={() => onLeaveProject()}
+                onClick={
+                  onSelectProject ? () => onSelectProject(c.repr) : undefined
+                }
+              />
+              {isCluster && compactR >= 7 && (
+                <text
+                  x={x}
+                  y={y}
+                  textAnchor="middle"
+                  dominantBaseline="central"
+                  style={{
+                    fontSize: compactR >= 10 ? "9px" : "8px",
+                    fontWeight: 600,
+                    fontFamily: "inherit",
+                    fill: "#FFFFFF",
+                    pointerEvents: "none",
+                    letterSpacing: "-0.02em",
+                  }}
+                >
+                  {c.projects.length}
+                </text>
+              )}
+            </g>
+          );
+        }
+
         const r = clusterRadius(c.totalUnits);
         return (
           <g key={c.key} transform={`translate(${x}, ${y})`}>

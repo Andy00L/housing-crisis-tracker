@@ -1,13 +1,20 @@
 import type { MunicipalEntity } from "@/types";
 
+import quebec from "@/data/municipal/quebec.json";
+import ontario from "@/data/municipal/ontario.json";
+import alberta from "@/data/municipal/alberta.json";
+import newBrunswick from "@/data/municipal/new-brunswick.json";
+
 /**
  * Census division entity data, keyed by 4-digit CDUID.
  *
- * Mirrors lib/municipal-data.ts for US counties. Initially empty;
- * the data pipeline will populate data/municipal/canada/*.json over time.
- * Once data files exist, import and concat them here like the US ones.
+ * Mirrors lib/municipal-data.ts for US counties. Data files live in
+ * data/municipal/ alongside the US state files, using the same
+ * MunicipalEntity shape with `fips` holding the 4-digit CDUID.
  */
-const ALL: MunicipalEntity[] = [];
+const ALL: MunicipalEntity[] = ([] as unknown[])
+  .concat(quebec, ontario, alberta, newBrunswick)
+  .filter(Boolean) as MunicipalEntity[];
 
 const BY_CDUID = new Map<string, MunicipalEntity>();
 for (const m of ALL) {

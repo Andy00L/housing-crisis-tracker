@@ -1,0 +1,120 @@
+[
+  {
+    "id": "cd-3520",
+    "name": "Toronto",
+    "fips": "3520",
+    "state": "Ontario",
+    "stateCode": "ON",
+    "type": "census-division",
+    "actions": [
+      {
+        "title": "Citywide multiplex zoning permitting up to 4 units as-of-right",
+        "date": "2023-05-10",
+        "status": "enacted",
+        "summary": "Official Plan Amendment 649 and associated zoning amendments permit duplexes, triplexes, and fourplexes on all Neighbourhoods-designated residential lands without requiring a rezoning or minor variance application.",
+        "sourceUrl": "https://www.toronto.ca/city-government/planning-development/planning-studies-initiatives/multiplex-housing/multiplex-study-2-4-units/"
+      },
+      {
+        "title": "Sixplex zoning with development charge waiver in nine wards",
+        "date": "2025-06-25",
+        "status": "enacted",
+        "summary": "Council approved as-of-right sixplex permissions in nine wards. Mayor Chow's motion waived development charges and parkland dedications for all units in sixplexes, eliminating $200,000 to $270,000 in charges per project.",
+        "sourceUrl": "https://www.toronto.ca/city-government/planning-development/"
+      },
+      {
+        "title": "Inclusionary zoning near 89 protected major transit station areas",
+        "date": "2025-08-15",
+        "status": "enacted",
+        "summary": "Requires 5% of units in new developments near 89 approved transit station areas to be affordable rental or ownership. Applies to buildings of 100+ units or 8,000+ m2 of residential GFA. Affordability terms capped at 25 years by the province.",
+        "sourceUrl": "https://www.toronto.ca/city-government/planning-development/planning-studies-initiatives/inclusionary-zoning-policy/"
+      }
+    ],
+    "concerns": ["affordability", "density", "inclusionary-zoning", "transit-oriented"],
+    "contextBlurb": "A one-bedroom in Toronto now averages over $2,400 per month, and the vacancy rate sits below 2%. The city has enacted multiplex zoning reforms allowing up to four units as-of-right on any residential lot, with sixplex approvals in select wards. Inclusionary zoning near transit stations is now active after years of provincial delay."
+  },
+  {
+    "id": "cd-3506",
+    "name": "Ottawa",
+    "fips": "3506",
+    "state": "Ontario",
+    "stateCode": "ON",
+    "type": "census-division",
+    "actions": [
+      {
+        "title": "Comprehensive zoning overhaul permitting fourplexes on all serviced lots (By-law 2026-50)",
+        "date": "2026-03-11",
+        "status": "enacted",
+        "summary": "The most comprehensive zoning overhaul in Ottawa's history. Permits fourplexes on all serviced residential lots and allows missing-middle housing (8 to 16 unit buildings) through simplified as-of-right rules. Aligned with federal Housing Accelerator Fund commitments.",
+        "sourceUrl": "https://ottawa.ca/en/living-ottawa/laws-licences-and-permits/laws/laws-z/zoning-law-law-no-2026-50"
+      }
+    ],
+    "concerns": ["affordability", "density", "lot-splitting"],
+    "contextBlurb": "Ottawa enacted its most sweeping zoning reform in March 2026, allowing fourplexes on every serviced residential lot. The overhaul fulfills the city's Housing Accelerator Fund commitments and opens the door to missing-middle housing across established neighbourhoods."
+  },
+  {
+    "id": "cd-3521",
+    "name": "Peel",
+    "fips": "3521",
+    "state": "Ontario",
+    "stateCode": "ON",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["affordability", "density"],
+    "contextBlurb": "Peel Region (Mississauga, Brampton, Caledon) faces rapid population growth and rising housing costs. With the province dissolving the regional government, housing policy is in transition as municipalities prepare to assume planning authority directly."
+  },
+  {
+    "id": "cd-3525",
+    "name": "Hamilton",
+    "fips": "3525",
+    "state": "Ontario",
+    "stateCode": "ON",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["affordability", "displacement"],
+    "contextBlurb": "Hamilton has seen rapid gentrification in its downtown core, with rents rising sharply as Toronto-area workers seek more affordable alternatives. The city is tracking provincial housing targets under the More Homes Built Faster Act."
+  },
+  {
+    "id": "cd-3539",
+    "name": "Middlesex",
+    "fips": "3539",
+    "state": "Ontario",
+    "stateCode": "ON",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["affordability"],
+    "contextBlurb": "London and Middlesex County are seeing increased development pressure as southwestern Ontario's population grows. Housing starts have picked up, but affordability remains a challenge for renters and first-time buyers."
+  },
+  {
+    "id": "cd-3519",
+    "name": "York",
+    "fips": "3519",
+    "state": "Ontario",
+    "stateCode": "ON",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["affordability", "density"],
+    "contextBlurb": "York Region (Markham, Vaughan, Richmond Hill) is one of the fastest-growing areas in the Greater Toronto Area. Transit expansion along the Yonge North subway extension is expected to unlock significant new housing capacity."
+  },
+  {
+    "id": "cd-3530",
+    "name": "Waterloo",
+    "fips": "3530",
+    "state": "Ontario",
+    "stateCode": "ON",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["affordability", "density"],
+    "contextBlurb": "Waterloo Region (Kitchener, Waterloo, Cambridge) has seen rapid growth fueled by its tech sector. The ION light rail has spurred transit-oriented development, but housing demand continues to outpace supply."
+  },
+  {
+    "id": "cd-3537",
+    "name": "Essex",
+    "fips": "3537",
+    "state": "Ontario",
+    "stateCode": "ON",
+    "type": "census-division",
+    "actions": [],
+    "concerns": ["affordability"],
+    "contextBlurb": "Windsor and Essex County have experienced a housing surge tied to the NextStar EV battery plant and related manufacturing investments. Rental vacancy has tightened significantly."
+  }
+]

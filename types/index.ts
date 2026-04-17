@@ -36,11 +36,11 @@ export interface MunicipalAction {
 export interface MunicipalEntity {
   id: string;
   name: string;
-  /** 5-digit FIPS code matching the us-atlas counties-10m.json feature id. */
+  /** 5-digit FIPS code (US) or 4-digit CDUID (Canada). */
   fips: string;
   state: string;
   stateCode: string;
-  type: "county" | "city" | "town" | "township";
+  type: "county" | "city" | "town" | "township" | "census-division";
   actions: MunicipalAction[];
   concerns: ImpactTag[];
   contextBlurb: string;
@@ -219,6 +219,7 @@ export type LegislationCategory =
 
 export type Dimension =
   | "overall"
+  | "crisis"
   // Zoning lens
   | "affordability"
   | "supply"
@@ -282,6 +283,7 @@ export const CATEGORY_LABEL: Record<LegislationCategory, string> = {
 
 export const DIMENSION_LABEL: Record<Dimension, string> = {
   overall: "Overall stance",
+  crisis: "Crisis severity",
   // Zoning lens
   affordability: "Affordability",
   supply: "Housing supply",

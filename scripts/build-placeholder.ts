@@ -254,6 +254,8 @@ interface CaProject {
   sourceUrl?: string;
   blurb?: string;
   concerns?: string[];
+  lat?: number;
+  lng?: number;
 }
 
 interface CaProjectsFile {
@@ -336,6 +338,8 @@ function toHousingProject(p: CaProject): Record<string, unknown> | null {
     location: p.city,
     state: provinceCode,
     country: "Canada",
+    lat: typeof p.lat === "number" ? p.lat : undefined,
+    lng: typeof p.lng === "number" ? p.lng : undefined,
     unitCount: p.unitCount,
     affordableUnits: p.affordableUnits,
     projectCost: p.projectCost,

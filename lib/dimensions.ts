@@ -7,6 +7,9 @@ import { STANCE_HEX } from "./map-utils";
  */
 export const DIMENSION_TAGS: Record<Exclude<Dimension, "overall">, ImpactTag[]> =
   {
+    // Crisis uses metric-based scoring, not tag density. Empty array
+    // keeps the Record exhaustive so other call-sites compile.
+    crisis: [],
     // ─── Zoning lens ─────────────────────────────────────────────────
     affordability: [
       "affordability",
@@ -49,6 +52,7 @@ export const DIMENSION_COLOR: Record<
   Exclude<Dimension, "overall">,
   string
 > = {
+  crisis: "#B91C1C",
   // Zoning lens
   affordability: "#D67A4A",
   supply: "#4F8B58",
@@ -68,6 +72,7 @@ export const DIMENSION_TEXT: Record<
   Exclude<Dimension, "overall">,
   string
 > = {
+  crisis: "#FFFFFF",
   affordability: "#FFFFFF",
   supply: "#FFFFFF",
   "rental-market": "#FFFFFF",
@@ -86,6 +91,9 @@ export const DIMENSION_GRADIENT: Record<
   Exclude<Dimension, "overall">,
   { from: string; to: string }
 > = {
+  // Crisis bypasses gradient interpolation (has its own bucket logic).
+  // Placeholder keeps the Record exhaustive.
+  crisis: { from: "#D1D5DB", to: "#DC2626" },
   // Zoning lens
   affordability: { from: "#F0C5A0", to: "#A04830" },
   supply: { from: "#3D7849", to: "#7A4F2A" },
@@ -129,8 +137,68 @@ function getDimensionScore(
 }
 
 /**
+ * Composite crisis severity score built from populated housingMetrics fields.
+ *
+ * Factors (0..3 each, max total 12):
+ *   nhpiIndex        cumulative price level (thresholds tuned to Canadian
+ *                    StatCan NHPI base=100. US FHFA values always max out,
+ *                    which correctly lifts every US state above the CA floor.)
+ *   nhpiChangeYoY    year-over-year price acceleration
+ *   avgRent          monthly rent burden (US entities)
+ *   medianHomePrice  ownership barrier (US entities)
+ *
+ * Returns null when no scoring factor is available (EU/Asia entities with
+ * no housingMetrics, or metrics that contain only metadata fields).
+ */
+export function crisisSeverityScore(entity: Entity): number | null {
+  const m = entity.housingMetrics;
+  if (!m) return null;
+
+  let score = 0;
+  let factors = 0;
+
+  if (typeof m.nhpiIndex === "number") {
+    factors++;
+    if (m.nhpiIndex > 130) score += 3;
+    else if (m.nhpiIndex > 120) score += 2;
+    else if (m.nhpiIndex > 110) score += 1;
+  }
+
+  if (typeof m.nhpiChangeYoY === "number") {
+    factors++;
+    if (m.nhpiChangeYoY >= 10) score += 3;
+    else if (m.nhpiChangeYoY >= 7) score += 2;
+    else if (m.nhpiChangeYoY >= 3) score += 1;
+  }
+
+  if (typeof m.avgRent === "number") {
+    factors++;
+    if (m.avgRent >= 1800) score += 3;
+    else if (m.avgRent >= 1400) score += 2;
+    else if (m.avgRent >= 1000) score += 1;
+  }
+
+  if (typeof m.medianHomePrice === "number") {
+    factors++;
+    if (m.medianHomePrice >= 500000) score += 3;
+    else if (m.medianHomePrice >= 350000) score += 2;
+    else if (m.medianHomePrice >= 250000) score += 1;
+  }
+
+  if (factors === 0) return null;
+  return score;
+}
+
+const CRISIS_NO_DATA = "#D1D5DB";
+const CRISIS_SEVERE = "#DC2626";
+const CRISIS_MODERATE = "#F59E0B";
+const CRISIS_MILD = "#FBBF24";
+const CRISIS_MANAGEABLE = "#22C55E";
+
+/**
  * Returns the fill color for an entity under the given dimension.
  *  - "overall" → uses the entity's stance from STANCE_HEX (diverging palette).
+ *  - "crisis"  → buckets crisisSeverityScore into 4 severity tiers + gray.
  *  - any other → interpolates the dimension's gradient based on the entity's
  *    tag-density score (continuous, not bucketed).
  */
@@ -143,6 +211,16 @@ export function getEntityColorForDimension(
     const stance = lens === "affordability" ? entity.stanceAffordability : entity.stanceZoning;
     return STANCE_HEX[stance];
   }
+
+  if (dimension === "crisis") {
+    const s = crisisSeverityScore(entity);
+    if (s === null) return CRISIS_NO_DATA;
+    if (s >= 7) return CRISIS_SEVERE;
+    if (s >= 4) return CRISIS_MODERATE;
+    if (s >= 1) return CRISIS_MILD;
+    return CRISIS_MANAGEABLE;
+  }
+
   const score = getDimensionScore(entity, dimension);
   const grad = DIMENSION_GRADIENT[dimension];
   return lerpHex(grad.from, grad.to, score);

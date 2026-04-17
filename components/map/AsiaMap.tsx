@@ -28,6 +28,7 @@ interface AsiaMapProps {
   dimension?: Dimension;
   lens?: DimensionLens;
   showProjects?: boolean;
+  showCompleted?: boolean;
   onHoverProject?: (
     project: HousingProject,
     x: number,
@@ -69,6 +70,7 @@ export default function AsiaMap({
   dimension = "overall",
   lens = "zoning",
   showProjects = false,
+  showCompleted = false,
   onHoverProject,
   onLeaveProject,
   onSelectProject,

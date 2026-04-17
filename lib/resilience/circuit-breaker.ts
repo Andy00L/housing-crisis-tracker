@@ -42,6 +42,7 @@ const TIMEOUTS: Record<SourceName, number> = {
   // quick, but the overall runActor() call wraps a long-lived operation.
   apify: 600_000,
   legiscan: 30_000,
+  "cmhc-nhs": 60_000, // HICC CSV export is ~10 MB; needs generous timeout
 };
 
 /** Override breaker options per source if the default tuning doesn't fit. */

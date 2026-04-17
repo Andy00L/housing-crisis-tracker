@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo } from "react";
 import {
   ComposableMap,
   Geographies,
@@ -34,6 +35,7 @@ interface USStatesMapProps {
   dimension?: Dimension;
   lens?: DimensionLens;
   showProjects?: boolean;
+  showCompleted?: boolean;
   /** When set, that state visually "lifts" (scales up + drop-shadow) and
    *  the rest fade — staged before MapShell flips to CountyMap so the
    *  drill reads as a focus, not a hard cut. */
@@ -69,11 +71,17 @@ export default function USStatesMap({
   dimension = "overall",
   lens = "zoning",
   showProjects = false,
+  showCompleted = false,
   drillingTo = null,
   onHoverProject,
   onLeaveProject,
   onSelectProject,
 }: USStatesMapProps) {
+  const visibleProjects = useMemo(
+    () => showCompleted ? US_PROJECTS : US_PROJECTS.filter(p => p.status !== "operational"),
+    [showCompleted],
+  );
+
   return (
     <div
       className="relative w-full h-full"
@@ -192,7 +200,7 @@ export default function USStatesMap({
         </Geographies>
         {showProjects && onHoverProject && onLeaveProject && (
           <ProjectDots projection={usProjection as unknown as (c: [number, number]) => [number, number] | null}
-            projects={US_PROJECTS}
+            projects={visibleProjects}
             onHoverProject={onHoverProject}
             onLeaveProject={onLeaveProject}
             onSelectProject={onSelectProject}

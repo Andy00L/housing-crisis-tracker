@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo } from "react";
 import {
   ComposableMap,
   Geographies,
@@ -32,6 +33,7 @@ interface NorthAmericaMapProps {
   dimension?: Dimension;
   lens?: DimensionLens;
   showProjects?: boolean;
+  showCompleted?: boolean;
   onHoverProject?: (
     project: HousingProject,
     x: number,
@@ -70,10 +72,16 @@ export default function NorthAmericaMap({
   dimension = "overall",
   lens = "zoning",
   showProjects = false,
+  showCompleted = false,
   onHoverProject,
   onLeaveProject,
   onSelectProject,
 }: NorthAmericaMapProps) {
+  const visibleProjects = useMemo(
+    () => showCompleted ? ALL_HOUSING_PROJECTS : ALL_HOUSING_PROJECTS.filter(p => p.status !== "operational"),
+    [showCompleted],
+  );
+
   return (
     <div
       className="relative w-full h-full"
@@ -305,7 +313,7 @@ export default function NorthAmericaMap({
 
         {showProjects && onHoverProject && onLeaveProject && (
           <ProjectDots projection={naProjection as unknown as (c: [number, number]) => [number, number] | null}
-            projects={ALL_HOUSING_PROJECTS}
+            projects={visibleProjects}
             onHoverProject={onHoverProject}
             onLeaveProject={onLeaveProject}
             onSelectProject={onSelectProject}

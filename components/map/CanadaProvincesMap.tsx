@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo } from "react";
 import {
   ComposableMap,
   Geographies,
@@ -41,6 +42,7 @@ interface CanadaProvincesMapProps {
   /** When set, that province visually "lifts" before flipping to CensusDivisionMap. */
   drillingTo?: string | null;
   showProjects?: boolean;
+  showCompleted?: boolean;
   onHoverProject?: (
     project: HousingProject,
     x: number,
@@ -83,10 +85,16 @@ export default function CanadaProvincesMap({
   lens = "zoning",
   drillingTo = null,
   showProjects = false,
+  showCompleted = false,
   onHoverProject,
   onLeaveProject,
   onSelectProject,
 }: CanadaProvincesMapProps) {
+  const visibleProjects = useMemo(
+    () => showCompleted ? CA_PROJECTS : CA_PROJECTS.filter(p => p.status !== "operational"),
+    [showCompleted],
+  );
+
   return (
     <div
       className="relative w-full h-full"
@@ -208,7 +216,7 @@ export default function CanadaProvincesMap({
                 c: [number, number],
               ) => [number, number] | null
             }
-            projects={CA_PROJECTS}
+            projects={visibleProjects}
             onHoverProject={onHoverProject}
             onLeaveProject={onLeaveProject}
             onSelectProject={onSelectProject}
