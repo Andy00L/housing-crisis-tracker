@@ -62,6 +62,14 @@ interface CaProject {
   [key: string]: unknown;
 }
 
+interface CanadaProjectsFile {
+  country: string;
+  currency: string;
+  lastUpdated: string;
+  projects: CaProject[];
+  [key: string]: unknown;
+}
+
 // ── Generic description detection ───────────────────────────────────
 function isGenericDescription(blurb?: string): boolean {
   if (!blurb || blurb.length < 30) return true;
@@ -69,8 +77,9 @@ function isGenericDescription(blurb?: string): boolean {
   return (
     lower.includes("affordable and in good condition") ||
     lower.includes("housing is adequate") ||
+    lower.includes("housing is in good condition") ||
     (lower.startsWith("nhs program:") && !lower.includes(". ")) ||
-    lower.split(". ").length <= 2
+    /^federal commitment:\s*\$[\d.,]+[mk]?\.?$/i.test(blurb.trim())
   );
 }
 
@@ -173,8 +182,41 @@ async function main() {
   }
 
   const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-  const raw = JSON.parse(readFileSync(DATA_PATH, "utf8")) as CaProject[];
-  const projects = Array.isArray(raw) ? raw : [];
+
+  let fileContent: string;
+  try {
+    fileContent = readFileSync(DATA_PATH, "utf8");
+  } catch {
+    console.error(`[enrich-projects] Cannot read ${DATA_PATH}`);
+    process.exit(1);
+  }
+
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(fileContent);
+  } catch (err) {
+    console.error(
+      `[enrich-projects] Malformed JSON in ${DATA_PATH}: ${(err as Error).message}`,
+    );
+    process.exit(1);
+  }
+
+  let wrapper: CanadaProjectsFile | null = null;
+  let projects: CaProject[];
+
+  if (Array.isArray(parsed)) {
+    projects = parsed as CaProject[];
+  } else if (
+    parsed !== null &&
+    typeof parsed === "object" &&
+    Array.isArray((parsed as CanadaProjectsFile).projects)
+  ) {
+    wrapper = parsed as CanadaProjectsFile;
+    projects = wrapper.projects;
+  } else {
+    console.error("[enrich-projects] Unexpected data format in canada.json");
+    process.exit(1);
+  }
 
   // Select projects with generic descriptions, sorted by unit count
   const candidates = projects
@@ -276,9 +318,10 @@ async function main() {
     await new Promise((r) => setTimeout(r, 500));
   }
 
-  // Write back
+  // Write back, preserving the wrapper object if present
   if (!DRY_RUN && enriched > 0) {
-    writeFileSync(DATA_PATH, JSON.stringify(projects, null, 2));
+    const output = wrapper ?? projects;
+    writeFileSync(DATA_PATH, JSON.stringify(output, null, 2) + "\n");
     console.log(`\n[enrich-projects] Wrote ${enriched} enriched projects back to ${DATA_PATH}`);
   } else if (DRY_RUN) {
     console.log(`\n[enrich-projects] Dry run. ${enriched} projects would have been enriched.`);

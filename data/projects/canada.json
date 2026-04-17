@@ -979,7 +979,8 @@
         "affordability"
       ],
       "lat": 43.68647385,
-      "lng": -79.28651428
+      "lng": -79.28651428,
+      "storyBlurb": "The 777 Victoria Park Avenue project in Toronto will deliver 705 rental units, of which 256 are designated as affordable homes, and includes childcare and community space. The development is located near Victoria Park station on the Danforth and was enabled by a city-initiated rezoning adopted in November 2019. The project is funded through the Apartment Construction Loan Program (ACLP)."
     },
     {
       "id": "nhs-the-hadley",
@@ -1037,7 +1038,8 @@
         "affordability"
       ],
       "lat": 49.26298904,
-      "lng": -122.9998245
+      "lng": -122.9998245,
+      "storyBlurb": "Brentwood Block Building 3 is a 574-unit residential project developed by Grosvenor in Burnaby, BC, funded through the federal Apartment Construction Loan Program (ACLP). The project is part of a larger Brentwood Block development that includes multiple towers and a community centre. The development received over $763 million in federal funding to support construction of approximately 1,300 homes across the entire project."
     },
     {
       "id": "nhs-brentwood-block-building-4",
@@ -1056,7 +1058,8 @@
         "affordability"
       ],
       "lat": 49.26617432,
-      "lng": -122.9990005
+      "lng": -122.9990005,
+      "storyBlurb": "Brentwood Block Building 4 is a 705-unit apartment building in Burnaby, BC developed by Grosvenor as part of a larger mixed-use master plan. The project received federal funding through the Apartment Construction Loan Program and is part of a broader Brentwood Block development that will include approximately 2,000 market rental units and 450 below-market rental homes. The development aligns with Burnaby's non-market housing policy objectives."
     },
     {
       "id": "nhs-780-baseline-road-phase-1",
@@ -1117,7 +1120,8 @@
         "indigenous-housing"
       ],
       "lat": 49.8952179,
-      "lng": -97.14431763
+      "lng": -97.14431763,
+      "storyBlurb": "The Manitoba Urban Indigenous Portfolio is a 738-unit affordable housing initiative in Winnipeg developed through the Affordable Housing Fund program, targeting Aboriginal elderly persons, individuals with disabilities, and families with low to moderate incomes. The project includes the Naawi-Oodena urban reserve and represents the first major urban Aboriginal housing development in Manitoba in over a decade. Construction is planned to be completed in January 2028 with an Indigenous workforce comprising 60 percent of the labor force."
     },
     {
       "id": "nhs-housing-northwest-territories-repairs",
@@ -2309,7 +2313,8 @@
         "indigenous-housing"
       ],
       "lat": 63.74977875,
-      "lng": -68.50340271
+      "lng": -68.50340271,
+      "storyBlurb": "The Nunavut Housing Corporation is conducting mold remediation work on 609 housing units across Iqaluit and other Nunavut communities through the Affordable Housing Fund program. The project addresses widespread mold problems in government-owned housing stock, with initial phases targeting 52 units across 11 communities starting in 2022-23. The remediation effort includes investigation of root causes contributing to mold growth in the housing units."
     },
     {
       "id": "nhs-marine-house",
@@ -2428,7 +2433,8 @@
         "affordability"
       ],
       "lat": 51.0848034,
-      "lng": -114.0338688
+      "lng": -114.0338688,
+      "storyBlurb": "The Calgary Drop-In Centre Modernization Project involves the development of 1270 units funded through the Affordable Housing Fund, organized by the Calgary Drop-In Centre, a nationally accredited organization serving vulnerable adults experiencing or at risk of homelessness. The project represents a shift from a single large shelter facility to a network of smaller, specialized facilities designed to provide emergency shelter, health and recovery programs, and housing support. The modernization addresses capacity constraints at Calgary's existing Drop-In Centre while expanding services across multiple locations."
     },
     {
       "id": "nhs-shaughnessy-gardens",
@@ -2686,7 +2692,8 @@
         "affordability"
       ],
       "lat": 45.27614,
-      "lng": -66.06312
+      "lng": -66.06312,
+      "storyBlurb": "Saint John Non Profit Housing Inc. is repairing 494 housing units across Saint John, New Brunswick through the Affordable Housing Fund program. The project focuses on affordable housing in the city's north end and is intended to serve people experiencing homelessness. The organization develops, operates, and maintains affordable housing units while collaborating with other community-based housing groups."
     },
     {
       "id": "nhs-parkside-north-town-homes-formerly-greisbach3",
@@ -2765,7 +2772,8 @@
         "affordability"
       ],
       "lat": 45.42153,
-      "lng": -75.69719
+      "lng": -75.69719,
+      "storyBlurb": "Ottawa Community Housing Corp is undertaking a major repair initiative across multiple properties in Ottawa, with 86 new homes to be constructed and 3,218 existing homes to be repaired through the Affordable Housing Fund. The project represents one of the organization's largest renovation efforts, affecting hundreds of residents across the region. The work includes both new construction and rehabilitation of existing affordable housing stock."
     },
     {
       "id": "nhs-exal-de-la-concorde",
@@ -2803,7 +2811,8 @@
         "affordability"
       ],
       "lat": 45.5644236,
-      "lng": -73.7572835
+      "lng": -73.7572835,
+      "storyBlurb": "Central Parc Laval Phase 45 is a 419-unit rental apartment project in Laval, Quebec, located on Carrefour Boulevard near Daniel-Johnson and Chomedey Boulevards. The project received funding through the federal Apartment Construction Loan Program (ACLP) as part of a larger $257 million investment in rental housing across Laval and Terrebonne. The development is part of the larger Central Parc complex, which includes six residential towers ranging from 15 to 22 stories."
     },
     {
       "id": "nhs-we-terrebonne",
@@ -3702,7 +3711,8 @@
         "indigenous-housing"
       ],
       "lat": 51.65145874,
-      "lng": -76.35266113
+      "lng": -76.35266113,
+      "storyBlurb": "# The Cree Nation Government Repairs Project\n\nThe Nemaska Development Corporation is undertaking a 750-unit housing repair project in Nemaska, Quebec, funded through the Affordable Housing Fund with CMHC providing $1,800,000 in support. The project addresses housing conditions in the Cree Nation community through government funding mechanisms outside the standard Indigenous Governance Organization budget allocation. This initiative represents one of the larger repair-focused housing efforts in the region, targeting existing housing stock rather than new construction."
     },
     {
       "id": "nhs-atikamekw-d-opitciwan-repairs",
@@ -5751,7 +5761,8 @@
         "affordability"
       ],
       "lat": 49.89514,
-      "lng": -97.13845
+      "lng": -97.13845,
+      "storyBlurb": "The Winnipeg Housing Rehabilitation Corporation used Affordable Housing Fund support to rehabilitate 431 housing units across Winnipeg. The project focused on acquiring and improving existing buildings in designated Housing Improvement Zones and Rehabilitation Areas to create housing for rent or sale. The program provided financial assistance of up to $5,000 per unit for pre-development costs."
     },
     {
       "id": "nhs-westminster-housing-society-inc-repairs",
@@ -6976,7 +6987,8 @@
         "affordability"
       ],
       "lat": 49.2661308,
-      "lng": -123.1172682
+      "lng": -123.1172682,
+      "storyBlurb": "VAHA Modular Housing Building Innovation Project 2 is a 658-unit affordable housing development in Vancouver, BC, developed by the Vancouver Affordable Housing Agency as part of the Affordable Housing Innovation Fund. The project uses modular construction methods to build transitional housing on temporarily available sites throughout the city. The initiative is part of a broader BC Housing program that invested $291 million to construct modular units for residents with low and fixed incomes."
     },
     {
       "id": "nhs-vaha-modular-housing-building-innovation",
@@ -7334,7 +7346,8 @@
         "indigenous-housing"
       ],
       "lat": 49.22967,
-      "lng": -123.11742
+      "lng": -123.11742,
+      "storyBlurb": "# Isthmus Capital - Reconciliation Fund\n\nThe Isthmus Capital Reconciliation Fund is a 750-unit affordable housing project in Vancouver, BC developed through the Affordable Housing Innovation Fund (AHIF) program. The project represents a partnership between First Nations and capital partners focused on bridging gaps in affordable housing development across major asset classes. Construction utilizes modular home building methods as part of a provincial commitment to rapidly deliver new affordable housing units."
     },
     {
       "id": "nhs-oak-41st",
@@ -8191,7 +8204,8 @@
         "affordability"
       ],
       "lat": 46.5094089,
-      "lng": -84.3321211
+      "lng": -84.3321211,
+      "storyBlurb": "OAHS Innovations is developing a 30-bed supportive housing facility for men on River Road in Sault Ste. Marie, currently in the pre-development phase with funding from the federal Affordable Housing Innovation Fund. The project received $750,000 in pre-development support as part of a broader round of AHIF funding announced in January 2024. The facility is designed to provide supportive housing services to a vulnerable population in the community."
     },
     {
       "id": "nhs-2217-kingston-road",
@@ -8332,7 +8346,8 @@
         "affordability"
       ],
       "lat": 45.4053576,
-      "lng": -75.7158629
+      "lng": -75.7158629,
+      "storyBlurb": "# 1010 Somerset\n\n1010 Somerset is a 1,156-unit housing project in Ottawa developed by the City of Ottawa on federally owned land through the Federal Lands Initiative program. The project, approved for purchase by City Council in March 2021, is being developed as part of an integrated community hub that incorporates the existing Plouffe Park and Plant Recreation Centre. The development includes both residential units and community facilities on the Somerset Street site."
     },
     {
       "id": "nhs-maxwell-park-place",
@@ -8736,7 +8751,8 @@
         "affordability"
       ],
       "lat": 43.65323,
-      "lng": -79.38319
+      "lng": -79.38319,
+      "storyBlurb": "Kindred Works is developing 3,363 affordable rental units across Toronto through the Canada Mortgage and Housing Corporation's Affordable Housing Innovation Fund. The project involves a coalition of partners including architecture firm KPMB and aims to deliver mixed-income rental housing on urban infill sites. The developments include mid-rise, multi-unit buildings with retail and community spaces."
     },
     {
       "id": "nhs-ardn-oahs-sturgeon-falls-west-nipissing",
@@ -8970,7 +8986,8 @@
         "affordability"
       ],
       "lat": 43.4257646,
-      "lng": -80.4245486
+      "lng": -80.4245486,
+      "storyBlurb": "King Cameo Tower 2 is a 398-unit apartment building developed by SYLK Towers as part of a three-phase rental project on King Street East in Kitcheter, Ontario. The project is located north of the Highway 401 overpass and is funded through the federal Apartment Construction Loan Program (ACLP). The development is part of a larger initiative by SYLK Towers that will bring over 1,000 new rental units to the city across multiple phases."
     },
     {
       "id": "nhs-55-franklin-3",
@@ -9201,7 +9218,8 @@
         "affordability"
       ],
       "lat": 43.7353906,
-      "lng": -79.4491179
+      "lng": -79.4491179,
+      "storyBlurb": "# Housing Now - 50 Wilson Heights Boulevard\n\nThe Housing Now project at 50 Wilson Heights Boulevard in Toronto will deliver 1,484 residential units on a former commuter parking lot near Wilson station, developed by a partnership including Greenwin, CreateTO, Tridel, and KingSett Capital. The project is part of the Housing Now Initiative, a city program launched in December 2018 to accelerate affordable housing development on city-owned sites."
     },
     {
       "id": "nhs-1925-victoria-park",
@@ -9653,7 +9671,8 @@
         "affordability"
       ],
       "lat": 45.58008,
-      "lng": -73.539828
+      "lng": -73.539828,
+      "storyBlurb": "Les Habitations le Domaine is a 726-unit affordable housing project located in the Hochelaga neighborhood of Montreal, Quebec. The project received a $9.3 million investment through the Affordable Housing Fund program to preserve existing affordable units in the area."
     },
     {
       "id": "nhs-rhi-round-3-subdivision-2",
@@ -11683,7 +11702,8 @@
         "affordability"
       ],
       "lat": 45.1795784,
-      "lng": -75.79995195
+      "lng": -75.79995195,
+      "storyBlurb": "The Shelter project in Ottawa consists of 601 housing units developed collaboratively by Ottawa Community Housing, Options Housing, Ottawa Salus, and Gignul Non-Profit Housing Corporation as part of the Federal Lands Initiative. The project represents a collaborative approach to delivering supportive housing in Ottawa, bringing together multiple housing sector organizations. The development addresses the city's need for supportive housing, contributing to Ottawa's shift toward more permanent housing units compared to temporary shelter beds."
     },
     {
       "id": "nhs-dream-lebreton",
@@ -11702,7 +11722,8 @@
         "affordability"
       ],
       "lat": 45.4138275,
-      "lng": -75.7114546
+      "lng": -75.7114546,
+      "storyBlurb": "Dream LeBreton is a mixed-use development in Ottawa's LeBreton neighbourhood led by Dream Asset Management. The project includes 601 housing units across multiple towers reaching up to 36 stories, with 246 units designated as affordable housing. The development is being constructed on 21 hectares of brownfield land and incorporates sustainability principles through the One Planet Living framework."
     },
     {
       "id": "nhs-housing-now-5207-dundas-st-w",
@@ -11721,7 +11742,8 @@
         "affordability"
       ],
       "lat": 43.6401072,
-      "lng": -79.5333989
+      "lng": -79.5333989,
+      "storyBlurb": "Housing Now at 5207 Dundas Street West in Etobicoke is one of the first projects developed through Toronto's Housing Now initiative, which aims to increase rental housing supply in the city. The development consists of two towers with adjoining mid-rise buildings totaling 725 units and is being constructed with funding from the Apartment Construction Loan Program (ACLP). The project is currently under construction as part of a mixed-use development on one of five sites identified by the city for additional rental housing."
     },
     {
       "id": "nhs-5200-de-la-savane",
@@ -11985,7 +12007,8 @@
         "affordability"
       ],
       "lat": 43.7025591,
-      "lng": -79.3531323
+      "lng": -79.3531323,
+      "storyBlurb": "The Salvation Army in Canada is undertaking a 400-unit affordable housing project in Toronto through the federal Affordable Housing Fund. The project focuses on transitional and supportive housing for people experiencing homelessness. The initiative is part of broader efforts to expand secure rental housing in partnership with government bodies and community organizations."
     },
     {
       "id": "nhs-palisades-urgent-repairs",
@@ -12256,7 +12279,8 @@
         "affordability"
       ],
       "lat": 51.03531441,
-      "lng": -114.0521098
+      "lng": -114.0521098,
+      "storyBlurb": "The Mustard Seed Foundation received $25,000 from the Affordable Housing Fund in 2024 to support major repairs and renovations to its existing housing stock in Calgary and Edmonton. The organization operates supportive housing for veterans experiencing homelessness, including three projects in Edmonton with a combined capacity of approximately 550 units. The funding supports maintenance of The Mustard Seed's current housing portfolio rather than new construction."
     },
     {
       "id": "nhs-horizon-housing-society-repairs",
@@ -12276,7 +12300,8 @@
         "affordability"
       ],
       "lat": 51.03531441,
-      "lng": -114.0521098
+      "lng": -114.0521098,
+      "storyBlurb": "Horizon Housing Society operates an affordable housing project in Calgary's Glamorgan neighborhood that provides homes to over 1,100 low-income families and individuals with special needs across 679 units. The project encompasses 142,000 square feet of living space and received over $33 million in funding from the Government of Canada, the City of Calgary, and Calgary Housing for repairs to homes across the city."
     },
     {
       "id": "nhs-sunalta-renovation",
@@ -12701,7 +12726,8 @@
         "affordability"
       ],
       "lat": 51.03531441,
-      "lng": -114.0521098
+      "lng": -114.0521098,
+      "storyBlurb": "The City of Calgary, in partnership with the Government of Canada and Calgary Housing, received over $33 million in funding to repair approximately 1,052 homes across the city through the Affordable Housing Fund. The federal government contributed $18.6 million of this total to support both new construction and repairs affecting 1,920 homes in Calgary. The project represents a coordinated effort between municipal, provincial, and federal levels of government to address affordable housing needs through existing housing stock rehabilitation."
     },
     {
       "id": "nhs-calgary-housing-company-repairs",
@@ -12721,7 +12747,8 @@
         "affordability"
       ],
       "lat": 51.03531441,
-      "lng": -114.0521098
+      "lng": -114.0521098,
+      "storyBlurb": "# Calgary Housing Company Repairs\n\nThe Calgary Housing Company, supported by funding from the Government of Canada and the City of Calgary, is undertaking repairs on 504 homes across Calgary through the Affordable Housing Fund program. The project is part of a broader initiative that aims to repair over 1,000 homes in the city, with repair services including window replacement and other residential improvements. The work targets existing housing stock to improve conditions for residents in Calgary's various neighborhoods."
     },
     {
       "id": "nhs-rhi3-les-habitations-de-la-gare",
@@ -12986,7 +13013,8 @@
         "affordability"
       ],
       "lat": 45.4161925,
-      "lng": -71.950527
+      "lng": -71.950527,
+      "storyBlurb": "# Fonds Coop Accès Proprio\n\nFonds Coop Accès Proprio is an affordable housing project in Sherbrooke, Quebec supported by funding from the Canadian and Quebec governments through the Affordable Housing Innovation Fund. The project received $9.7 million in combined government and municipal support from Quebec, Canada, and the City of Sherbrooke. The search results indicate the initiative is part of a broader effort to develop housing for vulnerable populations including single persons and semi-independent seniors in the region."
     },
     {
       "id": "nhs-brightside-8705-french-street-redevelopment-project",
@@ -14276,7 +14304,8 @@
         "affordability"
       ],
       "lat": 43.7221106,
-      "lng": -79.39040071
+      "lng": -79.39040071,
+      "storyBlurb": "The City of Toronto is undertaking repairs and renovations across Toronto Community Housing's portfolio of 1,300 buildings and 43,000 units using funding from the Federal Government's National Housing Strategy Co-Investment Fund. The project includes 1,847 units being upgraded, with specific initiatives involving the conversion of existing motels and construction of modular buildings to provide affordable rental homes with support services. These repairs and new construction are being completed through a combination of renovation of existing assets and new modular building construction on city-controlled land."
     },
     {
       "id": "nhs-life-safety-repairs",
@@ -14496,7 +14525,8 @@
         "affordability"
       ],
       "lat": 43.7221106,
-      "lng": -79.39040071
+      "lng": -79.39040071,
+      "storyBlurb": "St. Clare's Multifaith Housing Society adapted a former medical arts building in Toronto's Kensington Market neighbourhood into housing units, retaining existing entrances and corridors while renovating the interior. The project converted the building into transitional housing units designed to address homelessness in Toronto. The organization used modular construction methods with prefabricated \"click-into-place pieces\" to expedite the renovation work."
     },
     {
       "id": "nhs-woodgreen-community-housing-inc-repairs",
@@ -14516,7 +14546,8 @@
         "affordability"
       ],
       "lat": 43.7221106,
-      "lng": -79.39040071
+      "lng": -79.39040071,
+      "storyBlurb": "WoodGreen Community Housing Inc undertook a retrofit project across multiple Toronto sites to upgrade HVAC systems and improve water efficiency in its social housing buildings. The project, which involved seven to eight buildings and received funding through the Affordable Housing Fund, included energy efficiency improvements that achieved Canada's first IREE certification for an efficiency retrofit. The initiative served 750 housing units and represented one of the first comprehensively certified efficiency projects of its kind in Canada."
     },
     {
       "id": "nhs-expansion-joint-repair",
@@ -16739,7 +16770,8 @@
         "affordability"
       ],
       "lat": 43.15570123,
-      "lng": -80.27325015
+      "lng": -80.27325015,
+      "storyBlurb": "# Corporation of the City of Brantford Repairs\n\nA $500,000 allocation from the Affordable Housing Fund supports a 24-unit affordable housing project at 32 Bridge Street in Brantford, led by Jaycee Brantford. The project involves repairs and modifications to create affordable rental units in the city."
     },
     {
       "id": "nhs-kenora-district-services-board-repairs",
@@ -16759,7 +16791,8 @@
         "affordability"
       ],
       "lat": 49.79385216,
-      "lng": -92.74742138
+      "lng": -92.74742138,
+      "storyBlurb": "The Kenora District Services Board received over $488,000 in provincial funding through the Affordable Housing Fund to support housing repairs in Dryden, Ontario. The funding was part of a $100 million provincial allocation announced in March 2008 for social housing repairs. The project involved repairs to existing housing stock serving residents of the Kenora District."
     },
     {
       "id": "nhs-regional-municipality-of-durham-repairs",
@@ -16779,7 +16812,8 @@
         "affordability"
       ],
       "lat": 44.183333,
-      "lng": -80.816667
+      "lng": -80.816667,
+      "storyBlurb": "The Regional Municipality of Durham received over $53 million in combined federal and local funding to develop transitional and supportive housing in Durham Region, adding 104 new beds and retrofitting 45 existing emergency beds. The Durham Region Non-Profit Housing Corporation initiated a community housing project in Oshawa that will provide 66 new units. Durham Regional Council expedited development of these projects to address the needs of the region's unsheltered residents."
     },
     {
       "id": "nhs-bruce-county-housing-corporation-repairs",
@@ -16819,7 +16853,8 @@
         "affordability"
       ],
       "lat": 43.659717,
-      "lng": -79.398776
+      "lng": -79.398776,
+      "storyBlurb": "Huron County Housing Corporation received funding through the Affordable Housing Fund to conduct repairs on 446 housing units in Huron No. 223. The project involved renovation work on existing affordable housing stock in the region. The initiative was part of a broader effort to maintain and improve social housing resources in Ontario."
     },
     {
       "id": "nhs-kitchener-housing-inc-repairs",
@@ -16839,7 +16874,8 @@
         "affordability"
       ],
       "lat": 43.42089643,
-      "lng": -80.47030484
+      "lng": -80.47030484,
+      "storyBlurb": "Kitchener Housing Inc. is undertaking repairs and upgrades to 500 housing units in Kitchener, Ontario as a non-profit organization with funding from the Region of Waterloo and support from federal and provincial governments through the Affordable Housing Fund. The project focuses on maintaining and improving existing affordable housing stock rather than new construction. KHI operates as a non-profit dedicated to affordable housing as a social determinant of health and well-being in the region."
     },
     {
       "id": "nhs-shelter-on-norfolk-county",
@@ -16919,7 +16955,8 @@
         "affordability"
       ],
       "lat": 44.57127485,
-      "lng": -80.92681501
+      "lng": -80.92681501,
+      "storyBlurb": "Grey County is renovating a housing complex on Owen Sound's east side that was damaged by fire, with work expected to be completed by early 2024. The project involves repairs to units managed by Grey County Housing, which administers approximately 997 rent-geared-to-income housing units across the region. The renovation is supported through the Affordable Housing Fund and other provincial and federal funding programs that Grey County Housing uses to maintain and repair affordable housing stock."
     },
     {
       "id": "nhs-district-of-parry-sound-social-services-administration-board",
@@ -16959,7 +16996,8 @@
         "affordability"
       ],
       "lat": 43.3688906,
-      "lng": -80.98502398
+      "lng": -80.98502398,
+      "storyBlurb": "Perth & Stratford Housing Corporation manages 663 rental units in Stratford, ON that are owned and operated by the City of Stratford, offering rent-geared-to-income and subsidized housing for eligible households. The project received funding through the Affordable Housing Fund (AHF) to address necessary repairs and maintenance of the existing community housing stock. The program aims to improve housing conditions while supporting tenants in developing skills to prevent future damage."
     },
     {
       "id": "nhs-the-district-of-thunder-bay-social-services-administration-b",
@@ -16979,7 +17017,8 @@
         "affordability"
       ],
       "lat": 48.41482754,
-      "lng": -89.27137699
+      "lng": -89.27137699,
+      "storyBlurb": "The District of Thunder Bay Social Services Administration Board (TBDSSAB) operates a repairs program serving 2,109 units through the Affordable Housing Fund. The program provides home repair assistance to low-income homeowners in Thunder Bay, Ontario, enabling residents to remain in their existing homes. TBDSSAB directly manages various housing types to serve the needs of different populations and families in the region."
     },
     {
       "id": "nhs-cochrane-district-social-services-administration-board-cdssa",
@@ -17019,7 +17058,8 @@
         "affordability"
       ],
       "lat": 43.48029254,
-      "lng": -80.54468222
+      "lng": -80.54468222,
+      "storyBlurb": "# Region of Waterloo Portfolio Repairs\n\nThe Region of Waterloo is undertaking repairs on a portfolio of 1,314 affordable housing units funded through Ontario's Affordable Housing Fund. According to April 2026 reporting, the project has faced delays due to rising construction costs and interest rates, prompting the region to pause several components of the initiative."
     },
     {
       "id": "nhs-county-of-wellington-repairs",
@@ -17039,7 +17079,8 @@
         "affordability"
       ],
       "lat": 44.183333,
-      "lng": -80.816667
+      "lng": -80.816667,
+      "storyBlurb": "Wellington County received $12 million in funding from CMHC under the Affordable Housing Fund in September 2022 to support repairs and upgrades to its affordable housing properties. The project encompasses 1,200 units across the county's existing affordable housing stock. The funding addresses essential maintenance and rehabilitation needs in Wellington County's affordable housing portfolio."
     },
     {
       "id": "nhs-county-of-oxford-repairs",
@@ -17099,7 +17140,8 @@
         "affordability"
       ],
       "lat": 43.86907938,
-      "lng": -79.02756557
+      "lng": -79.02756557,
+      "storyBlurb": "Ashley Manor Housing Corporation, a social housing provider in Ajax, ON, received $1.722 million in funding through the Affordable Housing Fund for accessibility and energy efficiency improvements across its 574 units. The organization, which rebranded from Ajax Municipal Housing Corporation in May 2023, commenced repair work on its portfolio in 2024. The project focuses on upgrading existing affordable housing stock rather than new construction."
     },
     {
       "id": "nhs-housing-cambridge-home-concept-property-repairs",
@@ -17139,7 +17181,8 @@
         "affordability"
       ],
       "lat": 43.53267276,
-      "lng": -80.23726425
+      "lng": -80.23726425,
+      "storyBlurb": "The Guelph Non-Profit Housing Corporation is undertaking repairs to affordable housing stock in Guelph, Ontario with support from the federal Affordable Housing Fund. The project involves 545 units across the organization's existing portfolio. This initiative aims to maintain and improve the affordability and quality of the non-profit housing supply in the city."
     },
     {
       "id": "nhs-shelter-on-kitchener",
@@ -19594,7 +19637,8 @@
         "affordability"
       ],
       "lat": 49.24740088,
-      "lng": -122.9651812
+      "lng": -122.9651812,
+      "storyBlurb": "The Metro Vancouver Repairs project in Burnaby, BC involves federal and Metro Vancouver funding of nearly $36 million to repair and modernize affordable housing units in the region. The project covers 560 units under the Affordable Housing Fund program. The initiative focuses on renewing existing affordable housing stock rather than new construction."
     },
     {
       "id": "nhs-city-of-vancouver-repairs",
@@ -19634,7 +19678,8 @@
         "affordability"
       ],
       "lat": 49.20809231,
-      "lng": -122.9192712
+      "lng": -122.9192712,
+      "storyBlurb": "# Affordable Housing Societies Repairs\n\nThe Affordable Housing Fund supported repairs and new construction across multiple British Columbia communities, including a New Westminster project that included 89 homes for young mothers and youth aging out of foster care. The broader initiative received $40.7 million in low-cost loans and contributions from the federal government to repair and build 3,400 affordable homes in the region. Some components of the program were designed to serve Indigenous individuals and families."
     },
     {
       "id": "nhs-heat-our-homes",
@@ -19773,7 +19818,8 @@
         "affordability"
       ],
       "lat": 49.2299949,
-      "lng": -123.0028313
+      "lng": -123.0028313,
+      "storyBlurb": "The BC Housing Repair Portfolio in Burnaby comprises 1,617 affordable housing units funded with $16.1 million through the Affordable Housing Fund. The project uses standardized designs and prefabricated Canadian-made components to reduce construction costs. BC Housing is collaborating with the City of Burnaby on rezoning the property and community engagement for the project."
     },
     {
       "id": "nhs-tupa-house-grandmother-s-lodge",
@@ -20389,7 +20435,8 @@
         "affordability"
       ],
       "lat": 44.23680138,
-      "lng": -77.36067512
+      "lng": -77.36067512,
+      "storyBlurb": "# The Corporation of the County of Hastings Repairs\n\nThe Corporation of the County of Hastings is developing an affordable housing project in Belleville, Ontario with 424 units funded through the Affordable Housing Fund (AHF). The project represents a significant addition to the local housing supply in the region. Search results indicate the initiative is part of broader affordable housing efforts in Belleville, though limited details are available about specific construction methods or target populations."
     },
     {
       "id": "nhs-the-corporation-of-the-city-of-cornwall-repairs",
@@ -20409,7 +20456,8 @@
         "affordability"
       ],
       "lat": 45.0324915,
-      "lng": -74.74031673
+      "lng": -74.74031673,
+      "storyBlurb": "The Corporation of the City of Cornwall received more than $6.7 million in funding from the Government of Canada through the Affordable Housing Fund to repair 400 housing units for low and modest income households. The program provides funding for minor repairs, rehabilitation work, and housing modifications needed to make homes safe and functional. This initiative addresses housing repair needs across the municipality rather than constructing new units."
     },
     {
       "id": "nhs-kawartha-lakes-haliburton-housing-corporation-repairs",
@@ -20429,7 +20477,8 @@
         "affordability"
       ],
       "lat": 44.51943606,
-      "lng": -78.81677106
+      "lng": -78.81677106,
+      "storyBlurb": "The Kawartha Lakes-Haliburton Housing Corporation received funding through the Affordable Housing Fund to support repairs across 500 housing units in the Kawartha Lakes region of Ontario. The project focuses on essential home repairs including roofing, plumbing, heating, foundations, and well work through a forgivable loan program offering up to $20,000 per property. This initiative addresses maintenance needs in the existing affordable housing stock rather than constructing new units."
     },
     {
       "id": "nhs-county-of-renfrew-repairs",
@@ -20449,7 +20498,8 @@
         "affordability"
       ],
       "lat": 45.81678764,
-      "lng": -77.11630482
+      "lng": -77.11630482,
+      "storyBlurb": "The County of Renfrew received $5 million in funding through the Affordable Housing Fund to renovate and repair affordable and community housing in Pembroke, ON. The project encompasses 500 units and includes a supportive bridge housing initiative launched in June to serve area residents. The funding supports repairs and renovations to existing affordable housing stock rather than new construction."
     },
     {
       "id": "nhs-county-of-lanark-repairs",
@@ -20529,7 +20579,8 @@
         "affordability"
       ],
       "lat": 45.1795784,
-      "lng": -75.79995195
+      "lng": -75.79995195,
+      "storyBlurb": "The Centretown Citizens Ottawa Corporation (CCOC) received $12 million in federal funding through the Affordable Housing Fund to repair 1,200 housing units in Ottawa's Centretown neighborhood. The project focuses on maintaining existing affordable housing stock rather than new construction. CCOC is also planning a separate development at 240 Presland Road following the demolition of a damaged building."
     },
     {
       "id": "nhs-heather-place-b",
@@ -20590,7 +20641,8 @@
         "affordability"
       ],
       "lat": 49.07737023,
-      "lng": -123.0049261
+      "lng": -123.0049261,
+      "storyBlurb": "Baptist Housing received approximately $36 million in combined federal and Metro Vancouver funding through the Affordable Housing Fund to repair and renew 715 units across its portfolio in Delta, BC. The project addresses maintenance and renewal needs in Baptist Housing's existing affordable rental housing stock in the region. This funding supports the organization's efforts to preserve affordable housing units for current residents."
     },
     {
       "id": "nhs-vrs-communities-society-repairs",
@@ -20610,7 +20662,8 @@
         "affordability"
       ],
       "lat": 49.25391303,
-      "lng": -123.1113302
+      "lng": -123.1113302,
+      "storyBlurb": "VRS Communities Society is undertaking repairs across 700 affordable housing units distributed among nine properties in the Metro Vancouver region, including locations in Surrey, Richmond, Burnaby, City of North Vancouver, and Port Moody, through the Affordable Housing Fund program. The organization operates housing specifically designed for persons with disabilities, seniors, and families. The project involves capital repairs to existing properties rather than new construction."
     },
     {
       "id": "nhs-2495-west-3rd-avenue-vancouver",
@@ -20690,7 +20743,8 @@
         "affordability"
       ],
       "lat": 49.25391303,
-      "lng": -123.1113302
+      "lng": -123.1113302,
+      "storyBlurb": "This project involves repairs and renewal work on 715 affordable housing units across Metro Vancouver, funded through a combined $36 million commitment from the federal government and Metro Vancouver. The funding supports the Government of Canada's Build Canada Homes initiative, which aims to increase the pace of affordable homebuilding and expand housing supply. The project focuses on improving existing affordable housing stock rather than new construction."
     },
     {
       "id": "nhs-chateau-de-marie-eve-rhi2",
@@ -21882,7 +21936,8 @@
         "affordability"
       ],
       "lat": 43.45323194,
-      "lng": -79.71809843
+      "lng": -79.71809843,
+      "storyBlurb": "The Halton Region Repairs project in Oakville consists of 2,210 affordable housing units funded through the Ontario Government's Affordable Housing Fund. The project includes a seniors centre on Kerr Street designed for low-income seniors with universal design features and onsite supportive housing programs and services. Halton Region has four assisted rental housing projects currently under construction with this development representing a significant portion of the region's affordable housing pipeline."
     },
     {
       "id": "nhs-shelter-on-thorold",
@@ -21902,7 +21957,8 @@
         "affordability"
       ],
       "lat": 43.07817348,
-      "lng": -79.22538879
+      "lng": -79.22538879,
+      "storyBlurb": "# Shelter Housing Project, Thorold, ON\n\nThe Thorold Municipal Non-Profit Housing Corporation is developing housing in Thorold, Ontario through the Affordable Housing Fund program. The project includes a 60-unit apartment building for seniors and an 18-unit transitional housing component, supported by over $6 million in regional funding. The development is expected to begin accepting tenants in the latter part of the year."
     },
     {
       "id": "nhs-right-at-home-housing-society-repairs",
@@ -21942,7 +21998,8 @@
         "affordability"
       ],
       "lat": 55.16617551,
-      "lng": -118.8208291
+      "lng": -118.8208291,
+      "storyBlurb": "# Grande Spirit Foundation Repairs\n\nGrande Spirit Foundation is developing a 427-unit affordable housing project in Grande Prairie, Alberta through the Affordable Housing Fund program. The project focuses on providing safe and affordable housing solutions for seniors and low-income families in Northern Alberta. Grande Spirit Foundation facilitates connections between residents and capital funding partners while coordinating with Alberta Seniors and Housing regarding available social housing assets in the community."
     },
     {
       "id": "nhs-shelter-ab-lac-la-biche-county",
@@ -22041,7 +22098,8 @@
         "affordability"
       ],
       "lat": 43.25321469,
-      "lng": -79.95789818
+      "lng": -79.95789818,
+      "storyBlurb": "Hamilton East Kiwanis Non-Profit Homes Inc. completed repairs on a 650-unit affordable housing project in Hamilton, Ontario through the Affordable Housing Fund program. The project involved renovations across 30 buildings and was valued at $270,000. The work was completed in 2023."
     },
     {
       "id": "nhs-victoria-park-community-homes-inc-repairs",
@@ -22061,7 +22119,8 @@
         "affordability"
       ],
       "lat": 43.25321469,
-      "lng": -79.95789818
+      "lng": -79.95789818,
+      "storyBlurb": "Victoria Park Community Homes Inc. received a $20 million grant from Canada Mortgage and Housing Corporation through the Affordable Housing Fund to support repairs across 2000 units in Hamilton, Ontario. The project, which includes Mountain View Village located at 195 Limeridge Road West, involves rehabilitation work on the organization's existing housing stock serving the Hamilton community."
     },
     {
       "id": "nhs-shelter-on-milton",
@@ -22241,7 +22300,8 @@
         "affordability"
       ],
       "lat": 45.44289284,
-      "lng": -73.59800025
+      "lng": -73.59800025,
+      "storyBlurb": "Interloge Repairs is a 695-unit affordable housing project in Montréal, QC funded through the Affordable Housing Fund (AHF). The project involves renovations to existing buildings on Papineau Avenue, including balcony, structural, and roof repairs, with a completion target of late March. Interloge received a $5.6 million municipal grant to support the takeover and rehabilitation of the building."
     },
     {
       "id": "nhs-renovation-cooperative-les-deux-rues",
@@ -22379,7 +22439,8 @@
         "affordability"
       ],
       "lat": 53.51983966,
-      "lng": -113.5012833
+      "lng": -113.5012833,
+      "storyBlurb": "# GEF Seniors Housing Repairs\n\nGEF Seniors Housing operates 783 units of affordable housing for seniors in Edmonton, Alberta, supported through the Affordable Housing Fund (AHF) program. The organization focuses on maintaining secure, affordable buildings where seniors can live with dignity and access community support services. GEF Seniors Housing is based in the northeast Edmonton area and provides housing and related services to seniors in the region."
     },
     {
       "id": "nhs-civida-repairs",
@@ -22399,7 +22460,8 @@
         "affordability"
       ],
       "lat": 53.51983966,
-      "lng": -113.5012833
+      "lng": -113.5012833,
+      "storyBlurb": "Civida Repairs is an affordable housing project in Edmonton, Alberta comprising 1,079 units managed by Civida on behalf of the City of Edmonton and Government of Alberta. The project focuses on renovating and repairing existing social housing units rather than new construction. The initiative is part of a broader effort to address maintenance needs across nearly 2,000 affordable housing units in Edmonton over a three-year period."
     },
     {
       "id": "nhs-l-arche-greater-vancouver-sussex-redevelopment",
@@ -22564,7 +22626,8 @@
         "affordability"
       ],
       "lat": 45.68153265,
-      "lng": -73.40355364
+      "lng": -73.40355364,
+      "storyBlurb": "I don't have sufficient search results to provide an accurate factual description of the Shelter project in Varennes. The search results provided appear to reference different projects (NOVIA in Longueuil and a net-zero cultural facility) rather than information about the Shelter housing project with 1250 units funded through the Affordable Housing Innovation Fund. To write an accurate description, I would need search results that specifically detail this project's developer, construction approach, and target population."
     },
     {
       "id": "nhs-taschereau-sur-le-parc",
@@ -23096,7 +23159,8 @@
         "indigenous-housing"
       ],
       "lat": 49.32722855,
-      "lng": -123.1413193
+      "lng": -123.1413193,
+      "storyBlurb": "# AHMA Repair Portfolio\n\nThe AHMA Repair Portfolio comprises 885 affordable housing units in West Vancouver, BC, funded through the Affordable Housing Fund (AHF) program. AHMA, which was launched in the 1990s by member organizations including Pfoh in response to reduced federal housing support, provides portfolio and capital planning services to help members maintain and manage their housing stock. The Housing Operations team offers support in funding, tenant relations, staffing, and repair services to portfolio members."
     },
     {
       "id": "nhs-our-house-of-clans",
@@ -23571,7 +23635,8 @@
         "affordability"
       ],
       "lat": 47.48211833,
-      "lng": -52.79686738
+      "lng": -52.79686738,
+      "storyBlurb": "# NL Repair - Provincial Portfolio Offer\n\nThe Newfoundland and Labrador Housing Corporation is developing 866 units of deeply affordable and community housing for low-income households in St. John's through the federal Affordable Housing Fund. The project involves partnerships with private market developers to increase housing supply and includes transitional and supportive housing components to address homelessness."
     },
     {
       "id": "nhs-308-colony-street-mixed-income-housing-project",
@@ -23875,7 +23940,8 @@
         "affordability"
       ],
       "lat": 46.53908843,
-      "lng": -84.39968645
+      "lng": -84.39968645,
+      "storyBlurb": "Sault Ste. Marie Housing Corporation received $3.5 million in federal funding through the Affordable Housing Fund to repair and retrofit 650 affordable housing units in Sault Ste. Marie, Ontario. The project targets vulnerable residents in the community. A complementary 11-unit modular housing project is planned for the western area of Sault Ste. Marie to provide transitional housing."
     },
     {
       "id": "nhs-quatre-saisons",
@@ -24177,7 +24243,8 @@
         "affordability"
       ],
       "lat": 43.6372612,
-      "lng": -79.5573237
+      "lng": -79.5573237,
+      "storyBlurb": "Valhalla Village Phase 1 is a mixed-use residential complex developed by KingSett Capital in Toronto, comprising 494 apartment units across 30 and 11-storey towers designed by BDP Quadrangle. The project includes 40 percent affordable housing units along with retail and community space. Construction is being funded through the Apartment Construction Loan Program (ACLP), with initial occupancy expected in the third quarter of 2026."
     },
     {
       "id": "nhs-barrack-green-residences",
@@ -25827,7 +25894,8 @@
         "affordability"
       ],
       "lat": 45.4844928,
-      "lng": -73.7945477
+      "lng": -73.7945477,
+      "storyBlurb": "Westwalk is a 393-unit rental apartment project in Dollard-des-Ormeaux, Quebec, developed under the Apartment Construction Loan Program (ACLP). The project includes one, two, and three-bedroom units with contemporary finishes and common amenities including a rooftop pool, fitness room, sauna, and coworking spaces. The development is located near shopping and commercial areas on the West Island."
     },
     {
       "id": "nhs-le-central",
@@ -26207,7 +26275,8 @@
         "affordability"
       ],
       "lat": 45.7256306,
-      "lng": -73.5096957
+      "lng": -73.5096957,
+      "storyBlurb": "Apéro Terrebonne is a residential complex in the Lachenaie sector of Terrebonne, Quebec, containing 401 rental units developed through the federal Apartment Construction Loan Program. The project includes modern apartments with layouts such as 3.5-room units featuring bedrooms and living spaces. The development represents a significant addition to rental housing stock in the region."
     },
     {
       "id": "nhs-11-brock-ave",
@@ -26418,7 +26487,8 @@
         "affordability"
       ],
       "lat": 42.976347,
-      "lng": -81.235742
+      "lng": -81.235742,
+      "storyBlurb": "Village SoHo is a 588-unit mixed-income rental apartment project in London's SoHo neighborhood developed by a partnership of six non-profit housing developers, formerly known as Vision SoHo Alliance. The project is being built on the former Victoria Hospital lands and includes supportive housing components, with approximately 55% of units designated as affordable. The development is funded through the Apartment Construction Loan Program (ACLP)."
     },
     {
       "id": "nhs-300-manor-road",
@@ -26610,7 +26680,8 @@
         "affordability"
       ],
       "lat": 43.6522723,
-      "lng": -79.3591492
+      "lng": -79.3591492,
+      "storyBlurb": "WDL 3/4/7 LP is an 855-unit apartment building developed by Dream, Kilmer Group, and Tricon in Toronto's West Don Lands neighborhood. The project is being constructed under the Apartment Construction Loan Program (ACLP). The development spans a three-block site and incorporates courtyard building designs reflective of the neighborhood's heritage character."
     },
     {
       "id": "nhs-queen-ashbridge",
@@ -26686,7 +26757,8 @@
         "affordability"
       ],
       "lat": 43.6950299,
-      "lng": -79.3017222
+      "lng": -79.3017222,
+      "storyBlurb": "# Eastdale Avenue\n\nEastdale Avenue is a 484-unit apartment project located in the Danforth Village neighbourhood near Main and Danforth in Toronto. The project is being developed by 90 Eastdale Inc. and includes a 24-storey building component. The development is proceeding under the Apartment Construction Loan Program (ACLP), a federal financing initiative for rental housing."
     },
     {
       "id": "nhs-55-broadway-avenue",
@@ -30169,7 +30241,8 @@
         "affordability"
       ],
       "lat": 53.51983966,
-      "lng": -113.5012833
+      "lng": -113.5012833,
+      "storyBlurb": "The City of Edmonton is undertaking repairs to 1,955 affordable housing units across the city through the Affordable Housing Fund program. The project includes $34.7 million in rehabilitation work focused on 882 deeply subsidized units at 11 sites that were originally constructed by the City in the 1960s and 1970s. The repairs are scheduled to be completed over a three-year period."
     },
     {
       "id": "nhs-the-village",
@@ -32018,7 +32091,8 @@
         "affordability"
       ],
       "lat": 49.28273,
-      "lng": -123.12074
+      "lng": -123.12074,
+      "storyBlurb": "Senakw Phase 2 Tower 6 is a 439-unit rental apartment building in Vancouver developed as part of the larger Senakw project on the Musqueam First Nation lands. The project is funded through the federal Apartment Construction Loan Program (ACLP) and is one of 11 towers planned for the overall development, which will eventually contain approximately 6,000 rental units with at least 1,200 designated as affordable housing. The broader Senakw development encompasses 4 million square feet of residential space along with retail, cultural, and leisure facilities."
     },
     {
       "id": "nhs-senakw-phase-2-tower-7",
@@ -32037,7 +32111,8 @@
         "affordability"
       ],
       "lat": 49.28273,
-      "lng": -123.12074
+      "lng": -123.12074,
+      "storyBlurb": "Sen̓áḵw Phase 2 Tower 7 is a 852-unit rental apartment building developed by the Squamish Nation on their lands at Kits Point in Vancouver. The project is part of the larger Sen̓áḵw development, which will ultimately comprise 11 towers and 6,000 rental units across 10.5 acres adjacent to Vanier Park. The tower is funded through the federal Apartment Construction Loan Program (ACLP)."
     },
     {
       "id": "nhs-silvera-for-seniors-glamorgan-affordable-housing-project-for",
@@ -32917,7 +32992,8 @@
         "affordability"
       ],
       "lat": 49.273307,
-      "lng": -123.14554
+      "lng": -123.14554,
+      "storyBlurb": "Sen̓áḵw Phase 1 Tower 2 is a 492-unit rental apartment building developed by the Squamish Nation on their land at Kits Point in Vancouver, part of a larger three-tower Phase One development that will deliver 1,409 homes total. The project is funded through the Apartment Construction Loan Program (ACLP) and is currently under construction with expected completion in 2026. The development includes commercial space and community outdoor sport and leisure facilities on the 10.5-acre site adjacent to Vanier Park."
     },
     {
       "id": "nhs-senakw-phase-1-tower-3",
@@ -32936,7 +33012,8 @@
         "affordability"
       ],
       "lat": 49.273307,
-      "lng": -123.14554
+      "lng": -123.14554,
+      "storyBlurb": "Senakw Phase 1 Tower 3 is part of a three-building development by the Squamish Nation on 10.5 acres at Kits Point in Vancouver, containing 1,409 purpose-built rental homes across towers ranging from 26 to 39 storeys. The project, which began construction in 2022 and is nearing completion, is being developed through the Apartment Construction Loan Program (ACLP). The 583-unit tower is part of the larger Sen̓áḵw development intended to provide housing on Squamish Nation land."
     },
     {
       "id": "nhs-kirkwood-apartments-phase-2",
@@ -33038,7 +33115,8 @@
         "affordability"
       ],
       "lat": 53.5647532,
-      "lng": -113.554274
+      "lng": -113.554274,
+      "storyBlurb": "The Matheson Seniors Building in Edmonton's Brentwood neighbourhood contains 409 units of affordable housing developed through the Affordable Housing Fund program and operated by Matheson, a not-for-profit corporation. The building provides independent living accommodations in studio and one-bedroom suites for low-income seniors. The units have been renovated to provide safe, affordable living spaces."
     },
     {
       "id": "nhs-region-of-durham-drnphc-normandy-towns",
@@ -33405,7 +33483,8 @@
         "affordability"
       ],
       "lat": 42.28947332,
-      "lng": -82.98828329
+      "lng": -82.98828329,
+      "storyBlurb": "Windsor Essential and Community Housing Corporation (WECHC) received approval for a $170-million capital repair and renewal plan covering 4,686 affordable housing units across Windsor, Ontario through 2028. The project addresses a backlog of deferred maintenance in the community housing portfolio. The funding comes through the Affordable Housing Fund program."
     },
     {
       "id": "nhs-rapid-housing",
@@ -34997,7 +35076,8 @@
         "affordability"
       ],
       "lat": 43.7221106,
-      "lng": -79.39040071
+      "lng": -79.39040071,
+      "storyBlurb": "The Scattered Housing Transfer and Renovation project involves 603 housing units in Toronto supported through the Affordable Housing Fund program. The initiative transfers scattered TCHC (Toronto Community Housing Corporation) units to improve maintenance conditions and ensure long-term affordability protection. The project targets women and gender-diverse individuals and their families with permanent affordable and subsidized housing options."
     },
     {
       "id": "nhs-195-hespeler-road",
@@ -35751,7 +35831,8 @@
         "affordability"
       ],
       "lat": 42.9684564,
-      "lng": -81.2069451
+      "lng": -81.2069451,
+      "storyBlurb": "# LMCH Recapitalization\n\nLondon Middlesex Community Housing (LMCH) is recapitalizing 2,082 affordable housing units across multiple phases in London, Ontario, funded through the Affordable Housing Fund. The first phase includes a six-storey, 53-unit building designed to expand LMCH's portfolio and increase affordable housing availability. The project aims to reduce barriers to affordable housing for residents with the greatest need."
     },
     {
       "id": "nhs-misericordia-assisted-living-housing",
@@ -36137,7 +36218,8 @@
         "affordability"
       ],
       "lat": 49.2311898,
-      "lng": -122.885366
+      "lng": -122.885366,
+      "storyBlurb": "100 Braid Street in New Westminster will provide 423 units of secured market rental housing through the Apartment Construction Loan Program (ACLP), including two and three-bedroom units designed for families. The project includes 422 vehicle parking stalls and over 4,200 square feet of dedicated art gallery and studio space. The development is located in the Sapperton neighborhood and has been presented to local stakeholders including residents' associations, business groups, and community organizations for feedback."
     },
     {
       "id": "nhs-river-district-parcel-27",
@@ -36540,7 +36622,8 @@
         "affordability"
       ],
       "lat": 45.3874462,
-      "lng": -75.6743573
+      "lng": -75.6743573,
+      "storyBlurb": "# Description\n\nOttawa Community Housing Corporation (OCHC) is developing a consolidated affordable housing project at 105 Mile Post 2 in Ontario with 11,060 units funded through the federal Affordable Housing Fund (AHF). The project received substantial federal funding through programs including Investment in Affordable Housing (IAH) and CMHC financing. This represents a large-scale development aimed at expanding affordable rental housing stock."
     },
     {
       "id": "nhs-3625-sawmill-cr",
@@ -36700,7 +36783,8 @@
         "affordability"
       ],
       "lat": 43.710891,
-      "lng": -79.3936587
+      "lng": -79.3936587,
+      "storyBlurb": "100 Broadway is a condominium development in Toronto's Mount Pleasant West neighborhood containing 448 units across two towers developed by Reserve. The project consists of a 21-storey north tower and a 33-storey south tower. The development is being financed through the Apartment Construction Loan Program (ACLP)."
     },
     {
       "id": "nhs-ykdfn-submission",
@@ -37772,7 +37856,8 @@
         "affordability"
       ],
       "lat": 43.8427567,
-      "lng": -79.0197832
+      "lng": -79.0197832,
+      "storyBlurb": "Bayly Square Phase 2 is a 551-unit rental apartment project developed by Medallion Corporation in downtown Ajax, designed by IBI Group. The project consists of two towers of 19 and 23 storeys located at the southwest corner of Bayly Street West and Harwood Avenue South. The development is being built with financing through the federal Apartment Construction Loan Program (ACLP)."
     },
     {
       "id": "nhs-stream-a-toronto-150-dunn-ave",
@@ -37898,7 +37983,8 @@
         "affordability"
       ],
       "lat": 48.447892,
-      "lng": -68.504557
+      "lng": -68.504557,
+      "storyBlurb": "The Fonds social d'investissement immobilier is a 1,053-unit affordable housing project in Montréal financed through the Affordable Housing Innovation Fund. Managed by the Fonds d'investissement de Montréal, the project funds the purchase and renovation of multi-unit residential properties developed by non-profits and housing cooperatives. The initiative targets low and modest-income households in the Montréal area."
     },
     {
       "id": "nhs-shelter-ns-halifax",
@@ -38680,7 +38766,8 @@
         "affordability"
       ],
       "lat": 45.4286132,
-      "lng": -75.6871819
+      "lng": -75.6871819,
+      "storyBlurb": "Claridge Royale is a 26-storey residential condominium development by Claridge Homes located in Ottawa's ByWard Market neighborhood. The project contains 237 units and was completed in November 2024. The development was financed through the Apartment Construction Loan Program (ACLP)."
     },
     {
       "id": "nhs-iqaluit",
@@ -38840,7 +38927,8 @@
         "affordability"
       ],
       "lat": 45.422081,
-      "lng": -75.6955
+      "lng": -75.6955,
+      "storyBlurb": "Zibi is a 34-acre mixed-use development straddling Ottawa and Gatineau that includes 2,100 residential units comprising both condominium towers and townhouses. The project, developed on a former industrial waterfront site overlooking the Ottawa River, received funding through the federal Affordable Housing Innovation Fund. The master-planned community integrates residential, commercial, leisure, and recreational components across the two jurisdictions."
     },
     {
       "id": "nhs-zibi-block-10",
@@ -40548,7 +40636,8 @@
         "affordability"
       ],
       "lat": 44.238293,
-      "lng": -76.4970114
+      "lng": -76.4970114,
+      "storyBlurb": "The United Church of Canada established Kindred Works to redevelop church-owned properties into rental housing across Canada. The National Land Strategy aims to create 1,500 units of affordable housing through projects like St. Luke's Toronto, a 12-story mixed-use development that includes rental apartments, community space, and heritage building preservation. The initiative is part of the Affordable Housing Innovation Fund and involves partnerships with nonprofits, private landowners, and other faith communities."
     },
     {
       "id": "nhs-1270-ryder-street-hope-bc",
@@ -40661,7 +40750,8 @@
         "affordability"
       ],
       "lat": 42.9853875,
-      "lng": -81.2533524
+      "lng": -81.2533524,
+      "storyBlurb": "Centro is a 420-unit apartment project in London, ON located at 495 Talbot Street and 110 Fullarton Street, developed by Old Oak Properties. The project is being constructed on the former Camden Terrace site and includes 110 affordable housing units. The development is funded through the federal Apartment Construction Loan Program (ACLP)."
     },
     {
       "id": "nhs-kinsmen-kourts-ii",
@@ -40739,7 +40829,8 @@
         "affordability"
       ],
       "lat": 43.7502767,
-      "lng": -79.5416651
+      "lng": -79.5416651,
+      "storyBlurb": "Casa Emery Village Phase 2 is a 514-unit rental apartment development by Medallion Corporation in Toronto's Emery Village neighborhood, consisting of two residential buildings of 22 and 27 storeys. The project was designed by Arcadis and developed with financing through the Apartment Construction Loan Program (ACLP). Phase 2 has recently begun residential occupancy and is located near Highway 401 and 407."
     },
     {
       "id": "nhs-montague-place-apartment-complex",
@@ -40913,7 +41004,8 @@
         "affordability"
       ],
       "lat": 43.6646438,
-      "lng": -79.4119274
+      "lng": -79.4119274,
+      "storyBlurb": "Mirvish Village is a 916-unit rental housing development located at Bloor and Bathurst in Toronto, developed by Ed Mirvish's organization as a 100% purpose-built rental community. The project combines low, mid, and high-rise residential buildings with retail spaces, a public park, and a food hall and music venue called The Kitchen. The development received funding through the Apartment Construction Loan Program (ACLP)."
     },
     {
       "id": "nhs-nakusp-affordable-housing-project",
@@ -41190,7 +41282,8 @@
         "affordability"
       ],
       "lat": 49.270431,
-      "lng": -123.1031488
+      "lng": -123.1031488,
+      "storyBlurb": "# Community Based Financing Authority for Regeneration and Building of Canadian Affordable Housing\n\nThis Vancouver project proposes 2,000 affordable rental units as part of the larger Affordable Housing Innovation Fund (AHIF), a $3.3 billion national program designed to create over 20,000 rental homes for households with low to moderate incomes. The financing model uses low-interest and forgivable loans or direct contributions to partner organizations to support development. The project targets rental housing affordability across Canada through collaborative partnerships between the federal program and local implementation partners."
     },
     {
       "id": "nhs-the-sawyer-building-840-fort-street",
@@ -41229,7 +41322,8 @@
         "affordability"
       ],
       "lat": 44.3199237,
-      "lng": -78.3084174
+      "lng": -78.3084174,
+      "storyBlurb": "Habitat for Humanity Canada is developing 604 units in Peterborough, ON through the Affordable Housing Fund program. The project includes a mix of single-family detached houses and multi-unit developments sold to qualified families with no down payment mortgages. Habitat for Humanity mobilizes volunteers and community partners to build homes that help families achieve strength, stability, and independence through affordable homeownership."
     },
     {
       "id": "nhs-west-broadway-commons",
@@ -41442,7 +41536,8 @@
         "affordability"
       ],
       "lat": 43.6514574,
-      "lng": -79.3558347
+      "lng": -79.3558347,
+      "storyBlurb": "# Ontario Lands\n\nOntario Lands is a 770-unit housing project in Toronto developed as Canada's largest co-operative housing development in a generation, funded through the City of Toronto's Apartment Construction Loan Program. The development transforms 32 hectares of former industrial land into a pedestrian-focused community with mixed-income housing designed for residents of various ages and abilities. The master plan integrates parks and community spaces throughout the site."
     },
     {
       "id": "nhs-west-nipissing-housing-development",
@@ -41958,7 +42053,8 @@
         "affordability"
       ],
       "lat": 49.2598886,
-      "lng": -123.0752363
+      "lng": -123.0752363,
+      "storyBlurb": "The Vancity Pre-Construction Equity Loan Fund provides low-cost capital to non-profit organizations developing affordable rental housing projects across the Vancouver metropolitan area, with 2,245 units supported through the program. The fund operates by vetting and providing equity loans to affordable housing projects from the pre-construction stage onward. The initiative demonstrates how financial institutions can support affordable rental development while advancing housing security and climate-ready housing goals."
     },
     {
       "id": "nhs-regional-housing-first-program-rhfp",
@@ -41978,7 +42074,8 @@
         "affordability"
       ],
       "lat": 48.3846566,
-      "lng": -123.7150247
+      "lng": -123.7150247,
+      "storyBlurb": "# Regional Housing First Program (RHFP)\n\nThe Regional Housing First Program is a partnership between the Capital Regional District and BC Housing Management Commission in Victoria, BC, comprising 1,474 affordable housing units. The program includes units specifically targeted for individuals experiencing homelessness, with some units offering support services. As of 2021, the CRD was completing an additional 192 units under the program, including the six-storey Hockley House development."
     },
     {
       "id": "nhs-vision-tower-bayly-square",
