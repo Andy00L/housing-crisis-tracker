@@ -1,35 +1,39 @@
 {
-  "generatedAt": "2026-04-17T10:19:59.013Z",
+  "generatedAt": "2026-04-17T16:06:53.103Z",
   "regional": {
     "na": {
-      "summary": "Canada's housing market is fracturing along regional lines: Royal LePage's first-quarter data show overall Canadian home prices fell 2 percent annually to an average of $812,900, with Toronto and Vancouver posting declines of roughly 4.5 percent or more while mid-sized markets such as Quebec City recorded price increases of over 10 percent. St. John's, Newfoundland is among the tighter markets, where record-low inventory and years of limited construction have driven competitive bidding, with some buyers paying significantly above asking prices. In Alberta, nearly 30,000 rental units added in Calgary between 2022 and 2025 have raised vacancy rates and moderated rent growth, though affordable options remain scarce for lower-income renters; the City of Calgary is responding with a $60-million initiative to create over 1,000 non-market rental units for households earning 65 percent or less of the median income. On the legislative front, advocates are pressing for amendments to Bill C-20 to strengthen transparency, targets, and family housing provisions, while a separate commentary urges federal action to make 10-year fixed-rate mortgages more affordable and accessible to Canadian borrowers. CN announced a $500,000 donation to support homelessness prevention programs in Winnipeg, directing $250,000 each to Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre. In the United States, a new analysis highlights New York City neighborhoods where renters face the most severe housing affordability challenges, and the Kentucky General Assembly has drawn criticism for failing to enact measures addressing housing affordability.",
+      "summary": "Canada's housing market is splitting along city-size lines: Royal LePage's first-quarter data show overall Canadian home prices fell 2 percent annually to an average of $812,900, with Toronto and Vancouver each posting declines of roughly 4.5 percent or more year-over-year, while mid-sized markets such as Quebec City recorded price increases of over 10 percent driven by tight inventory. St. John's, Newfoundland is among the tighter markets, where record-low inventory and years of limited construction have pushed buyers into competitive bidding situations, with some paying significantly above asking prices. In Alberta, nearly 30,000 rental units were added in Calgary between 2022 and 2025, lifting vacancy rates and moderating rent growth, though the City of Calgary is still pursuing a $60-million initiative to create over 1,000 non-market rental units for households earning 65 percent or less of the median income. On the legislative front, advocacy groups are pressing for amendments to Bill C-20, Canada's federal housing bill, citing the need for greater transparency, targets, and family housing provisions. CN announced a $500,000 donation to support homelessness prevention in Winnipeg, split between Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre. In the United States, a new analysis maps the neighborhoods in New York City where renters face the most severe housing affordability challenges, while the Kentucky General Assembly has drawn criticism for failing to enact measures to address housing affordability.",
       "keyDevelopments": [],
       "highlights": [
         {
-          "text": "Bill C-20 to strengthen transparency, targets, and family housing provisions",
+          "text": "Bill C-20",
           "topic": "legislation"
         },
         {
-          "text": "Kentucky General Assembly has drawn criticism for failing to enact measures addressing housing affordability",
+          "text": "Kentucky General Assembly has drawn criticism for failing to enact measures to address housing affordability",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-17T10:19:51.447Z"
+      "generatedAt": "2026-04-17T16:06:44.249Z"
     },
     "eu": {
-      "summary": "Basildon Borough Council received the Regulator of Social Housing's lowest grade (C4) following an inspection that identified serious failings including an unaddressed backlog of fire safety issues, inadequate hazard documentation, and poor tenant engagement across its approximately 10,750 social homes. In England more broadly, landlords are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with charities warning that vulnerable tenants are being displaced before new protections take effect. Meanwhile, a 79% increase in over-65s at risk of homelessness over the past five years has been recorded, driven by housing benefit shortfalls relative to rental costs and reduced social housing stock. The Isle of Man government is consulting on changes to public sector housing eligibility, including raising income thresholds indexed to inflation annually, with consultation open until May 19. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew condemnation from victims' families and party leader Nigel Farage. Geopolitical uncertainty and rising mortgage costs have dampened confidence in the UK housing market, with estate agents in cities like Canterbury reporting price reductions and buyers hesitant to proceed with transactions.",
+      "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a sharp surge in removals in the months before the ban takes effect. Basildon Borough Council has been assigned the lowest grade (C4) by the Regulator of Social Housing following an inspection that identified serious failings across its approximately 10,750 social homes, including an unaddressed backlog of fire safety issues and inadequate hazard documentation. The number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness over the past five years, driven by housing benefit shortfalls and reduced social housing stock. In Exeter, residents and charity leaders argue that the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. The Isle of Man government is consulting on changes to public sector housing eligibility, including raising income thresholds indexed to inflation annually, with the consultation open until May 19. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew condemnation from victims' families and party leader Nigel Farage.",
       "keyDevelopments": [],
       "highlights": [
+        {
+          "text": "Renters' Rights Act",
+          "topic": "legislation"
+        },
+        {
+          "text": "May 1, 2026 implementation",
+          "topic": "legislation"
+        },
         {
           "text": "lowest grade (C4)",
           "topic": "legislation"
         },
         {
-          "text": "May 1, 2026 implementation of the Renters' Rights Act",
-          "topic": "legislation"
-        },
-        {
-          "text": "no-fault evictions",
+          "text": "unaddressed backlog of fire safety issues",
           "topic": "legislation"
         },
         {
@@ -37,7 +41,7 @@
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-17T10:19:59.013Z"
+      "generatedAt": "2026-04-17T16:06:53.103Z"
     },
     "asia": {
       "summary": "Australia's construction industry is pressing for what it describes as 'once in a generation' reform of the National Construction Code, arguing that streamlined regulations are essential to meeting the government's target of delivering 1.2 million homes by 2029. Industry bodies have linked rising build costs to Middle East supply chain disruptions, which have pushed fuel and petrochemical prices up by 20–40 percent, compounding affordability pressures across the sector. The government is currently consulting on potential code modifications, with industry groups contending that without regulatory reform, builders will be unable to scale output sufficiently to close the housing gap.",
@@ -243,6 +247,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-ca-18jmq3",
+          "headline": "Canada's Essential Worker Housing Crisis - The Globe and Mail",
+          "source": "Google News Housing CA",
+          "date": "2026-04-01",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPd3dpWFpsTC1GaHFoY09RVlRLeHBHZTltSS1ucG9TMnlLSlQyN2JmVGxzQ3FUMEVHWHlkS1BLd0tyRkxHUG9lQ190UXJ6RmZvQldFY2t0LTFNRTFSV0JhU2xBOTJJU0EzLVZZOS1BcHNBbll6dl9Xa0tLNmNwclZ2N3QxSHRqcVI1d1dvM2xBQk1kTG90RDBZNmw3d1JTR3lVWWV6QjdxcEZwaE1UTm1wMXh6d1YtX0REMV8yZld1V2NNaTBQeVFsbE9n?oc=5",
+          "summary": "Canada is experiencing a housing shortage affecting essential workers, according to reporting from The Globe and Mail.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-build-canada-x7bgwq",
           "headline": "Prime Minister Carney secures new partnership with Ontario to cut taxes on housing and boost supply - pm.gc.ca",
           "source": "Google News Build Canada Homes",
@@ -285,6 +298,15 @@
           "date": "2026-03-25",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XVmRWbUp5T0hXN3hfVThaV2dXZUNRQWx0d1AzdjlGeE55QXBiSVVGX3hldVJCSkkzQWxiTTRnOHFTM2U4N0hpcl9CX1lHM0dfR2MwNmxjdVBlVm9IVkxNQThVbmdMRjhMTlROS1RzTnpIbnhkalMzb2lldU9Pam8?oc=5",
           "summary": "An opinion piece suggests that Canada's military could play a role in addressing the country's housing shortage.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-ca-yfuhp3",
+          "headline": "More hammers, fewer homes: Why a construction labour surge isn't ending Canada's housing crisis - The Macdonald-Laurier Institute",
+          "source": "Google News Housing CA",
+          "date": "2026-03-24",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVm5LeVV2Tk5tZXZSUkxXNmItaVd2R1VKdW1zcEJNN3paUTZxMmZ5WWVyY3ZpSHdrOUxmVl9VLXl0U3FoMHFHZ1kta0J1S0FJYUxCeDhuUXB5SUtMODk2azl5VlE3bHRaTjZ6VEtZNWFHdHpNZUhKTVlwQ2lLRzdTRjFrLUl6dWh3bC1CaVNrQnJtWk1Sd2t1a0NHTlFYajVvLTNGM2d6NmlLQ1lYOXB0SkwyNUd0LWQwOG5QNg?oc=5",
+          "summary": "Despite increases in construction workers, Canada's housing supply has not significantly improved according to an analysis from the Macdonald-Laurier Institute.",
           "summarySource": "headline-only"
         },
         {
@@ -375,6 +397,15 @@
           "date": "2026-02-27",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA4OWJlVTljdkRyRklsY1NLZFVNR0RPR1gxSkhGQnNlZXg1bjRfeGNSOElydk1wWXJzRGtaWkJwT3RCYkh5SEVQWGh6M2JqYk9nZ0c3bDZTV0YzdElTcHA5V3JHdHJYNC0ydDhMT0tlZEZ2R0tyb1E?oc=5",
           "summary": "Canada's housing affordability challenges are expanding across the country, though the Canada Mortgage and Housing Corporation has identified at least one city where conditions remain relatively favorable.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-ca-hg25i2",
+          "headline": "Conversation: Addressing The Housing Crisis - Canadian Consulting Engineer",
+          "source": "Google News Housing CA",
+          "date": "2026-02-23",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS2lsQUpHdm1fVndPOE43T09WU0VmUEFONm00WHNLVm1pOXBIc01weWpmb0w1VHB4eEdhY25zWlY4dEtBZ2RVVDFXd2VKZ0pINWx4dVFlYW9jcHBEcEwwU1lvNW9wV3pVV2xiTXJOTFd0QnBtczUtdGw3YXVzR0pXMzhrMzBIUlRNdzQ5TkFIeEJWdEdNbzdkTlZQRQ?oc=5",
+          "summary": "An article discusses approaches to addressing Canada's housing crisis from the perspective of consulting engineers.",
           "summarySource": "headline-only"
         },
         {
@@ -558,6 +589,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-ca-1dvawk",
+          "headline": "How Canada's short-term thinking sparked a national housing crisis - National Post",
+          "source": "Google News Housing CA",
+          "date": "2025-09-29",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcVliQ2hacUNsdVd4a01RaVJ0aWpSZnozQjVidlBnbHFMTFlMQ0JqejFmVWgwVmdGVjVFc25ZM0IwOGVfQTh1cnNscTlOdVY1eTlpWlNLRWhFbHhrSzhScjBZUC01RU1ycExIaGRIOE11dVJhTHBENkcxWXY1Wl8yemNJTnJ0UFBlZk90bGpuOFhRY2NyS0QzWFVORXl1VVpaalptTQ?oc=5",
+          "summary": "Canada is experiencing a housing crisis that some analysts attribute to short-term policy approaches rather than long-term planning.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-mini-86j0b5",
           "headline": "Sean Speer: Mark Carney’s Build Canada Homes agency won’t solve Canada’s housing crisis - The Hub | More Signal. Less Noise.",
           "source": "Google News Housing Minister CA",
@@ -609,6 +649,15 @@
           "date": "2025-07-23",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaDJIQVF1cWFqTVFfNk5nalB4NkVid3U5UUE0TnRaTjhnSnBVMG85dFJfeEZsbml6czBxS1I1WkNhN2ZlLW5RVFJGaGMtNkNKN29Mcjl6ZS13dFhuZ2xQOWhCLV9yN0FkTmJjZUE5QlQzQ183alY2TzNtR09Nd2Y3eGZfNHphbjl1YnBuT09USG5XT3Z6amI5ZkFHYXpUVGdrSUhmLXZNYTVKMEQzQkU0?oc=5",
           "summary": "Twenty-seven housing experts have called for a policy reset on affordability in a letter to Prime Minister Carney and Federal Housing Minister Robertson.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-ca-ze8ygf",
+          "headline": "Homebuilding alone won’t solve Canada’s housing crisis - Fraser Institute",
+          "source": "Google News Housing CA",
+          "date": "2025-07-21",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaDdRU0FRckxjd2h3b0h0c3RFbnpLYzRZMVdYdHBTelF6U2YzV3M4MXNJSF80RWMyUTZrRE8ybV9WU2JkVjQ2UWpfeUxTNENtWWw4OEV3S2d6NmhLb1VCQXZsVGZfVUFTZFlLVnZpN3l4Z1BxZEpBLUQtNG9QdS1KeXdsQVRKc2JzWGVObGpvX3hDak9fVGUyUC1nZw?oc=5",
+          "summary": "A Fraser Institute analysis argues that increasing homebuilding capacity alone is insufficient to address Canada's housing crisis.",
           "summarySource": "headline-only"
         },
         {
@@ -684,6 +733,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-mini-aatsug",
+          "headline": "ANALYSIS: You can’t make housing more affordable without making it cheaper - TVO.org",
+          "source": "Google News Housing Minister CA",
+          "date": "2025-05-20",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR25oaW5NcEdHSUJGY0RiZl82eWpTd1F2R29hU09td2dmUlZKN1c4QWJ6SU9tX0tEUTNKVjhuZlExbkxvY0Y2X1FyWERuengzcUxlT0NpemZJVTR5MzFBSEplRjctXzNHVWVEdE1wRVl6QzJfQjZ4bm5vRUZMMVF1UHA3d1FnZE9FVHEzS3pSNXJDd2hwT3FiOG9HNFNtTUJDNnfSAaIBQVVfeXFMTWJrZzEwTzlFeUoxN3RqenVzOEhMbkYxbmNnekJrckIydnRsbXRwRWZoeDJZTS0xRUc0aGNwZXBqRmR6NWVzVWJvYzR5SUxXUm15SUdjSWUxSzFCT1ozRGtrS0xGLVBfN0NoQTBTdGtJS0REN0ZLenJFdGtUVDF6N2tjV3BRT0phbmd5Q3VSM1JYakstRG5DX1JSdHh0Y0YtcDJn?oc=5",
+          "summary": "An analysis piece examines the relationship between housing affordability and construction costs in the context of Canadian housing policy.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-mini-x4a5y7",
           "headline": "Matt Spoke: Can the Liberals deliver on their housing affordability promises? The early signs are not encouraging - The Hub | More Signal. Less Noise.",
           "source": "Google News Housing Minister CA",
@@ -735,6 +793,15 @@
           "date": "2025-01-22",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdE5PcDlPQW0tYWxmblNWMWVEV0JIWlBJWXAtQTdzREZaVmQ4VU1IaFBrNWJSaFdHTTJPMnVwYTl1RUFfbTNwMVRhdGZlRVJoeENuTzdRNXBLT1B0ZmtTZFFjdTVQR3A4M2ZvSklUcGtJelNUZjFJdjZZQmh3Y1RFdTc1YzcybjNoUUZkalRTdzF6U1l1SmhYdHdXQlFWUQ?oc=5",
           "summary": "Mississauga's mayor has released a housing task force report focused on homebuilding partnerships.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-zoning-on-bc-de3zmd",
+          "headline": "Hunter Prize: Municipal tinkering won’t be enough to fix the housing crisis. Provinces should pass a ‘right to build’ - The Hub | More Signal. Less Noise.",
+          "source": "Google News Zoning ON BC",
+          "date": "2024-10-29",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSGFiOUxmanFFR3FOVzRSNE1sSjVEbGRUdHFkVFpnRjZ1ZGtpdHQ5QmN5Wkd2Ym9SeEFfOHZZRTF4dmZnUkxLdkpLZUpyaHZqcDBOd0l6SmlyX1J2N05rUG5LeEV5aTlBOGhza0VqMFZaUE9fVDhxVmJLSnMwS3FiaU80X0x0QS0xek5CejVtVmN3SU9fWjk5dXM3cXhGRDBMNXFiMGhvaGJqWEh1czBidUV2MkU4bE8yU2lxVzc2aVpBVXFRTjF4TjdaNUx0RVZKWVFPSFczZnJxQQ?oc=5",
+          "summary": "An opinion piece argues that provincial governments should enact \"right to build\" legislation to address housing shortages, rather than relying on municipal zoning reforms alone.",
           "summarySource": "headline-only"
         },
         {
@@ -958,6 +1025,24 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-mhjlif",
+          "headline": "Opinion | No Quick Fix for Our Housing Crisis - The New York Times",
+          "source": "Google News Housing US",
+          "date": "2025-12-14",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtYkN6NGsxdE10dnFtMF9UNzFxNEkxMlhuWlZpS2lzX2x3aUtZZmFuMENaSmZSc1JnMGMyZHlBTWJVRDVoQ0N1RkQxR1pMdXhaNDJHelNNTGZNZUNWdlBXRmQyU3FhanJYa0NJaWhxSXE3Ukk?oc=5",
+          "summary": "The New York Times published an opinion piece asserting that the housing crisis lacks a simple solution.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-d6t56",
+          "headline": "The housing crisis is forcing Americans to choose between affordability and safety - The Conversation",
+          "source": "Google News Housing US",
+          "date": "2025-12-04",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVTg1STczWWhLOFdkbnJUUXlrZWNyV2tCdUdCWWZvd2ItNmtVRjZ3czhpOXJWUHVOWVFhX1NLZGkyTUtvSHU4bVhWaE9sRzlMLXJhYnh2czJTZnpyN0VObDJhOFFJU294ZVhHN0liUVdObWxhSEJYblFHdVlZSHNLcjAwd1hlZm5OeTZrVVFmWk50SUc0ZTBVbmNWeXc5RGhBdy05cU9QNFFOMDFCWTRuVW44amIzWVJP?oc=5",
+          "summary": "Rising housing costs are compelling some Americans to prioritize affordability over safety considerations when selecting where to live.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-eje56b",
           "headline": "Opinion | America’s Housing Crisis, in One Chart - The New York Times",
           "source": "Google News Housing US",
@@ -965,11 +1050,65 @@
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE81NkpuZEYyQTQ3eVd2WjhscVBHd0g3ZllURk1KV09DdzB2VlBWNlA1M1R4UzlIdFhPcldYQ1hnMnc3Z2NhNWk2dkxIbVBVb0N3YjVTNW9OUWxGRlFmeXJYeWUxcnA4bnZvRk9DTjBJaHltaGlHSmF3TUZR?oc=5",
           "summary": "The New York Times published an opinion piece analyzing America's housing crisis using a chart-based visualization.",
           "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-qhp39r",
+          "headline": "Can the rise of Contech mitigate the US housing crisis? - Monocle",
+          "source": "Google News Housing US",
+          "date": "2025-11-20",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObGRKaDF4bWRkQkZ0V3hlckU3NkRmRmdaV1dXS3BUTGxoOW1VUFF0WHRibkZlTldvSDZtWEdVNTQ3OHJ3RUMxSW5iVDVYRlBudDhwSTkxMUpHeXZtbkhNaGMzWFlUM0RXNHo1RGtySXJzNDFTMHZzencxb3o1ZjhkU3U0Y1dKUUZ3?oc=5",
+          "summary": "The article discusses whether construction technology (contech) innovations could help address housing shortages in the United States.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-no2x9n",
+          "headline": "What Will It Take to Solve America’s Housing Crisis? - Knowledge at Wharton",
+          "source": "Google News Housing US",
+          "date": "2025-11-03",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc3REOGtRWllXdUtMUVlQcVhHclM3UG5tcUQ5QW9sVVk2eVV6T3cwLXBiUElfd1pMRnBXVDM0aGQ4VmpKTnY5SlZBeFo2NGYtNnYxdmxYenNDTnJlVEYzX3NOYWJHOVlZdVZqWUxEanVzVFFYX054WEdOVDdncV9FWC1YWWU1RTRiY0pLcURjWmxEM0J3Y04tWXJyUQ?oc=5",
+          "summary": "An article from Knowledge at Wharton examines potential solutions to America's ongoing housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-laxo51",
+          "headline": "We're in a Housing Crisis. Why Does Everything Feel Stacked Against Us? - Strong Towns",
+          "source": "Google News Housing US",
+          "date": "2025-10-14",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQmdzWnJ4cUJhRmdOWExlWGhJMmdyaHhMMFZQa09LVkRlZUxsblphUE5hUkxvODNxdTRPSGlwd19WVEcyMGxHYk5UTGtLdkNEQ0sxejhxYkhkNWxqWlBCVGFWUVFhaUFMOVE5LUV1aXlxZkQyMDNJX2c1NFhxYmk2SjY4dzNmdFAyMDBlbXctdVJ1bTJZU2xRU3AzdVlVN3pGalZxRUl1VQ?oc=5",
+          "summary": "A Strong Towns article examines barriers and systemic challenges contributing to the current housing crisis in the United States.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-rew7o5",
+          "headline": "The Era of Federal Zoning Reform Has Arrived - Economic Innovation Group",
+          "source": "Google News Housing US",
+          "date": "2025-09-18",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpZVJaSl9EZ1lJT21SUlVPYTdYMWZGODRRRzVscFdabjhvWGV4N0dqeEtXaUtDYnlpRTRVZkhHVGF3WnYxeU1wZ0FtWjczZEtBdDZ1dk9xcUEwbFdFdjJWMEZfVkNUMXYycnJ3MzVR?oc=5",
+          "summary": "The Economic Innovation Group has published commentary indicating that federal-level zoning reform efforts are gaining momentum.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-cbdlcd",
+          "headline": "How zoning reform can increase housing development and affordability - EY",
+          "source": "Google News Housing US",
+          "date": "2025-09-03",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT1JzQ09oUkFhVHZ4UDdFSWVtaGZPMFpwRm5iaHkxNTRHYWRyNjdlZzNDODZkOWNyeTJwVlh5WEg0WldHTkRqNDNKZTdVbDVyd1VnNTNnamh0RWtjREVQVFBPTHIzcmk2SUhTVW1tckVXNU1oRk5BOWllS0RfalFPV0JObUFYN3l3SEJ1aVVEdEpxaFdCbVdOTC0zQQ?oc=5",
+          "summary": "An EY analysis examines how zoning reform could contribute to increased housing development and affordability.",
+          "summarySource": "headline-only"
         }
       ]
     },
     "United Kingdom": {
       "news": [
+        {
+          "id": "rss-bbc-your-money-y7rt2i",
+          "headline": "Housing shortage 'makes me feel unwanted in my city'",
+          "source": "BBC Your Money",
+          "date": "2026-04-17",
+          "url": "https://www.bbc.com/news/articles/c2392114278o?at_medium=RSS&at_campaign=rss",
+          "summary": "Exeter faces a housing shortage despite hundreds of new homes under construction, with residents and charity leaders arguing that the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals. Some residents report difficulty finding affordable rental housing, while others note that co-living arrangements provide practical alternatives to traditional rentals.",
+          "summarySource": "article"
+        },
         {
           "id": "rss-bbc-your-money-lg08zt",
           "headline": "Council seriously failing its tenants, says report",
@@ -1080,6 +1219,15 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-44tw9p",
+          "headline": "WashU Expert: Separating fact from fiction in housing affordability and corporate investors - WashU",
+          "source": "Google News Housing Global",
+          "date": "2026-04-17",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd3d2eGJlODFEaEFhQkJuNnByNC0xQWNzaWo2cVdUdkhNdXl0STRrMjJobnR4c1NIMWRwNy1yS0VQcU40YkROQ2VYYUZhOVZ3NGxlXzRpRjZGZXdZemQxQmZrenhWT0lKa1c4OVl2MnRfZlRKdmxGdjFOcS1sT09lbXlHWmh2VHptNk5vYjFMMWs3blhOYlBlbzhFTlh4RVhHTGlMUUUwOEdWeFhHSEswVEZzcXlUUjFDT25OVHRfWFZYdw?oc=5",
+          "summary": "A Washington University expert has addressed claims about the relationship between corporate investors and housing affordability challenges.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-1ect2x",
           "headline": "Severe Housing Crisis Spotlighted By North Fork Environmental Council Panel Friday At Peconic Landing - Patch",
@@ -1240,6 +1388,15 @@
           "date": "2026-04-15",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYjZUQXoycG5GWnlhblNSeWlncjdHRVNpVVQxcklJdGE2dkF2Vk1DSl92bmVRWkthOUFpUVA5cE9xTEJFajU1c0JmVll1VFBlVnl2aHh3eDB3eTIxNHRBMUR2Zmw3TXFrdjl5TzU0NU5INWpXcGo0QVNCREV5LUYwalI1a1dzYnBwUXpKMVpXdnRITnVFZEdpYw?oc=5",
           "summary": "The Public Policy Institute of California examined whether increasing housing supply beyond population growth has helped address California's housing affordability and availability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-ppvveo",
+          "headline": "White House lays out fixes for housing affordability problem - Fox Business",
+          "source": "Google News Housing Global",
+          "date": "2026-04-14",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObjRacjRsSUc1NGtyMXBJVi1lTUlIZFcwMG5mdUkwREtJTWluQWFtTldmYXFlcWJSSlJYWHo0OXFBYjRwQXhwcjdMb1FKaUZoWnhnajVDMFF0ZkRsMEVDbWFBTnlldENwb0ppSkFPTlcyTkhMNWItOFNVejM3d3FIWndrMzhNa0x1WmtJU0NMOHlDNTVjQ0NINNIBngFBVV95cUxNWHd0YVJkaGhPS3c5Zjg4ajFuMUxSTjZSc1FETGk0a2RHMFRvOG1ZeGlsazIxMlZJeG5uMUZlTENwVjlPdlFpV2FWVl81bXhCRVJtUUNWRVpWcjByU2ZmVEFaZjlQVG9zbDlUVmFUek9sYXlSZWlOaU9HRFl1ZTVuT3UxaTlPQlZjQV85ejMtbk1zRTlRZ0pYcWdoM2VtQQ?oc=5",
+          "summary": "The White House has announced policy proposals intended to address housing affordability issues.",
           "summarySource": "headline-only"
         },
         {
