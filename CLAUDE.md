@@ -4,7 +4,7 @@ read the upgrade.md file in the root of the repo to understand what are the goal
 
 -- When generating a code always take inspiration and read the following files, for all code generation follow the logique on the security and bug fix prompt:
 
-- prompt ground work: security-audit-prompt.md
+- prompt ground work: REFERENCE_SECURITY_AUDIT.md
 
 -- when creating code always follow the below instruction EVERY ONE OF THEM:
 

@@ -1,6 +1,5 @@
 # Housing Tracker . Canada-first, multi-region
 
-m
 A live map of housing policy. Canada is the primary dataset with federal
 bills, provincial legislation, major projects, and officials. The United
 States is a full secondary region covering federal housing law plus the
@@ -40,27 +39,27 @@ run the sync scripts that refresh data from upstream APIs.
   We're honest about coverage rather than faking it.
 - **Europe (light coverage).** UK, Germany, France, Italy, Spain,
   Poland, Netherlands, Sweden, Finland, Ireland, and the European
-  Parliament. 13 bills, 19 projects, and 12 verified housing ministers
+  Parliament. 17 bills, 19 projects, and 12 verified housing ministers
   across 11 entities. Refreshed via manual `europe-asia-sync` dispatch.
 - **Asia-Pacific (light coverage).** Japan, South Korea, China, India,
-  Indonesia, Taiwan, Australia. 9 bills, 4 projects, and 7 verified
+  Indonesia, Taiwan, Australia. 15 bills, 6 projects, and 7 verified
   housing ministers. Same manual dispatch pattern as Europe.
 
 Counts (April 2026):
 
 | Layer                            | Count                               | Source                                      |
 | -------------------------------- | ----------------------------------- | ------------------------------------------- |
-| Canadian housing bills (federal) | ~152                                | LEGISinfo                                   |
-| Canadian provincial bills        | ~168 / 13 jurisdictions             | BC Laws + Tavily                            |
-| Canadian housing projects        | 13                                  | Build Canada Homes, CMHC                    |
+| Canadian housing bills (federal) | 152                                 | LEGISinfo                                   |
+| Canadian provincial bills        | 219 / 13 jurisdictions              | BC Laws + Tavily                            |
+| Canadian housing projects        | 20                                  | Build Canada Homes, CMHC                    |
 | Canadian officials               | 12                                  | canada.ca + Tavily                          |
 | US federal housing bills         | 54                                  | Congress.gov API                            |
 | US state housing bills           | 68 / 10 states                      | Tavily + Apify + state legislature queries  |
 | US housing projects              | 25                                  | Tavily research (HUD, state agencies)       |
 | US housing officials             | 9                                   | hud.gov + Tavily                            |
 | UK housing bills (secondary)     | 267                                 | UK Parliament Bills API                     |
-| Europe (11 entities)             | 13 bills, 19 projects, 12 officials | europe-housing.ts + europe-officials.ts     |
-| Asia-Pacific (7 entities)        | 9 bills, 4 projects, 7 officials    | asia-pacific-housing.ts + asia-officials.ts |
+| Europe (11 entities)             | 17 bills, 19 projects, 12 officials | europe-housing.ts + europe-officials.ts     |
+| Asia-Pacific (7 entities)        | 15 bills, 6 projects, 7 officials   | asia-pacific-housing.ts + asia-officials.ts |
 
 Counts come from `jq`/`node` over JSON files in `data/`, not from memory.
 
@@ -119,7 +118,7 @@ graph TD
     NEWSJSON --> BLD
     METRJSON --> BLD
 
-    subgraph UI["Next.js 15 App"]
+    subgraph UI["Next.js 16 App"]
         HEALTH[/api/health]
         FOOTER[HealthFooter]
         DS[/about/data-sources]
@@ -171,9 +170,136 @@ graph TD
     APOFF --> W6
 ```
 
-All five workflows finish with a `summarize-run-report` step that
+All six workflows finish with a `summarize-run-report` step that
 writes a Markdown table to `$GITHUB_STEP_SUMMARY` so you can see the
 pipeline status at a glance without digging through logs.
+
+### Data pipeline flow
+
+This is what happens when a sync script runs, whether triggered by
+GitHub Actions or invoked manually.
+
+```mermaid
+sequenceDiagram
+    participant Script as Sync Script
+    participant RF as resilient-fetch.ts
+    participant CB as circuit-breaker.ts
+    participant API as Upstream API
+    participant FR as fallback-router.ts
+    participant FB as Fallback API
+    participant RR as run-report.ts
+    participant HR as health-registry.ts
+    participant Disk as data/*.json
+
+    Script->>RF: fetch(url, options)
+    RF->>CB: check circuit state
+    alt Circuit CLOSED
+        CB->>API: HTTP request
+        API-->>CB: response
+        CB-->>RF: data
+    else Circuit OPEN or API fails
+        RF->>FR: try fallback source
+        FR->>FB: HTTP request
+        FB-->>FR: response
+        FR-->>RF: data
+    end
+    RF-->>Script: parsed result
+    Script->>RR: log success/failure per source
+    Script->>HR: update source health status
+    Script->>Disk: write JSON
+    RR->>Disk: write _run-reports/
+    HR->>Disk: write _health.json
+```
+
+### Technology stack
+
+| Dependency          | Version | Role                                          |
+| ------------------- | ------- | --------------------------------------------- |
+| Next.js             | 16.2.3  | App router, SSR, API routes                   |
+| React               | 19.2.4  | UI                                            |
+| TypeScript          | ^5      | Type safety across all source and scripts      |
+| Tailwind CSS        | ^4      | Styling (PostCSS plugin)                       |
+| maplibre-gl         | ^5.23.0 | Vector tile maps for county/census views       |
+| react-simple-maps   | ^3.0.0  | SVG choropleth maps (provinces, states, intl)  |
+| cobe                | ^2.0.1  | 3D globe on the globe page                     |
+| framer-motion       | ^12.38.0| Page transitions and scroll animations         |
+| opossum             | ^9.0.0  | Circuit breaker (resilience layer)             |
+| cheerio             | ^1.2.0  | HTML parsing for scraper pipelines             |
+| @tavily/core        | ^0.7.2  | Tavily search and extract API client           |
+| @anthropic-ai/sdk   | ^0.88.0 | Claude API for classification and blurbs (dev) |
+| @vercel/analytics   | ^2.0.1  | Page view analytics                            |
+| @vercel/kv          | ^3.0.0  | Visitor counter (Redis-backed KV)              |
+
+## Project structure
+
+```
+app/                     Next.js 16 app router pages and API routes
+  about/                 About page and data-sources sub-page
+  api/health/            Health check endpoint
+  bills/                 Legislation browser
+  contact/               Contact form
+  globe/                 3D globe view
+  legislation/[id]/      Individual bill detail
+  methodology/           Classification methodology
+  news/                  News feed and article detail
+  politicians/           Officials grid
+  projects/              Project list and detail
+
+components/
+  hero/                  GlobeHero, Hero
+  map/                   CanadaProvincesMap, USStatesMap, EuropeMap, AsiaMap,
+                         NorthAmericaMap, CensusDivisionMap, CountyMap, MapShell,
+                         ProjectDots, ProjectCard, MobileLegend
+  panel/                 SidePanel, LegislationList, BillExpanded, ContextBlurb,
+                         KeyFigures, NewsSection, ProjectsList, ProjectDetail,
+                         HousingMetricsSection
+  sections/              SummaryBar, LegislationTable, LiveNews, AIOverview,
+                         PoliticiansOverview, ProjectsOverview, NuanceLegend,
+                         DimensionToggle, ProjectCard
+  ui/                    Header, HealthFooter, TopToolbar, SearchPill, Card,
+                         StanceBadge, StagePill, BillTimeline, Breadcrumb,
+                         VisitorsWidget, and others
+
+lib/
+  resilience/            circuit-breaker, fallback-router, health-registry,
+                         rate-limit, run-report
+  schemas/               housing-project schema
+  sources/               apify, congress-gov, legiscan, openparliament
+  placeholder-data.ts    Generated file that feeds the UI at build time
+  resilient-fetch.ts     Fetch wrapper with retry + circuit breaker
+  tavily-*.ts            Tavily client, cache, budget, types
+  search.ts              Client-side search across bills/projects/politicians
+
+scripts/
+  build-placeholder.ts   Reads all JSON data and writes placeholder-data.ts
+  ci/                    summarize-run-report (GitHub Actions step summary)
+  cleanup/               fill-impact-tags, refresh-blurbs, rewrite-blurbs
+  geo/                   fetch-canada-geo (census boundary GeoJSON)
+  smoke/                 anthropic-ping, legiscan-ping, au-lookup, donor-lookup
+  sync/                  37 pipeline scripts (see "Running pipelines manually")
+
+data/
+  legislation/           federal-ca.json, federal-us-housing.json,
+                         provinces/*.json (13), us-states-housing/*.json (10),
+                         europe/, asia-pacific/, uk/
+  projects/              canada.json, us.json, europe/, asia-pacific/
+  politicians/           canada.json, us.json, europe.json, uk.json,
+                         asia-pacific.json, eu.json, global-leaders.json
+  news/                  summaries.json, feeds.json, regional-overviews.json
+  international/         Per-country JSON (12 countries)
+  municipal/             US municipal housing data (30 states)
+  housing/               Canadian housing metrics (StatCan, CMHC)
+  crosswalk/             Bioguide-to-FEC legislator crosswalk
+  donors/                Campaign finance data
+  figures/               Federal US key figures
+  votes/                 Canadian federal vote records
+  meta/                  last-sync.json, legiscan-query-count.json
+  raw/                   _health.json, _run-reports/
+
+.github/workflows/       6 workflow files (see Architecture diagram)
+docs/                    canada-pivot-decisions.md, repurpose-plan.md,
+                         us-data-sources.md
+```
 
 ## Configuration
 
@@ -205,6 +331,8 @@ politicians dataset and are benign.
 
 ## Running pipelines manually
 
+**Canada (primary)**
+
 ```bash
 npx tsx scripts/sync/canada-legislation.ts
 npx tsx scripts/sync/bc-legislation.ts
@@ -214,6 +342,46 @@ npx tsx scripts/sync/officials.ts
 npx tsx scripts/sync/statcan-housing.ts
 npx tsx scripts/sync/cmhc-housing.ts
 npx tsx scripts/sync/news-rss.ts
+```
+
+**United States**
+
+```bash
+npx tsx scripts/sync/us-federal-housing.ts
+npx tsx scripts/sync/us-states-housing-research.ts
+npx tsx scripts/sync/us-legiscan-housing.ts
+npx tsx scripts/sync/us-housing-projects.ts
+npx tsx scripts/sync/us-officials.ts
+npx tsx scripts/sync/fred-housing.ts
+npx tsx scripts/sync/census-housing.ts
+npx tsx scripts/sync/zillow-housing.ts
+```
+
+**Europe and Asia-Pacific** (require `EXECUTE_EUROPE=1` or `EXECUTE_ASIA=1`)
+
+```bash
+EXECUTE_EUROPE=1 npx tsx scripts/sync/europe-housing.ts
+EXECUTE_EUROPE=1 npx tsx scripts/sync/europe-officials.ts
+EXECUTE_ASIA=1 npx tsx scripts/sync/asia-pacific-housing.ts
+EXECUTE_ASIA=1 npx tsx scripts/sync/asia-officials.ts
+npx tsx scripts/sync/uk-bills.ts
+```
+
+**International metrics** (separate from the bill/project pipelines)
+
+```bash
+npx tsx scripts/sync/eurostat-housing.ts
+npx tsx scripts/sync/oecd-housing.ts
+npx tsx scripts/sync/worldbank-housing.ts
+npx tsx scripts/sync/abs-housing.ts
+npx tsx scripts/sync/uk-landregistry.ts
+npx tsx scripts/sync/hk-rvd.ts
+npx tsx scripts/sync/sg-hdb.ts
+```
+
+**After any sync, rebuild the placeholder data:**
+
+```bash
 npm run data:rebuild
 ```
 
@@ -232,7 +400,27 @@ npm run news:poll       # Manual RSS poll
 npm run news:regen      # Full news summary rebuild
 npm run geo:canada      # Fetch Canadian census geography
 npm run sync:provinces  # Provincial housing research
+npm run blurbs:refresh  # Force-regenerate all province/state blurbs
 ```
+
+## Pages
+
+| Route               | What it shows                                                   |
+| ------------------- | --------------------------------------------------------------- |
+| `/`                 | Home. Summary bar, interactive map, live news, legislation feed |
+| `/bills`            | Searchable table of all tracked bills across every region       |
+| `/projects`         | Housing project cards. Click through to `/projects/[id]`        |
+| `/projects/[id]`    | Individual project detail                                       |
+| `/politicians`      | Officials grid with stance badges and filters                   |
+| `/news`             | News feed with AI summaries. Click through to `/news/[id]`      |
+| `/news/[id]`        | Individual article with AI generated summary                    |
+| `/legislation/[id]` | Single bill detail with timeline and classification             |
+| `/globe`            | 3D globe view (cobe) showing tracked countries                  |
+| `/about`            | About page and data source documentation                        |
+| `/about/data-sources` | Detailed data source explanations per region                  |
+| `/methodology`      | How bills get classified, scored, and tagged                    |
+| `/contact`          | Contact form                                                    |
+| `/api/health`       | JSON health check. Powers the HealthFooter component            |
 
 ## Tradeoffs and limitations
 
@@ -249,12 +437,11 @@ npm run sync:provinces  # Provincial housing research
   has a sparse housing-bill slate for a given session (e.g. Texas
   during recess), the pipeline may pull fewer than 5 bills and mark the
   URLs as unvalidated if Tavily Extract briefly fails.
-- Europe and Asia-Pacific entities have light bill/project data (max
-  3 of each) per country by design. Refreshing those regions requires
-  dispatching the `europe-asia-sync` workflow with `execute_europe=1`
-  and/or `execute_asia=1`. Countries with 0 bills show an honest
-  "coverage is limited in this release" notice rather than fabricated
-  content.
+- Europe and Asia-Pacific entities have light bill/project data per
+  country by design. Refreshing those regions requires dispatching the
+  `europe-asia-sync` workflow with `execute_europe=1` and/or
+  `execute_asia=1`. Countries with 0 bills show an honest "coverage is
+  limited in this release" notice rather than fabricated content.
 - Tavily is on the dev tier (1000 credits per month). Running the full
   provincial research pipeline plus projects plus officials consumes
   roughly 100 to 150 credits. Heavy manual re-runs will exhaust the
@@ -264,6 +451,13 @@ npm run sync:provinces  # Provincial housing research
   doesn't fail the overall run. Last good values stay in place.
 - Data is for informational purposes only. Not legal or financial
   advice.
+
+## Documentation
+
+- [docs/canada-pivot-decisions.md](docs/canada-pivot-decisions.md) . Why the project pivoted from AI/data-center tracking to housing policy, and the decisions behind a Canada-first approach.
+- [docs/repurpose-plan.md](docs/repurpose-plan.md) . The full migration plan from the original codebase, what got kept, what got dropped.
+- [docs/us-data-sources.md](docs/us-data-sources.md) . Source hierarchy for US federal and state housing bills (Congress.gov, LegiScan, Apify, Tavily).
+- [data/municipal/README.md](data/municipal/README.md) . Explains what the municipal dataset covers and its limitations.
 
 ## Contributing
 
@@ -280,6 +474,6 @@ repurpose plan). Read those before making sweeping changes.
 
 ## License
 
-See `LICENSE` in the repo root. The Open Government Licence . Canada
-applies to the Canadian legislation and market data where it is
-republished from official sources.
+No LICENSE file has been added to the repo yet. The Open Government
+Licence . Canada applies to the Canadian legislation and market data
+where it is republished from official sources.
