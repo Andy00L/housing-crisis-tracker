@@ -1,12 +1,27 @@
-# Housing Crisis Tracker
+# 🏠 Housing Crisis Tracker: Policy Meets the Map
 
-A live map of housing policy across 5 regions. Tracks legislation, housing projects, officials, and crisis metrics with interactive maps and a legislative funnel. Canada is the primary dataset.
+![Next.js](https://img.shields.io/badge/Next.js-16.2.3-black?logo=next.js)
+![React](https://img.shields.io/badge/React-19.2.4-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss)
+![MapLibre](https://img.shields.io/badge/MapLibre_GL-5.23-396CB2?logo=maplibre)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-000?logo=vercel)
 
-## Attribution
+## 📝 Description
 
-UI framework inspired by [trackpolicy.org](https://trackpolicy.org) by [@isareksopuro](https://x.com/isareksopuro).
+Housing Crisis Tracker is a data-driven policy tracker that maps housing legislation, projects, and officials across 5 regions from a single interface. Canada is the primary dataset with 415 bills, 2,065 NHS housing projects, and 12 officials. The US is the full secondary region with Congress.gov API integration for federal bills and coverage of 10 state legislatures. Europe and Asia-Pacific carry light coverage refreshed via manual dispatch. Every bill gets classified by stance (favorable, restrictive, concerning, review) through a two-stage pipeline: regex heuristics first, then optional Claude reclassification. The app ships pre-built data so no API keys are needed for local development. Built with Next.js 16 App Router, MapLibre GL for census division drill-downs, react-simple-maps for choropleth views, and a resilience layer (circuit breakers, fallback routing, health registry) that keeps pipelines running even when upstream APIs go down.
 
-## Quick Start
+## 🌐 Live Demo
+
+**Production URL:** [housing-crisis-tracker.vercel.app](https://housing-crisis-tracker.vercel.app/)
+
+**Demo Video:** *coming soon*
+
+![Home Page](docs/screenshots/home.png)
+![Map View](docs/screenshots/map.png)
+![Bills Page](docs/screenshots/bills.png)
+
+## ⚡ Quick Start
 
 ```bash
 git clone https://github.com/Andy00L/housing-crisis-tracker.git && cd housing-crisis-tracker
@@ -17,7 +32,7 @@ npm run dev                    # http://localhost:3000
 
 No keys are required for local development. The app ships with pre-built data in `lib/placeholder-data.ts`.
 
-## What It Tracks
+## 📊 What It Tracks
 
 | Region | Bills | Projects | Officials |
 |--------|------:|:--------:|:---------:|
@@ -35,7 +50,7 @@ Europe and Asia-Pacific carry light coverage refreshed via manual dispatch. Coun
 
 Counts come from `node` over JSON files in `data/`, not from memory. Last verified April 2026.
 
-## Features
+## ✨ Features
 
 - Interactive choropleth maps per region with MapLibre GL for census division drill-down
 - Census division zoom for QC, ON, AB, NB with dot clusters by project count and type
@@ -48,7 +63,7 @@ Counts come from `node` over JSON files in `data/`, not from memory. Last verifi
 - AI-generated news summaries from RSS feeds
 - Health footer showing real-time data source freshness
 
-## Configuration
+## ⚙️ Configuration
 
 | Variable | Required | Used by |
 |----------|:--------:|---------|
@@ -63,7 +78,7 @@ Counts come from `node` over JSON files in `data/`, not from memory. Last verifi
 
 See `.env.example` for the full list with inline notes.
 
-## npm Scripts
+## 📜 npm Scripts
 
 ```bash
 npm run dev                # Start dev server
@@ -78,7 +93,7 @@ npm run enrich:projects    # Project description enrichment (Tavily + Haiku)
 npm run blurbs:refresh     # Force-regenerate all province/state blurbs
 ```
 
-## Pages
+## 🗺️ Pages
 
 | Route | What it shows |
 |-------|---------------|
@@ -94,13 +109,13 @@ npm run blurbs:refresh     # Force-regenerate all province/state blurbs
 | `/contact` | Contact form |
 | `/api/health` | JSON health check. Powers the HealthFooter component |
 
-## Documentation
+## 📖 Documentation
 
 - [ARCHITECTURE.md](ARCHITECTURE.md) . System design, data flow, resilience layer, classification pipeline
 - [docs/running-pipelines.md](docs/running-pipelines.md) . Pipeline commands and sync workflow
 - [docs/us-data-sources.md](docs/us-data-sources.md) . US federal and state data source hierarchy
 
-## Tradeoffs and Limitations
+## ⚠️ Tradeoffs and Limitations
 
 - Smaller territories (YT, NT, NU, PE) have very few housing bills. That reflects reality, not a data gap.
 - Housing project coordinates fall back to province centroids when a city is not in the lookup table. The fallback chain is exposed by `resolveProjectCoordinates` in `lib/projects-map.ts`.
@@ -111,7 +126,7 @@ npm run blurbs:refresh     # Force-regenerate all province/state blurbs
 - CMHC uses an undocumented export endpoint. The metrics-sync workflow has `continue-on-error: true` on the CMHC step.
 - Data is for informational purposes only. Not legal or financial advice.
 
-## Contributing
+## 🤝 Contributing
 
 Fork, branch, PR. Before opening:
 
@@ -123,6 +138,6 @@ npm run build
 
 Read [ARCHITECTURE.md](ARCHITECTURE.md) before making sweeping changes.
 
-## License
+## 📄 License
 
 [MIT](LICENSE)
