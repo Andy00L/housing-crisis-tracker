@@ -2,10 +2,41 @@
   "state": "Taiwan",
   "stateCode": "TW",
   "region": "asia",
-  "stance": "none",
+  "stance": "favorable",
   "stanceZoning": "none",
-  "stanceAffordability": "none",
-  "lastUpdated": "2026-04-16",
-  "contextBlurb": "根據立法院相關資料，目前未能從所提供的片段中找到明確針對台灣社會住宅或公共住宅的具體法案資訊。以下片段內容主要涉及行政院院長施政報告、AI政策及其他立法事務，並無直接關於住宅法案的詳細內容。",
-  "legislation": []
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-17",
+  "contextBlurb": "台灣近期住宅相關法案聚焦於租賃市場管理、社會住宅擴大興辦及住宅法修正，內政部積極推動多項保障租屋族與強化居住權益之立法工作。",
+  "legislation": [
+    {
+      "id": "ap-tw-",
+      "billCode": "租賃條例修正草案",
+      "title": "租賃住宅市場發展及管理條例部分條文修正草案",
+      "summary": "內政部通過修正草案，三大方向為：保障租客享有3年租期、限制續約租金漲幅（不得超過行政院主計總處公布之房租指數年增率），以及強化租賃雙方權益保障。房東若因自用收回須提前6個月通知，收回後1年內不得再出租，違者須補償租客3個月租金。",
+      "stage": "Committee",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2025-01-18",
+      "sourceUrl": "https://www.moi.gov.tw/News_Content.aspx?n=4&s=331851",
+      "sponsors": []
+    },
+    {
+      "id": "ap-tw-3-0",
+      "billCode": "社會住宅3.0擴大興辦計畫",
+      "title": "社會住宅3.0：2025–2032年直接興辦社會住宅及租金補貼擴大計畫",
+      "summary": "內政部推動「社會住宅3.0」，目標於2025至2032年八年期間，直接興辦25萬戶社會住宅、包租代管25萬戶，並提供50萬戶租金補貼，以達成照顧百萬租屋家戶之政策目標。截至2025年底，全國直接興辦社會住宅已達12萬2,680戶，中央興辦占57.17%。",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.moi.gov.tw/News_Content.aspx?n=8&s=336085",
+      "sponsors": []
+    }
+  ]
 }

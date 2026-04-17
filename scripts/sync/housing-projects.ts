@@ -88,6 +88,83 @@ const PROVINCIAL_SEARCHES: SearchPlan[] = [
   },
 ];
 
+// ── Enriched searches: per-province + federal programs ──────────────
+const ENRICHED_FEDERAL_SEARCHES: SearchPlan[] = [
+  {
+    label: "National Housing Strategy",
+    query: "National Housing Strategy Canada projects funded 2025",
+    includeDomains: ["cmhc-schl.gc.ca", "canada.ca"],
+  },
+  {
+    label: "Rapid Housing Initiative",
+    query: "Rapid Housing Initiative Canada projects 2025",
+    includeDomains: ["cmhc-schl.gc.ca", "canada.ca"],
+  },
+  {
+    label: "Housing Accelerator Fund",
+    query: "Housing Accelerator Fund Canada recipients 2025",
+    includeDomains: ["cmhc-schl.gc.ca", "canada.ca", "housing-infrastructure.canada.ca"],
+  },
+  {
+    label: "Affordable Housing Fund",
+    query: "Affordable Housing Fund CMHC approved projects 2025",
+    includeDomains: ["cmhc-schl.gc.ca", "canada.ca"],
+  },
+  {
+    label: "Greener Affordable Housing",
+    query: "Canada Greener Affordable Housing program projects",
+    includeDomains: ["cmhc-schl.gc.ca", "canada.ca", "nrcan.gc.ca"],
+  },
+  {
+    label: "Federal Lands Initiative",
+    query: "Federal Lands Initiative housing Canada 2025",
+    includeDomains: ["canada.ca", "cmhc-schl.gc.ca"],
+  },
+  {
+    label: "Co-Investment Fund",
+    query: "Co-Investment Fund CMHC housing projects",
+    includeDomains: ["cmhc-schl.gc.ca", "canada.ca"],
+  },
+];
+
+const ENRICHED_PROVINCIAL_SEARCHES: SearchPlan[] = [
+  // Ontario
+  { label: "Ontario CMHC", query: "CMHC funded housing project Ontario 2025", includeDomains: ["cmhc-schl.gc.ca", "ontario.ca"] },
+  { label: "Toronto housing dev", query: "affordable housing development Toronto construction", includeDomains: ["toronto.ca", "cmhc-schl.gc.ca"] },
+  { label: "Ontario approved", query: "Ontario housing project approved 2025", includeDomains: ["ontario.ca", "cmhc-schl.gc.ca"] },
+  { label: "RHI Ontario", query: "Rapid Housing Initiative Ontario projects", includeDomains: ["cmhc-schl.gc.ca"] },
+  // Quebec
+  { label: "Quebec SCHL", query: "SCHL projet logement Quebec 2025", includeDomains: ["cmhc-schl.gc.ca", "quebec.ca"] },
+  { label: "Montreal social housing", query: "logement social construction Montreal 2025", includeDomains: ["quebec.ca", "montreal.ca"] },
+  { label: "Quebec affordable", query: "habitation abordable Quebec projet", includeDomains: ["quebec.ca", "cmhc-schl.gc.ca"] },
+  { label: "AccesLogis Quebec", query: "AccesLogis Quebec nouveaux projets", includeDomains: ["quebec.ca"] },
+  // BC
+  { label: "BC Housing projects", query: "BC Housing project 2025 construction", includeDomains: ["gov.bc.ca", "bchousing.org"] },
+  { label: "Vancouver affordable", query: "affordable housing project Vancouver 2025", includeDomains: ["vancouver.ca", "cmhc-schl.gc.ca"] },
+  { label: "BC Builds", query: "BC Builds housing initiative projects", includeDomains: ["gov.bc.ca", "bchousing.org"] },
+  { label: "CMHC BC", query: "CMHC housing project British Columbia", includeDomains: ["cmhc-schl.gc.ca"] },
+  // Alberta
+  { label: "Alberta affordable", query: "affordable housing project Alberta 2025", includeDomains: ["alberta.ca", "cmhc-schl.gc.ca"] },
+  { label: "Calgary housing", query: "Calgary housing development construction", includeDomains: ["calgary.ca", "cmhc-schl.gc.ca"] },
+  { label: "Edmonton approved", query: "Edmonton housing project approved 2025", includeDomains: ["edmonton.ca", "cmhc-schl.gc.ca"] },
+  { label: "CMHC Alberta", query: "CMHC Alberta housing funded", includeDomains: ["cmhc-schl.gc.ca"] },
+  // Manitoba
+  { label: "Manitoba housing", query: "Manitoba Housing project 2025", includeDomains: ["gov.mb.ca", "cmhc-schl.gc.ca"] },
+  { label: "Winnipeg affordable", query: "Winnipeg affordable housing construction", includeDomains: ["winnipeg.ca", "cmhc-schl.gc.ca"] },
+  // Saskatchewan
+  { label: "Saskatchewan housing", query: "Saskatchewan housing project 2025", includeDomains: ["saskatchewan.ca", "cmhc-schl.gc.ca"] },
+  { label: "Saskatoon Regina", query: "Saskatoon Regina affordable housing development", includeDomains: ["cmhc-schl.gc.ca"] },
+  // Nova Scotia
+  { label: "Nova Scotia housing", query: "Nova Scotia housing project 2025", includeDomains: ["novascotia.ca", "cmhc-schl.gc.ca"] },
+  { label: "Halifax affordable", query: "Halifax affordable housing construction", includeDomains: ["cmhc-schl.gc.ca", "halifax.ca"] },
+  // New Brunswick
+  { label: "New Brunswick housing", query: "New Brunswick housing project 2025", includeDomains: ["gnb.ca", "cmhc-schl.gc.ca"] },
+  { label: "Moncton Saint John", query: "Moncton Saint John affordable housing", includeDomains: ["cmhc-schl.gc.ca"] },
+  // Newfoundland
+  { label: "Newfoundland housing", query: "Newfoundland housing project 2025", includeDomains: ["gov.nl.ca", "cmhc-schl.gc.ca"] },
+  { label: "St John's affordable", query: "St John's affordable housing development", includeDomains: ["cmhc-schl.gc.ca"] },
+];
+
 // ── Types ───────────────────────────────────────────────────────────
 interface Snippet {
   url: string;
@@ -320,7 +397,7 @@ async function main() {
 
   console.log("[housing-projects] Starting...");
 
-  const plan = [...FEDERAL_SEARCHES, ...PROVINCIAL_SEARCHES];
+  const plan = [...FEDERAL_SEARCHES, ...ENRICHED_FEDERAL_SEARCHES, ...PROVINCIAL_SEARCHES, ...ENRICHED_PROVINCIAL_SEARCHES];
   report.incrementTotal(1);
 
   let snippets: Snippet[];
@@ -398,7 +475,16 @@ async function main() {
     credits_consumed: Math.min(40, vetted.length),
   });
 
-  const final = vetted.filter((p) => reachable.has(p.sourceUrl));
+  const validated = vetted.filter((p) => reachable.has(p.sourceUrl));
+
+  // Deduplicate by name + city
+  const seenProjects = new Set<string>();
+  const final = validated.filter(p => {
+    const key = `${p.name}::${p.city ?? ""}`.toLowerCase();
+    if (seenProjects.has(key)) return false;
+    seenProjects.add(key);
+    return true;
+  });
 
   if (final.length === 0) {
     console.warn("[housing-projects] no projects passed validation");

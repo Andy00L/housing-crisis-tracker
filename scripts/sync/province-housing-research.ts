@@ -52,6 +52,9 @@ const MODEL = "claude-sonnet-4-6";
 const FORCE =
   process.argv.includes("--force") || process.env.PROV_FORCE_REFRESH === "1";
 const MAX = process.env.PROV_MAX ? Number(process.env.PROV_MAX) : Infinity;
+const ONLY = process.env.PROV_ONLY
+  ? new Set(process.env.PROV_ONLY.split(",").map(s => s.trim().toUpperCase()))
+  : null;
 
 mkdirSync(OUT_DIR, { recursive: true });
 mkdirSync(CACHE_DIR, { recursive: true });
@@ -215,6 +218,102 @@ const PROVINCES: ProvinceSpec[] = [
   },
 ];
 
+// ── Enrichment: additional queries and domains per province ──────────
+const PROVINCE_QUERIES: Record<string, string[]> = {
+  ON: [
+    "Ontario Bill 2025 housing",
+    "Ontario Bill 2025 zoning reform",
+    "Ontario Bill 2025 affordable housing",
+    "Ontario Bill 2025 tenant rent protection",
+    "Ontario Bill 2025 building code residential",
+    "ola.org housing bill current session",
+    "Ontario Helping Homebuyers Act",
+    "Ontario More Homes Built Faster Act",
+  ],
+  QC: [
+    "Quebec projet de loi logement 2025",
+    "Quebec projet de loi habitation 2025",
+    "Quebec loi logement social 2025",
+    "Quebec encadrement loyers 2025",
+    "assnat.qc.ca projet loi habitation",
+    "Quebec Tribunal administratif logement",
+  ],
+  BC: [
+    "British Columbia Bill housing 2025",
+    "BC housing supply act 2025",
+    "BC strata property act amendments",
+    "BC tenancy act 2025",
+    "bclaws.gov.bc.ca housing",
+  ],
+  AB: [
+    "Alberta Bill housing 2025",
+    "Alberta affordable housing strategy 2025",
+    "Alberta landlord tenant act amendments",
+    "Alberta municipal zoning reform 2025",
+    "assembly.ab.ca housing bill",
+  ],
+  MB: [
+    "Manitoba Bill housing 2025",
+    "Manitoba residential tenancies act 2025",
+    "Manitoba housing renewal corporation",
+    "web2.gov.mb.ca housing legislation",
+  ],
+  SK: [
+    "Saskatchewan housing bill 2025",
+    "Saskatchewan residential tenancies act",
+    "Saskatchewan affordable housing plan",
+  ],
+  NS: [
+    "Nova Scotia housing bill 2025",
+    "Nova Scotia rent control 2025",
+    "Nova Scotia affordable housing commission",
+    "nslegislature.ca housing",
+  ],
+  NB: [
+    "New Brunswick housing bill 2025",
+    "New Brunswick residential tenancies act",
+    "New Brunswick affordable housing strategy",
+  ],
+  NL: [
+    "Newfoundland Labrador housing bill 2025",
+    "Newfoundland residential tenancies act",
+    "assembly.nl.ca housing",
+  ],
+  PE: [
+    "Prince Edward Island housing bill 2025",
+    "PEI rental act 2025",
+    "PEI affordable housing",
+  ],
+  YT: [
+    "Yukon housing bill 2025",
+    "Yukon residential landlord tenant act",
+  ],
+  NT: [
+    "Northwest Territories housing bill 2025",
+    "NWT residential tenancies act",
+  ],
+  NU: [
+    "Nunavut housing bill 2025",
+    "Nunavut Housing Corporation legislation",
+  ],
+};
+
+const PROVINCE_DOMAINS: Record<string, string[]> = {
+  ON: ["ola.org", "ontario.ca", "canlii.ca"],
+  QC: ["assnat.qc.ca", "quebec.ca", "canlii.ca"],
+  BC: ["bclaws.gov.bc.ca", "leg.bc.ca", "canlii.ca"],
+  AB: ["assembly.ab.ca", "alberta.ca", "canlii.ca"],
+  MB: ["web2.gov.mb.ca", "manitoba.ca"],
+  SK: ["legassembly.sk.ca", "saskatchewan.ca"],
+  NS: ["nslegislature.ca", "novascotia.ca"],
+  NB: ["legnb.ca", "gnb.ca"],
+  NL: ["assembly.nl.ca", "gov.nl.ca"],
+  PE: ["assembly.pe.ca", "princeedwardisland.ca"],
+  YT: ["yukonassembly.ca", "yukon.ca"],
+  NT: ["ntassembly.ca", "gov.nt.ca"],
+  NU: ["assembly.nu.ca", "gov.nu.ca"],
+};
+
 // ── Classification ──────────────────────────────────────────────────
 function classifyCategory(text: string): LegislationCategory {
   const rules: Array<{ cat: LegislationCategory; kw: RegExp }> = [
@@ -374,7 +473,7 @@ RULES:
 1. Use ONLY the snippets above. Do NOT invent bill numbers, URLs, or facts.
 2. sourceUrl MUST be copied verbatim from one of the snippets' URL lines.
 3. Drop bills where you cannot cite a specific snippet.
-4. Return 5-12 bills for major provinces (ON, QC, AB), 5-8 for smaller provinces, 2-5 for territories (YT, NT, NU).
+4. Return 8-20 bills for major provinces (ON, QC, AB), 6-15 for mid-size provinces, 3-8 for territories (YT, NT, NU).
 5. Each bill must be a REAL piece of legislation, a regulation, or a major government program.
 6. The "stage" field MUST be one of: Filed, Committee, Floor, Enacted, Dead, Carried Over.
 
@@ -436,7 +535,7 @@ async function askClaude(
     try {
       const msg = await anthropic.messages.create({
         model: MODEL,
-        max_tokens: 4000,
+        max_tokens: 6000,
         messages: [{ role: "user", content: prompt }],
       });
       const text = extractTextFromClaude(msg);
@@ -490,7 +589,20 @@ async function researchProvince(
 ): Promise<{ bills: number; stance: StanceType; validated: boolean }> {
   console.log(`  [research] ${spec.code} (${spec.name})...`);
 
-  const snippets = await gatherSnippets(spec);
+  // Enrich queries and domains for broader coverage
+  const enrichedSpec: ProvinceSpec = {
+    ...spec,
+    keywordClusters: [
+      ...spec.keywordClusters,
+      ...(PROVINCE_QUERIES[spec.code] ?? []),
+    ],
+    officialDomains: Array.from(new Set([
+      ...spec.officialDomains,
+      ...(PROVINCE_DOMAINS[spec.code] ?? []),
+    ])),
+  };
+
+  const snippets = await gatherSnippets(enrichedSpec);
   if (snippets.length === 0) {
     throw new Error("no Tavily snippets returned");
   }
@@ -525,7 +637,7 @@ async function researchProvince(
   }
 
   // Local classification.
-  const legislation = final.map((b, i) => {
+  const rawLegislation = final.map((b, i) => {
     const fullText = `${b.title} ${b.summary}`.toLowerCase();
     const allowedStages: Stage[] = ["Filed", "Committee", "Floor", "Enacted", "Carried Over", "Dead"];
     const stage = allowedStages.includes(b.stage) ? b.stage : "Filed";
@@ -547,6 +659,31 @@ async function researchProvince(
       sponsors: Array.isArray(b.sponsors) ? b.sponsors.map(String) : [],
     };
   });
+
+  // Deduplicate by billCode/title (enriched queries may surface the same bill)
+  const seenBills = new Set<string>();
+  const legislation = rawLegislation.filter(b => {
+    const key = b.billCode || b.title;
+    if (seenBills.has(key)) return false;
+    seenBills.add(key);
+    return true;
+  });
+
+  // Merge with existing data to preserve previously-found bills
+  const outPath = join(OUT_DIR, `${spec.code}.json`);
+  if (existsSync(outPath)) {
+    try {
+      const existing = JSON.parse(readFileSync(outPath, "utf8"));
+      const existingLeg = (existing.legislation ?? []) as typeof legislation;
+      for (const old of existingLeg) {
+        const key = old.billCode || old.title;
+        if (!seenBills.has(key)) {
+          legislation.push(old);
+          seenBills.add(key);
+        }
+      }
+    } catch { /* ignore corrupt/missing files */ }
+  }
 
   // Sort: Enacted first, then by date.
   const STAGE_RANK: Record<Stage, number> = {
@@ -598,7 +735,6 @@ async function researchProvince(
     legislation,
   };
 
-  const outPath = join(OUT_DIR, `${spec.code}.json`);
   writeFileSync(outPath, JSON.stringify(output, null, 2));
   console.log(
     `  [done] ${spec.code}: ${legislation.length} bills, stance=${overall}${validated ? "" : " (urls unvalidated)"}`,
@@ -618,6 +754,12 @@ async function main() {
 
   for (const spec of PROVINCES) {
     report.incrementTotal(1);
+
+    if (ONLY && !ONLY.has(spec.code)) {
+      console.log(`  [skip] ${spec.code}: not in PROV_ONLY`);
+      report.noteSuccess(spec.code);
+      continue;
+    }
 
     const outPath = join(OUT_DIR, `${spec.code}.json`);
     const alreadyDone =
@@ -659,9 +801,10 @@ async function main() {
       const result = await researchProvince(anthropic, spec);
       processed += 1;
       report.noteSuccess(spec.code);
+      const enrichedQueryCount = spec.keywordClusters.length + (PROVINCE_QUERIES[spec.code]?.length ?? 0);
       report.recordUsage("tavily", {
         calls: 1,
-        credits_consumed: spec.keywordClusters.length * 1 + (result.validated ? 10 : 0),
+        credits_consumed: enrichedQueryCount * 1 + (result.validated ? 10 : 0),
       });
       report.recordUsage("anthropic", { calls: 1, approx_cost_usd: 0.05 });
       if (!result.validated) {

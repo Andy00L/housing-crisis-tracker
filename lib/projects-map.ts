@@ -88,6 +88,17 @@ export const CANADIAN_CITY_COORDS: Record<string, [number, number]> = {
   "Bowser": [49.4333, -124.6833],
   "Burnaby": [49.2488, -122.9805],
   "Langley": [49.1044, -122.6603],
+  "Mississauga": [43.5890, -79.6441],
+  "Brampton": [43.7315, -79.7624],
+  "Surrey": [49.1913, -122.8490],
+  "Richmond": [49.1666, -123.1336],
+  "Hamilton": [43.2557, -79.8711],
+  "Kelowna": [49.8880, -119.4960],
+  "London": [42.9849, -81.2453],
+  "Kitchener": [43.4516, -80.4925],
+  "Windsor": [42.3149, -83.0364],
+  "Barrie": [44.3894, -79.6903],
+  "Fredericton": [45.9636, -66.6431],
 };
 
 /** Coordinates for US cities the housing pipeline currently surfaces.

@@ -5,14 +5,14 @@
   "stance": "review",
   "stanceZoning": "favorable",
   "stanceAffordability": "review",
-  "lastUpdated": "2026-04-16",
-  "contextBlurb": "Prince Edward Island's housing policy is guided by the Building Together – PEI Housing Strategy 2024-2026, supported by a CMHC-PEI Three Year Action Plan (2026-2028). The 2026 Capital Budget allocates $128.3 million for affordable public housing investment, and the Affordable Housing Development Program offers forgivable loans of up to $55,000 per unit to increase housing supply. The province has also partnered with the community housing sector and operates programs under the Housing Corporation Act.",
+  "lastUpdated": "2026-04-17",
+  "contextBlurb": "Prince Edward Island's housing policy is guided by the Building Together – PEI Housing Strategy 2024-2026, with the 2026 Capital Budget allocating $128.3 million for affordable public housing and a total of $34.6 million in housing supports including rent supplements and mobile rental vouchers. The province operates programs such as the Affordable Housing Development Program, which provides forgivable loans of up to $55,000 per unit, and partners with the community housing sector on acquisitions and new construction. A CMHC-PEI Three Year Action Plan (2026-2028) further outlines federal-provincial investments in affordable housing access.",
   "legislation": [
     {
       "id": "pe-housing-corporation-act---funding-agmt",
       "billCode": "Housing Corporation Act – Funding Agmt",
       "title": "Housing Corporation Act – Funding Agreement with PEI Community Housing Development Inc.",
-      "summary": "An Order in Council under the Housing Corporation Act establishing a funding agreement with PEI Community Housing Development Inc. to support community housing development.",
+      "summary": "An Order in Council under the Housing Corporation Act establishing a funding agreement with PEI Community Housing Development Inc. to support community-based housing development.",
       "stage": "Enacted",
       "stance": "review",
       "impactTags": [

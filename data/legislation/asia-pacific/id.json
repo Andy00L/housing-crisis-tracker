@@ -2,10 +2,56 @@
   "state": "Indonesia",
   "stateCode": "ID",
   "region": "asia",
-  "stance": "none",
-  "stanceZoning": "none",
-  "stanceAffordability": "none",
-  "lastUpdated": "2026-04-16",
-  "contextBlurb": "Tidak ditemukan rancangan undang-undang atau kebijakan perumahan (rumah susun, perumahan) yang spesifik dalam cuplikan yang tersedia. Cuplikan yang ada membahas topik seperti tata ruang nasional, perdagangan, APBN, perikanan, dan isu sosial lainnya, namun tidak secara langsung memuat tagihan legislatif terkait sektor perumahan di Indonesia.",
-  "legislation": []
+  "stance": "favorable",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-17",
+  "contextBlurb": "Berikut adalah regulasi perumahan terbaru dari Kementerian Perumahan dan Kawasan Permukiman (PKP) Indonesia, mencakup pengelolaan rumah susun, penyelenggaraan perizinan sektor perumahan, serta persyaratan kemudahan perolehan rumah bagi masyarakat berpenghasilan rendah.",
+  "legislation": [
+    {
+      "id": "ap-id-permen-pkp-no-4-tahun-2025",
+      "billCode": "Permen PKP No. 4 Tahun 2025",
+      "title": "Peraturan Menteri Perumahan dan Kawasan Permukiman Nomor 4 Tahun 2025 tentang Pengelolaan Rumah Susun Milik Serta Perhimpunan Pemilik dan Penghuni Satuan Rumah Susun",
+      "summary": "Peraturan ini mengatur pengelolaan rumah susun milik serta tata kelola Perhimpunan Pemilik dan Penghuni Satuan Rumah Susun (PPPSRS). Regulasi ini juga menjadi acuan dalam pembahasan Rapergub DKI Jakarta untuk memperkuat kepastian hukum di sektor rumah susun.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://jdih.pkp.go.id/produk-hukum/permen-4-2025",
+      "sponsors": []
+    },
+    {
+      "id": "ap-id-permen-pkp-no-18-tahun-2025",
+      "billCode": "Permen PKP No. 18 Tahun 2025",
+      "title": "Peraturan Menteri Perumahan dan Kawasan Permukiman Nomor 18 Tahun 2025 tentang Standar Kegiatan Usaha, Pelaksanaan Pengawasan, dan Pengenaan Sanksi pada Penyelenggaraan Perizinan Berusaha Berbasis Risiko Sektor Perumahan",
+      "summary": "Peraturan ini memperkuat penyelenggaraan perumahan dan kawasan permukiman dengan menetapkan standar kegiatan usaha serta mekanisme pengawasan dan sanksi dalam perizinan berusaha berbasis risiko di sektor perumahan, merujuk pada Peraturan Pemerintah Nomor 28 Tahun 2025.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2026-01-09",
+      "sourceUrl": "https://pkp.go.id/berita/detail/kementerian-pkp-keluarkan-permen-no-18-tahun-2025-untuk-memperkuat-penyelenggaraan-perumahan-dan-kawasan-permukiman",
+      "sponsors": []
+    },
+    {
+      "id": "ap-id-permen-pkp-no-1-tahun-2026",
+      "billCode": "Permen PKP No. 1 Tahun 2026",
+      "title": "Peraturan Menteri Perumahan dan Kawasan Permukiman Nomor 1 Tahun 2026 tentang Perubahan Kedua atas Peraturan Menteri PKP Nomor 5 Tahun 2025 tentang Besaran Penghasilan dan Kriteria Masyarakat Berpenghasilan Rendah Serta Persyaratan Kemudahan Pembangunan dan Perolehan Rumah",
+      "summary": "Peraturan ini merupakan perubahan kedua atas Permen PKP Nomor 5 Tahun 2025, memperbarui kriteria dan besaran penghasilan masyarakat berpenghasilan rendah (MBR) serta persyaratan kemudahan dalam pembangunan dan perolehan rumah subsidi dalam program perumahan rakyat.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-01-01",
+      "sourceUrl": "https://my.pkp.go.id/jdih/produkhukum?jenisp=Peraturan%20Menteri",
+      "sponsors": []
+    }
+  ]
 }

@@ -2,10 +2,64 @@
   "state": "Germany",
   "stateCode": "DE",
   "region": "eu",
-  "stance": "none",
-  "stanceZoning": "none",
-  "stanceAffordability": "none",
-  "lastUpdated": "2026-04-16",
-  "contextBlurb": "Der deutsche Wohnungsmarkt steht unter erheblichem Druck, insbesondere in Ballungsräumen, wo Mietpreisbremse und Wohnungsbau-Initiativen intensiv diskutiert werden. Die vorliegenden Snippets enthalten jedoch keine konkreten Wohnungsbaugesetze oder Mietrechtsreformen. Daher konnten keine qualifizierten Housing Bills aus den bereitgestellten Quellen extrahiert werden.",
-  "legislation": []
+  "stance": "favorable",
+  "stanceZoning": "favorable",
+  "stanceAffordability": "favorable",
+  "lastUpdated": "2026-04-17",
+  "contextBlurb": "Deutschland steht vor einem anhaltenden Mangel an bezahlbarem Wohnraum, insbesondere in urbanen Räumen. Der Bundestag und Bundesrat haben 2025 mehrere Maßnahmen verabschiedet, darunter eine Verlängerung der Mietpreisbremse sowie einen 'Bau-Turbo' zur Beschleunigung des Wohnungsbaus.",
+  "legislation": [
+    {
+      "id": "eu-de-br-drucksache-0287-25",
+      "billCode": "BR-Drucksache 0287-25",
+      "title": "Gesetz zur Änderung der Regelungen über die zulässige Miethöhe bei Mietbeginn und zur Änderung anderer Gesetze (Mietpreisbremse bis 2029)",
+      "summary": "Der Bundesrat billigte am 11. Juli 2025 die Verlängerung der Mietpreisbremse über den 31. Dezember 2025 hinaus bis zum 31. Dezember 2029. Damit soll die dämpfende Wirkung auf Mietpreise bei Neuvermietungen aufrechterhalten werden.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2025-07-11",
+      "sourceUrl": "https://www.bundesrat.de/SharedDocs/beratungsvorgaenge/2025/0201-0300/0287-25.html",
+      "sponsors": [
+        "Bundesrat",
+        "Bundestag"
+      ]
+    },
+    {
+      "id": "eu-de-bmwsb-bauturbo",
+      "billCode": "BMWSB-BauTurbo",
+      "title": "Gesetz zur Beschleunigung des Wohnungsbaus und zur Wohnraumsicherung (\"Bau-Turbo\")",
+      "summary": "Der Bundestag verabschiedete den 'Bau-Turbo', der Änderungen des Baugesetzbuchs (BauGB) vorsieht, um Wohnungsbau im Außenbereich zu erleichtern und den Bau bezahlbaren Wohnraums zu beschleunigen. Kommunen können die neuen Sonderregelungen freiwillig anwenden.",
+      "stage": "Enacted",
+      "stance": "favorable",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-10-11",
+      "sourceUrl": "https://www.bundestag.de/dokumente/textarchiv/2025/kw41-de-wohnungsbau-1111794",
+      "sponsors": [
+        "Bundesregierung",
+        "BMWSB"
+      ]
+    },
+    {
+      "id": "eu-de-br-1059-mietwucher",
+      "billCode": "BR-1059-Mietwucher",
+      "title": "Bundesrats-Initiative zur Nachschärfung der Mietpreisbremse und Bekämpfung von Mietwucher",
+      "summary": "In seiner 1059. Sitzung am 21. November 2025 beschloss der Bundesrat einen Gesetzentwurf zur Nachschärfung der Mietpreisbremse und zur besseren Bekämpfung von Mietwucher. Die Bundesregierung nahm den Entwurf 'zur Kenntnis', ohne ihn aktiv zu unterstützen.",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "rent-stabilization"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2025-11-21",
+      "sourceUrl": "https://www.bundestag.de/presse/hib/kurzmeldungen-1106880",
+      "sponsors": [
+        "Bundesrat"
+      ]
+    }
+  ]
 }

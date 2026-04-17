@@ -5,9 +5,39 @@
   "stance": "restrictive",
   "stanceZoning": "restrictive",
   "stanceAffordability": "restrictive",
-  "lastUpdated": "2026-04-16",
-  "contextBlurb": "New Brunswick's housing policy landscape as of April 2026 is shaped primarily by the Holt Liberal government's Bill 3 (An Act to Amend The Residential Tenancies Act), which established a 3% annual rent cap effective February 1, 2025, and Bill 22 (An Act Respecting Property Tax Affordability Measures), which froze property assessments at 2025 levels for one year. The province is also pursuing a 30,000-homes-by-2030 construction target, a 10-year $150.5M Canada Housing Infrastructure Fund agreement, a 100% HST rebate on purpose-built rental housing for projects commencing between November 15, 2024 and December 31, 2027, and a December 2025 homelessness strategy ('A Path Home') targeting a 40% reduction in chronic homelessness by 2028–29.",
+  "lastUpdated": "2026-04-17",
+  "contextBlurb": "New Brunswick has released 'A Path Home: New Brunswick's Provincial Strategy on Homelessness,' targeting a 40% reduction in chronic homelessness by 2028-29. The 2026-27 budget includes $78.1 million for public housing development and maintenance, alongside a federal-provincial agreement to accelerate affordable housing construction. Regulation 2025-20 under the Building Code Administration Act was filed in April 2025 as part of ongoing legislative updates to housing standards.",
   "legislation": [
+    {
+      "id": "nb-federal-provincial-housing-agreement-2026",
+      "billCode": "Federal-Provincial Housing Agreement 2026",
+      "title": "Federal-Provincial Agreement on Affordable Housing",
+      "summary": "An intergovernmental agreement reached in March 2026 between Canada and New Brunswick aimed at increasing the pace of affordable home construction across the province.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2026-03-01",
+      "sourceUrl": "https://www.gnb.ca/en/news/n-b.2026.03.federal-provincial-agreement-reached-affordable-housing.html",
+      "sponsors": []
+    },
+    {
+      "id": "nb-budget-2026-27",
+      "billCode": "Budget 2026-27",
+      "title": "Budget 2026-27: Putting New Brunswickers First — Housing Measures",
+      "summary": "The 2026-27 provincial budget includes targeted investments to expand affordable housing and ease cost-of-living pressures for New Brunswick families.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-01",
+      "sourceUrl": "https://www.gnb.ca/en/news/n-b.2026.03.budget-2026-27-putting-new-brunswickers-first.html",
+      "sponsors": []
+    },
     {
       "id": "nb-a-path-home--dec-2025-",
       "billCode": "A Path Home (Dec 2025)",
@@ -24,6 +54,36 @@
       "sponsors": [
         "Hon. David Hickey"
       ]
+    },
+    {
+      "id": "nb-a-path-home",
+      "billCode": "A Path Home",
+      "title": "New Brunswick's Provincial Strategy on Homelessness",
+      "summary": "A provincial homelessness strategy released in December 2025 committing government and partners to reduce chronic homelessness by 40% by 2028-29.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-01",
+      "sourceUrl": "https://www.gnb.ca/en/news/n-b.2025.12.provincial-strategy-on-homelessness-released.html",
+      "sponsors": []
+    },
+    {
+      "id": "nb-capital-estimates-2026-27",
+      "billCode": "Capital Estimates 2026-27",
+      "title": "Government 2026-27 Capital Estimates — Public Housing Investment",
+      "summary": "Capital estimates released in December 2025 committing $78.1 million to the development of new public housing and maintenance of existing housing stock.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-12-01",
+      "sourceUrl": "https://www.gnb.ca/en/news/n-b.2025.12.government-releases-2026-27-capital-estimates.html",
+      "sponsors": []
     },
     {
       "id": "nb-bill-22--snb-2025--c-17-",
@@ -147,6 +207,36 @@
       "sponsors": []
     },
     {
+      "id": "nb-regulation-2024-28",
+      "billCode": "Regulation 2024-28",
+      "title": "Repeal of New Brunswick Regulation 2001-89 under the Assessment and Planning Appeal Board Act",
+      "summary": "Repeals the former general regulation under the Assessment and Planning Appeal Board Act, filed May 15, 2024, as part of a broader legislative housekeeping effort.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "property-tax",
+      "updatedDate": "2024-05-15",
+      "sourceUrl": "https://www.legnb.ca/content/house_business/61/2/tabled_documents/2025-12-15%20Environment%20and%20Local%20Government%202024-2025.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "nb-regulation-2024-29",
+      "billCode": "Regulation 2024-29",
+      "title": "General Regulation under the Local Governance Commission Act",
+      "summary": "Establishes a new general regulation under the Local Governance Commission Act, setting parameters for cost-recovery, appointing a supervisor, and providing notice of control, filed May 15, 2024.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-05-15",
+      "sourceUrl": "https://www.legnb.ca/content/house_business/61/2/tabled_documents/2025-12-15%20Environment%20and%20Local%20Government%202024-2025.pdf",
+      "sponsors": []
+    },
+    {
       "id": "nb-chb-nb-expanded-program--2024-",
       "billCode": "CHB-NB Expanded Program (2024)",
       "title": "Canada-New Brunswick Housing Benefit – Expanded Program",
@@ -177,6 +267,38 @@
       "category": "affordable-housing",
       "updatedDate": "2023-06-16",
       "sourceUrl": "https://www.canlii.org/en/nb/laws/stat/rsnb-1973-c-n-6/latest/rsnb-1973-c-n-6.html",
+      "sponsors": []
+    },
+    {
+      "id": "nb-bill-22",
+      "billCode": "Bill 22",
+      "title": "Supplementary Appropriations Act 2025-2026 (1)",
+      "summary": "A supplementary appropriations bill for the 2025-2026 fiscal year, introduced by Hon. Robert McKee, K.C., for the Liberal Party representing Moncton Centre.",
+      "stage": "Floor",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.legnb.ca/en/legislation/bills/61/2/22/supplementary-appropriations-act-2025-2026-1",
+      "sponsors": [
+        "Hon. Robert McKee, K.C."
+      ]
+    },
+    {
+      "id": "nb-regulation-2025-20",
+      "billCode": "Regulation 2025-20",
+      "title": "Regulation under the Building Code Administration Act",
+      "summary": "A provincial regulation filed under the Building Code Administration Act (Order in Council 2025-63), establishing updated building code administration rules for New Brunswick.",
+      "stage": "Filed",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2025-04-30",
+      "sourceUrl": "https://laws.gnb.ca/en/document/ar/2025-20",
       "sponsors": []
     }
   ]

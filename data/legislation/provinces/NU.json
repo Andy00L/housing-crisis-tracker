@@ -2,12 +2,102 @@
   "state": "Nunavut",
   "stateCode": "NU",
   "region": "na",
-  "stance": "review",
+  "stance": "restrictive",
   "stanceZoning": "none",
-  "stanceAffordability": "review",
-  "lastUpdated": "2026-04-16",
-  "contextBlurb": "Nunavut's housing policy landscape is shaped by the Nunavut Housing Corporation, which tables annual main estimates before the Legislative Assembly and faces ongoing scrutiny over public housing conditions including overcrowding and tuberculosis links. The Annual Statutes of Nunavut reference an Act to Amend the Nunavut Housing Corporation Act, and the Office of the Auditor General has corresponded with the Assembly regarding public housing concerns. The 2025-2026 Main Estimates of the Nunavut Housing Corporation were tabled on May 26, 2025.",
+  "stanceAffordability": "restrictive",
+  "lastUpdated": "2026-04-17",
+  "contextBlurb": "Nunavut's housing legislation is primarily administered through the Nunavut Housing Corporation, which received $87,185,000 in capital appropriations under Bill 2, the Appropriation (Capital) Act, 2026-2027. The Legislative Assembly has also passed supplementary appropriation bills affecting housing capital, and the Office of the Auditor General has tabled a report specifically on public housing in Nunavut. Overcrowding and tuberculosis links remain documented policy concerns for the Nunavut Housing Corporation.",
   "legislation": [
+    {
+      "id": "nu-bill-2",
+      "billCode": "Bill 2",
+      "title": "Appropriation (Capital) Act, 2026-2027",
+      "summary": "Authorizes the Government of Nunavut to make capital expenditures for the fiscal year ending March 31, 2027, including $87,185,000 for the Nunavut Housing Corporation out of a total capital appropriation of $373,217,000.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-17",
+      "sourceUrl": "https://www.assembly.nu.ca/sites/default/files/2026-03/Bill_2_Appropriation_%28Capital%29_Act_2026-2027_EF.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "nu-bill-1",
+      "billCode": "Bill 1",
+      "title": "Interim Appropriation (Operations and Maintenance) Act, 2026-2027",
+      "summary": "Authorizes the Government of Nunavut to make interim operations and maintenance expenditures for the 2026-2027 fiscal year, covering departmental operating costs including housing-related services.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2026-03-17",
+      "sourceUrl": "https://www.assembly.nu.ca/sites/default/files/2026-03/Bill_1_Interim_Appropriation_%28O%26M%29_Act_2026-2027_EF.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "nu-bill-82",
+      "billCode": "Bill 82",
+      "title": "Supplementary Appropriation (Capital) Act, No. 3, 2025-2026",
+      "summary": "A supplementary capital appropriation bill for the 2025-2026 fiscal year, considered by the Legislative Assembly of Nunavut in September 2025.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-09-18",
+      "sourceUrl": "https://www.assembly.nu.ca/sites/default/files/2025-09/20250918_Blues_English.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "nu-bill-81",
+      "billCode": "Bill 81",
+      "title": "Interim Appropriation (Capital) Act, 2026-2027",
+      "summary": "Authorizes interim capital expenditures for the 2026-2027 fiscal year pending passage of the main capital appropriation, considered by the Legislative Assembly in September 2025.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-09-18",
+      "sourceUrl": "https://www.assembly.nu.ca/sites/default/files/2025-09/20250918_Blues_English.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "nu-bill-83",
+      "billCode": "Bill 83",
+      "title": "Supplementary Appropriations (Operations and Maintenance) Act, No. 3, 2025-2026",
+      "summary": "A supplementary operations and maintenance appropriation bill for 2025-2026, assented to by Commissioner Eva Qamaniq Aariak.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-09-08",
+      "sourceUrl": "https://www.assembly.nu.ca/sites/default/files/2025-09/20250908_Blues_English.pdf",
+      "sponsors": []
+    },
+    {
+      "id": "nu-bill-80",
+      "billCode": "Bill 80",
+      "title": "Supplementary Appropriation (Capital) Act, No. 2, 2025-2026",
+      "summary": "A supplementary capital appropriation act for the 2025-2026 fiscal year, considered alongside other short bills in the June 2025 sitting of the Legislative Assembly.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2025-06-03",
+      "sourceUrl": "https://www.assembly.nu.ca/sites/default/files/2025-06/20250603_Blues_English.pdf",
+      "sponsors": []
+    },
     {
       "id": "nu-bill-77",
       "billCode": "Bill 77",

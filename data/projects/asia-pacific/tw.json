@@ -2,6 +2,52 @@
   "country": "Taiwan",
   "countryCode": "TW",
   "currency": "TWD",
-  "lastUpdated": "2026-04-16",
-  "projects": []
+  "lastUpdated": "2026-04-17",
+  "projects": [
+    {
+      "id": "ap-tw-3-0",
+      "developer": "內政部（Ministry of the Interior）",
+      "status": "proposed",
+      "projectName": "社會住宅3.0計畫（直接興建社會住宅）",
+      "location": "全台灣",
+      "state": "TW",
+      "country": "Taiwan",
+      "unitCount": 250000,
+      "affordableUnits": 250000,
+      "projectType": "social",
+      "yearProposed": 2025,
+      "notes": "內政部推動「社會住宅3.0」，配合賴總統支持百萬租屋家戶政策目標，規劃於2025至2032年八年期間，直接興建25萬戶社會住宅，並同步推動包租代管25萬戶及50萬戶租金補貼，整合地方政府共同推動居住正義。台灣長期面臨高房價與租屋負擔沉重問題，社會住宅供給不足為核心挑戰。",
+      "source": "https://www.moi.gov.tw/english/cp.aspx?n=7609",
+      "primaryBeneficiary": "租屋家戶、中低收入戶",
+      "storyBlurb": "內政部推動「社會住宅3.0」，配合賴總統支持百萬租屋家戶政策目標，規劃於2025至2032年八年期間，直接興建25萬戶社會住宅，並同步推動包租代管25萬戶及50萬戶租金補貼，整合地方政府共同推動居住正義。台灣長期面臨高房價與租屋負擔沉重問題，社會住宅供給不足為核心挑戰。",
+      "issues": [
+        "affordability",
+        "social-mix",
+        "community-input-consultation"
+      ],
+      "sources": []
+    },
+    {
+      "id": "ap-tw-",
+      "developer": "內政部（Ministry of the Interior）",
+      "status": "proposed",
+      "projectName": "社會住宅包租代管計畫",
+      "location": "全台灣",
+      "state": "TW",
+      "country": "Taiwan",
+      "unitCount": 250000,
+      "affordableUnits": 250000,
+      "projectType": "rental",
+      "yearProposed": 2025,
+      "notes": "作為「社會住宅3.0」的重要一環，內政部規劃透過包租代管方式提供25萬戶公共住宅租賃單元，由政府協助媒合房東與弱勢租屋族群，減輕租屋負擔，並搭配租金補貼政策服務50萬戶家庭，以多元方式擴大社會住宅供給效益。",
+      "source": "https://www.moi.gov.tw/english/cp.aspx?n=7609",
+      "primaryBeneficiary": "租屋家戶",
+      "storyBlurb": "作為「社會住宅3.0」的重要一環，內政部規劃透過包租代管方式提供25萬戶公共住宅租賃單元，由政府協助媒合房東與弱勢租屋族群，減輕租屋負擔，並搭配租金補貼政策服務50萬戶家庭，以多元方式擴大社會住宅供給效益。",
+      "issues": [
+        "affordability",
+        "social-mix"
+      ],
+      "sources": []
+    }
+  ]
 }

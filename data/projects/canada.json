@@ -1,60 +1,66 @@
 {
   "country": "Canada",
   "currency": "CAD",
-  "lastUpdated": "2026-04-16",
+  "lastUpdated": "2026-04-17",
   "projects": [
     {
-      "id": "ca-on-generations-toronto",
-      "name": "Generations Toronto",
+      "id": "ca-bc-tk-eml-ps-te-secw-pemc-nation-housing-kamloops",
+      "name": "Tk'emlúps te Secwépemc Nation Housing – Kamloops",
       "developer": "Government of Canada / CMHC",
-      "province": "ON",
-      "city": "Toronto",
-      "currency": "CAD",
-      "projectType": "rental",
-      "status": "operational",
-      "sourceUrl": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2026/government-canada-marks-official-opening-generations-toronto",
-      "blurb": "The Government of Canada marked the official opening of Generations Toronto, a rental housing development supported through CMHC's Apartment Construction Loan Program.",
-      "concerns": [
-        "affordability"
-      ]
-    },
-    {
-      "id": "ca-bc-bowser-affordable-rental-homes-22-units",
-      "name": "Bowser Affordable Rental Homes (22 Units)",
-      "developer": "Province of BC",
       "province": "BC",
-      "city": "Bowser",
-      "unitCount": 22,
-      "affordableUnits": 22,
-      "currency": "CAD",
-      "projectType": "rental",
-      "status": "operational",
-      "sourceUrl": "https://news.gov.bc.ca/releases/2026HMA0026-000310",
-      "blurb": "22 new affordable rental homes have opened in Bowser, BC, offering below-market rents for seniors and other residents.",
-      "concerns": [
-        "affordability",
-        "social-housing"
-      ]
-    },
-    {
-      "id": "ca-bc-vancouver-affordable-homes-for-families-and-senior",
-      "name": "Vancouver Affordable Homes for Families and Seniors (100+ Units)",
-      "developer": "Province of BC / Government of Canada",
-      "province": "BC",
-      "city": "Vancouver",
+      "city": "Kamloops",
+      "unitCount": 58,
+      "affordableUnits": 58,
+      "projectCost": 20100000,
       "currency": "CAD",
       "projectType": "social",
       "status": "operational",
-      "sourceUrl": "https://news.gov.bc.ca/releases/2025HMA0120-001257",
-      "blurb": "More than 100 new homes for families and seniors have opened in Vancouver, supported by federal and provincial funding.",
+      "announceDate": "2026-01-01",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2026/canada-british-columbia-announce-grand-opening-58-homes-kamloops",
+      "blurb": "Canada announced over $20.1 million through the Affordable Housing Fund to build 58 units for the Tk'emlúps te Secwépemc Nation near Kamloops, BC, now officially open.",
+      "concerns": [
+        "affordability",
+        "indigenous-housing"
+      ]
+    },
+    {
+      "id": "ca-sk-saskatchewan-supportive-housing-brain-injuries-and",
+      "name": "Saskatchewan Supportive Housing – Brain Injuries and Seniors",
+      "developer": "Government of Saskatchewan",
+      "province": "SK",
+      "projectCost": 5000000,
+      "currency": "CAD",
+      "projectType": "social",
+      "status": "operational",
+      "announceDate": "2025-08-28",
+      "sourceUrl": "https://www.saskatchewan.ca/government/news-and-media/2025/august/28/supportive-housing-opens-for-individuals-with-brain-injuries-and-seniors-experiencing-homelessness",
+      "blurb": "The Government of Saskatchewan invested $5 million through the Rental Development Program to open supportive housing for individuals with brain injuries and seniors experiencing homelessness.",
       "concerns": [
         "affordability",
         "social-housing"
       ]
     },
     {
-      "id": "ca-on-regent-park-affordable-rental-homes-271-units",
-      "name": "Regent Park Affordable Rental Homes (271 Units)",
+      "id": "ca-sk-regina-large-family-affordable-housing-upgrades",
+      "name": "Regina Large-Family Affordable Housing Upgrades",
+      "developer": "Government of Canada / Government of Saskatchewan / CMHC",
+      "province": "SK",
+      "city": "Regina",
+      "projectCost": 3350000,
+      "currency": "CAD",
+      "projectType": "social",
+      "status": "operational",
+      "announceDate": "2025-01-01",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2025/upgraded-housing-units-open-for-large-families-in-regina",
+      "blurb": "A $3.35 million joint investment has upgraded housing units in Regina to provide large families in need with greater access to affordable homes.",
+      "concerns": [
+        "affordability",
+        "social-housing"
+      ]
+    },
+    {
+      "id": "ca-on-regent-park-affordable-rental-homes-toronto",
+      "name": "Regent Park Affordable Rental Homes – Toronto",
       "developer": "Government of Canada / CMHC",
       "province": "ON",
       "city": "Toronto",
@@ -64,122 +70,198 @@
       "currency": "CAD",
       "projectType": "rental",
       "status": "under-construction",
+      "announceDate": "2026-01-01",
       "sourceUrl": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2026/canada-announces-groundbreaking-271-homes-toronto",
-      "blurb": "The federal government announced over $86 million to build 271 affordable, secure rental homes in Toronto's Regent Park neighbourhood.",
-      "concerns": [
-        "affordability",
-        "social-housing"
-      ]
-    },
-    {
-      "id": "ca-on-11-brock-ave-mass-timber-affordable-homes",
-      "name": "11 Brock Ave Mass Timber Affordable Homes",
-      "developer": "City of Toronto",
-      "province": "ON",
-      "city": "Toronto",
-      "unitCount": 42,
-      "affordableUnits": 42,
-      "currency": "CAD",
-      "projectType": "social",
-      "status": "under-construction",
-      "sourceUrl": "https://www.toronto.ca/news/city-of-toronto-advances-first-ever-public-developer-led-mass-timber-affordable-homes-at-11-brock-ave/",
-      "blurb": "The first ever public developer-led mass timber affordable housing development at 11 Brock Ave. will create 42 rent-geared-to-income and supportive homes, set for completion in Fall 2026.",
-      "concerns": [
-        "affordability",
-        "social-housing"
-      ]
-    },
-    {
-      "id": "ca-bc-township-of-langley-bc-builds-rental-homes-250-uni",
-      "name": "Township of Langley BC Builds Rental Homes (250 Units)",
-      "developer": "BC Builds / Province of BC",
-      "province": "BC",
-      "city": "Langley",
-      "unitCount": 250,
-      "currency": "CAD",
-      "projectType": "rental",
-      "status": "under-construction",
-      "sourceUrl": "https://news.gov.bc.ca/releases/2025HMA0080-000903",
-      "blurb": "Nearly 250 rental homes are underway in the Township of Langley through the BC Builds program, part of B.C.'s $19-billion housing investment.",
-      "concerns": [
-        "affordability"
-      ]
-    },
-    {
-      "id": "ca-ab-yellowhead-tribal-council-belvedere-affordable-hou",
-      "name": "Yellowhead Tribal Council Belvedere Affordable Housing Project",
-      "developer": "Yellowhead Tribal Council",
-      "province": "AB",
-      "city": "Edmonton",
-      "unitCount": 149,
-      "affordableUnits": 149,
-      "currency": "CAD",
-      "projectType": "mixed",
-      "status": "proposed",
-      "sourceUrl": "https://majorprojects.alberta.ca/details/Yellowhead-Tribal-Council-Belvedere-Affordable-Housing-Project/11964",
-      "blurb": "Two four-storey buildings will provide 149 mixed-income units to support First Nation families in the Belvedere area.",
-      "concerns": [
-        "affordability",
-        "indigenous-housing"
-      ]
-    },
-    {
-      "id": "ca-bc-british-columbia-affordable-housing-fund-117-units",
-      "name": "British Columbia Affordable Housing Fund (117 Units)",
-      "developer": "Government of Canada / CMHC",
-      "province": "BC",
-      "unitCount": 117,
-      "affordableUnits": 117,
-      "projectCost": 20800000,
-      "currency": "CAD",
-      "projectType": "rental",
-      "status": "proposed",
-      "sourceUrl": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2026/canada-announces-funding-over-100-homes-bc",
-      "blurb": "Canada announced over $20.8 million through the Affordable Housing Fund to build 117 units in British Columbia.",
-      "concerns": [
-        "affordability"
-      ]
-    },
-    {
-      "id": "ca-ab-10809-111-avenue-nw-affordable-housing",
-      "name": "10809 111 Avenue NW Affordable Housing",
-      "developer": "City of Edmonton",
-      "province": "AB",
-      "city": "Edmonton",
-      "unitCount": 248,
-      "affordableUnits": 106,
-      "currency": "CAD",
-      "projectType": "mixed",
-      "status": "proposed",
-      "sourceUrl": "https://majorprojects.alberta.ca/details/10809-111-Avenue-NW-Affordable-Housing/11828",
-      "blurb": "A new project in Central McDougall that will construct 248 residential units, including at least 106 affordable homes, supported by the City of Edmonton.",
+      "blurb": "The federal government announced over $86 million to break ground on 271 affordable, secure rental homes in Toronto's Regent Park neighbourhood.",
       "concerns": [
         "affordability",
         "density"
       ]
     },
     {
-      "id": "ca-on-kennedy-green-co-op-homes-612-units",
-      "name": "Kennedy Green Co-op Homes (612 Units)",
-      "developer": "Government of Canada / CMHC",
+      "id": "ca-nb-saint-john-affordable-housing-development",
+      "name": "Saint John Affordable Housing Development",
+      "developer": "Government of New Brunswick",
+      "province": "NB",
+      "city": "Saint John",
+      "currency": "CAD",
+      "projectType": "rental",
+      "status": "under-construction",
+      "announceDate": "2025-12-01",
+      "sourceUrl": "https://www.gnb.ca/en/news/n-b.2025.12.saint-john-housing-development-to-feature-dozens-of-affordable-units.html",
+      "blurb": "A new housing development in Saint John, New Brunswick will feature dozens of affordable units, with construction expected to be completed by fall 2026.",
+      "concerns": [
+        "affordability"
+      ]
+    },
+    {
+      "id": "ca-bc-whistler-workforce-and-family-housing",
+      "name": "Whistler Workforce and Family Housing",
+      "developer": "BC Housing",
+      "province": "BC",
+      "city": "Whistler",
+      "currency": "CAD",
+      "projectType": "rental",
+      "status": "under-construction",
+      "announceDate": "2025-06-01",
+      "sourceUrl": "https://news.gov.bc.ca/releases/2025HMA0105-001046",
+      "blurb": "A new housing project near public transit in Whistler began construction in June 2025, targeting local workers and families, with completion estimated for late 2027.",
+      "concerns": [
+        "affordability",
+        "transit-oriented"
+      ]
+    },
+    {
+      "id": "ca-on-the-beaches-purpose-built-rental-toronto-cannect-h",
+      "name": "The Beaches Purpose-Built Rental – Toronto (Cannect Homes)",
+      "developer": "Cannect Homes / City of Toronto",
       "province": "ON",
       "city": "Toronto",
-      "unitCount": 612,
-      "affordableUnits": 612,
-      "projectCost": 289000000,
       "currency": "CAD",
-      "projectType": "cooperative",
+      "projectType": "mixed",
+      "status": "under-construction",
+      "sourceUrl": "https://www.toronto.ca/news/city-of-toronto-and-councillor-bradford-joined-cannect-homes-to-start-construction-on-new-purpose-built-rental-homes-in-the-beaches/",
+      "blurb": "Cannect Homes and the City of Toronto broke ground on a new mixed-income, purpose-built rental building in the Beaches neighbourhood, converting a previously proposed condo project.",
+      "concerns": [
+        "affordability",
+        "density",
+        "displacement"
+      ]
+    },
+    {
+      "id": "ca-bc-british-columbia-affordable-housing-fund-117-units",
+      "name": "British Columbia Affordable Housing Fund – 117 Units",
+      "developer": "Government of Canada / CMHC",
+      "province": "BC",
+      "unitCount": 117,
+      "affordableUnits": 117,
+      "projectCost": 20800000,
+      "currency": "CAD",
+      "projectType": "social",
       "status": "proposed",
-      "sourceUrl": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2025/canada-announces-612-homes-toronto",
-      "blurb": "The federal government announced over $289 million to build 612 secure, rental co-op homes in Toronto under the Kennedy Green Co-op project.",
+      "announceDate": "2026-01-01",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2026/canada-announces-funding-over-100-homes-bc",
+      "blurb": "Canada announced over $20.8 million through the Affordable Housing Fund to build 117 affordable units across British Columbia.",
+      "concerns": [
+        "affordability"
+      ]
+    },
+    {
+      "id": "ca-nl-st-john-s-affordable-home-repairs-cmhc",
+      "name": "St. John's Affordable Home Repairs – CMHC",
+      "developer": "Government of Canada / CMHC",
+      "province": "NL",
+      "city": "St. John's",
+      "unitCount": 130,
+      "affordableUnits": 130,
+      "currency": "CAD",
+      "projectType": "social",
+      "status": "proposed",
+      "announceDate": "2026-01-01",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2026/canada-announces-repair-130-homes-st-johns",
+      "blurb": "Canada announced funding to repair 130 deeply affordable and community housing units in St. John's for low-income households, in partnership with private market developers.",
       "concerns": [
         "affordability",
         "social-housing"
       ]
     },
     {
-      "id": "ca-on-toronto-rental-homes-announcement-245-units",
-      "name": "Toronto Rental Homes Announcement (245 Units)",
+      "id": "ca-nl-army-street-micro-homes-st-john-s",
+      "name": "Army Street Micro-Homes – St. John's",
+      "developer": "Newfoundland and Labrador Housing Corporation",
+      "province": "NL",
+      "city": "St. John's",
+      "unitCount": 10,
+      "affordableUnits": 10,
+      "currency": "CAD",
+      "projectType": "social",
+      "status": "proposed",
+      "announceDate": "2025-08-29",
+      "sourceUrl": "https://www.gov.nl.ca/releases/2025/nlhc/0829n09/",
+      "blurb": "The Newfoundland and Labrador Housing Corporation issued an RFP to build 10 micro-homes on Army Street in St. John's to address affordable housing needs.",
+      "concerns": [
+        "affordability",
+        "social-housing"
+      ]
+    },
+    {
+      "id": "ca-on-chatham-kent-affordable-homes-announcement",
+      "name": "Chatham-Kent Affordable Homes Announcement",
+      "developer": "Government of Canada / CMHC",
+      "province": "ON",
+      "city": "Chatham-Kent",
+      "unitCount": 50,
+      "affordableUnits": 50,
+      "currency": "CAD",
+      "projectType": "social",
+      "status": "proposed",
+      "announceDate": "2025-06-01",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2025/canada-announces-50-homes-chatham-kent",
+      "blurb": "The federal government committed funding to support 50 new affordable homes in Chatham-Kent as part of Canada's broader commitment of over 50,300 units nationwide.",
+      "concerns": [
+        "affordability"
+      ]
+    },
+    {
+      "id": "ca-ns-lake-loon-rental-homes-halifax",
+      "name": "Lake Loon Rental Homes – Halifax",
+      "developer": "Government of Canada / CMHC",
+      "province": "NS",
+      "city": "Halifax",
+      "unitCount": 8,
+      "affordableUnits": 8,
+      "currency": "CAD",
+      "projectType": "rental",
+      "status": "proposed",
+      "announceDate": "2025-01-01",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2025/canada-announces-funding-8-rental-homes-lake-loon",
+      "blurb": "Federal funding has been announced to provide 8 safe, affordable rental homes for residents in the Lake Loon area of Halifax Regional Municipality.",
+      "concerns": [
+        "affordability"
+      ]
+    },
+    {
+      "id": "ca-nb-saint-john-affordable-homes-cmhc-investment",
+      "name": "Saint John Affordable Homes – CMHC Investment",
+      "developer": "Government of Canada / CMHC",
+      "province": "NB",
+      "city": "Saint John",
+      "unitCount": 850,
+      "affordableUnits": 850,
+      "projectCost": 48000000,
+      "currency": "CAD",
+      "projectType": "social",
+      "status": "proposed",
+      "announceDate": "2025-01-01",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2025/over-850-new-repaired-homes-coming-saint-john",
+      "blurb": "The Government of Canada announced more than $48 million to support the construction or repair of over 850 affordable homes in Saint John, New Brunswick.",
+      "concerns": [
+        "affordability",
+        "social-housing"
+      ]
+    },
+    {
+      "id": "ca-on-northern-ontario-affordable-homes-cmhc-investment",
+      "name": "Northern Ontario Affordable Homes – CMHC Investment",
+      "developer": "Government of Canada / CMHC",
+      "province": "ON",
+      "unitCount": 149,
+      "affordableUnits": 149,
+      "projectCost": 40000000,
+      "currency": "CAD",
+      "projectType": "social",
+      "status": "proposed",
+      "announceDate": "2025-01-01",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2025/federal-government-invests-149-homes-northern-ontario",
+      "blurb": "The Government of Canada announced more than $40 million in contributions and low-cost loans to build and repair 149 homes across Northern Ontario.",
+      "concerns": [
+        "affordability",
+        "social-housing"
+      ]
+    },
+    {
+      "id": "ca-on-toronto-affordable-rental-homes-137m-cmhc-announce",
+      "name": "Toronto Affordable Rental Homes – $137M CMHC Announcement",
       "developer": "Government of Canada / CMHC",
       "province": "ON",
       "city": "Toronto",
@@ -189,43 +271,98 @@
       "currency": "CAD",
       "projectType": "rental",
       "status": "proposed",
+      "announceDate": "2025-01-01",
       "sourceUrl": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2025/canada-announces-245-homes-toronto",
-      "blurb": "The federal government announced over $137 million in funding to help build 245 secure, rental homes in Toronto.",
+      "blurb": "The federal government announced over $137 million to help build 245 secure, affordable rental homes in Toronto, with the property located at a specific Toronto address.",
+      "concerns": [
+        "affordability",
+        "density"
+      ]
+    },
+    {
+      "id": "ca-qc-quebec-city-social-and-affordable-housing-280-unit",
+      "name": "Quebec City Social and Affordable Housing – 280+ Units",
+      "developer": "CMHC / Société d'habitation du Québec",
+      "province": "QC",
+      "city": "Québec City",
+      "unitCount": 280,
+      "affordableUnits": 280,
+      "currency": "CAD",
+      "projectType": "social",
+      "status": "proposed",
+      "announceDate": "2025-01-01",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/salle-de-presse/news-releases/2025/plus-280-nouveaux-logements-sociaux-abordables-quebec",
+      "blurb": "CMHC and the Société d'habitation du Québec announced over 280 new social and affordable housing units in Quebec City to support low- and moderate-income residents.",
+      "concerns": [
+        "affordability",
+        "social-housing"
+      ]
+    },
+    {
+      "id": "ca-on-windsor-rapid-housing-initiative",
+      "name": "Windsor Rapid Housing Initiative",
+      "developer": "Government of Canada / CMHC",
+      "province": "ON",
+      "city": "Windsor",
+      "unitCount": 12,
+      "affordableUnits": 12,
+      "projectCost": 3600000,
+      "currency": "CAD",
+      "projectType": "social",
+      "status": "proposed",
+      "announceDate": "2024-01-01",
+      "sourceUrl": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2024/federal-government-invests-new-affordable-homes-windsor",
+      "blurb": "The federal government is providing over $3.6 million to rapidly build 12 new affordable homes in Windsor, Ontario through the Rapid Housing Initiative.",
       "concerns": [
         "affordability"
       ]
     },
     {
-      "id": "ca-bc-burnaby-bc-builds-rental-homes-near-transit",
-      "name": "Burnaby BC Builds Rental Homes Near Transit",
-      "developer": "BC Builds / Province of BC",
-      "province": "BC",
-      "city": "Burnaby",
+      "id": "ca-ab-yellowhead-tribal-council-belvedere-affordable-hou",
+      "name": "Yellowhead Tribal Council Belvedere Affordable Housing Project",
+      "developer": "Yellowhead Tribal Council",
+      "province": "AB",
+      "unitCount": 149,
+      "affordableUnits": 149,
       "currency": "CAD",
-      "projectType": "rental",
+      "projectType": "mixed",
       "status": "proposed",
-      "sourceUrl": "https://news.gov.bc.ca/releases/2026HMA0018-000177",
-      "blurb": "New rental homes are being built near transit in Burnaby through BC Builds, with rents set at approximately 20% below-market rates for all units.",
+      "sourceUrl": "https://majorprojects.alberta.ca/details/Yellowhead-Tribal-Council-Belvedere-Affordable-Housing-Project/11964",
+      "blurb": "Two four-storey buildings will deliver 149 mixed-income units to support First Nation families. The project is listed on Alberta's major projects registry.",
       "concerns": [
         "affordability",
-        "transit-oriented"
+        "indigenous-housing"
       ]
     },
     {
-      "id": "ca-on-toronto-metropolitan-university-affordable-student",
-      "name": "Toronto Metropolitan University Affordable Student Housing Phase 1",
-      "developer": "Toronto Metropolitan University / Province of Ontario",
-      "province": "ON",
-      "city": "Toronto",
-      "projectCost": 83000000,
+      "id": "ca-ab-williams-hall-apartments",
+      "name": "Williams Hall Apartments",
+      "developer": "Alberta Major Projects",
+      "province": "AB",
+      "unitCount": 90,
       "currency": "CAD",
-      "projectType": "rental",
+      "projectType": "mixed",
       "status": "proposed",
-      "sourceUrl": "https://budget.ontario.ca/2026/chapter-1b-building.html",
-      "blurb": "An $83 million provincial investment supports the first phase of an affordable student housing development at Toronto Metropolitan University.",
+      "sourceUrl": "https://majorprojects.alberta.ca/details/Williams-Hall-Apartments/11627",
+      "blurb": "The Williams Hall Apartments project will restore the historic Williams Hall building and create 90 residential apartments along with amenity, office, and commercial space.",
+      "concerns": [
+        "density"
+      ]
+    },
+    {
+      "id": "ca-ab-southview-site-redevelopment-calgary",
+      "name": "Southview Site Redevelopment – Calgary",
+      "developer": "City of Calgary / Province of Alberta / Calgary Housing Company",
+      "province": "AB",
+      "city": "Calgary",
+      "currency": "CAD",
+      "projectType": "social",
+      "status": "proposed",
+      "sourceUrl": "https://engage.calgary.ca/projects",
+      "blurb": "The City of Calgary, Province of Alberta, and Calgary Housing Company are jointly exploring the redevelopment potential of the Southview site to deliver affordable housing.",
       "concerns": [
         "affordability",
-        "density"
+        "social-housing"
       ]
     }
   ]

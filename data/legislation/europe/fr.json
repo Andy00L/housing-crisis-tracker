@@ -2,10 +2,26 @@
   "state": "France",
   "stateCode": "FR",
   "region": "eu",
-  "stance": "none",
+  "stance": "review",
   "stanceZoning": "none",
-  "stanceAffordability": "none",
-  "lastUpdated": "2026-04-16",
-  "contextBlurb": "Le paysage législatif du logement en France est marqué par des réformes continues portant sur l'encadrement des loyers, la loi SRU et les rapports locatifs. La loi du 6 juillet 1989, régulièrement amendée, demeure le texte de référence encadrant les rapports entre bailleurs et locataires, avec des modifications récentes apportées par la LOI n°2025-532 du 13 juin 2025. Les enjeux de logement abordable et de protection des locataires restent au cœur des débats parlementaires.",
-  "legislation": []
+  "stanceAffordability": "review",
+  "lastUpdated": "2026-04-17",
+  "contextBlurb": "Le paysage législatif du logement en France est marqué par plusieurs initiatives parlementaires récentes visant à réguler les loyers, simplifier le droit de l'urbanisme et faciliter la transformation de bureaux en logements. Le dispositif d'encadrement des loyers fait l'objet d'une attention particulière, avec des propositions visant à le pérenniser et le généraliser au-delà de son cadre expérimental. Par ailleurs, des lois récemment adoptées cherchent à adapter l'offre de logements aux défis contemporains.",
+  "legislation": [
+    {
+      "id": "eu-fr-ppl-25-168",
+      "billCode": "PPL 25-168",
+      "title": "Proposition de loi visant à pérenniser, généraliser et améliorer le dispositif d'encadrement des loyers",
+      "summary": "Cette proposition de loi vise à rendre permanent et à étendre le dispositif d'encadrement des loyers, tout en renforçant l'obligation pour le bailleur de justifier tout complément de loyer dans le contrat de location. Elle modifie l'article 140 de la loi ELAN du 23 novembre 2018.",
+      "stage": "Floor",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "rent-regulation",
+      "updatedDate": "2025-01-01",
+      "sourceUrl": "https://www.senat.fr/dossier-legislatif/ppl25-168.html",
+      "sponsors": []
+    }
+  ]
 }

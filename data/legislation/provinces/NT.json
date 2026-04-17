@@ -5,9 +5,114 @@
   "stance": "restrictive",
   "stanceZoning": "restrictive",
   "stanceAffordability": "restrictive",
-  "lastUpdated": "2026-04-16",
-  "contextBlurb": "Housing in the Northwest Territories is primarily administered by Housing NWT (formerly NWT Housing Corporation), which manages approximately 2,900 homes across 32 communities. Key programs include the Public Housing Program, Homeownership Programs, and community-led housing partnerships such as the Memorandum of Agreement signed with Acho Dene Koe First Nation. The GNWT has also implemented a smoking ban in all Housing NWT-owned and operated public housing units.",
+  "lastUpdated": "2026-04-17",
+  "contextBlurb": "Housing in the Northwest Territories is primarily administered by Housing NWT (formerly the NWT Housing Corporation), which manages approximately 2,900 homes across 32 communities. Key programs include Public Housing, Homeownership Programs, and CMHC-funded initiatives. Recent activity includes new modular duplex construction in remote communities and memoranda of agreement with First Nations on community housing planning.",
   "legislation": [
+    {
+      "id": "nt-builders--lien-act",
+      "billCode": "Builders' Lien Act",
+      "title": "Builders' Lien Act (replacing Mechanics Lien Act)",
+      "summary": "The Builders' Lien Act and its supporting regulations came into force on September 1, replacing the former Mechanics Lien Act, affecting construction and housing-related liens in the NWT.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2025-06-25",
+      "sourceUrl": "https://www.gov.nt.ca/en/newsroom?f%5B0%5D=field_news_department%3A99",
+      "sponsors": []
+    },
+    {
+      "id": "nt-public-housing-program",
+      "billCode": "Public Housing Program",
+      "title": "Public Housing Program – Housing NWT",
+      "summary": "Housing NWT operates a public housing program providing rental units to eligible residents across 32 NWT communities, with tenant rights and responsibilities governed by a Tenant Handbook and subject to an appeal process.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "tenant-protection",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.nwthc.gov.nt.ca/en/services/tenant-education",
+      "sponsors": []
+    },
+    {
+      "id": "nt-smoking-ban---public-housing",
+      "billCode": "Smoking Ban – Public Housing",
+      "title": "GNWT Smoking Ban in Public Housing Units",
+      "summary": "The GNWT implemented a smoking ban in all Housing NWT-owned and operated units, including public housing, as a health and safety policy for tenants.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.nwthc.gov.nt.ca/en/services/tenant-education",
+      "sponsors": []
+    },
+    {
+      "id": "nt-housing-appeal-committee",
+      "billCode": "Housing Appeal Committee",
+      "title": "Housing Appeal Committee – NWT Housing Corporation",
+      "summary": "Provides a formal appeal process for applicants, tenants, and clients of the Homeownership Programs and Public Housing Program administered by Housing NWT.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "social-housing"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.nwthc.gov.nt.ca/en/housing-appeal-committee",
+      "sponsors": []
+    },
+    {
+      "id": "nt-moa---adk-fn-housing",
+      "billCode": "MOA – ADK FN Housing",
+      "title": "Memorandum of Agreement on Housing with Acho Dene Koe First Nation",
+      "summary": "Housing NWT and the GNWT signed a memorandum of agreement with Acho Dene Koe First Nation to establish a Housing Working Group, prioritizing community housing planning and coordinated program delivery.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "affordable-housing",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.gov.nt.ca/en/newsroom/housing-nwt-signs-memorandum-agreement-housing-acho-dene-koe-first-nation-strengthen",
+      "sponsors": []
+    },
+    {
+      "id": "nt-cmhc-nwt-housing-programs",
+      "billCode": "CMHC-NWT Housing Programs",
+      "title": "CMHC Housing Programs and Funding in NWT",
+      "summary": "A suite of federally co-funded housing programs delivered through Housing NWT covering construction, repair, and affordability initiatives across Northwest Territories communities.",
+      "stage": "Enacted",
+      "stance": "review",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "building-code",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.nwthc.gov.nt.ca/en/cmhc-housing-programs-funding-nwt",
+      "sponsors": []
+    },
+    {
+      "id": "nt-fort-good-hope-partnership",
+      "billCode": "Fort Good Hope Partnership",
+      "title": "New Partnership in Fort Good Hope – Community-Led Housing and Trades Training",
+      "summary": "A partnership established to improve housing conditions in the Sahtu region by building local trades capacity and supporting community-led housing solutions in Fort Good Hope.",
+      "stage": "Enacted",
+      "stance": "restrictive",
+      "impactTags": [
+        "affordability"
+      ],
+      "category": "zoning-reform",
+      "updatedDate": "2024-01-01",
+      "sourceUrl": "https://www.gov.nt.ca/en/newsroom/new-partnership-fort-good-hope-supports-community-led-housing-and-trades-training",
+      "sponsors": []
+    },
     {
       "id": "nt-n-a",
       "billCode": "N/A",
@@ -26,61 +131,10 @@
       ]
     },
     {
-      "id": "nt-n-a",
-      "billCode": "N/A",
-      "title": "Memorandum of Agreement on Housing with Acho Dene Koe First Nation",
-      "summary": "Housing NWT and the GNWT signed a Memorandum of Agreement with Acho Dene Koe First Nation, establishing a Housing Working Group to prioritize community housing planning and coordinated program delivery.",
-      "stage": "Enacted",
-      "stance": "review",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "affordable-housing",
-      "updatedDate": "2024-01-01",
-      "sourceUrl": "https://www.gov.nt.ca/en/newsroom/housing-nwt-signs-memorandum-agreement-housing-acho-dene-koe-first-nation-strengthen",
-      "sponsors": [
-        "Housing NWT"
-      ]
-    },
-    {
-      "id": "nt-n-a",
-      "billCode": "N/A",
-      "title": "Public Housing Program",
-      "summary": "The Public Housing Program provides rental housing to eligible low-income residents across 32 NWT communities, with an appeal process available through the Housing Appeal Committee.",
-      "stage": "Enacted",
-      "stance": "review",
-      "impactTags": [
-        "social-housing"
-      ],
-      "category": "affordable-housing",
-      "updatedDate": "2024-01-01",
-      "sourceUrl": "https://www.nwthc.gov.nt.ca/en/housing-appeal-committee",
-      "sponsors": [
-        "NWT Housing Corporation"
-      ]
-    },
-    {
-      "id": "nt-n-a",
-      "billCode": "N/A",
-      "title": "New Partnership in Fort Good Hope for Community-Led Housing and Trades Training",
-      "summary": "A government partnership in Fort Good Hope aimed at improving housing conditions in the Sahtu region by building local trades capacity and supporting community-led housing solutions.",
-      "stage": "Enacted",
-      "stance": "restrictive",
-      "impactTags": [
-        "affordability"
-      ],
-      "category": "zoning-reform",
-      "updatedDate": "2024-01-01",
-      "sourceUrl": "https://www.gov.nt.ca/en/newsroom/new-partnership-fort-good-hope-supports-community-led-housing-and-trades-training",
-      "sponsors": [
-        "Housing NWT"
-      ]
-    },
-    {
-      "id": "nt-n-a",
-      "billCode": "N/A",
-      "title": "Monthly Core Need Income Thresholds (2021)",
-      "summary": "A regulatory framework establishing income thresholds per community to determine eligibility for housing programs including homeownership, rental support, and repairs and maintenance.",
+      "id": "nt-core-need-income-thresholds-2021",
+      "billCode": "Core Need Income Thresholds 2021",
+      "title": "Monthly Core Need Income Thresholds per Community 2021",
+      "summary": "Establishes income thresholds by community used to determine eligibility for homeownership, rental support, and repair and maintenance housing programs administered by Housing NWT.",
       "stage": "Enacted",
       "stance": "review",
       "impactTags": [
@@ -89,9 +143,7 @@
       "category": "affordable-housing",
       "updatedDate": "2021-01-01",
       "sourceUrl": "https://www.nwthc.gov.nt.ca/en/resources?search_api_views_fulltext=core+need&sort_by=field_resource_publication_date&sort_order=DESC",
-      "sponsors": [
-        "NWT Housing Corporation"
-      ]
+      "sponsors": []
     }
   ]
 }
