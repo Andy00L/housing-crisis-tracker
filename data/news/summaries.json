@@ -1,23 +1,19 @@
 {
-  "generatedAt": "2026-04-17T16:06:53.103Z",
+  "generatedAt": "2026-04-17T23:50:16.788Z",
   "regional": {
     "na": {
-      "summary": "Canada's housing market is splitting along city-size lines: Royal LePage's first-quarter data show overall Canadian home prices fell 2 percent annually to an average of $812,900, with Toronto and Vancouver each posting declines of roughly 4.5 percent or more year-over-year, while mid-sized markets such as Quebec City recorded price increases of over 10 percent driven by tight inventory. St. John's, Newfoundland is among the tighter markets, where record-low inventory and years of limited construction have pushed buyers into competitive bidding situations, with some paying significantly above asking prices. In Alberta, nearly 30,000 rental units were added in Calgary between 2022 and 2025, lifting vacancy rates and moderating rent growth, though the City of Calgary is still pursuing a $60-million initiative to create over 1,000 non-market rental units for households earning 65 percent or less of the median income. On the legislative front, advocacy groups are pressing for amendments to Bill C-20, Canada's federal housing bill, citing the need for greater transparency, targets, and family housing provisions. CN announced a $500,000 donation to support homelessness prevention in Winnipeg, split between Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre. In the United States, a new analysis maps the neighborhoods in New York City where renters face the most severe housing affordability challenges, while the Kentucky General Assembly has drawn criticism for failing to enact measures to address housing affordability.",
+      "summary": "Canada's housing market is splitting sharply along city-size lines: Royal LePage's first-quarter data show overall Canadian home prices fell 2 percent annually to an average of $812,900, with Toronto and Vancouver down roughly 4.5 percent or more year-over-year while mid-sized markets such as Quebec City posted gains exceeding 10 percent. In Alberta, nearly 30,000 rental units added in Calgary between 2022 and 2025 have pushed vacancy rates up and put landlords in competition for tenants, though the City of Calgary is targeting lower-income renters through a $60-million initiative to create over 1,000 non-market rental units for households earning 65 percent or less of the median income. Advocacy commentary on Bill C-20 is pressing Ottawa to strengthen transparency, targets, and family housing provisions, while a separate call urges policymakers to make 10-year fixed-rate mortgages more accessible, noting that fewer than one in 100 Canadian borrowers currently choose 10-year terms. St. John's, Newfoundland is bucking national price softness with record-low inventory and competitive bidding, with some buyers paying significantly above asking prices. CN announced a $500,000 donation to support homelessness prevention in Winnipeg, split between Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre. In the United States, a new analysis maps New York City neighborhoods where renters face the most severe housing affordability challenges, and the Kentucky General Assembly has drawn criticism for failing to enact measures addressing housing affordability.",
       "keyDevelopments": [],
       "highlights": [
         {
           "text": "Bill C-20",
           "topic": "legislation"
-        },
-        {
-          "text": "Kentucky General Assembly has drawn criticism for failing to enact measures to address housing affordability",
-          "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-17T16:06:44.249Z"
+      "generatedAt": "2026-04-17T23:50:09.804Z"
     },
     "eu": {
-      "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a sharp surge in removals in the months before the ban takes effect. Basildon Borough Council has been assigned the lowest grade (C4) by the Regulator of Social Housing following an inspection that identified serious failings across its approximately 10,750 social homes, including an unaddressed backlog of fire safety issues and inadequate hazard documentation. The number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness over the past five years, driven by housing benefit shortfalls and reduced social housing stock. In Exeter, residents and charity leaders argue that the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. The Isle of Man government is consulting on changes to public sector housing eligibility, including raising income thresholds indexed to inflation annually, with the consultation open until May 19. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew condemnation from victims' families and party leader Nigel Farage.",
+      "summary": "England's rental sector is bracing for the May 1, 2026 implementation of the Renters' Rights Act, which will ban no-fault evictions, though landlords are accelerating such evictions ahead of that deadline, prompting warnings from tenant charities and legal advocates. The UK's older population is bearing an acute share of the affordability strain, with a 79% increase in over-65s at risk of homelessness over the past five years, driven by housing benefit shortfalls and reduced social housing stock. Basildon Borough Council, which manages approximately 10,750 social homes, received the Regulator of Social Housing's lowest grade (C4) after inspectors found an unaddressed backlog of fire safety issues, poor tenant engagement, and inadequate hazard documentation. On mortgage markets, the average two-year fixed mortgage rate has fallen from a recent peak of 5.90% to 5.87% following hopes of a ceasefire after geopolitical tensions, though volatility risks remain. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. The Isle of Man government is separately consulting on changes to public sector housing eligibility, including income thresholds indexed to inflation, with the consultation open until May 19.",
       "keyDevelopments": [],
       "highlights": [
         {
@@ -25,7 +21,7 @@
           "topic": "legislation"
         },
         {
-          "text": "May 1, 2026 implementation",
+          "text": "no-fault evictions",
           "topic": "legislation"
         },
         {
@@ -35,13 +31,9 @@
         {
           "text": "unaddressed backlog of fire safety issues",
           "topic": "legislation"
-        },
-        {
-          "text": "raising income thresholds indexed to inflation annually",
-          "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-17T16:06:53.103Z"
+      "generatedAt": "2026-04-17T23:50:16.788Z"
     },
     "asia": {
       "summary": "Australia's construction industry is pressing for what it describes as 'once in a generation' reform of the National Construction Code, arguing that streamlined regulations are essential to meeting the government's target of delivering 1.2 million homes by 2029. Industry bodies have linked rising build costs to Middle East supply chain disruptions, which have pushed fuel and petrochemical prices up by 20–40 percent, compounding affordability pressures across the sector. The government is currently consulting on potential code modifications, with industry groups contending that without regulatory reform, builders will be unable to scale output sufficiently to close the housing gap.",
@@ -66,6 +58,15 @@
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-financial-post-u2auss",
+          "headline": "News of the day: Gas price shock, AI risks, 10-year mortgages, retirement savings, internal job postings and more",
+          "source": "Financial Post",
+          "date": "2026-04-17",
+          "url": "https://financialpost.com/uncategorized/news-of-the-day-gas-price-shock-ai-risks-10-year-mortgages-retirement-savings-internal-job-postings-and-more",
+          "summary": "The Financial Post's news roundup covers multiple economic stories including expectations that gas price increases will significantly impact March inflation figures, Bank of Canada governor Tiff Macklem's discussions with U.S. Federal Reserve chair about artificial intelligence risks, and commentary on the need for longer-term mortgage options in Canada.",
+          "summarySource": "article"
+        },
         {
           "id": "rss-financial-post-9hd8il",
           "headline": "Dear Ottawa: Canadians need reasonable 10-year mortgages — pronto",
@@ -373,6 +374,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-ca-ujpbb6",
+          "headline": "Canada's Looming Seniors Housing Crisis: Why Developers Must Act Now - newswire.com",
+          "source": "Google News Housing CA",
+          "date": "2026-03-03",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSlJtRkxRTWdBY0xoU1BBMmZvMGVfWHVJdDN3dEJNb0h6SVNHd2dEaFBaMnBtMEhjTk1NSExMczJkdXZiU0tDeEctWVM0OUtPaGdsdjgzUDJQQnJYZDlMeExLbzBHdnBFb2FCdkRvZ3JjWnRRbVBRN0VxLWM3NTk5TDVMMXNXa3l1a0RQeXlnNkFCeXVpWkdmMTd5TlU?oc=5",
+          "summary": "Canada is facing a shortage of housing options designed for seniors, according to reporting on housing and demographic trends.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-ca-4mnmtm",
           "headline": "How Green Building Can Tackle the Housing Crisis- CB - Canadian Business",
           "source": "Google News Housing CA",
@@ -415,6 +425,24 @@
           "date": "2026-02-23",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vdDJ1VTYzMTRjRHZaaURaYXQ2ZXE4b291bFZnZkxyWlJLLVFNdW1WVXRjQ2dyR0VkWlRkZVlCOTN5NUJhd1kwNjdRZjd3R2F4N3hzY2lGWFV2dEVxa0FXc1BVVFNRdV95Q2w3ZTFfNTVWcy1HbklWN0U2MlY4UQ?oc=5",
           "summary": "The article discusses concerns about housing affordability challenges affecting Canada's middle-income population.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-build-canada-492n",
+          "headline": "Canada and Ontario Support New Affordable Homes in Woodstock - ontario.ca",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-02-19",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQ2RlVHl4RGhGV2RJRHFLd0ZzU0FKV3ZKOEF3dld1NF9uOFhjVkxsUDlvTG5vaWU0UVF5MkY0OTNCSFZpcjhSaWFpUHpyRWI3aGg3ZlJxMm13WkJ3WUVnSTQwbWNlUFBtb0ZrYVVrdThXSExIWTNIbHloS3h1Vll4bmdnUk9vMENQdHpBY1pvaTZrQ25hYnlBQkt6VElyNm5rTGFxNGVhSQ?oc=5",
+          "summary": "Canada and Ontario announced support for new affordable housing development in Woodstock.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-build-canada-7q96yi",
+          "headline": "Build Canada Homes bets on new leaders to speed affordable builds - mpamag.com",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-02-13",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNGc1N3FHN19vRXdaODR4Rm8tWmlXMTgybnNMRXZuNlNLNkJqdUFyYnJVbGVNcTNVb0NDRldxTUFqRG1nV1dCVE4xVFA0blU3RXpIdVVnemh4ejZJcmt4T3FqTTh0R3BWcmozc1h6MVhUWjhrcU5ZQ0xqVlU0R1pQdEIwclgwYW9OakJ4cXNxLVlnOVIzNXZuOUFtTlF1aUVscEZTbVdTR0M3Q2hsSGtNQVV1Y2dTTTRqODM5a1AxYkJLM1NPYUNieExIeHc?oc=5",
+          "summary": "Build Canada Homes has brought on new leadership in an effort to accelerate its affordable housing construction efforts.",
           "summarySource": "headline-only"
         },
         {
@@ -523,6 +551,15 @@
           "date": "2025-12-04",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONEZTMTlIVGlibjJpRW5SME1WNjNidk1JQkNDeU9DbFlxeDB6TkJxMHh0cGE5N1Z3ZWdGNGl3YzBKYzh2Y1JoNWQyYmxWMHh0REZ1cFoxR0JZM0hWQXFUeE9EMU01ZmpoeWl1Mm5pMS1oVEd0RUxlUjJRVWh6OUQyQnFNb0ZQdw?oc=5",
           "summary": "Canada continues to face ongoing challenges with housing availability and affordability, with no clear resolution appearing in the near term.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-build-canada-ablnj9",
+          "headline": "Build Canada Homes and the Outlook for Housing Programs under Budget 2025 - Parliamentary Budget Officer",
+          "source": "Google News Build Canada Homes",
+          "date": "2025-12-02",
+          "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNdXVKdTluN1B6bkUtcTQwaVhXR2ZibDJ1WGc1dWFhVVJyTVZ6em9uaUhTZnh4N0VFY25wVi0xUmZJbHZXZllUZDFhWnlqbTlmbE5hOXJrRzBudlFFT25kVDZpcERsOUVCQ1VqWC1McFBBOV9kSTRKUkRYc00zZ0RWcHRHNE96MHhuWDhKRGVPZEFhWkpUT2hOaElvQjdiaTRyczYzQmE3Rm5WYTA1SkhIdk9KS2gzbTN6RFgwNXdWSWsycHlIN1V2U0c3VkpoTU5wbnZyT05UdHJobzZwZjFnNE5aRW1EOXFsYW9DOTRyNllSN2ZxbW10SDlkT2pnNENyT2tnTUpVNjdDWkV6clRYaUY3eXRTbUxOLS1kZnZlN3VhalE?oc=5",
+          "summary": "The Parliamentary Budget Officer has issued analysis regarding the Build Canada Homes initiative and housing programs outlined in the 2025 federal budget.",
           "summarySource": "headline-only"
         },
         {
@@ -908,6 +945,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-l4q5na",
+          "headline": "A Build America, Buy America law is causing construction delays amid the US housing crisis - WTOP",
+          "source": "Google News Housing US",
+          "date": "2026-03-30",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZURGSi1WUkVsQ0JhX3ZseTdhNUFjZkNOaDg1ZllnRUVsRFRPT0JfazhHRzZzWEhQRDdjRUJHM3R5S2RmU1lid2lsUHYtbUlSODFnZ3ZoNUhzR01YeU5qeEdVOWZNQjdObGs0eTFrQ08wblNFN21neUtwZHk5MlBaTXZ6U3RQWnhnVkhSVWs5LS13VEU5WWZCR0tpRFpVVVFFZkEyTjFRdGhPWVZFZmxYZDd6NVFsRHhBY3BUQkwzZUZHODZtS1E?oc=5",
+          "summary": "A federal Buy America law is reportedly causing construction delays in the United States amid ongoing housing shortages.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-pcpqj7",
           "headline": "A Build America, Buy America law is causing construction delays amid the US housing crisis - AP News",
           "source": "Google News Housing US",
@@ -1101,6 +1147,15 @@
     "United Kingdom": {
       "news": [
         {
+          "id": "rss-bbc-your-money-e0iidb",
+          "headline": "Mortgage rates show signs of falling after Iran war peak",
+          "source": "BBC Your Money",
+          "date": "2026-04-17",
+          "url": "https://www.bbc.com/news/articles/cwyx2q86lgpo?at_medium=RSS&at_campaign=rss",
+          "summary": "Mortgage rates have begun declining following recent geopolitical tensions, with major lenders cutting rates on new deals as financial markets respond to hopes of a ceasefire. The average two-year fixed mortgage rate has fallen from a recent peak of 5.90% to 5.87%, though experts caution that rates remain vulnerable to further market volatility.",
+          "summarySource": "article"
+        },
+        {
           "id": "rss-bbc-your-money-y7rt2i",
           "headline": "Housing shortage 'makes me feel unwanted in my city'",
           "source": "BBC Your Money",
@@ -1219,6 +1274,33 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-7005nb",
+          "headline": "Pomona Students report buying and trading room draw times due to housing crisis - The Student Life",
+          "source": "Google News Housing Global",
+          "date": "2026-04-17",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM1VqMUNVaFVwYVpKNkhwbXVNX0RvUUtXdEdwRjIzSmhfaEdCeW1vUWdYempPb0YxREY2Q1ZLNkE4SC1GRXU5OFRrM2lDZTFZbG8yZUdJWFhpNjEtNHpSdFFqYnpNSVVncDVPQ3JrVGFxVkwwelY4emJMSldWaFRXcUkzM3BHdGVDLXYzS3c1bHZZQUJFREFQc0lDMmVCQdIBowFBVV95cUxPZDY0dU5sREdISWYtck4xYXU5X3NOZjRZSEZIbUpCSEJ3TlNIampvdWs5UkN2WFBLXzFzQW1TY2dnOTNnRzQzZWlfQTBLdjdGNEhtdTNneFVYakc5VVBWVzZtckxjdXpjcGtiWUVDRXNIanhseHY3dEJuM2t2YlItdW11WGd2T09MRndvQWR3Nkc1Q0RmQi1XVGY0VWRxdzJMQjVz?oc=5",
+          "summary": "Students at Pomona College have reported buying and trading room draw times as a response to a housing shortage on campus.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-qa6dye",
+          "headline": "Santa Clara County program helps cancer patient avoid housing crisis - NBC Bay Area",
+          "source": "Google News Housing Global",
+          "date": "2026-04-17",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNS1VoRUpoQXJfOVRBc2NZTmowdEw2bFc1RE5YUVEtemxTRWlPMFdGaUlaT05hX1ZCczlVRkNleThIYmtta1RMSmtweXZqUzY1ZUZ0bHhhZDZ5bE1RckdsNVBVTG9wR2IySWphb2s2NWgwYUlETVFYNTkzcGtxVHdaTHh4eWtwV2JaamlnZUpXM2N0MHByWmZqSERaRFJSMTd6cDFV0gGrAUFVX3lxTFA5SE9GV0tKdUdidWtfenRQdmdBS0xBRVB6bXkzZFlaaWdPdWlreUYySUNZc3VoY3BGYnpkaEpFaXVKbUZVZWVYN3BJVVJnWWdVSEdJQjN4NVZ4dFFJZWktSTZidW4taEJNNVZHUklFdXVjVWVyaV9hZTNpX0owWmx6a0gzUVhRaXdNbERXNkI4dWdqZjlPREwzUUowZlM1bnBiNUdRT0RSMXRXWQ?oc=5",
+          "summary": "Santa Clara County has implemented a program that assists cancer patients in avoiding housing instability or displacement.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-vym58d",
+          "headline": "Be part of the solution: Housing crisis workshop in Central Oregon - KTVZ",
+          "source": "Google News Housing Global",
+          "date": "2026-04-17",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZjN0R1pxemtnR3BqR1VFMzdNQktCRkFLVHBvdm9QakpZNTU0NnotM0g5VkxPRW0wNTNUcV9NNHQwNlVfODJ5SzdoZ2pIRDhraGlCQ2d6ejhkY2M0a3lNM3pLYXlQeTJGQ3FMcmh0RVF0TlA3QWJUcmNkLVFjcFUxcFpuSjVQNGpHVDg5Z2J0dW16clhYajZ3SndxbUtyUVhyb0tQdjAwRXBCb3Z2bERV?oc=5",
+          "summary": "A workshop addressing housing crisis issues is being held in Central Oregon.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-44tw9p",
           "headline": "WashU Expert: Separating fact from fiction in housing affordability and corporate investors - WashU",
