@@ -10,9 +10,9 @@
   "legislation": [
     {
       "id": "qc-hlm---logement-subventionn-",
-      "billCode": "HLM / Logement subventionnÃ©",
+      "billCode": "HLM / Logement subventionné",
       "title": "Subsidized Housing Program (Low-Rental Housing / HLM)",
-      "summary": "Provincial program allowing low-income households to pay rent equal to 25% of their income through low-rental housing (HLM) units administered by the SociÃ©tÃ© d'habitation du QuÃ©bec.",
+      "summary": "Provincial program allowing low-income households to pay rent equal to 25% of their income through low-rental housing (HLM) units administered by the Société d'habitation du Québec.",
       "stage": "Enacted",
       "stance": "review",
       "impactTags": [
@@ -25,8 +25,8 @@
     },
     {
       "id": "qc-bail-r-sidentiel--tal-",
-      "billCode": "Bail rÃ©sidentiel (TAL)",
-      "title": "RÃ¨gles relatives au bail rÃ©sidentiel â€” Tribunal administratif du logement",
+      "billCode": "Bail résidentiel (TAL)",
+      "title": "Règles relatives au bail résidentiel — Tribunal administratif du logement",
       "summary": "Requires use of the Tribunal administratif du logement standard lease form for all new residential leases, including rooms, apartments, and houses, with mandatory spousal consent for family residences.",
       "stage": "Enacted",
       "stance": "review",
@@ -40,9 +40,9 @@
     },
     {
       "id": "qc-aides-financi-res-logement",
-      "billCode": "Aides financiÃ¨res logement",
-      "title": "Programme d'aides financiÃ¨res pour le logement",
-      "summary": "Financial assistance framework for low-income households and those with specific housing needs, administered through the SociÃ©tÃ© d'habitation du QuÃ©bec.",
+      "billCode": "Aides financières logement",
+      "title": "Programme d'aides financières pour le logement",
+      "summary": "Financial assistance framework for low-income households and those with specific housing needs, administered through the Société d'habitation du Québec.",
       "stage": "Enacted",
       "stance": "review",
       "impactTags": [
@@ -220,8 +220,8 @@
     },
     {
       "id": "qc-projet-de-loi-n--20",
-      "billCode": "Projet de loi nÂ° 20",
-      "title": "Loi Ã©dictant la Loi visant Ã  favoriser l'accÃ¨s au logement et modifiant diverses dispositions",
+      "billCode": "Projet de loi n° 20",
+      "title": "Loi édictant la Loi visant à favoriser l'accès au logement et modifiant diverses dispositions",
       "summary": "Establishes a centralized rental application portal (guichet) for affordable and low-rental housing, and sets rules governing the allocation and leasing of dwellings in affordable housing.",
       "stage": "Filed",
       "stance": "review",
@@ -237,7 +237,7 @@
       "id": "qc-bill-20--en-",
       "billCode": "Bill 20 (EN)",
       "title": "An Act to enact the Act to facilitate access to housing and to amend various provisions",
-      "summary": "English version of Projet de loi nÂ° 20; establishes rules for allocation and leasing of affordable housing dwellings and allows the filing of applications through a centralized portal.",
+      "summary": "English version of Projet de loi n° 20; establishes rules for allocation and leasing of affordable housing dwellings and allows the filing of applications through a centralized portal.",
       "stage": "Filed",
       "stance": "review",
       "impactTags": [
@@ -251,7 +251,7 @@
     {
       "id": "qc-air-2025-0240",
       "billCode": "AIR 2025-0240",
-      "title": "Analyse d'impact rÃ©glementaire du projet de loi Ã©dictant la Loi visant Ã  favoriser l'accÃ¨s au logement",
+      "title": "Analyse d'impact réglementaire du projet de loi édictant la Loi visant à favoriser l'accès au logement",
       "summary": "Regulatory impact analysis laying the groundwork for the centralized housing application portal (guichet) for low-rental and affordable housing units in Quebec.",
       "stage": "Filed",
       "stance": "review",
@@ -265,8 +265,8 @@
     },
     {
       "id": "qc-m-moire-2025-0240",
-      "billCode": "MÃ©moire 2025-0240",
-      "title": "Projet de loi Ã©dictant la Loi visant Ã  favoriser l'accÃ¨s au logement et modifiant diverses dispositions â€” MÃ©moire au Conseil des ministres",
+      "billCode": "Mémoire 2025-0240",
+      "title": "Projet de loi édictant la Loi visant à favoriser l'accès au logement et modifiant diverses dispositions — Mémoire au Conseil des ministres",
       "summary": "Council of Ministers memorandum detailing regulatory modifications required to implement the centralized housing portal, including eligibility conditions for affordable and low-rental housing.",
       "stage": "Filed",
       "stance": "review",

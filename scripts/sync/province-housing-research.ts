@@ -59,6 +59,57 @@ const ONLY = process.env.PROV_ONLY
 mkdirSync(OUT_DIR, { recursive: true });
 mkdirSync(CACHE_DIR, { recursive: true });
 
+// ── Double-encoded UTF-8 repair ─────────────────────────────────────
+/**
+ * Fix double-encoded UTF-8 text.
+ *
+ * When UTF-8 bytes are decoded as Latin-1 (or Windows-1252) then
+ * re-encoded as UTF-8, characters like "é" (C3 A9) become "Ã©".
+ * Three-byte characters like "—" (E2 80 94) become "â€" because bytes
+ * 0x80-0x9F map to Windows-1252 specials (€, ", etc.) instead of
+ * staying as Latin-1 control characters.
+ *
+ * Fix: map each character back to its Windows-1252 byte value, then
+ * decode the byte sequence as UTF-8.
+ *
+ * Only applied when the decoded result has fewer or equal replacement
+ * characters (U+FFFD) compared to the original, preventing corruption
+ * of correctly-encoded text.
+ */
+const CP1252_TO_BYTE = new Map<number, number>([
+  [0x20AC, 0x80], [0x201A, 0x82], [0x0192, 0x83], [0x201E, 0x84],
+  [0x2026, 0x85], [0x2020, 0x86], [0x2021, 0x87], [0x02C6, 0x88],
+  [0x2030, 0x89], [0x0160, 0x8A], [0x2039, 0x8B], [0x0152, 0x8C],
+  [0x017D, 0x8E], [0x2018, 0x91], [0x2019, 0x92], [0x201C, 0x93],
+  [0x201D, 0x94], [0x2022, 0x95], [0x2013, 0x96], [0x2014, 0x97],
+  [0x02DC, 0x98], [0x2122, 0x99], [0x0161, 0x9A], [0x203A, 0x9B],
+  [0x0153, 0x9C], [0x017E, 0x9E], [0x0178, 0x9F],
+]);
+
+function fixDoubleEncodedUtf8(s: string): string {
+  // Latin-1 double-encoding: \xC3 followed by \x80-\xBF (e.g. Ã©)
+  // Windows-1252 double-encoding: â€ prefix from 3-byte UTF-8 (e.g. â€")
+  if (!/[\xc0-\xdf][\x80-\xbf]|\xe2[\x80-\xbf\u20ac\u201a-\u203a]/.test(s)) return s;
+  try {
+    const bytes: number[] = [];
+    for (const ch of s) {
+      const cp = ch.codePointAt(0)!;
+      if (cp <= 0xFF) {
+        bytes.push(cp);
+      } else {
+        const mapped = CP1252_TO_BYTE.get(cp);
+        if (mapped === undefined) return s; // unmappable char, not double-encoded
+        bytes.push(mapped);
+      }
+    }
+    const decoded = Buffer.from(bytes).toString("utf8");
+    const originalBad = (s.match(/\uFFFD/g) ?? []).length;
+    const decodedBad = (decoded.match(/\uFFFD/g) ?? []).length;
+    if (decodedBad <= originalBad) return decoded;
+  } catch { /* leave string alone */ }
+  return s;
+}
+
 // ── Province specs ───────────────────────────────────────────────────
 interface ProvinceSpec {
   code: string;
@@ -443,8 +494,8 @@ async function gatherSnippets(spec: ProvinceSpec): Promise<Snippet[]> {
       if (!seen.has(r.url)) {
         seen.set(r.url, {
           url: r.url,
-          title: r.title,
-          content: r.content,
+          title: fixDoubleEncodedUtf8(r.title),
+          content: fixDoubleEncodedUtf8(r.content),
           score: r.score,
         });
       }
@@ -625,6 +676,14 @@ async function researchProvince(
   }
 
   const extracted = await askClaude(anthropic, spec, snippets);
+
+  // Fix double-encoded UTF-8 that may have leaked through Tavily or Claude
+  extracted.contextBlurb = fixDoubleEncodedUtf8(extracted.contextBlurb);
+  for (const bill of extracted.legislation) {
+    bill.billCode = fixDoubleEncodedUtf8(bill.billCode);
+    bill.title = fixDoubleEncodedUtf8(bill.title);
+    bill.summary = fixDoubleEncodedUtf8(bill.summary);
+  }
 
   // Cross-reference: drop bills whose sourceUrl isn't in our snippets.
   const snippetUrls = new Set(snippets.map((s) => s.url));
