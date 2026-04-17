@@ -1,17 +1,12 @@
 "use client";
 
 import { useRef, useState } from "react";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import Hero from "@/components/hero/Hero";
 import MapShell from "@/components/map/MapShell";
 import SummaryBar from "@/components/sections/SummaryBar";
 import DimensionToggle from "@/components/sections/DimensionToggle";
-import AIOverview from "@/components/sections/AIOverview";
-import LegislationTable from "@/components/sections/LegislationTable";
-import LegislativeFunnel from "@/components/sections/LegislativeFunnel";
-import ProjectsOverview from "@/components/sections/ProjectsOverview";
-import PoliticiansOverview from "@/components/sections/PoliticiansOverview";
-import LiveNews from "@/components/sections/LiveNews";
 import FadeInOnView from "@/components/ui/FadeInOnView";
 import { useScrollProgress } from "@/lib/use-scroll-progress";
 import type {
@@ -21,13 +16,75 @@ import type {
   ViewTarget,
 } from "@/types";
 
-// Ease-out quart: strong, smooth deceleration — used for any RAF-driven
+/* ── Below-fold sections: lazy-loaded to reduce initial bundle ── */
+
+const AIOverview = dynamic(
+  () => import("@/components/sections/AIOverview"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-48 w-full animate-pulse rounded-2xl bg-neutral-100" />
+    ),
+  },
+);
+
+const LegislationTable = dynamic(
+  () => import("@/components/sections/LegislationTable"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-80 w-full animate-pulse rounded-2xl bg-neutral-100" />
+    ),
+  },
+);
+
+const LegislativeFunnel = dynamic(
+  () => import("@/components/sections/LegislativeFunnel"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-64 w-full animate-pulse rounded-2xl bg-neutral-100" />
+    ),
+  },
+);
+
+const ProjectsOverview = dynamic(
+  () => import("@/components/sections/ProjectsOverview"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-80 w-full animate-pulse rounded-2xl bg-neutral-100" />
+    ),
+  },
+);
+
+const PoliticiansOverview = dynamic(
+  () => import("@/components/sections/PoliticiansOverview"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-80 w-full animate-pulse rounded-2xl bg-neutral-100" />
+    ),
+  },
+);
+
+const LiveNews = dynamic(
+  () => import("@/components/sections/LiveNews"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-48 w-full animate-pulse rounded-2xl bg-neutral-100" />
+    ),
+  },
+);
+
+// Ease-out quart: strong, smooth deceleration. Used for any RAF-driven
 // scroll that needs to land past the hero reveal.
 function smoothScrollToMap(duration = 1200) {
   if (typeof window === "undefined") return;
   // `useScrollProgress(2)` treats 2 viewport heights as a full reveal, so
   // scrolling to 2.2vh lands the user safely past the reveal with chrome
-  // visible. Stay put if we're already past that point — no need to yank
+  // visible. Stay put if we're already past that point. No need to yank
   // the page around on every table click.
   const targetY = window.innerHeight * 2.2;
   const startY = window.scrollY;
@@ -59,7 +116,7 @@ export default function Page() {
   };
 
   const handleGlobeRegionClick = (region: Region) => {
-    // Update the map state first — the map is already mounted under the hero,
+    // Update the map state first. The map is already mounted under the hero,
     // so by the time the user scrolls into view it's already on the right
     // region. Then run a custom RAF-driven scroll so the reveal animation
     // plays slowly and smoothly.
@@ -82,7 +139,7 @@ export default function Page() {
       <Hero progress={progress} onRegionClick={handleGlobeRegionClick} />
       <div className="h-[400vh]" aria-hidden />
 
-      {/* Section 1 — At a glance: summary stats + color-by toggle */}
+      {/* Section 1. At a glance: summary stats + color-by toggle */}
       <section className="relative z-10 bg-white border-t border-black/[.06]">
         <div className="max-w-5xl mx-auto px-8 pt-20 pb-16">
           <div className="text-[13px] font-medium text-muted tracking-tight mb-2">
@@ -105,7 +162,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Section 2 — AI overview narrative */}
+      {/* Section 2. AI overview narrative */}
       <section className="relative z-10 bg-bg border-t border-black/[.06]">
         <div className="max-w-5xl mx-auto px-8 py-20">
           <div className="text-[13px] font-medium text-muted tracking-tight mb-2">
@@ -120,7 +177,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Section 3 — Full legislation table */}
+      {/* Section 3. Full legislation table */}
       <section
         id="legislation"
         className="relative z-10 bg-white border-t border-black/[.06] scroll-mt-20"
@@ -180,7 +237,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Section 6 — Who voted how */}
+      {/* Section 6. Who voted how */}
       <section
         id="politicians"
         className="relative z-10 bg-bg border-t border-black/[.06] scroll-mt-20"
@@ -193,7 +250,7 @@ export default function Page() {
             Officials & leaders
           </h2>
           <p className="text-sm text-muted mb-10 max-w-xl">
-            The officials and leaders shaping housing policy — and how
+            The officials and leaders shaping housing policy, and how
             their votes stack up against what they said they believed.
           </p>
           <FadeInOnView>
@@ -202,7 +259,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Section 7 — Live news feed */}
+      {/* Section 7. Live news feed */}
       <section
         id="news"
         className="relative z-10 bg-white border-t border-black/[.06] scroll-mt-20"
@@ -216,8 +273,8 @@ export default function Page() {
             <span
               className="live-dot"
               role="img"
-              aria-label="Live feed — updated automatically"
-              title="Live feed — updated automatically"
+              aria-label="Live feed, updated automatically"
+              title="Live feed, updated automatically"
             />
           </h2>
           <FadeInOnView>
