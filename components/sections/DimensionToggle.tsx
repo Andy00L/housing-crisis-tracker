@@ -9,7 +9,7 @@ import {
   type Dimension,
   type DimensionLens,
 } from "@/types";
-import { DIMENSION_COLOR, DIMENSION_TEXT } from "@/lib/dimensions";
+import { DIMENSION_COLOR, DIMENSION_GRADIENT, DIMENSION_TEXT } from "@/lib/dimensions";
 
 interface DimensionToggleProps {
   dimension: Dimension;
@@ -215,6 +215,23 @@ export default function DimensionToggle({
           ))}
         </div>
       )}
+
+      {/* Gradient legend for tag-density dimensions */}
+      {dimension !== "overall" &&
+        dimension !== "crisis" &&
+        DIMENSION_GRADIENT[dimension] && (
+          <div className="mt-3 flex items-center gap-2">
+            <span
+              className="h-3 w-24 rounded-sm"
+              style={{
+                background: `linear-gradient(to right, ${DIMENSION_GRADIENT[dimension].from}, ${DIMENSION_GRADIENT[dimension].to})`,
+              }}
+            />
+            <span className="text-[11px] text-muted">
+              Low activity &rarr; High activity
+            </span>
+          </div>
+        )}
     </div>
   );
 }

@@ -15,7 +15,7 @@ import { AnimatePresence, motion } from "framer-motion";
  */
 
 const LABELS = [
-  "watching the grid",
+  "exploring the map",
   "counting bills",
   "tracking politicians",
   "scouting local bills",
