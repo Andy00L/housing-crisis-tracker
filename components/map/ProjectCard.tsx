@@ -2,6 +2,7 @@
 
 import type { HousingProject } from "@/types";
 import { statusColorForProject } from "@/lib/project-colors";
+import { projectDisplayName } from "@/lib/project-display";
 import { ProposalProgress } from "@/components/ui/ProposalProgress";
 
 interface ProjectCardProps {
@@ -47,7 +48,7 @@ export default function ProjectCard({
   y,
   clusterSize = 1,
 }: ProjectCardProps) {
-  const developer = stripConfidence(project.developer) ?? project.developer;
+  const displayName = projectDisplayName(project);
   const units = formatUnits(project.unitCount);
   const cost = formatCost(project.projectCost);
   const color = statusColorForProject(project.status);
@@ -109,7 +110,7 @@ export default function ProjectCard({
               11/400 muted   — captions  */}
         <div className="px-3.5 pt-3 pb-2.5">
           <div className="text-[13px] font-semibold text-ink tracking-tight leading-tight">
-            {developer}
+            {displayName}
           </div>
           <div className="mt-1.5 inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-bg/80">
             <span

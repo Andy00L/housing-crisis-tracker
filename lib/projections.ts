@@ -16,11 +16,13 @@ export const naProjection = geoMercator()
   .scale(420)
   .translate([480, 320]);
 
-// Canada provinces map projection — centered on Canadian landmass.
+// Canada provinces map projection. Centered on Canadian landmass with
+// enough pullback to show all 13 provinces and territories (Nunavut at
+// the top, Atlantic provinces on the right, Vancouver Island on the left).
 export const caProjection = geoMercator()
-  .center([-96, 60])
-  .scale(500)
-  .translate([480, 350]);
+  .center([-96, 62])
+  .scale(250)
+  .translate([480, 330]);
 
 export const caPath = geoPath(caProjection);
 

@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { HousingProject, ImpactTag, MunicipalAction } from "@/types";
 import { IMPACT_TAG_LABEL } from "@/types";
 import { statusColorForProject } from "@/lib/project-colors";
+import { projectDisplayName } from "@/lib/project-display";
 import { ProposalProgress } from "@/components/ui/ProposalProgress";
 import { findActionsForProject } from "@/lib/action-project-link";
 import { getMunicipalitiesByState } from "@/lib/municipal-data";
@@ -40,11 +41,6 @@ function formatCost(n: number | undefined): string | null {
   return `$${n}`;
 }
 
-function stripConfidence(s: string | undefined): string | undefined {
-  if (!s) return undefined;
-  return s.replace(/\s*#\w+/g, "").trim();
-}
-
 const STATUS_LABEL: Record<HousingProject["status"], string> = {
   operational: "Operational",
   "under-construction": "Under construction",
@@ -71,7 +67,7 @@ export default function ProjectDetail({
   project,
 }: ProjectDetailProps) {
   const [issuesOpen, setIssuesOpen] = useState(true);
-  const developer = stripConfidence(project.developer) ?? project.developer;
+  const displayName = projectDisplayName(project);
 
   // Reverse link: find county actions whose title/summary name this
   // project. Limited to municipalities in the project's own state to
@@ -110,7 +106,7 @@ export default function ProjectDetail({
       {/* Header — mirrors the entity panel (h2 + small status line) */}
       <div className="px-6 pt-1 pb-5 border-b border-black/[.06]">
         <h2 className="text-2xl font-semibold text-ink tracking-tight leading-[1.1]">
-          {developer}
+          {displayName}
         </h2>
         <div className="mt-2 flex items-center gap-2 text-xs text-muted">
           <span

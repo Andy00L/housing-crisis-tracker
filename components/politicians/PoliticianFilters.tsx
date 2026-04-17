@@ -6,7 +6,7 @@ import type { Legislator } from "@/types";
 export type SortKey = "relevance" | "alignment" | "name" | "votes" | "capture";
 
 export interface FilterState {
-  country: "all" | "US" | "GB" | "EU";
+  country: "all" | "CA" | "US" | "GB" | "EU" | "AP";
   chamber: "all" | string;
   party: "all" | string;
   sort: SortKey;
@@ -21,9 +21,11 @@ interface Props {
 
 const COUNTRY_OPTIONS: Array<{ key: FilterState["country"]; label: string }> = [
   { key: "all", label: "All" },
+  { key: "CA", label: "Canada" },
   { key: "US", label: "United States" },
   { key: "GB", label: "United Kingdom" },
-  { key: "EU", label: "European Parliament" },
+  { key: "EU", label: "Europe" },
+  { key: "AP", label: "Asia-Pacific" },
 ];
 
 const SORT_OPTIONS: Array<{ key: SortKey; label: string }> = [

@@ -9,15 +9,28 @@ import PoliticianFilters, {
   type SortKey,
 } from "@/components/politicians/PoliticianFilters";
 
+/** Europe country codes. Mirrors PoliticiansOverview so both views
+ *  agree on which officials belong to the "Europe" scope. */
+const EU_COUNTRIES = new Set(["DE", "FR", "IT", "ES", "PL", "NL", "SE", "FI", "IE", "EU"]);
+
+/** Asia-Pacific country codes produced by the asia-officials pipeline. */
+const AP_COUNTRIES = new Set(["JP", "KR", "CN", "IN", "ID", "TW", "AU"]);
+
+function matchesCountryScope(p: Legislator, scope: FilterState["country"]): boolean {
+  const c = p.country ?? "";
+  if (scope === "all") return true;
+  if (scope === "GB") return c === "GB" || c === "UK";
+  if (scope === "EU") return EU_COUNTRIES.has(c);
+  if (scope === "AP") return AP_COUNTRIES.has(c);
+  return c === scope;
+}
+
 export default function PoliticiansClient({ all }: { all: Legislator[] }) {
   const params = useSearchParams();
   const billFilter = params.get("bill");
   const focusedId = params.get("id");
 
-  // Default to US — most readers are American and the dataset has the
-  // densest coverage there. Other countries surface their own parties
-  // when picked.
-  const initialCountry = (params.get("country") as FilterState["country"]) ?? "US";
+  const initialCountry = (params.get("country") as FilterState["country"]) ?? "CA";
   const initialChamber = params.get("chamber") ?? "all";
   const initialParty = params.get("party") ?? "all";
   const initialSort = (params.get("sort") as SortKey) ?? "relevance";
@@ -39,7 +52,7 @@ export default function PoliticiansClient({ all }: { all: Legislator[] }) {
     if (billFilter) {
       list = list.filter((p) => p.votes?.some((v) => v.billId === billFilter));
     }
-    if (state.country !== "all") list = list.filter((p) => p.country === state.country);
+    if (state.country !== "all") list = list.filter((p) => matchesCountryScope(p, state.country));
     if (state.chamber !== "all") list = list.filter((p) => p.chamber === state.chamber);
     if (state.party !== "all") list = list.filter((p) => partyKey(p.party) === state.party);
     if (state.search.trim()) {

@@ -2,16 +2,13 @@
 
 import type { HousingProject } from "@/types";
 import { statusColorForProject } from "@/lib/project-colors";
+import { projectDisplayName } from "@/lib/project-display";
 
 interface ProjectsListProps {
   projects: HousingProject[];
   /** What field to group the rows by. `null` renders a flat list. */
   groupBy: "state" | "country" | null;
   onSelectProject?: (project: HousingProject) => void;
-}
-
-function stripConfidence(s: string | undefined): string {
-  return (s ?? "").replace(/\s*#\w+/g, "").trim();
 }
 
 function formatUnits(count: number | undefined): string | null {
@@ -58,7 +55,7 @@ function ProjectRow({
   project: HousingProject;
   onSelect?: (project: HousingProject) => void;
 }) {
-  const developer = stripConfidence(project.developer) || "Housing project";
+  const displayName = projectDisplayName(project);
   const units = formatUnits(project.unitCount);
   const color = statusColorForProject(project.status);
   const isProposed = project.status === "proposed";
@@ -75,7 +72,7 @@ function ProjectRow({
       />
       <span className="flex-1 min-w-0">
         <span className="block text-[13px] font-medium text-ink tracking-tight truncate">
-          {developer}
+          {displayName}
         </span>
         <span className="block text-[11px] text-muted truncate">
           {STATUS_LABEL[project.status]}
