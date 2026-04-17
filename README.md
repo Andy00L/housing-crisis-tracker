@@ -119,9 +119,9 @@ graph TD
     METRJSON --> BLD
 
     subgraph UI["Next.js 16 App"]
-        HEALTH[/api/health]
-        FOOTER[HealthFooter]
-        DS[/about/data-sources]
+        HEALTH["api/health"]
+        FOOTER["HealthFooter"]
+        DS["about/data-sources"]
     end
 
     HEALTHJSON --> HEALTH
