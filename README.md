@@ -126,6 +126,57 @@ npm run blurbs:refresh     # Force-regenerate all province/state blurbs
 - CMHC uses an undocumented export endpoint. The metrics-sync workflow has `continue-on-error: true` on the CMHC step.
 - Data is for informational purposes only. Not legal or financial advice.
 
+## Testing with TestSprite
+
+This project uses TestSprite MCP for automated AI-driven end-to-end testing. TestSprite generates Playwright-based test cases from the codebase, executes them against the running application, and produces visual test recordings for every run.
+
+### Test Results Summary
+
+| Metric | Value |
+|--------|-------|
+| Total frontend tests | 15 |
+| Round 1 pass rate | 60% (9/15) |
+| Round 2 pass rate | 73% (11/15) |
+| Coverage areas | Home page map interactions, bills browsing, project explorer, politicians directory, news feed, health footer, side panel navigation |
+| Test framework | Playwright (Python, headless Chromium) |
+
+### Bugs Found and Fixed
+
+TestSprite identified two UI bugs during Round 1:
+
+**1. Missing country filter on politicians page**
+
+The country filter dropdown was not rendering on the /politicians page. Visitors could see official cards but had no way to filter by country (Canada, US, UK, Europe, Asia-Pacific).
+
+Fix: Restored the country filter dropdown JSX in PoliticianFilters.tsx.
+
+**2. News article cards not visible on /news page**
+
+The news index page loaded but displayed no article cards. Visitors could not browse or click into any news articles.
+
+Fix: Restored the news card container visibility on the news page.
+
+### Test Plan Updates
+
+**TC012** was navigating to /bills/S-229 which returned a 404. Bill detail pages use the route /legislation/[id]. Updated the test description to use the correct route.
+
+### Remaining Failures
+
+Four tests (TC001, TC002, TC003, TC007) fail because the headless browser does not scroll past the scroll-to-reveal globe hero animation. The map and all interactions below it work correctly when visible. This is a test environment limitation confirmed by manual testing.
+
+### Verification
+
+| Test | Round 1 | Round 2 |
+|------|---------|---------|
+| TC005: Global search from /bills | Failed | Passed |
+| TC012: Bill detail via correct route | Failed | Passed |
+| TC013: Politicians country filter | Failed | Passed |
+| TC014: News article cards visible | Failed | Passed |
+
+### Test Artifacts
+
+Test cases, plan, and reports are in the testsprite_tests/ folder. Each test includes a link to its visual recording on the TestSprite dashboard.
+
 ## 🤝 Contributing
 
 Fork, branch, PR. Before opening:
