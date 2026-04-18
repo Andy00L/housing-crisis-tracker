@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-17T23:50:16.788Z",
+  "generatedAt": "2026-04-18T09:55:09.660Z",
   "regional": {
     "na": {
-      "summary": "Canada's housing market is splitting sharply along city-size lines: Royal LePage's first-quarter data show overall Canadian home prices fell 2 percent annually to an average of $812,900, with Toronto and Vancouver down roughly 4.5 percent or more year-over-year while mid-sized markets such as Quebec City posted gains exceeding 10 percent. In Alberta, nearly 30,000 rental units added in Calgary between 2022 and 2025 have pushed vacancy rates up and put landlords in competition for tenants, though the City of Calgary is targeting lower-income renters through a $60-million initiative to create over 1,000 non-market rental units for households earning 65 percent or less of the median income. Advocacy commentary on Bill C-20 is pressing Ottawa to strengthen transparency, targets, and family housing provisions, while a separate call urges policymakers to make 10-year fixed-rate mortgages more accessible, noting that fewer than one in 100 Canadian borrowers currently choose 10-year terms. St. John's, Newfoundland is bucking national price softness with record-low inventory and competitive bidding, with some buyers paying significantly above asking prices. CN announced a $500,000 donation to support homelessness prevention in Winnipeg, split between Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre. In the United States, a new analysis maps New York City neighborhoods where renters face the most severe housing affordability challenges, and the Kentucky General Assembly has drawn criticism for failing to enact measures addressing housing affordability.",
+      "summary": "Canada's housing market is splitting sharply along city-size lines: Royal LePage's first-quarter data show overall Canadian home prices fell 2 percent annually to an average of $812,900, with Toronto and Vancouver down roughly 4.5 percent or more year-over-year, while mid-sized markets such as Quebec City posted price increases of over 10 percent driven by tight inventory. In Alberta, nearly 30,000 rental units built in Calgary between 2022 and 2025 are pushing landlords to compete for tenants, though affordable options remain limited for lower-income renters; the City of Calgary is responding with a $60-million initiative to create over 1,000 non-market rental units for households earning 65 percent or less of the median income. On the legislative front, advocacy groups are pressing for stronger measures in Bill C-20, calling for greater transparency, clearer targets, and better family housing provisions, while a separate commentary urges federal policymakers to make 10-year fixed-rate mortgages more affordable and accessible, noting that fewer than one in 100 Canadian borrowers currently choose 10-year terms. CN announced a $500,000 donation to support homelessness prevention programs in Winnipeg, split between Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre. In the United States, a new analysis finds that most NYC renters are struggling to afford housing, the Kentucky General Assembly drew criticism for failing to enact measures addressing affordability, and Arizona data indicate that short-term rentals are not the primary driver of that state's housing affordability challenges.",
       "keyDevelopments": [],
       "highlights": [
         {
@@ -10,7 +10,7 @@
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-17T23:50:09.804Z"
+      "generatedAt": "2026-04-18T09:55:09.660Z"
     },
     "eu": {
       "summary": "England's rental sector is bracing for the May 1, 2026 implementation of the Renters' Rights Act, which will ban no-fault evictions, though landlords are accelerating such evictions ahead of that deadline, prompting warnings from tenant charities and legal advocates. The UK's older population is bearing an acute share of the affordability strain, with a 79% increase in over-65s at risk of homelessness over the past five years, driven by housing benefit shortfalls and reduced social housing stock. Basildon Borough Council, which manages approximately 10,750 social homes, received the Regulator of Social Housing's lowest grade (C4) after inspectors found an unaddressed backlog of fire safety issues, poor tenant engagement, and inadequate hazard documentation. On mortgage markets, the average two-year fixed mortgage rate has fallen from a recent peak of 5.90% to 5.87% following hopes of a ceasefire after geopolitical tensions, though volatility risks remain. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. The Isle of Man government is separately consulting on changes to public sector housing eligibility, including income thresholds indexed to inflation, with the consultation open until May 19.",
@@ -290,6 +290,15 @@
           "date": "2026-03-27",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOXlMVVZ1SWMyaUNqaFhaMlBwV3RsTFl0aXh6Z3MzR1dJSURGMEtwYUMxWGZRTVpSdkswTEgtbjJ6bWFsSGtiNDN4N3A5RVBFVGNtQ1V3WDBjbk1ZdENqcHZSX1BvOV8zYmkzZzRHZFhjNFhpbFNJUC15dV9kb0UzNHdBU0JKN1lVUENqenNZZ3l5dWZ3dG9lYnVBUzNYQ1M3aEFBa25CclFpM0pIejVTeGZkU2lrUWtETmNOZ0hUM01ITW9tc3FacnpvQ1F4MjBWRExzUzBjaDQtTE02MTBSSDlR?oc=5",
           "summary": "The Toronto Star examines potential approaches to prevent a future housing crisis in Canada.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-ca-hopby6",
+          "headline": "The Myth of ‘More is More’ Keeps Canada Trapped in a Housing Crisis - Next City",
+          "source": "Google News Housing CA",
+          "date": "2026-03-26",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQS14Y21JUVItMlJGeTBheTdlVlhoYjlSalBvN2szdjlITFR1OERXcXd0ZzFDV1VFcjBYR1FrOWZCaEwxUUJTRkZFYUQ3ZFkta3Nsb0U0cDZtZXBkXzBiYm9OaEJhdDZZMjBNSGJKZVlsakplRGtKakh1dE5ZMW1sMjVrZm5QM0RCSTR1a3N5Nk9OdTdGelZXWVdlekxVUE9XRlE?oc=5",
+          "summary": "An opinion piece argues that the approach of simply increasing housing supply has not resolved Canada's housing crisis.",
           "summarySource": "headline-only"
         },
         {
@@ -1071,6 +1080,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-nlbhv9",
+          "headline": "What the Twin Cities Tell Us About Fixing the Housing Crisis - WSJ",
+          "source": "Google News Housing US",
+          "date": "2025-12-15",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOanJqZW51eUgza3RBNWtvRUFuMXR3UXVWb09USWxaekpWS2Z1VnYzTFlfaFRzc0dqRXBFdDhhYW83d0xMX0RQUkx3dVgtTW1jV3Z3emRQTTh3Z20zcG8tdEVIWUJJSm1DdDNKbjRfdnBISUtBZ3cxOE5GbUdXZENxTF93eVNWWTRR?oc=5",
+          "summary": "The Wall Street Journal examines what housing policy approaches in the Twin Cities metropolitan area may offer as potential solutions to broader housing affordability and supply challenges.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-mhjlif",
           "headline": "Opinion | No Quick Fix for Our Housing Crisis - The New York Times",
           "source": "Google News Housing US",
@@ -1274,6 +1292,15 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-2gyiov",
+          "headline": "Aging population drives demand for affordable housing in Hawaii - KHON2",
+          "source": "Google News Housing Global",
+          "date": "2026-04-18",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1RZHhvanlMMWQtTnY1QTZObXdVdWtmM24taDZIS1JXVHdjUmdyU0JBYnNvdDVNc1dPYzZoYWE4cXZDQldjNzZ5OUhLUWhaX3NyaTRVM3ZJOEtFRl9PQXRvcjVJcm9LSWV2Yk1EZ0lMWl9ib2RUZldMVU1uUE81Z9IBgwFBVV95cUxPOEtpSWZUVlZaaHpjdldTM29DY2F3akZrYjBaaXdCYm5NWi1Lb3BuaS1HVHBWTzUwNHl2QW5tcFBTZFd4VFNCX2pJcnhmbkFjWFdsaGw4OEFka1k5ODZlT3BUR3FxaFlualRINVV6aEVHSUFrUjl0NkNzMll1a3QwT3hrMA?oc=5",
+          "summary": "Hawaii's aging population is increasing demand for affordable housing in the state.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-7005nb",
           "headline": "Pomona Students report buying and trading room draw times due to housing crisis - The Student Life",
@@ -1497,6 +1524,15 @@
           "date": "2026-04-13",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeWZtUW5FNklCbGt2UW55Q1N4OVkxM0haSHJCN3hpT2lNR1Q4R0JqQzZXdERkQWprUmhITloyVWlRSHhzRnZCNkFuYS14eVVGVjJ5SWRjbmVlWXI0WUd3NWttWnd5bEQ2UmNBa3RGWVAzb3NaQTRoN21zQjJ0STkwcUJzWHVpVXA5bWc?oc=5",
           "summary": "Indiana Governor Braun has signed legislation addressing housing affordability.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-hmrzo6",
+          "headline": "Opinion | Minnesota lawmakers still have time to tackle housing affordability - Star Tribune",
+          "source": "Google News Housing Global",
+          "date": "2026-04-12",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdHlfeHZ3NFNTRFBCYUdpMVdOVGpiMElnUWMzYkhIdDdXYXpmN3ZkQ0VDa01Pb0wyNll3cVdJSHpNQ3lRSUFFdlk1bUpsM1pHUTVockNiOHVYNEVpaE4yUlg1bW5uanVWdzFrVnlTMlQxUWQ4ZWdQdUpfdkpoRXN0UHhKekZYbEdCZG00RE5yYw?oc=5",
+          "summary": "A Star Tribune opinion piece discusses the potential for Minnesota lawmakers to address housing affordability issues.",
           "summarySource": "headline-only"
         },
         {
