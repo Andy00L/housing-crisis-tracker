@@ -1,0 +1,1201 @@
+[
+  {
+    "id": "TC001",
+    "title": "Reveal map and switch region lens to Europe",
+    "description": "Verifies a visitor can reveal the interactive map on the dashboard and switch the region lens to Europe with the map updating accordingly.",
+    "category": "Dashboard and interactive map",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll down until the interactive map section is revealed"
+      },
+      {
+        "type": "action",
+        "description": "Switch the map region lens to Europe"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the map updates to show the Europe view"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC002",
+    "title": "Open global search from the home page and navigate to a result",
+    "description": "Verifies a visitor can open the global search modal from the home page, search for a topic, and navigate to one of the returned results.",
+    "category": "Global search modal",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Press Ctrl+K"
+      },
+      {
+        "type": "action",
+        "description": "Fill housing into the search input"
+      },
+      {
+        "type": "action",
+        "description": "Click the first available search result"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the user lands on a result detail page"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC003",
+    "title": "Open province/state side panel from map selection",
+    "description": "Verifies selecting a colored province or state SVG path element on the choropleth map opens a side panel showing that specific province name (e.g. Ontario or Quebec), not just Canada. Click directly on a colored SVG path element inside the map container, not on breadcrumb navigation buttons.",
+    "category": "Map province side panel",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll down until the interactive map section is revealed"
+      },
+      {
+        "type": "action",
+        "description": "Click a colored province or state on the map"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a side panel opens showing the selected region name and navigation tabs"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC004",
+    "title": "Pan and zoom stability on the dashboard map",
+    "description": "Verifies a visitor can pan and zoom the dashboard map and the map remains interactive and stable after the interactions.",
+    "category": "Dashboard and interactive map",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll down until the interactive map section is revealed"
+      },
+      {
+        "type": "action",
+        "description": "Pan the map to a different position"
+      },
+      {
+        "type": "action",
+        "description": "Zoom the map in"
+      },
+      {
+        "type": "action",
+        "description": "Zoom the map out"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the map remains visible and interactive after pan and zoom"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC005",
+    "title": "Open global search from another page and keep context",
+    "description": "Verifies a visitor can open the global search modal from a non-home page and still navigate to a result successfully.",
+    "category": "Global search modal",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /bills"
+      },
+      {
+        "type": "action",
+        "description": "Press Ctrl+K"
+      },
+      {
+        "type": "action",
+        "description": "Fill housing into the search input"
+      },
+      {
+        "type": "action",
+        "description": "Click the first available search result"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the user lands on a result detail page"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC006",
+    "title": "Browse Bills tab in the map side panel",
+    "description": "Verifies a visitor can open the Bills tab in the region side panel and see legislation items for the selected region.",
+    "category": "Map province side panel",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll down until the interactive map section is revealed"
+      },
+      {
+        "type": "action",
+        "description": "Click a colored province or state on the map"
+      },
+      {
+        "type": "action",
+        "description": "Open the Bills tab within the side panel"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a list of legislation items for the selected region is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC007",
+    "title": "Open a bill from the table to view its detail page",
+    "description": "This test verifies selecting a legislation row opens a bill detail view that displays full bill information.",
+    "category": "Legislation and bills browsing",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /bills"
+      },
+      {
+        "type": "action",
+        "description": "Open the first bill or legislation row in the table"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the bill detail page shows bill title and jurisdiction"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a stage timeline, a stance badge, and a summary section are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC008",
+    "title": "Close side panel and return to full map view",
+    "description": "Verifies a visitor can close the region side panel and return to the full map view without losing access to the map.",
+    "category": "Map province side panel",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll down until the interactive map section is revealed"
+      },
+      {
+        "type": "action",
+        "description": "Click a colored province or state on the map"
+      },
+      {
+        "type": "action",
+        "description": "Close the side panel"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the full map view is visible and interactive"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC009",
+    "title": "Bills table renders core columns and row metadata",
+    "description": "This test verifies the bills listing renders a table of legislation with the expected bill metadata visible for browsing.",
+    "category": "Legislation and bills browsing",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /bills"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a table of legislation rows is displayed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify each row shows bill code, title, jurisdiction, stage, and a stance indicator"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC010",
+    "title": "Browse projects list and open a project detail",
+    "description": "Verifies a visitor can browse project cards and open a project to view its full details successfully.",
+    "category": "Projects explorer",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /projects"
+      },
+      {
+        "type": "action",
+        "description": "Wait for the projects list to finish loading"
+      },
+      {
+        "type": "action",
+        "description": "Click a project card to open its detail view"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the project detail view displays the project name, location, unit count, status, and a description"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC011",
+    "title": "Browse news list",
+    "description": "Verifies visitors can open the news index and see a rendered list of news articles suitable for browsing.",
+    "category": "News index and AI overview",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /news"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a list of news articles is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC012",
+    "title": "Bill detail shows stage timeline, stance, and summary when opened from a listing",
+    "description": "This test verifies that opening a bill from the /bills listing leads to a detail page at /legislation/[id] (e.g. /legislation/canada-federal) with timeline stages (Filed, Committee, Floor, Enacted), stance indicator, and summary. Bill detail routes are /legislation/[id], NOT /bills/[id].",
+    "category": "Bill detail viewing",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /bills"
+      },
+      {
+        "type": "action",
+        "description": "Open the first bill or legislation row in the table"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the stage timeline is displayed with the standard stages (Filed, Committee, Floor, Enacted)"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a stance badge and a summary paragraph are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC013",
+    "title": "See politicians directory with country control available",
+    "description": "Verifies a visitor can open the politicians directory and see official cards along with a country filter control.",
+    "category": "Politicians directory and filters",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /politicians"
+      },
+      {
+        "type": "action",
+        "description": "Wait for the politicians list to finish loading"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify official cards are displayed and a country filter control is present"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC014",
+    "title": "Open a news article from the index",
+    "description": "Verifies visitors can open a news article from the news index and land on a readable detail view.",
+    "category": "News index and AI overview",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /news"
+      },
+      {
+        "type": "action",
+        "description": "Click a news article from the list"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the news detail view is displayed with article content"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC015",
+    "title": "Use in-page link to reach bills content from the dashboard",
+    "description": "Verifies a visitor can follow an in-page link from the dashboard to reach the bills content section or listing successfully.",
+    "category": "Dashboard and interactive map",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll until an in-page link to the bills content is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click the in-page link to view bills"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify bills content is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC016",
+    "title": "Bills live search filters results in real time",
+    "description": "This test verifies that typing into the bills search input immediately filters the visible rows without requiring a page reload.",
+    "category": "Legislation and bills browsing",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /bills"
+      },
+      {
+        "type": "action",
+        "description": "Type housing into the bills search field"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the table updates to show only matching results"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC017",
+    "title": "View project detail content for a selected project",
+    "description": "Verifies a visitor can open a project from the projects list and see all expected fields on the detail page.",
+    "category": "Project detail viewing",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /projects"
+      },
+      {
+        "type": "action",
+        "description": "Wait for the projects list to finish loading"
+      },
+      {
+        "type": "action",
+        "description": "Click a project card to open its detail view"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the project detail view displays the project name, location, unit count, status, and description"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC018",
+    "title": "Search results update when the query changes",
+    "description": "Verifies changing the search query updates the visible result set in the global search modal.",
+    "category": "Global search modal",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Press Ctrl+K"
+      },
+      {
+        "type": "action",
+        "description": "Fill housing into the search input"
+      },
+      {
+        "type": "action",
+        "description": "Fill housing affordability into the search input"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a list of search results is displayed for the updated query"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC019",
+    "title": "Switch politicians country from Canada to United States",
+    "description": "Verifies a visitor can change the country filter to United States and the displayed officials update accordingly.",
+    "category": "Politicians directory and filters",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /politicians"
+      },
+      {
+        "type": "action",
+        "description": "Wait for the politicians list to finish loading"
+      },
+      {
+        "type": "action",
+        "description": "Select United States in the country filter control"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the displayed officials update after changing the country selection"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC020",
+    "title": "Scan projects list for unit counts and statuses",
+    "description": "Verifies a visitor can view a list of projects where each card includes unit count and status information.",
+    "category": "Projects explorer",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /projects"
+      },
+      {
+        "type": "action",
+        "description": "Wait for the projects list to finish loading"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify multiple project cards are displayed with unit counts and statuses visible"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC021",
+    "title": "Drill into a supported province to census-division view with project dots",
+    "description": "Verifies drilling into a supported province (such as Ontario or Quebec) zooms the map to census-division boundaries and shows project location dots.",
+    "category": "Census-division drill-down and project dots",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll down until the interactive map section is revealed"
+      },
+      {
+        "type": "action",
+        "description": "Select a drill-down supported province on the map"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the map shows census-division level boundaries and project dots"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC022",
+    "title": "Apply and clear politicians filters",
+    "description": "Verifies a visitor can apply region/party/search filters to narrow results and then clear filters to restore the refreshed directory.",
+    "category": "Politicians directory and filters",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /politicians"
+      },
+      {
+        "type": "action",
+        "description": "Wait for the politicians list to finish loading"
+      },
+      {
+        "type": "action",
+        "description": "Select a valid region filter option"
+      },
+      {
+        "type": "action",
+        "description": "Select a valid party filter option"
+      },
+      {
+        "type": "action",
+        "description": "Fill a short query into the politician search field"
+      },
+      {
+        "type": "action",
+        "description": "Clear all applied filters"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the directory results refresh to an unfiltered state"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC023",
+    "title": "Search modal can be dismissed without navigating",
+    "description": "Verifies a visitor can close the global search modal and return to the underlying page without any navigation occurring.",
+    "category": "Global search modal",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Press Ctrl+K"
+      },
+      {
+        "type": "action",
+        "description": "Press Escape"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the search modal is not visible"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC024",
+    "title": "Use breadcrumb navigation to return from province drill-down to Canada view",
+    "description": "Verifies breadcrumb navigation appears in the drill-down view and can be used to return to the Canada-level map view.",
+    "category": "Census-division drill-down and project dots",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll down until the interactive map section is revealed"
+      },
+      {
+        "type": "action",
+        "description": "Select a drill-down supported province on the map"
+      },
+      {
+        "type": "action",
+        "description": "Use the breadcrumb navigation to return to the Canada view"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the map returns to the Canada-level view"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC025",
+    "title": "Switch map coloring to Crisis severity",
+    "description": "This test verifies that changing the map coloring dimension to crisis severity updates the choropleth and shows the correct categorical legend.",
+    "category": "Dimension toggle for map coloring",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll until the map color-dimension controls are visible"
+      },
+      {
+        "type": "action",
+        "description": "Select the Crisis severity dimension"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the map coloring updates to a new pattern"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a categorical legend is displayed with the expected crisis severity categories"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC026",
+    "title": "Open per-source health details from the footer indicator",
+    "description": "Ensures a visitor can open the per-source health details UI from the health footer indicator and see individual source statuses displayed.",
+    "category": "Health status footer",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the page footer area"
+      },
+      {
+        "type": "action",
+        "description": "Click the health status indicator"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify per-source health details are displayed"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC027",
+    "title": "Switch map coloring to Affordability",
+    "description": "This test verifies that changing the map coloring dimension to affordability updates the choropleth and shows a gradient legend scale.",
+    "category": "Dimension toggle for map coloring",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll until the map color-dimension controls are visible"
+      },
+      {
+        "type": "action",
+        "description": "Select the Affordability dimension"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the map coloring updates to a new pattern"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a gradient legend is displayed with a low-to-high scale"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC028",
+    "title": "Search can be opened, used, dismissed, and reopened in one session",
+    "description": "Verifies the global search modal remains usable across repeated open/close cycles on the same page.",
+    "category": "Global search modal",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Press Ctrl+K"
+      },
+      {
+        "type": "action",
+        "description": "Press Escape"
+      },
+      {
+        "type": "action",
+        "description": "Press Ctrl+K"
+      },
+      {
+        "type": "action",
+        "description": "Fill housing into the search input"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a list of search results is displayed"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC029",
+    "title": "Project types legend appears in drill-down view",
+    "description": "Verifies the drill-down province view displays project dots colored by type and shows a project types legend describing the colors.",
+    "category": "Census-division drill-down and project dots",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll down until the interactive map section is revealed"
+      },
+      {
+        "type": "action",
+        "description": "Select a drill-down supported province on the map"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a project types legend is displayed alongside the project dots"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC030",
+    "title": "Open a project detail from the projects list after reviewing key fields",
+    "description": "Verifies a visitor can review unit counts and statuses on project cards and then open a selected project for full detail.",
+    "category": "Projects explorer",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /projects"
+      },
+      {
+        "type": "action",
+        "description": "Wait for the projects list to finish loading"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to view additional project cards"
+      },
+      {
+        "type": "action",
+        "description": "Click a project card to open its detail view"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the project detail view is displayed and includes a description section"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC031",
+    "title": "Health status footer displays overall health indicator on home",
+    "description": "Ensures the home page shows a health status footer indicator so visitors can assess data freshness at a glance.",
+    "category": "Health status footer",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the page footer area"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a health status indicator is displayed in the footer"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC032",
+    "title": "Clear bills search restores the full listing",
+    "description": "This test verifies clearing the search input returns the bills table to its unfiltered state.",
+    "category": "Legislation and bills browsing",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /bills"
+      },
+      {
+        "type": "action",
+        "description": "Type housing into the bills search field"
+      },
+      {
+        "type": "action",
+        "description": "Clear the bills search field"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the table returns to the unfiltered listing of rows"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC033",
+    "title": "Ensure project detail page remains usable after a refresh",
+    "description": "Verifies a visitor can refresh a project detail page and still see the project information render normally.",
+    "category": "Project detail viewing",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /projects"
+      },
+      {
+        "type": "action",
+        "description": "Wait for the projects list to finish loading"
+      },
+      {
+        "type": "action",
+        "description": "Click a project card to open its detail view"
+      },
+      {
+        "type": "action",
+        "description": "Refresh the page"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the project detail view still displays the project name, location, unit count, status, and description"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC034",
+    "title": "Home page shows AI overview when available",
+    "description": "Verifies the home page surfaces the AI-style news overview section when static summaries are present and loaded.",
+    "category": "News index and AI overview",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the news overview section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify an AI-style overview section is displayed"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC035",
+    "title": "Search supports empty query state without navigation",
+    "description": "Verifies clearing the query in the global search modal shows an appropriate empty or default state and does not navigate away.",
+    "category": "Global search modal",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Press Ctrl+K"
+      },
+      {
+        "type": "action",
+        "description": "Fill housing into the search input"
+      },
+      {
+        "type": "action",
+        "description": "Press Backspace until the search input is empty"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify no search result is selected or opened and the user remains on the underlying page"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC036",
+    "title": "Default map coloring and legend render on initial load",
+    "description": "This test verifies the map coloring control has a default selected dimension and shows a corresponding legend on the home page.",
+    "category": "Dimension toggle for map coloring",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll until the map color-dimension controls are visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a default dimension is selected"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a legend is displayed for the default dimension"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC037",
+    "title": "Switch between multiple map coloring dimensions without breaking the legend",
+    "description": "This test verifies the user can switch between two different dimensions in sequence and the legend remains consistent with the latest selection.",
+    "category": "Dimension toggle for map coloring",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll until the map color-dimension controls are visible"
+      },
+      {
+        "type": "action",
+        "description": "Select the Crisis severity dimension"
+      },
+      {
+        "type": "action",
+        "description": "Select the Affordability dimension"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the legend matches the currently selected dimension type"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC038",
+    "title": "Sort the bills table by an available column",
+    "description": "This test verifies that using a table sort control changes the ordering of the visible legislation rows.",
+    "category": "Legislation and bills browsing",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /bills"
+      },
+      {
+        "type": "action",
+        "description": "Activate sorting on an available sortable column"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the row ordering changes based on the selected sort"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC039",
+    "title": "Map coloring dimension persists while browsing other home sections",
+    "description": "This test verifies that after changing the map coloring dimension, continuing to browse the home page does not reset the selected dimension unexpectedly.",
+    "category": "Dimension toggle for map coloring",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll until the map color-dimension controls are visible"
+      },
+      {
+        "type": "action",
+        "description": "Select the Crisis severity dimension"
+      },
+      {
+        "type": "action",
+        "description": "Scroll further down the home page to a different section"
+      },
+      {
+        "type": "action",
+        "description": "Scroll back to the map color-dimension controls"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the previously selected dimension is still active"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC040",
+    "title": "Access project description and data sources from About",
+    "description": "Ensures a visitor can read the About page and navigate to the Data Sources page where the data provenance content is displayed.",
+    "category": "About and data sources",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /about"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the main About content section"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to view data sources"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify data sources content is displayed"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC041",
+    "title": "Submit contact form successfully with valid inputs",
+    "description": "Verifies visitors can submit the contact form with valid required fields and see a success acknowledgement.",
+    "category": "Contact form with client validation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contact"
+      },
+      {
+        "type": "action",
+        "description": "Fill Test Visitor into the name field"
+      },
+      {
+        "type": "action",
+        "description": "Fill test.visitor@example.com into the email field"
+      },
+      {
+        "type": "action",
+        "description": "Fill A short message for automated UI testing into the message field"
+      },
+      {
+        "type": "action",
+        "description": "Submit the contact form"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a success confirmation or acknowledgement is visible"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC042",
+    "title": "Methodology page renders stance definitions",
+    "description": "Ensures a visitor can open the Methodology page and see stance definitions rendered as part of the methodology content.",
+    "category": "Methodology documentation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /methodology"
+      },
+      {
+        "type": "action",
+        "description": "Scroll through the methodology content"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify stance definitions are displayed"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC043",
+    "title": "Render globe visualization",
+    "description": "Verifies visitors can open the globe page and see the globe visualization rendered.",
+    "category": "Globe visualization",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /globe"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a globe visualization is displayed"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC044",
+    "title": "Visitor widget is visible on home layout",
+    "description": "Verifies the visitor presence widget appears on the home page layout so visitors can see presence information or a fallback indicator.",
+    "category": "Visitor presence widget",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the footer area of the page"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a visitor presence widget is displayed"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC045",
+    "title": "Contact form blocks submission when required fields are empty",
+    "description": "Verifies the contact form enforces required fields and shows validation feedback when submitted empty.",
+    "category": "Contact form with client validation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /contact"
+      },
+      {
+        "type": "action",
+        "description": "Submit the contact form"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify required-field validation feedback is displayed"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC046",
+    "title": "Rotate globe by dragging",
+    "description": "Verifies visitors can drag to rotate the globe and the visualization remains interactive and stable after rotation.",
+    "category": "Globe visualization",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /globe"
+      },
+      {
+        "type": "action",
+        "description": "Click and drag on the globe visualization to rotate it"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the globe view updates to a new orientation and remains rendered"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC047",
+    "title": "Visitor widget renders a stable fallback state when live count is unavailable",
+    "description": "Verifies the visitor presence widget can render a non-breaking fallback indicator/state without disrupting the page layout.",
+    "category": "Visitor presence widget",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the footer area of the page"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the visitor presence widget shows a non-breaking indicator state rather than a broken component"
+      }
+    ],
+    "priority": "Low"
+  }
+]

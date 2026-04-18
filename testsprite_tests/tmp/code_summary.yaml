@@ -1,0 +1,168 @@
+version: "2"
+type: frontend
+tech_stack:
+  - TypeScript
+  - Next.js 16 (App Router)
+  - React 19
+  - Tailwind CSS 4
+  - MapLibre GL, Framer Motion, cobe, react-simple-maps, d3-geo
+routes:
+  - path: /
+    file: app/page.tsx
+    auth_required: false
+    description: Main housing policy tracker dashboard with map, summaries, legislation, projects, politicians, and live news sections
+  - path: /bills
+    file: app/bills/page.tsx
+    auth_required: false
+    description: Bills listing and exploration
+  - path: /news
+    file: app/news/page.tsx
+    auth_required: false
+    description: Housing news index
+  - path: /news/[id]
+    file: app/news/[id]/page.tsx
+    auth_required: false
+    description: Individual news article detail
+  - path: /legislation/[id]
+    file: app/legislation/[id]/page.tsx
+    auth_required: false
+    description: Legislation or bill detail view
+  - path: /projects
+    file: app/projects/page.tsx
+    auth_required: false
+    description: Housing projects overview and listing
+  - path: /projects/[id]
+    file: app/projects/[id]/page.tsx
+    auth_required: false
+    description: Single project detail page
+  - path: /politicians
+    file: app/politicians/page.tsx
+    auth_required: false
+    description: Politicians directory with filters
+  - path: /globe
+    file: app/globe/page.tsx
+    auth_required: false
+    description: Interactive globe visualization for housing context
+  - path: /about
+    file: app/about/page.tsx
+    auth_required: false
+    description: About the project
+  - path: /about/data-sources
+    file: app/about/data-sources/page.tsx
+    auth_required: false
+    description: Data sources and provenance
+  - path: /methodology
+    file: app/methodology/page.tsx
+    auth_required: false
+    description: Methodology documentation
+  - path: /contact
+    file: app/contact/page.tsx
+    auth_required: false
+    description: Contact information
+  - path: /sandbox/cobe-hero
+    file: app/sandbox/cobe-hero/page.tsx
+    auth_required: false
+    description: Experimental COBE hero sandbox (may fetch external geo JSON)
+  - path: /sandbox/europe
+    file: app/sandbox/europe/page.tsx
+    auth_required: false
+    description: Europe map sandbox
+features:
+  - name: Dashboard and interactive map
+    description: Landing experience with hero, dimension toggles, scroll-linked map shell, and summary metrics for housing policy tracking
+    files:
+      - app/page.tsx
+      - components/hero/Hero.tsx
+      - components/map/MapShell.tsx
+      - components/sections/DimensionToggle.tsx
+      - components/sections/SummaryBar.tsx
+    entry_route: /
+    user_interactions:
+      - Scroll the page to reveal lazy-loaded sections
+      - Toggle dimension or lens controls where offered
+      - Pan and zoom the map
+      - Follow in-page links to bills, news, projects, or politicians
+    api_calls: []
+    auth_required: false
+  - name: Legislation and bills browsing
+    description: Explore housing-related legislation and bill listings with table interactions and links to detail routes
+    files:
+      - components/sections/LegislationTable.tsx
+      - app/bills/page.tsx
+      - app/legislation/[id]/page.tsx
+    entry_route: /bills
+    user_interactions:
+      - Sort or filter table columns where UI provides controls
+      - Open a bill or legislation row to view detail
+      - Navigate back to home or related sections
+    api_calls: []
+    auth_required: false
+  - name: News and AI overview
+    description: Live news section and optional AI-style overview fed from static news summaries JSON
+    files:
+      - components/sections/LiveNews.tsx
+      - components/sections/AIOverview.tsx
+    entry_route: /news
+    user_interactions:
+      - Browse news list and open an article
+      - Read overview content on the home page when loaded
+    api_calls:
+      - method: GET
+        endpoint: /news-summaries.json
+    auth_required: false
+  - name: Projects explorer
+    description: CMHC and other housing project listings with navigation to project detail pages
+    files:
+      - components/sections/ProjectsOverview.tsx
+      - app/projects/page.tsx
+      - app/projects/[id]/page.tsx
+    entry_route: /projects
+    user_interactions:
+      - Scan project cards or list
+      - Open a project for full detail
+    api_calls: []
+    auth_required: false
+  - name: Politicians directory
+    description: Filterable list of politicians relevant to housing policy tracking
+    files:
+      - app/politicians/page.tsx
+      - components/politicians/PoliticianFilters.tsx
+    entry_route: /politicians
+    user_interactions:
+      - Apply filters (region, party, search, etc. as exposed in UI)
+      - Clear filters and browse results
+    api_calls: []
+    auth_required: false
+  - name: Health status footer
+    description: Small footer chip polling pipeline health for data freshness display
+    files:
+      - components/ui/HealthFooter.tsx
+      - app/api/health/route.ts
+    entry_route: /
+    user_interactions:
+      - Observe health or freshness indicator in the layout footer
+    api_calls:
+      - method: GET
+        endpoint: /api/health
+    auth_required: false
+  - name: Visitor presence widget
+    description: Optional live visitor count via Vercel KV; UI degrades gracefully when KV is not configured
+    files:
+      - components/ui/VisitorsWidget.tsx
+      - app/api/visitors/route.ts
+    entry_route: /
+    user_interactions:
+      - Page load triggers background heartbeat to visitor API when configured
+    api_calls:
+      - method: GET
+        endpoint: /api/visitors
+      - method: POST
+        endpoint: /api/visitors
+    auth_required: false
+known_limitations:
+  - issue: Visitor count and heartbeat return 503 when Vercel KV env vars are missing; widget uses cosmetic fallback
+    location: components/ui/VisitorsWidget.tsx
+    impact: No real-time visitor count in local or unprovisioned deployments
+  - issue: Sandbox routes under /sandbox are experimental and may depend on external assets or heavier WebGL usage
+    location: app/sandbox/
+    impact: Higher flake risk in automated browser tests than core marketing pages

@@ -1,0 +1,18 @@
+{
+  "status": "commited",
+  "type": "frontend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:3000",
+  "executionArgs": {
+    "projectName": "track-policy",
+    "projectPath": "C:\\Users\\0ther\\CODE\\personal\\testing\\track-policy",
+    "testIds": [],
+    "additionalInstruction": "",
+    "serverMode": "development",
+    "envs": {
+      "API_KEY": "sk-user-rckOyEWfOpNu0abl_Y6bkq19pP6KX6OdBaikCZsiXckwsi3kMRuMKMNbtceOZJ5PfH71Bfwh_TVjPHa6MFSjvvwcEdbgkXKnPRWLdjCPo-pOITs09fxhvRPojRrBLMFDhy4"
+    }
+  },
+  "serverPort": 49805,
+  "proxy": "http://b11f4886-3bb3-4e20-858a-2dea76fe81c7:zlv1hqPQ8bOSYAuov5j85cQAw04Bn0pV@tun.testsprite.com:8080"
+}
