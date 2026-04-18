@@ -15,7 +15,7 @@ Housing Crisis Tracker is a data-driven policy tracker that maps housing legisla
 
 **Production URL:** [housing-crisis-tracker.vercel.app](https://housing-crisis-tracker.vercel.app/)
 
-**Demo Video:** *coming soon*
+**Demo Video:** [Watch on X](https://x.com/Alcyone_x/status/2045356842293854353?s=20)
 
 ![Home Page](docs/screenshots/home.png)
 ![Map View](docs/screenshots/map.png)
