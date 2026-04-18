@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-18T09:55:09.660Z",
+  "generatedAt": "2026-04-18T15:46:12.678Z",
   "regional": {
     "na": {
-      "summary": "Canada's housing market is splitting sharply along city-size lines: Royal LePage's first-quarter data show overall Canadian home prices fell 2 percent annually to an average of $812,900, with Toronto and Vancouver down roughly 4.5 percent or more year-over-year, while mid-sized markets such as Quebec City posted price increases of over 10 percent driven by tight inventory. In Alberta, nearly 30,000 rental units built in Calgary between 2022 and 2025 are pushing landlords to compete for tenants, though affordable options remain limited for lower-income renters; the City of Calgary is responding with a $60-million initiative to create over 1,000 non-market rental units for households earning 65 percent or less of the median income. On the legislative front, advocacy groups are pressing for stronger measures in Bill C-20, calling for greater transparency, clearer targets, and better family housing provisions, while a separate commentary urges federal policymakers to make 10-year fixed-rate mortgages more affordable and accessible, noting that fewer than one in 100 Canadian borrowers currently choose 10-year terms. CN announced a $500,000 donation to support homelessness prevention programs in Winnipeg, split between Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre. In the United States, a new analysis finds that most NYC renters are struggling to afford housing, the Kentucky General Assembly drew criticism for failing to enact measures addressing affordability, and Arizona data indicate that short-term rentals are not the primary driver of that state's housing affordability challenges.",
+      "summary": "Toronto renters are set to launch a citywide tenants union this weekend through a founding convention, deploying labor movement organizing tactics to coordinate advocacy on rent increases and housing conditions. Canada's housing market shows sharply divergent trends: Royal LePage's first-quarter data puts the overall average home price at $812,900, down 2 percent annually, with Toronto and Vancouver posting declines of roughly 4.5 percent or more while mid-sized markets such as Quebec City recorded gains exceeding 10 percent. Advocacy commentary on Bill C-20 is pressing federal legislators for stronger transparency, targets, and family housing provisions. In Alberta, nearly 30,000 rental units delivered in Calgary between 2022 and 2025 have pushed vacancy rates higher and moderated rent growth, though the City of Calgary is supplementing supply with a $60-million initiative to create over 1,000 non-market rental units for households earning 65 percent or less of the median income. CN announced a $500,000 donation to support homelessness prevention in Winnipeg, split between Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre. Meanwhile, St. John's, Newfoundland is experiencing record-low inventory and rising median prices driven by years of limited construction, with some buyers paying significantly above asking prices in competitive bidding situations.",
       "keyDevelopments": [],
       "highlights": [
         {
@@ -10,10 +10,10 @@
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-18T09:55:09.660Z"
+      "generatedAt": "2026-04-18T15:46:02.525Z"
     },
     "eu": {
-      "summary": "England's rental sector is bracing for the May 1, 2026 implementation of the Renters' Rights Act, which will ban no-fault evictions, though landlords are accelerating such evictions ahead of that deadline, prompting warnings from tenant charities and legal advocates. The UK's older population is bearing an acute share of the affordability strain, with a 79% increase in over-65s at risk of homelessness over the past five years, driven by housing benefit shortfalls and reduced social housing stock. Basildon Borough Council, which manages approximately 10,750 social homes, received the Regulator of Social Housing's lowest grade (C4) after inspectors found an unaddressed backlog of fire safety issues, poor tenant engagement, and inadequate hazard documentation. On mortgage markets, the average two-year fixed mortgage rate has fallen from a recent peak of 5.90% to 5.87% following hopes of a ceasefire after geopolitical tensions, though volatility risks remain. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. The Isle of Man government is separately consulting on changes to public sector housing eligibility, including income thresholds indexed to inflation, with the consultation open until May 19.",
+      "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
       "keyDevelopments": [],
       "highlights": [
         {
@@ -29,11 +29,11 @@
           "topic": "legislation"
         },
         {
-          "text": "unaddressed backlog of fire safety issues",
+          "text": "backlog of fire safety issues",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-17T23:50:16.788Z"
+      "generatedAt": "2026-04-18T15:46:12.678Z"
     },
     "asia": {
       "summary": "Australia's construction industry is pressing for what it describes as 'once in a generation' reform of the National Construction Code, arguing that streamlined regulations are essential to meeting the government's target of delivering 1.2 million homes by 2029. Industry bodies have linked rising build costs to Middle East supply chain disruptions, which have pushed fuel and petrochemical prices up by 20–40 percent, compounding affordability pressures across the sector. The government is currently consulting on potential code modifications, with industry groups contending that without regulatory reform, builders will be unable to scale output sufficiently to close the housing gap.",
@@ -58,6 +58,15 @@
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-cbc-canada-gslpyd",
+          "headline": "Toronto renters gather this weekend to launch first citywide tenants union",
+          "source": "CBC Canada",
+          "date": "2026-04-18",
+          "url": "https://www.cbc.ca/news/canada/toronto/toronto-tenants-union-9.7166868?cmp=rss",
+          "summary": "Toronto renters are organizing a citywide tenants union through a founding convention this weekend to coordinate advocacy efforts around rent increases, housing conditions, and affordability. The union will bring together existing tenant associations and groups across the city using labor movement organizing tactics.",
+          "summarySource": "article"
+        },
         {
           "id": "rss-financial-post-u2auss",
           "headline": "News of the day: Gas price shock, AI risks, 10-year mortgages, retirement savings, internal job postings and more",
@@ -335,6 +344,15 @@
           "date": "2026-03-21",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzdW5JT1JSaXJVaWNuenVJb0lOc2pRNVM2Wl9KZGl1NWJTb1pCYWtOVmV2cUo4dzBfRVA4eTFvVWdJa2EwN1A0RzFFWklJSURzRXh4aUZvNHhRYUNtSWlVZG9ZOWxRWnlteU5YRkVqTC11QUNRU3Z4SQ?oc=5",
           "summary": "An opinion piece argues that market-based solutions rather than political intervention would be the most effective approach to addressing Canada's housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-ca-k610rt",
+          "headline": "Building slower, paying more - What Regina reveals about Canada’s housing crisis: Milton Friesen for Inside Policy - The Macdonald-Laurier Institute",
+          "source": "Google News Housing CA",
+          "date": "2026-03-20",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcnRoNUdpd2l2U0lPYWdLUjZtX053YzM5aDBZRkNUNXZxc0FVN3dFYnYyOGNmWXA2MVVnT3FuTDE1WFZxTU50Qk1FcmdiUmJJQzZvdkM5UWZRTmZHMEFuelR5bmtvSEtzaGdTTy14M1RvVlFXYTdVX2FaYzg0VEgzX1IxOE8wdmxfR3RueFI0REVvYnRMUWRaVmpHbmt1MzVnX0tqRlhEY0Nzcng0Nk1FTFo1ZENocDBWbmZIUUgtWHhVdlR2b2xnemlxQ3pSUTJ1WThmeg?oc=5",
+          "summary": "A commentary examines housing construction and cost trends in Regina as they relate to Canada's broader housing affordability challenges.",
           "summarySource": "headline-only"
         },
         {
@@ -869,6 +887,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-zoning-on-bc-x5f0bo",
+          "headline": "Who’s getting it done on housing? Sean Fraser or Doug Ford? - The Trillium",
+          "source": "Google News Zoning ON BC",
+          "date": "2024-03-07",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQczhzRmZFVXMxWFBINlI4MVIzMVhERmw2OEF3WVltTGVqQ3dxanVUOWozQzlkTlk4TXEyNEQ1WXg3OWtRbWhCa1N2VkFjR3VzVGxhV1Rvakx0dmFjRndQa3A0cGI0aHZMNkFxWkJKS2h2SjQtSWZ0MC1LSjBMNUNDajVQVWZYc3M0MnJKdDFPZ3VpcmZxRm93a0xuNG1LT3lPRHlHZlRMcw?oc=5",
+          "summary": "A headline compares the housing policy efforts of Sean Fraser, Canada's Housing Minister, and Doug Ford, Ontario's Premier.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-zoning-on-bc-whxrrc",
           "headline": "Hamilton clears path for more density in residential neighbourhoods - The Spec",
           "source": "Google News Zoning ON BC",
@@ -1053,6 +1080,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-6mthiz",
+          "headline": "How Zoning Reform Could Shrink Americans’ Daily Travel Footprint - Yale School of the Environment",
+          "source": "Google News Housing US",
+          "date": "2026-02-10",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVEM2VFR0M0xGU2hWb0FwN2FlMjdzM2llUl9jWGhYWmh1OUF5T25fbWxfbXBjVFNZdkNaRTN4bXdNNktmN0VVaTd4b09OTTJUeDlVWVJqcjRqZXRlWE5FMWdXdTR0U3IxbEZHVjlvcUtQQ2o0MVhac0NVSkNLOWdUazY4Q0dTTjFGdkUxeURXSlNUTTcxeVhJNTNyUGxGeWduXy1KSWpPT20?oc=5",
+          "summary": "A Yale School of the Environment analysis examines potential connections between zoning reform and reductions in travel distance for Americans.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-jucon7",
           "headline": "Inequality, Not Regulation, Is Stoking America’s Housing Crisis - UCLA Luskin",
           "source": "Google News Housing US",
@@ -1164,6 +1200,15 @@
     },
     "United Kingdom": {
       "news": [
+        {
+          "id": "rss-bbc-your-money-r9pe7p",
+          "headline": "Affordable homes plan sparks opposition",
+          "source": "BBC Your Money",
+          "date": "2026-04-18",
+          "url": "https://www.bbc.com/news/articles/c3r3yve88q5o?at_medium=RSS&at_campaign=rss",
+          "summary": "A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents concerned about environmental and community impacts, though planning officers support the scheme citing the council's housing supply shortage and are now awaiting a decision from the Planning Inspectorate.",
+          "summarySource": "article"
+        },
         {
           "id": "rss-bbc-your-money-e0iidb",
           "headline": "Mortgage rates show signs of falling after Iran war peak",
@@ -1292,6 +1337,33 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-bbzdcf",
+          "headline": "Housing Construction or Bureaucratic Hell? Kabul’s Housing Crisis Under the Shadow of Corruption and Mismanagement - Hasht-e Subh Daily",
+          "source": "Google News Housing Global",
+          "date": "2026-04-18",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02Y3lWQ3JiU1NNeU9LZm1tLU1pWnVId0RIMXNFeVJ1TlBLU2pWU1FLVHduNHMyRXYtSkM1ME55ZGcyMi1xaDM5WjY3OHAwbU1kYkZyNllnZDMtYTQ5Y1FSd1RteXRfckQ0N01hUUZqLW85LUFo?oc=5",
+          "summary": "A report from Hasht-e Subh Daily examines challenges in Kabul's housing sector, citing concerns about corruption and administrative inefficiencies affecting construction and development.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-f6h9oc",
+          "headline": "Micro Homes Making A Big Difference: The Homing Project builds Micro-Houses to tackle city housing crisis - KGUN 9",
+          "source": "Google News Housing Global",
+          "date": "2026-04-18",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNN19STGlHU0NQc0pWNXhrT2liUnpoQVNvVTNKckFUeVI3SzNwSGtQeERtQlg0cFJlSS12TkVUaWYxejh4UHZkb1lnTGIxbkx4SGsyZXF2THFBQmpjZE5ia05CYVQtRzBNVlEzZ3RzSnFfRmhDekdBeE9RbC1EdU14UjVQZW40UWhKTW9pVThsTTBwMjV6VWgwZEdDaUdKUnF5SzJVcHVNN2otd0M0Ymp5QVZLcVcyUDBCZkQ1WjJhS0Jra2Y3Z21hWHhPdDVkZEFYRXdCV21LOVhIZnJZN3o0RFF4SFBzX3ZXam9hZzRqUXV0eENwNnVqVmRyejVzd1ZzcUlzejFKUQ?oc=5",
+          "summary": "The Homing Project is constructing micro-houses as a response to housing shortages in cities.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-ox88f2",
+          "headline": "Housing Crisis in Lisbon - DW.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-18",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcnF0VEJWWWtiTkNNV0M3b2pzVjBuaDVsdzhoTFVWeGNDODQ4eGljVERYNjRwMEM2ZGdDWWZQZGZETHkyamNJWDZkVklDMm5wZWl2M01tZTR4WlR5NkgyNXhndHhlSzd4aTY5VzNsenBhS2ZMWl9udWtOU2otYW5oRmpWZ2g5YUNMV3IzSmgzUmtldFZyUHJMVDJYbmU?oc=5",
+          "summary": "Lisbon is experiencing a housing crisis, according to reporting by DW.com.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-2gyiov",
           "headline": "Aging population drives demand for affordable housing in Hawaii - KHON2",
