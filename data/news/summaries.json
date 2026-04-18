@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-18T15:46:12.678Z",
+  "generatedAt": "2026-04-18T23:44:32.330Z",
   "regional": {
     "na": {
-      "summary": "Toronto renters are set to launch a citywide tenants union this weekend through a founding convention, deploying labor movement organizing tactics to coordinate advocacy on rent increases and housing conditions. Canada's housing market shows sharply divergent trends: Royal LePage's first-quarter data puts the overall average home price at $812,900, down 2 percent annually, with Toronto and Vancouver posting declines of roughly 4.5 percent or more while mid-sized markets such as Quebec City recorded gains exceeding 10 percent. Advocacy commentary on Bill C-20 is pressing federal legislators for stronger transparency, targets, and family housing provisions. In Alberta, nearly 30,000 rental units delivered in Calgary between 2022 and 2025 have pushed vacancy rates higher and moderated rent growth, though the City of Calgary is supplementing supply with a $60-million initiative to create over 1,000 non-market rental units for households earning 65 percent or less of the median income. CN announced a $500,000 donation to support homelessness prevention in Winnipeg, split between Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre. Meanwhile, St. John's, Newfoundland is experiencing record-low inventory and rising median prices driven by years of limited construction, with some buyers paying significantly above asking prices in competitive bidding situations.",
+      "summary": "Toronto renters are launching a citywide tenants union this weekend through a founding convention, applying labor movement organizing tactics to coordinate advocacy on rent increases and housing conditions. Canada's housing market posted divergent first-quarter results, with overall average prices falling 2 percent annually to $812,900 according to Royal LePage, as Toronto and Vancouver saw year-over-year declines of roughly 4.5 percent or more while mid-sized markets such as Quebec City recorded gains exceeding 10 percent. In Alberta, nearly 30,000 rental units were added in Calgary between 2022 and 2025, pushing vacancy rates higher and increasing competition for tenants, though the City of Calgary is responding with a $60-million initiative to create over 1,000 non-market rental units for households earning 65 percent or less of the median income. Advocacy commentary on Bill C-20 has called for stronger transparency, targets, and family housing provisions, while St. John's, Newfoundland continues to face record-low inventory and rising median prices driven by years of limited construction. CN announced a $500,000 donation to support homelessness prevention in Winnipeg, split between Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre.",
       "keyDevelopments": [],
       "highlights": [
         {
@@ -10,7 +10,7 @@
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-18T15:46:02.525Z"
+      "generatedAt": "2026-04-18T23:44:32.330Z"
     },
     "eu": {
       "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
@@ -698,6 +698,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-mini-aa8vte",
+          "headline": "Advancing Housing Affordability Through Bold, Evidence-Based Policy: 27 urbanists call for public policy reset in letter to B.C. Premier David Eby and Housing Minister Christine Boyle - CityHallWatch",
+          "source": "Google News Housing Minister CA",
+          "date": "2025-08-15",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUlJYenBwVzliejZkNXZiNl9UX29PM1Y3VzhNNi1xZ3p5SWFQdVRlV29ZRU1scHRKNlJNYjYyalZIek9FMC1OZVN6ZnBYRVA3Xy1XcHFGd3hFUXdYNW9ManI3U0R0VFBEcTVueV9FRlVsS09rRDFHUlJNZ0pZVDFjcnNpXzYyN3NOZ1lRYnd2SXc4d2ZtekVHay05cVBnOHEzaUpDWE1kcXg?oc=5",
+          "summary": "Twenty-seven urbanists have written to British Columbia's Premier David Eby and Housing Minister Christine Boyle calling for evidence-based policy changes to address housing affordability.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-mini-ou25c5",
           "headline": "Ottawa is quietly working on launching a new entity it hopes will be key to housing affordability - The Globe and Mail",
           "source": "Google News Housing Minister CA",
@@ -981,6 +990,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-bscz20",
+          "headline": "EU tackles Europe's housing crisis - France 24",
+          "source": "Google News Housing US",
+          "date": "2026-03-30",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMG5tbm1HelkyVjVsZ2dvdFR4amdwMEdqZkx2ZjFhQU5oZWNlV0d6ZlR2ZElfNmo0MkFZNUlxa0ZQbHFSek9wOHVRXzQxOUw2RkItSUZhWU9ZWnNiNXhvbFpwdUZQMjFuVUZ1TnV1YktDanc2b0IydFdPMHJjX3NtUF9DSFA?oc=5",
+          "summary": "The European Union has undertaken efforts to address a housing shortage affecting multiple European countries.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-l4q5na",
           "headline": "A Build America, Buy America law is causing construction delays amid the US housing crisis - WTOP",
           "source": "Google News Housing US",
@@ -1086,6 +1104,15 @@
           "date": "2026-02-10",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVEM2VFR0M0xGU2hWb0FwN2FlMjdzM2llUl9jWGhYWmh1OUF5T25fbWxfbXBjVFNZdkNaRTN4bXdNNktmN0VVaTd4b09OTTJUeDlVWVJqcjRqZXRlWE5FMWdXdTR0U3IxbEZHVjlvcUtQQ2o0MVhac0NVSkNLOWdUazY4Q0dTTjFGdkUxeURXSlNUTTcxeVhJNTNyUGxGeWduXy1KSWpPT20?oc=5",
           "summary": "A Yale School of the Environment analysis examines potential connections between zoning reform and reductions in travel distance for Americans.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-m27otw",
+          "headline": "Congress Targets Housing Crisis as Solutions Elude Trump - The New York Times",
+          "source": "Google News Housing US",
+          "date": "2026-02-04",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbFJ4cUZYLUdxd1paeDUzOU95b0lINm4zMzZoR1RweUd1UVZEWlN0NFZFSEZ2OVFTMlE5enhabmlBTzJWYnBHc0IzTEdub2QxdlBieGVlODhfR2V1d3dqZHZBMEFSelJNempwbnRQNU9lMmM4aE11ZXVDOFhYaHVYaA?oc=5",
+          "summary": "Congress is addressing housing affordability challenges, though proposed solutions have faced ongoing difficulties.",
           "summarySource": "headline-only"
         },
         {
@@ -1337,6 +1364,24 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-5k123q",
+          "headline": "ABC Alabama: Skilled Trades Workforce Critical to Solving Housing Crisis - Construction Owners Club",
+          "source": "Google News Housing Global",
+          "date": "2026-04-18",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeW5hbVlQVEJOaTRyc2h2X0dYRjREZjlIMTAyNG1fQzZnMFNES2NjSGRQYW4wWVE4azg4RHFLT2p5NmM5S1RCckN3RzhPM1B6OE5raGloRTBnSnM3MW5IanpmUFdLNFYta0dQYjdmb1hvMUZvUk9fT3BwTkFNaC1ZZDhn?oc=5",
+          "summary": "An industry group has stated that a skilled trades workforce is necessary to address the housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-c1lh6u",
+          "headline": "Housing Crisis in Lisbon - DW.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-18",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTWxlcXZwQ2lPZHJZNzBzQmdCaTBVQzRNTmFzTlFLSE1vc0xKQnhJNGdqMTFxN2tzZS1qRTVkXy1pLVpjaWxxbHVFd2hIVmlidzZmSWcwT29tUndRWGljSE1VTEpsMXlodUxCWjVFMUFHUUV3Zk40a1Z1aVdodEQ0NW9kakJXUHdGMlVyLS1YUXVYcE04RTAwaUtCY2EzWUxj?oc=5",
+          "summary": "Lisbon is experiencing a housing crisis, according to reporting from DW.com.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-bbzdcf",
           "headline": "Housing Construction or Bureaucratic Hell? Kabul’s Housing Crisis Under the Shadow of Corruption and Mismanagement - Hasht-e Subh Daily",
