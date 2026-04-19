@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-19T09:55:07.018Z",
+  "generatedAt": "2026-04-19T15:47:00.926Z",
   "regional": {
     "na": {
-      "summary": "Toronto renters are launching the city's first citywide tenants union this weekend through a founding convention, coordinating advocacy around rent increases and housing conditions using labor movement organizing tactics. Canada's housing market showed divergent trends in the first quarter, with overall prices falling 2 percent annually to an average of $812,900, while mid-sized markets like Quebec City posted gains exceeding 10 percent and major urban centers Toronto and Vancouver declined roughly 4.5 percent or more year-over-year, according to Royal LePage. Advocacy commentary on Bill C-20 is calling for stronger transparency, targets, and family housing provisions in the federal housing legislation. CN announced a $500,000 donation to support homelessness prevention in Winnipeg, directing $250,000 each to Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre for individuals and families at risk of losing housing. St. John's, Newfoundland is experiencing record-low inventory and rising median prices driven by years of limited construction and increased in-migration, with competitive bidding pushing some sales significantly above asking prices. Policy advocates are pressing Ottawa to make 10-year fixed-rate mortgages more accessible, noting that fewer than one in 100 Canadian borrowers currently choose 10-year terms.",
+      "summary": "Toronto renters are launching a citywide tenants union this weekend through a founding convention, marking a significant escalation in organized tenant advocacy around rent increases and housing conditions in Canada's largest city. Canada's housing market posted divergent trends in Q1 2026, with overall Canadian home prices falling 2 percent annually to an average of $812,900, while mid-sized markets such as Quebec City posted gains exceeding 10 percent and major centres like Toronto and Vancouver saw declines of roughly 4.5 percent or more year-over-year, according to Royal LePage. St. John's, Newfoundland is experiencing record-low inventory and rising median prices driven by years of limited construction, pushing some buyers to pay significantly above asking prices in competitive bidding situations. On the legislative front, advocacy group Missing Middle Initiative published commentary calling for stronger transparency, targets, and family housing provisions within Bill C-20. CN announced a $500,000 donation to support homelessness prevention in Winnipeg, with funds split between Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre to assist individuals and families at risk of losing housing. Separately, Canadian commentary is pressing policymakers to make 10-year fixed-rate mortgages more accessible, noting that fewer than one in 100 Canadian borrowers currently choose 10-year terms due to high costs.",
       "keyDevelopments": [],
       "highlights": [
         {
@@ -14,7 +14,7 @@
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-19T09:55:07.018Z"
+      "generatedAt": "2026-04-19T15:47:00.926Z"
     },
     "eu": {
       "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
@@ -1030,6 +1030,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-l4ja9v",
+          "headline": "A Build America, Buy America law is causing construction delays amid the US housing crisis - The Frederick News-Post",
+          "source": "Google News Housing US",
+          "date": "2026-04-03",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQRXZ0dzhCTUVpNGFoMXJWY3NteXJQQ2ZCdjFCMkJWU052dDl1Sml0RjRrUzRvSXBFTDNJNlJhRFZrWXpvTWE2UG9KQWxPZEUyTnZUWEs0anNMcTNRX0JyVXJDdk4tYTRuTGYxM2lyX1Bnd2lQa2UtTkdvNTQwemljMExab2ZYY0JrYkJhN2gtd0pldmtLWVlCWjJ2NFVnVWEyT0xmMF8yVk5lNEJ3M0VVb3lBWXFNckJPWkNDWEU5Uy1OeUdVMG9JT3FybHc1dkExeXpnYzRfNUtCLTMybEN2VEtUek1DVngtMXBzZmdlV1NiQkcxTElQY3RETlpxSC0xbmtuR1BpVndraTVWTF9fUg?oc=5",
+          "summary": "A Build America, Buy America law is reported to be causing construction delays in the United States during a period of housing shortage.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-bscz20",
           "headline": "EU tackles Europe's housing crisis - France 24",
           "source": "Google News Housing US",
@@ -1054,6 +1063,15 @@
           "date": "2026-03-30",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRkFtUHdQOW02S2NjSVo4bkFXcG15eFRQY0c0LS04S3d4bDd2dUt0XzdQZmlZNVdEWUlGVTR1UExrX2xDV1pjMkNLNDhJMXhweFM4eGxnX0lfOXNSalFzRnZoNXNSaklCZ20zaTYxX1lhQm82QTRPeFZpXzM0NjhBUFRPYVp0Wk1FY3N5OTcyazc3NzBNckxNZFRWOWRETjZYQTNXc2gwYmFpOTA?oc=5",
           "summary": "A Build America, Buy America law is contributing to construction delays at a time when the United States faces a shortage of housing.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-6tg058",
+          "headline": "Housing Crisis Deepens as Supply Constraints Distort US Market Dynamics - Investing.com",
+          "source": "Google News Housing US",
+          "date": "2026-03-26",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVWROTlRpbkwwVndfVGl5YkFPbHRNbEhkcjQxSUlOanBvNDNsTTIyU0ZZcHpscHBQTy1YbDI5djhtcGhlRW5ZUGRUMWpjMmVVYmFOcXpySHQ1eVE2WnJQZ3BHbDh1OVh1bk9mT1dfaS1sejJ1clA2TXFBYWVyNGsxZ1ZDbjJWeTJpZnVUblM5NU9jeklTcFdHUzFQNEJaREpOQTFGT0NBYTJFZ0k1ZkhTYVJ3N0VQcDA?oc=5",
+          "summary": "Housing supply constraints continue to affect market conditions across the United States.",
           "summarySource": "headline-only"
         },
         {
