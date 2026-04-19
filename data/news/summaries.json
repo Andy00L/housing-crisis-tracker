@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-19T15:47:00.926Z",
+  "generatedAt": "2026-04-19T23:47:13.966Z",
   "regional": {
     "na": {
-      "summary": "Toronto renters are launching a citywide tenants union this weekend through a founding convention, marking a significant escalation in organized tenant advocacy around rent increases and housing conditions in Canada's largest city. Canada's housing market posted divergent trends in Q1 2026, with overall Canadian home prices falling 2 percent annually to an average of $812,900, while mid-sized markets such as Quebec City posted gains exceeding 10 percent and major centres like Toronto and Vancouver saw declines of roughly 4.5 percent or more year-over-year, according to Royal LePage. St. John's, Newfoundland is experiencing record-low inventory and rising median prices driven by years of limited construction, pushing some buyers to pay significantly above asking prices in competitive bidding situations. On the legislative front, advocacy group Missing Middle Initiative published commentary calling for stronger transparency, targets, and family housing provisions within Bill C-20. CN announced a $500,000 donation to support homelessness prevention in Winnipeg, with funds split between Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre to assist individuals and families at risk of losing housing. Separately, Canadian commentary is pressing policymakers to make 10-year fixed-rate mortgages more accessible, noting that fewer than one in 100 Canadian borrowers currently choose 10-year terms due to high costs.",
+      "summary": "Canada's housing market is showing sharp regional divergence: Royal LePage's first-quarter data show overall Canadian home prices fell 2 percent annually to an average of $812,900, with Toronto and Vancouver down roughly 4.5 percent or more year-over-year, while mid-sized markets such as Quebec City posted gains exceeding 10 percent. St. John's, Newfoundland is a particular outlier, where record-low inventory and years of limited construction have produced competitive bidding situations with buyers paying significantly above asking prices. On the policy front, an advocacy group has published commentary on Bill C-20, pressing for stronger transparency, targets, and family housing provisions, while a separate call urges Ottawa to make 10-year fixed-rate mortgages more accessible, noting that fewer than one in 100 Canadian borrowers currently choose 10-year terms. Toronto renters are moving on the organizing front, launching a citywide tenants union through a founding convention this weekend to coordinate advocacy around rent increases and housing conditions. A Canadian minister has also accused an MLA of blaming immigrants for the housing crisis, signaling that immigration and housing supply remain politically charged terrain. In the United States, a new analysis identifies New York City neighborhoods where renters face the most severe housing affordability challenges, and Arizona data indicate that short-term rentals are not the primary driver of that state's affordability pressures.",
       "keyDevelopments": [],
       "highlights": [
         {
@@ -10,11 +10,11 @@
           "topic": "legislation"
         },
         {
-          "text": "fewer than one in 100 Canadian borrowers currently choose 10-year terms",
+          "text": "transparency, targets, and family housing",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-19T15:47:00.926Z"
+      "generatedAt": "2026-04-19T23:47:13.965Z"
     },
     "eu": {
       "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
@@ -504,6 +504,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-ca-nmonbx",
+          "headline": "Senate report: Governments need to ditch fees and fix the housing crisis fast - constructconnect.com",
+          "source": "Google News Housing CA",
+          "date": "2026-02-05",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUmpKcHpoSEVhbFhaQkhvYnhQNVd5Tkw1bHlhc1NUMzdpaWFXUVQ5QVZyeE1BQlREWFpDRURBb04tZExTcy1BQ3kyWDNBeHZXZDFrWmNXcUQ4aENETV9DRURNM0txbVJMUE9LS2dyelZFRkE4MTNVQzZJY2ZlenVldE9qaENRdWlJLTNxbnJZRXltU3RXazB4UFhsSEFwd0RjZ3J6RUZTb1VDa0EzN2FlTEVPOUVBdUJacG45NFdXTHZPRi1KMUxxSzRnSWhyZlk3blBReFM2aw?oc=5",
+          "summary": "A Senate report recommends that governments eliminate fees as part of efforts to address the housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-ca-aoh9d5",
           "headline": "One small policy change that could fix Canada’s housing crisis - The Hub | More Signal. Less Noise.",
           "source": "Google News Housing CA",
@@ -891,6 +900,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-mini-5z3gxa",
+          "headline": "The Liberals’ plans for solving housing affordability, the Home of the Week and more top real estate stories - The Globe and Mail",
+          "source": "Google News Housing Minister CA",
+          "date": "2025-05-02",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMkRxZkY4TFBxMUhkM3BUX2dFRUdzblVQU2twdFRkVWtCenhlbFZsLS1aV0xCcGREOV9VYjV3NmZUdFpiNnVoS2owS3FYZ0ZfY1ZXUWx0dUlGYnZSa0tmaDZNYk1LeURrR2IyZVowY2Y3SHlXX3RlVlNEYWFaVnYxem12bnFDMHM?oc=5",
+          "summary": "The Canadian Liberal government has announced plans addressing housing affordability alongside other residential real estate developments.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-mini-c0zcqr",
           "headline": "Any realistic housing affordability plan must increase savings in Canada - Fraser Institute",
           "source": "Google News Housing Minister CA",
@@ -933,6 +951,15 @@
           "date": "2024-09-23",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNc05hd1JKc29GX2ZiajBiOXJMUVJJVzJIQlc2SjVTdW51cURDdXBhQ2dWVktRTnhZVW5VOUxHZlZpcnBQRkZsVG5PWVUwcUpzdmctYjd4RE0yOTJER3pjdktoNjVkeXRWdXBwV2xTNmlGWWxMZHFfRGZ4OFZtYk5wV0hNV0o4WFdCOFYzNlI1S1ZJRUszRHZxREVzLUdTRkxvSi1SY1p5Nkp0UkR1clE?oc=5",
           "summary": "The article discusses potential lessons Ontario could apply to its housing situation based on Alberta's approach to housing policy.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-zoning-on-bc-wpngny",
+          "headline": "Who’s getting it done on housing – feds or the province? - CollingwoodToday.ca",
+          "source": "Google News Zoning ON BC",
+          "date": "2024-03-10",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZVhBbFQyZDZfd0hyRTJ2LTBwUGYzd3VmRnRsWFNhSTFfQ0ZmSDNnZVU5VFdMNl9rNktMeE1tVFB2MlpXN29EcGh2X3B5ZTVrWkJyVFdtX05VZjFqUUNoMk5ldnFxOXZtMF91Wmc2cWtib2xuRENZekhBc044WW9XQk1ybzRleGszaHl4VEZlcTVvZjlxYXhsN0Q5SE0tZTF5TDJXLUxn?oc=5",
+          "summary": "The article discusses whether federal or provincial governments are making more progress on housing policy initiatives.",
           "summarySource": "headline-only"
         },
         {
@@ -1153,6 +1180,15 @@
           "date": "2026-02-17",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZEVsUy1uMXA4SzRVRE5JdGt2ajdxQXo1NEpMZmE1Z1Q4RWtheHF4enZ6UHltdU9FaWNLbnZaZDlhQWJzbDZmcXlhUEJhMHlCN3Eza3FiTWttMG1udENWdTBzR3Z2aGNfUDhpaFE2NTc3OFhBVU9VbkJfdlhVRVUtOXp2OE9SdFo2Sk1LNFpFS08xZ1Y4cTB2TEk5TVVjUlJROHN6Z3RVS2F6OWxWVXFtTEJDUm9na1k?oc=5",
           "summary": "UBS has commented on the ongoing housing crisis in the United States.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-sbcur3",
+          "headline": "How Congress Plans to Take On the Housing Crisis - WSJ",
+          "source": "Google News Housing US",
+          "date": "2026-02-15",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa3BQSHVvWndrRERIanBtcmxhcFBOaXRNVWliWDlFR3lZallXT3RqWHZldWo3Tm03TmVGUDFmOC1mTmM1RVVGUkR6TUxwVWtiSGdjYjdKbTJ2aUp0eG5vTTlRT1BYRlo2d2tQN3huRFpkRWcyU01DWk9Uei1PN0tpeXkzdklQRUpJOF9UdmxNTmZtSkthc1MyRw?oc=5",
+          "summary": "Congress is considering legislative measures to address the housing crisis.",
           "summarySource": "headline-only"
         },
         {
@@ -1432,6 +1468,15 @@
     "World": {
       "news": [
         {
+          "id": "rss-google-news-housing-glob-49ex76",
+          "headline": "Minister accuses MLA of ‘victim blaming’ immigrants for housing crisis - Telegraph-Journal",
+          "source": "Google News Housing Global",
+          "date": "2026-04-19",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTmVoT2xLVlRQZ2NMamVGazhqUHdQMXVxWEZSRW5GNXdMWUZsRGstejBZRkQ5eFJpXzNocXZtMFZHczRKQkxxZmlVVVRmLTNzZDlTb1ZlSkVsNXU4Q3A0cXBJc01GZmhXMVFkNkdwcTJWMVdYN1MwSklyc1h1TWNMRHN1LVgyNi05bHhOZko4aVZmRHQ2dF9pd2lYUTgtQzQ?oc=5",
+          "summary": "A Canadian minister has accused an MLA of blaming immigrants for the housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-glob-5k123q",
           "headline": "ABC Alabama: Skilled Trades Workforce Critical to Solving Housing Crisis - Construction Owners Club",
           "source": "Google News Housing Global",
@@ -1645,6 +1690,15 @@
           "date": "2026-04-16",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UR3FhdGdXWlJUdk5mQ3ExOHlSd0JOOVk5QWJLSjNRT3NUNGdFbkp5bTZkYjNBNTRXTEhiYjNIdzBjdmkyWXhOUEUxRzhIYW1VSU9RWjNXdUtVVXI2TWFzZVlNYUtCZUNp?oc=5",
           "summary": "An article from the World Socialist Web Site discusses socialist approaches to addressing the global housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-30cyuy",
+          "headline": "Navigating housing affordability and a rising recession risk: Top economists’ takes on a gummed-up economy - Bankrate",
+          "source": "Google News Housing Global",
+          "date": "2026-04-15",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1PbVpRejI1dkpncElabUxVdGtidGRTRGRQOWt6MjlvWmREUXp0YkhZLXlaVXYyX0wybnVZMldUOGpMNjZUY3NuZ0hNclZXb1lWWG81SDZGMmdtLWRWcjJpX0x5Z3BudVNwOTR0UklB?oc=5",
+          "summary": "Top economists discuss the relationship between housing affordability challenges and increasing risks of economic recession.",
           "summarySource": "headline-only"
         },
         {
