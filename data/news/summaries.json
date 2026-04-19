@@ -1,16 +1,20 @@
 {
-  "generatedAt": "2026-04-18T23:44:32.330Z",
+  "generatedAt": "2026-04-19T09:55:07.018Z",
   "regional": {
     "na": {
-      "summary": "Toronto renters are launching a citywide tenants union this weekend through a founding convention, applying labor movement organizing tactics to coordinate advocacy on rent increases and housing conditions. Canada's housing market posted divergent first-quarter results, with overall average prices falling 2 percent annually to $812,900 according to Royal LePage, as Toronto and Vancouver saw year-over-year declines of roughly 4.5 percent or more while mid-sized markets such as Quebec City recorded gains exceeding 10 percent. In Alberta, nearly 30,000 rental units were added in Calgary between 2022 and 2025, pushing vacancy rates higher and increasing competition for tenants, though the City of Calgary is responding with a $60-million initiative to create over 1,000 non-market rental units for households earning 65 percent or less of the median income. Advocacy commentary on Bill C-20 has called for stronger transparency, targets, and family housing provisions, while St. John's, Newfoundland continues to face record-low inventory and rising median prices driven by years of limited construction. CN announced a $500,000 donation to support homelessness prevention in Winnipeg, split between Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre.",
+      "summary": "Toronto renters are launching the city's first citywide tenants union this weekend through a founding convention, coordinating advocacy around rent increases and housing conditions using labor movement organizing tactics. Canada's housing market showed divergent trends in the first quarter, with overall prices falling 2 percent annually to an average of $812,900, while mid-sized markets like Quebec City posted gains exceeding 10 percent and major urban centers Toronto and Vancouver declined roughly 4.5 percent or more year-over-year, according to Royal LePage. Advocacy commentary on Bill C-20 is calling for stronger transparency, targets, and family housing provisions in the federal housing legislation. CN announced a $500,000 donation to support homelessness prevention in Winnipeg, directing $250,000 each to Ma Mawi Wi Chi Itata Centre and West Central Women's Resource Centre for individuals and families at risk of losing housing. St. John's, Newfoundland is experiencing record-low inventory and rising median prices driven by years of limited construction and increased in-migration, with competitive bidding pushing some sales significantly above asking prices. Policy advocates are pressing Ottawa to make 10-year fixed-rate mortgages more accessible, noting that fewer than one in 100 Canadian borrowers currently choose 10-year terms.",
       "keyDevelopments": [],
       "highlights": [
         {
           "text": "Bill C-20",
           "topic": "legislation"
+        },
+        {
+          "text": "fewer than one in 100 Canadian borrowers currently choose 10-year terms",
+          "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-18T23:44:32.330Z"
+      "generatedAt": "2026-04-19T09:55:07.018Z"
     },
     "eu": {
       "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
@@ -58,6 +62,15 @@
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-cbc-canada-8j4slo",
+          "headline": "Public grocery stores are having a moment. Can they really make food more affordable?",
+          "source": "CBC Canada",
+          "date": "2026-04-19",
+          "url": "https://www.cbc.ca/radio/thecurrent/public-grocery-stores-9.7168321?cmp=rss",
+          "summary": "Several Canadian and U.S. politicians are proposing government-run grocery stores to address rising food costs, with Toronto and New York City developing pilot programs, though economists question whether public stores can operate efficiently enough to deliver meaningful savings without heavy subsidies.",
+          "summarySource": "article"
+        },
         {
           "id": "rss-cbc-canada-gslpyd",
           "headline": "Toronto renters gather this weekend to launch first citywide tenants union",
@@ -218,6 +231,24 @@
           "date": "2026-04-07",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbl90UlVRTXhrWm1xN0VCaTFzbUt0Z0JIN1YtaXdMdnFnRk1DcllaV2hoaFpkLUkwYXhJZU1LM25kaWFteUt6MUYzZE0wUDdDWU9HbXhXZEkwcG9ObjdpZmlqMkpVc0xpX2JrZ2xWNkprdURQbzl5XzFiamZ2c1ZsMFkxWC1rbkp1NDE4ZmxGZw?oc=5",
           "summary": "A partnership has been announced to develop affordable housing units across Quebec.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-build-canada-p0ibqv",
+          "headline": "Canada announces funding for 14 shelter spaces in Massett and Bella Bella - Newswire Canada",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-04-02",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbzBET1d1RVA0OGNvNWxibDBqWmcxSnNEX2R1cWd6TkRpT0Zfc2ZrZnFUdE1xT1RyNHc3dmE5cU9Ia2NhWVFTVUx1MnZGdnl2T1kxOFFXelU3QW5vQnpYT013QWU0cXNkdHdGa3pnSXlzbWxXalM4QTRvTVE5OGQwS0hNRzl6SVF3c1g2MUtsUm11SF9xeXZTMU1nY0xha1hra1FleHFMUE5HUm1HRXhBcjVfVWptMG1mVDVZRlFTOHhObWRw?oc=5",
+          "summary": "The Canadian government announced funding for shelter spaces in the British Columbia communities of Massett and Bella Bella.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-ca-uwjl4l",
+          "headline": "News of the day: Housing crisis, GST hikes, economic forecast downgrade, diesel shock, market volatility and more - Financial Post",
+          "source": "Google News Housing CA",
+          "date": "2026-04-02",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWEEtVm5NY1lWSnRScDBHajkwR2JZaW9qSUNUWlVuNHVtbi00WF9JZnVQUllzWi1QeER3MkdkNGZpN3oyZ2lxVF9mMVgyRXF1QWRsU19DR0Z2clIxMDNQZGhLSkY1MlY2aWhIX2tZcmprc0R5SmVYY2gzYXBuREdoU0hZV1BTcWV0N3dZT09Fc0RabVp4ZmtyNU5Jb0pWRnlqbVZNY1pnVlRISjdqRlFJLVUxSUFJcU40dzFmdjdDMnZwclA2U2VYbGE0amNTcHRxckMxTTM5Qi0xLTRQMGxpaEt3?oc=5",
+          "summary": "A Financial Post article reported on multiple economic and policy developments including housing market conditions, tax changes, and economic forecasts.",
           "summarySource": "headline-only"
         },
         {
@@ -707,6 +738,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-mini-kswn0b",
+          "headline": "Duelling B.C. letters to Mark Carney on housing crisis expose clash over way forward - Vancouver Sun",
+          "source": "Google News Housing Minister CA",
+          "date": "2025-07-31",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdjJBV2k3bDI4Snh3TFR0cU41YjlCR1lRMmJONjhkN1JaYV9GSU83c2VjLWRJNE13QlVKYXNZZTZXVUxUQlJ5M2hKLWxacjBRR3lDRlRlWWpIcGxTWG5hZU1HM05HcWZrcXVOWVR2R1hKNnE2Z0pXcTNkVjAxVnZNelJlQ0hOS1A3ektBd2NtLThoRDE5OEk2dEZXM1pjTmNWY1VFSHJZd0NVNF9MeEpJ?oc=5",
+          "summary": "Housing officials in British Columbia have sent competing letters to Mark Carney regarding approaches to addressing the province's housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-mini-ou25c5",
           "headline": "Ottawa is quietly working on launching a new entity it hopes will be key to housing affordability - The Globe and Mail",
           "source": "Google News Housing Minister CA",
@@ -1014,6 +1054,15 @@
           "date": "2026-03-30",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRkFtUHdQOW02S2NjSVo4bkFXcG15eFRQY0c0LS04S3d4bDd2dUt0XzdQZmlZNVdEWUlGVTR1UExrX2xDV1pjMkNLNDhJMXhweFM4eGxnX0lfOXNSalFzRnZoNXNSaklCZ20zaTYxX1lhQm82QTRPeFZpXzM0NjhBUFRPYVp0Wk1FY3N5OTcyazc3NzBNckxNZFRWOWRETjZYQTNXc2gwYmFpOTA?oc=5",
           "summary": "A Build America, Buy America law is contributing to construction delays at a time when the United States faces a shortage of housing.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-v65kr2",
+          "headline": "Why lawmakers are pushing for zoning reform to ease the housing crisis - KFOR.com",
+          "source": "Google News Housing US",
+          "date": "2026-03-25",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRWkwU0pPejREbHpHRlZHc1hLZTlOSTFMQlU0SVMzcTYxemJyUm9JejR3T3E4Y0QtN1g5MXdaZUk5bzhHUUJBNVE5VFJzUFQ3Vk1JVGtfbGwxZ1kwTkxLdDZBOUozSW9pZ0pMVUpScm1kZUxya0Z3bDVGMmhkeUF4NjVGTkJxUkNTdHBBSGh5SzZyNGFCcjZieHlCc3NzbU9URmRQVNIBngFBVV95cUxPQ1RSSEt0My1SVTFBaGpNcGc1X0lqMFBkclJfbk52M1FRRFZqb19qRG1JYm1ZQlF2c1N0ekpQUTJRUENIeVR1RzNOdzBITVFyNm9KTnFHZlRLcDdYaWl0YUhlVjVJcjUyc2twV1ZJb1lsZkZNSlBfRUxZNEhkVUEtR2tjXzZ1SXRuZHVRcG44MWVyOHR5STduaER5V2dYQQ?oc=5",
+          "summary": "Lawmakers are pursuing zoning reform as a potential policy approach to address housing shortage issues.",
           "summarySource": "headline-only"
         },
         {
