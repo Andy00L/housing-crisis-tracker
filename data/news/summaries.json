@@ -1,20 +1,16 @@
 {
-  "generatedAt": "2026-04-19T23:47:13.966Z",
+  "generatedAt": "2026-04-20T10:55:22.344Z",
   "regional": {
     "na": {
-      "summary": "Canada's housing market is showing sharp regional divergence: Royal LePage's first-quarter data show overall Canadian home prices fell 2 percent annually to an average of $812,900, with Toronto and Vancouver down roughly 4.5 percent or more year-over-year, while mid-sized markets such as Quebec City posted gains exceeding 10 percent. St. John's, Newfoundland is a particular outlier, where record-low inventory and years of limited construction have produced competitive bidding situations with buyers paying significantly above asking prices. On the policy front, an advocacy group has published commentary on Bill C-20, pressing for stronger transparency, targets, and family housing provisions, while a separate call urges Ottawa to make 10-year fixed-rate mortgages more accessible, noting that fewer than one in 100 Canadian borrowers currently choose 10-year terms. Toronto renters are moving on the organizing front, launching a citywide tenants union through a founding convention this weekend to coordinate advocacy around rent increases and housing conditions. A Canadian minister has also accused an MLA of blaming immigrants for the housing crisis, signaling that immigration and housing supply remain politically charged terrain. In the United States, a new analysis identifies New York City neighborhoods where renters face the most severe housing affordability challenges, and Arizona data indicate that short-term rentals are not the primary driver of that state's affordability pressures.",
+      "summary": "Toronto renters are organizing a citywide tenants union through a founding convention this weekend, bringing together existing tenant associations using labor movement organizing tactics to coordinate advocacy around rent increases and housing conditions. St. John's, Newfoundland is experiencing a tight housing market with record-low inventory and rising median prices driven by years of limited construction and increased interest from prospective residents relocating to the province, with competitive bidding pushing some buyers significantly above asking prices. Canadian policymakers are facing renewed calls to promote 10-year fixed-rate mortgages to provide borrowers with more stable payment protection, with advocates noting that fewer than one in 100 Canadian borrowers currently choose 10-year terms due to high costs. A new analysis identifies neighborhoods in New York City where renters face the most severe housing affordability challenges, while separate data from Arizona shows that short-term rentals are not the primary driver of that state's affordability pressures. A Boston Globe opinion piece contends that increasing housing supply through new construction is insufficient to address Massachusetts' housing shortage, reflecting a broader debate across North American cities about multi-pronged policy responses.",
       "keyDevelopments": [],
       "highlights": [
         {
-          "text": "Bill C-20",
-          "topic": "legislation"
-        },
-        {
-          "text": "transparency, targets, and family housing",
+          "text": "10-year fixed-rate mortgages",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-19T23:47:13.965Z"
+      "generatedAt": "2026-04-20T10:55:22.344Z"
     },
     "eu": {
       "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
@@ -1003,6 +999,15 @@
     "United States": {
       "news": [
         {
+          "id": "rss-google-news-housing-us-n8eg9q",
+          "headline": "Sharon Wilson Geno on Fixing America's Rental Housing Crisis - Globest",
+          "source": "Google News Housing US",
+          "date": "2026-04-19",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYnMtQjh6ZnkyMXJnN2dOSllhVDdJbFpWTjhHamZ5MjlhYy0teTZCaHhOX1JQUkQzR0t1Xy1LWHdhMVFCY2d5cVFjV2hZWmJKTnQxZjZESGpFVGk4b29ZOUJYdGhlWjkyR0EwNDl5UmhrdGh3N19sOEVCd1I4WE9yZnFiRXpjc0xmZUNWUHNma1daR3pYY3BDejkwa9IBoAFBVV95cUxNYnkwY3dvaFZzMVJyR1dkN25zYThfOWxlalpHdkhiQk9na2w5bUdSN2UyZm5pekpHcTdRbmdSRFk1SDdQaWxjNldlUkJzV1hqanNFMW1kTEdBSXUtTXVhYnlKWU1rNUt6bmxGcjZCUnQ0UFo4cGZVT1RpOWhtdHRiSHdrT0lBeEV6ZGQtTXpQRlFZYzJsdU1BM2loZnB5NGw5?oc=5",
+          "summary": "Sharon Wilson Geno discusses potential solutions to the rental housing crisis in America.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-hy0mek",
           "headline": "Confronting the nation’s housing crisis - Vanguard News",
           "source": "Google News Housing US",
@@ -1467,6 +1472,24 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-ld2r9h",
+          "headline": "French housing crisis is straining relations between landlords and tenants - Le Monde.fr",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcjJrQUdaVnVhVVhLdloyakVmWGFpSVg0dlRQMC1rZmNCNHFpdkIzMDlQaWtEelJyYl80SWtGNlNkdmowTUtNMTVUYWFEZ21nMmhJUS1JU3R0RE04bjBBbjRxYnpMbC1hd3M4cE1sakJhYkI0TFpDNENaVEE4VTRDU19VZTcwVm5jaENqSzNYZlUxS3hRelNLU0s4TjY3MVI0M3pTa1MxNXg3YmdtcHJxZ2JpWHNNbGtRT3M4Qmc0NDU2VUFSVFpaYmc4dlp3WC03N0gtaE53UE0?oc=5",
+          "summary": "France is experiencing housing shortages that are creating tensions between landlords and tenants.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-whbdhs",
+          "headline": "Netherlands’ solution to the housing crisis: neighborhoods along the railroad tracks - Railway PRO",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11cko1Tkcxd3prYnJSUW5hc2JrNS0xVnFiMXZKWDR0WDRPajFEWC1CQ3g3VW5WaXo1clpFc29TRWZGbS1kVzRrU1U5NXF3ZERNb0hudDlmaF9OZG11bDZPYUZLZ2ZucklaNnI2VzhOWWhyZ0lkQkppR3M3aWF1QQ?oc=5",
+          "summary": "The Netherlands is developing residential neighborhoods near railroad tracks as a strategy to address its housing shortage.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-49ex76",
           "headline": "Minister accuses MLA of ‘victim blaming’ immigrants for housing crisis - Telegraph-Journal",
