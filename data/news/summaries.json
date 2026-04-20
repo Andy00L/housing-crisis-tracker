@@ -1,16 +1,20 @@
 {
-  "generatedAt": "2026-04-20T10:55:22.344Z",
+  "generatedAt": "2026-04-20T16:17:29.308Z",
   "regional": {
     "na": {
-      "summary": "Toronto renters are organizing a citywide tenants union through a founding convention this weekend, bringing together existing tenant associations using labor movement organizing tactics to coordinate advocacy around rent increases and housing conditions. St. John's, Newfoundland is experiencing a tight housing market with record-low inventory and rising median prices driven by years of limited construction and increased interest from prospective residents relocating to the province, with competitive bidding pushing some buyers significantly above asking prices. Canadian policymakers are facing renewed calls to promote 10-year fixed-rate mortgages to provide borrowers with more stable payment protection, with advocates noting that fewer than one in 100 Canadian borrowers currently choose 10-year terms due to high costs. A new analysis identifies neighborhoods in New York City where renters face the most severe housing affordability challenges, while separate data from Arizona shows that short-term rentals are not the primary driver of that state's affordability pressures. A Boston Globe opinion piece contends that increasing housing supply through new construction is insufficient to address Massachusetts' housing shortage, reflecting a broader debate across North American cities about multi-pronged policy responses.",
+      "summary": "Toronto renters are organizing the city's first citywide tenants union through a founding convention this weekend, bringing together existing tenant associations using labor movement tactics to coordinate advocacy on rent increases and housing conditions. In Newfoundland, St. John's is experiencing record-low inventory and rising median prices driven by years of limited construction, with competitive bidding pushing some buyers significantly above asking prices. Canadian advocates and commentators are pressing Ottawa to make 10-year fixed-rate mortgages more accessible, noting that fewer than one in 100 Canadian borrowers currently choose 10-year terms due to high costs, and that regulatory changes are needed to close the gap with U.S. mortgage options. Vancouver will host the Missing Middle Conference on May 8th, 2026, convening stakeholders around housing supply solutions including mid-density residential development. Across the construction sector, firms in the U.S. and Canada are recruiting high school students to counter an aging skilled-trades workforce that industry groups identify as a critical bottleneck to resolving the broader housing shortage. A recent survey also found that housing affordability presents a significant challenge for both active-duty military members and veterans.",
       "keyDevelopments": [],
       "highlights": [
         {
-          "text": "10-year fixed-rate mortgages",
+          "text": "fewer than one in 100 Canadian borrowers",
+          "topic": "legislation"
+        },
+        {
+          "text": "Missing Middle Conference on May 8th, 2026",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-20T10:55:22.344Z"
+      "generatedAt": "2026-04-20T16:17:29.308Z"
     },
     "eu": {
       "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
@@ -58,6 +62,15 @@
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-google-news-housing-ca-jn6sq8",
+          "headline": "Where Canada's Housing Crisis Gets Solved: The Missing Middle Conference Returns to Vancouver on May 8th - Newswire Canada",
+          "source": "Google News Housing CA",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPakVwalhoSDdiZ1RtQWhUU2E0ZmNvazlEb3FfNXRsdmdiYXdBcDl1a05vZEZycU5xekptM1RweDIzbmdaZV9KN3dFNTdfUXA2VjJ4NkRfbDN3ZUtPRm1zZmxJbE4wYUkwQldLWjFrYUFLakVNcGxpWnk3Rmd1eEFsOHFhZHFKbmJLMktScUpxN3FTd193QUhUSnh4UUctTnp4Uk9ub3FVLVJxbUlycUw4RjJpZ0FEQU92U3hYSkx6MmdOSkZsampiZENNVDE3eWRjeFJYS1lfeG1YSmxybTFWbXRnUnB4cnFuMENTZQ?oc=5",
+          "summary": "The Missing Middle Conference is scheduled to take place in Vancouver on May 8th, 2026, focusing on housing solutions in Canada.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-cbc-canada-8j4slo",
           "headline": "Public grocery stores are having a moment. Can they really make food more affordable?",
@@ -371,6 +384,15 @@
           "date": "2026-03-21",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzdW5JT1JSaXJVaWNuenVJb0lOc2pRNVM2Wl9KZGl1NWJTb1pCYWtOVmV2cUo4dzBfRVA4eTFvVWdJa2EwN1A0RzFFWklJSURzRXh4aUZvNHhRYUNtSWlVZG9ZOWxRWnlteU5YRkVqTC11QUNRU3Z4SQ?oc=5",
           "summary": "An opinion piece argues that market-based solutions rather than political intervention would be the most effective approach to addressing Canada's housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-build-canada-7k225v",
+          "headline": "Build Canada Homes Accelerates Affordable Housing in New Brunswick - Yahoo Finance",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-03-20",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNzRsWDN0ODJ1b0RvTHNFd1hBZmU0cnZlbWdORFY0dFk4Ym1vUWw4UEdzNDhybVhaX3ExRHBrdGMzR0NHS2ZORC1CN2IzY19EUWJyal84NnY0NFhZVGJKd0RjWWZHdUJmM0VKWVp3ZGdwQnRJT05ZeFNtMGFaUnZKbW02STZuTkFJSXR0YTZmazIzZVJRRHI5OC10Zy1HZ0NOWFVGZFJmSWJUZw?oc=5",
+          "summary": "Build Canada Homes is accelerating affordable housing efforts in New Brunswick.",
           "summarySource": "headline-only"
         },
         {
@@ -878,6 +900,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-mini-el6323",
+          "headline": "New housing minister says he'll 'leverage' his past as Vancouver mayor in new role - Business in Vancouver",
+          "source": "Google News Housing Minister CA",
+          "date": "2025-05-14",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY1M0VWpyRTZTa1lzTnZDQnNNS2pMVDBJSEExQnE1ZE9KWlpMQ09ScHZLLWRrVkhUa0dXeE5TbFhaMjZON1Q4bUNjOHNRN2tyY3BibnFISVcxaHk3WTR5cDNkMFdLNy1ITW5Ba24xYTNhTUpldlMtMGEyS0hXMUdyX0NnWWpOdWVkUklDRkhjQVMyc2ZSV2VQc2ZneGFSdUxfd1hTQ1BRNUtxRFIzZk04VmZXUy1ob1d2NGEydk1SOTJBcGo4aWNkQk5jdXlWUW8?oc=5",
+          "summary": "Canada's new housing minister, who previously served as mayor of Vancouver, indicated he plans to draw on his mayoral experience in his new position.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-mini-c7phtj",
           "headline": "Canada’s new housing minister doesn’t think prices need to come down - BNN Bloomberg",
           "source": "Google News Housing Minister CA",
@@ -1251,6 +1282,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-u7sth8",
+          "headline": "This is how we solve America’s housing crisis - Center for American Progress",
+          "source": "Google News Housing US",
+          "date": "2026-01-14",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM3hlS3RIOFBkMGxRaXEzQl9qWGlvU3JjU1hKTERiSkRNUjJhYXowVUZrYndEZzdvR05pQTQ3clNiUEo1YnZYak43YnZWcEhXWjA2Q3FxRFBhNDBSajhRVzZ0OUNnNUg2YTdhcUp4eEtWM09zVEJETk5kVnBZYUhUY1VlSFIyQndJTEdOLXIxRQ?oc=5",
+          "summary": "The Center for American Progress has published an analysis proposing solutions to address the shortage of affordable housing in the United States.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-nlbhv9",
           "headline": "What the Twin Cities Tell Us About Fixing the Housing Crisis - WSJ",
           "source": "Google News Housing US",
@@ -1472,6 +1512,51 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-f1y4k5",
+          "headline": "The housing crisis’ labor problem: Facing an aging workforce, construction firms are now recruiting traditional high school students - Worcester Business Journal",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPS3QzZHcySHdQS1g1ME5tcmRKQXpYb2xZWTZGXzBRMDFJQ0RCNnN6enRmazlZTTQ4Si1nQ0JTbkUwbUpERkc0Y0p3WjlnWXlfLW5HbEtkcjZDVF9EWE11enM4RVg0TWhZTk5WYThJLUw3cUxvRzV6OVlYMTFZVWZDMXVveExyTW9pb0VlR3RrVzY0cWhONUZOTC1Ma21zS0pKc0lETUU4aDUwLTRpODZzUjdWVkJKa25ZcHJncFcySUc0V2kyMmtQODczOXlPUmdBWHNUWjg5S25EZ1ZzWnlqR1JwbnVoSGdpWWJ1S3FxekJ2Zw?oc=5",
+          "summary": "Construction firms are recruiting high school students to address workforce shortages as their existing labor force ages.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-94k3sv",
+          "headline": "Housing Affordability a Major Hurdle for Active-Duty, Veterans: Survey - Military.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN21qbGZDYjlrOG1BX3BFQTJtZGY2eHBTNWNwYUh6OTZuQ1IxRVVkZzdIZFY3clZHSlNsR2c3UlVtWGpCN2t4ZkdPZ1FyVEs4NW1RS1FFb2RtY1ljb1dZX09xaXNiTzRDUzN2Q01lS1FuR2d4c254Q19yVDBYN09YNUJXMDJEVFZlZ3QyM2dRcGY4ZXdCQmUwQUhMbnZLZkl5Q0RVMk5RT0YwZ04wYlh2bVJ3dDA?oc=5",
+          "summary": "A survey found that housing affordability presents a significant challenge for both active-duty military members and veterans.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-op5ul5",
+          "headline": "Where Canada's Housing Crisis Gets Solved: The Missing Middle Conference Returns to Vancouver on May 8th - Yahoo Finance",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN3d4cElReFlRRmtGTTQ1bUVRWEltVDhUYVJ1WjZBVEdmcVlhUFowS0Q4MWVSZVZMUzFVS3NjdUp5cjNEb0RucFd6alhYb0NtdkwzZklZQUdxc3F6OG42NVFkSkxlQ25UVFpHM1lhZG1BQlB1NHo2VERlTVo0MWxab0RCWWN0cVRQVUdpM2kteGo2QkRpQ3dhZEhJLTBpRWM?oc=5",
+          "summary": "The Missing Middle Conference, focused on housing solutions, is scheduled to take place in Vancouver on May 8th.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-ircxj",
+          "headline": "Local homeless shelters work to combat the housing crisis in Muncie, Indiana - ballstatedailynews.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQnp1NHp1bjZJcVYyX1JJMHZ4T0RtdFJ2bDBkbWFITDBWa0hFanlaeWZxRUhWVWtOdzlOUzd3ek5mYWdydm9fd2ZfR0FjMmJnd09QSUdnUnFjdUhRYmh3NnU5Y0Z2cTJJdFNHSXNhN0N3eFdTVE5pWnJfT1NmTm5hRS1VWkhGUVo5UWd5NWkzWHp5YXdzQm5fY2M5MFFVV3plRFFNem1VTXZQZHEyY2d1LU1icEFrRWljSlI0?oc=5",
+          "summary": "Homeless shelters in Muncie, Indiana are implementing measures to address local housing challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-3w2q",
+          "headline": "From artists’ haven to affordable housing crisis - 828 News Now",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUFNCaERZalJQRWdzWWpDSTVoWllRMXc3TnYwY0VRbWc0RW1abVI2cGRYYnF4WWY4Tk9BbkhCT2dTbzkyMmljRWZIQXF2NWtWZ2hNUmhRV3pNZ2I1QmNCa1B3aUtHQlZkMVY5RXYyV2gwZ3EweDRSb2ZMVldxcm1SQ2Q4R19iaHJZR3Vz?oc=5",
+          "summary": "A former arts community is experiencing an affordable housing shortage.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-ld2r9h",
           "headline": "French housing crisis is straining relations between landlords and tenants - Le Monde.fr",
