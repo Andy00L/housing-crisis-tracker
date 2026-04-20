@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-04-20T16:17:29.308Z",
+  "generatedAt": "2026-04-20T23:53:22.294Z",
   "regional": {
     "na": {
-      "summary": "Toronto renters are organizing the city's first citywide tenants union through a founding convention this weekend, bringing together existing tenant associations using labor movement tactics to coordinate advocacy on rent increases and housing conditions. In Newfoundland, St. John's is experiencing record-low inventory and rising median prices driven by years of limited construction, with competitive bidding pushing some buyers significantly above asking prices. Canadian advocates and commentators are pressing Ottawa to make 10-year fixed-rate mortgages more accessible, noting that fewer than one in 100 Canadian borrowers currently choose 10-year terms due to high costs, and that regulatory changes are needed to close the gap with U.S. mortgage options. Vancouver will host the Missing Middle Conference on May 8th, 2026, convening stakeholders around housing supply solutions including mid-density residential development. Across the construction sector, firms in the U.S. and Canada are recruiting high school students to counter an aging skilled-trades workforce that industry groups identify as a critical bottleneck to resolving the broader housing shortage. A recent survey also found that housing affordability presents a significant challenge for both active-duty military members and veterans.",
+      "summary": "Toronto renters launched the city's first citywide tenants union this weekend through a founding convention, bringing together existing tenant associations to coordinate advocacy around rent increases and housing conditions using labor movement organizing tactics. The Missing Middle Conference is set to return to Vancouver on May 8th, 2026, centering on supply-side solutions to Canada's persistent housing shortage, including the missing middle housing forms that zoning reform advocates have prioritized. A new survey reveals widespread concern among homeowners about rising property taxes, budget strain, and long-term housing affordability across North America, compounding pressure on policymakers already grappling with a structural affordability gap. In Muncie, Indiana, local homeless shelters are working to combat the housing crisis at the neighborhood level, while construction firms across the continent face a compounding labor shortage driven by an aging workforce, prompting some to recruit traditional high school students into the skilled trades pipeline. Analysts tracking the sector have warned that the outlook dims for a structural recovery in housing affordability, citing persistent cost pressures and insufficient new supply.",
       "keyDevelopments": [],
       "highlights": [
         {
-          "text": "fewer than one in 100 Canadian borrowers",
+          "text": "Missing Middle Conference",
           "topic": "legislation"
         },
         {
-          "text": "Missing Middle Conference on May 8th, 2026",
+          "text": "Vancouver on May 8th",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-20T16:17:29.308Z"
+      "generatedAt": "2026-04-20T23:53:22.294Z"
     },
     "eu": {
       "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
@@ -594,6 +594,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-build-canada-lliun8",
+          "headline": "Canada and Ontario Support New Affordable Homes in Dutton - ontario.ca",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-01-23",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaDJMVHoyVkdLMjNfVmdidzIyM3dvajdiejA4R2RCREZ1U1l4UlpmTU92a1M0SGFybUVNM0FmSW5xVDItQUFnam8yQVI5UWpZSGJsd0c3YlpDc08xWm00Z2FHb1M0WmU1dklxZWYwSU1YZFZvUERGTm1aelFPdE1mNFdqV1pfOEYzMUVlcWdDNk4zbTlVemNpTXU5UnEzcGhlMkE?oc=5",
+          "summary": "Canada and Ontario have announced support for new affordable housing development in Dutton.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-ca-fecznm",
           "headline": "BANC - Out of Reach: Unlocking Canada’s housing affordability crisis - SenCanada.ca",
           "source": "Google News Housing CA",
@@ -1084,6 +1093,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-1v653e",
+          "headline": "Idyllic northeastern US area in housing crisis after home prices skyrocket - MSN",
+          "source": "Google News Housing US",
+          "date": "2026-04-09",
+          "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxNZFVRczBoU1dCLWhWemhLa3BHZEk2UTZ1bFRxMTRDVEpCR2xncjBJYm5zbjBwV3RjdUptbEx2S3VpeDkydTRPWDZiOUNLMFI4aEZFZ0lXRVZIYVI1Y18yemZMdnh6VjZSTmQ3NnN0Yjk0dmhjS0tvcE5GOE5zTE5JY3BhV01UNkNsUzJUSHlQTHI0NG1TMDV3MllfQ1prbnROX1JabkRZNXotNDk5N0dzN3doT2VzS0ZVak4wb3dHMlRiNmtSbUFHanZnaTdlTTRjeGFXc2dYNlVWVFIzUTdNZ2NkSXJUR0hfamM1RUpKWWEzYzk4NUNmR1FfUnNyQ3BLY3RNRVBKZWg3aWE0Z1k5eVhfVXlXVm1VWmJjbHl4aVFNX19OZnZkSUVhS01Ld0VROHdVdU8ydjkyR29XQTBZQzZXZG1sbWhrYW9ITS14OTFkel9rNFdBMXFNT2Ftenl6TkFyTmNsYkszSXhCc2lVOWNpSzlJaFRVaVVwYV8xUzhKQQ?oc=5",
+          "summary": "A northeastern U.S. area characterized as formerly idyllic is experiencing a housing crisis attributed to rapidly rising home prices.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-avfia9",
           "headline": "Cortez Masto discusses housing crisis at Reno affordable housing event - KOLO | 8 News Now",
           "source": "Google News Housing US",
@@ -1512,6 +1530,51 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-j7sv0w",
+          "headline": "New Survey Reveals Widespread Concern Among Homeowners About Rising Property Taxes, Budget Strain, and Long‑Term Housing Affordability - PR Newswire",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNSTl2THV5SUJfRF9vTDN2cUVNbk82VmE5OE52UlBXbFFrcGtUZ2hhdHVmSkV1ekQ4UzJUSEU5U2hGNGVFbk5hbEhMTTVsQjJjY2ZoOE5qeGc4TS1ORE95TUVUNmZ1eGtTNVJQc3JzVHByZldlSV94Yk1aOTJfd0tiTG45WlRSdmtuOTg5UElKV2dUUHgxWWphckY1eHItQ3hzMDFvTEQ4ZXAyVndfLTRpWEtDYk5vc0YwaHJVWW8zWGhQbnBuX1ZmNzR5SFdDTkE5QlowWjR6VEo1blRkR0NETFdGbDRtLW9yNTZmSzNfWEplendKYThIMTZTZlYxclVfdmN5eWVDejkya2lDNGFpVVFrMU94UQ?oc=5",
+          "summary": "A survey found that homeowners expressed concern about rising property taxes, budget strain, and long-term housing affordability.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-e9376a",
+          "headline": "The EU has recognized a deep housing crisis - ИА Ореанда-Новости",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU2FSbi1wWjM4dHRNV2NSREFMVkFqV1ZPVjg1bnY0TnYxV3ZiRU91WXVKM052UzVpVmhJYzVoM09Kbm9EMjdwRkEwZnNycDBMa0kwSmdZQWIyblo2X2NGSlF2eWF4MWRIekVXdURRbi1kZlBMLXc1dXRpRFNXdEtacFJBV2dOMU5rUVhjczRYVXNMOV9IRUlzODFnc3M5Ymc?oc=5",
+          "summary": "The European Union has acknowledged a significant housing crisis affecting the region.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-wxwx1u",
+          "headline": "Thousands march in London against housing crisis, but capitalist politicians offer no way forward - World Socialist Web Site",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53Qm8tZDhXR3dWRkZadnFEeTlBYWVGZFFMMEpFNGx5OUxsOEJQVTJsaXZiNmtLU0tOcEJaUlM3WU0tdE5QYzFzLUt1WWhva0p6clo2MWYzaFVOblBXb0lwMnRYZ2pOSmhR?oc=5",
+          "summary": "Thousands of people participated in a march in London to protest housing affordability and availability issues.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-pqolqk",
+          "headline": "3 Startups Take on Housing Affordability Head-On - National Association of REALTORS®",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLUxWWnNoSjVDQlpCUThhSXlrX010QzJEUDVRa1FuaTFWZDBFVzFWS2cwRUhTYXJDT2ZzR29ZY21ESUVZRzM3RXJGUWNPaUY3aFJxNmFCN3d5dmMwQkFuSnpjQmkyMFRXV2hUcUNuX251aVNaMHFXZlFlZjNPQzFfUE9Ncm9uaS1TNy1Hc01ETmJrX19lWmdvSVRDcmdtNmtWVDlZeHMzZEh2M0xRSkE?oc=5",
+          "summary": "Three startups are working on solutions related to housing affordability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-rymlxs",
+          "headline": "Outlook dims for ‘structural’ recovery in housing affordability - Scotsman Guide",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdmhYLXpKa0lBRU5tbkotRTVyeGR1cFlCemRrbElfVXV2eVBlRkpTQUw5ZjBoQmZoeE9vNzhfUkRaWW0zeFU0Zm56R2V2NkFyYUxNOVhyWnVIVmRSc2JaSTdGYlp1X0pSdWJJdjFpajF2NkJMY1IxbXdzN3hLSF9hM1pFMnlwY3d5dVhGV0d6d0ZpMTVCakJ5X3Y3RDhDUQ?oc=5",
+          "summary": "Housing affordability experts have expressed concern that the sector may not experience a fundamental recovery in the near term.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-f1y4k5",
           "headline": "The housing crisis’ labor problem: Facing an aging workforce, construction firms are now recruiting traditional high school students - Worcester Business Journal",
