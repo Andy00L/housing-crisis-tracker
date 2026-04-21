@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-20T23:53:22.294Z",
+  "generatedAt": "2026-04-21T10:23:25.037Z",
   "regional": {
     "na": {
-      "summary": "Toronto renters launched the city's first citywide tenants union this weekend through a founding convention, bringing together existing tenant associations to coordinate advocacy around rent increases and housing conditions using labor movement organizing tactics. The Missing Middle Conference is set to return to Vancouver on May 8th, 2026, centering on supply-side solutions to Canada's persistent housing shortage, including the missing middle housing forms that zoning reform advocates have prioritized. A new survey reveals widespread concern among homeowners about rising property taxes, budget strain, and long-term housing affordability across North America, compounding pressure on policymakers already grappling with a structural affordability gap. In Muncie, Indiana, local homeless shelters are working to combat the housing crisis at the neighborhood level, while construction firms across the continent face a compounding labor shortage driven by an aging workforce, prompting some to recruit traditional high school students into the skilled trades pipeline. Analysts tracking the sector have warned that the outlook dims for a structural recovery in housing affordability, citing persistent cost pressures and insufficient new supply.",
+      "summary": "Toronto renters launched a founding convention this weekend to establish the city's first citywide tenants union, coordinating advocacy around rent increases, housing conditions, and affordability using labor movement organizing tactics. The Missing Middle Conference is scheduled to return to Vancouver on May 8th, 2026, bringing together stakeholders to address Canada's persistent housing supply gap, particularly for mid-density residential forms. In Muncie, Indiana, local homeless shelters are implementing measures to combat housing instability, while The Homing Project is constructing micro-houses to tackle city housing crisis conditions in urban areas. Construction firms across North America are now recruiting traditional high school students to offset an aging skilled trades workforce that industry groups identify as critical to any meaningful housing supply response. A new survey found that homeowners expressed concern about rising property taxes, budget strain, and long-term housing affordability, with a separate survey confirming that housing affordability presents a significant challenge for active-duty military members and veterans. Experts have meanwhile warned that the outlook dims for a structural recovery in housing affordability, with no fundamental rebalancing of costs expected in the near term.",
       "keyDevelopments": [],
       "highlights": [
         {
@@ -14,7 +14,7 @@
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-20T23:53:22.294Z"
+      "generatedAt": "2026-04-21T10:23:25.037Z"
     },
     "eu": {
       "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
@@ -1102,6 +1102,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-awshhg",
+          "headline": "The solution to America’s ongoing housing crisis starts with construction - New York Post",
+          "source": "Google News Housing US",
+          "date": "2026-04-07",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPX21IbUI2Um9BYUpGQ3VWaTBNS19XTkxoMU9hVzJsTWxhQnQ4RDhaMElSd3I1dHR3UXAzOUpEWHA2dlNJeG1qeEktUzBJak1sOV9PZnZxRC1fVFhWQXRkR2lpdDlQTHZlTW9SeWVaMUZsZy15MFdXUjNGUG1UMGtRNUhweVVoXzhCMlFaUURFZVpqUDRkdVNycVRrOEk?oc=5",
+          "summary": "The article discusses construction as a potential approach to addressing the United States' housing shortage.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-avfia9",
           "headline": "Cortez Masto discusses housing crisis at Reno affordable housing event - KOLO | 8 News Now",
           "source": "Google News Housing US",
@@ -1530,6 +1539,24 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-lqcfpp",
+          "headline": "You Can’t Afford to Live Anywhere: THE Global Housing Crisis! | by Pratyush S. Achari | Apr, 2026 - DataDrivenInvestor",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZk1GRGQ3RUphLVE3SXNodXBwWXRRS1hGZ3NpdFZxV19RNDFjT3BnUWo0UEMwVmk4T0JuS0MxeDdSaUNRdUdFaEZvM05ROFpyWThFdElNLXp4UDg1UUlCZEg3bTRWWjVIWlIxZWphRXFGUmFXVERQVGxpMkVadFBhZ2pmaWJUZWtFQkhIU3JVcm51LVJlQk9hZnhQa3AtZTk1TUgtX29qRTVfVmxCS2c?oc=5",
+          "summary": "A 2026 article discusses widespread challenges in housing affordability across multiple global markets.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-vidlry",
+          "headline": "Migration to Smaller Cities Affects Housing Costs: 2020-2025 Trends - News and Statistics - IndexBox",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNUI3a194Nkh5YTRiZWltWENzX09PSm5Oc2FieGZNeW90dGk2T0xVUnZYS2MtM0FBQTFMMHhaal91M3Y0ZmtqRWF5QjhVU01HZ3p6UE03blRTV3NGTnM0RU9hdHZOVjJCY280TjdoWjAzbG4wNkFIRFJwb1g5SWNzdXZmQ09ZM3J1SWs5TFlQbUJ0WXhTTVhOZTRn?oc=5",
+          "summary": "Migration patterns toward smaller cities between 2020 and 2025 have influenced housing costs in those markets.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-j7sv0w",
           "headline": "New Survey Reveals Widespread Concern Among Homeowners About Rising Property Taxes, Budget Strain, and Long‑Term Housing Affordability - PR Newswire",
