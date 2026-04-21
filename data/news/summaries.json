@@ -1,20 +1,16 @@
 {
-  "generatedAt": "2026-04-21T10:23:25.037Z",
+  "generatedAt": "2026-04-21T16:17:09.717Z",
   "regional": {
     "na": {
-      "summary": "Toronto renters launched a founding convention this weekend to establish the city's first citywide tenants union, coordinating advocacy around rent increases, housing conditions, and affordability using labor movement organizing tactics. The Missing Middle Conference is scheduled to return to Vancouver on May 8th, 2026, bringing together stakeholders to address Canada's persistent housing supply gap, particularly for mid-density residential forms. In Muncie, Indiana, local homeless shelters are implementing measures to combat housing instability, while The Homing Project is constructing micro-houses to tackle city housing crisis conditions in urban areas. Construction firms across North America are now recruiting traditional high school students to offset an aging skilled trades workforce that industry groups identify as critical to any meaningful housing supply response. A new survey found that homeowners expressed concern about rising property taxes, budget strain, and long-term housing affordability, with a separate survey confirming that housing affordability presents a significant challenge for active-duty military members and veterans. Experts have meanwhile warned that the outlook dims for a structural recovery in housing affordability, with no fundamental rebalancing of costs expected in the near term.",
+      "summary": "The Missing Middle Conference returns to Vancouver on May 8th, 2026, drawing renewed attention to Canada's persistent supply gap for mid-density residential development. A new survey reveals widespread concern among homeowners about rising property taxes, budget strain, and long-term housing affordability across North American markets. Construction firms are recruiting traditional high school students to counter an aging workforce that is constraining the pace of new housing delivery. In Muncie, Indiana, local homeless shelters work to combat the housing crisis as municipal-level shelter capacity becomes a frontline response to affordability failures. An opinion piece argues that New Jersey's war on pricing won't fix the state's housing crisis, contending that demand-side interventions without supply reform are insufficient. A separate survey found that housing affordability presents a significant challenge for active-duty military members and veterans, adding pressure on federal housing assistance programs.",
       "keyDevelopments": [],
       "highlights": [
         {
-          "text": "Missing Middle Conference",
-          "topic": "legislation"
-        },
-        {
-          "text": "Vancouver on May 8th",
+          "text": "New Jersey's war on pricing won't fix the state's housing crisis",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-21T10:23:25.037Z"
+      "generatedAt": "2026-04-21T16:17:09.717Z"
     },
     "eu": {
       "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
@@ -62,6 +58,15 @@
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-google-news-housing-ca-s5t8jx",
+          "headline": "Spain approves a plan to ease its housing crisis - Yahoo News Canada",
+          "source": "Google News Housing CA",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zd3F2NjdLRXI5azlTaGc5a21fSkUyblhMTkhHaWc2MjhnaDRsYnlBZFhFWEtzblI1S3hVZWt6N3hIdU43WlFIN04zRTQ2OFlJVjExLVBnZFVnd0lac3E2dXhoai00djU2OW5mcHh5NjJHb1lRWm0zZUV1bDNwUQ?oc=5",
+          "summary": "Spain has approved a policy plan intended to address its housing shortage.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-ca-jn6sq8",
           "headline": "Where Canada's Housing Crisis Gets Solved: The Missing Middle Conference Returns to Vancouver on May 8th - Newswire Canada",
@@ -990,6 +995,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-zoning-on-bc-fyzin6",
+          "headline": "Canada makes an unprecedented push for multifamily housing - grist.org",
+          "source": "Google News Zoning ON BC",
+          "date": "2024-07-18",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMUx6T0swMXpLcVlzSEJlazJXbnZGb0EwZmZMQ1FUeTZZT0NpZ09lSXZtT3Vra0p6T2ppUVlOUjlOVVl3RFEwQzh1SFBraE12aGsxZER3VHdmNHI2bHBZV1BtbWJmM3BHeElaRTUydmV3ZnZ3WVd5MGplNzhPbzZNS0NhY24tSHF2QUstclln?oc=5",
+          "summary": "Canada is implementing new policy measures to increase the development of multifamily residential housing.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-zoning-on-bc-wpngny",
           "headline": "Who’s getting it done on housing – feds or the province? - CollingwoodToday.ca",
           "source": "Google News Zoning ON BC",
@@ -1252,6 +1266,15 @@
           "date": "2026-02-15",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa3BQSHVvWndrRERIanBtcmxhcFBOaXRNVWliWDlFR3lZallXT3RqWHZldWo3Tm03TmVGUDFmOC1mTmM1RVVGUkR6TUxwVWtiSGdjYjdKbTJ2aUp0eG5vTTlRT1BYRlo2d2tQN3huRFpkRWcyU01DWk9Uei1PN0tpeXkzdklQRUpJOF9UdmxNTmZtSkthc1MyRw?oc=5",
           "summary": "Congress is considering legislative measures to address the housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-5akc07",
+          "headline": "US Facing Potential ‘New Housing Crisis’ - Newsweek",
+          "source": "Google News Housing US",
+          "date": "2026-02-13",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9nLWhHbUlUUlRVOEQzMmIwbGRXQTZYeE5aY3lHMXF0UmxKWVBnMUROU3RqVjF0QWhsTzlKZkpJMnBFX3UzUU1VOUpoVFlEVkNIZnhBWDduTkpmaXprU3VSSnd1RW1OaVBqdHRWVTBGVWhrd0Nmb29jYlNrRGk?oc=5",
+          "summary": "Newsweek reported that the United States may be facing a new housing crisis.",
           "summarySource": "headline-only"
         },
         {
@@ -1539,6 +1562,87 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-a4vqpn",
+          "headline": "Spain Housing Crisis - Goshen News",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNVRTQTNQdnhDQmcxX25GX1hkeEJsQWJEaFpSb1RUV0NteDk0WlpEZ0hfX2ZXSmREcVdSZHNDb1I0T21MZ2hMRDB1VEs3TDUzSUpfWWJWWnVJNWNvOWZBNW9nYno1aEdkdHBabjRZc1NtcnNnRk9rZUdWYzJfRURiTkswR2cyM2xHWFk5SHVqSWhsM08wQ3hwclpMUFFzOGFwd2NzMEtlSlZGT0JmZkdvUVhxRmE?oc=5",
+          "summary": "Spain is experiencing a housing crisis, according to reporting by Goshen News.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-tkqvlt",
+          "headline": "New Jersey’s war on pricing won’t fix our housing crisis | Opinion - AOL.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10M1kyRERPblUyMXhNVGo3NDRzQVlyTnZYMlRyLUpUSjJhY3pvU0RPYTcyajVJZmtkeTNxcmN6d2FUZWJKQWsxTTFnT25QNl9EYmwybURfMHdmWWZDNTJiMVNaU2x6WGdyZ1ZaYmpwd2Nudw?oc=5",
+          "summary": "The opinion piece argues that New Jersey's approach to addressing housing prices will not resolve the state's housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-9xp03k",
+          "headline": "Spain approves a plan to ease its housing crisis - Goshen News",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeGVGX0NLOGV3ZnlBZkNlSkNUd3NyeWkzSUFua3JqSzVTMHRON0RjUWl3Mnd5bWRjNDNNQjZJNXBlaVRDV1d0b3FoZjRoYTlIR2FLWl9WMGZDNUd2ZVRkVjVfZWVVbFBldUpDUElrSlBPam5pMGRQY0VhLVF1WmE2ZXhVV0VGVU1Va2tuaThxb3ZmQm5nWmdzZW5tYVQyZ1FqMkJldWJYUG9hUnlTenFpQk9Ha2xoY1k2T3hCbk1GcEtaRFBfSk9zdVVuaTVEbnZIc0d0NU02eEYzYTBl?oc=5",
+          "summary": "Spain has approved a plan intended to address its housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-z5wlcw",
+          "headline": "Bay Area Students Tackle Housing Crisis With Engineering Solutions in The Tech Interactive's 39th Annual Tech Challenge - StreetInsider",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPWHZlRWxoY0ZLMm1hS1ppUkxHTzB1WllKcFZadDVwdDhqTktWX3BJbmJTUzlrNnhLRkJhYXdqSUVJSE1wZnpMSk9IcnJLd1ExbURjem9HWW85MnNSZEQ5MzltVC1BQUxZeWgwaDU2aXdXUHVNNkVRZTVtWkRUQUNNeGUxdnE1VmlGYXpzdFllLXRvX1FiNTRNR2JfcWlSRS12N1VMYjhfbG5vRkN4ZkU4Uy1yVlVpOXBtZHpyZHlNd0F6cF9TdnZqZnptcFJOZl92ZDVXMGQ0ZlU1SjdBM0VzdGpPRWR6NVhHZDc3a0lfSU9GVmJCSW1yVHlCUVF3bWd5Y2tfWUlwbTY?oc=5",
+          "summary": "Bay Area students are participating in The Tech Interactive's annual engineering competition, which this year focuses on addressing the regional housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-qwsazy",
+          "headline": "Spain Housing Crisis - The Herald Journal",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTFNCLVlqQ1hfY0FUelZWOVlsSFA4Z1BndlMtZ1pWSGdmN3k2TnBETFEzYnBoWWpMYm0yQWttYWYwVEI2LXpIRjM0bGppOVpMclZ6MkQyX0JEQ0Z0ZTRBZlhnTThlWkxGaHNZRjRtdFQwajhfRDZoTlplRVgzZjdrN18yX2hKeEdZLWtCMHVCR0NRTXc1QnJUTjJpbDJudw?oc=5",
+          "summary": "Spain is experiencing a housing crisis, according to reporting from The Herald Journal.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-mm0b0u",
+          "headline": "Spain approves a plan to ease its housing crisis - Temple Daily Telegram",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRnR6UUZxZXhJeFgyMU9oTTVzcDRVenNFOUNtMDBrNm9xSy1BLVViNVM2THlZV05LdndjV241WEJaS3NLM3JsbzNpamxkUG5LMWFsRC1yVW82Z3BtdEZQQzgtWkJHdjMxUjA2dFd0c2VyNHR6RjV0Rk1PM2hfQ0taaXNOWjlYM1dUMVNJMUQ3TnhQLXN5VWc?oc=5",
+          "summary": "Spain has approved a plan intended to address its housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-9lqjan",
+          "headline": "Spain approves a plan to ease its housing crisis - myMotherLode.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZF9RZ1M4RGNSd2Y0QWJtSXNSeVhBWEIycEpKZUlKVXJpWHZBejc4b0F5RzViNUxxWVdKZDhObFlVazJsUGdFNzdZX3A5TTR2NFM0Q1Y2MllIcTdZM21SdTBXVndjTXBnR2lOX05VZ21faTV6cDdpT2t0Q2pBa1A3SHZVQVg2Y25GZjBGZ2Zpam5ybHFJN2xETHlkbDI1R3M10gGmAUFVX3lxTE04Nmx5RHhQdmhQSzBIQzFjTGdneXNrT2hBX3UwblFkc09uMnFvekdwQUJtVnZ0bUstWjVKeG5ndVd4N2xzOFM3QkgtclctX09IQ0F1ZFJpQ1ZfcEFhcmplYmtXcXh0YlB5V0FQMW1weC1DVUpXZ3pfSjhpU0xXWFZ0S1BkTE1fck55WnQ3UXp4dzc0V09WZTdxSkRsV29DQVlPVXVwaVE?oc=5",
+          "summary": "Spain's government has approved a plan designed to address its housing shortage and affordability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-z74rg8",
+          "headline": "Spain approves a plan to ease its housing crisis - Toronto Star",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxON0FFZmc5SFJpSXRqS1A5ZFVieFp4V0FKb3hMbGhTMkp0c0EyQ2RkUW1sNURPaUhuUHpJS3FOR0p1YW5GSEdWOG1MYklZTEpYUnhudXVkVUhwYWlsWnF3Sl9wT0JlTnhmMlFfdFduN0plNGIzbjFRRlBRejN6WXB2Y0lETW5uX0YyblFqXzJNVUJQZDA3Z19FeXFRSVI1SXdFVFJtT2RkWHNzYmxXNW1mN0JtOFladFNxZTN5OTh3R2ptVktIaDNpQ2xFdzBCUDhJc3pqWWt6OA?oc=5",
+          "summary": "Spain has approved a plan intended to address its housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-ump8wt",
+          "headline": "Spain approves a plan to ease its housing crisis - Marietta Daily Journal",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVlRUN0tPNGhpWTZrakNpYUxxUHVRUkJaODQtOWYxTkxZdVlMbV9OVjFpWXNMaU9aNFZQbGRvY3UxTWdueWxzVHB6TTVOdURuV1Z6bkplZ0ZlY3N4bnRxN1Nnbk5NQ3ltNnM4dFZaOGFUbXhtUFRWUnpSQnVWRXFMbEFqdlBKWDF5SlJQdk9OUFVNdE04NnFNQUw4c2pwUU9uVElvUEtHT09EWWEwcFE1cUhkTzNiM2tjV1ZDWHFKcXQ2WUVXeG4xYTY3Tjl1TnZFaVNBNw?oc=5",
+          "summary": "Spain has approved a policy initiative aimed at addressing its housing crisis.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-lqcfpp",
           "headline": "You Can’t Afford to Live Anywhere: THE Global Housing Crisis! | by Pratyush S. Achari | Apr, 2026 - DataDrivenInvestor",
