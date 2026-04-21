@@ -1,16 +1,20 @@
 {
-  "generatedAt": "2026-04-21T16:17:09.717Z",
+  "generatedAt": "2026-04-21T23:43:53.002Z",
   "regional": {
     "na": {
-      "summary": "The Missing Middle Conference returns to Vancouver on May 8th, 2026, drawing renewed attention to Canada's persistent supply gap for mid-density residential development. A new survey reveals widespread concern among homeowners about rising property taxes, budget strain, and long-term housing affordability across North American markets. Construction firms are recruiting traditional high school students to counter an aging workforce that is constraining the pace of new housing delivery. In Muncie, Indiana, local homeless shelters work to combat the housing crisis as municipal-level shelter capacity becomes a frontline response to affordability failures. An opinion piece argues that New Jersey's war on pricing won't fix the state's housing crisis, contending that demand-side interventions without supply reform are insufficient. A separate survey found that housing affordability presents a significant challenge for active-duty military members and veterans, adding pressure on federal housing assistance programs.",
+      "summary": "Toronto's new condominium market has hit a 35-year low, with sales falling 52 percent year-over-year and no new projects launched for the first time in three decades, as investors withdraw from the preconstruction sector amid four consecutive years of price reductions nationally. Canada's broader spring housing market is moving more slowly than typical for the season, with economic uncertainty, geopolitical tensions, and volatile financial markets keeping buyers on the sidelines despite declining prices. Against that backdrop, a first-time buyer in downtown Toronto was able to purchase a one-bedroom condo for approximately $470,000, below a $500,000 budget, illustrating how the cooled condo market has created rare entry-level opportunities. The Missing Middle Conference is scheduled for Vancouver on May 8th, 2026, where policymakers and planners are expected to discuss supply-side solutions to Canada's ongoing affordability challenges.",
       "keyDevelopments": [],
       "highlights": [
         {
-          "text": "New Jersey's war on pricing won't fix the state's housing crisis",
+          "text": "Missing Middle Conference",
+          "topic": "legislation"
+        },
+        {
+          "text": "Vancouver on May 8th, 2026",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-21T16:17:09.717Z"
+      "generatedAt": "2026-04-21T23:43:53.002Z"
     },
     "eu": {
       "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
@@ -59,6 +63,33 @@
     "Canada": {
       "news": [
         {
+          "id": "rss-financial-post-ifwgxw",
+          "headline": "News of the day: Spring real estate, Toronto condo market, federal budget update, NorthStar valuation, vacation planning and more",
+          "source": "Financial Post",
+          "date": "2026-04-21",
+          "url": "https://financialpost.com/uncategorized/news-of-the-day-spring-real-estate-toronto-condo-market-federal-budget-update-northstar-valuation-vacation-planning-and-more",
+          "summary": "Canada's spring housing market is experiencing slower activity than typical for the season, with new condominium sales in Toronto falling 52 percent year-over-year to a 35-year low and no new projects launched for the first time in three decades. The national housing market has seen four consecutive years of price reductions overall.",
+          "summarySource": "article"
+        },
+        {
+          "id": "rss-globe-mail-real-estate-mln71b",
+          "headline": "This IT engineer had a half-million-dollar budget for a downtown Toronto condo. What did he buy?",
+          "source": "Globe & Mail Real Estate",
+          "date": "2026-04-21",
+          "url": "https://www.theglobeandmail.com/investing/personal-finance/retirement/article-home-run-it-engineer-half-million-dollar-budget-condo-toronto/",
+          "summary": "An IT engineer who moved to Toronto from France in 2023 purchased a one-bedroom condo in downtown Toronto for approximately $470,000, below his $500,000 budget, after saving a down payment through registered savings accounts and prior earnings. The purchase was made during a cooled condo market that favored first-time buyers like himself.",
+          "summarySource": "article"
+        },
+        {
+          "id": "rss-globe-mail-real-estate-b5ag7g",
+          "headline": "What’s next for the Canadian housing market, according to our reporters",
+          "source": "Globe & Mail Real Estate",
+          "date": "2026-04-21",
+          "url": "https://www.theglobeandmail.com/investing/personal-finance/article-housing-market-mortgages-reader-answers/",
+          "summary": "Globe & Mail real estate reporters discuss market conditions affecting Canadian homebuyers and sellers, noting that economic uncertainty, geopolitical tensions, and volatile financial markets are creating hesitation among buyers despite declining prices. Investors have largely withdrawn from the preconstruction condo market, contributing to reduced demand and lower prices across the sector.",
+          "summarySource": "article"
+        },
+        {
           "id": "rss-google-news-housing-ca-s5t8jx",
           "headline": "Spain approves a plan to ease its housing crisis - Yahoo News Canada",
           "source": "Google News Housing CA",
@@ -93,6 +124,15 @@
           "url": "https://www.cbc.ca/news/canada/toronto/toronto-tenants-union-9.7166868?cmp=rss",
           "summary": "Toronto renters are organizing a citywide tenants union through a founding convention this weekend to coordinate advocacy efforts around rent increases, housing conditions, and affordability. The union will bring together existing tenant associations and groups across the city using labor movement organizing tactics.",
           "summarySource": "article"
+        },
+        {
+          "id": "rss-google-news-housing-ca-uxpn4b",
+          "headline": "Is This What It’ll Take to Solve the Housing Crisis? - Todayville",
+          "source": "Google News Housing CA",
+          "date": "2026-04-17",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbzJDaGxGOEZaaktzb19WVXdoYW5VX3Zpc1NILWtiQVBZaV95bVY0dk5fQjBYN2hrZG5FeUI2bUx6QWpLMHVpZnp6MWRRa2Y1ZzhsQUJZbEpxVXl4NEQ3Y0QtMDIzd3FZTWFBU09QZk41azNmQU1Oa2VHZnB1alRtbmhEZ2k?oc=5",
+          "summary": "An article discusses potential solutions to the housing crisis.",
+          "summarySource": "headline-only"
         },
         {
           "id": "rss-financial-post-u2auss",
@@ -1242,6 +1282,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-tl0hgh",
+          "headline": "The housing crisis gets twin doses of optimism and realism - Yahoo Finance",
+          "source": "Google News Housing US",
+          "date": "2026-02-19",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdTg2MGRXMzExWkxXLVA3Q3ExcWdTcFdCdC1vSksxZkJSTl8wX04yS1ZlYkFUbk1GaVlUZFlIMURqVEI0X3RfSEMxcUlVMnZLREUtaGZQSi1SbENDb1RkaGFRUDdwbnlzZm5EOFBiSFRPekRrUGtwdkFoUUtDWXFPRFBsTU9ibjQ1SG55VVpiV1hnc1FOSzJqVHFBLUs3b3FvSlYyaEdBcw?oc=5",
+          "summary": "A recent news report discusses both encouraging signs and practical challenges regarding the ongoing housing shortage in the United States.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-tq4zxp",
           "headline": "New PPI Report Debunks Claims That Institutional Investors Drive Housing Crisis - Progressive Policy Institute",
           "source": "Google News Housing US",
@@ -1338,6 +1387,15 @@
           "date": "2026-01-14",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM3hlS3RIOFBkMGxRaXEzQl9qWGlvU3JjU1hKTERiSkRNUjJhYXowVUZrYndEZzdvR05pQTQ3clNiUEo1YnZYak43YnZWcEhXWjA2Q3FxRFBhNDBSajhRVzZ0OUNnNUg2YTdhcUp4eEtWM09zVEJETk5kVnBZYUhUY1VlSFIyQndJTEdOLXIxRQ?oc=5",
           "summary": "The Center for American Progress has published an analysis proposing solutions to address the shortage of affordable housing in the United States.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-3y9s96",
+          "headline": "Blaming short-term rentals won’t solve the housing crisis - Reason Foundation",
+          "source": "Google News Housing US",
+          "date": "2026-01-12",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTlBRZ05IeURNeFRGMDA2ZDZBQkx6Zmh0aFdxMHdnYXptMW5nLTFwcjRUZjVtamxhdkY4NlZSSEFCMTZIdkpaZEg4cEFxM0lqeGROUk1QUEZpOURnNW05NUgxVUJzX3Jrc0JqYWJvUG8zMUlrS3JfcjY2Y2UxRXJNY2JxcHMxN2ZtT21fZ1lBTVo?oc=5",
+          "summary": "An opinion article from the Reason Foundation argues that short-term rentals are not a primary cause of the housing crisis.",
           "summarySource": "headline-only"
         },
         {
@@ -1562,6 +1620,87 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-798gso",
+          "headline": "Can Azure Printed Homes help solve Colorado’s housing crisis with plastic bottles? - The Denver Post",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jM3Y3Y05NWU9JM0ZNeVlRSjNHaGtaeVV5TnFFT05jY2tXYkw0ck5GeENKVDVfbFphRmFrckFwb1pnT2V4eWYyOFFTZkNYUkh2TjBGSmN6OVpYZVlTN21EZmFBUkM3TEZjSGpnRDl4ZkR1YnNUUmRtQVNENUVWQQ?oc=5",
+          "summary": "Azure Printed Homes is exploring the use of plastic bottles as a construction material for residential building in Colorado, potentially as a response to housing affordability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-dvfxoe",
+          "headline": "Spain approves a plan to ease its housing crisis - couriernews.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLVZSTzhZUUZ5QzF0S0xYSjdoYlI3MU5YMmx5MVhvWkh5WXNRVGdOa3RZQVBLRkRINWlpWlR6NTFkNVlPQy1CaTdhU0g4ZjFnUGxjbDRFaVloQ0tPdWRoRjJQSHJ1NFE5dUdsbVZVV0xaSmxxU19QQmFVMm9heWRZZWdUcHZCeUhqNVVLNHF6RnFEREFjLURPNzFCZnRYTjJ2VEtiNXdnaGxDcVJjYjJNb1plOWhQVmlLR1YwQkd0bFpIQjk4X01BVV9fTVBfSkJ2YW5B?oc=5",
+          "summary": "Spain has approved a plan intended to address its housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-84ostm",
+          "headline": "Bay Area Students Tackle Housing Crisis With Engineering - GlobeNewswire",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOR2dHNl91bllLbU12YmY2c05NMkQ4OG04TFRBeTJ0Mm5ycWtBWXVpb2RaaU5EMTJpWnBXdmZPNTQ2OC1raE85T0dEalptcVZ2dEVxT09FRFlOZDhJc3BwZUFwOVQza2lYTDlRbk8yeGtWNEVwRWVYM0ZLM1pMYV9relNfbWdKNG5lSk50dVByc2dlMWtUVGxpaWhOUHV6TE9CbmFKY0FzeG5hQ2psamUyaFdDUV9fa19zNlhJTzVhNEFmRlhCYmFCcVdUaDd3OHlybVVsSnZOeHVHR2NxV2hCSWZkWkV4bWZYWDIwbERvN2lIMmwzaUhkb3VEc0pYRnJnYWYyLXpUZjNyeWZFaXprMFZwcTFPSjFHMXlz?oc=5",
+          "summary": "A group of Bay Area students are applying engineering skills to address the region's housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-8313rx",
+          "headline": "Spain approves a plan to ease its housing crisis - Messenger-Inquirer",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTGY4UXlzbldZWXNaUkNDSmptREsyMm1VQTloOFBfbFB6bmZZa1RMQzVkMDhYTTVXXzBYWnl1RnRiYjM4elhGWi00OU9hVVBqOVdTWkNPM0Uxa3VNVzdxc3dQakdOdExENDRiQmtiUUFLMmRSXzFzYTVsVnVaY1RKYWlValVrX09wMElpdlc2ZjVvdjF5Z25FZkEycHE3LW1LN1hNMzUxQ3NRNmZHRWZXM19EeWZ6SU1ROXlxWGNtUk9RaEpIcWV2c3NTS1lzMXBNeDZSdkVUVFpPTU1sOUxr?oc=5",
+          "summary": "Spain's government has approved a plan designed to address its housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-4rhatq",
+          "headline": "Tulsa leaders turn to churches to help solve housing crisis - Tulsa Flyer",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMUNELXNvZzBVTHRNUXRZYnkzaVZLTVV3YVJJZEI2dmdhSmcxNUw1TnVYbWFPRFcxVGtkVHZPZ2pBdlRBbFFfdmZadWdVQloxNlBsYnNVMVdpczhXV29UN2ZzNHpZckFIelEyYUhnVUJTUmc0TzBJb242TWtxcEZiY08ybnRxb3BqUEZQeVVBUjRya2x5ZENCdzNyTFZEN1U?oc=5",
+          "summary": "Tulsa city leaders are partnering with churches as part of efforts to address the city's housing shortage.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-serthh",
+          "headline": "Open Letter to the Government of California regarding the housing crisis - Coastside News",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNanhseFplNVJwRzNwckgySElYM2FSYW53cVhZVVc4MjhxS1Y5aTlJS29YMkloTDZ5TG56Q2hlMHl0bjlCS2RuWXIydDA2bHRmOU9YZlNhVGF5OVl3WUtaQy1tZVVTaThoNUJ6VzZiSzhySWhGZ3FZaVotTWw0N2dEZEV4UVNWMXUycE1ERHQzd1pKSW9WdVNIT2dZX3dBNlNQWWpiOGJGdm9BVVFVMGtJdTA5eEFjRndTVlJfSEt3eE5GcXBRUmtVb3QzcHBSNWVMeHd2ZjVEY2s0Sm54eVpkMURHd0tieWxBTDNWNkYxX2Q2dUd6bjF1aTZNRmZGcHJMRDQtaWt4MTQyVC1zZWtwb3hXZw?oc=5",
+          "summary": "An open letter addressing California's housing crisis has been published calling for government attention to the issue.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-c28vge",
+          "headline": "Spain approves a plan to ease its housing crisis - ABC News - Breaking News, Latest News and Videos",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWnBQcFI4U28yT2RsRVBFejJKRXNYRDRjSVcxT1otRXlXQVBHSGRIbGNWUlU1bVo3NkgyX3VhLUZlSUpmUTdjM0psZlpUcFpJSkNoSWVnLXhqVmcyMGlaNFBEb0Q0OW1iM042MmpxX3dNcGN3ZU9SOTBodVpfNWdXRGgxZng0U3c2RmFRZHpCeGNKVTlLT2VJYtIBngFBVV95cUxNUkZsWGpmNy1wR3VGaUo3S05vR2tMRDU0UEJtQ3NjV1ZyWWpYWk5GZnVXbTU5N2hadDIzaU9PRDBQb1RuY2VicFlwakYtWHg1VktXLVlheUI3TzNIa2NBblU2MGcydEVhTVNXLVRGWkRseVVCMW1hUERpZGd5WlJlMzZRV2k0b3d4eHhQdUJnM3hyQlp4eG5RTThGalFtQQ?oc=5",
+          "summary": "Spain has approved a plan intended to address its housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-n0zx98",
+          "headline": "Tackling the Housing Crisis Through One Year of the Rooftop - New America",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT0ctcVJwQU9tcENoQkVKMmU2TVlibjNIUjI2bG82ODZMOFZpYXFuSWZRSUNnVF9qZG0wX3BpazgwMmZBLVl6Y19TWkNIZlU0SnpLSGpmNGFFejhKLTN3Y3lsRlN2NW1pQV9uUndFVDI3alBSYkRYX1FMSDNtdHVpSVl5RWpuUzdpTmVmYWhtRkh0TkZWcTNtal9fMm0?oc=5",
+          "summary": "New America published a piece about an initiative called \"the Rooftop\" that addresses housing crisis issues over a one-year period.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-lpp7bd",
+          "headline": "Community leaders and researchers gather to discuss housing crisis – School of Architecture & Urban Planning - UW-Milwaukee",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONXFRWmVuTGU0MlhRbHg2cEFYQmRHVHlrMFBHeGtpU0M4cUlxeGdjQWRUT1JtRXM3b1V4WEJRWXYxMzBmekl2cXBMQmtXZ3F2LVBPdWk3bENKWFlkeVFXVU81U3ZrT1laRk1TMVo5VVVGc3RHZlZ2bV91M3BvUk01LWppWGMwZ1Nxck5sY2p0cklZdWdHSkxmT0Vadnk?oc=5",
+          "summary": "Community leaders and researchers convened at the University of Wisconsin-Milwaukee's School of Architecture & Urban Planning to discuss housing crisis issues.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-a4vqpn",
           "headline": "Spain Housing Crisis - Goshen News",
