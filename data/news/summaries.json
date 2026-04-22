@@ -1,16 +1,24 @@
 {
-  "generatedAt": "2026-04-22T16:15:33.209Z",
+  "generatedAt": "2026-04-22T23:53:32.092Z",
   "regional": {
     "na": {
-      "summary": "Toronto's new condominium sales fell 52 percent year-over-year to a 35-year low in early 2026, with no new projects launched for the first time in three decades as investors withdraw from the preconstruction market and four consecutive years of price reductions weigh on confidence. GTA condo new listings declined alongside seller price reductions, though some buyers — including first-time purchasers able to close below asking — are beginning to re-enter the market. In Dartmouth, site work has begun on 100 affordable units at Shannon Park, marking a concrete step forward for public housing supply in Nova Scotia. Housing advocates across Canada continue to press governments for broader solutions to a deepening affordability gap. In a separate development outside North America, Spain approved a €7 billion plan to address soaring rents and a shortage of public housing stock.",
+      "summary": "Oregon Governor Kotek signed multiple bills aimed at housing affordability, marking one of the more concrete legislative actions in the region this cycle. In Canada, the advocacy group Maytree called for making the right to housing a central component of Build Canada Homes, the federal government's flagship housing initiative, while housing advocates more broadly continue to press for solutions to the country's ongoing shortage. In the Greater Toronto Area, new condo listings declined in early 2026 as sellers reduced prices to attract buyers in a slower market, with larger units in established buildings drawing modest demand from downsizers. Maine's earlier zoning reform effort to address its housing crisis has produced inconclusive results, underscoring the difficulty of translating land-use changes into measurable supply gains. Homeownership rates have declined across multiple age groups nationwide, and supply-demand imbalances are being reported in markets ranging from the Poconos to Seattle, reflecting the breadth of affordability pressure across North America.",
       "keyDevelopments": [],
       "highlights": [
         {
-          "text": "Spain approved a €7 billion plan",
+          "text": "Oregon Governor Kotek signed multiple bills aimed at housing affordability",
+          "topic": "legislation"
+        },
+        {
+          "text": "right to housing a central component of Build Canada Homes",
+          "topic": "legislation"
+        },
+        {
+          "text": "Maine's earlier zoning reform effort",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-22T16:15:33.208Z"
+      "generatedAt": "2026-04-22T23:53:32.092Z"
     },
     "eu": {
       "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
@@ -58,6 +66,15 @@
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-google-news-build-canada-d218cc",
+          "headline": "Make the right to housing central to Build Canada Homes - maytree.com",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd0Y0bWZlZ05nX1hfczlPSDZPcDJSMG5fdkdPSGphTzY1OUFObDVneTZneTNHeG1kbXoyMDFVSzZ4X1JwZ3NEbFBiQ2Y2aUI2cDhCck95anFld09Mems1c1FIdzd1dFBKUmFGTjNtcGtJajd0SnEtLWloZkZYb3RCdDU2bkxDcW5GU2ItSFliWnpWcHc?oc=5",
+          "summary": "An organization called Maytree has advocated for making the right to housing a central component of Canada's housing policy approach.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-globe-mail-real-estate-adg3o7",
           "headline": "In GTA condo market, buyers circle in search of a deal",
@@ -1166,6 +1183,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-zoning-on-bc-r9iqkd",
+          "headline": "The Golden Horseshoe Needs Zoning Reform, Not the Removal of Greenbelt Land: Thoughts on interpreting data from the Alliance for a Livable Ontario and the Regional Planning Commissioners of Ontario - Environmental Defenc",
+          "source": "Google News Zoning ON BC",
+          "date": "2023-03-14",
+          "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNTW54aFRmLXpBdUZSMUg5cE5TVFVuVHN5QV9fR0FPUHdxWGJPTXdLMmtxNDlRV2FhcFEwLWhaWFRIRV84SjhNZXBPZEZaamdFbGZSTzZLQjVrV2ZlWEtlYnpOMmtybGwwOEFqU3o2VEw5aHRJQ0k3MDh1WXMyYzJCUElKQmxmTmlpWmZHTU1SdWtUU3pBS2toTDFCY3J4dFo0ZTlmaXd0Slg1Uy04d0w0Q29zcFk1Z2E5blRCSURuSGdYQVhtMU12bTFLQThCMmJqenFfTXNMbG1NbklzSFlMWGZ6YjZHVnhidl9ndHlITUNwOW9pWkhZU0RCNGl2MUFiZjFPbUdIX2REVFhPc0Z4c1VCdWt2WVJJUGxNWkR6T2dlRXdpeVFSODNDTnA0WWw5SURMczN2R3FCR21rR1IxOGJoaWFJM0k5RFVsTVV3?oc=5",
+          "summary": "Environmental Defence argues that addressing housing needs in Ontario's Golden Horseshoe region requires zoning reforms rather than removing greenbelt protections.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-zoning-on-bc-r2j1l",
           "headline": "Jon Hartley: Ontario needs to go further if it hopes to bring housing crisis under control - National Post",
           "source": "Google News Zoning ON BC",
@@ -1548,6 +1574,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-h43ho4",
+          "headline": "America’s housing crisis isn’t an accident — it’s by design - MS NOW",
+          "source": "Google News Housing US",
+          "date": "2025-11-17",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOclIxYm1yd1pxM0JYVVlKSHZ1WHJmaTAzb0VSaEozdjNOTGpSWHBRaDJEN2pMWk5DQ0dXY01MRG1MVGtUOGw5cE9tTEtqRmFKZWxLNDZadW01dkh6RXA4M2o5VGt6QkxsNDVDbEtXcnJHQzRSTmdaQmNyc1FOMTU3TTBJXy1JS3o4QkRxNTMxMGpUVkdQSkJGQV9mdFB3TWNzcVBXS1JBdzc?oc=5",
+          "summary": "A commentary argues that the United States housing crisis results from deliberate policy decisions rather than circumstantial factors.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-no2x9n",
           "headline": "What Will It Take to Solve America’s Housing Crisis? - Knowledge at Wharton",
           "source": "Google News Housing US",
@@ -1725,6 +1760,105 @@
     "World": {
       "news": [
         {
+          "id": "rss-google-news-housing-glob-yhqhm2",
+          "headline": "Housing crisis hits all ages as homeownership declines nationwide - Fox Business",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOWgyTk10VUV3RnN6SHNMS3p3ZDhBUEZPa3BidWpDUGJaaFpmTk11Sm81QkJmTkpyeUxiREctNG8xeEJtZVF4RjNTeVhwNjluM3FFbWxtR2F1ZTFlbnNFNnF2a0hhSERLTjYtaHMyRnV2Y2R0V2pSTEdtMGwzR3FEVFFIazB6MDB6SXFqdk8tUzR5OVNpYU1YdXoxenI0TUw2enJleNIBqgFBVV95cUxNaGhSOUxzdnRJTW5meW10STRyV3NTZkZWd1JTc1BKZnBBM0RORjVvSmhPSlNFT01JR0dJY1RJWjhXOHRJbU5tM19RRXFDUl94UjJWVWRmOUUwRjJhRkNMUGRfVHhOZVRZSjJuNnlULVNuWEpHdF9NcmpvRUpkSXNfdFNHU2hMa09qZVBVVDF4VnRtS20xXzY5VlQzTWhMX0hrQzFCOGRQMEFtUQ?oc=5",
+          "summary": "Homeownership rates have declined across multiple age groups nationwide, according to reporting on current housing trends.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-xqbrui",
+          "headline": "Oregon Gov. Kotek signs bills aimed to help housing affordability - KGW",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWS03Wk5mVEE0TjVGc0tlY3JfY3ZVSy1TZW92eU5MTFcyaXAtNW5ZTUxmejBPTkw3Q0JtNk0wS296UGNDUTRnQ3NmV2d0cGxjeUVJdXQ4OFRrZjJyVmhVbWxxeVNKbUF5LWJseC1ZX1FmenlUNXJ6SjQxckU4Qi05b0psS2dDZHdXOGlSbzRyUHNSY2twX2RleEsxV3J6UXNaM05ta29KTUd3b1laQTgta0xnTHUxWmhSOGJfTV9TUk5lV1ZHSWtR?oc=5",
+          "summary": "Oregon Governor Kotek signed legislation intended to address housing affordability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-i4id5l",
+          "headline": "Peterborough churches provide emergency shelter as housing crisis worsens - The Keene Sentinel",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNVk9vcHc5OG9FMG41T2RoeTZkU1p6MmltUGJCeWJRN2xQTlRhS01yeV9MM0hxWlE4TklDbkJ4ZWlNN1VGOEJtTXMzS01mVFNueGRrNWY0MXdhbUhNM2EtZGdnbmo0V0lsTTlTN2xTYTFrWVB6WGRiblM0QnJXM0I0MmhZWGhtWF90ZUhOTzBvRFVZcVlYYXpoNlRvcmdzQ0hISkN2aW5iSURuNW8zaTF3WE5rUklJdjA5UkltUy1FZUVvVHR6U211ZVF2Z1hmOWIzeGhkdFl0cEY1NkJIVVAwb2pKOXdnNnhlem56aVhRbjY3dDNpZWhJ?oc=5",
+          "summary": "Churches in Peterborough are providing emergency shelter as the area experiences a worsening housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-54o116",
+          "headline": "Dallas ranks 7th in US for housing affordability, study finds - CW33.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd245d3AwM0NYc2VjOFBKaEx5c1J4ZmQwQmdOakdEby1teDhaUTRIeG04ck9lTkNQSDdvc2dUbFEyeENKd3JzdVZmdTNpVG1nNk0tOEg1Z2lmemhBOGZsWTFodjdMcTNBZENZSS0yWDhueWNNZmN5eWJZRWxtUlpYMk94Ym8zUE82a2t3Vy0xZ1p5WUHSAZgBQVVfeXFMTkNiT1FJWU95MVVkcnVZb0Zya0g4VVlkQWxYZVlLdDR2VHZkbHhiVXhMOEZvNzZhWjFPWGpVcm1WaVl2bHpvTmhmeVBwVFVPRzBGQXBnbnJuMVRYUS1sX1drcEhlREVNblI2Y0I3T3VlVWFodktha3BVdUpwR1dBNHlNRHc0M0ttOFQ3Y1NyZXJBa2gwUXVYVTg?oc=5",
+          "summary": "According to a study cited by CW33.com, Dallas ranks seventh among U.S. cities for housing affordability.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-k7rkkl",
+          "headline": "What is the city of Seattle doing to solve their housing crisis? - MyNorthwest.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNXFsWnZEZXJpR0oxMVJpOFNGVHRwcU5TMXdyZ203YWk1aWtSel8yb1RUNjhuTEtfYmRKRVM3XzlTR1J3TlFSNWladWMwUHZLWnB1alRpU08zNDA1dl9TYUtyT1BRNXoyUlROMjhEN1k5N1Z2ZUh2a3pNTzhZX2p1U0ppaV96M0RVLVZhQXo0RHpaYW01TTU3MndqOVNCQ19UQU9zUTRhU2dSR2VpVkNJcGFOSWRCQWpvUV9fQ3dHN3Q1SjY4UlN1WEJMRVZrTVF1?oc=5",
+          "summary": "Seattle is implementing various policy measures to address its housing shortage and affordability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-gwl6ia",
+          "headline": "Housing crisis in the Poconos: high demand, low supply - Yahoo",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMEdUZ3Z3VURvcGlKekI2RlBvSHNWMmp1M0k3d0pQMmQtMUVxRVNuZGdPNlJTQlJCVC0xS18tWkU1T00xMHdvTXF3Ylhvdkd3SWFiLVRwaDl1alR4cjdVMUpSZVhOSHVTd09KUTQwWTIxTkVpNU01RExkZ2FkR2I4NURqRGtHakR0M1FHVkx3?oc=5",
+          "summary": "The Poconos region is experiencing housing market pressure due to an imbalance between demand and available supply.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-ay8om0",
+          "headline": "Petition calls for zero immigration to ease housing affordability - mpamag.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdGlOVU5MU1dZaTN5aFpyYm5JaC01RldzcXJmLXRWc3lTZHJGTGFEZElfZzVKM29MNU9EeGVXRDdYZjA5V3BVcG55blM1dk41c2x3T0lIR04zT2VicHkzSnlrWUcteHczRFJVR3ZkcE1TaFQ2S1Nxdm9TcUpyUU1NbnBaOThmOGxWU2ZjYUZ0V1N2Y1ZyU09NZngxWnlUMmVwUUJvbHZ3SGtuanhuRVRnMQ?oc=5",
+          "summary": "A petition has been filed calling for zero immigration as a proposed solution to housing affordability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-avyzkx",
+          "headline": "Maine tried zoning reform to fix its housing crisis. It’s unclear if it’s working. - Bangor Daily News",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLUdCVmVuTlRsT3gzc3FOMkU3NnY0c29hZnhDaS1rbUhwclNvNDBDRlI5U3B3OEZ0anlUanBRR2Jla0VTbHVKQjFPYUNNX2NYUmJUb3JCSThxcFVQNWJEU1VXcncwMUJ1VGVtV1BNZnpodWZ4MHlDYkw4eEl1Yjh3THdhR3Y2WHZNQUlIR3RGbWdOeElfV25FNGVhMmpocTlkQVJzMUxoSQ?oc=5",
+          "summary": "Maine implemented zoning reforms intended to address its housing crisis, though early assessments of their effectiveness remain inconclusive.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-uy7xw2",
+          "headline": "The Atlanta Voice Launches “Rooted” Series with Community Forum on Housing Affordability - The Atlanta Voice",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE16eDJFajAxZHZNMGYyUXJJQjBFOENpSWFFXy14YlFMdzBVRmFuN2dOcVJrSVFvZFNFZk9sWnA4OHBkanhEZEFEX2pLNDVLMXBVVWFhSmtCMlNvcEZvTERRdktYUWNaV1ZEdFBfdjc0MDJSalk?oc=5",
+          "summary": "The Atlanta Voice launched a community forum series called \"Rooted\" focused on housing affordability issues.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-tfqpcn",
+          "headline": "Josh Altman gives reality check on Cali's housing crisis - Fox Business",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15TE8tR0VGaTQ2cUtXa2g4NUxEckpKMlBhM0JDWTlLTVpJVkxHRjBSTHdfd1lORW85elRJUXpncjZBbzI2VGZhXzNvaVpaZTJBaE0zUUVlT09lclk?oc=5",
+          "summary": "Real estate agent Josh Altman commented on California's housing crisis in a Fox Business segment.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-j5ekwx",
+          "headline": "Oregon Gov. Kotek signs bills aimed at housing affordability - KGW",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeGJLQlRCVEg5MFRqeHRyM1p6SEVnVXEtcWxjVTFySmk0eUhlR0daSFY0TkotWk9lOHBBV05za3FaZF85OFY4cVBfODVrY0tkQ3dFNnJpUDBRZFEtS3FGd2FycEVEdlB2NUNiOUpoMXgxYm9FNThtLWowLTBYM0FrOGE3ZkN4NEZsby1faWZfbExtSGlTYm9XLXNJVy1DdUdIQ2hvQWxHVkUyVWJmYURwMkZqbXZURndiZmRNQ1JvdmZwRnpzSF9qaDd2Y1pZY1BOVzVSRA?oc=5",
+          "summary": "Oregon Governor Kotek signed legislation intended to address housing affordability.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-glob-ysvvke",
           "headline": "How Spain plans to tackle the country’s public housing crisis - The Independent",
           "source": "Google News Housing Global",
@@ -1821,6 +1955,15 @@
           "date": "2026-04-22",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPT0NQa2ZYVzFRN0dvVG90VG5fZ3d5ZWJybUdXYnVOTjdCU0V2QjVSbWJhajg3WXllZVpiQlgxX2NSbGhWNGdfRlFicHZxVVNrSHFnTmRoUkVWU0NLTkdCbXVqSWhLcEJhSi1MYkdEb1BmeWVONGN5TjlpSWkyaHByOUFGaw?oc=5",
           "summary": "A HousingWire article argues that artificial intelligence is not responsible for the housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-8ntama",
+          "headline": "Vermont’s housing crisis is built on a lie - VTDigger",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYnFfS0hiZkN0bG95a0lRRnM2SzNTWmljeFFaSFE5RFlVOE1KeXhIMmV3RnpHRjcycGxkLTJxaW83SVFKT2NKVXhIQ3dob3JOUDhuREkwQi1SMTR2cmVlXzJBVkt6Vk5MdEpZMUV4ZVlnYlF3a1B6NktIUG50M09jUmJFRGMzR21BbXc?oc=5",
+          "summary": "An opinion piece in VTDigger challenges claims underlying Vermont's housing crisis narrative.",
           "summarySource": "headline-only"
         },
         {
