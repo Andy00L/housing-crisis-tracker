@@ -1,20 +1,16 @@
 {
-  "generatedAt": "2026-04-21T23:43:53.002Z",
+  "generatedAt": "2026-04-22T10:24:56.918Z",
   "regional": {
     "na": {
-      "summary": "Toronto's new condominium market has hit a 35-year low, with sales falling 52 percent year-over-year and no new projects launched for the first time in three decades, as investors withdraw from the preconstruction sector amid four consecutive years of price reductions nationally. Canada's broader spring housing market is moving more slowly than typical for the season, with economic uncertainty, geopolitical tensions, and volatile financial markets keeping buyers on the sidelines despite declining prices. Against that backdrop, a first-time buyer in downtown Toronto was able to purchase a one-bedroom condo for approximately $470,000, below a $500,000 budget, illustrating how the cooled condo market has created rare entry-level opportunities. The Missing Middle Conference is scheduled for Vancouver on May 8th, 2026, where policymakers and planners are expected to discuss supply-side solutions to Canada's ongoing affordability challenges.",
+      "summary": "Site work has begun on 100 affordable units at Shannon Park in Dartmouth, Nova Scotia, marking a concrete step forward for public housing supply in Atlantic Canada. Toronto's condo market, meanwhile, has hit a 35-year low, with new condominium sales falling 52 percent year-over-year and no new projects launched for the first time in three decades, reflecting four consecutive years of national price reductions. Economic uncertainty, geopolitical tensions, and the withdrawal of investors from the preconstruction condo market have combined to suppress demand across Canada, even as cooled conditions allowed at least some first-time buyers—such as one IT engineer who purchased a one-bedroom unit in downtown Toronto for approximately $470,000—to enter the market below asking. In the United States, Tulsa city leaders are partnering with churches to expand housing options locally, while the housing affordability crisis continues to squeeze buyers across multiple age groups, not only millennials but also middle-aged and older Americans.",
       "keyDevelopments": [],
       "highlights": [
         {
-          "text": "Missing Middle Conference",
-          "topic": "legislation"
-        },
-        {
-          "text": "Vancouver on May 8th, 2026",
+          "text": "Tulsa city leaders are partnering with churches",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-21T23:43:53.002Z"
+      "generatedAt": "2026-04-22T10:24:56.918Z"
     },
     "eu": {
       "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
@@ -63,6 +59,33 @@
     "Canada": {
       "news": [
         {
+          "id": "rss-google-news-build-canada-ddeqin",
+          "headline": "Shovels in the ground to build Shannon Park affordable homes - Seek Your Sounds",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZnc5d1d2b2JVRnBGdERiVjloTk5CMXotNlg4TGxxeVRadjFSRk9SVVZjdG1ycFBFM1JiVEdNZFNhM0lTcEhibDVWem03ZnlPZU9XNHlwTGZCWUh0QzZ4YlJLNVpoZ0tVQVc2SDBMbmhITThSTG43dEthNXFGUmRPSjk5eFdLM1d2SzFrd0NGWFZZLXRPbUNrQU9GQ3ZtdkdCWWlGSHhlcW9YQ3YtdU1kaUpn?oc=5",
+          "summary": "Construction has begun on affordable homes at Shannon Park.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-build-canada-lj2jkw",
+          "headline": "Site work begins for 100 affordable units in Dartmouth's Shannon Park - CBC",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZEpySjlwRm5UNTBZclZxS3NXemMwZkZ2cnVoUTlvSUo3aG55NU1nYkNKdmxwZGVQSnVrUVp6cUtiWUxUQ2ZJZWRjdDBTRmJfLVFnNzFOWVBuTWhxRzJnNTZmOGlKMmNGQUNnSGdxNGJEQUxQQnJQakhmUXR0akxTUlRXcHdnM0ZuVXMwLTBPV1E4M0pkSzVjVW9B?oc=5",
+          "summary": "Construction has begun on an affordable housing development comprising 100 units at Shannon Park in Dartmouth.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-build-canada-e4as71",
+          "headline": "100 new public housing apartments coming to Dartmouth’s Shannon Park - haligonia.ca",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcHJZdW5tNG1lWDN4WEU5eHhvbWUyb1VjeXM5ekZGZ3hoS2JjWGtQVUVfdXhCa3RqcXVad3BWclNMME9SeHZ5TjdPNl9OVzNManhhMUlfaVlod2FaTDF0OW9kTVhrckhLR25FOFFWSUhJcWxWaldDdXpuZXpaSkR4UGtuMWxkT2FrUFJrUHpKUHRRaTN2YmRzQ3lfZ1o?oc=5",
+          "summary": "Dartmouth is planning to develop 100 new public housing apartments at Shannon Park.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-financial-post-ifwgxw",
           "headline": "News of the day: Spring real estate, Toronto condo market, federal budget update, NorthStar valuation, vacation planning and more",
           "source": "Financial Post",
@@ -96,6 +119,15 @@
           "date": "2026-04-21",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zd3F2NjdLRXI5azlTaGc5a21fSkUyblhMTkhHaWc2MjhnaDRsYnlBZFhFWEtzblI1S3hVZWt6N3hIdU43WlFIN04zRTQ2OFlJVjExLVBnZFVnd0lac3E2dXhoai00djU2OW5mcHh5NjJHb1lRWm0zZUV1bDNwUQ?oc=5",
           "summary": "Spain has approved a policy plan intended to address its housing shortage.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-ca-o1g4hb",
+          "headline": "Why Alberta’s housing crisis isn’t just a big-city problem - CBC",
+          "source": "Google News Housing CA",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82N0pULUZRbDk5b2NidWU3c2lvT3Z4a256enNNWVpsVG5kZVFmUE1mWXR1NkhGUXd2cDhod0ZDSXg4ZmVGTmpOZDdlSW03Tm1JeFE?oc=5",
+          "summary": "Alberta is experiencing housing challenges that extend beyond its major metropolitan areas.",
           "summarySource": "headline-only"
         },
         {
@@ -1008,6 +1040,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-zoning-on-bc-revdja",
+          "headline": "Hunter Prize: Echoes of abundance—The forgotten formula to solve Canada’s housing crisis - The Hub | More Signal. Less Noise.",
+          "source": "Google News Zoning ON BC",
+          "date": "2024-10-30",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNm5VbVlFTFhtSC1jd3BxdmJuTkM5ekpXUXFwZ1RIWUtuTTVRNnBma0ZZQTVWaFhkblVaRnBTYUxvV2Z0LVFiQ2ZCTUx1S3ZOQVUtbEphM2FST0VyZk5MTk1tdFBiR05fdGVleWY3a2Z5emJoVHFGdHBTb3hwRTM1VjhjWkM2b1hoWF9sNk5peHc5QUtIcUVPLTdBV1BIb2NWb0hPTkM1QjFZNUlnUC1BcjNDMVpEQ00?oc=5",
+          "summary": "An article examines historical approaches to housing policy that the author suggests may offer lessons for addressing Canada's current housing shortage.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-zoning-on-bc-de3zmd",
           "headline": "Hunter Prize: Municipal tinkering won’t be enough to fix the housing crisis. Provinces should pass a ‘right to build’ - The Hub | More Signal. Less Noise.",
           "source": "Google News Zoning ON BC",
@@ -1279,6 +1320,15 @@
           "date": "2026-03-04",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUHlLRmZFX1ZSdzBMQ0xLeFFCSUo3SjROcHg3Ry0wcVVrMHBocG9fbXZCaHVLaWthQWZwWWhickdoeEcyVHVhX183b29rXzVzWXVKMTk1MTRjSHRxQlNCVzdNMENsWURQbFJzdTNJeDBhXzBiTnB5RkluNzB3YjZBTDlITTIyQQ?oc=5",
           "summary": "The article discusses how rental housing construction might address the nation's housing affordability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-qju15o",
+          "headline": "4 solutions to the housing crisis - Fast Company",
+          "source": "Google News Housing US",
+          "date": "2026-02-26",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1CSlhwTWhDOTl2MEdQZ3JlYVA1Ti1jMjRGRzJYVFFNb1dUUjQ4d1ZqdXNhZ0doeFpCQmJQRGk4T2pBS1lzSXBsY09hNnNSSG0zbFJQMER6Vk1yc2JlcFdDdmVzUXV3TzViMHVEbk1XSFVYQUJWOHJTU0JR?oc=5",
+          "summary": "Fast Company identified four potential solutions to address the housing crisis.",
           "summarySource": "headline-only"
         },
         {
@@ -1620,6 +1670,60 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-jo146w",
+          "headline": "$19bn tax plan to fix Aussie housing crisis - Yahoo Finance Australia",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96X1h2cEp5VnVCb01JU1kwSjAtNV9Rc1V4UFNEczhpYk1hVlZmZlM2YVp1ZUZvRlBWMU84SUZTN05xSFdhVjdGNnJYSzRfSnFOZDhIb0JxRkV0a3lVS2hnckk2QmJQRWxJSHBRZGhWZWdlcTJWZWFEamlZLU13Zw?oc=5",
+          "summary": "An Australian government proposal involves a $19 billion tax plan aimed at addressing the country's housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-3pyzr8",
+          "headline": "Stop blaming ugly buildings for the housing crisis - The Argument | Substack",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ZZmNobVhfS0NaRHpRWXZnMWVKRG96OGhrRl8zR3pncm9Laks2WlA1ZVlNaGtQbTFwWnRTZEs2bWtLdm9vM05FVTJ3a2o1UGhHU2JzWWp6SDFWQkxKTlJIMkpzb0JjTVJERUIxbDBzaTRfdllKMnVr?oc=5",
+          "summary": "An opinion piece argues against attributing the housing crisis primarily to architectural aesthetics or design quality.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-oyuli0",
+          "headline": "Editorial: Chicago’s politicians bemoan our housing crisis. Their fealty to unions makes it worse - Chicago Tribune",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQTdMU0dzY3JIYlhReUd4S1I2U1pZWS1DUEg0MmhqOTN4endFN1RlaE0wVTFOeXhHLVlKTFI4U0ZlTWhiQ3BOSGZFa3FjZ1MwWkZqNEk0aVFvdEJUUlNZQzk2RWFVVUZPRWYwRmYyRkJtSVJ3VGhaYUUwNTh1NWVXX3lYRmNGMi0zcTB0NWc0SlJhUm9NUEo5ZmlfYU9TaFV6cmRWTno0ek1EYWtvQ3UxYU9FTThnbmx1WHBtR2lMNDFHWERI?oc=5",
+          "summary": "A Chicago Tribune editorial argues that union influence on city politicians contributes to housing supply challenges in Chicago.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-hleqh2",
+          "headline": "The housing affordability crisis isn’t just crushing millennials—it’s squeezing out buyers in their 40s, 50s and beyond too - Fortune",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYllEMUpSSHBjallMTFBmRzRQZnh5XzlkcGN5TjRxdm5CZXA4T1lncjRpTGx4X0EyX1pvSHZYM29qRThROWZuTE42RTNQdnI0dVp1eU1NRjRrOThpNk9EM1ZCNUVWLUZlRGh0TGRyLTFNbElwM2FOQ0Q0SnRwQnBjQ3VqczFrUQ?oc=5",
+          "summary": "Rising housing costs are affecting homebuyers across multiple age groups, not only millennials but also middle-aged and older Americans.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-unegfr",
+          "headline": "AI isn’t to blame for the housing crisis - HousingWire",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPT0NQa2ZYVzFRN0dvVG90VG5fZ3d5ZWJybUdXYnVOTjdCU0V2QjVSbWJhajg3WXllZVpiQlgxX2NSbGhWNGdfRlFicHZxVVNrSHFnTmRoUkVWU0NLTkdCbXVqSWhLcEJhSi1MYkdEb1BmeWVONGN5TjlpSWkyaHByOUFGaw?oc=5",
+          "summary": "A HousingWire article argues that artificial intelligence is not responsible for the housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-fgdhk",
+          "headline": "Open Letter to the Government of California regarding the housing crisis - Coastside News",
+          "source": "Google News Housing Global",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNQVo0SDVZZzJlUmV5N3BRVnV2OVQ5NWhoY3M2TG41LV9XWllOT0RGMFJMY2Y5N1ZtdFdQUmg5UHU1QlNZelBwZER4OXI3QlVfQU4yc3JJWkNnbzNSY0ZlZUF0SENKc211ZGgweVhzeWczd21VTHNBNU9OZXRlRDhET3ZQWjFMNGFsWGNDUW54Wml0U1FKT3l1XzI1ak9QdHJ4czhTVEg3U2VJNFNyendmY1RpSHNpTnFDRWNSVEhYTmpPaFVmVGpjR0V5RUxpR0h5ZWpqRUVjT0ZMUVlNZ3ZTVXV4eDBCampqT1pSbk9VXzlZTEtwUy1kaU9HN3BBaDNFUTBid0JpVVJ0Zw?oc=5",
+          "summary": "An open letter addressing California's housing crisis has been addressed to state government officials.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-798gso",
           "headline": "Can Azure Printed Homes help solve Colorado’s housing crisis with plastic bottles? - The Denver Post",
