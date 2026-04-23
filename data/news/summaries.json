@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-22T23:53:32.092Z",
+  "generatedAt": "2026-04-23T10:26:27.042Z",
   "regional": {
     "na": {
-      "summary": "Oregon Governor Kotek signed multiple bills aimed at housing affordability, marking one of the more concrete legislative actions in the region this cycle. In Canada, the advocacy group Maytree called for making the right to housing a central component of Build Canada Homes, the federal government's flagship housing initiative, while housing advocates more broadly continue to press for solutions to the country's ongoing shortage. In the Greater Toronto Area, new condo listings declined in early 2026 as sellers reduced prices to attract buyers in a slower market, with larger units in established buildings drawing modest demand from downsizers. Maine's earlier zoning reform effort to address its housing crisis has produced inconclusive results, underscoring the difficulty of translating land-use changes into measurable supply gains. Homeownership rates have declined across multiple age groups nationwide, and supply-demand imbalances are being reported in markets ranging from the Poconos to Seattle, reflecting the breadth of affordability pressure across North America.",
+      "summary": "Oregon Governor Kotek signed bills aimed at housing affordability, marking one of the most concrete legislative actions in the current period across North America. In Canada, the Maytree organization called for making the right to housing central to the Build Canada Homes initiative, while housing advocates more broadly continue to press for systemic solutions to the country's ongoing shortage. The Greater Toronto Area condo market is showing signs of strain, with new listings declining in early 2026 as sellers cut prices and buyers take more time to make offers, with larger units in established buildings drawing modest interest from downsizers. Maine's zoning reform effort, undertaken to address its housing shortage, has produced inconclusive early results, echoing uncertainty about whether legislative fixes translate quickly into supply gains. The University of Washington launched a Housing Futures Center to tackle Washington state's housing crisis, and Middle Housing Partners unveiled a scalable investment strategy targeting California's shortage and affordable living options. Homeownership rates have declined across multiple age groups nationwide, underscoring the breadth of affordability pressure even as Dallas ranks 7th in the US for housing affordability according to a recent study.",
       "keyDevelopments": [],
       "highlights": [
         {
-          "text": "Oregon Governor Kotek signed multiple bills aimed at housing affordability",
+          "text": "Governor Kotek signed bills aimed at housing affordability",
           "topic": "legislation"
         },
         {
-          "text": "right to housing a central component of Build Canada Homes",
+          "text": "right to housing central to the Build Canada Homes",
           "topic": "legislation"
         },
         {
-          "text": "Maine's earlier zoning reform effort",
+          "text": "Maine's zoning reform effort",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-22T23:53:32.092Z"
+      "generatedAt": "2026-04-23T10:26:22.497Z"
     },
     "eu": {
       "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
@@ -44,28 +44,37 @@
       "generatedAt": "2026-04-18T15:46:12.678Z"
     },
     "asia": {
-      "summary": "Australia's construction industry is pressing for what it describes as 'once in a generation' reform of the National Construction Code, arguing that streamlined regulations are essential to meeting the government's target of delivering 1.2 million homes by 2029. Industry bodies have linked rising build costs to Middle East supply chain disruptions, which have pushed fuel and petrochemical prices up by 20–40 percent, compounding affordability pressures across the sector. The government is currently consulting on potential code modifications, with industry groups contending that without regulatory reform, builders will be unable to scale output sufficiently to close the housing gap.",
+      "summary": "Four residents of the Aboriginal community of Papunya in the Northern Territory have filed a Federal Court claim against the NT Government, arguing that decades-old public housing lacks adequate insulation, shading, and air conditioning to protect residents during extreme heat events exceeding 40 degrees Celsius; the case, represented by the Human Rights Law Centre, is described as the first legal action of its kind in Australia seeking to establish that governments must provide climate-safe public housing. Separately, Australia's construction industry is pressing for National Construction Code reforms ahead of government housing crisis talks, citing Middle East supply chain disruptions that have driven fuel and petrochemical prices up by 20-40 percent. Industry bodies argue the regulatory overhaul is necessary to help builders meet the government's target of delivering 1.2 million homes by 2029, with officials currently consulting on potential code modifications.",
       "keyDevelopments": [],
       "highlights": [
         {
-          "text": "'once in a generation' reform",
+          "text": "Federal Court claim against the NT Government",
           "topic": "legislation"
         },
         {
-          "text": "National Construction Code",
+          "text": "first legal action of its kind in Australia",
           "topic": "legislation"
         },
         {
-          "text": "consulting on potential code modifications",
+          "text": "National Construction Code reforms",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-16T20:44:54.241Z"
+      "generatedAt": "2026-04-23T10:26:27.042Z"
     }
   },
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-google-news-housing-ca-tqba9u",
+          "headline": "Advocates seek solutions to Canada's housing crisis - MSN",
+          "source": "Google News Housing CA",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY3hWb3VBbXprYm1yWV9teGVXX1pZOE5xNENUMl83dUlqQWNIMlIyVl95REZVcVRweDZkZmJwMkNSS3BueEhDTXpZejhlTWFWcFAtT1lVWTE1d0d4eUZIZnAycTUwVGN6MnNpWUJ6LVR5TmFnMThjZUZVdGh0a053Ti0xbE9NQ0F0TnRvWWVrNkRzNUl3dVNQV0NSeEdGSjl6bFFQLTVhSTE0aV9iOHhoeko5TnBQMWsteGYxdjBPR3p1YmlyQU5LeHlVZFpCSURVTGRXeVI2R0RTbXQ0N2RrZk54NEg?oc=5",
+          "summary": "Housing advocates in Canada are working to address the country's housing crisis.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-build-canada-d218cc",
           "headline": "Make the right to housing central to Build Canada Homes - maytree.com",
@@ -541,6 +550,15 @@
           "date": "2026-03-20",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUUJXZ2FBLW9CcFM0aU43UDU4Y3E2NFRJRjY3aUhxeUdZY1Z0ZmtsTmlBSUNjR09ucFFtaU4tYnU0djdQQVRlLURwSGxIMl9VOHB5VVZTQ1FwMWUzTGRoelBWdFB3UnlfWDREcG9HSmtGRWFINTB1UmVZVXZYTU9yY1FMUm96NEc2d25sa2ViN3dTQU5FSWc?oc=5",
           "summary": "The article discusses whether Canada's \"Build Canada Homes\" initiative will have a meaningful impact on the country's affordable housing supply.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-build-canada-vnxpmb",
+          "headline": "New Affordable Homes Coming to Newmarket - ontario.ca",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-03-16",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON2x2cFdYSm9Sek4zV18tQlM4MjEwNGhmdlJYMlc2NFRGcHl6Tk9sY3d3dHd6SFFiWEpLZlo4OTFHRjBGTVM1XzJMWHpYTS1NTjdoWGF3eEZpRl9VaHlkTUlOS3dheGRUeTZJakUtS2NpUVlNelJUTlVuZ3Zidi1wNXJoeWlSWHYzSUk3Mg?oc=5",
+          "summary": "The Ontario government announced plans to develop additional affordable housing units in Newmarket.",
           "summarySource": "headline-only"
         },
         {
@@ -1747,6 +1765,15 @@
     "Australia": {
       "news": [
         {
+          "id": "rss-sbs-australia-rmmje",
+          "headline": "Papunya temperatures often soar above 40 degrees. Now residents are suing the government over unsafe housing",
+          "source": "SBS Australia",
+          "date": "2026-04-22",
+          "url": "https://www.sbs.com.au/nitv/article/this-remote-aboriginal-community-is-suing-the-nt-govt-for-unsafe-housing/7hs1svjvg",
+          "summary": "Four residents of the Aboriginal community of Papunya in the Northern Territory have filed a Federal Court claim against the NT Government, arguing that decades-old public housing lacks adequate insulation, shading, and air conditioning to protect residents during extreme heat events exceeding 40 degrees Celsius. The case, represented by the Human Rights Law Centre, is described as the first legal action of its kind in Australia seeking to establish that governments must provide climate-safe public housing.",
+          "summarySource": "article"
+        },
+        {
           "id": "rss-sbs-australia-hux13j",
           "headline": "Construction industry calls for 'once in a generation' reform ahead of housing crisis talks",
           "source": "SBS Australia",
@@ -1759,6 +1786,78 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-jspm6a",
+          "headline": "How NYU Students Are Using Instagram to Navigate NYC’s Housing Crisis | by Elias Cohen | Apr, 2026 - NYU Local",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNTFBMThzdERCbTJBdVRVQzlwSnAweF9RU3luQlFVVUxudm1XWGtWXzhZdzhpcmRhSXR4VzdTV01wTWt0Uk0yMWtTYWJKdFNucDJvUUFLWjlJbkVDM25QQ2VPV2Y2djA5SXhaN2VtdUdoMVF3TThaVjhNZlFqWGhXblFmVDJjT0JKMFlLQk5vZTdJZUxVZHJ6SFh5UGFpdVlCWnE1OA?oc=5",
+          "summary": "NYU students are using Instagram as a tool to address challenges related to finding housing in New York City.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-ug7jzy",
+          "headline": "Fairway or driveway? Why golf courses are in the crosshairs of Britain's housing crisis - BBC",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBzdGF6ZGxVZ0Y4ZzFqREFhRklQY0JCUWt5MFRGQm9uRVhqbndJNjk0dnJBNEItMGpsRUlCSk9idDhhMExwM05mM2dxVTh0TUh3WS1hNzlhbzlNQQ?oc=5",
+          "summary": "British policymakers are considering whether golf courses could be converted to housing developments as a potential response to the country's housing shortage.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-r0uox3",
+          "headline": "Opinion: On housing affordability, deeds trump words - The Wake Weekly",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcTNWclQwb1BrcGpYdThJSnE1UUVFZzFFN1E1UkNtdEtYV2ZUQ1hXRFc1cXRkaXdhY2o2M0ZPXzdMQURpSmJyN1p4UzB0WTdGbWdoZkFidFdzQkxYTVJoLWF0dHh2eGdiNUQ3T2plVnJOUEdYSWhBYVplTkc3T0pWME9WQjMwTzM2WmRPWC1SN3dXQm5XbWNpbktB?oc=5",
+          "summary": "An opinion piece discusses the importance of actions over rhetoric in addressing housing affordability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-gyc85s",
+          "headline": "Florida housing affordability takes center stage at policy summit - Bay News 9",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMDQ5cnNrajU1R1RXcy1scHdyekltay1qLW4zS0FfejhpN1RDR0lTQnpVb3ZMV3U2Q3FQdU1YVE1WZXNUSFJlbUYxX1hWYmczOE43V3c5eFFjTXowVXRIaFA0c1oyNklQZnV0N0xNN1IzSGJUWjlQWjljSHRWc0dFZlhQSGZrV0d6TTlwYU9BdGhmVzFIZkFSREdLYmp2ZS1Jekg1dnJGVnB1NS0tNmdESg?oc=5",
+          "summary": "A policy summit in Florida focused on housing affordability issues.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-7a2fvw",
+          "headline": "UW launches Housing Futures Center to tackle state housing crisis - KING5.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOblZBZFlnTVVQd3dsQVJxTGxrQkhVOGxMc2EwZGJ4V1RMS1NyZi1LX3hITkRXOU1KSWI3STN0X2YzVXhRMlRTamlnbTNaVUlBM2ZQQjNBZ05sdk5XT19ZNWdJZkpGV0JQcVY1SURWcXhHN3FnS1RYMmRVVzRFZmtCeDhCdk5kQ24wSzJ2NlVuSThiWEhUc19wanA0cU85WHpfNzNWeVZuMVQwYk1DZ01FczBrekZ3aWF6RkZ5VkxkaEotUWVTWXVBbEVjdzVKT28xd2NTQUE4cUZqLWNpT0E?oc=5",
+          "summary": "The University of Washington has established a Housing Futures Center to address housing challenges in the state.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-dvcpxl",
+          "headline": "Middle Housing Partners Launches Scalable Investment Strategy to Tackle California's Housing Crisis and Expand Affordable Living Options - markets.businessinsider.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPRGdsYy10dzFhTVNoXzJMNEhJVi1md0JndDdwLUNyT1puNDZ3MGhMNDQxczYzUDdnMXNsdkw5ZTBxQkVab2lxOUNoQ3BDM2IzTlFrRGh6Z2FHRTFFUmpLZjRrRWNGekxlZnYzNlNnUDFzOU1lNlczOGs0TWlwWTk5MHpnSVRxTlJUWTFmZFJSOWYzaHp3d3lvU1JGZzJuMlVJS3gtQXM0cXFRZElRblpJQnB4UDh2b1FTa2NMaEJiQXZ4TW1rajRZUHpsVk14N1N4aVNYckZIQ2Y5aFBkbVpsV0JTdDE1aGxaLVczUUNyX2owRjZsT2xXU2Z3Q0lKdmVmbFByRkJoOVB5MmFSX2FaRDdiWHNLYVNpOXhQU3JTZjg?oc=5",
+          "summary": "Middle Housing Partners has launched an investment strategy intended to address California's housing shortage and increase affordable housing options.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-6n0qkt",
+          "headline": "University of Washington launches Housing Futures Center to tackle state housing crisis - KING5.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVC1sQkk4LXJQXzhkSTN5eGlRb1BvR3JPUDFfVWh3U3hoVHAwTlFTWHFuNVJXekdua1NMR3FzQVhNamhqejZNM1ZaTl80U2s1c2ZUbnF5RGJCZ0NuVjdrcWJXWldkQ1VtVHhLT082LVFBbmlqZFpyZFNGejhtckFTTi1LVUZwWnFUTndId2J0dFZ3a1dWdW1XVW9RbjNDYW93S3hzc0pVTU9MQXB5eGZfaDE1ck5mS3BYQ0NvbkY0U3VDV09Ec3JVc3NFckNhQ2RJbHVwWTg2T2dBWFBi?oc=5",
+          "summary": "The University of Washington has established a Housing Futures Center to address housing challenges in Washington state.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-8sm7jx",
+          "headline": "Maine tried zoning reform to fix its housing crisis. It’s unclear if it’s working. - The Maine Monitor",
+          "source": "Google News Housing Global",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6MkxDV01qVkE1TmVJY0MwekhpaGdtbWc3b2hTZ21pc2NSVDZ1SEEwVWdKekJLcnJXc2d3bDRyZXF3VGNHUm5PMFB5VDBZN0tldTJsd1hxQS0wX3p3TzVQNXVqN2g?oc=5",
+          "summary": "Maine implemented zoning reforms intended to address its housing shortage, though early evidence of their effectiveness remains inconclusive.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-yhqhm2",
           "headline": "Housing crisis hits all ages as homeownership declines nationwide - Fox Business",
@@ -2135,6 +2234,15 @@
           "date": "2026-04-21",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVlRUN0tPNGhpWTZrakNpYUxxUHVRUkJaODQtOWYxTkxZdVlMbV9OVjFpWXNMaU9aNFZQbGRvY3UxTWdueWxzVHB6TTVOdURuV1Z6bkplZ0ZlY3N4bnRxN1Nnbk5NQ3ltNnM4dFZaOGFUbXhtUFRWUnpSQnVWRXFMbEFqdlBKWDF5SlJQdk9OUFVNdE04NnFNQUw4c2pwUU9uVElvUEtHT09EWWEwcFE1cUhkTzNiM2tjV1ZDWHFKcXQ2WUVXeG4xYTY3Tjl1TnZFaVNBNw?oc=5",
           "summary": "Spain has approved a policy initiative aimed at addressing its housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-y26nf2",
+          "headline": "Spokane proposes $1.2 million in TIF funding for affordable housing projects - KXLY.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOdUl2R3d0dzBvUFMxNm5qLVhpQkE1ZVc0cWk2R2tuTjROZEhsaFFjN1ZGVm5Ib3FaX0ZLMWVFMlFXRTZ1MUlLaHJYZUR2T3NSQ2xCRUVOT2VrMUpQeXc3UWIzOGFxYUQzdHJZbWMzU3RzYWd2QTcxV0h1eTlyZ3BzZ3ZRNFRLVURGekw4cExZUVdMcUhpNzRhRks3a2xTZlE5N2JlMW4zdnQxbHp0UFAzUFE5SW5nWklBdFJfc2JPWFlUR3JTeHVoWHpvdm9pdkY5N3lNMjJncTJUQkZQRGoyVnBDenBHRktOcGNPU2JjdUU4YnpnYURTeHBR?oc=5",
+          "summary": "Spokane has proposed allocating $1.2 million in Tax Increment Financing (TIF) funding toward affordable housing projects.",
           "summarySource": "headline-only"
         },
         {
