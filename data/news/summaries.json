@@ -1,24 +1,28 @@
 {
-  "generatedAt": "2026-04-23T10:26:27.042Z",
+  "generatedAt": "2026-04-23T16:48:06.787Z",
   "regional": {
     "na": {
-      "summary": "Oregon Governor Kotek signed bills aimed at housing affordability, marking one of the most concrete legislative actions in the current period across North America. In Canada, the Maytree organization called for making the right to housing central to the Build Canada Homes initiative, while housing advocates more broadly continue to press for systemic solutions to the country's ongoing shortage. The Greater Toronto Area condo market is showing signs of strain, with new listings declining in early 2026 as sellers cut prices and buyers take more time to make offers, with larger units in established buildings drawing modest interest from downsizers. Maine's zoning reform effort, undertaken to address its housing shortage, has produced inconclusive early results, echoing uncertainty about whether legislative fixes translate quickly into supply gains. The University of Washington launched a Housing Futures Center to tackle Washington state's housing crisis, and Middle Housing Partners unveiled a scalable investment strategy targeting California's shortage and affordable living options. Homeownership rates have declined across multiple age groups nationwide, underscoring the breadth of affordability pressure even as Dallas ranks 7th in the US for housing affordability according to a recent study.",
+      "summary": "Ontario announced a temporary one-year HST rebate on new homes valued up to $1 million, though implementation requires both federal and provincial legislative changes and experts warn the benefit may flow primarily to builders rather than buyers. In Ottawa, the Prime Minister unveiled eight housing projects through the Build Canada Homes partnership while a federal agency simultaneously expanded the number of affordable units it is supporting in the city. Oregon Governor Kotek signed legislation aimed at housing affordability, and Maine's earlier zoning reforms remain inconclusive in their measurable impact on the state's housing shortage. A former hospital in New York's Hudson Valley is being converted into a residential development expected to add approximately 1,000 homes, representing one of the larger adaptive-reuse projects currently underway in the region. Homeownership rates have declined across multiple age groups nationwide, and a Los Angeles Times poll found L.A. voters express skepticism about the government's ability to address housing affordability challenges. The University of Washington launched a Housing Futures Center to address housing challenges in Washington state, while Middle Housing Partners introduced a scalable investment strategy targeting California's housing shortage.",
       "keyDevelopments": [],
       "highlights": [
         {
-          "text": "Governor Kotek signed bills aimed at housing affordability",
+          "text": "temporary one-year HST rebate on new homes valued up to $1 million",
           "topic": "legislation"
         },
         {
-          "text": "right to housing central to the Build Canada Homes",
+          "text": "both federal and provincial legislative changes",
           "topic": "legislation"
         },
         {
-          "text": "Maine's zoning reform effort",
+          "text": "Oregon Governor Kotek signed legislation aimed at housing affordability",
+          "topic": "legislation"
+        },
+        {
+          "text": "Housing Futures Center to address housing challenges in Washington state",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-23T10:26:22.497Z"
+      "generatedAt": "2026-04-23T16:48:06.787Z"
     },
     "eu": {
       "summary": "Landlords in England are accelerating no-fault evictions ahead of the May 1, 2026 implementation of the Renters' Rights Act, which will ban the practice, with tenant organizations reporting a significant surge in removals as the deadline approaches. The Regulator of Social Housing gave Basildon Borough Council its lowest grade (C4) after an inspection found serious failings including an unaddressed backlog of fire safety issues across approximately 10,750 social homes. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has attracted nearly 350 objections from residents, though planning officers support the scheme citing the council's housing supply shortage, with the matter now before the Planning Inspectorate. In Exeter, the proliferation of student accommodation and co-living studios is exacerbating affordability issues for young working professionals despite hundreds of new homes under construction. Meanwhile, the number of people over 55 facing homelessness in the UK has risen sharply, with a 79% increase in over-65s at risk of homelessness in the past five years, driven by housing benefit shortfalls and reduced social housing stock. Reform UK's housing spokesperson Simon Dudley was removed from his role after remarks about the Grenfell Tower fire drew widespread condemnation.",
@@ -66,6 +70,33 @@
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-cbc-canada-jvq6g",
+          "headline": "Why Ontario's temporary HST rebate on new builds may not lead to hot housing market deals",
+          "source": "CBC Canada",
+          "date": "2026-04-23",
+          "url": "https://www.cbc.ca/news/canada/toronto/ontario-hst-rebate-what-you-need-to-know-9.7172128?cmp=rss",
+          "summary": "Ontario has announced a temporary one-year HST rebate on new homes valued up to $1 million, though specific implementation details remain unavailable pending budget passage and requiring both federal and provincial legislative changes. Some real estate experts suggest the rebate may primarily benefit builders rather than home buyers due to its limited timeframe.",
+          "summarySource": "article"
+        },
+        {
+          "id": "rss-google-news-build-canada-j9x4wn",
+          "headline": "Federal agency boosts number of affordable units it's helping with in Ottawa - CBC",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMnRWQmt5T1pNeDlpbzVRUjRuM083R1BlTlhTYTI3bGw4aGk3SWJzcHRaM1dHa05rLW5fRkdLdUNtUkZpNl9GU2JrSWRQWnJmQXloaVlGWlJWVkk5M1FTLUR4WURpMVBILWFnczdpbm5UYjhHZkZiaEg5cWJVdnE1UngwdThPamxEblh0YXpaWlFlYXAzSHZ1Zjk4cG5wRm9iV094UzczTHM?oc=5",
+          "summary": "A federal agency has increased the number of affordable housing units it is supporting in Ottawa.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-build-canada-ro69gj",
+          "headline": "Prime Minister announces 8 housing projects in Ottawa through Build Canada Homes partnership - CTV News",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOajJqdXVCZGpLZHRRUlJWTWtSTm9ObFJzdHE2aExkTW5FNGxBM0g5dWF1bTdlS0tlckRna29wZHA3dmFtdDVmLUJMaU5jUnVkOEU0ZGVSTE9ta1cxS2pxbUowZ25GWjVLZkFaZUNCLU83cXN5Ni0tdHJ6MkRvU3pueW9ZNElSeHd4S1lIWlpobGVUT0p6eHZibGc0amhyb1hLdVR3TXUyOExxcVg2bVd5bS11ZGhCNm1uNnlwbmFMVGZzdEVobHp4U2JSYw?oc=5",
+          "summary": "The Prime Minister announced eight housing projects in Ottawa as part of a Build Canada Homes partnership initiative.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-ca-tqba9u",
           "headline": "Advocates seek solutions to Canada's housing crisis - MSN",
@@ -1268,6 +1299,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-c5p7h",
+          "headline": "Empty-nest baby boomers are causing the next housing crisis with selfish act - MSN",
+          "source": "Google News Housing US",
+          "date": "2026-04-14",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWRsbUFOQXNkRHN0b1VZLVFOY0ZqcHBCVEFQNGdSZWdoVV9BSmJEaHBqZldac3dHNEVzM1RhTFhZWW94WGVkdkh0NkpmOHBDbldnaHBpZWI2ZVV3Q05EMnRBLVlud1VsS2F0NVM4WGowR1RXa2k4R0pOek5MVnp1NFFlS1dQTm9hZW80YUpRNkZHeFBBdEhiLXdvc0tJakVUQXZjSXdHN3pTal9vZjhBYlhxTGlMMndYVThHM094bjc0eHVlWlJVM1Njcw?oc=5",
+          "summary": "A news article discusses how empty-nest baby boomers' housing choices may be contributing to housing availability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-ihh3bv",
           "headline": "I ran housing under Obama. Trump's new HUD rule scapegoats immigrants. - USA Today",
           "source": "Google News Housing US",
@@ -1786,6 +1826,42 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-4qacuu",
+          "headline": "Housing Crisis, Homelessness Prevention and the Cost of Inaction - Davis Vanguard",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iUjZ3aE1ZMzZrSVRWYmJIdkxkZGJQVWxvdTRMV1NVeWNVOXlVTGNWb1VDQXBjVUN5SWJDZTYyWUxKNjVFaWdiOElNcGFtVzVhV3J6UFRtZ3JHalExdWVncTZWQnBzTEhidnU5bWNKeXVScU1fVzVYVjh3YXlXbEU?oc=5",
+          "summary": "An article discusses the relationship between the housing crisis, homelessness prevention efforts, and the financial consequences of policy inaction.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-n71fwb",
+          "headline": "New York Housing Crisis: Old Hospital In Hudson Valley To Create 1,000 Homes - Hudson Valley Post",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMHpUelRELVdWVmo1T1ZZd0VjMlNjNkM3TzU3RGozcjdxeHU0U3BFdTNVbGt0Y3FDckllOXBGTTZsQkxmZzFyVWRGaWh4RC1MbUdyVWVvUjdhZWY1U3U3cWw4MjVsbWN0aVNjZ0tHbk9feXdXemtoN2hQSnFOSHF3aUgtdWtSaE1rSG1TNnVwbjVEZw?oc=5",
+          "summary": "A former hospital in New York's Hudson Valley is being converted into a residential development expected to add approximately 1,000 homes.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-1jiszu",
+          "headline": "L.A. voters doubt government can improve housing affordability, poll finds - Los Angeles Times",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdTFEaHE4X0NrM0NNbHRNdFdFYjdNd1hHNmx3Zjc3R2RXZTdtMnVzYjVTc09CTUZodnZSUXF2ZGppUGhjRkJVc3k4MkMzTllBaW9BOWM0X2x0a1puLWtkVXNBaTNYWU9mVWJuSDdhUjFRNzRybTlRYzg3eXBRcVJzRHZGQkFnZzd4UGVzQWFyUjkyRnQwWi1keTBKMHJIVWp5WW45TktVTnZTUDZVNUUxaVY4emhaSGJKRFg4?oc=5",
+          "summary": "A Los Angeles Times poll found that L.A. voters express skepticism about the government's ability to address housing affordability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-iwwe71",
+          "headline": "Congress is finally tackling the housing crisis. What will it mean for California? - San Francisco Chronicle",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ045YjZqd3BqTXlYNm80ZUVSc3ZtMXJnLTdad0k5ci1mMWk1TWphblVUS204R0FCek1hb2Z0SUhtVmR4MzVRV1p0X25jNmhrelNQdHVva21NQTVyRjhMTkZlVnhIdUpnZFNjWGhETkZvSGphckEwNEM4T25aU19CVzg2YzRtcTNya1N0alRmbzdVTUVh?oc=5",
+          "summary": "Congressional action on housing policy could have implications for California's housing market and affordability challenges.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-jspm6a",
           "headline": "How NYU Students Are Using Instagram to Navigate NYC’s Housing Crisis | by Elias Cohen | Apr, 2026 - NYU Local",
@@ -2711,6 +2787,15 @@
           "date": "2026-03-26",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd3lZeG55R0w0bVFyUDRwZUpBcVV4U3ByZENtVk91NlZPYjEtSVRTRGJNSk9GMU56ZEVxR080QmE2VHlYTENRQWMybXBIWWpXbDNXNU9vUERvUzJGdGJxUkZrckgzR1NwS1JIUnZBZ0NldmtEc3BmSUVFRm9JelBEM1E1anhySmZNTlNFV2pR0gGOAUFVX3lxTFBTT25OeGhFRVpXS2xiWmp0aC1XdktsMTQzSm9VcmVqd09fODVDYVZhM0QxLXVZYTQ3V1F2Nmc5ZUtwSzJBeEJDWV8zYXN6QWRoNjVxWlQzQm5oVXBIMHlfMUYzOFdzSGtTMV82ZG5HSldpUzdrTklteVhmcHZzUWxpaUZtaHluNlg5VU5sbnc?oc=5",
           "summary": "An analysis piece argues that incremental approaches are insufficient for addressing the current housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-dmh2v0",
+          "headline": "The world’s most unaffordable housing is not where you think - The Economist",
+          "source": "Google News Housing Global",
+          "date": "2026-03-25",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNFNmbmp1ejFKR2xPaFV1V25Gb1hVaGtWWDV1eU42RGt5TzJXXy1SeGZGMFgzN25Ld045YVpoeXhZNnhUWVJLUFpTUWFtWlFPdmQtZlluSmtaMnlxQVBEZ0dOY3dtUGtCN0VWREdNWDJYVEpmTE1QTGFQY204aDktUVdUbGZlUDBOTFB1RUYyWEpQVl9La0ZUamh3WnF6UHBkaHQ0?oc=5",
+          "summary": "A report indicates that the world's most expensive housing markets may be located in unexpected geographic regions, contrary to common assumptions about which areas face the greatest affordability challenges.",
           "summarySource": "headline-only"
         }
       ]
