@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-23T23:55:10.271Z",
+  "generatedAt": "2026-04-24T10:27:43.835Z",
   "regional": {
     "na": {
-      "summary": "Canada's federal government announced eight affordable housing projects in Ottawa under the Build Canada Homes program on April 23, while a federal agency simultaneously boosted the number of affordable units it is supporting in the city. Ontario has introduced a temporary one-year HST rebate on new homes valued up to $1 million, though experts caution the rebate may primarily benefit builders rather than home buyers and depends on pending federal and provincial legislative changes. In the Greater Toronto Area, the condo market is moving slowly, with sellers reducing prices and buyers taking more time to make offers as new listings declined in early 2026. Congress has introduced legislation aimed at addressing the national housing crisis, with analysts examining its potential implications for California's housing market. A former hospital in New York's Hudson Valley is being converted into a residential development expected to add approximately 1,000 homes, while the University of Washington launched a Housing Futures Center to address housing challenges in Washington state. Homeownership rates declined across all age groups in 2026, with first-time homebuyers becoming older on average, underscoring the deepening affordability pressures across North America.",
+      "summary": "Prime Minister Carney approved 1,100 new affordable rental homes in Ottawa on April 24 and announced eight affordable housing projects under the Build Canada Homes program a day earlier, marking a concentrated federal push to address Canada's supply shortfall in the capital. Ontario separately introduced a temporary one-year HST rebate on new homes valued up to $1 million, though the measure still awaits budget passage and requires both federal and provincial legislative changes, with real estate experts cautioning it may primarily benefit builders rather than home buyers. In the United States, Congress has introduced legislation aimed at addressing the national housing crisis, with analysts watching its potential implications for high-cost states such as California. A former hospital in New York's Hudson Valley is being converted into a residential development expected to add approximately 1,000 homes, illustrating adaptive reuse as one local response to supply constraints. Meanwhile, a Los Angeles Times poll found that L.A. voters express skepticism about the government's ability to improve housing affordability, and Maine's earlier zoning reforms intended to address its housing shortage have produced unclear results so far. Across all age groups in 2026, homeownership rates declined and first-time homebuyers became older on average, underscoring the breadth of affordability pressure across North America.",
       "keyDevelopments": [],
       "highlights": [
         {
-          "text": "Build Canada Homes program",
+          "text": "temporary one-year HST rebate on new homes valued up to $1 million",
+          "topic": "legislation"
+        },
+        {
+          "text": "requires both federal and provincial legislative changes",
           "topic": "legislation"
         },
         {
           "text": "Congress has introduced legislation aimed at addressing the national housing crisis",
           "topic": "legislation"
-        },
-        {
-          "text": "University of Washington launched a Housing Futures Center",
-          "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-23T23:55:00.020Z"
+      "generatedAt": "2026-04-24T10:27:43.835Z"
     },
     "eu": {
       "summary": "The Renters' Rights Act, set to ban no-fault evictions in England from May 1, 2026, has prompted landlords to accelerate such evictions in advance, with tenant organizations reporting a significant surge in recent months. An Institute for Fiscal Studies analysis of the Conservative government's Help to Buy scheme concluded that the largest financial benefits flowed to the top 10% of earners, while the programme inflated housing prices and failed to expand supply. Basildon Borough Council, which manages approximately 10,750 social homes, received the Regulator of Social Housing's lowest grade of C4 following an inspection that found unaddressed fire safety backlogs, inadequate hazard documentation, and poor tenant engagement. In Exeter, hundreds of new homes under construction have not eased affordability pressures, with residents arguing that student accommodation and co-living studios are crowding out rental options for young working professionals. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has drawn nearly 350 objections from residents, though planning officers cite a housing supply shortage and have referred the decision to the Planning Inspectorate. Meanwhile, homelessness among older people in the UK has worsened markedly, with a 79% increase in over-65s at risk of homelessness over the past five years driven by housing benefit shortfalls and reduced social housing stock.",
@@ -62,6 +62,24 @@
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-financial-post-jbc54x",
+          "headline": "Is the long-promised era of DIY mortgages finally upon us?",
+          "source": "Financial Post",
+          "date": "2026-04-24",
+          "url": "https://financialpost.com/real-estate/mortgages/is-the-long-promised-era-of-diy-mortgages-finally-upon-us",
+          "summary": "CIBC has launched a new digital mortgage shopping tool as Canadian banks gradually move toward online mortgage services, though most borrowers still prefer human assistance despite growing comfort with digital solutions. Research shows conflicting demand signals, with about half of renewal customers seeking adviser help while only 30 percent would pay extra for human verification of AI-generated recommendations.",
+          "summarySource": "article"
+        },
+        {
+          "id": "rss-google-news-build-canada-l2hkqf",
+          "headline": "Canada: PM Carney approves 1,100 new affordable rental homes in Ottawa under housing push - Northeast Herald",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNDdaRURUYUtQRVNxYWw3cC1PN2VRMmRNTkQ0b0taMzVDQWRzQ0JMOEJhOEg3WmRWNjJ0N0hqbVduWnZVb2o4MGI1WHNBSW5kc2NOWHZGaFJ2SjEwbUNrQndRU1FhWEFpOU5KbmlqSGpFUmVlR3RDUVlESlNfcl9VelM2Y0JJNFlhRVlZQlg4YzJrMXJ5dTRPT0tKMWdfRTR0NTVyd291NGRCN3F3bVNHVTFxY2h1Zw?oc=5",
+          "summary": "Prime Minister Carney has approved the construction of 1,100 new affordable rental homes in Ottawa as part of a broader housing initiative.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-build-canada-ae1zgs",
           "headline": "PM announces eight affordable housing projects in Ottawa under Build Canada Homes program - Ottawa Business Journal",
@@ -204,6 +222,15 @@
           "date": "2026-04-21",
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zd3F2NjdLRXI5azlTaGc5a21fSkUyblhMTkhHaWc2MjhnaDRsYnlBZFhFWEtzblI1S3hVZWt6N3hIdU43WlFIN04zRTQ2OFlJVjExLVBnZFVnd0lac3E2dXhoai00djU2OW5mcHh5NjJHb1lRWm0zZUV1bDNwUQ?oc=5",
           "summary": "Spain has approved a policy plan intended to address its housing shortage.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-mini-43ocol",
+          "headline": "Fact-checking Mark Carney’s housing and trade deal claims in video address to Canadians - The Hub | More Signal. Less Noise.",
+          "source": "Google News Housing Minister CA",
+          "date": "2026-04-20",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcGRnc0hqT0NISjdXSnloMV8yZkpob3dGM2JWOXdQYVF6bktJLXRtS05JRmQta2Q0QWNoSVFPZjVibjBFRkUyemlLWEk3dTJfYURmd01sNUxmOXljaGtJcXhuQkVUYzBIUklIbTFNUHN2emUyQXhHVXdIN05HTE43a0JUNndwOGlZbjktTFdQZElaYWUzUUdaMFcwRzcySHlmVUhid3llWG1FQTAtaTZDak5mNEtsTHM?oc=5",
+          "summary": "A fact-check examined claims made by Mark Carney regarding housing policy and trade agreements in a video address to Canadians.",
           "summarySource": "headline-only"
         },
         {
@@ -1399,6 +1426,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-4feir4",
+          "headline": "A Build America, Buy America law is causing construction delays amid the US housing crisis - Baltimore Sun",
+          "source": "Google News Housing US",
+          "date": "2026-03-27",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObHZYUXpLeUpHUlVTa19LcFlXdVU5SnVKYVFQamZvX1RIN0RfOURQaFFwNmx6ekNjZmJWMnZPcFZ0VER0dng2aXVVQ2xOcU5tWml0UkhBdUljNklZbUdvWjEteGNKMVN1cGtFMGRVM2Y4ZE12T0trTW5COEZnU2xmR2s0c1pwTE92UUFnZE5WbEctVmJF?oc=5",
+          "summary": "A Build America, Buy America law is being cited as a factor contributing to construction delays during a period of housing shortage in the United States.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-6tg058",
           "headline": "Housing Crisis Deepens as Supply Constraints Distort US Market Dynamics - Investing.com",
           "source": "Google News Housing US",
@@ -1540,6 +1576,15 @@
           "date": "2026-02-10",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVEM2VFR0M0xGU2hWb0FwN2FlMjdzM2llUl9jWGhYWmh1OUF5T25fbWxfbXBjVFNZdkNaRTN4bXdNNktmN0VVaTd4b09OTTJUeDlVWVJqcjRqZXRlWE5FMWdXdTR0U3IxbEZHVjlvcUtQQ2o0MVhac0NVSkNLOWdUazY4Q0dTTjFGdkUxeURXSlNUTTcxeVhJNTNyUGxGeWduXy1KSWpPT20?oc=5",
           "summary": "A Yale School of the Environment analysis examines potential connections between zoning reform and reductions in travel distance for Americans.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-dyna3b",
+          "headline": "Trump housing policy is a mess and it won’t fix the US housing crisis - The Guardian",
+          "source": "Google News Housing US",
+          "date": "2026-02-07",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQS3FfNmJ6dVJ1aWl1NllGOUI0QW1hN0FfbHRUVGFXRGQ1bXpuQnZDM0ZNVEhJNE1zMHR5REZEbWRXdlRDbFVEbFpiQ1pRZm40bktGSE5RRUJtRDBDRVkweW15NFFRa1B6cldPZjFqZnhfTWJXT0ZJQlVxM1NXZ1RIdDY3d2NDeDExZkp1bHpJRmd6dUxSdkEzUmFB?oc=5",
+          "summary": "A Guardian opinion piece critiques the Trump administration's housing policy approach as ineffective in addressing the U.S. housing crisis.",
           "summarySource": "headline-only"
         },
         {
@@ -1845,6 +1890,60 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-1raj8g",
+          "headline": "How the housing crisis made me a house plant influencer - Big Issue",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX1p3dEgtV2ItbVpENF9HbmNiVWlJQnEtZVhoSFJLeUh3Rlc0NmhzV3RzQmp1T2VrUmd4LVJ0TWpRQjg4aTZqODdvdWRMVWVwLVZDVWw0NUNLdW1LWlZrYXVYalk3ckk2Ym5PZTFFOGNuZzltMFpHUGtwQ21pNnlDeHB3?oc=5",
+          "summary": "A person has leveraged social media influence around houseplants in response to housing affordability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-854mgj",
+          "headline": "The anti-market delusion at the heart of the housing crisis - The Argument",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE03U3ZNb2NKX3R5SFA3eGkxVXJZdHIwRmY2SGZYRGd1SHJqTWhwRDFjMWFlM2FDNzZWTEJHMm9lYVloNDMtdlQ4NmdVaWZLbE9hbHFXY25jV3FqLUozNmRxVXhGM0lkSlJtU1pOZG8zM3hfY1R5cXBRVGd3?oc=5",
+          "summary": "An opinion piece argues that anti-market approaches are a fundamental factor contributing to the housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-ojdkdm",
+          "headline": "JSU addresses student concerns over housing crisis - WJTV",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOU50a0hNcER2TjhkMUNzcE5WZjZ4a2NJRzMydnlkR0YtNDJIeHB4aG1TNmtHOTNUZzItU256UHlBU0JTVmlXSk11dTFBZE42VUM5cUZ6YVNjMks3MFNVdnpGTHM5QkpxZEp1VjdwVXBUNzFtTlliZExmTTUzQ3EyOGdmT0hwbFNiRV9KV2xBWF_SAZYBQVVfeXFMTnNSMDhYU1RmbUFfOVhkeldDbzhFS3JpVTVRY012bThXOXhLZzRDU0pQRG1OVnBvUllrTEs5bVJuejY0b1JWQnBvWVVEYjdVem1jMHNJZ0tocWhTbHQtZk9KcjNVT25NNV9ENFR4N2FFOUtFZXlBTkpsN3FMcFJLTWtrSzRkSjAyVnhEV1VPQktPNkJmbW5R?oc=5",
+          "summary": "Jackson State University is addressing student concerns related to a housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-9wwqe2",
+          "headline": "Habitat for Humanity handling housing crisis - NBC4 WCMH-TV",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObU9jcERUcU9NMGFPRl9IQ096S2dFR0xvSlNSSnlNRHFxVEdhcGpkdUdEcEozdXFISDByeDBqVjZqQzBWY0FvblVyNlhfRUdWcmJkMnRZWVNFd2N2MGtUaHdjT0Niel9PWnFCOThNbmFUUVh5YjVHTmQzVHBMdHUzNkl3dWtQQkFuX0E?oc=5",
+          "summary": "Habitat for Humanity is involved in addressing housing crisis issues, according to NBC4 reporting.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-caj0zb",
+          "headline": "Habitat for Humanity handling housing crisis - AOL.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYzBNWDRIYk45d21kVDZJS3pyRFJxSy1xdHpGWVZvLUh0VWpWa2Y3WEN2QTdzdHAxTE44WlhhTVZoTklwWE9OZU9aZDJTMjhIRHBjbVd6d3hieEtRbXZEMXZxZFRVZkI3TF84UnJYOGZwaFJnUGx2SE9hTkxTVFYxeTJZMV9IRWM?oc=5",
+          "summary": "Habitat for Humanity is involved in efforts to address housing shortages or affordability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-59s279",
+          "headline": "Housing Experts Gather for County Housing Seminar - WAGM",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaUZxOHozQVNUU0ZJWUdDbG54UG5xX0ZWa1IxYU55Q0lOTXhqVWJYdHJYYmEwX3lTM2hKWm13RVdfc1JDRWd1d25jRy1JWWUzRzJFcG03OTRzck9jTzBOMUx4TUg2QjNfZk9kVGtzby1JSXhtRUk5LUViMGJBYTlmY1J1YVR2YW_SAZsBQVVfeXFMTngxeVI0NkdrbFpKbkcwb3ZmUUZsUzFab2IwNG9OY20wRUZRdXhoa3NUQm9SamlEeHo1Unk3WS14LWdjSlR2ZWxLMkRBTDFiVXZSWlFaOXhleTRmVGlIOHlZZTZKVnpBRGZ2Z2xRMVhwR21PRGxneW1JaTZGV1paYTIwQXpaREQ5cDhadGZaeFR1UFotaHM5cFRYczg?oc=5",
+          "summary": "Housing experts convened for a seminar focused on county-level housing issues.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-ih51p5",
           "headline": "Housing Crisis 2026: Homeownership Falls Across All Ages, First-Time Buyers Shift Older - News and Statistics - IndexBox",
