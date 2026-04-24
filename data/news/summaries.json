@@ -1,24 +1,20 @@
 {
-  "generatedAt": "2026-04-24T10:27:43.835Z",
+  "generatedAt": "2026-04-24T16:09:55.595Z",
   "regional": {
     "na": {
-      "summary": "Prime Minister Carney approved 1,100 new affordable rental homes in Ottawa on April 24 and announced eight affordable housing projects under the Build Canada Homes program a day earlier, marking a concentrated federal push to address Canada's supply shortfall in the capital. Ontario separately introduced a temporary one-year HST rebate on new homes valued up to $1 million, though the measure still awaits budget passage and requires both federal and provincial legislative changes, with real estate experts cautioning it may primarily benefit builders rather than home buyers. In the United States, Congress has introduced legislation aimed at addressing the national housing crisis, with analysts watching its potential implications for high-cost states such as California. A former hospital in New York's Hudson Valley is being converted into a residential development expected to add approximately 1,000 homes, illustrating adaptive reuse as one local response to supply constraints. Meanwhile, a Los Angeles Times poll found that L.A. voters express skepticism about the government's ability to improve housing affordability, and Maine's earlier zoning reforms intended to address its housing shortage have produced unclear results so far. Across all age groups in 2026, homeownership rates declined and first-time homebuyers became older on average, underscoring the breadth of affordability pressure across North America.",
+      "summary": "Prime Minister Carney approved 1,100 new affordable rental homes in Ottawa and announced eight projects under the Build Canada Homes program on April 23–24, marking a concrete federal push to address Canada's housing shortage. Ontario separately introduced a temporary one-year HST rebate on new homes valued up to $1 million, though the measure awaits budget passage and requires both federal and provincial legislative changes; analysts caution it may primarily benefit builders rather than home buyers. On the missing middle front, former B.C. premier Mike Harcourt is actively developing a six-unit multifamily project in Vancouver's Shaughnessy neighbourhood through Harcourt Asset Management, illustrating growing private interest in infill density. In the United States, the California Association of Realtors reported that housing affordability improved for all Californians in 2025, but significant gaps remain wide for Black households relative to other groups. Nationally, homeownership rates declined across all age groups in 2026, with first-time homebuyers becoming older on average, underscoring persistent affordability barriers across North America.",
       "keyDevelopments": [],
       "highlights": [
         {
+          "text": "Build Canada Homes program",
+          "topic": "legislation"
+        },
+        {
           "text": "temporary one-year HST rebate on new homes valued up to $1 million",
-          "topic": "legislation"
-        },
-        {
-          "text": "requires both federal and provincial legislative changes",
-          "topic": "legislation"
-        },
-        {
-          "text": "Congress has introduced legislation aimed at addressing the national housing crisis",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-24T10:27:43.835Z"
+      "generatedAt": "2026-04-24T16:09:55.595Z"
     },
     "eu": {
       "summary": "The Renters' Rights Act, set to ban no-fault evictions in England from May 1, 2026, has prompted landlords to accelerate such evictions in advance, with tenant organizations reporting a significant surge in recent months. An Institute for Fiscal Studies analysis of the Conservative government's Help to Buy scheme concluded that the largest financial benefits flowed to the top 10% of earners, while the programme inflated housing prices and failed to expand supply. Basildon Borough Council, which manages approximately 10,750 social homes, received the Regulator of Social Housing's lowest grade of C4 following an inspection that found unaddressed fire safety backlogs, inadequate hazard documentation, and poor tenant engagement. In Exeter, hundreds of new homes under construction have not eased affordability pressures, with residents arguing that student accommodation and co-living studios are crowding out rental options for young working professionals. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has drawn nearly 350 objections from residents, though planning officers cite a housing supply shortage and have referred the decision to the Planning Inspectorate. Meanwhile, homelessness among older people in the UK has worsened markedly, with a 79% increase in over-65s at risk of homelessness over the past five years driven by housing benefit shortfalls and reduced social housing stock.",
@@ -62,6 +58,24 @@
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-globe-mail-real-estate-m1dj66",
+          "headline": "Former B.C. premier Mike Harcourt now a developer of missing middle housing",
+          "source": "Globe & Mail Real Estate",
+          "date": "2026-04-24",
+          "url": "https://www.theglobeandmail.com/real-estate/vancouver/article-premier-mike-harcourt-developer-missing-middle-housing/",
+          "summary": "Former British Columbia premier Mike Harcourt is a shareholder in Harcourt Asset Management, a family development company that builds missing middle housing, and is currently developing a six-unit multifamily project in Vancouver's Shaughnessy neighbourhood. Harcourt, who has long advocated for increased density and affordable housing, has been involved in residential development projects throughout his life alongside his wife and son.",
+          "summarySource": "article"
+        },
+        {
+          "id": "rss-google-news-zoning-on-bc-spcsl4",
+          "headline": "Jay Goldberg: Ontario and feds take steps on housing but more are needed - MSN",
+          "source": "Google News Zoning ON BC",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOakhlakZTcnNweXJyTC1iYlEzaE11UjJuVjZOYjg5eU9DX2NvMm9Kb3NvUDJlSGRtaVAzVUw0NjBPTVVQRU50dUk5cF9Ia0F4T0J0dDB3cXpGNHZ6bV9hbnhRNnJyZThsNFFDc1ZlMWlGd0VyZ3VkWkl6bmo5dkZlWVkteVcwX2VJNjQzYUhSclBNdnZFSVdGMlBtR3NxOEpNdDdHeHQ1Q2FDdTl5cEFMNFd5QjRlUTVMMWJoQlBnVzRFM1NsdmJIOFM2aXN6VlVTQTRJekZHeEkyd3hGV0xWcA?oc=5",
+          "summary": "Ontario and federal governments have taken some housing policy measures, though commentary suggests additional steps may be necessary to address housing challenges.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-financial-post-jbc54x",
           "headline": "Is the long-promised era of DIY mortgages finally upon us?",
@@ -126,6 +140,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-ca-xw7wbc",
+          "headline": "Advocates seek solutions to Canada's housing crisis - CBC",
+          "source": "Google News Housing CA",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15UnBZN1l5dDFDUzI2clhxbVVMNEpMS19MTTBMRHVlU1NrZU5iM1N3aVRWYU95VDZZdUUtbHFNTDluYmxsVGhiQ3l6Rk1XS3l6cjB4b0VYcVR2Zw?oc=5",
+          "summary": "Housing advocates in Canada are seeking policy solutions to address the country's housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-build-canada-d218cc",
           "headline": "Make the right to housing central to Build Canada Homes - maytree.com",
           "source": "Google News Build Canada Homes",
@@ -159,6 +182,15 @@
           "date": "2026-04-22",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdlZQSGRTeXFnTWlxYlgtV0xiUzUtal9ZNk9JM05NS2xXcV9vVVBMM1BjTE1wSHBzNWJNMGJKZEx4cG1ySnpLUWZBenRTYkg2Tmt4dGxfN0VBMzNxbnFoWDJNQUFsODFIX2xydWw2R1IyelFzeS1sTXZ0anRiQWgyQXJ3bUk1WHlD?oc=5",
           "summary": "Housing advocates in Canada are working to address the country's ongoing housing shortage and affordability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-build-canada-74ecf2",
+          "headline": "Public Housing for Shannon Park - Government of Nova Scotia",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-04-21",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBuanRtZGtCZUZpTFhBbmw4Z3pxUlJpeU02VURXYW9pV2dHTnd0TS15ZnVUTks5cFM5TXNya3RBcHJPT0h1TFgybmltNVFGX3g1M2tpVW5VWmtoU3g2Z1ZMVjRMM0ZYb2N1eEhfazFUUDFfbWdfMHhB?oc=5",
+          "summary": "The Government of Nova Scotia has announced a public housing initiative for Shannon Park.",
           "summarySource": "headline-only"
         },
         {
@@ -1300,6 +1332,15 @@
     "United States": {
       "news": [
         {
+          "id": "rss-google-news-housing-us-8qjxqm",
+          "headline": "What the twin cities tell us about fixing the housing crisis - MSN",
+          "source": "Google News Housing US",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxPRDEyQW9FY3U4czZ2YWFaNElqVGVNTDQzcFBFTU9QNFpNem9QX0Q4T3BlcFF6SGwyQ2JLaXY2eWI4SWEteGFZdzd4N3Z4MUFWM25KTXg2dXV6SHlkMW8xdkQyb2E5UlJxcFp3dGpOR3U5ZzBZb1RJa2FHS0hWYWtRZ3JrNEN0VG1YSF9mYVBicXdoMWNTc0RfTjBKWEFaWHpHV2Q0QW00dDdmRTVwSlBuZTMzZ29BbVgwWUhsTW1TRzE5ZXgtdTNKaE9uWklMY1d0c25DUWdIdUhUdFkzeDlkUDRKdDRKUklhZmhKbnB6aDh0WnVEWGdhM1p1SXhsYU5mNmJySWFPMFp2aHdpb2lKQmFueGcwbmp4S19kNmxoeWk5QXJKWGJKT1k3aWtHZ1VXem9LLXJYVGVRbVByd2UzQ0gtdThIakpELVVaRWp6MFVfa1VrNW1JTHZqaWZ3RzA4TkZ2a0otT3lDTlp6ZWxUdXVpTlZWTW5qald2Ty1BVkRvdWQ0amNock9XYl8?oc=5",
+          "summary": "An article examines lessons from two cities regarding potential solutions to housing shortages and affordability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-n8eg9q",
           "headline": "Sharon Wilson Geno on Fixing America's Rental Housing Crisis - Globest",
           "source": "Google News Housing US",
@@ -1387,6 +1428,15 @@
           "date": "2026-04-07",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeEVpQUd0TGZGRWNVaHE3bDFOYnRUdjVQSVdkdVFOTFFnNU1ZeGdvZTN2SHg3LTdkYnRRUV9WVUxlb0hEczg5b2NuSjZQTTE1N1pRU21QVnlieGxXU29hNVVqYl9ra2NRN21uZEFJTERKUmRESEU0bndHTF90MTdYYWd0cWstUlU1WkxBb052RVFmOTJiZTZ3b0VJVnl3b0RvVjMwVNIBuAFBVV95cUxNNXJoZmJWTC1lVEw2R3p0dlpIbnJERk10TFlLazNTRUk2Rzd2VkVsU2xqT3d0RVdOX3h1cTdPUFJpVUVKUkVrY1A2RUlySkNLaXdBcnlqMUhqZHpSLTctVGJKbUZpZkh4d3N0MjBRQWtUQlZSWkJUQVcyWjY1VkNKVlpmZlE4ekVzZHZEM01qbm9YWHJza1BKUmxWdHBBUW1XbGdYcEpSYnR4ZDFMNU9YeWRoeW5iNzk3?oc=5",
           "summary": "Senator Cortez Masto participated in a public event in Reno focused on addressing the affordable housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-p7bida",
+          "headline": "A Build America, Buy America law is causing construction delays amid the U.S. housing crisis - Inquirer.com",
+          "source": "Google News Housing US",
+          "date": "2026-04-03",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaUprRlEzeXpRUm9DTm55TWxQWUExVlFEblBkblFWdDFRRjIzMmp3TEZDTHVFN1lCREtRRHRzTmgtR3ZiS2tZcHRneEVJOWNWeFZfME1xaVZPTzc0UnVHX1FVWTJVekRoQnQta1I4OG5kUXZUTV93Nm1GdVBqSWMtUkJLTkExMWFiZWxDU0NiRXlTemg5ZGhCczI0d1lFeWZubnhobF9JYU5NR3Z2bk9qd24tT25WaXBwSlFseHZIbE1TdUp5?oc=5",
+          "summary": "A Build America, Buy America law is being linked to construction delays as the United States faces a housing shortage.",
           "summarySource": "headline-only"
         },
         {
@@ -1890,6 +1940,60 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-n5oky5",
+          "headline": "Housing affordability improved for all Californians in 2025, but significant gaps remain wide for Black households, C.A.R. reports - StreetInsider",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxORUxKdHV1eU54SGdEd281MEh6M1Z5bGJua2lWTjZnWmVtaUpiTVBWcDF6clpFaEpLZmJicS12ajhGSllZVENHdDQ4dWVDbTJpR3B3S3FVUlJTNTZSRkNQZFJTTUJkQWY1ZUkwUk9CRGVnMl9WelYzazFtM3dJRy0zSEFHek1ETjh4ckJmcU00cnV2TF9lWV9NcTBwNUJraDZnR2tVSGRXd0JXTU9KTEY1RlROekRYcjVTQ1RfVmtJS2hFOW5TYkNtU2xFWFhlUXlWQmdodlJ0NHplRFdGTktjV3RpVnc1SFNMTXQzNVNYd3ZZZF9mbWktVUVYemNicmc2TEsyWWxxOHh1MzFyODdZd3VtdFl0ZHdx?oc=5",
+          "summary": "According to a California Association of Realtors report, housing affordability improved across California in 2025, though Black households continued to face significantly larger affordability challenges than other groups.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-pvvjc2",
+          "headline": "This Housing Crisis Didn’t Just Happen. It Was Allowed to Happen - Daily Kos",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTWF3Z0oxeVhLNGpvNy1wWTJMenpvY0hGcVFkOTEyRzJEWk11WlJ3TW9RaVZLZUhkVmo3b2dQbEd0cXAzMTZoa0RWaXB6M3hnV3Ezd1BfeUZCUk5EcnRxVnpDM1lXRE4zYUhmaWZ1UlZlbHduWmxobVYxWHNQaWtYQy0zbGtDSFR1bmxUXzN2c0tUc2hsc2VhWWNTU2VJd28tdFRXOUk2cU5kdGg5MllyVE9oMi01UHJZMUkxWl9aNHMtOXVn?oc=5",
+          "summary": "The headline suggests that housing shortages resulted from policy choices rather than inevitable circumstances.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-vri48a",
+          "headline": "Delay is driving Santa Cruz County’s housing crisis deeper - Lookout Santa Cruz",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZTU5SWVsRWdnWkRsbGlXd1ZKSjRtRUxZZG5YYVRDNnR0dTdWb3pTXzltYl9UZHpydjNVaEZPWml5WkZxUGhham5WbGhIdHVIWXpxZnFIS05CLTVCNVQwSHdsUkN4YXNlMmlKeWlMcDBmWmtGZGV2aXVsRmJFUjMtMTdQT3hDYzhEOEE?oc=5",
+          "summary": "Santa Cruz County officials attribute ongoing housing shortages to delays in addressing the crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-ifmd5w",
+          "headline": "Mayor Freddie O'Connell focused on housing affordability - Nashville Banner",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMVJ3QXBmTWl0NldqTm5wZUJmeUt6MGJDVzdYcFdUcVhrRndMMzVvenYxLXE1NXhlNlk1MjJyX3ZlbFR2LXJQZjVIbzZTZWNhWWJRYjY4cGZ6U2pZc2N6NmFDdEg1cElBdHJfeXNnTXRRZm42TDhfaGI1a1ByazNtV0E1WGREeHlUd2VTMHgxWm4yaUM5?oc=5",
+          "summary": "Nashville Mayor Freddie O'Connell has prioritized housing affordability as a policy focus.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-lm937v",
+          "headline": "Senior Leif Anthony Crunches the Numbers on New York City’s Housing Crisis - The Colgate Maroon-News",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPanpFenJlTVpCeE5wN2tBazRwVmFtMXdpUlhxYVVpaXcyWjB0cGRDTWVKbldNVjZWRno3d3ZWVzVNX3hGUUpoZzcwd2hRX29oNHMwOTNPbGpzVkNYZ2xkUklrM1Bwcl9IT0FUMjJEVUNnYmRpVGNMd2pXcENYbXdnd3pzMEFvSG5WbXhmRmMxSmE4b19fRWdQQ2FmcFowTHZtSnR0ZmtZWk5Wa00wM0FfcU1DaGlhempB?oc=5",
+          "summary": "A Colgate student named Leif Anthony analyzed data related to New York City's housing shortage and affordability challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-550wnq",
+          "headline": "Dealing with the Global Housing Crisis: Reflections on Key Challenges - Harvard Law School | Human Rights Program",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOUViV2gwRTFWNXd5eVRrbm0tQlZ4c2hhMVhMNGRzUHFYSUNOcjMwMWx0blFVdzN4NUxDdGtJckM4YXBDU3NxZGx2QkdZZy1NR0l2enpzR0NTV0pITm9kOUxhZGtydm9VVjI4ZzMtVlp2eVhzWHR1d1U1Ymh2RUNUM01OV2Z2VUxEMl9Pb0RyQkttR0NwLXEzR2pmOFhneW04a3l6ejczQzFRb1U?oc=5",
+          "summary": "Harvard Law School's Human Rights Program has published reflections on key challenges related to the global housing crisis.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-1raj8g",
           "headline": "How the housing crisis made me a house plant influencer - Big Issue",
