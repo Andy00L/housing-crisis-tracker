@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-24T16:09:55.595Z",
+  "generatedAt": "2026-04-24T23:50:06.288Z",
   "regional": {
     "na": {
-      "summary": "Prime Minister Carney approved 1,100 new affordable rental homes in Ottawa and announced eight projects under the Build Canada Homes program on April 23–24, marking a concrete federal push to address Canada's housing shortage. Ontario separately introduced a temporary one-year HST rebate on new homes valued up to $1 million, though the measure awaits budget passage and requires both federal and provincial legislative changes; analysts caution it may primarily benefit builders rather than home buyers. On the missing middle front, former B.C. premier Mike Harcourt is actively developing a six-unit multifamily project in Vancouver's Shaughnessy neighbourhood through Harcourt Asset Management, illustrating growing private interest in infill density. In the United States, the California Association of Realtors reported that housing affordability improved for all Californians in 2025, but significant gaps remain wide for Black households relative to other groups. Nationally, homeownership rates declined across all age groups in 2026, with first-time homebuyers becoming older on average, underscoring persistent affordability barriers across North America.",
+      "summary": "Prime Minister Carney has approved 1,100 new affordable rental homes in Ottawa under the Build Canada Homes program, encompassing eight discrete projects announced on April 23–24, 2026. Ontario is separately advancing a temporary one-year HST rebate on new homes valued up to $1 million, though the measure awaits budget passage and requires both federal and provincial legislative changes; some analysts warn the rebate may primarily benefit builders rather than buyers. In British Columbia, former premier Mike Harcourt is now an active shareholder in Harcourt Asset Management, a family firm currently developing a six-unit multifamily project in Vancouver's Shaughnessy neighbourhood as part of a broader push for missing middle housing. On the affordability front, the California Association of Realtors reports that housing affordability improved for all Californians in 2025, but significant gaps remain wide for Black households, while Riverside County outpaced the state in gains. Florida advocates are separately calling for smaller lot size requirements to ease that state's housing shortage, and Ontario and federal governments have taken steps on housing though commentary indicates more are needed.",
       "keyDevelopments": [],
       "highlights": [
         {
@@ -12,9 +12,13 @@
         {
           "text": "temporary one-year HST rebate on new homes valued up to $1 million",
           "topic": "legislation"
+        },
+        {
+          "text": "smaller lot size requirements",
+          "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-24T16:09:55.595Z"
+      "generatedAt": "2026-04-24T23:50:06.288Z"
     },
     "eu": {
       "summary": "The Renters' Rights Act, set to ban no-fault evictions in England from May 1, 2026, has prompted landlords to accelerate such evictions in advance, with tenant organizations reporting a significant surge in recent months. An Institute for Fiscal Studies analysis of the Conservative government's Help to Buy scheme concluded that the largest financial benefits flowed to the top 10% of earners, while the programme inflated housing prices and failed to expand supply. Basildon Borough Council, which manages approximately 10,750 social homes, received the Regulator of Social Housing's lowest grade of C4 following an inspection that found unaddressed fire safety backlogs, inadequate hazard documentation, and poor tenant engagement. In Exeter, hundreds of new homes under construction have not eased affordability pressures, with residents arguing that student accommodation and co-living studios are crowding out rental options for young working professionals. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has drawn nearly 350 objections from residents, though planning officers cite a housing supply shortage and have referred the decision to the Planning Inspectorate. Meanwhile, homelessness among older people in the UK has worsened markedly, with a 79% increase in over-65s at risk of homelessness over the past five years driven by housing benefit shortfalls and reduced social housing stock.",
@@ -58,6 +62,15 @@
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-financial-post-tnx8zb",
+          "headline": "News of the day: Cohere AI merger, higher-paid newcomers, flying in comfort, DIY mortgages, Lululemon’s new CEO and more",
+          "source": "Financial Post",
+          "date": "2026-04-24",
+          "url": "https://financialpost.com/uncategorized/news-of-the-day-cohere-ai-merger-higher-paid-newcomers-flying-in-comfort-diy-mortgages-lululemons-new-ceo-and-more",
+          "summary": "The article covers multiple business stories including a merger between Canadian AI firm Cohere and Germany's Aleph Alpha, Canada's plans to reform its immigration points system to attract higher-paid workers, Air Canada's acquisition of new aircraft with premium seating, and Canadian Imperial Bank of Commerce's new online mortgage platform.",
+          "summarySource": "article"
+        },
         {
           "id": "rss-globe-mail-real-estate-m1dj66",
           "headline": "Former B.C. premier Mike Harcourt now a developer of missing middle housing",
@@ -1620,6 +1633,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-k5ry3o",
+          "headline": "Supply Skeptics or Abundance Acolytes? Mayoral Views on the Housing Crisis - Ash Center",
+          "source": "Google News Housing US",
+          "date": "2026-02-12",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLVNBRXphakIxdkdTYTV6aW5DQ3UwQS1ZN2l2cHNOZkVCdEEzS3R1NGJTUGlVLU9jSnpWQ2FhTXJWdnZwSjZGQTlHUzVDcVNqNnNaVkhzMjFySUNPcVk5dnZrWUR3NEVLaVJOVlp5bms3b1RuMUZnbU9yeU1maTZ1X0Mwa1FvQWY0RVBaY3JFMnBJcXc2ZzJ0YVl0Ty1XVEtyT3I4SkYwYVdRTDg?oc=5",
+          "summary": "Mayors have differing perspectives on whether increasing housing supply is an effective solution to housing shortages.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-6mthiz",
           "headline": "How Zoning Reform Could Shrink Americans’ Daily Travel Footprint - Yale School of the Environment",
           "source": "Google News Housing US",
@@ -1940,6 +1962,51 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-h3oflk",
+          "headline": "Housing affordability improved for all Californians in 2025, but significant gaps remain wide for Black households, C.A.R. reports - PR Newswire",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOMWtwVE1fbnFkbzhyX0xfTDF4a2o3eFBkWUFlcWpoQzhKYlF5ZV9TN3I3dWtERjZOck5udC13UEhYRWh0TENHNnp3NUtvWExQZ1RnUjhwYWstMTlyWFRudHFCQTlOOE81eHgxUkNydzVjUUVvT2V2NmlBQUpzSU03bWtrRnQ2TmxPZ1Ffd2JZeTBkVlA0QnQ1RWljZXhtYXJkaFRyOGhGbU9sZ2czaVo2em5fMjR0c2RLallTd1lJM0QxYmVBQTNpV1Y2SmhZNFBkVlhQYXpaX2RXOGFLc1MydVd1NEVRbjBqam5SZEUwREwtdWtJRXJiV1JWYTNQSnlnVl84NkwzMGlxWUw3eGc?oc=5",
+          "summary": "According to the California Association of Realtors, housing affordability improved across California in 2025, though disparities persisted for Black households.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-19h4wi",
+          "headline": "Housing Affordability Improves In 2025; Riverside County Outpaces State - Patch",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaXZhcHFmX2NVLTY1WC03RlgwcjAtOTZNQjg3NzdKWjlmckNyejMxdzRSTVdxTnFBU0FWU194bGhRWVBCNml1c3VteWNlZ1lpT05uNUgya2dOTE1jRVNVYUdNMWhGeTdfWm56bnFwQl9uU1U2cmZuWnM2MWJoWHlhUU5TSmJuWGx2MlpmQnVfSTBQcG03N3RkWTZVc0JrYTkxbVRpSEEtY3FtazFVY2t4VUpmY9IByAFBVV95cUxOWTBCQ3dDUzItd1hqRmN4S19EQ2tQTUZDTlJvVlhqZ3ZlZTNzb0k3aU5xYnktOE8wSkp6SkpETndnLU04Q25tRDBHcnppZDRXdFMtMVV5MGkzOHBLSkk0bUdYU200Qk5MRktHZklOZGVfeHFBTjliQWJ6ZDJGX2hIUF9lX09vdWZHWnlQSjc4VlY2T3NWNldVbEhPeWVObXFWdjJCVUxXTnlZandoZVZIMFExX1AwZTJpNTQzQ1kzd0J3ZUY3RzZWcw?oc=5",
+          "summary": "Housing affordability conditions improved in 2025, with Riverside County showing stronger gains than California overall.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-36cys2",
+          "headline": "Housing Affordability Edges Up Across SoCal; Disparities Remain - MyNewsLA.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcU1WTUJENjNaZUdQRmRNV2VSWWhyVU5yWU8xUVBXTkwzM0piR2l1czJXTGhZODhxSmxfU1F3NzliQjhxbDZ4cGw2Qi00SnU5RUQ3ZVUtbU02N1JKcHdMM21FcmRBQ01Kclc5UnpreDRnS19NXy1aYkFXSTVwZTlfYmpnSnU0MGQxQ3p4eGtGWTUxbkJxSFJrUF9vdGF0X2VzSTgxNEQ0QQ?oc=5",
+          "summary": "Housing affordability conditions improved modestly across Southern California, though significant disparities persisted among different regions or demographic groups.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-xjb7zc",
+          "headline": "The call for smaller lot sizes to ease Florida’s housing crisis - Florida Phoenix",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcFMxT1VFT1gwYnN1d1JOanlRU2hKX1pBYVpRMkJNeVhIWU04X2tVSHk5VExabnl6ZG1KRFdrOG5xRXAwRndTNGdZa0lVU3JadkRnOXd6MVJTeU5ZeDFsLW1TNmFfblJjaDNjY1ptMW8tTFQ2UUtFelA2VlhZTEM0dnM3V3pseTU1RW5GZGhHZXRsQS1QY2tHNUJWc1ZNc1JoRTc0?oc=5",
+          "summary": "Some stakeholders in Florida are advocating for smaller lot size requirements as a potential policy measure to address housing shortages in the state.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-c6btrs",
+          "headline": "Separating fact from fiction in housing affordability and corporate investors | Newswise - Newswise",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZGIxTlpIMzVNdjlfZGNIV0plRjNOMXVBeDJ0bnpTTFZ5T0ttcl9FY3A2cEd6OTdRVDdxYlhSZ1BtdmY5N3NucEZzZTNEQjUzOE1qX1JETGVZOGRtbXJwbnRDM3NBR3htc0hwZzRBMVNnQThiZTNfTkxvVnFlOGZsMlZnMUljQUhrbTNJM1hyZm16bFM4alFyNERGSnJFZzIyWkgtT0Zzdzktd0htUnJTbdIBsAFBVV95cUxPZGIxTlpIMzVNdjlfZGNIV0plRjNOMXVBeDJ0bnpTTFZ5T0ttcl9FY3A2cEd6OTdRVDdxYlhSZ1BtdmY5N3NucEZzZTNEQjUzOE1qX1JETGVZOGRtbXJwbnRDM3NBR3htc0hwZzRBMVNnQThiZTNfTkxvVnFlOGZsMlZnMUljQUhrbTNJM1hyZm16bFM4alFyNERGSnJFZzIyWkgtT0Zzdzktd0htUnJTbQ?oc=5",
+          "summary": "A news analysis examines claims and misconceptions regarding the relationship between corporate investors and housing affordability.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-n5oky5",
           "headline": "Housing affordability improved for all Californians in 2025, but significant gaps remain wide for Black households, C.A.R. reports - StreetInsider",
