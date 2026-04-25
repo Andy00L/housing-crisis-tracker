@@ -1,24 +1,16 @@
 {
-  "generatedAt": "2026-04-24T23:50:06.288Z",
+  "generatedAt": "2026-04-25T09:58:21.993Z",
   "regional": {
     "na": {
-      "summary": "Prime Minister Carney has approved 1,100 new affordable rental homes in Ottawa under the Build Canada Homes program, encompassing eight discrete projects announced on April 23–24, 2026. Ontario is separately advancing a temporary one-year HST rebate on new homes valued up to $1 million, though the measure awaits budget passage and requires both federal and provincial legislative changes; some analysts warn the rebate may primarily benefit builders rather than buyers. In British Columbia, former premier Mike Harcourt is now an active shareholder in Harcourt Asset Management, a family firm currently developing a six-unit multifamily project in Vancouver's Shaughnessy neighbourhood as part of a broader push for missing middle housing. On the affordability front, the California Association of Realtors reports that housing affordability improved for all Californians in 2025, but significant gaps remain wide for Black households, while Riverside County outpaced the state in gains. Florida advocates are separately calling for smaller lot size requirements to ease that state's housing shortage, and Ontario and federal governments have taken steps on housing though commentary indicates more are needed.",
+      "summary": "Prime Minister Carney approved 1,100 new affordable rental homes in Ottawa, marking a concrete federal commitment under Canada's ongoing housing push. In British Columbia, former premier Mike Harcourt is now actively developing a six-unit multifamily project in Vancouver's Shaughnessy neighbourhood through Harcourt Asset Management, reflecting growing private-sector engagement in missing middle housing. Charlotte secured a $100 million investment directed toward affordable housing development, one of the larger municipal-level funding commitments reported this cycle. The California Association of Realtors reported that housing affordability improved for all Californians in 2025, with Riverside County outpacing state averages, though significant gaps remain wide for Black households. Florida stakeholders are pressing for smaller lot size requirements to ease that state's housing shortage, while Knoxville officials are planning to allocate millions of dollars toward local affordability and supply needs. Fayetteville marked two years since its housing crisis declaration, underscoring how many jurisdictions remain in prolonged response mode without resolution.",
       "keyDevelopments": [],
       "highlights": [
-        {
-          "text": "Build Canada Homes program",
-          "topic": "legislation"
-        },
-        {
-          "text": "temporary one-year HST rebate on new homes valued up to $1 million",
-          "topic": "legislation"
-        },
         {
           "text": "smaller lot size requirements",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-24T23:50:06.288Z"
+      "generatedAt": "2026-04-25T09:58:21.993Z"
     },
     "eu": {
       "summary": "The Renters' Rights Act, set to ban no-fault evictions in England from May 1, 2026, has prompted landlords to accelerate such evictions in advance, with tenant organizations reporting a significant surge in recent months. An Institute for Fiscal Studies analysis of the Conservative government's Help to Buy scheme concluded that the largest financial benefits flowed to the top 10% of earners, while the programme inflated housing prices and failed to expand supply. Basildon Borough Council, which manages approximately 10,750 social homes, received the Regulator of Social Housing's lowest grade of C4 following an inspection that found unaddressed fire safety backlogs, inadequate hazard documentation, and poor tenant engagement. In Exeter, hundreds of new homes under construction have not eased affordability pressures, with residents arguing that student accommodation and co-living studios are crowding out rental options for young working professionals. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has drawn nearly 350 objections from residents, though planning officers cite a housing supply shortage and have referred the decision to the Planning Inspectorate. Meanwhile, homelessness among older people in the UK has worsened markedly, with a 79% increase in over-65s at risk of homelessness over the past five years driven by housing benefit shortfalls and reduced social housing stock.",
@@ -62,6 +54,15 @@
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-google-news-build-canada-xffbcw",
+          "headline": "Canada: PM Carney approves 1,100 new affordable rental homes in Ottawa under housing push - India Blooms",
+          "source": "Google News Build Canada Homes",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU2lMM2RfTTdPcG14MEJTSTJjUjRnWkhhb3MySjdRSDBpUlRwTDc2QXpVRW9mVkZGbzlKeC1lUThJckZIS25ZRzRzTEZrNDEzTWhrSjJIbXc3WGhXc3d1WmUya1pZN3FTWHl5OXNLMy1La2lHTm1NeVFPSS00ZlBSREk3NnBzWTRuUEZJOHRMV2V3d1h2Z2VyZldPSmJ1M0gyQ0Z2WWJXSmRyclY5N0h4MTAxTzU3clZLMTNRSTdJY0J1cGhmMkdmVg?oc=5",
+          "summary": "Canadian Prime Minister Carney approved 1,100 new affordable rental homes in Ottawa as part of a broader housing initiative.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-financial-post-tnx8zb",
           "headline": "News of the day: Cohere AI merger, higher-paid newcomers, flying in comfort, DIY mortgages, Lululemon’s new CEO and more",
@@ -432,6 +433,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-ca-hzsiqf",
+          "headline": "How the housing crisis damaged Canada’s economy and productivity - The Hub | More Signal. Less Noise.",
+          "source": "Google News Housing CA",
+          "date": "2026-04-11",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUmgyb3Y3VXA1WnRxeGZJMk81RjVrUm5fem1iekFqSFhIRURObnlFdEt3ZmtYVW1zWC0ybTA4X20tUUFBNTY4YnpKVnlSVmp6TVJ2cExCSWlZNmNhRWtUWTFNaDlhNGdfTHhaZGpYLWxBQ0diNWN0X2FRWmhrY1ZzcUVham5CTWJDVzV2NGlDTHBxZ0llNjl2VzBPOXdtcUZVdUUw?oc=5",
+          "summary": "A news article examines the relationship between Canada's housing crisis and its effects on economic growth and worker productivity.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-build-canada-enqe3y",
           "headline": "Cornwall, P.E.I., to receive 70 new affordable homes - CTV News",
           "source": "Google News Build Canada Homes",
@@ -528,6 +538,15 @@
           "date": "2026-04-02",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaXZUOTJVOV9HYVg1U3ZLTkNYMFBCMGJoRmZfOUxyeF9OOUx2WGh4Uml5UG5VYXNjY0NtSnJsa2VDN1BMUUlMM0RxVUxvSWloMEhoZldDYU1FOWZ4c0s3MkxfMDVibG1STGU1VERidmU3LWZhVnh1dG1lSTc0cXhWcGZlZlE3ZWZ0ckVB?oc=5",
           "summary": "Canada's housing shortage is being examined for its potential connection to broader economic productivity challenges.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-ca-12ea3l",
+          "headline": "Canada’s Essential Worker Housing Crisis - Wisconsin Farmer",
+          "source": "Google News Housing CA",
+          "date": "2026-04-01",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZWU4bFlNNlhvcTY3bDN0cFdkR3BlYWU0cnA2S2NuZ3dBUy01Nm42VDcwMkE0dlZuX1VZLXZlcXY5RkFuZW92Q0RQYmI5UGktTGNHNXlreFVuX2RKb0FDeWMyNHVsbm9ESk01WHA0QU9zclIyelNIM0RaRzRYSUtXUmdlVEw2TXhybXA2RXNYTW1aMHhHSFdR?oc=5",
+          "summary": "A report discusses housing challenges faced by essential workers in Canada and Wisconsin's agricultural sector.",
           "summarySource": "headline-only"
         },
         {
@@ -1314,6 +1333,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-zoning-on-bc-b66zy",
+          "headline": "British Columbia Just Took First Place in Pro-Housing Policy - Sightline Institute",
+          "source": "Google News Zoning ON BC",
+          "date": "2024-02-23",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTHBYTHo2UlE2QVlpNzhHbTB0NkNMSnlJX3JUMktJN1o2OVBEVWhhU2V6d1VBY2NjWlpDbkhfakNlMEZfb2FNQlR4V0N3Uk5qMDhMVWhkQWUxMHljZ01DYklPaWZIN2FVc2tobFowZnVzcUFiZmFDR0ptLV9YRnVCVkNfLVJYVHg5Y0VlZ1psUVBqbGpJT0FuMmRXQzlBd1E?oc=5",
+          "summary": "The Sightline Institute ranked British Columbia first among jurisdictions for pro-housing policy initiatives.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-zoning-on-bc-r9iqkd",
           "headline": "The Golden Horseshoe Needs Zoning Reform, Not the Removal of Greenbelt Land: Thoughts on interpreting data from the Alliance for a Livable Ontario and the Regional Planning Commissioners of Ontario - Environmental Defenc",
           "source": "Google News Zoning ON BC",
@@ -1963,6 +1991,51 @@
     "World": {
       "news": [
         {
+          "id": "rss-google-news-housing-glob-k67n7s",
+          "headline": "Housing Affordability Improves Slightly in Coachella Valley, Challenges Remain - NBC Palm Springs",
+          "source": "Google News Housing Global",
+          "date": "2026-04-25",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZDFwZ093NmdJT3pBUm9KTURuMDNTNVpHS2ZfUDhmclFVTUpMQzZtVjVBOGstcEF2Z2RiOGRTWWFPS1JtNzFnVU15NWpZSU1aalA1XzBWSXNYc3c5QTBndnBCYXJHMkFUd2c4NXBkaXFRN1pHeDh2dlN5RU5kd0JVLXQ2ZFNOY2FpM19tbnRadnNSOFlwMlR3YUp6elVZT25SRjJ1Ukt3ZHkzc0NkQWlLNGdxT0R1dmlFWGhn?oc=5",
+          "summary": "Housing affordability in the Coachella Valley showed modest improvement, though significant challenges persist in the region.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-we6xms",
+          "headline": "Housing Affordability Edges Up Across SoCal; Disparities Remain: Study - Patch",
+          "source": "Google News Housing Global",
+          "date": "2026-04-25",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTW01RGNEQ2NwMkVKbGFFMUxFdUhNMTQydmdNa0hzeGhJeVlJMlJOb2VnSnBsSEpSMjhYbFJUUDY3TmVRZV9nOEszbENsWUVmNnZ2U0Uwb3JIaDc2SHhYc2FCQ1VhNFlVYW1fV0JRd05pT3hJWm5qN0xRRFJsMmVUVGhLOVZJbDdDdTJCNDE0YXdISGVHdmI1c2g2MEdHdjJJbmN3aHd3SlNqd9IBvwFBVV95cUxPZlMzZjdjYUwyakl4S2JCbWZQVWtDVUtuZFpReV9GcUJsREdqb0NZb25ncngwQ3Utbnhfcmhma2RnZzdmbVlkZjZIRldldFhYN21XazA2Nm5jem82N0hIeVBRV1JwUjZDLUhIQzBweWlKUWVTajhrNDVQTHAxZXZ0bndpZGQ2enRxMFRUb0FTbUFmdXYxbkE5QVJHbzNWd2d5LXI1MEpyTGFQWTM4OFdrRVBOdXJqeUJPYnhqaUFlMA?oc=5",
+          "summary": "A study found that housing affordability improved slightly across Southern California, though significant disparities persist in the region.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-7wkonk",
+          "headline": "Fayetteville marks two years since housing crisis declared - KNWA FOX24",
+          "source": "Google News Housing Global",
+          "date": "2026-04-25",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNW1PTkYtVnRGWmI0YXNyRTBPVVpua0hadFQtT1VraTJrdGEtWG1DMVRvU3dXRU5ka2dVYlJ2cEFSVTFYQWl6MGt0RTdlZExHQm9mbE43S05yaktSZkpVbGJTaENTM3QtSzd3ZXR4ZmNGZlFoWUNfWHBpS0pUOXdmUEJGTnFoa2VycmtMN1dlX2VRd25TdmE2YVhGSWN2QTNpclUwaGtzdzFobVlDcXB6QdIBtgFBVV95cUxQTURyS0tfMVVha0RsaVhLdEJUZUZIcXN6YlBTcGFUbjRTbXhCeVVmbWtCNEc5RFA4ejJNOGJ6QkgwOWNuRVdqLW9DMVlPeHJGV2dxSFBHbXVwVzRJWUF4bmctdmJ6S0N0cjNMa3JLQ0VjRXZCd3Q1QlhqWjN4ZURLN3pfa1psaG4teTBtZVhOSW5UNXN6a2g1U2FPQ2NXSTl4QmVHQ2JPRklVZnRXRXkzdkRYblZJUQ?oc=5",
+          "summary": "Fayetteville is marking the second anniversary of a housing crisis declaration in the city.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-s689o9",
+          "headline": "Millions of dollars planned to help with Knoxville housing crisis - WBIR",
+          "source": "Google News Housing Global",
+          "date": "2026-04-25",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQa0tfMVN3R2VCZ2lTQTZLV2xDaXpYblkzRkJvY1dyX2V3dS16dzZzbVhJYzExTHlsanl4RHg4YnpWUWVRbVdRellkV1ZwUFItLXJFcWI3Q2RrRll1cEhGTXhVeDhSZXgzbS1HN1BmUTdoVmQ5cXpJS2xtbXN6TlRLdVBMR0I2SFE5U2RnRGQ1bERpYUVUbWtsMHd2TTUzSWZGYzNoVjJYMVlERVJHNGNUc2VIbVlRdmdqSVhLRTM0dXc1ZThoTnVKMzNkUHpTNElvNDhIYVU3ZDc3RVphanBzbXo3Yw?oc=5",
+          "summary": "Knoxville officials are planning to allocate millions of dollars toward addressing housing shortage and affordability issues in the city.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-lrhc3u",
+          "headline": "Charlotte sees $100M investment for affordable housing - WCNC",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTm1YYmx3TnVWMjBWVDFRaDgxMXdaOGg0U3MwVHlEWGR0NWFJWC0xeWNhbGVUdVBzRE11eGNhWlVUTUpxV3cyZzFKc29vcHRXMjBCUVJkaWJRaGwyTHV0NDI3SXUzNHhQMkhUUnZETVh5RWlZczZuMkdudjd2RGxvNHF2aExaalVzc3JPVkJCTWdRUlF1VGFiWEhRcjdua1had3VwWVFJZDZFS2FfWFRpQVFpcGtYQjctcFEtaXdLWkxHSGlxT3BvUkJQazdtRkVuQVM1MUQzWEd0OTR5WHhZeHpMc3BobFEtcDE2Q24xT1Z5bTA?oc=5",
+          "summary": "Charlotte has received a $100 million investment directed toward affordable housing development.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-glob-h3oflk",
           "headline": "Housing affordability improved for all Californians in 2025, but significant gaps remain wide for Black households, C.A.R. reports - PR Newswire",
           "source": "Google News Housing Global",
@@ -2086,6 +2159,15 @@
           "date": "2026-04-24",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOU50a0hNcER2TjhkMUNzcE5WZjZ4a2NJRzMydnlkR0YtNDJIeHB4aG1TNmtHOTNUZzItU256UHlBU0JTVmlXSk11dTFBZE42VUM5cUZ6YVNjMks3MFNVdnpGTHM5QkpxZEp1VjdwVXBUNzFtTlliZExmTTUzQ3EyOGdmT0hwbFNiRV9KV2xBWF_SAZYBQVVfeXFMTnNSMDhYU1RmbUFfOVhkeldDbzhFS3JpVTVRY012bThXOXhLZzRDU0pQRG1OVnBvUllrTEs5bVJuejY0b1JWQnBvWVVEYjdVem1jMHNJZ0tocWhTbHQtZk9KcjNVT25NNV9ENFR4N2FFOUtFZXlBTkpsN3FMcFJLTWtrSzRkSjAyVnhEV1VPQktPNkJmbW5R?oc=5",
           "summary": "Jackson State University is addressing student concerns related to a housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-z7j83d",
+          "headline": "Maine tried zoning reform to fix its housing crisis. It’s unclear if it’s working. - AP News",
+          "source": "Google News Housing Global",
+          "date": "2026-04-23",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUE5WZmhrdURtaDJIZnJxaTNJdVMxYV9yenAwOTc1RWdXRWlRWXFZZWZ4NjQ4eHQtZ3pqbnJjU2RSNkVNX3pLdmJDbG40S3RHbDJBellVcDJ3WW9LZGwwdmdkbG5mb2hxOVRWb1lWZHN0Q0oxZTdpMmx1eXVRdTFoRjBubDI4V1A0M2JsSVgtYi0teVZwNmc?oc=5",
+          "summary": "Maine implemented zoning reforms intended to address its housing crisis, though early assessment of their effectiveness remains uncertain.",
           "summarySource": "headline-only"
         },
         {
