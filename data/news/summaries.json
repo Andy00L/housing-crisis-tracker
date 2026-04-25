@@ -1,16 +1,20 @@
 {
-  "generatedAt": "2026-04-25T09:58:21.993Z",
+  "generatedAt": "2026-04-25T15:49:41.509Z",
   "regional": {
     "na": {
-      "summary": "Prime Minister Carney approved 1,100 new affordable rental homes in Ottawa, marking a concrete federal commitment under Canada's ongoing housing push. In British Columbia, former premier Mike Harcourt is now actively developing a six-unit multifamily project in Vancouver's Shaughnessy neighbourhood through Harcourt Asset Management, reflecting growing private-sector engagement in missing middle housing. Charlotte secured a $100 million investment directed toward affordable housing development, one of the larger municipal-level funding commitments reported this cycle. The California Association of Realtors reported that housing affordability improved for all Californians in 2025, with Riverside County outpacing state averages, though significant gaps remain wide for Black households. Florida stakeholders are pressing for smaller lot size requirements to ease that state's housing shortage, while Knoxville officials are planning to allocate millions of dollars toward local affordability and supply needs. Fayetteville marked two years since its housing crisis declaration, underscoring how many jurisdictions remain in prolonged response mode without resolution.",
+      "summary": "Prime Minister Carney approved 1,100 new affordable rental homes in Ottawa as part of Canada's broader housing push, while 2026 began with zero new condo launches for the first time in decades, according to Urbanation, signaling a sharp contraction in new supply. An estimated 2.5 million households renewing mortgages face significant financial strain, with many reducing savings or spending to meet payments amid elevated renewal rates. Ontario's Financial Services Regulatory Authority fined Harold Gerstel and his wife Esther a combined $210,000 for allegedly operating an unlicensed mortgage lending scheme that directed vulnerable borrowers to high-interest loans with effective annual rates exceeding 50 percent. In Vancouver's Shaughnessy neighbourhood, former B.C. premier Mike Harcourt is developing a six-unit multifamily project under a missing middle housing model, reflecting growing interest in gentle density as a supply tool. In the United States, Charlotte received a $100 million investment directed toward affordable housing development, and California Association of Realtors data show housing affordability improved for all Californians in 2025, though significant gaps remain wide for Black households.",
       "keyDevelopments": [],
       "highlights": [
         {
-          "text": "smaller lot size requirements",
+          "text": "unlicensed mortgage lending scheme",
+          "topic": "legislation"
+        },
+        {
+          "text": "combined $210,000",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-25T09:58:21.993Z"
+      "generatedAt": "2026-04-25T15:49:41.509Z"
     },
     "eu": {
       "summary": "The Renters' Rights Act, set to ban no-fault evictions in England from May 1, 2026, has prompted landlords to accelerate such evictions in advance, with tenant organizations reporting a significant surge in recent months. An Institute for Fiscal Studies analysis of the Conservative government's Help to Buy scheme concluded that the largest financial benefits flowed to the top 10% of earners, while the programme inflated housing prices and failed to expand supply. Basildon Borough Council, which manages approximately 10,750 social homes, received the Regulator of Social Housing's lowest grade of C4 following an inspection that found unaddressed fire safety backlogs, inadequate hazard documentation, and poor tenant engagement. In Exeter, hundreds of new homes under construction have not eased affordability pressures, with residents arguing that student accommodation and co-living studios are crowding out rental options for young working professionals. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has drawn nearly 350 objections from residents, though planning officers cite a housing supply shortage and have referred the decision to the Planning Inspectorate. Meanwhile, homelessness among older people in the UK has worsened markedly, with a 79% increase in over-65s at risk of homelessness over the past five years driven by housing benefit shortfalls and reduced social housing stock.",
@@ -54,6 +58,42 @@
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-financial-post-otzjud",
+          "headline": "Where Canada’s condo market is headed: FP Video",
+          "source": "Financial Post",
+          "date": "2026-04-25",
+          "url": "https://financialpost.com/news/where-canada-condo-market-is-headed-fp-video",
+          "summary": "A Financial Post video segment examines Canada's condominium market, featuring commentary from an investment manager on real estate investment trusts and an update from Urbanation on declining new condo launches. The report notes that 2026 began with zero new condo launches for the first time in decades, raising questions about future market supply.",
+          "summarySource": "article"
+        },
+        {
+          "id": "rss-bnn-bloomberg-trwzp8",
+          "headline": "Harold the Jewellery Buyer and wife hit with $210K in fines over alleged Ontario mortgage ‘scheme’",
+          "source": "BNN Bloomberg",
+          "date": "2026-04-25",
+          "url": "https://www.bnnbloomberg.ca/business/real-estate/2026/04/25/harold-the-jewellery-buyer-and-wife-hit-with-210k-in-fines-over-alleged-ontario-mortgage-scheme/",
+          "summary": "The Financial Services Regulatory Authority of Ontario has fined Harold Gerstel and his wife Esther a combined $210,000 after a tribunal found they allegedly operated an unlicensed mortgage lending scheme that directed vulnerable borrowers to high-interest loans, some with effective annual rates exceeding 50 percent. Gerstel has disputed the findings and stated he plans to appeal the decision.",
+          "summarySource": "article"
+        },
+        {
+          "id": "rss-globe-mail-real-estate-289ns9",
+          "headline": "How four Canadian households are coping with higher mortgage renewal rates",
+          "source": "Globe & Mail Real Estate",
+          "date": "2026-04-25",
+          "url": "https://www.theglobeandmail.com/investing/personal-finance/article-four-households-cope-higher-mortgage-renewal-rates/",
+          "summary": "The article profiles four Canadian households managing higher mortgage renewal rates, noting that while the anticipated housing market crisis has not fully materialized, an estimated 2.5 million households renewing mortgages face significant financial strain, with many reducing savings or spending to meet payments.",
+          "summarySource": "article"
+        },
+        {
+          "id": "rss-google-news-housing-ca-ymebzd",
+          "headline": "Do you believe Canada’s housing crisis was caused by government policy failures? - Winnipeg Sun",
+          "source": "Google News Housing CA",
+          "date": "2026-04-25",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZnp0QjFUMWU4eFo0ZnFqUjBVN3A4QlZ2SjVDVk5sVVZ1TzFjZWZTdGdHeVI3WmI5Rmo4UWRpQXpyMmtHMEFUV1o3eC16YVVBZTgyWlJPb2JJMFN4UXNWZTZoWWg5OC0wb1dtcms2Q1FCeHNyRjF5bUZhUXZmSGp6QThIODItTWhhV0pQdkxmN01XNUFnelRPUzh2NnZ4alRDal9Sd2dJMGFveExkbm8xcVByTVIxdnctdDBYcVhRNkpQTjVpb2Q1VWpwMC1ZN1k0c0F6NmJEam1JUUVvYXdNSDJRVWtTYjZWelE?oc=5",
+          "summary": "The Winnipeg Sun posed a question to readers about whether government policy failures contributed to Canada's housing crisis.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-build-canada-xffbcw",
           "headline": "Canada: PM Carney approves 1,100 new affordable rental homes in Ottawa under housing push - India Blooms",
@@ -1490,6 +1530,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-r0q0it",
+          "headline": "A Build America, Buy America law is causing construction delays amid the U.S. housing crisis - constructconnect.com",
+          "source": "Google News Housing US",
+          "date": "2026-04-01",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObkk5QllKWHNwMkFsM01LNW00VE0xczJpN2VyVndIU3hYY25RekV2azU0WEJfNWRXT2tmYm9pcmRMTEJ4Xy1TbXpERl94c19wOU9uTkNSb0txS0l5VFJZcjBWUlNjTWhGa0VGUVdWRGpiT29HOVQ3b1FjdXZHemg3NWJDMXFMdFJmRXAtbldwS3VJUnhsQTlfSmNHbVNkZVV0YWJxdGFyM25aeFFvQ28xYXBZVUNGWTUwN3BJcndqcXlOZGFHcGNrT2p4c3JTNXkzN2M4T3FGZl9EQzMyREVr?oc=5",
+          "summary": "A federal Buy America law is contributing to construction delays during a period of elevated housing shortage in the United States.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-bscz20",
           "headline": "EU tackles Europe's housing crisis - France 24",
           "source": "Google News Housing US",
@@ -1685,6 +1734,15 @@
           "date": "2026-02-07",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQS3FfNmJ6dVJ1aWl1NllGOUI0QW1hN0FfbHRUVGFXRGQ1bXpuQnZDM0ZNVEhJNE1zMHR5REZEbWRXdlRDbFVEbFpiQ1pRZm40bktGSE5RRUJtRDBDRVkweW15NFFRa1B6cldPZjFqZnhfTWJXT0ZJQlVxM1NXZ1RIdDY3d2NDeDExZkp1bHpJRmd6dUxSdkEzUmFB?oc=5",
           "summary": "A Guardian opinion piece critiques the Trump administration's housing policy approach as ineffective in addressing the U.S. housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-esowc7",
+          "headline": "Why Building Alone Won’t Solve the Housing Crisis - The New York Times",
+          "source": "Google News Housing US",
+          "date": "2026-02-05",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX00zbUhjVkhVdFR3dFZtTVNBNm5nV0NqN1JVOTZKZWxMTlNodVZSU050QmlBVkM4eGtsWUw1WnVncGROQ1RtYm1PT0RTSlprSWU0bW94aTBEUXZBVDlNQ0tiNERwcE9NN2dlejBHd2xhU3kwa1BnYkFrWVJPNzBqMmpaR29vVzF0VTRDblZQMkw?oc=5",
+          "summary": "The article discusses the view that increasing housing construction alone is insufficient to address the housing crisis.",
           "summarySource": "headline-only"
         },
         {
@@ -1991,6 +2049,42 @@
     "World": {
       "news": [
         {
+          "id": "rss-google-news-housing-glob-vzzlym",
+          "headline": "ARIANA LONG: Housing Crisis - Marietta Daily Journal",
+          "source": "Google News Housing Global",
+          "date": "2026-04-25",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTlKSHdweVI5a25iSU9iSFc1NVJ2ZHF4Vk44QkZjQ3dLdUxscmlrU0FVYTVsQkRwdENON3dBdHhTeFcyMjNhbzJsbXVTNk1SRVljVlBBd3lCZmVib08yeHd6TXlnQ3owMEhTNWJ5eTVvem9jNTN4SGZRNE9ERnpyVWVqU3ROR0lqQS1vMTA1a0VOd0h1S3dMTHpHbDcwTW1uZWxOMzBfX2RsQXh5aUpJ?oc=5",
+          "summary": "An opinion piece titled \"Housing Crisis\" by Ariana Long was published in the Marietta Daily Journal.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-pvlqiw",
+          "headline": "Housing Affordability Edges Up Across SoCal; Disparities Remain - Pasadena Now",
+          "source": "Google News Housing Global",
+          "date": "2026-04-25",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOVo3dlF4SUw5UjlFX0FSN3hISkE0VGctOTRGSU9IbUpNbDM2Tkd0dzJwa3c2NXZvLXBlbGFlXzctUll6Z3R0X2hOQlRQbWNsRDNJcGRfNGVZT20tLVZlWUZLU2V1dmF5N01vanlHRmpXY3E4dUlTdUxIMnpoQmhycUdEODdYb2l4STJIeXN2NFoybHZTZ0E?oc=5",
+          "summary": "Housing affordability conditions have marginally improved across Southern California, though significant disparities persist among different areas or demographic groups.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-li4e4s",
+          "headline": "Germany's housing crisis: Loopholes for landlords? - DW.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-25",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRXJYVVZ5eUtid2IxeS1HbmVSNmx4cDk5TThCM1hHUEprQUZMaUxHR2xmR1hqWVhqamZhYUxydnoxSUhFSHBmdEttSDN4cW9fWkdzaDRrcmZSa1lvc2JIVjIwWEVyRTk4WG1MdHdsak1raFhESmR5bFFiWmoxcUxqWGVDczVWcFpmcFA1UHFCbkVlVUhuRkh0eWJBeHRXbGN3WFE?oc=5",
+          "summary": "Germany is experiencing a housing crisis that may involve legal loopholes benefiting landlords.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-kgxygj",
+          "headline": "Fayetteville marks two years since housing crisis declared - AOL.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-25",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NQzZZVkZ4WmRQdFRCci1rbHVXd0g3QXF6SXo3UUVRNnVKaDlhalNuTmhxVHJ0T2pTMThVR056eU9wY0QwRllKaVNNV242TE5pVy05QVlNMFkxZ3dZb1lsVFBGWXRjMkpBNmotdFNxN0dOQTRsbi1ma3Y0c3NUQUE?oc=5",
+          "summary": "Fayetteville is marking the second anniversary of declaring a housing crisis in its community.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-glob-k67n7s",
           "headline": "Housing Affordability Improves Slightly in Coachella Valley, Challenges Remain - NBC Palm Springs",
           "source": "Google News Housing Global",
@@ -2024,6 +2118,15 @@
           "date": "2026-04-25",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQa0tfMVN3R2VCZ2lTQTZLV2xDaXpYblkzRkJvY1dyX2V3dS16dzZzbVhJYzExTHlsanl4RHg4YnpWUWVRbVdRellkV1ZwUFItLXJFcWI3Q2RrRll1cEhGTXhVeDhSZXgzbS1HN1BmUTdoVmQ5cXpJS2xtbXN6TlRLdVBMR0I2SFE5U2RnRGQ1bERpYUVUbWtsMHd2TTUzSWZGYzNoVjJYMVlERVJHNGNUc2VIbVlRdmdqSVhLRTM0dXc1ZThoTnVKMzNkUHpTNElvNDhIYVU3ZDc3RVphanBzbXo3Yw?oc=5",
           "summary": "Knoxville officials are planning to allocate millions of dollars toward addressing housing shortage and affordability issues in the city.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-2vlej2",
+          "headline": "‘Affordable’ Pittsburgh doesn’t have enough affordable housing – here’s why - The Central Virginian",
+          "source": "Google News Housing Global",
+          "date": "2026-04-24",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPbGJkVldhVDI4RDdXWEpnRmNnMWlKdWtrVjdWQXlWelBNWEp4QjNkVmp3bVJKdlVmS0hWTnZXd3dFLTlXQUtvbk1QRzlJVHJfbGc0OFBxUmVtQzlvNEUyZGxIaGdrVlZRWWpCVno1X252MGVVRUw5TFBLS1BNcjR4SmQ4VjRHYjY0ckZKa0NrZVFlWGRyb05BSjRqZ2dLUDRxaGpkLXFzOWhScjRKT0pFanR3dWpvZC1rTkRiMDRSQTNrMWUwQ0plei14OFhRSzl4eU5lSHI5NDB3OTFIQVBFUDl0X0tZZV9IS0Jnc1RreEZNT0RyMmFUcnpPT1paNjlR?oc=5",
+          "summary": "Pittsburgh faces a shortage of housing units that meet affordability criteria for its residents.",
           "summarySource": "headline-only"
         },
         {
