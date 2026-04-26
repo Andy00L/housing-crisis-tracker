@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-26T15:51:36.329Z",
+  "generatedAt": "2026-04-26T23:50:09.636Z",
   "regional": {
     "na": {
-      "summary": "Prime Minister Carney approved 1,100 new affordable rental homes in Ottawa on April 24, marking a concrete federal commitment under Canada's ongoing housing push. Canada's condo market faces a notable supply warning, as 2026 began with zero new condo launches for the first time in decades, according to Urbanation data reported by the Financial Post. An estimated 2.5 million households renewing mortgages are under significant financial strain, with many reducing savings or spending to meet payments amid higher renewal rates. Ontario's Financial Services Regulatory Authority fined Harold Gerstel and his wife Esther a combined $210,000 over an alleged unlicensed mortgage lending scheme that directed vulnerable borrowers to high-interest loans with effective annual rates exceeding 50 percent. In the United States, Charlotte secured a $100 million investment for affordable housing development, while housing affordability conditions marginally improved across Southern California though significant disparities remain. Former British Columbia premier Mike Harcourt is actively developing a six-unit multifamily project in Vancouver's Shaughnessy neighbourhood, reflecting growing private-sector engagement in missing middle housing.",
+      "summary": "Prime Minister Carney approved 1,100 new affordable rental homes in Ottawa as part of a broader federal housing push, marking one of the more concrete supply-side commitments in Canada this week. Canada's condo market is showing significant stress: 2026 began with zero new condo launches for the first time in decades, according to Urbanation, raising acute questions about future supply pipelines. An estimated 2.5 million households renewing mortgages face significant financial strain, with many reducing savings or spending to meet payments amid elevated renewal rates. Ontario's Financial Services Regulatory Authority fined Harold Gerstel and his wife Esther a combined $210,000 over an alleged unlicensed mortgage lending scheme involving loans with effective annual rates exceeding 50 percent. In British Columbia, former premier Mike Harcourt is now developing a six-unit multifamily project in Vancouver's Shaughnessy neighbourhood under a family firm focused on missing middle housing. Meanwhile, housing affordability conditions have marginally improved across Southern California, though significant disparities persist, and Knoxville city officials announced plans to allocate millions of dollars toward addressing local affordability pressures.",
       "keyDevelopments": [],
       "highlights": [
         {
@@ -10,7 +10,7 @@
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-26T15:51:36.329Z"
+      "generatedAt": "2026-04-26T23:50:09.636Z"
     },
     "eu": {
       "summary": "The Renters' Rights Act, set to ban no-fault evictions in England from May 1, 2026, has prompted landlords to accelerate such evictions in advance, with tenant organizations reporting a significant surge in recent months. An Institute for Fiscal Studies analysis of the Conservative government's Help to Buy scheme concluded that the largest financial benefits flowed to the top 10% of earners, while the programme inflated housing prices and failed to expand supply. Basildon Borough Council, which manages approximately 10,750 social homes, received the Regulator of Social Housing's lowest grade of C4 following an inspection that found unaddressed fire safety backlogs, inadequate hazard documentation, and poor tenant engagement. In Exeter, hundreds of new homes under construction have not eased affordability pressures, with residents arguing that student accommodation and co-living studios are crowding out rental options for young working professionals. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has drawn nearly 350 objections from residents, though planning officers cite a housing supply shortage and have referred the decision to the Planning Inspectorate. Meanwhile, homelessness among older people in the UK has worsened markedly, with a 79% increase in over-65s at risk of homelessness over the past five years driven by housing benefit shortfalls and reduced social housing stock.",
@@ -1405,6 +1405,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-zoning-on-bc-5671bc",
+          "headline": "Opinion: Ford takes aim at housing gatekeepers - Financial Post",
+          "source": "Google News Zoning ON BC",
+          "date": "2022-10-27",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03ZUF0RFNXOUtKamh5cy1HdU1pWTNoR0hST0EteENtczVzY1NhR1pSUFRNV2RUQzNjZzNQUkowd2R4aFAtUm8xeDdDWEtQdExzakViaVB0dWRrY21SXzduT1ZsM3Jubl9wM3c?oc=5",
+          "summary": "Ontario Premier Doug Ford has taken a position against restrictions that limit housing development.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-zoning-on-bc-av3um0",
           "headline": "Here's why it's difficult to build housing and why it should inform your municipal election vote - CBC",
           "source": "Google News Zoning ON BC",
@@ -2063,12 +2072,30 @@
     "World": {
       "news": [
         {
+          "id": "rss-google-news-housing-glob-1r16ao",
+          "headline": "Opinion: San Diego housing crisis is daily reality with shrinking access to help - timesofsandiego.com",
+          "source": "Google News Housing Global",
+          "date": "2026-04-26",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaUNXUGd5bUh1NWN1YVBhOFNiclM4WGFKWDVwd2VnV3dUOXFxNThobldxbUc3UUR1MERZVTlJZDk4SmUxM3JQVjg3el9MOElGNEJFdks2VThKT1RmZDhjbkljNGx3bTVIVnRBNTh1NkVNZ1lXdWs5Y0o4cElwTWJNbllUUkpJcEFBTzZneGQ1aUE3ZWV1MmJtVDltMXlaVTdGNHZFMDNxNm5DdVZw?oc=5",
+          "summary": "An opinion piece discusses housing affordability challenges in San Diego and declining availability of assistance resources.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-glob-naijhd",
           "headline": "Commentary: Why affordable housing matters for Orlando - Orlando Sentinel",
           "source": "Google News Housing Global",
           "date": "2026-04-26",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUThGUmswcmZuNGJyUElDLVlSczVLMGdYYWxlWHlodXA1cVY5RmU2dUhyQnhnUlk0UjB5Y3NBNG8tMlNCWG5EankxbXVQWnJmak16TEh6b1VpZlpUTFc4VWlXR09IQ241UEpNSGRzZGF5NXVodHNuLWhqTVNIU0dUU3dQRlVINndOeHN1Q09TYUNSTjRSNjBaM1dLeFZldw?oc=5",
           "summary": "A commentary piece examines the importance of affordable housing to the Orlando area.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-glob-wj1crp",
+          "headline": "Millions of dollars planned to help with Knoxville housing crisis - WBIR",
+          "source": "Google News Housing Global",
+          "date": "2026-04-25",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNaVo5UFlaaUR4SFUtU2hSZzgzTmR2ZmNRalZQclBTTFNSaTlDVWZfNzNPNm4ycFhXUVBqUWdJbENpOHBIOE4tZkJmZFJPb0QtZmpkOC1JbXFOMEZnU1VtVmctbWRRZ0tDWjRfdTg0N0FVd0VpbjZUalpnM1BqeC1xaUFwbExxWk5KT1d6VW1KR19fb3dKMWR6OGhGY25sUXJWRk1HRkNfTUhteU5PRU1sQ1czUHI3TGl1ejNHbDZXV3FzMDJOLUV5dU9XR2RkeC0wMDVHVkJOeTRuRXZHLTA0Rm9UME00Tkhh?oc=5",
+          "summary": "Knoxville city officials have announced plans to allocate millions of dollars toward addressing the local housing crisis.",
           "summarySource": "headline-only"
         },
         {
