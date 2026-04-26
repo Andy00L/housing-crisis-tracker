@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-26T10:00:22.200Z",
+  "generatedAt": "2026-04-26T15:51:36.329Z",
   "regional": {
     "na": {
-      "summary": "Prime Minister Carney approved 1,100 new affordable rental homes in Ottawa as part of Canada's broader housing push, while 2026 began with zero new condo launches in Canada for the first time in decades, underscoring a deepening supply contraction in the condominium market. An estimated 2.5 million Canadian households renewing mortgages face significant financial strain, and Ontario's Financial Services Regulatory Authority fined Harold Gerstel and his wife a combined $210,000 over an alleged unlicensed mortgage lending scheme involving effective annual rates exceeding 50 percent. In British Columbia, former premier Mike Harcourt is developing a six-unit multifamily project in Vancouver's Shaughnessy neighbourhood, reflecting growing private-sector interest in missing middle housing. Charlotte received a $100 million investment directed toward affordable housing development, while Knoxville officials are planning to allocate millions of dollars to address local housing shortages. Housing affordability improved for all Californians in 2025 according to the California Association of Realtors, though significant gaps remain wide for Black households, and Southern California more broadly saw affordability edge up while disparities persist across the region.",
+      "summary": "Prime Minister Carney approved 1,100 new affordable rental homes in Ottawa on April 24, marking a concrete federal commitment under Canada's ongoing housing push. Canada's condo market faces a notable supply warning, as 2026 began with zero new condo launches for the first time in decades, according to Urbanation data reported by the Financial Post. An estimated 2.5 million households renewing mortgages are under significant financial strain, with many reducing savings or spending to meet payments amid higher renewal rates. Ontario's Financial Services Regulatory Authority fined Harold Gerstel and his wife Esther a combined $210,000 over an alleged unlicensed mortgage lending scheme that directed vulnerable borrowers to high-interest loans with effective annual rates exceeding 50 percent. In the United States, Charlotte secured a $100 million investment for affordable housing development, while housing affordability conditions marginally improved across Southern California though significant disparities remain. Former British Columbia premier Mike Harcourt is actively developing a six-unit multifamily project in Vancouver's Shaughnessy neighbourhood, reflecting growing private-sector engagement in missing middle housing.",
       "keyDevelopments": [],
       "highlights": [
         {
@@ -10,7 +10,7 @@
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-26T10:00:22.200Z"
+      "generatedAt": "2026-04-26T15:51:36.329Z"
     },
     "eu": {
       "summary": "The Renters' Rights Act, set to ban no-fault evictions in England from May 1, 2026, has prompted landlords to accelerate such evictions in advance, with tenant organizations reporting a significant surge in recent months. An Institute for Fiscal Studies analysis of the Conservative government's Help to Buy scheme concluded that the largest financial benefits flowed to the top 10% of earners, while the programme inflated housing prices and failed to expand supply. Basildon Borough Council, which manages approximately 10,750 social homes, received the Regulator of Social Housing's lowest grade of C4 following an inspection that found unaddressed fire safety backlogs, inadequate hazard documentation, and poor tenant engagement. In Exeter, hundreds of new homes under construction have not eased affordability pressures, with residents arguing that student accommodation and co-living studios are crowding out rental options for young working professionals. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has drawn nearly 350 objections from residents, though planning officers cite a housing supply shortage and have referred the decision to the Planning Inspectorate. Meanwhile, homelessness among older people in the UK has worsened markedly, with a 79% increase in over-65s at risk of homelessness over the past five years driven by housing benefit shortfalls and reduced social housing stock.",
@@ -54,6 +54,15 @@
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-google-news-housing-ca-3clbsf",
+          "headline": "Retirement security is key to solving housing crisis - CUPE",
+          "source": "Google News Housing CA",
+          "date": "2026-04-26",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WSTVESUhkSThZaVBvMlBHaENPQk1EMVB6QU5yTzRvOFF6SEpHeTB1aFo2ckg2ckstU1hOa09fOWNaVm1pVHpQX0lCNXdpbnU0c1E3Rk04M2pqdl9fakpLdGlwaVc4ZDF3eUxDT1pyYmFJdw?oc=5",
+          "summary": "A labour union spokesperson has suggested that improving retirement security is connected to addressing the housing crisis.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-financial-post-otzjud",
           "headline": "Where Canada’s condo market is headed: FP Video",
