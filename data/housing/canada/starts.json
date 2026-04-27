@@ -1,14 +1,10 @@
 {
   "table": "34100135",
   "name": "Housing starts and completions",
-  "lastUpdated": "2026-01-21",
+  "lastUpdated": "2026-04-21",
   "geographies": {
     "Canada": {
       "values": [
-        {
-          "period": "2024-01",
-          "value": 52859
-        },
         {
           "period": "2024-04",
           "value": 65739
@@ -36,15 +32,15 @@
         {
           "period": "2025-10",
           "value": 66616
+        },
+        {
+          "period": "2026-01",
+          "value": 51211
         }
       ]
     },
     "Newfoundland and Labrador": {
       "values": [
-        {
-          "period": "2024-01",
-          "value": 263
-        },
         {
           "period": "2024-04",
           "value": 409
@@ -72,15 +68,15 @@
         {
           "period": "2025-10",
           "value": 467
+        },
+        {
+          "period": "2026-01",
+          "value": 224
         }
       ]
     },
     "Prince Edward Island": {
       "values": [
-        {
-          "period": "2024-01",
-          "value": 394
-        },
         {
           "period": "2024-04",
           "value": 317
@@ -108,15 +104,15 @@
         {
           "period": "2025-10",
           "value": 318
+        },
+        {
+          "period": "2026-01",
+          "value": 424
         }
       ]
     },
     "Nova Scotia": {
       "values": [
-        {
-          "period": "2024-01",
-          "value": 2158
-        },
         {
           "period": "2024-04",
           "value": 2360
@@ -144,15 +140,15 @@
         {
           "period": "2025-10",
           "value": 2432
+        },
+        {
+          "period": "2026-01",
+          "value": 1394
         }
       ]
     },
     "New Brunswick": {
       "values": [
-        {
-          "period": "2024-01",
-          "value": 750
-        },
         {
           "period": "2024-04",
           "value": 1608
@@ -180,15 +176,15 @@
         {
           "period": "2025-10",
           "value": 2148
+        },
+        {
+          "period": "2026-01",
+          "value": 1336
         }
       ]
     },
     "Quebec": {
       "values": [
-        {
-          "period": "2024-01",
-          "value": 8300
-        },
         {
           "period": "2024-04",
           "value": 14911
@@ -216,15 +212,15 @@
         {
           "period": "2025-10",
           "value": 16885
+        },
+        {
+          "period": "2026-01",
+          "value": 11413
         }
       ]
     },
     "Ontario": {
       "values": [
-        {
-          "period": "2024-01",
-          "value": 18169
-        },
         {
           "period": "2024-04",
           "value": 19256
@@ -252,15 +248,15 @@
         {
           "period": "2025-10",
           "value": 17282
+        },
+        {
+          "period": "2026-01",
+          "value": 13993
         }
       ]
     },
     "Manitoba": {
       "values": [
-        {
-          "period": "2024-01",
-          "value": 1130
-        },
         {
           "period": "2024-04",
           "value": 1977
@@ -288,15 +284,15 @@
         {
           "period": "2025-10",
           "value": 2141
+        },
+        {
+          "period": "2026-01",
+          "value": 1741
         }
       ]
     },
     "Saskatchewan": {
       "values": [
-        {
-          "period": "2024-01",
-          "value": 704
-        },
         {
           "period": "2024-04",
           "value": 932
@@ -324,15 +320,15 @@
         {
           "period": "2025-10",
           "value": 1529
+        },
+        {
+          "period": "2026-01",
+          "value": 781
         }
       ]
     },
     "Alberta": {
       "values": [
-        {
-          "period": "2024-01",
-          "value": 9940
-        },
         {
           "period": "2024-04",
           "value": 11879
@@ -360,15 +356,15 @@
         {
           "period": "2025-10",
           "value": 12920
+        },
+        {
+          "period": "2026-01",
+          "value": 9908
         }
       ]
     },
     "British Columbia": {
       "values": [
-        {
-          "period": "2024-01",
-          "value": 11051
-        },
         {
           "period": "2024-04",
           "value": 12090
@@ -396,6 +392,10 @@
         {
           "period": "2025-10",
           "value": 10494
+        },
+        {
+          "period": "2026-01",
+          "value": 9997
         }
       ]
     }

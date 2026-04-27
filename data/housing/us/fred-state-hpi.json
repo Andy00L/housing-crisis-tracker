@@ -1,7 +1,7 @@
 {
   "name": "All-Transactions House Price Index by State",
   "source": "FRED / FHFA",
-  "lastUpdated": "2026-04-16",
+  "lastUpdated": "2026-04-27",
   "states": {
     "AL": {
       "stateName": "Alabama",

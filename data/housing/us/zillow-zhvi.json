@@ -1,415 +1,415 @@
 {
   "source": "Zillow Home Value Index (ZHVI)",
   "level": "state",
-  "lastUpdated": "2026-04-16",
+  "lastUpdated": "2026-04-27",
   "states": [
     {
       "state": "0",
       "regionName": "0",
-      "currentValue": 765036,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 778414,
-      "changeYoY": -1.7
+      "currentValue": 774582,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 785341,
+      "changeYoY": -1.4
     },
     {
       "state": "1",
       "regionName": "1",
-      "currentValue": 297592,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 304703,
-      "changeYoY": -2.3
+      "currentValue": 300957,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 307708,
+      "changeYoY": -2.2
     },
     {
       "state": "2",
       "regionName": "2",
-      "currentValue": 372755,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 390740,
-      "changeYoY": -4.6
+      "currentValue": 375662,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 391968,
+      "changeYoY": -4.2
     },
     {
       "state": "3",
       "regionName": "3",
-      "currentValue": 502162,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 480701,
-      "changeYoY": 4.5
+      "currentValue": 507794,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 484455,
+      "changeYoY": 4.8
     },
     {
       "state": "4",
       "regionName": "4",
-      "currentValue": 278429,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 271764,
+      "currentValue": 282736,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 275916,
       "changeYoY": 2.5
     },
     {
       "state": "5",
       "regionName": "5",
-      "currentValue": 281547,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 269179,
-      "changeYoY": 4.6
+      "currentValue": 285736,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 272712,
+      "changeYoY": 4.8
     },
     {
       "state": "6",
       "regionName": "6",
-      "currentValue": 237200,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 229704,
-      "changeYoY": 3.3
+      "currentValue": 242141,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 234166,
+      "changeYoY": 3.4
     },
     {
       "state": "7",
       "regionName": "7",
-      "currentValue": 328277,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 334250,
-      "changeYoY": -1.8
+      "currentValue": 332063,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 337099,
+      "changeYoY": -1.5
     },
     {
       "state": "8",
       "regionName": "8",
-      "currentValue": 331413,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 333734,
-      "changeYoY": -0.7
+      "currentValue": 336408,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 337841,
+      "changeYoY": -0.4
     },
     {
       "state": "9",
       "regionName": "9",
-      "currentValue": 254230,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 244840,
-      "changeYoY": 3.8
+      "currentValue": 259857,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 249745,
+      "changeYoY": 4
     },
     {
       "state": "10",
       "regionName": "10",
-      "currentValue": 558900,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 540755,
-      "changeYoY": 3.4
+      "currentValue": 569411,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 550089,
+      "changeYoY": 3.5
     },
     {
       "state": "11",
       "regionName": "11",
-      "currentValue": 405474,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 399491,
-      "changeYoY": 1.5
+      "currentValue": 412467,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 405891,
+      "changeYoY": 1.6
     },
     {
       "state": "12",
       "regionName": "12",
-      "currentValue": 592562,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 596008,
-      "changeYoY": -0.6
+      "currentValue": 601016,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 604210,
+      "changeYoY": -0.5
     },
     {
       "state": "13",
       "regionName": "13",
-      "currentValue": 420906,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 430352,
-      "changeYoY": -2.2
+      "currentValue": 423330,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 431200,
+      "changeYoY": -1.8
     },
     {
       "state": "14",
       "regionName": "14",
-      "currentValue": 642387,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 632827,
-      "changeYoY": 1.5
+      "currentValue": 656690,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 646484,
+      "changeYoY": 1.6
     },
     {
       "state": "15",
       "regionName": "15",
-      "currentValue": 327696,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 328197,
-      "changeYoY": -0.2
+      "currentValue": 333651,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 333356,
+      "changeYoY": 0.1
     },
     {
       "state": "16",
       "regionName": "16",
-      "currentValue": 249724,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 243160,
-      "changeYoY": 2.7
+      "currentValue": 254122,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 247130,
+      "changeYoY": 2.8
     },
     {
       "state": "17",
       "regionName": "17",
-      "currentValue": 423956,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 423232,
+      "currentValue": 429705,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 428969,
       "changeYoY": 0.2
     },
     {
       "state": "18",
       "regionName": "18",
-      "currentValue": 258099,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 252377,
-      "changeYoY": 2.3
+      "currentValue": 263040,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 256606,
+      "changeYoY": 2.5
     },
     {
       "state": "19",
       "regionName": "19",
-      "currentValue": 322641,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 306769,
-      "changeYoY": 5.2
+      "currentValue": 330171,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 313350,
+      "changeYoY": 5.4
     },
     {
       "state": "20",
       "regionName": "20",
-      "currentValue": 535507,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 549116,
-      "changeYoY": -2.5
+      "currentValue": 541842,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 555185,
+      "changeYoY": -2.4
     },
     {
       "state": "21",
       "regionName": "21",
-      "currentValue": 341308,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 333203,
-      "changeYoY": 2.4
+      "currentValue": 346668,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 337608,
+      "changeYoY": 2.7
     },
     {
       "state": "22",
       "regionName": "22",
-      "currentValue": 300562,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 301140,
-      "changeYoY": -0.2
+      "currentValue": 304083,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 303831,
+      "changeYoY": 0.1
     },
     {
       "state": "23",
       "regionName": "23",
-      "currentValue": 232106,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 231302,
-      "changeYoY": 0.3
+      "currentValue": 236453,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 234628,
+      "changeYoY": 0.8
     },
     {
       "state": "24",
       "regionName": "24",
-      "currentValue": 208930,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 209271,
-      "changeYoY": -0.2
+      "currentValue": 211635,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 210900,
+      "changeYoY": 0.3
     },
     {
       "state": "25",
       "regionName": "25",
-      "currentValue": 228840,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 226835,
-      "changeYoY": 0.9
+      "currentValue": 231894,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 231135,
+      "changeYoY": 0.3
     },
     {
       "state": "26",
       "regionName": "26",
-      "currentValue": 492347,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 496602,
-      "changeYoY": -0.9
+      "currentValue": 499004,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 502719,
+      "changeYoY": -0.7
     },
     {
       "state": "27",
       "regionName": "27",
-      "currentValue": 216242,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 212582,
-      "changeYoY": 1.7
+      "currentValue": 220468,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 216199,
+      "changeYoY": 2
     },
     {
       "state": "28",
       "regionName": "28",
-      "currentValue": 425333,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 406887,
-      "changeYoY": 4.5
+      "currentValue": 436407,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 416827,
+      "changeYoY": 4.7
     },
     {
       "state": "30",
       "regionName": "30",
-      "currentValue": 533118,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 522745,
-      "changeYoY": 2
+      "currentValue": 537810,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 527777,
+      "changeYoY": 1.9
     },
     {
       "state": "31",
       "regionName": "31",
-      "currentValue": 227764,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 220044,
-      "changeYoY": 3.5
+      "currentValue": 231585,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 223355,
+      "changeYoY": 3.7
     },
     {
       "state": "32",
       "regionName": "32",
-      "currentValue": 442655,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 451371,
-      "changeYoY": -1.9
+      "currentValue": 446865,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 455889,
+      "changeYoY": -2
     },
     {
       "state": "33",
       "regionName": "33",
-      "currentValue": 219754,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 215567,
-      "changeYoY": 1.9
+      "currentValue": 222050,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 216687,
+      "changeYoY": 2.5
     },
     {
       "state": "34",
       "regionName": "34",
-      "currentValue": 189895,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 189508,
-      "changeYoY": 0.2
+      "currentValue": 192906,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 191773,
+      "changeYoY": 0.6
     },
     {
       "state": "35",
       "regionName": "35",
-      "currentValue": 239111,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 232548,
-      "changeYoY": 2.8
+      "currentValue": 244761,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 237037,
+      "changeYoY": 3.3
     },
     {
       "state": "36",
       "regionName": "36",
-      "currentValue": 310375,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 307701,
-      "changeYoY": 0.9
+      "currentValue": 316750,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 313598,
+      "changeYoY": 1
     },
     {
       "state": "37",
       "regionName": "37",
-      "currentValue": 271338,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 263163,
-      "changeYoY": 3.1
+      "currentValue": 276500,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 267768,
+      "changeYoY": 3.3
     },
     {
       "state": "38",
       "regionName": "38",
-      "currentValue": 468156,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 462087,
+      "currentValue": 473335,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 467318,
       "changeYoY": 1.3
     },
     {
       "state": "39",
       "regionName": "39",
-      "currentValue": 169780,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 168939,
-      "changeYoY": 0.5
+      "currentValue": 174412,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 172905,
+      "changeYoY": 0.9
     },
     {
       "state": "40",
       "regionName": "40",
-      "currentValue": 823970,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 837668,
-      "changeYoY": -1.6
+      "currentValue": 832967,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 842766,
+      "changeYoY": -1.2
     },
     {
       "state": "41",
       "regionName": "41",
-      "currentValue": 495256,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 482296,
+      "currentValue": 507347,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 493806,
       "changeYoY": 2.7
     },
     {
       "state": "42",
       "regionName": "42",
-      "currentValue": 396938,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 395418,
-      "changeYoY": 0.4
+      "currentValue": 407566,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 405014,
+      "changeYoY": 0.6
     },
     {
       "state": "43",
       "regionName": "43",
-      "currentValue": 488738,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 475496,
-      "changeYoY": 2.8
+      "currentValue": 499272,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 485036,
+      "changeYoY": 2.9
     },
     {
       "state": "44",
       "regionName": "44",
-      "currentValue": 455364,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 451210,
-      "changeYoY": 0.9
+      "currentValue": 466917,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 461661,
+      "changeYoY": 1.1
     },
     {
       "state": "45",
       "regionName": "45",
-      "currentValue": 396207,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 389544,
-      "changeYoY": 1.7
+      "currentValue": 402891,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 395702,
+      "changeYoY": 1.8
     },
     {
       "state": "46",
       "regionName": "46",
-      "currentValue": 312005,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 304279,
-      "changeYoY": 2.5
+      "currentValue": 317148,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 308754,
+      "changeYoY": 2.7
     },
     {
       "state": "47",
       "regionName": "47",
-      "currentValue": 280510,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 266818,
-      "changeYoY": 5.1
+      "currentValue": 284076,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 269766,
+      "changeYoY": 5.3
     },
     {
       "state": "48",
       "regionName": "48",
-      "currentValue": 380987,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 366570,
-      "changeYoY": 3.9
+      "currentValue": 387636,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 371055,
+      "changeYoY": 4.5
     },
     {
       "state": "49",
       "regionName": "49",
-      "currentValue": 574199,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 592133,
-      "changeYoY": -3
+      "currentValue": 583084,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 600791,
+      "changeYoY": -2.9
     },
     {
       "state": "50",
       "regionName": "50",
-      "currentValue": 381496,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 380697,
-      "changeYoY": 0.2
+      "currentValue": 394038,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 389985,
+      "changeYoY": 1
     },
     {
       "state": "51",
       "regionName": "51",
-      "currentValue": 355667,
-      "currentPeriod": "2026-02-28",
-      "yearAgoValue": 351139,
-      "changeYoY": 1.3
+      "currentValue": 363227,
+      "currentPeriod": "2026-03-31",
+      "yearAgoValue": 358346,
+      "changeYoY": 1.4
     }
   ]
 }

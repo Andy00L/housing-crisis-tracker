@@ -1,7 +1,7 @@
 {
   "source": "Eurostat House Price Index (prc_hpi_q)",
   "unit": "Quarterly index, 2015=100",
-  "lastUpdated": "2026-04-16",
+  "lastUpdated": "2026-04-27",
   "countries": {
     "DE": {
       "name": "Germany",

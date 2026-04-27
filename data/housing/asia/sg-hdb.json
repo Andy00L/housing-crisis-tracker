@@ -1,9 +1,157 @@
 {
   "source": "Housing & Development Board (HDB) via data.gov.sg",
-  "lastUpdated": "2026-04-16",
+  "lastUpdated": "2026-04-27",
   "period": "2025-04 to present",
-  "totalTransactions": 0,
-  "overallMedianPrice": null,
+  "totalTransactions": 1000,
+  "overallMedianPrice": 630000,
   "currency": "SGD",
-  "towns": []
+  "towns": [
+    {
+      "town": "CENTRAL AREA",
+      "medianPrice": 1180000,
+      "transactionCount": 11,
+      "minPrice": 500000,
+      "maxPrice": 1445000
+    },
+    {
+      "town": "BUKIT TIMAH",
+      "medianPrice": 963000,
+      "transactionCount": 3,
+      "minPrice": 920000,
+      "maxPrice": 1020000
+    },
+    {
+      "town": "KALLANG/WHAMPOA",
+      "medianPrice": 888000,
+      "transactionCount": 39,
+      "minPrice": 339000,
+      "maxPrice": 1430000
+    },
+    {
+      "town": "BISHAN",
+      "medianPrice": 828000,
+      "transactionCount": 29,
+      "minPrice": 520000,
+      "maxPrice": 1350000
+    },
+    {
+      "town": "QUEENSTOWN",
+      "medianPrice": 788000,
+      "transactionCount": 42,
+      "minPrice": 330739,
+      "maxPrice": 1480000
+    },
+    {
+      "town": "PASIR RIS",
+      "medianPrice": 750000,
+      "transactionCount": 30,
+      "minPrice": 422000,
+      "maxPrice": 1080000
+    },
+    {
+      "town": "BUKIT MERAH",
+      "medianPrice": 728400,
+      "transactionCount": 62,
+      "minPrice": 263000,
+      "maxPrice": 1380000
+    },
+    {
+      "town": "GEYLANG",
+      "medianPrice": 666000,
+      "transactionCount": 47,
+      "minPrice": 280000,
+      "maxPrice": 1230000
+    },
+    {
+      "town": "BUKIT BATOK",
+      "medianPrice": 662944,
+      "transactionCount": 96,
+      "minPrice": 322500,
+      "maxPrice": 990000
+    },
+    {
+      "town": "PUNGGOL",
+      "medianPrice": 661500,
+      "transactionCount": 94,
+      "minPrice": 350000,
+      "maxPrice": 1000000
+    },
+    {
+      "town": "BUKIT PANJANG",
+      "medianPrice": 630000,
+      "transactionCount": 47,
+      "minPrice": 450000,
+      "maxPrice": 1000000
+    },
+    {
+      "town": "HOUGANG",
+      "medianPrice": 605000,
+      "transactionCount": 71,
+      "minPrice": 380000,
+      "maxPrice": 1038888
+    },
+    {
+      "town": "SEMBAWANG",
+      "medianPrice": 595000,
+      "transactionCount": 53,
+      "minPrice": 365000,
+      "maxPrice": 823000
+    },
+    {
+      "town": "CHOA CHU KANG",
+      "medianPrice": 583500,
+      "transactionCount": 66,
+      "minPrice": 360000,
+      "maxPrice": 950000
+    },
+    {
+      "town": "ANG MO KIO",
+      "medianPrice": 580000,
+      "transactionCount": 64,
+      "minPrice": 290000,
+      "maxPrice": 1320000
+    },
+    {
+      "town": "JURONG EAST",
+      "medianPrice": 568000,
+      "transactionCount": 27,
+      "minPrice": 355000,
+      "maxPrice": 1090000
+    },
+    {
+      "town": "JURONG WEST",
+      "medianPrice": 560000,
+      "transactionCount": 89,
+      "minPrice": 375000,
+      "maxPrice": 910000
+    },
+    {
+      "town": "BEDOK",
+      "medianPrice": 550000,
+      "transactionCount": 78,
+      "minPrice": 316000,
+      "maxPrice": 1170000
+    },
+    {
+      "town": "SENGKANG",
+      "medianPrice": 550000,
+      "transactionCount": 19,
+      "minPrice": 345000,
+      "maxPrice": 750000
+    },
+    {
+      "town": "CLEMENTI",
+      "medianPrice": 510000,
+      "transactionCount": 25,
+      "minPrice": 305000,
+      "maxPrice": 1408000
+    },
+    {
+      "town": "MARINE PARADE",
+      "medianPrice": 454444,
+      "transactionCount": 8,
+      "minPrice": 420000,
+      "maxPrice": 600000
+    }
+  ]
 }
