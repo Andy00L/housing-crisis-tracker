@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-26T23:50:09.636Z",
+  "generatedAt": "2026-04-27T11:10:33.171Z",
   "regional": {
     "na": {
-      "summary": "Prime Minister Carney approved 1,100 new affordable rental homes in Ottawa as part of a broader federal housing push, marking one of the more concrete supply-side commitments in Canada this week. Canada's condo market is showing significant stress: 2026 began with zero new condo launches for the first time in decades, according to Urbanation, raising acute questions about future supply pipelines. An estimated 2.5 million households renewing mortgages face significant financial strain, with many reducing savings or spending to meet payments amid elevated renewal rates. Ontario's Financial Services Regulatory Authority fined Harold Gerstel and his wife Esther a combined $210,000 over an alleged unlicensed mortgage lending scheme involving loans with effective annual rates exceeding 50 percent. In British Columbia, former premier Mike Harcourt is now developing a six-unit multifamily project in Vancouver's Shaughnessy neighbourhood under a family firm focused on missing middle housing. Meanwhile, housing affordability conditions have marginally improved across Southern California, though significant disparities persist, and Knoxville city officials announced plans to allocate millions of dollars toward addressing local affordability pressures.",
+      "summary": "Prime Minister Carney approved 1,100 new affordable rental homes in Ottawa on April 24 as part of Canada's broader housing push, even as the supply pipeline faces new headwinds: Canada's condo market began 2026 with zero new condo launches for the first time in decades, according to Urbanation data reported by the Financial Post. Rising fuel prices and labour shortages are compounding construction costs for home builders nationwide, while an estimated 2.5 million households renewing mortgages face significant financial strain, with many reducing savings or spending to meet payments. In Ontario, the Financial Services Regulatory Authority fined Harold Gerstel and his wife a combined $210,000 over an alleged unlicensed mortgage lending scheme involving high-interest loans with effective annual rates exceeding 50 percent. Former B.C. premier Mike Harcourt is now active as a developer of missing middle housing, currently building a six-unit multifamily project in Vancouver's Shaughnessy neighbourhood. South of the border, housing affordability conditions have marginally improved across Southern California though significant disparities persist, and Knoxville city officials announced plans to allocate millions of dollars toward local housing relief.",
       "keyDevelopments": [],
       "highlights": [
         {
@@ -10,7 +10,7 @@
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-26T23:50:09.636Z"
+      "generatedAt": "2026-04-27T11:10:28.309Z"
     },
     "eu": {
       "summary": "The Renters' Rights Act, set to ban no-fault evictions in England from May 1, 2026, has prompted landlords to accelerate such evictions in advance, with tenant organizations reporting a significant surge in recent months. An Institute for Fiscal Studies analysis of the Conservative government's Help to Buy scheme concluded that the largest financial benefits flowed to the top 10% of earners, while the programme inflated housing prices and failed to expand supply. Basildon Borough Council, which manages approximately 10,750 social homes, received the Regulator of Social Housing's lowest grade of C4 following an inspection that found unaddressed fire safety backlogs, inadequate hazard documentation, and poor tenant engagement. In Exeter, hundreds of new homes under construction have not eased affordability pressures, with residents arguing that student accommodation and co-living studios are crowding out rental options for young working professionals. A proposed development of 42 affordable homes on green belt land in Caterham, Surrey has drawn nearly 350 objections from residents, though planning officers cite a housing supply shortage and have referred the decision to the Planning Inspectorate. Meanwhile, homelessness among older people in the UK has worsened markedly, with a 79% increase in over-65s at risk of homelessness over the past five years driven by housing benefit shortfalls and reduced social housing stock.",
@@ -32,7 +32,7 @@
       "generatedAt": "2026-04-23T23:55:10.271Z"
     },
     "asia": {
-      "summary": "Four residents of the Aboriginal community of Papunya in the Northern Territory have filed a Federal Court claim against the NT Government, arguing that decades-old public housing lacks adequate insulation, shading, and air conditioning to protect residents during extreme heat events exceeding 40 degrees Celsius; the case, represented by the Human Rights Law Centre, is described as the first legal action of its kind in Australia seeking to establish that governments must provide climate-safe public housing. Separately, Australia's construction industry is pressing for National Construction Code reforms ahead of government housing crisis talks, citing Middle East supply chain disruptions that have driven fuel and petrochemical prices up by 20-40 percent. Industry bodies argue the regulatory overhaul is necessary to help builders meet the government's target of delivering 1.2 million homes by 2029, with officials currently consulting on potential code modifications.",
+      "summary": "Four residents of the Aboriginal community of Papunya in the Northern Territory have filed a Federal Court claim against the NT Government, in what the Human Rights Law Centre describes as the first legal action of its kind in Australia seeking to establish that governments must provide climate-safe public housing where temperatures regularly exceed 40 degrees Celsius. Australia's construction industry is simultaneously pressing for National Construction Code reforms and streamlined regulations ahead of housing crisis talks, warning that Middle East supply chain disruptions have driven fuel and petrochemical prices up by 20–40 percent, threatening the government's target of delivering 1.2 million homes by 2029. Against this backdrop, the country's affordability crisis is cutting across generations: retirees and baby boomers are increasingly unable to purchase homes, with rising rental costs consuming a significant portion of their pensions and pushing older Australians toward alternative housing arrangements.",
       "keyDevelopments": [],
       "highlights": [
         {
@@ -40,20 +40,25 @@
           "topic": "legislation"
         },
         {
-          "text": "first legal action of its kind in Australia",
-          "topic": "legislation"
-        },
-        {
           "text": "National Construction Code reforms",
           "topic": "legislation"
         }
       ],
-      "generatedAt": "2026-04-23T10:26:27.042Z"
+      "generatedAt": "2026-04-27T11:10:33.171Z"
     }
   },
   "entities": {
     "Canada": {
       "news": [
+        {
+          "id": "rss-google-news-housing-ca-v12pmt",
+          "headline": "'It's a housing crisis:' Rising fuel prices, labour shortage creating challenges for home builders - CBC",
+          "source": "Google News Housing CA",
+          "date": "2026-04-27",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ncldUU3dHNEwyVUdhOXNIRElKc2ZzOGRqUmc5dTB6WFptcmhnbUl6eHd1Z3htUjRwU2laQ1ZHWnRDUmRUUU1iR2hxUDJWXzU2UUtjVEdCcDVxTmh6VEZETC02eWNZWXdlMUtaMFZQLWlHS2RkT0FTR01xc2I1dw?oc=5",
+          "summary": "Home builders in Canada are facing challenges related to rising fuel prices and labour shortages.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-ca-3clbsf",
           "headline": "Retirement security is key to solving housing crisis - CUPE",
@@ -196,6 +201,15 @@
           "date": "2026-04-23",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNY3hWb3VBbXprYm1yWV9teGVXX1pZOE5xNENUMl83dUlqQWNIMlIyVl95REZVcVRweDZkZmJwMkNSS3BueEhDTXpZejhlTWFWcFAtT1lVWTE1d0d4eUZIZnAycTUwVGN6MnNpWUJ6LVR5TmFnMThjZUZVdGh0a053Ti0xbE9NQ0F0TnRvWWVrNkRzNUl3dVNQV0NSeEdGSjl6bFFQLTVhSTE0aV9iOHhoeko5TnBQMWsteGYxdjBPR3p1YmlyQU5LeHlVZFpCSURVTGRXeVI2R0RTbXQ0N2RrZk54NEg?oc=5",
           "summary": "Housing advocates in Canada are working to address the country's housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-ca-qtkaxl",
+          "headline": "Advocates seek solutions to Canada's housing crisis - MSN",
+          "source": "Google News Housing CA",
+          "date": "2026-04-22",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONDZBeEwtUDBnMWtVYzdpT0tXSGJON3FMVWZyRjI2T3p6WUY4am5wb1Q1bTNxNGtPZGMwcExmSTJFVHJfWWtTbGNlZktPNGJNOUpvT0FwQl9McWRZTE9laDVWMElDRzUzV0ZQblFSMGlCdDJFQ0xHZzNCSW9YRTJxVjZzT0VWLTZUOFZ2c2Zmdi00VDNwdV9ieElKQmVvQTEyUzh3?oc=5",
+          "summary": "Canadian housing advocates are working toward solutions to address the country's housing crisis.",
           "summarySource": "headline-only"
         },
         {
@@ -1562,6 +1576,15 @@
           "summarySource": "headline-only"
         },
         {
+          "id": "rss-google-news-housing-us-b6ej7w",
+          "headline": "A Build America, Buy America law is causing construction delays amid the US housing crisis - KSAT",
+          "source": "Google News Housing US",
+          "date": "2026-03-30",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMUJSUXJyM0x3RWYwTzJjbUlHeXFmaURiT2F3T3dRSzI3TGVFR2xNUW1FakpxZEZhZ2w3NUs4NktlWUNlU1BvT1J0MHZ3dW9aUmtJZGZsb19xdFQyR0xqVzI3TmFWNDFRRGptdzNJZm90N3JnbV9jR05IRUZJOW5RZFpEOUtNd1lsdE83N3lLT2U4b3ZhUWY0cEdkbWNELVRERDdoQzJRb0tFNE5ZcUZveVlFdDBkOHVoX3E2VHBFNjJzOVJQQlZINGdKNmVFZFZ1enc?oc=5",
+          "summary": "A Build America, Buy America law is being cited as a contributing factor to construction delays during a period of housing shortage in the United States.",
+          "summarySource": "headline-only"
+        },
+        {
           "id": "rss-google-news-housing-us-bscz20",
           "headline": "EU tackles Europe's housing crisis - France 24",
           "source": "Google News Housing US",
@@ -1757,6 +1780,15 @@
           "date": "2026-02-07",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQS3FfNmJ6dVJ1aWl1NllGOUI0QW1hN0FfbHRUVGFXRGQ1bXpuQnZDM0ZNVEhJNE1zMHR5REZEbWRXdlRDbFVEbFpiQ1pRZm40bktGSE5RRUJtRDBDRVkweW15NFFRa1B6cldPZjFqZnhfTWJXT0ZJQlVxM1NXZ1RIdDY3d2NDeDExZkp1bHpJRmd6dUxSdkEzUmFB?oc=5",
           "summary": "A Guardian opinion piece critiques the Trump administration's housing policy approach as ineffective in addressing the U.S. housing crisis.",
+          "summarySource": "headline-only"
+        },
+        {
+          "id": "rss-google-news-housing-us-l9jb81",
+          "headline": "'Trump homes': Could they ease the US's housing crisis? - mpamag.com",
+          "source": "Google News Housing US",
+          "date": "2026-02-05",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOalo3WXowS05vSnJlSUZlcDJtdFE3dXhVT1JSRERpdWxKRndxQ3NhV1BZNmRhb3B4WkRtS3FVVndTT3hsQVU0b0p5NmZYX3B3U1hwRjlnV2dUdUZNTmUtdWZ5NjRiVlQ0Z3BGc3ZSTm15SjJzakpkdXBrZy1jOERiNTBHSlA5S3FpdDFJOGRYbzRFcVR4Z0tPbjA1dWR5WHNTTll0dGRPSHVsdlEzUHdPOGVOazVLRUNk?oc=5",
+          "summary": "An article examines whether \"Trump homes,\" a housing initiative or product line, could help address shortages in the US housing market.",
           "summarySource": "headline-only"
         },
         {
@@ -2050,6 +2082,15 @@
     "Australia": {
       "news": [
         {
+          "id": "rss-sbs-australia-h0mvkq",
+          "headline": "Sandra will never own a home. Meet the boomers struggling in the housing crisis",
+          "source": "SBS Australia",
+          "date": "2026-04-26",
+          "url": "https://www.sbs.com.au/news/insight/article/sandra-will-never-own-a-home-boomers-struggling-in-the-housing-crisis/ypv71dch8",
+          "summary": "Australia's housing affordability crisis is affecting baby boomers, with some retirees unable to purchase homes and facing financial pressure from rising rental costs that consume a significant portion of their pensions. The article profiles older Australians exploring alternative housing arrangements as they approach or enter retirement.",
+          "summarySource": "article"
+        },
+        {
           "id": "rss-sbs-australia-rmmje",
           "headline": "Papunya temperatures often soar above 40 degrees. Now residents are suing the government over unsafe housing",
           "source": "SBS Australia",
@@ -2071,6 +2112,15 @@
     },
     "World": {
       "news": [
+        {
+          "id": "rss-google-news-housing-glob-x08sip",
+          "headline": "'It's a housing crisis:' Rising fuel prices, labour shortage creating challenges for home builders - Yahoo News Canada",
+          "source": "Google News Housing Global",
+          "date": "2026-04-27",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fd3ZmUm9sd3JieHNSZWN5Z2hDdERQLUhwemdZbFZlVy0yN3U4NEdXaWlRRF9FOE1RYktjQmRMTS1UN3pGV1hqdUVCZF9CTlc2M2dnU0FIUVZjYVlla09uWVU0azRmMERyeXNkSXhwRkZuQm1tMFRuSnNHanFxenc?oc=5",
+          "summary": "Home builders are facing challenges from rising fuel prices and labour shortages.",
+          "summarySource": "headline-only"
+        },
         {
           "id": "rss-google-news-housing-glob-1r16ao",
           "headline": "Opinion: San Diego housing crisis is daily reality with shrinking access to help - timesofsandiego.com",
