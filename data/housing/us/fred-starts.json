@@ -1,16 +1,8 @@
 {
   "seriesId": "HOUST",
   "name": "Housing Starts: Total New Privately Owned",
-  "lastUpdated": "2026-01",
+  "lastUpdated": "2026-03",
   "values": [
-    {
-      "period": "2025-02",
-      "value": 1490
-    },
-    {
-      "period": "2025-03",
-      "value": 1355
-    },
     {
       "period": "2025-04",
       "value": 1398
@@ -45,11 +37,19 @@
     },
     {
       "period": "2025-12",
-      "value": 1387
+      "value": 1373
     },
     {
       "period": "2026-01",
-      "value": 1487
+      "value": 1398
+    },
+    {
+      "period": "2026-02",
+      "value": 1356
+    },
+    {
+      "period": "2026-03",
+      "value": 1502
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "source": "US Census Bureau, American Community Survey 1-Year Estimates",
   "year": 2023,
-  "lastUpdated": "2026-04-27",
+  "lastUpdated": "2026-05-04",
   "fields": {
     "medianHomeValue": "B25077_001E — Median value (dollars) of owner-occupied housing units",
     "medianGrossRent": "B25064_001E — Median gross rent (dollars)",

@@ -1,7 +1,7 @@
 {
   "source": "Eurostat HICP - Actual rentals for housing (CP041)",
   "unit": "Monthly index, 2015=100",
-  "lastUpdated": "2026-04-27",
+  "lastUpdated": "2026-05-04",
   "countries": {
     "DE": {
       "name": "Germany",
