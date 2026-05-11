@@ -1,39 +1,6 @@
 {
   "seriesId": "RRVRUSQ156N",
   "name": "Rental Vacancy Rate",
-  "lastUpdated": "2026-01",
-  "values": [
-    {
-      "period": "2024-04",
-      "value": 6.6
-    },
-    {
-      "period": "2024-07",
-      "value": 6.9
-    },
-    {
-      "period": "2024-10",
-      "value": 6.9
-    },
-    {
-      "period": "2025-01",
-      "value": 7.1
-    },
-    {
-      "period": "2025-04",
-      "value": 7
-    },
-    {
-      "period": "2025-07",
-      "value": 7.1
-    },
-    {
-      "period": "2025-10",
-      "value": 7.2
-    },
-    {
-      "period": "2026-01",
-      "value": 7.3
-    }
-  ]
+  "lastUpdated": null,
+  "values": []
 }

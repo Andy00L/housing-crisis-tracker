@@ -52517,13 +52517,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 539.17,
-      nhpiChangeYoY: 8.4,
       avgRent: 982,
       medianHomePrice: 216600,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -52541,13 +52537,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 486.73,
-      nhpiChangeYoY: 9.3,
       avgRent: 1373,
       medianHomePrice: 347500,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -52665,9 +52657,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 4.4,
       avgRent: 1608,
       medianHomePrice: 411200,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
     projects: [
       {
@@ -52839,9 +52829,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 8.9,
       avgRent: 933,
       medianHomePrice: 195700,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -52979,9 +52967,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 4.1,
       avgRent: 1992,
       medianHomePrice: 725800,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
     projects: [
       {
@@ -53277,13 +53263,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 859.33,
-      nhpiChangeYoY: 3.3,
       avgRent: 1771,
       medianHomePrice: 550300,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
     projects: [
       {
@@ -53537,13 +53519,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 708.82,
-      nhpiChangeYoY: 13.9,
       avgRent: 1463,
       medianHomePrice: 367800,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -53565,9 +53543,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 8.5,
       avgRent: 1358,
       medianHomePrice: 359700,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -53691,13 +53667,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 823.56,
-      nhpiChangeYoY: 2.5,
       avgRent: 1719,
       medianHomePrice: 381000,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
     projects: [
       {
@@ -53791,13 +53763,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 659.78,
-      nhpiChangeYoY: 6.4,
       avgRent: 1400,
       medianHomePrice: 323000,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -53819,9 +53787,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 3.5,
       avgRent: 1940,
       medianHomePrice: 846400,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -53839,13 +53805,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 873.87,
-      nhpiChangeYoY: 4.2,
       avgRent: 1256,
       medianHomePrice: 428600,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -53867,9 +53829,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 12.2,
       avgRent: 1238,
       medianHomePrice: 263300,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -53887,13 +53847,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 525.79,
-      nhpiChangeYoY: 10.3,
       avgRent: 1044,
       medianHomePrice: 225900,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -53911,13 +53867,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 460.03,
-      nhpiChangeYoY: 7.8,
       avgRent: 949,
       medianHomePrice: 213300,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -53935,13 +53887,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 474.76,
-      nhpiChangeYoY: 8,
       avgRent: 1036,
       medianHomePrice: 219800,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -53963,9 +53911,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 10.1,
       avgRent: 929,
       medianHomePrice: 211800,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -53983,13 +53929,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 379.46,
-      nhpiChangeYoY: 4.9,
       avgRent: 1020,
       medianHomePrice: 215600,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54011,9 +53953,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 11,
       avgRent: 1189,
       medianHomePrice: 310700,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54035,9 +53975,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 7.2,
       avgRent: 1651,
       medianHomePrice: 413600,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54205,13 +54143,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 1303.96,
-      nhpiChangeYoY: 9.1,
       avgRent: 1757,
       medianHomePrice: 570800,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54229,13 +54163,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 570.97,
-      nhpiChangeYoY: 11.5,
       avgRent: 1101,
       medianHomePrice: 236100,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54253,13 +54183,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 599.8,
-      nhpiChangeYoY: 7.1,
       avgRent: 1264,
       medianHomePrice: 328600,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54281,9 +54207,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 9.8,
       avgRent: 898,
       medianHomePrice: 169800,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54301,13 +54225,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 559.57,
-      nhpiChangeYoY: 9,
       avgRent: 1019,
       medianHomePrice: 233600,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54325,13 +54245,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 806.49,
-      nhpiChangeYoY: 6.5,
       avgRent: 1083,
       medianHomePrice: 392300,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54349,13 +54265,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 541.9,
-      nhpiChangeYoY: 7.9,
       avgRent: 1042,
       medianHomePrice: 245200,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54377,9 +54289,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 5,
       avgRent: 1622,
       medianHomePrice: 441100,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54401,9 +54311,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 11.2,
       avgRent: 1517,
       medianHomePrice: 415400,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54425,9 +54333,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 13.1,
       avgRent: 1667,
       medianHomePrice: 461000,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54445,13 +54351,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 553.22,
-      nhpiChangeYoY: 7.3,
       avgRent: 1084,
       medianHomePrice: 256300,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54580,9 +54482,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 13.5,
       avgRent: 1561,
       medianHomePrice: 420200,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54711,9 +54611,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 7.1,
       avgRent: 1245,
       medianHomePrice: 308600,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
     projects: [
       {
@@ -54808,13 +54706,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 522.47,
-      nhpiChangeYoY: 9.3,
       avgRent: 916,
       medianHomePrice: 246700,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54832,13 +54726,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 509.81,
-      nhpiChangeYoY: 11.5,
       avgRent: 1014,
       medianHomePrice: 220200,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -54856,13 +54746,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 397.06,
-      nhpiChangeYoY: 6.6,
       avgRent: 1020,
       medianHomePrice: 208600,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -55017,13 +54903,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 846.32,
-      nhpiChangeYoY: 4.1,
       avgRent: 1481,
       medianHomePrice: 484800,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -55041,13 +54923,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 713.64,
-      nhpiChangeYoY: 10.6,
       avgRent: 1197,
       medianHomePrice: 259900,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -55065,13 +54943,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 1034.01,
-      nhpiChangeYoY: 12.2,
       avgRent: 1365,
       medianHomePrice: 411800,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -55089,13 +54963,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 710.79,
-      nhpiChangeYoY: 8.8,
       avgRent: 1170,
       medianHomePrice: 272900,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -55113,13 +54983,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 637.83,
-      nhpiChangeYoY: 6.5,
       avgRent: 921,
       medianHomePrice: 268200,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -55137,13 +55003,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 700.01,
-      nhpiChangeYoY: 6.9,
       avgRent: 1214,
       medianHomePrice: 307300,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -55286,13 +55148,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 527.87,
-      nhpiChangeYoY: 3.4,
       avgRent: 1413,
       medianHomePrice: 296900,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -55310,13 +55168,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 854.23,
-      nhpiChangeYoY: 6.8,
       avgRent: 1551,
       medianHomePrice: 517700,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -55334,13 +55188,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 889.76,
-      nhpiChangeYoY: 11.7,
       avgRent: 1202,
       medianHomePrice: 332000,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -55358,13 +55208,9 @@ const NA_ENTITIES: Entity[] = [
     news: [],
     housingMetrics: {
       currency: "USD",
-      nhpiIndex: 764.26,
-      nhpiChangeYoY: 9.4,
       avgRent: 1567,
       medianHomePrice: 382900,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -55522,9 +55368,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 6.1,
       avgRent: 1731,
       medianHomePrice: 576000,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
     projects: [
       {
@@ -55704,9 +55548,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 12.4,
       avgRent: 850,
       medianHomePrice: 163700,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -55728,9 +55570,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 11.3,
       avgRent: 1071,
       medianHomePrice: 272500,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
   {
@@ -55752,9 +55592,7 @@ const NA_ENTITIES: Entity[] = [
       nhpiChangeYoY: 8.9,
       avgRent: 1000,
       medianHomePrice: 298700,
-      mortgageRate: 6.46,
-      vacancyRate: 7.3,
-      lastUpdated: "2026-05-04",
+      lastUpdated: "2026-05-11",
     },
   },
 ];

@@ -1,9 +1,192 @@
 {
   "source": "Housing & Development Board (HDB) via data.gov.sg",
-  "lastUpdated": "2026-05-04",
+  "lastUpdated": "2026-05-11",
   "period": "2025-05 to present",
-  "totalTransactions": 0,
-  "overallMedianPrice": null,
+  "totalTransactions": 10000,
+  "overallMedianPrice": 630000,
   "currency": "SGD",
-  "towns": []
+  "towns": [
+    {
+      "town": "BUKIT TIMAH",
+      "medianPrice": 968000,
+      "transactionCount": 25,
+      "minPrice": 445000,
+      "maxPrice": 1428000
+    },
+    {
+      "town": "BISHAN",
+      "medianPrice": 840000,
+      "transactionCount": 165,
+      "minPrice": 300000,
+      "maxPrice": 1580000
+    },
+    {
+      "town": "QUEENSTOWN",
+      "medianPrice": 830000,
+      "transactionCount": 332,
+      "minPrice": 280000,
+      "maxPrice": 1700000
+    },
+    {
+      "town": "BUKIT MERAH",
+      "medianPrice": 765000,
+      "transactionCount": 399,
+      "minPrice": 238888,
+      "maxPrice": 1728000
+    },
+    {
+      "town": "KALLANG/WHAMPOA",
+      "medianPrice": 763000,
+      "transactionCount": 299,
+      "minPrice": 315000,
+      "maxPrice": 1480000
+    },
+    {
+      "town": "TOA PAYOH",
+      "medianPrice": 749000,
+      "transactionCount": 336,
+      "minPrice": 270000,
+      "maxPrice": 1550000
+    },
+    {
+      "town": "TAMPINES",
+      "medianPrice": 722944,
+      "transactionCount": 680,
+      "minPrice": 405000,
+      "maxPrice": 1210000
+    },
+    {
+      "town": "PASIR RIS",
+      "medianPrice": 717444,
+      "transactionCount": 320,
+      "minPrice": 339000,
+      "maxPrice": 1260000
+    },
+    {
+      "town": "CENTRAL AREA",
+      "medianPrice": 705000,
+      "transactionCount": 75,
+      "minPrice": 410888,
+      "maxPrice": 1560000
+    },
+    {
+      "town": "PUNGGOL",
+      "medianPrice": 670000,
+      "transactionCount": 680,
+      "minPrice": 340000,
+      "maxPrice": 1470000
+    },
+    {
+      "town": "SERANGOON",
+      "medianPrice": 660000,
+      "transactionCount": 113,
+      "minPrice": 380000,
+      "maxPrice": 1240000
+    },
+    {
+      "town": "SENGKANG",
+      "medianPrice": 655000,
+      "transactionCount": 704,
+      "minPrice": 345000,
+      "maxPrice": 1128888
+    },
+    {
+      "town": "HOUGANG",
+      "medianPrice": 625000,
+      "transactionCount": 511,
+      "minPrice": 335000,
+      "maxPrice": 1450000
+    },
+    {
+      "town": "GEYLANG",
+      "medianPrice": 620000,
+      "transactionCount": 307,
+      "minPrice": 260000,
+      "maxPrice": 1375000
+    },
+    {
+      "town": "BUKIT BATOK",
+      "medianPrice": 619444,
+      "transactionCount": 588,
+      "minPrice": 320000,
+      "maxPrice": 1180000
+    },
+    {
+      "town": "BUKIT PANJANG",
+      "medianPrice": 608444,
+      "transactionCount": 348,
+      "minPrice": 325000,
+      "maxPrice": 1180000
+    },
+    {
+      "town": "CHOA CHU KANG",
+      "medianPrice": 601000,
+      "transactionCount": 444,
+      "minPrice": 340000,
+      "maxPrice": 950000
+    },
+    {
+      "town": "CLEMENTI",
+      "medianPrice": 600000,
+      "transactionCount": 223,
+      "minPrice": 305000,
+      "maxPrice": 1580000
+    },
+    {
+      "town": "SEMBAWANG",
+      "medianPrice": 600000,
+      "transactionCount": 394,
+      "minPrice": 322000,
+      "maxPrice": 945000
+    },
+    {
+      "town": "WOODLANDS",
+      "medianPrice": 581500,
+      "transactionCount": 652,
+      "minPrice": 315000,
+      "maxPrice": 1180000
+    },
+    {
+      "town": "JURONG WEST",
+      "medianPrice": 565000,
+      "transactionCount": 669,
+      "minPrice": 290000,
+      "maxPrice": 958888
+    },
+    {
+      "town": "BEDOK",
+      "medianPrice": 551000,
+      "transactionCount": 552,
+      "minPrice": 316000,
+      "maxPrice": 1400000
+    },
+    {
+      "town": "ANG MO KIO",
+      "medianPrice": 549000,
+      "transactionCount": 379,
+      "minPrice": 290000,
+      "maxPrice": 1350000
+    },
+    {
+      "town": "YISHUN",
+      "medianPrice": 545000,
+      "transactionCount": 555,
+      "minPrice": 330000,
+      "maxPrice": 1120000
+    },
+    {
+      "town": "MARINE PARADE",
+      "medianPrice": 532500,
+      "transactionCount": 52,
+      "minPrice": 318000,
+      "maxPrice": 1238888
+    },
+    {
+      "town": "JURONG EAST",
+      "medianPrice": 520000,
+      "transactionCount": 198,
+      "minPrice": 300000,
+      "maxPrice": 1148000
+    }
+  ]
 }
